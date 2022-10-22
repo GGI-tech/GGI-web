@@ -32,7 +32,8 @@ h3 {
   font-weight: 800;
   font-family: PoppinsSemi,'Poppins',sans-serif;
   color: #CF1515;
-  text-align: justify;
+  text-align: center;
+  letter-spacing: 0.04em;
   text-justify: inter-word;
 }
 
