@@ -8,6 +8,11 @@ import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
 import Testimonial from '../components/Testimonial';
 
+import IgImg2 from '../public/ig-img-2.jpeg';
+import IgImg3 from '../public/ig-img-3.jpeg';
+import IgImg4 from '../public/ig-img-4.jpeg';
+import IgImg5 from '../public/ig-img-5.jpeg';
+import IgImg6 from '../public/ig-img-6.jpeg';
 export default function Home() {
   return (
     <div>
@@ -19,8 +24,8 @@ export default function Home() {
 
       <Hero heading='' message='' />
 
-      <div id='' className='flex justify-center'>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 border border-blue-700 rounded">
+      <div id='' className='p-4 flex justify-center'>
+        <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Learn More about Advancing Your Career
         </button>
       </div>
@@ -29,7 +34,7 @@ export default function Home() {
       <Slider slides={SliderData} />
 
       <Heading heading={"+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations"} />
-      <Instagram />
+
 
 
 
@@ -37,7 +42,7 @@ export default function Home() {
       <div id='' className='flex justify-center my-12'>
         <p className='px-4 md:w-4/6'>Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles.    </p>
       </div>
-      <div className="p-8 flex justify-center">
+      <div className="p-8 flex justify-center skin">
         <div className="lg:w-4/5 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-10">
           <div>
             <h2 className='text-2xl my-8'>GGI MBA Scholar </h2>
@@ -46,7 +51,7 @@ export default function Home() {
             <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as Mckinsey, BCG, or Product Management</p>
             <p className='my-5'>3. You are a Pre-MBA looking to finish the business curriculum before your program</p>
             <p className='my-5'>4. You are a budding entrepreneur who is aiming to launch & scale ventures </p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold my-10 py-2 px-4 border border-blue-700 rounded">
+            <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-2 px-4 border border-blue-500 rounded">
               Learn More about GGI Impact MBA
             </button>
           </div>
@@ -57,15 +62,15 @@ export default function Home() {
             <p className='my-5'>2. You are looking to pivot in impact firms such as UN, World Bank, FSG, or social impact roles</p>
             <p className='my-5'>3. You are a Pre-MPP with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
             <p className='my-5'>4. You are a budding social impact entrepreneur who is aiming to launch a venture  </p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold my-10 py-2 px-4 border border-blue-700 rounded">
+            <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-2 px-5 border border-blue-500 rounded">
               Learn More about GGI Policy Scholar
             </button>
           </div>
 
         </div>
       </div>
-      <div id='' className='flex justify-center'>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold my-12 py-3 px-4 border border-blue-700 rounded">
+      <div id='' className='p-4 flex justify-center'>
+        <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Learn More about Advancing Your Career
         </button>
       </div>
@@ -73,12 +78,95 @@ export default function Home() {
 
 
       <Heading heading={"You Solve Cases & Network with World's Top CEOs, Partners, Consulting, Policy, Product Leaders "} />
-      <Gallery />
+      <Instagram />
+      <div className='flex justify-center'>
+        <p className='md:w-3/5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
+      </div>
+      <div className='flex justify-center'>
+      </div>
+
 
       <Heading heading={"Global Recognition Allows us to Serve you Better"} />
+      <div className="p-3 md:p-12 flex justify-center">
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-10">
+          <div>
+            <Image src={IgImg2} />
+            <p>
+              "In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"
+
+              — YOURSTORY
+
+            </p>
+          </div>
+          <div>
+            <Image src={IgImg3} />
+            <p>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"
+
+              —BCG Global Media</p>
+          </div>
+          <div>
+            <Image src={IgImg5} />
+            <p>
+              "Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting
+
+              —Linkedin News</p>
+          </div>
+          <div>
+            <Image src={IgImg4} />
+            <p>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.”
+
+              - YourStory</p>
+          </div>
+        </div>
+      </div>
+      
 
       <Heading heading={"You Learn live via Case method, Get Hired & Network to become a Leader in Business & Society"} />
+      <div className="p-12 flex justify-center">
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-3 lg:gap-3">
+          <div>
+            <Image src={IgImg2} />
+            <p>
+              "In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"
+
+              — YOURSTORY
+
+            </p>
+          </div>
+          <div>
+            <Image src={IgImg3} />
+            <p>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"
+
+              —BCG Global Media</p>
+          </div>
+          <div>
+            <Image src={IgImg5} />
+            <p>
+              "Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting
+
+              —Linkedin News</p>
+          </div>
+          <div>
+            <Image src={IgImg4} />
+            <p>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.”
+
+              - YourStory</p>
+          </div>
+        </div>
+      </div>
+      <div id='' className='p-4 flex justify-center'>
+        <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
+          Learn More about GGI Impact MBA Scholars
+        </button>
+      </div>
       <Heading heading={"At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online"} />
+      <div className="p-12 flex justify-center">
+        <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <Image className='w-4/6' src={IgImg2}/>
+          <Image className='w-4/6' src={IgImg2}/>
+
+        </div>
+      </div>
       <Heading heading={"Cofounder's Desk"} />
       <Heading heading={"Frequently Asked Questions"} />
     </div>

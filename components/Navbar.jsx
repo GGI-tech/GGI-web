@@ -16,7 +16,7 @@ const Navbar = () => {
       if (window.scrollY >= 90) {
         setColor('#ffffff');
         setTextColor('#000000');
-        setImg('/logo.png');
+        setImg('/logo.jpg');
 
       } else {
         setColor('transparent');
