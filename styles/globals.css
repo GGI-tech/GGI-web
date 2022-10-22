@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* fonts */
 @font-face {
   font-family: PoppinsSemi;
   src: url('/fonts/Poppins-SemiBold.ttf');
@@ -15,13 +17,15 @@ html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
 }
-.teal{
-  background-color: #008080;
-}
+
+
+/* additional colors */
 .skin{
   background-color: #FBEDE0;
   background-color: #F5F5F5;
 }
+
+/* headings */
 h1,
 h2,
 h3 {
@@ -37,7 +41,27 @@ p{
   font-size: 18px;
   font-family: PoppinsLight,'Poppins',sans-serif;
 }
+
+/* background image on home */
 .custom-img {
-  /* background-color: #CF1515; */
   background-image: url('/Global\ Governance\ Initiative\ .jpg')
+}
+
+/* youtube video */
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 40%;
+  width: 30%;
+  position: absolute;
+
 }

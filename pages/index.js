@@ -1,18 +1,18 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Gallery from '../components/Gallery';
-import Heading from '../components/Heading';
-import Hero from '../components/Hero';
-import Instagram from '../components/Instagram';
-import Slider from '../components/Slider';
+import Gallery from '../components/home/Gallery';
+import Heading from '../components/global/Heading';
+import Hero from '../components/global/Hero';
+import Slider from '../components/home/Slider';
 import { SliderData } from '../components/SliderData';
-import Testimonial from '../components/Testimonial';
+import YoutubeEmbed from '../components/YoutubeEmbed';
 
 import IgImg2 from '../public/ig-img-2.jpeg';
-import IgImg3 from '../public/ig-img-3.jpeg';
-import IgImg4 from '../public/ig-img-4.jpeg';
-import IgImg5 from '../public/ig-img-5.jpeg';
-import IgImg6 from '../public/ig-img-6.jpeg';
+
+import poets from '../public/poets.jpg';
+import BCG from '../public/bcg.jpg';
+import Linkedin from '../public/linkedin.jpg';
+import yrstory from '../public/yrstory.jpg';
 export default function Home() {
   return (
     <div>
@@ -78,92 +78,79 @@ export default function Home() {
 
 
       <Heading heading={"You Solve Cases & Network with World's Top CEOs, Partners, Consulting, Policy, Product Leaders "} />
-      <Instagram />
+      <Gallery />
+
+
       <div className='flex justify-center'>
         <p className='md:w-3/5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
       </div>
-      <div className='flex justify-center'>
-      </div>
+      <YoutubeEmbed embedId="rokGy0huYEA" />
+
 
 
       <Heading heading={"Global Recognition Allows us to Serve you Better"} />
       <div className="p-3 md:p-12 flex justify-center">
-        <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-10">
-          <div>
-            <Image src={IgImg2} />
-            <p>
-              "In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"
-
-              — YOURSTORY
-
-            </p>
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
+          <div className='flex flex-col text-center'>
+          <div> <Image className='' src={poets} /></div>
+            <p className='mt-3 '>"In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"</p>
+            <p className='mt-10'>— YOURSTORY</p>
           </div>
-          <div>
-            <Image src={IgImg3} />
-            <p>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"
-
-              —BCG Global Media</p>
+          <div className='flex flex-col text-center'>
+            <div> <Image src={BCG} /></div>           
+            <p className='mt-1'>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"</p>
+            <p className='mt-10'>— BCG Global Media</p>
           </div>
-          <div>
-            <Image src={IgImg5} />
-            <p>
-              "Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting
-
-              —Linkedin News</p>
+          <div className='flex flex-col text-center'>
+            <div><Image className='' src={Linkedin} /></div>
+            <p className='mt-10'>"Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.</p>
+            <p className='mt-10'> — Linkedin News</p>
           </div>
-          <div>
-            <Image src={IgImg4} />
-            <p>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.”
-
-              - YourStory</p>
+          <div className='flex flex-col text-center'>
+            <div><Image src={yrstory} /></div>
+            <p className='mt-6 '>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.” </p>
+            <p className='mt-10'> — YourStory</p>
           </div>
         </div>
       </div>
-      
+
 
       <Heading heading={"You Learn live via Case method, Get Hired & Network to become a Leader in Business & Society"} />
-      <div className="p-12 flex justify-center">
-        <div className=" grid grid-cols-2 md:grid-cols-4 gap-3 lg:gap-3">
-          <div>
-            <Image src={IgImg2} />
-            <p>
-              "In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"
-
-              — YOURSTORY
-
-            </p>
+      <div className="p-3 md:p-12 flex justify-center">
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
+          <div className='flex flex-col text-center'>
+          <div> <Image className='' src={poets} /></div>
+            <p className='mt-3 '>"In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"</p>
+            <p className='mt-10'>— YOURSTORY</p>
           </div>
-          <div>
-            <Image src={IgImg3} />
-            <p>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"
-
-              —BCG Global Media</p>
+          <div className='flex flex-col text-center'>
+            <div> <Image src={BCG} /></div>           
+            <p className='mt-1'>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"</p>
+            <p className='mt-10'>— BCG Global Media</p>
           </div>
-          <div>
-            <Image src={IgImg5} />
-            <p>
-              "Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting
-
-              —Linkedin News</p>
+          <div className='flex flex-col text-center'>
+            <div><Image className='' src={Linkedin} /></div>
+            <p className='mt-10'>"Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.</p>
+            <p className='mt-10'> — Linkedin News</p>
           </div>
-          <div>
-            <Image src={IgImg4} />
-            <p>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.”
-
-              - YourStory</p>
+          <div className='flex flex-col text-center'>
+            <div><Image src={yrstory} /></div>
+            <p className='mt-6 '>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.” </p>
+            <p className='mt-10'> — YourStory</p>
           </div>
         </div>
-      </div>
+      </div>      
       <div id='' className='p-4 flex justify-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Learn More about GGI Impact MBA Scholars
         </button>
       </div>
+
       <Heading heading={"At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online"} />
       <div className="p-12 flex justify-center">
         <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <Image className='w-4/6' src={IgImg2}/>
-          <Image className='w-4/6' src={IgImg2}/>
+          <Image className='w-4/6' src={IgImg2} />
+          <Image className='w-4/6' src={IgImg2} />
 
         </div>
       </div>
