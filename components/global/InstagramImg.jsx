@@ -18,7 +18,7 @@ const InstagramImg = ({ socialImg, caption }) => {
       </p>
       </div>
       {/* <figcaption  className='p-4 bg-black/20'>{caption}</figcaption> */}
-      <p className='p-1 md:p-4 bg-black/10'>{caption}</p>
+      <p className='p-1 md:p-4 bg-black/10 text-sm'>{caption}</p>
     </div>
   );
 };

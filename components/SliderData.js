@@ -1,3 +1,4 @@
+
 export const SliderData = [
     {
       image:

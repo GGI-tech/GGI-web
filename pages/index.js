@@ -6,8 +6,8 @@ import Hero from '../components/global/Hero';
 import Slider from '../components/home/Slider';
 import { SliderData } from '../components/SliderData';
 import YoutubeEmbed from '../components/YoutubeEmbed';
-
-import IgImg2 from '../public/ig-img-2.jpeg';
+import FAQ from '../components/global/FAQ';
+//---------------------------------------------------------
 //---------------------------------------------------------
 import poets from '../public/poets.jpg';
 import BCG from '../public/bcg.jpg';
@@ -24,7 +24,8 @@ import community2 from '../public/community2.jpg'
 import community3 from '../public/community3.jpg'
 import community4 from '../public/community4.jpg'
 import community5 from '../public/community5.jpg'
-
+// -------------------------------------------------------
+import bhaskar_chakra from '../public/bhaskar_chakra.jpg'
 export default function Home() {
   return (
     <div>
@@ -93,10 +94,10 @@ export default function Home() {
       <Gallery />
 
 
-      <div className='flex justify-center'>
+      <div className='mt-24 flex justify-center'>
         <p className='md:w-3/5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
       </div>
-      <YoutubeEmbed embedId="rokGy0huYEA" />
+      {/* <YoutubeEmbed embedId="rokGy0huYEA" /> */}
 
 
 
@@ -171,18 +172,35 @@ export default function Home() {
           <div className='col-span-1'><Image src={community3} /></div>
           <div className='col-span-2'><Image src={community4} /></div>
           <div className='col-span-1'>We do not prefer a particular curriculum for undergraduate study for admission to the GGI Program. The Undergraduate representations come from IIT Bombay, IIT Madras, St. Stephen's College, NMIMS to IIM Ahmedabad, The Fletcher School. Yale University, </div>
+        </div>
+      </div>
+      <div className="p-12 flex justify-center">
+        <div className="md:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
           <div className='col-span-1'>There are more than 100+ organizations represented in the cohort including Deloitte Consulting, EnY Consulting, Amazon AWS, Ministry of Finance, Bain Research, Goldman Sachs, Deutsche Bank, Schlumberger</div>
           <div className='col-span-2'><Image src={community5} /></div>
 
         </div>
       </div>
-      <div id='' className='p-4 flex justify-center'>
+      <div id='' className='p-4 flex justify-center mb-60'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Learn More about GGI Impact MBA Scholars
         </button>
       </div>
+      <div className="flex justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
+          <div className='col-span-2'><Image src={bhaskar_chakra} /></div>
+          <div className='flex flex-col justify-center content-center gap-7 p-10 col-span-1'>
+            <p className='text-3xl tracking-widest font-extrabold'>GGI Advisor</p>
+            <p className='text-xl'>Bhaskar Chakravorti</p>
+            <p className='mt-3'>Mr. Bhaskar brings decades of experience having worked as former Partner- McKinsey & Co., Dean of Global business- The Fletcher School, Faculty- Harvard Business School, Advisor- World Economic Forum, UNDP, Brookings Institution, and MasterCard</p>
+          </div>
+        </div>
+      </div>
+
+
       <Heading heading={"Cofounder's Desk"} />
       <Heading heading={"Frequently Asked Questions"} />
+      <FAQ/>
     </div>
   );
 }
