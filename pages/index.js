@@ -6,7 +6,8 @@ import Hero from '../components/global/Hero';
 import Slider from '../components/home/Slider';
 import { SliderData } from '../components/SliderData';
 import YoutubeEmbed from '../components/YoutubeEmbed';
-import FAQ from '../components/global/FAQ';
+import Partners from '../components/home/Partners';
+import Accordion from '../components/global/Accordian';
 //---------------------------------------------------------
 //---------------------------------------------------------
 import poets from '../public/poets.jpg';
@@ -47,8 +48,7 @@ export default function Home() {
       <Slider slides={SliderData} />
 
       <Heading heading={"+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations"} />
-
-
+      <Partners/>
 
 
       <Heading heading={"GGI Offers Live Upskilling, Employment & Networking "} />
@@ -200,7 +200,7 @@ export default function Home() {
 
       <Heading heading={"Cofounder's Desk"} />
       <Heading heading={"Frequently Asked Questions"} />
-      <FAQ/>
+      <Accordion/>
     </div>
   );
 }

@@ -26,6 +26,9 @@ html {
 }
 
 /* headings */
+.primary{
+  color: #CF1515;
+}
 h1,
 h2,
 h3 {
@@ -38,9 +41,9 @@ h3 {
 }
 
 p{
-  font-weight: 100;
+  font-weight: 300;
   font-size: 18px;
-  font-family: PoppinsLight,'Poppins',sans-serif;
+  /* font-family: PoppinsLight,'Poppins',sans-serif; */
 }
 
 /* background image on home */
