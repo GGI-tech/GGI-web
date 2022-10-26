@@ -42,10 +42,10 @@ const Navbar = () => {
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'>
-            <Link href='/'>MBA</Link>
+            <Link href='/ggischolars'>MBA</Link>
           </li>
           <li className='p-4'>
-            <Link href='/#gallery'>MPP</Link>
+            <Link href='/mpp'>MPP</Link>
           </li>
           <li className='p-4'>
             <Link href='/ggipolicyscholarsprogram'>Fellowship</Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
               <Link href='/'>Home</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/#gallery'>Gallery</Link>
+              <Link href='/mba'>Gallery</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/ggipolicyscholarsprogram'>Work</Link>

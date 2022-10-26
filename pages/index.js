@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Gallery from '../components/home/Gallery';
+import Gallery from '../components/global/Gallery';
 import Heading from '../components/global/Heading';
 import Hero from '../components/global/Hero';
 import Slider from '../components/home/Slider';
