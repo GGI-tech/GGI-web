@@ -8,6 +8,7 @@ import { SliderData } from '../components/SliderData';
 import YoutubeEmbed from '../components/YoutubeEmbed';
 import Partners from '../components/home/Partners';
 import Accordion from '../components/global/Accordian';
+import Socials from '../components/global/Socials';
 //---------------------------------------------------------
 //---------------------------------------------------------
 import poets from '../public/poets.jpg';
@@ -27,6 +28,9 @@ import community4 from '../public/community4.jpg'
 import community5 from '../public/community5.jpg'
 // -------------------------------------------------------
 import bhaskar_chakra from '../public/bhaskar_chakra.jpg'
+// -------------------------------------------------------
+
+
 export default function Home() {
   return (
     <div>
@@ -48,7 +52,7 @@ export default function Home() {
       <Slider slides={SliderData} />
 
       <Heading heading={"+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations"} />
-      <Partners/>
+      <Partners />
 
 
       <Heading heading={"GGI Offers Live Upskilling, Employment & Networking "} />
@@ -200,7 +204,10 @@ export default function Home() {
 
       <Heading heading={"Cofounder's Desk"} />
       <Heading heading={"Frequently Asked Questions"} />
-      <Accordion/>
+      <Accordion />
+
+      <Socials/>
+
     </div>
   );
 }
