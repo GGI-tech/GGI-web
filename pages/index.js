@@ -5,11 +5,10 @@ import Heading from '../components/global/Heading';
 import Hero from '../components/global/Hero';
 import Slider from '../components/home/Slider';
 import { SliderData } from '../components/SliderData';
-import YoutubeEmbed from '../components/YoutubeEmbed';
-import Partners from '../components/home/Partners';
+import YoutubeEmbed from '../components/global/YoutubeEmbed';
+import Partners from '../components/global/Partners';
 import Accordion from '../components/global/Accordian';
 import Socials from '../components/global/Socials';
-//---------------------------------------------------------
 //---------------------------------------------------------
 import poets from '../public/poets.jpg';
 import BCG from '../public/bcg.jpg';
@@ -21,13 +20,8 @@ import becomepart from '../public/becomepart.jpg'
 import leadingpurpose from '../public/leadingwithpurpose.jpg'
 import officeofcareer from '../public/officeofcareer.jpg'
 // -------------------------------------------------------
-import community1 from '../public/community1.jpg'
-import community2 from '../public/community2.jpg'
-import community3 from '../public/community3.jpg'
-import community4 from '../public/community4.jpg'
-import community5 from '../public/community5.jpg'
-// -------------------------------------------------------
 import bhaskar_chakra from '../public/bhaskar_chakra.jpg'
+import Community from '../components/global/Community';
 // -------------------------------------------------------
 
 
@@ -138,26 +132,22 @@ export default function Home() {
           <div className='flex flex-col text-center'>
             <div> <Image className='' src={harvardcase} /></div>
             <h2 className='text-3xl my-8'>Harvard Case Method</h2>
-            <p className='mt-3 '>"In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"</p>
-            <p className='mt-10'>— YOURSTORY</p>
+            <p className='mt-3 '>Driven by experiential learning through real case based teaching and heavily interactive & live feedback based problem solving </p>
           </div>
           <div className='flex flex-col text-center'>
             <div> <Image src={officeofcareer} /></div>
             <h2 className='text-3xl my-8'>Office of  Career Service</h2>
-            <p className='mt-1'>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"</p>
-            <p className='mt-10'>— BCG Global Media</p>
+            <p className='mt-1'>GGI facilitates your hiring by partnering with leading employment partners in consulting, & PM along with resume' and interview prep</p>
           </div>
           <div className='flex flex-col text-center'>
             <div><Image className='' src={becomepart} /></div>
             <h2 className='text-3xl my-8'>Become part of the Tribe</h2>
-            <p className='mt-10'>"Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.</p>
-            <p className='mt-10'> — Linkedin News</p>
+            <p className='mt-10'>Masterclasses are designed to ensure your peer to peer-based learning; so that you grow by growing others. </p>
           </div>
           <div className='flex flex-col text-center'>
             <div><Image src={leadingpurpose} /></div>
             <h2 className='text-3xl my-8'>Leading with Purpose </h2>
-            <p className='mt-6 '>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.” </p>
-            <p className='mt-10'> — YourStory</p>
+            <p className='mt-6 '>All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers </p>
           </div>
         </div>
       </div>
@@ -168,23 +158,8 @@ export default function Home() {
       </div>
 
       <Heading heading={"At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online"} />
-      <div className="p-12 flex justify-center">
-        <div className="md:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
-          <div className='col-span-2'><Image src={community1} /></div>
-          <div className='col-span-1'><Image src={community2} /></div>
-          <div className='col-span-2'>Going through the program alongside a group of highly accomplished peers is the best way to achieve transformation. Our Alumni have an annual in-person get-together also.</div>
-          <div className='col-span-1'><Image src={community3} /></div>
-          <div className='col-span-2'><Image src={community4} /></div>
-          <div className='col-span-1'>We do not prefer a particular curriculum for undergraduate study for admission to the GGI Program. The Undergraduate representations come from IIT Bombay, IIT Madras, St. Stephen's College, NMIMS to IIM Ahmedabad, The Fletcher School. Yale University, </div>
-        </div>
-      </div>
-      <div className="p-12 flex justify-center">
-        <div className="md:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
-          <div className='col-span-1'>There are more than 100+ organizations represented in the cohort including Deloitte Consulting, EnY Consulting, Amazon AWS, Ministry of Finance, Bain Research, Goldman Sachs, Deutsche Bank, Schlumberger</div>
-          <div className='col-span-2'><Image src={community5} /></div>
+      <Community/>
 
-        </div>
-      </div>
       <div id='' className='p-4 flex justify-center mb-60'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Learn More about GGI Impact MBA Scholars

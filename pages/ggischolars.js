@@ -4,6 +4,10 @@ import Image from 'next/image';
 import Heading from '../components/global/Heading'
 import SlidingHero from '../components/global/SlidingHero'
 import Portfolio from '../components/Portfolio'
+import YoutubeEmbed from '../components/global/YoutubeEmbed';
+import Container from '../components/global/Container';
+import Partners from '../components/global/Partners';
+
 // -------------------------------------------------------
 import network from '../public/network.jpg'
 import clinton from '../public/clinton.png'
@@ -12,40 +16,125 @@ import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------
 
 import bg from '../public/mba.jpg'
+import Accordion from '../components/global/Accordian';
+import Socials from '../components/global/Socials';
+import Gallery from '../components/global/Gallery';
+import Community from '../components/global/Community';
+import Curriculum from '../components/global/Curriculum';
+import Masterclasses from '../components/global/Masterclasses';
 const ggischolars = () => {
   return (
     <div>
-      <SlidingHero image={'./mba.jpg'} />
+      <SlidingHero image={'./mba.jpg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"} />
+
       <div id='' className='p-4 flex justify-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Advance Your Career by Applying Now
         </button>
       </div>
+
+
       <Heading heading={'Why GGI Impact MBA Scholars Works ? '} />
       <div className="p-3 md:p-12 flex justify-center">
         <div className="w-6/7 lg:w-4/5 grid grid-cols-2 md:grid-cols-4 gap-3 lg:gap-4 primary">
           <div className='flex flex-col text-center'>
             <div> <Image className='' src={rjgupta} /></div>
-            <h2 className='text-2xl my-8'>Learn from Industry Leaders</h2>
-            <p className='mt-3 text-justify'>"The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem. "</p>
+            <h2 className='text-2xl h-36 lg:h-28 pt-2'>Learn from Industry Leaders</h2>
+            <p className='text-justify'>"The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem. "</p>
           </div>
           <div className='flex flex-col text-center'>
             <div> <Image src={clinton} /></div>
-            <h2 className='text-2xl my-8'> Get Recruited by Top Employers</h2>
-            <p className='mt-1 text-justify'>GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations. </p>
+            <h2 className='text-2xl h-36 lg:h-28 pt-2'> Get Recruited by Top Employers</h2>
+            <p className='text-justify'>GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations. </p>
           </div>
           <div className='flex flex-col text-center'>
             <div><Image className='' src={network} /></div>
-            <h2 className='text-2xl my-8'>  Become Part of Global Network</h2>
-            <p className='mt-10 text-justify'>Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups.</p>
+            <h2 className='text-2xl h-36 lg:h-28 pt-2'>  Become Part of Global Network</h2>
+            <p className='text-justify'>Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups.</p>
           </div>
           <div className='flex flex-col text-center'>
             <div><Image src={poets} /></div>
-            <h2 className='text-2xl my-8'>Globally Recognized </h2>
-            <p className='mt-6 text-justify'>GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes </p>
+            <h2 className='text-2xl h-36 lg:h-28 pt-2'>Globally Recognized </h2>
+            <p className='text-justify'>GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes </p>
           </div>
         </div>
       </div>
+      <p className='px-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
+      <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
+
+
+      <Heading heading={'You Learn along with Diverse Community who Adds to your Perspective'} />
+
+      <Heading heading={'+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations'} />
+      <Partners />
+
+      <Heading heading={'Who is this Program for ?'} />
+      <Container>
+        <p> 1. You are a young professional looking for better <span className='primary font-medium'> alternatives to international MBA</span> programs and want to learn directly from top industry leaders.</p><br />
+        <p>2. You are CA/non-MBA looking to pivot in management consulting in firms such as <span className='primary font-medium'> Mckinsey & BCG,  Product Management, roles</span> in firms such as Uber, Amazon, Microsoft, & leading tech startups.</p><br />
+        <p>3. You are a <span className='primary font-medium'>Pre-MBA </span>with admits to Harvard 2+2, Yale Silver Scholars, and other top MBAs and looking to finish the business curriculum before your program.</p><br />
+        <p>4. You are a <span className='primary font-medium'>budding entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen business skills while building an incredible support system.</p>
+
+      </Container>
+
+      <Heading heading={"Curriculum & Commitment"} />
+      <Curriculum />
+
+      <Heading heading={"A Liberal Refund Policy for You  "} />
+      <Container>
+        <p>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We have <span className="font-medium">no questions ask the full refund of the enrollment amount</span>of the selected scholars and fellows, till the first 6 days from the payment date. </p>
+      </Container>
+
+      <Heading heading={"You Learn & Build Network with World's Top CEOs, Partners, & Consulting Leaders"} />
+      <Gallery />
+
+
+      <Heading heading={'As a GGI MBA Scholar , You will Immerse Yourself in a Truly Transformative Experience  '} />
+      <Container>
+        <p className='mb-2'>Leaders looking to pivot into the World of Management Consulting, Investing and Product Management should be able to successfully navigate different cultures, economies, sectors, and industries. </p>
+        <p>To help you develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
+        <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 1 - Develop Contextual Intelligence </h1>
+        <p className='mb-2'>Context is a critical component of sound decision-making in the world of Management Consulting, Investing, and Product Management - and breadth of knowledge is what creates a great analytical thinker and a leader. GGI prepares Impact MBA Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives - Via GGI's trademarked Masterclasses. </p>
+        <p className='mb-2'>In this stage, GGI's Impact MBA scholars will attend the 50+ hours of interactive Masterclasses (including the Mandatory MBA for Impact Masterclass) along with evaluative peer assignments. In order for the scholars to interact with industry leaders, Impact MBA scholars will also be provided unlimited exclusive access to renowned Guest Speaker's Masterclasses. </p>
+        <p className='mb-2'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of consulting firms, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
+        <p className='mb-2'>The MBA for Impact Masterclass will teach the core MBA curriculum in 10 hours, and these principles will be applied across Masterclasses in Consulting, Investing, Product Management, etc. For the Harvard 2+2, Yale Silver Scholars, and other deferred MBAs - this stage will ensure that you have touched the basics of core courses before the start of your MBA Program - completion of this stage will save time to effectively engage in networking on Wiggly during your MBAs. For the working professionals, this will stage allow you to solve problems with contextual intelligence from across the sectors in your day job. </p>
+        <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 2 - Access to Employment Partnerships & Microexperential learning in Consulting & PM and the Buddy Network </h1>
+        <p className='mb-2'>Global Governance Initiative has crafted and designed (now licensed and patented) microlearning AI-based experience via Schrödinger. It is an interactive real-life case simulator that allows GGI Scholars to practice cases and interviews at a time that works best for them. </p>
+        <p className='mb-2'>The Tool has been truly transformative for many GGI Scholars and Fellows who credit their success of getting into a top-notch consulting firm to this stage. As a GGI Scholar, you are expected to solve cases on this tool at least twice before your interview date. </p>
+        <p className='mb-2'>GGI Scholars will also be made part of a rotating buddy system - where they can practice cases, build a community, bond, and network with other members on Wiggly of the incredibly diverse communities at Global Governance Initiative. </p>
+        <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 3 - Community & Networking Nights  </h1>
+        <p className='mb-2'>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For GGI Scholars that one person is the entire community at Global Governance Initiative. </p>
+        <p className='mb-2'>They attend monthly inner circle meetings, networking on "wiggly" with scholars from across industries and sectors. </p>
+        <p className='mb-2'>An MBA degree is more than learning valuations and Little’s Law. You pay for the entire experience - the guest speakers, office hours with your professors, campus events, and eventually landing the job of your dreams. It is an experience of a lifetime. </p>
+        <p className='mb-2'>Through Community & Networking Nights via "wiggly", GGI brings the entire campus experience online. </p>
+        <p className='mb-2'>Even though the journey of an Impact Scholar formally ends in 3 months. But Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. GGI Impact Scholars also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools. </p>
+        <p className='mb-2'>GGI Impact MBA Scholars is Crème de la crème of the Global Governance Initiative network on "wiggly". Through core Masterclasses, flexible curriculum, Networking Nights, AI Tools - Impact MBA scholars Program provides a wide view into the world of social Impact Consulting, Management consulting, and Product Management. </p>
+        <p className='mb-2'>Impact MBA Scholars are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network at "wiggly" of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
+      </Container>
+
+      <Heading heading={'Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product'} />
+      <Masterclasses/>
+      {/* <YoutubeEmbed embedId='nQkS0i38ls8' /> */}
+
+      <Heading heading={'At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online '} />
+      <Community />
+
+      <Heading heading={'Program Fees '} />
+      <div id='' className='flex justify-center my-12'>
+        <p className='px-4 md:w-4/6'>Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor's price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
+          <br /><br />
+          Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank">here</a></u></p>
+      </div>
+
+      <Heading heading={'GGI Graduation Certificate'} />
+
+      <Heading heading={'GGI Official Partners Ready to Collaborate with you '} />
+
+      <Heading heading={'GGI Associations'} />
+
+      <Heading heading={'Frequently Asked Questions'} />
+      <Accordion />
+      <Socials />
 
     </div>
   )
