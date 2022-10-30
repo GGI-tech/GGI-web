@@ -1,61 +1,66 @@
 import React from 'react'
 import Image from 'next/image';
 import m1 from '../../public/m1.jpg';
-// import m1 from '../../public/m1.jpg';
-// import m1 from '../../public/m1.jpg';
-// import m1 from '../../public/m1.jpg';
-// import m1 from '../../public/m1.jpg';
-// import m1 from '../../public/m1.jpg';
-// import m1 from '../../public/m1.jpg';
-
+import m2 from '../../public/m2.jpg';
+import m3 from '../../public/m3.jpg';
+import m4 from '../../public/m4.jpg';
+import m5 from '../../public/m5.jpg';
+import m6 from '../../public/m6.jpg';
+import m7 from '../../public/m7.jpg';
+import m8 from '../../public/m8.jpg';
+import m9 from '../../public/m9.jpg';
 
 const Masterclasses = () => {
   return (
-    <div className='flex flex-col justify-center '>
-      <div className='md:w-4/5  flex flex-row justify-evenly gap-auto flex-wrap'>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-      </div>
-      
-      <div className='md:w-4/5  flex flex-row justify-evenly flex-wrap'>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
-        </div>
-        <div className='w-12'>
-          <Image src={m1} alt='/' />
-          <p>Policy Consulting Masterclass </p>
+    <>
+      <div className='flex justify-center '>
+        <div className='flex flex-row flex-wrap justify-evenly gap-3 w-full md:w-4/5 '>
+          <div className='w-12'>
+            <Image src={m1} alt='/' />
+            <p className='text-sm text-center'>Policy Consulting Masterclass </p>
+          </div>
+          <div className='w-12'>
+            <Image src={m2} alt='/' />
+            <p className='text-sm text-center'>MBA for Impact Masterclass  </p>
+          </div>
+          <div className='w-12'>
+            <Image src={m3} alt='/' />
+            <p className='text-sm text-center'>The Liberal Arts Masterclass </p>
+          </div>
+          <div className='w-12'>
+            <Image src={m4} alt='/' />
+            <p className='text-sm text-center'>Management Consulting & Sustainability Masterclass </p>
+          </div>
         </div>
       </div>
+      <div className='mt-5 flex justify-center '>
+
+        <div className='flex flex-row justify-evenly flex-wrap  w-full md:w-4/5 '>
+          <div className='w-12'>
+            <Image src={m5} alt='/' />
+            <p className='text-sm text-center'>Data Analytics & Emerging Tech Masterclass </p>
+          </div>
+          <div className='w-12'>
+            <Image src={m6} alt='/' />
+            <p className='text-sm text-center'>Management Communications Masterclass </p>
+          </div>
+          <div className='w-12'>
+            <Image src={m7} alt='/' />
+            <p className='text-sm text-center'>CV and Case Interview Prep Masterclass </p>
+          </div>
+          <div className='w-12'>
+            <Image src={m8} alt='/' />
+            <p className='text-sm text-center'>Impact Investment Masterclass </p>
+          </div>
+          <div className='w-12'>
+            <Image src={m9} alt='/' />
+            <p className='text-sm text-center'>Product Management & Tech Ethics Masterclass  </p>
+          </div>
+        </div>
 
 
-    </div>
+      </div>
+    </>
   )
 }
 

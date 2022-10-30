@@ -1,0 +1,24 @@
+import React from 'react'
+import Image from 'next/image';
+
+
+const FourColumnLayout = ({ data }) => {
+  return (
+    <div className="p-5 md:p-12 flex justify-center">
+      <div className="w-6/7 lg:w-4/5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-4 ">
+        {data.map((e) => {
+          return (
+            <div className='flex flex-col text-center mt-6'>
+              <div> <Image className='' src={e.img} /></div>
+              <h2 className='text-2xl h-20 md:h-36 lg:h-28 pt-2'>{e.title}</h2>
+              <p className='text-justify'>{e.body}</p>
+            </div>
+          );
+        })}
+
+      </div>
+    </div>
+  )
+}
+
+export default FourColumnLayout;

@@ -11,7 +11,7 @@ import Accordion from '../components/global/Accordian';
 import Socials from '../components/global/Socials';
 //---------------------------------------------------------
 import poets from '../public/poets.jpg';
-import BCG from '../public/bcg.jpg';
+import bcg from '../public/bcg.jpg';
 import Linkedin from '../public/linkedin.jpg';
 import yrstory from '../public/yrstory.jpg';
 // -------------------------------------------------------
@@ -22,10 +22,49 @@ import officeofcareer from '../public/officeofcareer.jpg'
 // -------------------------------------------------------
 import bhaskar_chakra from '../public/bhaskar_chakra.jpg'
 import Community from '../components/global/Community';
+import FourColumnLayout from '../components/global/FourColumnLayout';
 // -------------------------------------------------------
+import BCG from '../public/BCG_M.jpg';
+import Delloite from '../public/delloite.jpg';
+import ey from '../public/ey.jpg';
+import dalberg from '../public/dalberg.jpg';
+import fsg from '../public/fsg.jpg';
+import bain from '../public/bain-logo.jpg';
+import kearney from '../public/Kearney.jpg';
+import bridgespan from '../public/bridgespan.jpg';
+import mckinsey from '../public/mckinsey.jpg';
+import pwc from '../public/pwc.jpg';
+import UN from '../public/UN.jpg';
+import Worldbank from '../public/Worldbank.jpg';
+import gov from '../public/gov.jpg';
 
 
 export default function Home() {
+  const fourcolumndata = [ //to be fetched from database
+    {
+      "img": harvardcase,
+      "title": "Harvard Case Method",
+      "body": "Driven by experiential learning through real case based teaching and heavily interactive & live feedback based problem solving."
+    },
+    {
+      "img": officeofcareer,
+      "title": "Office of Career Service",
+      "body": "GGI facilitates your hiring by partnering with leading employment partners in consulting, & PM along with resume' and interview prep."
+    },
+    {
+      "img": becomepart,
+      "title": "Become part of the Tribe",
+      "body": "Masterclasses are designed to ensure your peer to peer-based learning; so that you grow by growing others."
+    },
+    {
+      "img": leadingpurpose,
+      "title": "Leading with Purpose",
+      "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
+    },
+  ]
+  const companies =[BCG,mckinsey,bain,dalberg, kearney,fsg, UN, gov,Worldbank,pwc, bridgespan, Delloite,ey  ];
+
+
   return (
     <div>
       <Head>
@@ -46,7 +85,7 @@ export default function Home() {
       <Slider slides={SliderData} />
 
       <Heading heading={"+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations"} />
-      <Partners />
+      <Partners companies={companies} />
 
 
       <Heading heading={"GGI Offers Live Upskilling, Employment & Networking "} />
@@ -108,7 +147,7 @@ export default function Home() {
             <p className='mt-10'>— YOURSTORY</p>
           </div>
           <div className='flex flex-col text-center'>
-            <div> <Image src={BCG} /></div>
+            <div> <Image src={bcg} /></div>
             <p className='mt-1'>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"</p>
             <p className='mt-10'>— BCG Global Media</p>
           </div>
@@ -127,7 +166,8 @@ export default function Home() {
 
 
       <Heading heading={"You Learn live via Case method, Get Hired & Network to become a Leader in Business & Society"} />
-      <div className="p-3 md:p-12 flex justify-center">
+      <FourColumnLayout data={fourcolumndata}/>
+      {/* <div className="p-3 md:p-12 flex justify-center">
         <div className="md:w-4/5 grid grid-cols-2 md:grid-cols-4 gap-1 lg:gap-5">
           <div className='flex flex-col text-center'>
             <div> <Image className='' src={harvardcase} /></div>
@@ -150,7 +190,7 @@ export default function Home() {
             <p className='mt-6 '>All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div id='' className='p-4 flex justify-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Learn More about GGI Impact MBA Scholars
@@ -158,7 +198,7 @@ export default function Home() {
       </div>
 
       <Heading heading={"At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online"} />
-      <Community/>
+      <Community />
 
       <div id='' className='p-4 flex justify-center mb-60'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
@@ -181,7 +221,7 @@ export default function Home() {
       <Heading heading={"Frequently Asked Questions"} />
       <Accordion />
 
-      <Socials/>
+      <Socials />
 
     </div>
   );

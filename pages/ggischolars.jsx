@@ -7,22 +7,55 @@ import Portfolio from '../components/Portfolio'
 import YoutubeEmbed from '../components/global/YoutubeEmbed';
 import Container from '../components/global/Container';
 import Partners from '../components/global/Partners';
-
-// -------------------------------------------------------
-import network from '../public/network.jpg'
-import clinton from '../public/clinton.png'
-import rjgupta from '../public/rajat_gupta.png'
-import poets from '../public/poetsnquants.png'
-// -------------------------------------------------------
-
-import bg from '../public/mba.jpg'
 import Accordion from '../components/global/Accordian';
 import Socials from '../components/global/Socials';
 import Gallery from '../components/global/Gallery';
 import Community from '../components/global/Community';
 import Curriculum from '../components/global/Curriculum';
 import Masterclasses from '../components/global/Masterclasses';
+import FourColumnLayout from '../components/global/FourColumnLayout';
+// -------------------------------------------------------
+import network from '../public/network.jpg'
+import clinton from '../public/clinton.png'
+import rjgupta from '../public/rajat_gupta.png'
+import poets from '../public/poetsnquants.png'
+// -------------------------------------------------------
+import BCG from '../public/BCG_M.jpg';
+import mckinsey from '../public/mckinsey.jpg';
+import bain from '../public/bain-logo.jpg';
+import kearney from '../public/Kearney.jpg';
+import ey from '../public/ey.jpg';
+
+import pwc from '../public/pwc.jpg';
+import amz from '../public/amz.jpg';
+import paytm from '../public/paytm.png';
+
+
 const ggischolars = () => {
+  const companies =[BCG,mckinsey,bain,kearney, ey,pwc, amz,paytm  ];
+
+  const fourcolumndata= [ //to be fetched from database
+    {
+      "img":network,
+      "title": "Learn from Industry Leaders",
+      "body":"The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem."
+    },
+    {
+      "img":clinton,
+      "title": "Get Recruited by Top Employers",
+      "body":"GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations."
+    },
+    {
+      "img":rjgupta,
+      "title":"Become Part of Global Network",
+      "body":"Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups."
+    },
+    {
+      "img":poets,
+      "title":"Globally Recognized",
+      "body":"GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
+    }
+  ]
   return (
     <div>
       <SlidingHero image={'./mba.jpg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"} />
@@ -33,32 +66,9 @@ const ggischolars = () => {
         </button>
       </div>
 
-
       <Heading heading={'Why GGI Impact MBA Scholars Works ? '} />
-      <div className="p-3 md:p-12 flex justify-center">
-        <div className="w-6/7 lg:w-4/5 grid grid-cols-2 md:grid-cols-4 gap-3 lg:gap-4 primary">
-          <div className='flex flex-col text-center'>
-            <div> <Image className='' src={rjgupta} /></div>
-            <h2 className='text-2xl h-36 lg:h-28 pt-2'>Learn from Industry Leaders</h2>
-            <p className='text-justify'>"The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem. "</p>
-          </div>
-          <div className='flex flex-col text-center'>
-            <div> <Image src={clinton} /></div>
-            <h2 className='text-2xl h-36 lg:h-28 pt-2'> Get Recruited by Top Employers</h2>
-            <p className='text-justify'>GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations. </p>
-          </div>
-          <div className='flex flex-col text-center'>
-            <div><Image className='' src={network} /></div>
-            <h2 className='text-2xl h-36 lg:h-28 pt-2'>  Become Part of Global Network</h2>
-            <p className='text-justify'>Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups.</p>
-          </div>
-          <div className='flex flex-col text-center'>
-            <div><Image src={poets} /></div>
-            <h2 className='text-2xl h-36 lg:h-28 pt-2'>Globally Recognized </h2>
-            <p className='text-justify'>GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes </p>
-          </div>
-        </div>
-      </div>
+      <FourColumnLayout data={fourcolumndata}/>
+
       <p className='px-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
       <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
 
@@ -66,7 +76,7 @@ const ggischolars = () => {
       <Heading heading={'You Learn along with Diverse Community who Adds to your Perspective'} />
 
       <Heading heading={'+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations'} />
-      <Partners />
+      <Partners companies={companies}/>
 
       <Heading heading={'Who is this Program for ?'} />
       <Container>
@@ -114,7 +124,7 @@ const ggischolars = () => {
 
       <Heading heading={'Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product'} />
       <Masterclasses/>
-      {/* <YoutubeEmbed embedId='nQkS0i38ls8' /> */}
+      <YoutubeEmbed embedId='nQkS0i38ls8' />
 
       <Heading heading={'At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online '} />
       <Community />

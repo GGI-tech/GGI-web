@@ -4,36 +4,39 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState('transparent');
-  const [textColor, setTextColor] = useState('white');
-  const [img, setImg] = useState("");
+  // const [color, setColor] = useState('transparent');
+  // const [textColor, setTextColor] = useState('white');
+  // const [img, setImg] = useState("");
+  const [color, setColor] = useState('#ffffff');
+  const [textColor, setTextColor] = useState('#000000');
+  const [img, setImg] = useState("/logo.jpg");
   const handleNav = () => {
     setNav(!nav);
   };
 
-  useEffect(() => {
-    const changeColor = () => {
-      if (window.scrollY >= 90) {
-        setColor('#ffffff');
-        setTextColor('#000000');
-        setImg('/logo.jpg');
+  // useEffect(() => {
+  //   const changeColor = () => {
+  //     if (window.scrollY >= 90) {
+  //       setColor('#ffffff');
+  //       setTextColor('#000000');
+  //       setImg('/logo.jpg');
 
-      } else {
-        setColor('transparent');
-        setTextColor('#ffffff');
-        setImg('');
-      }
-    };
-    window.addEventListener('scroll', changeColor);
-  }, []);
+  //     } else {
+  //       setColor('transparent');
+  //       setTextColor('#ffffff');
+  //       setImg('');
+  //     }
+  //   };
+  //   window.addEventListener('scroll', changeColor);
+  // }, []);
 
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      // ease-in duration-300
-      className='fixed left-0 top-0 w-full z-10 '
+      ease-in duration-300
+      className='fixed left-0 top-0 w-full z-10'
     >
-      <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+      <div className='max-w-[1240px] m-auto flex justify-between items-center text-white'>
         <Link href='/'>
           {/* <p style={{ color: `${textColor}` }} className='font-bold text-4xl'>
             Global Governance Initiative
@@ -45,10 +48,10 @@ const Navbar = () => {
             <Link href='/ggischolars'>MBA</Link>
           </li>
           <li className='p-4'>
-            <Link href='/mpp'>MPP</Link>
+            <Link href='/ggipolicyscholarsprogram'>MPP</Link>
           </li>
           <li className='p-4'>
-            <Link href='/ggipolicyscholarsprogram'>Fellowship</Link>
+            <Link href='/impactfellowship'>Fellowship</Link>
           </li>
           <li className='p-4'>
             <Link href='/contact'>Employment Report</Link>
@@ -61,9 +64,9 @@ const Navbar = () => {
         {/* Mobile Button */}
         <div onClick={handleNav} className='block sm:hidden z-10'>
           {nav ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={25} style={{ color:'white'}} />// `${textColor}`
           ) : (
-            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineMenu size={25} style={{ color: 'black'}} />// `${textColor}`
           )}
         </div>
         {/* Mobile Menu */}
@@ -75,17 +78,17 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
               <Link href='/'>Home</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/mba'>Gallery</Link>
+            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+              <Link href='/ggischolars'>MBA</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/ggipolicyscholarsprogram'>Work</Link>
+            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+              <Link href='/ggipolicyscholarsprogram'>MPP</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/contact'>Contact</Link>
+            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+              <Link href='/impactfellowship'>Fellowship</Link>
             </li>
           </ul>
         </div>
