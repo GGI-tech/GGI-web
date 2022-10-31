@@ -81,14 +81,14 @@ export default function Home() {
         </button>
       </div>
 
-      <Heading heading={"Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us"} />
+      <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us"</Heading >
       <Slider slides={SliderData} />
 
-      <Heading heading={"+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations"} />
+      <Heading>+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations</Heading>
       <Partners companies={companies} />
 
 
-      <Heading heading={"GGI Offers Live Upskilling, Employment & Networking "} />
+      <Heading >GGI Offers Live Upskilling, Employment & Networking </Heading>
       <div id='' className='flex justify-center my-12'>
         <p className='px-4 md:w-4/6'>Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles.    </p>
       </div>
@@ -127,7 +127,7 @@ export default function Home() {
 
 
 
-      <Heading heading={"You Solve Cases & Network with World's Top CEOs, Partners, Consulting, Policy, Product Leaders "} />
+      <Heading>You Solve Cases & Network with World's Top CEOs, Partners, Consulting, Policy, Product Leaders </Heading>
       <Gallery />
 
 
@@ -138,7 +138,7 @@ export default function Home() {
 
 
 
-      <Heading heading={"Global Recognition Allows us to Serve you Better"} />
+      <Heading>Global Recognition Allows us to Serve you Better</Heading>
       <div className="p-3 md:p-12 flex justify-center">
         <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
           <div className='flex flex-col text-center'>
@@ -165,7 +165,7 @@ export default function Home() {
       </div>
 
 
-      <Heading heading={"You Learn live via Case method, Get Hired & Network to become a Leader in Business & Society"} />
+      <Heading>You Learn live via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
       <FourColumnLayout data={fourcolumndata}/>
       {/* <div className="p-3 md:p-12 flex justify-center">
         <div className="md:w-4/5 grid grid-cols-2 md:grid-cols-4 gap-1 lg:gap-5">
@@ -197,7 +197,7 @@ export default function Home() {
         </button>
       </div>
 
-      <Heading heading={"At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online"} />
+      <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
       <Community />
 
       <div id='' className='p-4 flex justify-center mb-60'>
@@ -217,8 +217,8 @@ export default function Home() {
       </div>
 
 
-      <Heading heading={"Cofounder's Desk"} />
-      <Heading heading={"Frequently Asked Questions"} />
+      <Heading>Cofounder's Desk</Heading>
+      <Heading>Frequently Asked Questions</Heading>
       <Accordion />
 
       <Socials />

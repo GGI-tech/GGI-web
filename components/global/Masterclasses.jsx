@@ -13,46 +13,46 @@ import m9 from '../../public/m9.jpg';
 const Masterclasses = () => {
   return (
     <>
-      <div className='flex justify-center '>
-        <div className='flex flex-row flex-wrap justify-evenly gap-3 w-full md:w-4/5 '>
-          <div className='w-12'>
+      <div className='p-6 md:p-12 flex justify-center '>
+        <div className='box flex flex-row flex-wrap justify-evenly gap-3 w-full lg:w-1/2 lg:gap-10 '>
+          <div className='w-20'>
             <Image src={m1} alt='/' />
             <p className='text-sm text-center'>Policy Consulting Masterclass </p>
           </div>
-          <div className='w-12'>
+          <div className='w-20'>
             <Image src={m2} alt='/' />
             <p className='text-sm text-center'>MBA for Impact Masterclass  </p>
           </div>
-          <div className='w-12'>
+          <div className='w-20'>
             <Image src={m3} alt='/' />
             <p className='text-sm text-center'>The Liberal Arts Masterclass </p>
           </div>
-          <div className='w-12'>
+          <div className='w-20'>
             <Image src={m4} alt='/' />
             <p className='text-sm text-center'>Management Consulting & Sustainability Masterclass </p>
           </div>
-        </div>
+        {/* </div>
       </div>
       <div className='mt-5 flex justify-center '>
 
-        <div className='flex flex-row justify-evenly flex-wrap  w-full md:w-4/5 '>
-          <div className='w-12'>
+        <div className='flex flex-row justify-evenly flex-wrap  w-full md:w-4/5 '> */}
+          <div className='w-20'>
             <Image src={m5} alt='/' />
             <p className='text-sm text-center'>Data Analytics & Emerging Tech Masterclass </p>
           </div>
-          <div className='w-12'>
+          <div className='w-20'>
             <Image src={m6} alt='/' />
             <p className='text-sm text-center'>Management Communications Masterclass </p>
           </div>
-          <div className='w-12'>
+          <div className='w-20'>
             <Image src={m7} alt='/' />
             <p className='text-sm text-center'>CV and Case Interview Prep Masterclass </p>
           </div>
-          <div className='w-12'>
+          <div className='w-20'>
             <Image src={m8} alt='/' />
             <p className='text-sm text-center'>Impact Investment Masterclass </p>
           </div>
-          <div className='w-12'>
+          <div className='w-20'>
             <Image src={m9} alt='/' />
             <p className='text-sm text-center'>Product Management & Tech Ethics Masterclass  </p>
           </div>

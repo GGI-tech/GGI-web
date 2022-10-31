@@ -36,7 +36,7 @@ const ggischolars = () => {
 
   const fourcolumndata= [ //to be fetched from database
     {
-      "img":network,
+      "img":rjgupta,
       "title": "Learn from Industry Leaders",
       "body":"The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem."
     },
@@ -46,7 +46,7 @@ const ggischolars = () => {
       "body":"GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations."
     },
     {
-      "img":rjgupta,
+      "img":network,
       "title":"Become Part of Global Network",
       "body":"Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups."
     },
@@ -58,7 +58,7 @@ const ggischolars = () => {
   ]
   return (
     <div>
-      <SlidingHero image={'./mba.jpg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"} />
+      <SlidingHero image={'./mba.jpg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"}/>
 
       <div id='' className='p-4 flex justify-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
@@ -66,19 +66,19 @@ const ggischolars = () => {
         </button>
       </div>
 
-      <Heading heading={'Why GGI Impact MBA Scholars Works ? '} />
+      <Heading>Why GGI Impact MBA Scholars Works ? </Heading>
       <FourColumnLayout data={fourcolumndata}/>
 
       <p className='px-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
       <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
 
 
-      <Heading heading={'You Learn along with Diverse Community who Adds to your Perspective'} />
+      <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
 
-      <Heading heading={'+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations'} />
+      <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
       <Partners companies={companies}/>
 
-      <Heading heading={'Who is this Program for ?'} />
+      <Heading>Who is this Program for ?</Heading>
       <Container>
         <p> 1. You are a young professional looking for better <span className='primary font-medium'> alternatives to international MBA</span> programs and want to learn directly from top industry leaders.</p><br />
         <p>2. You are CA/non-MBA looking to pivot in management consulting in firms such as <span className='primary font-medium'> Mckinsey & BCG,  Product Management, roles</span> in firms such as Uber, Amazon, Microsoft, & leading tech startups.</p><br />
@@ -87,19 +87,19 @@ const ggischolars = () => {
 
       </Container>
 
-      <Heading heading={"Curriculum & Commitment"} />
+      <Heading>Curriculum & Commitment</Heading>
       <Curriculum />
 
-      <Heading heading={"A Liberal Refund Policy for You  "} />
+      <Heading>A Liberal Refund Policy for You  </Heading>
       <Container>
         <p>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We have <span className="font-medium">no questions ask the full refund of the enrollment amount</span>of the selected scholars and fellows, till the first 6 days from the payment date. </p>
       </Container>
 
-      <Heading heading={"You Learn & Build Network with World's Top CEOs, Partners, & Consulting Leaders"} />
+      <Heading>You Learn & Build Network with World's Top CEOs, Partners, & Consulting Leaders</Heading>
       <Gallery />
 
 
-      <Heading heading={'As a GGI MBA Scholar , You will Immerse Yourself in a Truly Transformative Experience  '} />
+      <Heading>As a GGI MBA Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
       <Container>
         <p className='mb-2'>Leaders looking to pivot into the World of Management Consulting, Investing and Product Management should be able to successfully navigate different cultures, economies, sectors, and industries. </p>
         <p>To help you develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
@@ -122,27 +122,27 @@ const ggischolars = () => {
         <p className='mb-2'>Impact MBA Scholars are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network at "wiggly" of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
       </Container>
 
-      <Heading heading={'Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product'} />
+      <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
       <Masterclasses/>
       <YoutubeEmbed embedId='nQkS0i38ls8' />
 
-      <Heading heading={'At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online '} />
+      <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
       <Community />
 
-      <Heading heading={'Program Fees '} />
+      <Heading>Program Fees </Heading>
       <div id='' className='flex justify-center my-12'>
         <p className='px-4 md:w-4/6'>Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor's price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
           <br /><br />
           Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank">here</a></u></p>
       </div>
 
-      <Heading heading={'GGI Graduation Certificate'} />
+      <Heading>GGI Graduation Certificate</Heading>
 
-      <Heading heading={'GGI Official Partners Ready to Collaborate with you '} />
+      <Heading>GGI Official Partners Ready to Collaborate with you </Heading>
 
-      <Heading heading={'GGI Associations'} />
+      <Heading>GGI Associations</Heading>
 
-      <Heading heading={'Frequently Asked Questions'} />
+      <Heading>Frequently Asked Questions</Heading>
       <Accordion />
       <Socials />
 
