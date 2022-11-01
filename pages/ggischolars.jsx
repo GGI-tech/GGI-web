@@ -14,6 +14,8 @@ import Community from '../components/global/Community';
 import Curriculum from '../components/global/Curriculum';
 import Masterclasses from '../components/global/Masterclasses';
 import FourColumnLayout from '../components/global/FourColumnLayout';
+import OfficialPartners from '../components/global/OfficialPartners';
+
 // -------------------------------------------------------
 import network from '../public/network.jpg'
 import clinton from '../public/clinton.png'
@@ -25,40 +27,40 @@ import mckinsey from '../public/mckinsey.jpg';
 import bain from '../public/bain-logo.jpg';
 import kearney from '../public/Kearney.jpg';
 import ey from '../public/ey.jpg';
-
 import pwc from '../public/pwc.jpg';
 import amz from '../public/amz.jpg';
 import paytm from '../public/paytm.png';
+import Associations from '../components/global/Associations';
 
 
 const ggischolars = () => {
-  const companies =[BCG,mckinsey,bain,kearney, ey,pwc, amz,paytm  ];
+  const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
 
-  const fourcolumndata= [ //to be fetched from database
+  const fourcolumndata = [ //to be fetched from database
     {
-      "img":rjgupta,
+      "img": rjgupta,
       "title": "Learn from Industry Leaders",
-      "body":"The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem."
+      "body": "The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem."
     },
     {
-      "img":clinton,
+      "img": clinton,
       "title": "Get Recruited by Top Employers",
-      "body":"GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations."
+      "body": "GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations."
     },
     {
-      "img":network,
-      "title":"Become Part of Global Network",
-      "body":"Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups."
+      "img": network,
+      "title": "Become Part of Global Network",
+      "body": "Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups."
     },
     {
-      "img":poets,
-      "title":"Globally Recognized",
-      "body":"GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
+      "img": poets,
+      "title": "Globally Recognized",
+      "body": "GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
     }
   ]
   return (
     <div>
-      <SlidingHero image={'./mba.jpg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"}/>
+      <SlidingHero image={'./mba.jpeg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"} />
 
       <div id='' className='p-4 flex justify-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
@@ -67,7 +69,7 @@ const ggischolars = () => {
       </div>
 
       <Heading>Why GGI Impact MBA Scholars Works ? </Heading>
-      <FourColumnLayout data={fourcolumndata}/>
+      <FourColumnLayout data={fourcolumndata} />
 
       <p className='px-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
       <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
@@ -76,7 +78,7 @@ const ggischolars = () => {
       <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
 
       <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
-      <Partners companies={companies}/>
+      <Partners companies={companies} />
 
       <Heading>Who is this Program for ?</Heading>
       <Container>
@@ -123,25 +125,27 @@ const ggischolars = () => {
       </Container>
 
       <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
-      <Masterclasses/>
+      <Masterclasses />
       <YoutubeEmbed embedId='nQkS0i38ls8' />
 
       <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
       <Community />
 
       <Heading>Program Fees </Heading>
-      <div id='' className='flex justify-center my-12'>
-        <p className='px-4 md:w-4/6'>Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor's price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
-          <br /><br />
-          Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank">here</a></u></p>
-      </div>
+      <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor's price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
+        <br /><br />
+        Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank">here</a></u></p>
+      </Container>
+
+
 
       <Heading>GGI Graduation Certificate</Heading>
 
       <Heading>GGI Official Partners Ready to Collaborate with you </Heading>
-
+      <OfficialPartners />
       <Heading>GGI Associations</Heading>
-
+      <Associations/>
+      
       <Heading>Frequently Asked Questions</Heading>
       <Accordion />
       <Socials />

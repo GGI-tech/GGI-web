@@ -19,7 +19,9 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
-
+.h80vh{
+  height: 80vh;
+}
 /* additional colors */
 .skin {
   background-color: #FBEDE0;
