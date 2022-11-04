@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState} from 'react'
 import Image from 'next/image';
 
 import Heading from '../components/global/Heading'
@@ -58,6 +58,11 @@ const ggischolars = () => {
       "body": "GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
     }
   ]
+  const [isOpened, setIsOpened] = useState(false);
+
+  function toggle() {
+    setIsOpened(wasOpened => !wasOpened);
+  }
   return (
     <div>
       <SlidingHero image={'./mba.jpeg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"} />
@@ -73,9 +78,11 @@ const ggischolars = () => {
 
       <p className='px-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
       <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
+      <YoutubeEmbed embedId='8lWeJ3Ekq-I' />
 
 
       <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
+      <YoutubeEmbed embedId='iuNMaVSwH0E' />
 
       <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
       <Partners companies={companies} />
@@ -88,9 +95,12 @@ const ggischolars = () => {
         <p>4. You are a <span className='primary font-medium'>budding entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen business skills while building an incredible support system.</p>
 
       </Container>
+      <YoutubeEmbed embedId='NrAvqFqbZrU'/>
 
       <Heading>Curriculum & Commitment</Heading>
       <Curriculum />
+      <YoutubeEmbed embedId='lGyhkONUSwk'/>
+      
 
       <Heading>A Liberal Refund Policy for You  </Heading>
       <Container>
@@ -107,6 +117,8 @@ const ggischolars = () => {
         <p>To help you develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
         <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 1 - Develop Contextual Intelligence </h1>
         <p className='mb-2'>Context is a critical component of sound decision-making in the world of Management Consulting, Investing, and Product Management - and breadth of knowledge is what creates a great analytical thinker and a leader. GGI prepares Impact MBA Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives - Via GGI's trademarked Masterclasses. </p>
+        {!isOpened && (<div className='text-center' style={{color:"blue"}} onClick={toggle}>Show more..</div>)}
+        {isOpened && (<div>
         <p className='mb-2'>In this stage, GGI's Impact MBA scholars will attend the 50+ hours of interactive Masterclasses (including the Mandatory MBA for Impact Masterclass) along with evaluative peer assignments. In order for the scholars to interact with industry leaders, Impact MBA scholars will also be provided unlimited exclusive access to renowned Guest Speaker's Masterclasses. </p>
         <p className='mb-2'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of consulting firms, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
         <p className='mb-2'>The MBA for Impact Masterclass will teach the core MBA curriculum in 10 hours, and these principles will be applied across Masterclasses in Consulting, Investing, Product Management, etc. For the Harvard 2+2, Yale Silver Scholars, and other deferred MBAs - this stage will ensure that you have touched the basics of core courses before the start of your MBA Program - completion of this stage will save time to effectively engage in networking on Wiggly during your MBAs. For the working professionals, this will stage allow you to solve problems with contextual intelligence from across the sectors in your day job. </p>
@@ -122,6 +134,7 @@ const ggischolars = () => {
         <p className='mb-2'>Even though the journey of an Impact Scholar formally ends in 3 months. But Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. GGI Impact Scholars also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools. </p>
         <p className='mb-2'>GGI Impact MBA Scholars is Crème de la crème of the Global Governance Initiative network on "wiggly". Through core Masterclasses, flexible curriculum, Networking Nights, AI Tools - Impact MBA scholars Program provides a wide view into the world of social Impact Consulting, Management consulting, and Product Management. </p>
         <p className='mb-2'>Impact MBA Scholars are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network at "wiggly" of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
+        </div>)}
       </Container>
 
       <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
