@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import { React, useState } from 'react'
 import Image from 'next/image';
 
 import Heading from '../components/global/Heading'
@@ -95,12 +95,12 @@ const ggischolars = () => {
         <p>4. You are a <span className='primary font-medium'>budding entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen business skills while building an incredible support system.</p>
 
       </Container>
-      <YoutubeEmbed embedId='NrAvqFqbZrU'/>
+      <YoutubeEmbed embedId='NrAvqFqbZrU' />
 
       <Heading>Curriculum & Commitment</Heading>
       <Curriculum />
-      <YoutubeEmbed embedId='lGyhkONUSwk'/>
-      
+      <YoutubeEmbed embedId='lGyhkONUSwk' />
+
 
       <Heading>A Liberal Refund Policy for You  </Heading>
       <Container>
@@ -117,23 +117,23 @@ const ggischolars = () => {
         <p>To help you develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
         <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 1 - Develop Contextual Intelligence </h1>
         <p className='mb-2'>Context is a critical component of sound decision-making in the world of Management Consulting, Investing, and Product Management - and breadth of knowledge is what creates a great analytical thinker and a leader. GGI prepares Impact MBA Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives - Via GGI's trademarked Masterclasses. </p>
-        {!isOpened && (<div className='text-center' style={{color:"blue"}} onClick={toggle}>Show more..</div>)}
+        {!isOpened && (<div className='text-center' style={{ color: "blue" }} onClick={toggle}>Show more..</div>)}
         {isOpened && (<div>
-        <p className='mb-2'>In this stage, GGI's Impact MBA scholars will attend the 50+ hours of interactive Masterclasses (including the Mandatory MBA for Impact Masterclass) along with evaluative peer assignments. In order for the scholars to interact with industry leaders, Impact MBA scholars will also be provided unlimited exclusive access to renowned Guest Speaker's Masterclasses. </p>
-        <p className='mb-2'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of consulting firms, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
-        <p className='mb-2'>The MBA for Impact Masterclass will teach the core MBA curriculum in 10 hours, and these principles will be applied across Masterclasses in Consulting, Investing, Product Management, etc. For the Harvard 2+2, Yale Silver Scholars, and other deferred MBAs - this stage will ensure that you have touched the basics of core courses before the start of your MBA Program - completion of this stage will save time to effectively engage in networking on Wiggly during your MBAs. For the working professionals, this will stage allow you to solve problems with contextual intelligence from across the sectors in your day job. </p>
-        <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 2 - Access to Employment Partnerships & Microexperential learning in Consulting & PM and the Buddy Network </h1>
-        <p className='mb-2'>Global Governance Initiative has crafted and designed (now licensed and patented) microlearning AI-based experience via Schrödinger. It is an interactive real-life case simulator that allows GGI Scholars to practice cases and interviews at a time that works best for them. </p>
-        <p className='mb-2'>The Tool has been truly transformative for many GGI Scholars and Fellows who credit their success of getting into a top-notch consulting firm to this stage. As a GGI Scholar, you are expected to solve cases on this tool at least twice before your interview date. </p>
-        <p className='mb-2'>GGI Scholars will also be made part of a rotating buddy system - where they can practice cases, build a community, bond, and network with other members on Wiggly of the incredibly diverse communities at Global Governance Initiative. </p>
-        <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 3 - Community & Networking Nights  </h1>
-        <p className='mb-2'>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For GGI Scholars that one person is the entire community at Global Governance Initiative. </p>
-        <p className='mb-2'>They attend monthly inner circle meetings, networking on "wiggly" with scholars from across industries and sectors. </p>
-        <p className='mb-2'>An MBA degree is more than learning valuations and Little’s Law. You pay for the entire experience - the guest speakers, office hours with your professors, campus events, and eventually landing the job of your dreams. It is an experience of a lifetime. </p>
-        <p className='mb-2'>Through Community & Networking Nights via "wiggly", GGI brings the entire campus experience online. </p>
-        <p className='mb-2'>Even though the journey of an Impact Scholar formally ends in 3 months. But Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. GGI Impact Scholars also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools. </p>
-        <p className='mb-2'>GGI Impact MBA Scholars is Crème de la crème of the Global Governance Initiative network on "wiggly". Through core Masterclasses, flexible curriculum, Networking Nights, AI Tools - Impact MBA scholars Program provides a wide view into the world of social Impact Consulting, Management consulting, and Product Management. </p>
-        <p className='mb-2'>Impact MBA Scholars are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network at "wiggly" of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
+          <p className='mb-2'>In this stage, GGI's Impact MBA scholars will attend the 50+ hours of interactive Masterclasses (including the Mandatory MBA for Impact Masterclass) along with evaluative peer assignments. In order for the scholars to interact with industry leaders, Impact MBA scholars will also be provided unlimited exclusive access to renowned Guest Speaker's Masterclasses. </p>
+          <p className='mb-2'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of consulting firms, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
+          <p className='mb-2'>The MBA for Impact Masterclass will teach the core MBA curriculum in 10 hours, and these principles will be applied across Masterclasses in Consulting, Investing, Product Management, etc. For the Harvard 2+2, Yale Silver Scholars, and other deferred MBAs - this stage will ensure that you have touched the basics of core courses before the start of your MBA Program - completion of this stage will save time to effectively engage in networking on Wiggly during your MBAs. For the working professionals, this will stage allow you to solve problems with contextual intelligence from across the sectors in your day job. </p>
+          <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 2 - Access to Employment Partnerships & Microexperential learning in Consulting & PM and the Buddy Network </h1>
+          <p className='mb-2'>Global Governance Initiative has crafted and designed (now licensed and patented) microlearning AI-based experience via Schrödinger. It is an interactive real-life case simulator that allows GGI Scholars to practice cases and interviews at a time that works best for them. </p>
+          <p className='mb-2'>The Tool has been truly transformative for many GGI Scholars and Fellows who credit their success of getting into a top-notch consulting firm to this stage. As a GGI Scholar, you are expected to solve cases on this tool at least twice before your interview date. </p>
+          <p className='mb-2'>GGI Scholars will also be made part of a rotating buddy system - where they can practice cases, build a community, bond, and network with other members on Wiggly of the incredibly diverse communities at Global Governance Initiative. </p>
+          <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 3 - Community & Networking Nights  </h1>
+          <p className='mb-2'>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For GGI Scholars that one person is the entire community at Global Governance Initiative. </p>
+          <p className='mb-2'>They attend monthly inner circle meetings, networking on "wiggly" with scholars from across industries and sectors. </p>
+          <p className='mb-2'>An MBA degree is more than learning valuations and Little’s Law. You pay for the entire experience - the guest speakers, office hours with your professors, campus events, and eventually landing the job of your dreams. It is an experience of a lifetime. </p>
+          <p className='mb-2'>Through Community & Networking Nights via "wiggly", GGI brings the entire campus experience online. </p>
+          <p className='mb-2'>Even though the journey of an Impact Scholar formally ends in 3 months. But Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. GGI Impact Scholars also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools. </p>
+          <p className='mb-2'>GGI Impact MBA Scholars is Crème de la crème of the Global Governance Initiative network on "wiggly". Through core Masterclasses, flexible curriculum, Networking Nights, AI Tools - Impact MBA scholars Program provides a wide view into the world of social Impact Consulting, Management consulting, and Product Management. </p>
+          <p className='mb-2'>Impact MBA Scholars are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network at "wiggly" of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
         </div>)}
       </Container>
 
@@ -157,8 +157,8 @@ const ggischolars = () => {
       <Heading>GGI Official Partners Ready to Collaborate with you </Heading>
       <OfficialPartners />
       <Heading>GGI Associations</Heading>
-      <Associations/>
-      
+      <Associations />
+
       <Heading>Frequently Asked Questions</Heading>
       <Accordion />
       <Socials />

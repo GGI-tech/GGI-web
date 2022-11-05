@@ -8,7 +8,7 @@ const Navbar = () => {
   // const [textColor, setTextColor] = useState('white');
   // const [img, setImg] = useState("");
   const [color, setColor] = useState('#ffffff');
-  const [textColor, setTextColor] = useState('#000000');
+  const [textColor, setTextColor] = useState('#CF1515');
   const [img, setImg] = useState("/logo.jpg");
   const handleNav = () => {
     setNav(!nav);
