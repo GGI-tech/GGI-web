@@ -16,6 +16,7 @@ import teach from '../public/teach.png';
 import Partners from '../components/global/Partners';
 import YoutubeEmbed from '../components/global/YoutubeEmbed'
 import Masterclasses from '../components/global/Masterclasses'
+import SlidingHero from '../components/global/SlidingHero'
 const impactfellowship = () => {
   const fourcolumndata = [ //to be fetched from database
     {
@@ -46,6 +47,7 @@ const impactfellowship = () => {
   }
   return (
     <>
+      <SlidingHero image={'./impactfellowship.jpg'} heading={"Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader  "}/>
       <Heading>Why GGI Impact Fellowship Works ?</Heading>
       <FourColumnLayout data={fourcolumndata} />
       <Container>
@@ -53,13 +55,13 @@ const impactfellowship = () => {
         <p className='mb-5'><span className='font-semibold primary'>Young Professionals waste many years</span> either preparing for Civil Services to venture into the development sector or reading innumerable cases in the false hope of getting into management consulting. We at Global Governance Initiative solve this through our Impact Fellowship Program. </p>
         <p><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program..</p>
       </Container>
-      <YoutubeEmbed embedId='cds8xYiGVHg' />
+      <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={0}/>
 
       <Heading>Life After GGI Impact Fellowship</Heading>
       <Container>
         <p className='mb-4'>There is no "typical" GGI career path. You will be joined by the diverse GGI alumni spanning sectors, industries, and geographies, and interests range from political risk analysis, and banking to consulting, civil services applicants in the emerging markets to policy work in international organizations.</p>
         <p  className='mb-4'>Impact Fellowship has positioned GGI Alumni for careers in a variety of sectors. Examples include :</p>
-        <p  className='mb-4'><AiFillCheckCircle/><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</p>
+        <p  className='mb-4'><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</p>
         <p  className='mb-4'><span className='font-semibold primary'>International Organizations</span> such as United Nations, and the International Finance Corporation;</p>
         <p  className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> Groups like Bridgespan, FSG. Dalberg</p>
         <p  className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> such as Amazon, Unilever, and Procter & Gamle;</p>

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -40,22 +41,23 @@ const Navbar = () => {
           {/* <p style={{ color: `${textColor}` }} className='font-bold text-4xl'>
             Global Governance Initiative
           </p> */}
-          <img src={img} />
+          <Image style={{cursor:"pointer"}} height={70} width={160} src={img}/>
+          {/* <img height={0} src={img} /> */}
         </Link>
-        <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
-          <li className='p-4'>
+        <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex'>
+          <li className='p-4 hover:text-black hover:bg-slate-200'>
             <Link href='/ggischolars'>MBA</Link>
           </li>
-          <li className='p-4'>
+          <li className='p-4 hover:text-black hover:bg-slate-200'>
             <Link href='/ggipolicyscholarsprogram'>MPP</Link>
           </li>
-          <li className='p-4'>
+          <li className='p-4 hover:text-black hover:bg-slate-200'>
             <Link href='/impactfellowship'>Fellowship</Link>
           </li>
-          <li className='p-4'>
+          <li className='p-4 hover:text-black hover:bg-slate-200'>
             <Link href='/contact'>Employment Report</Link>
           </li>
-          <li className='p-4'>
+          <li className='p-4 hover:text-black hover:bg-slate-200'>
             <Link href='/contact'>Explore</Link>
           </li>
         </ul>
