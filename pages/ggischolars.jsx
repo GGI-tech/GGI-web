@@ -15,6 +15,8 @@ import Curriculum from '../components/global/Curriculum';
 import Masterclasses from '../components/global/Masterclasses';
 import FourColumnLayout from '../components/global/FourColumnLayout';
 import OfficialPartners from '../components/global/OfficialPartners';
+import Associations from '../components/global/Associations';
+import { AiFillCheckCircle } from 'react-icons/ai'
 
 // -------------------------------------------------------
 import network from '../public/network.jpg'
@@ -30,8 +32,8 @@ import ey from '../public/ey.jpg';
 import pwc from '../public/pwc.jpg';
 import amz from '../public/amz.jpg';
 import paytm from '../public/paytm.png';
-import Associations from '../components/global/Associations';
-
+// -----------------------------------------------------
+import certificate from '../public/certificate.jpg'
 
 const ggischolars = () => {
   const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
@@ -153,7 +155,21 @@ const ggischolars = () => {
 
 
       <Heading>GGI Graduation Certificate</Heading>
-
+      <Container>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+          <div>
+            <Image src={certificate} />
+          </div>
+          <div className='col-span-2'>
+            <p className='mb-2'>Let us be honest. We are not in the certificate minting business. However, on successful completion of the program, you receive a unique GGI Impact MBA Scholars graduation letter- </p>
+            <ul className='list-disc ml-4'>
+              <li> Showcasing your hard, fun, and enriching journey from a prestigious Global Governance Initiative Scholars journey</li>
+              <li>Get a chance to network with GGI  industry experts, and peers during the program</li>
+              <li>Gain demonstrable hands-on skills in business, communications, finance, and strategy</li>
+            </ul>
+          </div>
+        </div>
+      </Container>
       <Heading>GGI Official Partners Ready to Collaborate with you </Heading>
       <OfficialPartners />
       <Heading>GGI Associations</Heading>

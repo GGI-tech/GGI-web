@@ -62,7 +62,7 @@ export default function Home() {
       "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
     },
   ]
-  const companies =[BCG,mckinsey,bain,dalberg, kearney,fsg, UN, gov,Worldbank,pwc, bridgespan, Delloite,ey  ];
+  const companies = [BCG, mckinsey, bain, dalberg, kearney, fsg, UN, gov, Worldbank, pwc, bridgespan, Delloite, ey];
 
 
   return (
@@ -84,35 +84,36 @@ export default function Home() {
       <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us"</Heading >
       <Slider slides={SliderData} />
 
+
       <Heading>+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations</Heading>
       <Partners companies={companies} />
 
 
       <Heading >GGI Offers Live Upskilling, Employment & Networking </Heading>
       <div id='' className='flex justify-center my-12'>
-        <p className='px-4 md:w-4/6'>Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles.    </p>
+        <p className='px-4 md:w-4/6'>Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
       </div>
       <div className="p-8 flex justify-center skin">
-        <div className="lg:w-4/5 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-10">
+        <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20">
           <div>
-            <h2 className='text-2xl my-8'>GGI MBA Scholar </h2>
-            <p className='my-5 text-xl'>Who is this program for?</p>
-            <p className='my-5'>1. You are looking for best Alternative to International- MBA</p>
-            <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as Mckinsey, BCG, or Product Management</p>
+            <h2 className='text-2xl my-8 text-left '>GGI MBA Scholar </h2>
+            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
+            <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
+            <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
             <p className='my-5'>3. You are a Pre-MBA looking to finish the business curriculum before your program</p>
             <p className='my-5'>4. You are a budding entrepreneur who is aiming to launch & scale ventures </p>
-            <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-2 px-4 border border-blue-500 rounded">
+            <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-3 px-4 border border-blue-500 rounded">
               Learn More about GGI Impact MBA
             </button>
           </div>
           <div>
-            <h2 className='text-2xl my-8'>GGI Policy Scholar </h2>
-            <p className='my-5 text-xl'>Who is this program for?</p>
+            <h2 className='text-2xl my-8 text-left'>GGI Policy Scholar </h2>
+            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
             <p className='my-5'>1. You are looking for best Alternative to International- MPP</p>
             <p className='my-5'>2. You are looking to pivot in impact firms such as UN, World Bank, FSG, or social impact roles</p>
             <p className='my-5'>3. You are a Pre-MPP with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
             <p className='my-5'>4. You are a budding social impact entrepreneur who is aiming to launch a venture  </p>
-            <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-2 px-5 border border-blue-500 rounded">
+            <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-3 px-5 border border-blue-500 rounded">
               Learn More about GGI Policy Scholar
             </button>
           </div>
@@ -139,7 +140,7 @@ export default function Home() {
 
 
       <Heading>Global Recognition Allows us to Serve you Better</Heading>
-      <div className="p-3 md:p-12 flex justify-center">
+      <div className="p-3 md:p-12 flex justify-center skin">
         <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
           <div className='flex flex-col text-center'>
             <div> <Image className='' src={poets} /></div>
@@ -166,7 +167,7 @@ export default function Home() {
 
 
       <Heading>You Learn live via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
-      <FourColumnLayout data={fourcolumndata}/>
+      <FourColumnLayout data={fourcolumndata} />
       {/* <div className="p-3 md:p-12 flex justify-center">
         <div className="md:w-4/5 grid grid-cols-2 md:grid-cols-4 gap-1 lg:gap-5">
           <div className='flex flex-col text-center'>

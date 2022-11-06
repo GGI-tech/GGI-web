@@ -47,15 +47,21 @@ h3 {
   text-justify: inter-word;
 }
 
-p {
+p,ul {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 17px;
   /* font-family: PoppinsLight,'Poppins',sans-serif; */
 }
+
 
 /* background image on home */
 .custom-img {
   background-image: url('/Global\ Governance\ Initiative\ .jpg')
+}
+@media screen and (max-width:500px) {
+  .custom-img{
+    background-image: url('/ggiMobile.jpg');
+  }
 }
 
 /* youtube video */

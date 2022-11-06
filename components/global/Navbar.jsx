@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link href='/impactfellowship'>Fellowship</Link>
           </li>
           <li className='p-4 hover:text-black hover:bg-slate-200'>
-            <Link href='/contact'>Employment Report</Link>
+            <Link href='/reviews'>Employment Report</Link>
           </li>
           <li className='p-4 hover:text-black hover:bg-slate-200'>
             <Link href='/contact'>Explore</Link>
