@@ -100,8 +100,8 @@ export default function Home() {
             <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
             <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
             <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
-            <p className='my-5'>3. You are a Pre-MBA looking to finish the business curriculum before your program</p>
-            <p className='my-5'>4. You are a budding entrepreneur who is aiming to launch & scale ventures </p>
+            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
+            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
             <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-3 px-4 border border-blue-500 rounded">
               Learn More about GGI Impact MBA
             </button>
@@ -109,10 +109,10 @@ export default function Home() {
           <div>
             <h2 className='text-2xl my-8 text-left'>GGI Policy Scholar </h2>
             <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
-            <p className='my-5'>1. You are looking for best Alternative to International- MPP</p>
-            <p className='my-5'>2. You are looking to pivot in impact firms such as UN, World Bank, FSG, or social impact roles</p>
-            <p className='my-5'>3. You are a Pre-MPP with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
-            <p className='my-5'>4. You are a budding social impact entrepreneur who is aiming to launch a venture  </p>
+            <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
+            <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
+            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
+            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
             <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-10 py-3 px-5 border border-blue-500 rounded">
               Learn More about GGI Policy Scholar
             </button>

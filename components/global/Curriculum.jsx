@@ -20,36 +20,36 @@ const Curriculum = () => {
         <div className='md:w-3/4 mx-auto text-center md:py-5'>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-10 p-4 :plg-12'>
                 <div className=''>
-                    <h2 className='pink'>3-6 Months</h2>
+                    <p className='pink font-bold'>3-6 Months</p>
                     <p>Program length, flexible upon your needs and availability</p>
                 </div>
                 <div className=''>
-                    <h2 className='pink'>90+ Hours of Business Masterclasses</h2>
+                    <p className='pink font-bold'>90+ Hours of Business Masterclasses</p>
                     <p>Over 9  weekends, based on your availability </p>
                 </div>
                 <div className=''>
-                    <h2 className='pink'>41+ Employment Partners</h2>
+                    <p className='pink font-bold'>41+ Employment Partners</p>
                     <p>Who recruit from GGI peridocially</p>
                 </div>
                 <div className=''>
-                    <h2 className='pink'>60+ Hours of Business Interview Practice</h2>
+                    <p className='pink font-bold'>60+ Hours of Business Interview Practice</p>
                     <p>Via our inhouse AI Based software</p>
                 </div>
                 {/* -------------------------------------------------------------------- */}
                 <div className=''>
-                    <h2 className='pink'>Unlimited Networking </h2>
+                    <p className='pink font-bold'>Unlimited Networking </p>
                     <p>You continue to be a part of the family post your graduation</p>
                 </div>
                 <div className=''>
-                    <h2 className='pink'>1:1 Founders' Office Hours </h2>
+                    <p className='pink font-bold'>1:1 Founders' Office Hours </p>
                     <p>During graduation. 1 to take forward your MBA dreams  </p>
                 </div>
                 <div className=''>
-                    <h2 className='pink'>GGI Projects & Startup Weekend</h2>
+                    <p className='pink font-bold'>GGI Projects & Startup Weekend</p>
                     <p>Peer to Peer projects </p>
                 </div>
                 <div className=''>
-                    <h2 className='pink'>10+ Hours of Trinity</h2>
+                    <p className='pink font-bold'>10+ Hours of Trinity</p>
                     <p>You get access to recorded Masterclasses of top speakers in consulting at GGI </p>
                 </div>
 
