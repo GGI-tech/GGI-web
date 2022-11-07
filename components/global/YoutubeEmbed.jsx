@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const YoutubeEmbed = ({ embedId,autoplay }) => (
-  <div className="p-4 flex justify-center">
+  <div className="p-4 mb-48 md:mb-72 flex justify-center">
     <iframe
       width={480}
       height={270}

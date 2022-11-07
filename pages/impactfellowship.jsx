@@ -1,4 +1,5 @@
 import { React, useState } from 'react'
+import Image from 'next/image'
 import Heading from '../components/global/Heading'
 import Accordion from '../components/global/Accordian'
 import Gallery from '../components/global/Gallery'
@@ -6,7 +7,7 @@ import OfficialPartners from '../components/global/OfficialPartners'
 import Container from '../components/global/Container'
 import Curriculum from '../components/global/Curriculum'
 import FourColumnLayout from '../components/global/FourColumnLayout'
-import {AiFillCheckCircle} from 'react-icons/ai'
+import { AiFillCheckCircle } from 'react-icons/ai'
 // ------------------------------------------------------------------
 import network from '../public/network2.jpeg'
 import clinton from '../public/clinton.png'
@@ -17,6 +18,11 @@ import Partners from '../components/global/Partners';
 import YoutubeEmbed from '../components/global/YoutubeEmbed'
 import Masterclasses from '../components/global/Masterclasses'
 import SlidingHero from '../components/global/SlidingHero'
+import Steps from '../components/global/Steps'
+// --------------------------------------------------------------------
+import studs1 from '../public/s1.png'
+import studs2 from '../public/s2.png'
+// --------------------------------------------------------------------
 const impactfellowship = () => {
   const fourcolumndata = [ //to be fetched from database
     {
@@ -40,6 +46,13 @@ const impactfellowship = () => {
       "body": "This global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups.  "
     }
   ]
+  const stages = [
+    {
+      "id": 1,
+      "ques": "Stage 1 - Upskilling ",
+      "ans": "<p className='mb-2'>Context is a critical component of sound decision-making in the world of consulting and international development - and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that allow them to connect the dots across many different areas including policy consulting, management consulting & sustainability, product management & tech ethics, impact investing, liberal arts, and core Business perspectives - via GGI's trademarked Masterclasses.   </p><p className='mb-3'>In this stage, Impact Fellows during their executive education also have access to the personalized Career Development Program of the Global Governance Initiative. This learning component is critical for those interested to work in organizations such as McKinsey, BCG, Bain, United Nations, World Bank, and inter-alia. Many of the Masterclasses are usually taken by incumbent partners and leadership of such organizations.  </p>< p className='mb-3' > The Career Development Program further consists of two pillars.</p>"
+    }
+  ]
   const [isOpened, setIsOpened] = useState(false);
 
   function toggle() {
@@ -47,7 +60,8 @@ const impactfellowship = () => {
   }
   return (
     <>
-      <SlidingHero image={'./impactfellowship.jpg'} heading={"Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader  "}/>
+      <div className='mt-10'></div>
+      <SlidingHero image={'./impactfellowship.jpg'} heading={"Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader  "} />
       <Heading>Why GGI Impact Fellowship Works ?</Heading>
       <FourColumnLayout data={fourcolumndata} />
       <Container>
@@ -55,18 +69,18 @@ const impactfellowship = () => {
         <p className='mb-5'><span className='font-semibold primary'>Young Professionals waste many years</span> either preparing for Civil Services to venture into the development sector or reading innumerable cases in the false hope of getting into management consulting. We at Global Governance Initiative solve this through our Impact Fellowship Program. </p>
         <p><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program..</p>
       </Container>
-      <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={0}/>
+      <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={0} />
 
       <Heading>Life After GGI Impact Fellowship</Heading>
       <Container>
         <p className='mb-4'>There is no "typical" GGI career path. You will be joined by the diverse GGI alumni spanning sectors, industries, and geographies, and interests range from political risk analysis, and banking to consulting, civil services applicants in the emerging markets to policy work in international organizations.</p>
-        <p  className='mb-4'>Impact Fellowship has positioned GGI Alumni for careers in a variety of sectors. Examples include :</p>
-        <p  className='mb-4'><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</p>
-        <p  className='mb-4'><span className='font-semibold primary'>International Organizations</span> such as United Nations, and the International Finance Corporation;</p>
-        <p  className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> Groups like Bridgespan, FSG. Dalberg</p>
-        <p  className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> such as Amazon, Unilever, and Procter & Gamle;</p>
-        <p  className='mb-4'>Organizations focused on <span className='font-semibold primary'>developing market interests such as Dalberg</span> </p>
-        <p  className='mb-4'>Many large employers find that Impact Fellowship from Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, and other functional areas that necessitate an education that goes beyond traditional business skills. </p>
+        <p className='mb-4'>Impact Fellowship has positioned GGI Alumni for careers in a variety of sectors. Examples include :</p>
+        <p className='mb-4'><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</p>
+        <p className='mb-4'><span className='font-semibold primary'>International Organizations</span> such as United Nations, and the International Finance Corporation;</p>
+        <p className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> Groups like Bridgespan, FSG. Dalberg</p>
+        <p className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> such as Amazon, Unilever, and Procter & Gamle;</p>
+        <p className='mb-4'>Organizations focused on <span className='font-semibold primary'>developing market interests such as Dalberg</span> </p>
+        <p className='mb-4'>Many large employers find that Impact Fellowship from Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, and other functional areas that necessitate an education that goes beyond traditional business skills. </p>
         <p>Impact Fellows at Global Governance Initiative are positioned to have a deep understanding of the complexity of national and local situations. </p>
       </Container>
 
@@ -86,6 +100,13 @@ const impactfellowship = () => {
       <YoutubeEmbed embedId='3xL9AbP92yo' />
 
       <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
+      <Container>
+        <div className='grid sm:grid-cols-2 gap-5'>
+          <div className=''><Image src={studs1}/></div>
+          <div className=''><Image src={studs2}/></div>
+
+        </div>
+      </Container>
       <YoutubeEmbed embedId='BCwbgh9-69k' />
 
       <Heading>A Liberal Refund Policy for You </Heading>
@@ -97,6 +118,7 @@ const impactfellowship = () => {
       <Gallery />
 
       <Heading>With Impact Fellowship, The World is Your Classroom</Heading>
+      <Steps data={stages} />
       <Container>
         <p>Today's Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
         <h1 className='text-center pink text-xl font-semibold my-8'>Stage 1 - Upskilling   </h1>

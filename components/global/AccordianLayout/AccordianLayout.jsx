@@ -14,8 +14,8 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
                 <div className="flex items-center justify-center">
                     {
                         (activeIndex === index)
-                            ? <BsFillArrowDownCircleFill className='w-8 h-8' />
-                            : <BsFillArrowUpCircleFill className='w-8 h-8' />
+                            ? <BsFillArrowUpCircleFill className='w-8 h-8' />
+                            : <BsFillArrowDownCircleFill className='w-8 h-8' />
                     }
                 </div>
             </div>
