@@ -41,33 +41,33 @@ const Navbar = () => {
           {/* <p style={{ color: `${textColor}` }} className='font-bold text-4xl'>
             Global Governance Initiative
           </p> */}
-          <Image style={{cursor:"pointer"}} height={70} width={160} src={img}/>
+          <Image style={{ cursor: "pointer" }} height={70} width={160} src={img} />
           {/* <img height={0} src={img} /> */}
         </Link>
         <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex'>
-          <li className='p-4 hover:text-black hover:bg-slate-200'>
-            <Link href='/ggischolars'>MBA</Link>
-          </li>
-          <li className='p-4 hover:text-black hover:bg-slate-200'>
-            <Link href='/ggipolicyscholarsprogram'>MPP</Link>
-          </li>
-          <li className='p-4 hover:text-black hover:bg-slate-200'>
-            <Link href='/impactfellowship'>Fellowship</Link>
-          </li>
-          <li className='p-4 hover:text-black hover:bg-slate-200'>
-            <Link href='/reviews'>Employment Report</Link>
-          </li>
-          <li className='p-4 hover:text-black hover:bg-slate-200'>
-            <Link href='/contact'>Explore</Link>
-          </li>
+          <Link href='/ggischolars'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
+            MBA
+          </li></Link>
+          <Link href='/ggipolicyscholarsprogram'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
+            MPP
+          </li></Link>
+          <Link href='/impactfellowship'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
+            Fellowship
+          </li></Link>
+          <Link href='/reviews'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
+            Employment Report
+          </li></Link>
+          <Link href='/contact'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
+            Explore
+          </li></Link>
         </ul>
 
         {/* Mobile Button */}
         <div onClick={handleNav} className='block sm:hidden z-10'>
           {nav ? (
-            <AiOutlineClose size={25} style={{ color:'white'}} />// `${textColor}`
+            <AiOutlineClose size={25} style={{ color: 'white' }} />// `${textColor}`
           ) : (
-            <AiOutlineMenu size={25} style={{ color: 'black'}} />// `${textColor}`
+            <AiOutlineMenu size={25} style={{ color: 'black' }} />// `${textColor}`
           )}
         </div>
         {/* Mobile Menu */}
@@ -94,7 +94,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

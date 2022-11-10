@@ -22,6 +22,7 @@ import Steps from '../components/global/Steps'
 // --------------------------------------------------------------------
 import studs1 from '../public/s1.png'
 import studs2 from '../public/s2.png'
+import Footer from '../components/global/Footer'
 // --------------------------------------------------------------------
 const impactfellowship = () => {
   const fourcolumndata = [ //to be fetched from database
@@ -50,7 +51,17 @@ const impactfellowship = () => {
     {
       "id": 1,
       "ques": "Stage 1 - Upskilling ",
-      "ans": "<p className='mb-2'>Context is a critical component of sound decision-making in the world of consulting and international development - and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that allow them to connect the dots across many different areas including policy consulting, management consulting & sustainability, product management & tech ethics, impact investing, liberal arts, and core Business perspectives - via GGI's trademarked Masterclasses.   </p><p className='mb-3'>In this stage, Impact Fellows during their executive education also have access to the personalized Career Development Program of the Global Governance Initiative. This learning component is critical for those interested to work in organizations such as McKinsey, BCG, Bain, United Nations, World Bank, and inter-alia. Many of the Masterclasses are usually taken by incumbent partners and leadership of such organizations.  </p>< p className='mb-3' > The Career Development Program further consists of two pillars.</p>"
+      "ans": "<p className='mb-2'>Context is a critical component of sound decision-making in the world of consulting and international development - and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that allow them to connect the dots across many different areas including policy consulting, management consulting & sustainability, product management & tech ethics, impact investing, liberal arts, and core Business perspectives - via GGI's trademarked Masterclasses.   </p><br><p className='mb-3'>In this stage, Impact Fellows during their executive education also have access to the personalized Career Development Program of the Global Governance Initiative. This learning component is critical for those interested to work in organizations such as McKinsey, BCG, Bain, United Nations, World Bank, and inter-alia. Many of the Masterclasses are usually taken by incumbent partners and leadership of such organizations.  </p><br><p className='mb-3'> The Career Development Program further consists of two pillars.</p>"
+    },
+    {
+     "id":2,
+     "ques":"Stage 2 - Access to Employment Partnerships & Skin in the Game ",
+     "ans":" <p className='mb-3'>In order to understand the world, you have to have skin in the game. The world of Consulting and International Development is unpredictable and adventurous. Impact Fellows are put in tough spots where they refine their craft by publishing consulting-style research papers under the Council on Sustainable Development.  </p><br><p className='mb-3'>Theoretical learnings, intertwined with practical experiences are what make the Impact Fellowship unique. Passionate Fellows, and their mentors - delve into the hard of questions of international business, and public policy in this stage. </p><br> <p className='mb-3'>It is because of the experiential learning component, Impact Fellows are able to successfully outshine others in their Consulting Interviews.  </p>"
+    },
+    {
+      "id":3,
+      "ques":"Stage 3 - Community, Networking Nights, and Wellness Sessions ",
+      "ans":""
     }
   ]
   const [isOpened, setIsOpened] = useState(false);
@@ -119,7 +130,7 @@ const impactfellowship = () => {
 
       <Heading>With Impact Fellowship, The World is Your Classroom</Heading>
       <Steps data={stages} />
-      <Container>
+      {/* <Container>
         <p>Today's Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
         <h1 className='text-center pink text-xl font-semibold my-8'>Stage 1 - Upskilling   </h1>
         <p className='mb-2'>Context is a critical component of sound decision-making in the world of consulting and international development - and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that allow them to connect the dots across many different areas including policy consulting, management consulting & sustainability, product management & tech ethics, impact investing, liberal arts, and core Business perspectives - via GGI's trademarked Masterclasses.   </p>
@@ -127,7 +138,7 @@ const impactfellowship = () => {
         {isOpened && (<div>
           <p className='mb-3'>In this stage, Impact Fellows during their executive education also have access to the personalized Career Development Program of the Global Governance Initiative. This learning component is critical for those interested to work in organizations such as McKinsey, BCG, Bain, United Nations, World Bank, and inter-alia. Many of the Masterclasses are usually taken by incumbent partners and leadership of such organizations.  </p>
           <p className='mb-3'>The Career Development Program further consists of two pillars.  </p>
-          <h1 className='text-center pink text-xl font-semibold my-8'>Stage 3 - Access to Employment Partnerships & Skin in the Game  </h1>
+          <h1 className='text-center pink text-xl font-semibold my-8'>Stage 2 - Access to Employment Partnerships & Skin in the Game  </h1>
           <p className='mb-3'>In order to understand the world, you have to have skin in the game. The world of Consulting and International Development is unpredictable and adventurous. Impact Fellows are put in tough spots where they refine their craft by publishing consulting-style research papers under the Council on Sustainable Development.  </p>
           <p className='mb-3'>Theoretical learnings, intertwined with practical experiences are what make the Impact Fellowship unique. Passionate Fellows, and their mentors - delve into the hard of questions of international business, and public policy in this stage. </p>
           <p className='mb-3'>It is because of the experiential learning component, Impact Fellows are able to successfully outshine others in their Consulting Interviews.  </p>
@@ -141,7 +152,7 @@ const impactfellowship = () => {
           <p className='mb-2'>Impact MBA Scholars are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network at "wiggly" of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
         </div>)}
 
-      </Container>
+      </Container> */}
 
       <Heading>Learn What Matters via GGI Case-based Masterclasses in Management & Impact Consulting </Heading>
       <Masterclasses />
@@ -158,6 +169,7 @@ const impactfellowship = () => {
 
       <Heading>Frequently Asked Questions</Heading>
       <Accordion />
+      <Footer/>
     </>
   )
 }

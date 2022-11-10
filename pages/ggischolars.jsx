@@ -34,6 +34,7 @@ import amz from '../public/amz.jpg';
 import paytm from '../public/paytm.png';
 // -----------------------------------------------------
 import certificate from '../public/certificate.jpg'
+import Footer from '../components/global/Footer';
 
 const ggischolars = () => {
   const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
@@ -178,7 +179,7 @@ const ggischolars = () => {
       <Heading>Frequently Asked Questions</Heading>
       <Accordion />
       <Socials />
-
+      <Footer/>
     </div>
   )
 }

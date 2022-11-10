@@ -25,6 +25,7 @@ import paytm from '../public/paytm.png';
 import Curriculum from '../components/global/Curriculum';
 import Associations from '../components/global/Associations';
 import Gallery from '../components/global/Gallery';
+import Footer from '../components/global/Footer';
 
 const ggipolicyscholarsprogram = () => {
   const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
@@ -139,7 +140,8 @@ const ggipolicyscholarsprogram = () => {
 
       <Heading>Frequently Asked Questions </Heading>
       <Accordian />
-      <Socials />
+      {/* <Socials /> */}
+      <Footer/>
     </>
   )
 }
