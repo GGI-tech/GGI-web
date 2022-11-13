@@ -73,15 +73,15 @@ export default function Home() {
         <link rel='icon' href='/favicon.jpg' />
       </Head>
 
-      <Hero heading='' message='' />
+      <Hero heading='' home={true} message='' />
 
-      <div id='' className='p-4 flex justify-center'>
+      <div id='' className='p-4 text-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
           Learn More about Advancing Your Career
         </button>
       </div>
 
-      <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us"</Heading >
+      <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
       <Slider slides={SliderData} />
 
 

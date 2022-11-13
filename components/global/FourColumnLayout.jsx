@@ -10,7 +10,7 @@ const FourColumnLayout = ({ data }) => {
           return (
             <div className='flex flex-col text-center mt-6'>
               <div> <Image className='' src={e.img} /></div>
-              <h2 className='text-2xl h-20 md:h-36 lg:h-28 pt-2 mt-4'>{e.title}</h2>
+              <h2 className='text-2xl font-bold h-20 md:h-36 lg:h-28 pt-2 mt-4'>{e.title}</h2>
               <p className='text-justify mt-3 p-2'>{e.body}</p>
             </div>
           );

@@ -39,9 +39,9 @@ html {
 h1,
 h2,
 h3 {
-  font-weight: 800;
+  /* font-weight: 700; */
   font-family: PoppinsSemi, 'Poppins', sans-serif;
-  color: #CF1515;
+  /* color: #CF1515; */
   text-align: center;
   letter-spacing: 0.04em;
   text-justify: inter-word;
