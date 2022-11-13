@@ -51,15 +51,26 @@ const Navbar = () => {
           <Link href='/ggipolicyscholarsprogram'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
             MPP
           </li></Link>
-          <Link href='/impactfellowship'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
-            Fellowship
-          </li></Link>
-          <Link href='/reviews'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
-            Employment Report
-          </li></Link>
-          <Link href='/contact'><li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
-            Explore
-          </li></Link>
+          <Link href='/impactfellowship'>
+            <li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
+              Fellowship
+            </li>
+          </Link>
+          <Link href='/reviews'>
+            <li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
+              Employment Report
+            </li>
+          </Link>
+          <li className='group relative inline-block p-4 cursor-pointer text-base hover:text-black '>
+            <span class="group relative inline-block">
+              <button class="inline-flex items-center rounded font-semibold">Explore</button>
+              <ul class="absolute hidden pt-1 primary font-medium group-hover:block">
+                <li class=""><a class="whitespace-no-wrap block rounded-t bg-gray-100 py-2 px-6 hover:bg-gray-400" target="_blank" href="https://www.schrodingerbyggi.org/">Free Series</a></li>
+                <li class=""><a class="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400" href="#">Blogs & Research</a></li>
+                <li class=""><a class="whitespace-no-wrap block rounded-b bg-gray-100 py-2 px-6 hover:bg-gray-400" href="#">Careers</a></li>
+              </ul>
+            </span>
+          </li>
         </ul>
 
         {/* Mobile Button */}
