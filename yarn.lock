@@ -2598,6 +2598,11 @@
   dependencies:
     "picomatch" "^2.2.1"
 
+"reading-time@^1.5.0":
+  "integrity" "sha512-onYyVhBNr4CmAxFsKS7bz+uTLRakypIe4R+5A824vBSkQy/hB3fZepoVEf8OVAxzLvK+H/jm9TzpI3ETSm64Kg=="
+  "resolved" "https://registry.npmjs.org/reading-time/-/reading-time-1.5.0.tgz"
+  "version" "1.5.0"
+
 "refractor@^3.6.0":
   "integrity" "sha512-MY9W41IOWxxk31o+YvFCNyNzdkc9M20NoZK5vq6jkv4I/uh2zkWcfudj0Q1fovjUQJrNewS9NMzeTtqPf+n5EA=="
   "resolved" "https://registry.npmjs.org/refractor/-/refractor-3.6.0.tgz"

@@ -4,13 +4,15 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import SyntaxHighlighter from 'react-syntax-highlighter'
+// import readingTime from 'reading-time'
 
 const components = { SyntaxHighlighter }
 
-const PostPage = ({ frontMatter: { title, date }, mdxSource }) => {
+const PostPage = ({ frontMatter: { title, date}, mdxSource }) => {
   return (
     <div className="mt-4">
       <h1>{title}</h1>
+ 
       <MDXRemote {...mdxSource} components={components}/>
     </div>
   )
@@ -32,8 +34,7 @@ const getStaticPaths = async () => {
 }
 
 const getStaticProps = async ({ params: { slug } }) => {
-  const markdownWithMeta = fs.readFileSync(path.join('posts',
-    slug + '.mdx'), 'utf-8')
+  const markdownWithMeta = fs.readFileSync(path.join('posts', slug + '.mdx'), 'utf-8')
 
   const { data: frontMatter, content } = matter(markdownWithMeta)
   const mdxSource = await serialize(content)

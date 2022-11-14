@@ -62,12 +62,12 @@ const Navbar = () => {
             </li>
           </Link>
           <li className='group relative inline-block p-4 cursor-pointer text-base hover:text-black '>
-            <span class="group relative inline-block">
-              <button class="inline-flex items-center rounded font-semibold">Explore</button>
+            <span className="group relative inline-block">
+              <button className="inline-flex items-center rounded font-semibold">Explore</button>
               <ul class="absolute hidden pt-1 primary font-medium group-hover:block">
-                <li class=""><a class="whitespace-no-wrap block rounded-t bg-gray-100 py-2 px-4 hover:bg-gray-400" target="_blank" href="https://www.schrodingerbyggi.org/">Free Series</a></li>
-                <li class=""><a class="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400" href="/blog">Blogs & Research</a></li>
-                <li class=""><a class="whitespace-no-wrap block rounded-b bg-gray-100 py-2 px-6 hover:bg-gray-400" href="/careers">Careers</a></li>
+                <li ><a className="whitespace-no-wrap block rounded-t bg-gray-100 py-2 px-4 hover:bg-gray-400" target="_blank" href="https://www.schrodingerbyggi.org/">Free Series</a></li>
+                <li ><a className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400" href="/blogs">Blogs & Research</a></li>
+                <li ><a className="whitespace-no-wrap block rounded-b bg-gray-100 py-2 px-6 hover:bg-gray-400" href="/careers">Careers</a></li>
               </ul>
             </span>
           </li>
