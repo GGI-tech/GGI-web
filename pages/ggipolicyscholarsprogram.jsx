@@ -59,7 +59,7 @@ const ggipolicyscholarsprogram = () => {
   }
   return (
     <>
-      <SlidingHero image={'./policy.jpg'} heading={"Learn Policy Skills Live, Join Global Network & Get Hired at GGI Policy Scholar to Become Leader in Society "} />
+      <SlidingHero image={'./policy.jpg'} title={["Learn Policy Skills Live, Join Global Network & Get Hired at GGI Policy Scholar to Become Leader in Society ", "GGI Policy Scholar seeks solutions - from geopolitics to sanctions along with government leaders  "]} />
 
       <div id='' className='p-4 flex justify-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
@@ -141,7 +141,7 @@ const ggipolicyscholarsprogram = () => {
       <Heading>Frequently Asked Questions </Heading>
       <Accordian />
       {/* <Socials /> */}
-      <Footer/>
+      <Footer />
     </>
   )
 }

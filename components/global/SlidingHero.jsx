@@ -11,7 +11,7 @@ import "swiper/css/bundle";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
-export default function SlidingHero({image}) {
+export default function SlidingHero({ image, title }) {
   return (
     <div className="relative">
       <Swiper
@@ -23,11 +23,28 @@ export default function SlidingHero({image}) {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
-        <SwiperSlide ><img src={image}/ > </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-     
+        <SwiperSlide >
+          <div style={{ backgroundImage: `url(${image})` }} className='flex items-center justify-center h-80 md:h-96 bg-center bg-cover'>{/*bg-fixed for parallax effect */}
+            {/* Overlay */} 
+            <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/10 z-[2]' />       {/* black/percentage  */}
+            <div className='flex flex-center md:w-3/5 m-5 p-5 text-white z-[2] mt-[-10rem]'>
+              <h2 className='mt-60 text-xl md:text-3xl font-bold text-center p-4 md:p-12 border-2'>{title[0]}</h2>
+              {/* <button className='px-8 py-2 border'>Book</button> */}
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div style={{ backgroundImage: `url(${image})` }} className='flex items-center justify-center h-80 md:h-96 bg-center bg-cover'>{/*bg-fixed for parallax effect */}
+            {/* Overlay */}
+            <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/10 z-[2]' />       {/* black/percentage  */}
+            <div className='flex flex-center md:w-3/5 m-5 p-5 text-white z-[2] mt-[-10rem]'>
+              <h2 className='mt-60 text-xl md:text-3xl font-bold text-center p-4 md:p-12 border-2'>{title[1]}</h2>
+              {/* <button className='px-8 py-2 border'>Book</button> */}
+            </div>
+          </div>
+        </SwiperSlide>
+
+
       </Swiper>
     </div>
   );

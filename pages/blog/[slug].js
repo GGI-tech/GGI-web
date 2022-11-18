@@ -8,12 +8,14 @@ import SyntaxHighlighter from 'react-syntax-highlighter'
 
 const components = { SyntaxHighlighter }
 
-const PostPage = ({ frontMatter: { title, date}, mdxSource }) => {
+const PostPage = ({ frontMatter: { title, date }, mdxSource }) => {
   return (
-    <div className="mt-4">
-      <h1>{title}</h1>
- 
-      <MDXRemote {...mdxSource} components={components}/>
+    <div className='mt-24 flex justify-center'>
+      <div className="m-2 md:w-4/5 sm:border-2 p-5">
+        <h1>{title}</h1>
+
+        <MDXRemote {...mdxSource} components={components} />
+      </div>
     </div>
   )
 }

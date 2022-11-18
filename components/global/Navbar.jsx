@@ -90,18 +90,34 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link href='/'>Home</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link href='/ggischolars'>MBA</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link href='/ggipolicyscholarsprogram'>MPP</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link href='/impactfellowship'>Fellowship</Link>
             </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link href='/reviews'>Employment Report</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link href='https://www.schrodingerbyggi.org'>Free Series</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link href='https://www.schrodingerbyggi.org'>Apply Now</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link href='/blogs'>Blogs and Research</Link>
+            </li>
+            <li onClick={handleNav} className='p-4  hover:text-gray-500'>
+              <Link href='/careers'>Careers</Link>
+            </li>
+            
           </ul>
         </div>
       </div>

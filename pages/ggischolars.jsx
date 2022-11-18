@@ -68,7 +68,7 @@ const ggischolars = () => {
   }
   return (
     <div>
-      <SlidingHero image={'./mba.jpeg'} heading={"Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"} />
+      <SlidingHero image={'./mba.jpeg'} title={["A 6 month weekend only hybrid program with a focus on real-world learning with CEOs ","Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"]} />
 
       <div id='' className='p-4 flex justify-center'>
         <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
