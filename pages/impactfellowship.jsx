@@ -72,7 +72,7 @@ const impactfellowship = () => {
   return (
     <>
       <div className='mt-10'></div>
-      <SlidingHero image={'./impactfellowship.jpg'} heading={"Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader  "} />
+      <SlidingHero image={'./impactfellowship.jpg'} title={["Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader","Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader"]} />
       <Heading>Why GGI Impact Fellowship Works ?</Heading>
       <FourColumnLayout data={fourcolumndata} />
       <Container>

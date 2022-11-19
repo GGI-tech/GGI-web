@@ -40,6 +40,7 @@ import UN from '../public/UN.jpg';
 import Worldbank from '../public/Worldbank.jpg';
 import gov from '../public/gov.jpg';
 import contact from '../public/contact.jpg'
+import Footer from '../components/global/Footer';
 
 
 export default function Home() {
@@ -138,7 +139,7 @@ export default function Home() {
       <div className='mt-24 flex justify-center'>
         <p className='md:w-3/5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
       </div>
-      {/* <YoutubeEmbed embedId="rokGy0huYEA" /> */}
+      <YoutubeEmbed embedId="8lWeJ3Ekq-I" />
 
 
 
@@ -241,8 +242,8 @@ export default function Home() {
       <Heading>Frequently Asked Questions</Heading>
       <Accordion />
 
-      <Socials />
-
+      {/* <Socials /> */}
+      <Footer/>
     </div>
   );
 }
