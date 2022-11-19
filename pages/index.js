@@ -9,6 +9,8 @@ import YoutubeEmbed from '../components/global/YoutubeEmbed';
 import Partners from '../components/global/Partners';
 import Accordion from '../components/global/Accordian';
 import Socials from '../components/global/Socials';
+import Contact from '../components/Contact';
+import Container from '../components/global/Container'
 //---------------------------------------------------------
 import poets from '../public/poets.jpg';
 import bcg from '../public/bcg.jpg';
@@ -37,6 +39,7 @@ import pwc from '../public/pwc.jpg';
 import UN from '../public/UN.jpg';
 import Worldbank from '../public/Worldbank.jpg';
 import gov from '../public/gov.jpg';
+import contact from '../public/contact.jpg'
 
 
 export default function Home() {
@@ -217,8 +220,24 @@ export default function Home() {
         </div>
       </div>
 
+      <Heading >Cofounder's Desk</Heading>
 
-      <Heading>Cofounder's Desk</Heading>
+      <div className="flex justify-center">
+        <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-4 md:mx-10">
+          <div className='flex flex-col justify-center content-center  col-span-1'>
+            <Contact />
+          </div>
+          <div className='col-span-1'>
+            <p className='p-8'>  GGI Co-Founders - Naman and Shatakshi have worked extensively at the intersection of public policy, technology, management consulting, & entrepreneurship at BCG, UN, Tony Blair Institute and have been recognized as Linkedin for Top Voice for work on gender equality and reimagining higher education. They would love to hear back from you on your experiences, grievances, and new ideas!
+            </p>
+            <p className='p-8 pt-2 text-center'>
+              <Image src={contact} />
+            </p>
+          </div>
+
+        </div>
+      </div>
+
       <Heading>Frequently Asked Questions</Heading>
       <Accordion />
 
