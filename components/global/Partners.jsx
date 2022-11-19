@@ -19,10 +19,13 @@ import Image from 'next/image';
 const Partners = ({ companies }) => {
     return (
         <div className='flex flex-row justify-center'>
-            <div className='p-8 lg:w-5/6 flex flex-row justify-center gap-3 flex-wrap'>
+            <div className='p-8 lg:w-5/6 flex flex-row justify-center gap-3 flex-wrap '>
                 {companies.map((name) => {
                     return (
-                        <div><Image src={name} alt='/' /></div>
+                        <div className='' style={{height:"100px"}}>
+                            <Image src={name} fill />
+                        </div>
+                     
                     )
                 })}
                 {/* <div><Image src={BCG} alt='/' /></div>
