@@ -37,7 +37,7 @@ import certificate from '../public/certificate.jpg'
 import Footer from '../components/global/Footer';
 
 const ggischolars = () => {
-  const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
+  const companies = [BCG, mckinsey, bain, kearney, ey, pwc,amz, paytm];
 
   const fourcolumndata = [ //to be fetched from database
     {
@@ -92,7 +92,7 @@ const ggischolars = () => {
       <YoutubeEmbed embedId='iuNMaVSwH0E' />
 
       <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
-      <Partners companies={companies} gap={10} />
+      <Partners companies={companies} />
 
       <Heading>Who is this Program for ?</Heading>
       <Container>

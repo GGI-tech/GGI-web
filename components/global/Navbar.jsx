@@ -31,6 +31,7 @@ const Navbar = () => {
   //   window.addEventListener('scroll', changeColor);
   // }, []);
 
+
   return (
     <div
       style={{ backgroundColor: `${color}` }}
@@ -56,7 +57,7 @@ const Navbar = () => {
               Fellowship
             </li>
           </Link>
-          <Link href='/reviews'>
+          <Link re href='/reviews'>
             <li className='p-4 cursor-pointer text-base hover:text-black hover:bg-slate-200'>
               Employment Report
             </li>
@@ -65,9 +66,9 @@ const Navbar = () => {
             <span className="group relative inline-block">
               <button className="inline-flex items-center rounded font-semibold">Explore</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
-                <li ><a className="whitespace-no-wrap block rounded-t bg-gray-100 py-2 px-4 hover:bg-gray-400" target="_blank" href="https://www.schrodingerbyggi.org/">Free Series</a></li>
-                <li ><a className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400" href="/blogs">Blogs & Research</a></li>
-                <li ><a className="whitespace-no-wrap block rounded-b bg-gray-100 py-2 px-6 hover:bg-gray-400" href="/careers">Careers</a></li>
+                <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className="whitespace-no-wrap block rounded-t bg-gray-100 py-2 px-4 hover:bg-gray-400" >Free Series</div></Link>
+                <Link href="/blogs" ><div className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400" >Blogs & Research</div></Link>
+                <Link href="/careers"><div className="whitespace-no-wrap block rounded-b bg-gray-100 py-2 px-6 hover:bg-gray-400" >Careers</div></Link>
               </ul>
             </span>
           </li>
@@ -106,7 +107,7 @@ const Navbar = () => {
               <Link href='/reviews'>Employment Report</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='https://www.schrodingerbyggi.org'>Free Series</Link>
+              <Link href='https://www.schrodingerbyggi.org' target={"_blank"}>Free Series</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link href='https://www.schrodingerbyggi.org'>Apply Now</Link>

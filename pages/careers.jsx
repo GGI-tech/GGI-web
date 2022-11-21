@@ -11,7 +11,7 @@ const careers = () => {
       <Head>
         <title>Careers | Global Governance Initiative </title>
       </Head>
-      <Hero key={1} heading='WELCOME TO YOUR GGI CAREER' message='Make your own GGI' image={'./careers.jpg'} />
+      <Hero key={1} heading='WELCOME TO YOUR GGI CAREER' message='Make your own GGI' image={'/careers.jpg'} />
 
       <Heading>A Career that fits your calling</Heading>
       <Container>
