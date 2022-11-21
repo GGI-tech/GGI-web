@@ -72,7 +72,8 @@ const Accordion = () => {
         <div className='flex flex-col justify-center items-center'>
             {FAQ.map((e) => {
                 return (
-                    <AccordionLayout title={e.ques}
+                    <AccordionLayout key={e.id}
+                        title={e.ques}
                         children={e.ans}
                         index={e.id}
                         activeIndex={activeIndex}

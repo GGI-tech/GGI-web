@@ -24,11 +24,11 @@ import clinton from '../public/clinton.png'
 import rjgupta from '../public/rajat_gupta.png'
 import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------
-import BCG from '../public/BCG_M.jpg';
-import mckinsey from '../public/mckinsey.jpg';
+import BCG from '../public/BCG.png';
+import mckinsey from '../public/mckinsey.webp';
 import bain from '../public/bain-logo.jpg';
 import kearney from '../public/Kearney.jpg';
-import ey from '../public/ey.jpg';
+import ey from '../public/ey.png';
 import pwc from '../public/pwc.jpg';
 import amz from '../public/amz.jpg';
 import paytm from '../public/paytm.png';
@@ -37,25 +37,29 @@ import certificate from '../public/certificate.jpg'
 import Footer from '../components/global/Footer';
 
 const ggischolars = () => {
-  const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
+  const companies = [BCG, mckinsey, bain, kearney, ey, pwc,amz, paytm];
 
   const fourcolumndata = [ //to be fetched from database
     {
+      "id":1,
       "img": rjgupta,
       "title": "Learn from Industry Leaders",
       "body": "The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem."
     },
     {
+      "id":2,
       "img": clinton,
       "title": "Get Recruited by Top Employers",
       "body": "GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations."
     },
     {
+      "id":3,
       "img": network,
       "title": "Become Part of Global Network",
       "body": "Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups."
     },
     {
+      "id":4,
       "img": poets,
       "title": "Globally Recognized",
       "body": "GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
@@ -122,7 +126,7 @@ const ggischolars = () => {
         <p className='mb-2'>Context is a critical component of sound decision-making in the world of Management Consulting, Investing, and Product Management - and breadth of knowledge is what creates a great analytical thinker and a leader. GGI prepares Impact MBA Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives - Via GGI's trademarked Masterclasses. </p>
         {!isOpened && (<div className='text-center' style={{ color: "blue" }} onClick={toggle}>Show more..</div>)}
         {isOpened && (<div>
-          <p className='mb-2'>In this stage, GGI's Impact MBA scholars will attend the 50+ hours of interactive Masterclasses (including the Mandatory MBA for Impact Masterclass) along with evaluative peer assignments. In order for the scholars to interact with industry leaders, Impact MBA scholars will also be provided unlimited exclusive access to renowned Guest Speaker's Masterclasses. </p>
+          <p className='mb-2'>In this stage, GGIs Impact MBA scholars will attend the 50+ hours of interactive Masterclasses (including the Mandatory MBA for Impact Masterclass) along with evaluative peer assignments. In order for the scholars to interact with industry leaders, Impact MBA scholars will also be provided unlimited exclusive access to renowned Guest Speaker's Masterclasses. </p>
           <p className='mb-2'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of consulting firms, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
           <p className='mb-2'>The MBA for Impact Masterclass will teach the core MBA curriculum in 10 hours, and these principles will be applied across Masterclasses in Consulting, Investing, Product Management, etc. For the Harvard 2+2, Yale Silver Scholars, and other deferred MBAs - this stage will ensure that you have touched the basics of core courses before the start of your MBA Program - completion of this stage will save time to effectively engage in networking on Wiggly during your MBAs. For the working professionals, this will stage allow you to solve problems with contextual intelligence from across the sectors in your day job. </p>
           <h1 className='text-center pink text-xl font-semibold my-8'>STAGE 2 - Access to Employment Partnerships & Microexperential learning in Consulting & PM and the Buddy Network </h1>

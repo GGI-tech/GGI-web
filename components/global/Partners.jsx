@@ -16,13 +16,16 @@ import Image from 'next/image';
 // import gov from '../../public/gov.jpg';
 
 
-const Partners = ({ companies }) => {
+const Partners = ({ companies,g }) => {
     return (
         <div className='flex flex-row justify-center'>
-            <div className='p-8 lg:w-5/6 flex flex-row justify-center gap-3 flex-wrap'>
-                {companies.map((name) => {
+            <div className='md:p-8 lg:w-5/6 flex flex-row justify-center gap-1 md:gap-4 flex-wrap'>
+                {companies.map((c) => {
                     return (
-                        <div><Image src={name} alt='/' /></div>
+                        <div className=''>
+                            <Image src={c} />
+                        </div>
+                     
                     )
                 })}
                 {/* <div><Image src={BCG} alt='/' /></div>

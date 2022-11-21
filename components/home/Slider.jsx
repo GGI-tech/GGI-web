@@ -35,7 +35,7 @@ const Slider = ({ slides }) => {
             >
               <FaArrowCircleLeft
                 onClick={prevSlide}
-                className='absolute top-[80%] left-[30px] text-black/70 cursor-pointer select-none z-[2]'
+                className='absolute top-[50%] left-[30px] text-black/50 cursor-pointer select-none z-[2]'
                 size={50}
               />
               {index === current && (
@@ -53,7 +53,7 @@ const Slider = ({ slides }) => {
               )}
               <FaArrowCircleRight
                 onClick={nextSlide}
-                className='absolute top-[80%] right-[30px] text-black/70 cursor-pointer select-none z-[2]'
+                className='absolute top-[50%] right-[30px] text-black/50 cursor-pointer select-none z-[2]'
                 size={50}
               />
             </div>

@@ -12,7 +12,7 @@ import { AiFillCheckCircle } from 'react-icons/ai'
 import network from '../public/network2.jpeg'
 import clinton from '../public/clinton.png'
 import arunm from '../public/arun_maira.jpg'
-import BCG from '../public/bcg.png';
+import BCG from '../public/bcg-g.jpg';
 import teach from '../public/teach.png';
 import Partners from '../components/global/Partners';
 import YoutubeEmbed from '../components/global/YoutubeEmbed'
@@ -27,21 +27,25 @@ import Footer from '../components/global/Footer'
 const impactfellowship = () => {
   const fourcolumndata = [ //to be fetched from database
     {
+      "id":1,
       "img": BCG,
       "title": "Learn from Mckinsey, BCG Mentors",
       "body": "The mentor guides you personally on the fundamentals of consulting by training you through a case interviews and teaching you how to advance your career.  "
     },
     {
+      "id":2,
       "img": teach,
       "title": "Write  Consulting Style Paper",
       "body": "As GGI Impact Fellow you learn consulting practice by actually writing a consulting style research paper, thereby increasing your skill and enhancing your profile"
     },
     {
+      "id":3,
       "img": clinton,
       "title": "Advance Your Career with Top Employers",
       "body": "GGI has forged strong partnerships with leading management consulting and development consulting organizations."
     },
     {
+      "id":4,
       "img": network,
       "title": "Become Part of Purposeful Community",
       "body": "This global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups.  "

@@ -125,7 +125,7 @@ const Card = ({ title, img, text }) => {
 const reviews = () => {
   return (
     <>
-      <Hero  image={'./reviews.jpg'}/>
+      <Hero image={"/reviews.webp"} />
       <div className='md:mx-12 mb-96 place-items-center h-screen grid grid-cols-1 sm:grid-cols-3'>
         <div className='r1'>
           {data1.map((e) => {
