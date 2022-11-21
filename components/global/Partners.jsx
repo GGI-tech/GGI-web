@@ -16,14 +16,14 @@ import Image from 'next/image';
 // import gov from '../../public/gov.jpg';
 
 
-const Partners = ({ companies }) => {
+const Partners = ({ companies,gap=3 }) => {
     return (
         <div className='flex flex-row justify-center'>
-            <div className='p-8 lg:w-5/6 flex flex-row justify-center gap-3 flex-wrap '>
+            <div className={`md:p-8 lg:w-5/6 flex flex-row justify-center gap-1 md:gap-${gap} flex-wrap`}>
                 {companies.map((name) => {
                     return (
-                        <div className='' style={{height:"100px"}}>
-                            <Image src={name} fill />
+                        <div className=''>
+                            <Image src={name} />
                         </div>
                      
                     )

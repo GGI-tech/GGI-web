@@ -160,39 +160,39 @@ const Footer = () => {
 
                 <div className="grid lg:grid-cols-4 md:grid-cols-2">
                     <div className="mb-6">
-                        <h5 className="uppercase font-bold mb-2.5">Links</h5>
+                        <h5 className="uppercase font-bold mb-2.5">Our programs</h5>
 
                         <ul className="list-none mb-0">
                             <li>
-                                <a href="#!" className="text-white">Link 1</a>
+                                <a href="#!" className="text-white">MBA Scholars</a>
                             </li>
                             <li>
-                                <a href="#!" className="text-white">Link 2</a>
+                                <a href="#!" className="text-white">Policy Scholars</a>
                             </li>
                             <li>
-                                <a href="#!" className="text-white">Link 3</a>
+                                <a href="#!" className="text-white">Impact Fellowship</a>
                             </li>
                             <li>
-                                <a href="#!" className="text-white">Link 4</a>
+                                <a href="#!" className="text-white">Young Leaders Program</a>
                             </li>
                         </ul>
                     </div>
 
                     <div className="mb-6">
-                        <h5 className="uppercase font-bold mb-2.5">Links</h5>
+                        <h5 className="uppercase font-bold mb-2.5">Learning Tools</h5>
 
                         <ul className="list-none mb-0">
                             <li>
-                                <a href="#!" className="text-white">Link 1</a>
+                                <a href="#!" className="text-white">Trinity</a>
                             </li>
                             <li>
-                                <a href="#!" className="text-white">Link 2</a>
+                                <a href="#!" className="text-white">Schrodinger</a>
                             </li>
                             <li>
-                                <a href="#!" className="text-white">Link 3</a>
+                                <a href="#!" className="text-white">Wiggly</a>
                             </li>
                             <li>
-                                <a href="#!" className="text-white">Link 4</a>
+                                <a href="#!" className="text-white">LMS</a>
                             </li>
                         </ul>
                     </div>
@@ -237,7 +237,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="text-center p-4" style={{"backgroundColor": "rgba(0, 0, 0, 0.2);"}}>
+            <div className="text-center p-4" style={{"backgroundColor": "rgba(0, 0, 0, 0.2)"}}>
                 © 2022 Copyright:
                 <a className="text-white" href="https://tailwind-elements.com/">Global Governance Initiative</a>
             </div>

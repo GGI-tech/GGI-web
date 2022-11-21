@@ -12,7 +12,7 @@ import { AiFillCheckCircle } from 'react-icons/ai'
 import network from '../public/network2.jpeg'
 import clinton from '../public/clinton.png'
 import arunm from '../public/arun_maira.jpg'
-import BCG from '../public/bcg.png';
+import BCG from '../public/bcg-g.jpg';
 import teach from '../public/teach.png';
 import Partners from '../components/global/Partners';
 import YoutubeEmbed from '../components/global/YoutubeEmbed'

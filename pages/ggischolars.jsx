@@ -24,11 +24,11 @@ import clinton from '../public/clinton.png'
 import rjgupta from '../public/rajat_gupta.png'
 import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------
-import BCG from '../public/BCG_M.jpg';
-import mckinsey from '../public/mckinsey.jpg';
+import BCG from '../public/BCG.png';
+import mckinsey from '../public/mckinsey.webp';
 import bain from '../public/bain-logo.jpg';
 import kearney from '../public/Kearney.jpg';
-import ey from '../public/ey.jpg';
+import ey from '../public/ey.png';
 import pwc from '../public/pwc.jpg';
 import amz from '../public/amz.jpg';
 import paytm from '../public/paytm.png';
@@ -41,21 +41,25 @@ const ggischolars = () => {
 
   const fourcolumndata = [ //to be fetched from database
     {
+      "id":1,
       "img": rjgupta,
       "title": "Learn from Industry Leaders",
       "body": "The top CXOs write their own business cases, and teach core Business Concepts via designing a case-based learning ecosystem."
     },
     {
+      "id":2,
       "img": clinton,
       "title": "Get Recruited by Top Employers",
       "body": "GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations."
     },
     {
+      "id":3,
       "img": network,
       "title": "Become Part of Global Network",
       "body": "Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups."
     },
     {
+      "id":4,
       "img": poets,
       "title": "Globally Recognized",
       "body": "GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
@@ -88,7 +92,7 @@ const ggischolars = () => {
       <YoutubeEmbed embedId='iuNMaVSwH0E' />
 
       <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
-      <Partners companies={companies} />
+      <Partners companies={companies} gap={10} />
 
       <Heading>Who is this Program for ?</Heading>
       <Container>
