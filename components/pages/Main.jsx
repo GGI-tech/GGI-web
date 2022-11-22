@@ -130,7 +130,7 @@ const Main = () => {
 
 
 
-            <Heading>You Solve Cases & Network with World's Top CEOs, Partners, Consulting, Policy, Product Leaders </Heading>
+            <Heading>You Solve Cases & Network with World&#39;s Top CEOs, Partners, Consulting, Policy, Product Leaders </Heading>
             <Gallery />
 
 
@@ -145,23 +145,23 @@ const Main = () => {
             <div className="p-3 md:p-12 flex justify-center skin">
                 <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
                     <div className='flex flex-col text-center'>
-                        <div> <Image className='' src={poets} /></div>
-                        <p className='mt-3 '>"In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni"</p>
+                        <div> <Image className='' src={poets} alt="" /></div>
+                        <p className='mt-3 '>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni&#34;</p>
                         <p className='mt-10'>— YOURSTORY</p>
                     </div>
                     <div className='flex flex-col text-center'>
-                        <div> <Image src={bcg} /></div>
-                        <p className='mt-1'>"Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth"</p>
+                        <div> <Image src={bcg} alt=""/></div>
+                        <p className='mt-1'>&#34;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth&#34;</p>
                         <p className='mt-10'>— BCG Global Media</p>
                     </div>
                     <div className='flex flex-col text-center'>
-                        <div><Image className='' src={Linkedin} /></div>
-                        <p className='mt-10'>"Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.</p>
+                        <div><Image className='' src={Linkedin} alt="" /></div>
+                        <p className='mt-10'>&#34;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&#34;</p>
                         <p className='mt-10'> — Linkedin News</p>
                     </div>
                     <div className='flex flex-col text-center'>
-                        <div><Image src={yrstory} /></div>
-                        <p className='mt-6 '>“The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.” </p>
+                        <div><Image src={yrstory} alt=""/></div>
+                        <p className='mt-6 '>&#34;The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.&#34; </p>
                         <p className='mt-10'> — YourStory</p>
                     </div>
                 </div>
@@ -210,7 +210,7 @@ const Main = () => {
             </div>
             <div className="flex justify-center">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
-                    <div className='col-span-2'><Image src={bhaskar_chakra} /></div>
+                    <div className='col-span-2'><Image src={bhaskar_chakra} alt=""/></div>
                     <div className='flex flex-col justify-center content-center gap-7 p-10 col-span-1'>
                         <p className='text-3xl tracking-widest font-extrabold'>GGI Advisor</p>
                         <p className='text-xl'>Bhaskar Chakravorti</p>
@@ -219,7 +219,7 @@ const Main = () => {
                 </div>
             </div>
 
-            <Heading >Cofounder's Desk</Heading>
+            <Heading >Cofounder&#39;s Desk</Heading>
 
             <div className="flex justify-center">
                 <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-4 md:mx-10">
@@ -230,7 +230,7 @@ const Main = () => {
                         <p className='p-8'>  GGI Co-Founders - Naman and Shatakshi have worked extensively at the intersection of public policy, technology, management consulting, & entrepreneurship at BCG, UN, Tony Blair Institute and have been recognized as Linkedin for Top Voice for work on gender equality and reimagining higher education. They would love to hear back from you on your experiences, grievances, and new ideas!
                         </p>
                         <p className='p-8 pt-2 text-center'>
-                            <Image src={contact} />
+                            <Image src={contact} alt=""/>
                         </p>
                     </div>
 

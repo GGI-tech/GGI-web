@@ -1,6 +1,6 @@
-import {React, useState} from 'react'
+import { React, useState } from 'react'
 import AccordionLayout from './AccordianLayout/AccordianLayout';
-const Steps = ({data}) => {
+const Steps = ({ data }) => {
     const [activeIndex, setActiveIndex] = useState(3);
 
     return (
@@ -9,10 +9,11 @@ const Steps = ({data}) => {
                 return (
                     <AccordionLayout key={e.id}
                         title={e.ques}
-                        children={e.ans}
                         index={e.id}
                         activeIndex={activeIndex}
-                        setActiveIndex={setActiveIndex} />
+                        setActiveIndex={setActiveIndex} >
+                            {e.ans}
+                        </AccordionLayout>
 
                 );
             })}

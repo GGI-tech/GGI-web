@@ -7,8 +7,8 @@ const OfficialPartners = () => {
     return (
         <div className='flex justify-center'>
             <div className='w-3/5 gap-5 flex flex-row flex-wrap justify-around'>
-                <Image src={fletchers}/>
-                <Image src={ibgc}/>
+                <Image src={fletchers} alt=""/>
+                <Image src={ibgc} alt=""/>
                 
             </div>
         </div>

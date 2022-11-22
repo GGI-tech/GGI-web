@@ -1,5 +1,6 @@
 import MPP from "../components/pages/MPP"
 import Head from "next/head"
+
 const ggipolicyscholarsprogram = () => {
 
   return (
