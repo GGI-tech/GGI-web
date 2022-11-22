@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* <p style={{ color: `${textColor}` }} className='font-bold text-4xl'>
             Global Governance Initiative
           </p> */}
-          <Image style={{ cursor: "pointer" }} height={70} width={160} src={img} />
+          <Image style={{ cursor: "pointer" }} alt="/" height={70} width={160} src={img} />
           {/* <img height={0} src={img} /> */}
         </Link>
         <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex'>

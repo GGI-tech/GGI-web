@@ -31,7 +31,7 @@ html {
 
 /* headings */
 .primary {
-  color: #CF1515;
+  color: #C00005;
 }
 .pink{
   color: #FF6161;
@@ -45,7 +45,6 @@ h3 {
   /* color: #CF1515; */
   text-align: center;
   letter-spacing: 0.04em;
-  text-justify: inter-word;
 }
 
 p,ul {

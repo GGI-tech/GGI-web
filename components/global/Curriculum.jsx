@@ -41,7 +41,7 @@ const Curriculum = () => {
                     <p>You continue to be a part of the family post your graduation</p>
                 </div>
                 <div className=''>
-                    <p className='pink font-bold'>1:1 Founders' Office Hours </p>
+                    <p className='pink font-bold'>1:1 Founders&#39; Office Hours </p>
                     <p>During graduation. 1 to take forward your MBA dreams  </p>
                 </div>
                 <div className=''>

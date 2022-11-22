@@ -1,17 +1,19 @@
-import {React, useState} from 'react'
+import { React, useState } from 'react'
 import AccordionLayout from './AccordianLayout/AccordianLayout';
-const Steps = ({data}) => {
+const Steps = ({ data }) => {
     const [activeIndex, setActiveIndex] = useState(3);
 
     return (
         <div className='flex flex-col justify-center items-center'>
             {data.map((e) => {
                 return (
-                    <AccordionLayout title={e.ques}
-                        children={e.ans}
+                    <AccordionLayout key={e.id}
+                        title={e.ques}
                         index={e.id}
                         activeIndex={activeIndex}
-                        setActiveIndex={setActiveIndex} />
+                        setActiveIndex={setActiveIndex} >
+                            {e.ans}
+                        </AccordionLayout>
 
                 );
             })}

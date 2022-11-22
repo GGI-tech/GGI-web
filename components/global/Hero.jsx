@@ -13,11 +13,12 @@ const Hero = ({ home, image, heading, message }) => {
         </div> :
         <div className="relative mt-12 p-24" style={{ position: 'relative', width: '100vw', height: '66.66vw' }}>
           <Image
+            alt='/'
             src={`${image}`}
             layout="fill"
             objectFit="cover"
           />
-          {heading?<h1 class="absolute text-xl md:text-4xl p-8 md:p-12 border-2 font-bold text-center bg-black/20 z-[2] text-white top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          {heading?<h1 className="absolute text-xl md:text-4xl p-8 md:p-12 border-2 font-bold text-center bg-black/20 z-[2] text-white top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
             {heading}</h1>:<div></div>}
         </div>
      

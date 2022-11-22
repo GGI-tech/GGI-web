@@ -74,10 +74,11 @@ const Accordion = () => {
                 return (
                     <AccordionLayout key={e.id}
                         title={e.ques}
-                        children={e.ans}
                         index={e.id}
                         activeIndex={activeIndex}
-                        setActiveIndex={setActiveIndex} />
+                        setActiveIndex={setActiveIndex} >
+                        {e.ans}
+                    </AccordionLayout>
 
                 );
             })}
