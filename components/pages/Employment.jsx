@@ -147,7 +147,7 @@ const Employment = () => {
                     })}
                 </div>
                 <div className='r1'>
-                    <Card key={e.id} title={e.title} img={e.img} text={e.text} />
+                    <Card  />
                 </div>
             </div>
             
