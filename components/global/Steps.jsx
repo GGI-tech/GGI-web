@@ -7,7 +7,8 @@ const Steps = ({data}) => {
         <div className='flex flex-col justify-center items-center'>
             {data.map((e) => {
                 return (
-                    <AccordionLayout title={e.ques}
+                    <AccordionLayout key={e.id}
+                        title={e.ques}
                         children={e.ans}
                         index={e.id}
                         activeIndex={activeIndex}
