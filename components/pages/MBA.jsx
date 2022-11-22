@@ -24,7 +24,7 @@ import clinton from '../../public/clinton.png'
 import rjgupta from '../../public/rajat_gupta.png'
 import poets from '../../public/poetsnquants.png'
 // -------------------------------------------------------
-import BCG from '../../public/BCG.png';
+import BCG from '../../public/bcg.png';
 import mckinsey from '../../public/mckinsey.png';
 import bain from '../../public/bain-logo.jpg';
 import kearney from '../../public/Kearney.jpg';
