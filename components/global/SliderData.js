@@ -1,8 +1,8 @@
 
 export const SliderData = [
     {
-      image:
-        'https://images.unsplash.com/photo-1535224206242-487f7090b5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+      image:'/ansh.jpg',
+      review:"Shortly after GGI, I got placed in McKinsey & Company. In fact, I will be moving to Mumbai to work as a Business Analyst. Also after the masterclass, having won the EY Scholarship for entrepreneurship, I completed an internship at EY as well. Amongst all the sectors, I am especially excited to contribute to the public sector and private equity verticals at McKinsey. GGI#&39;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process. :)"
     },
     {
       image:

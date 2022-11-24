@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className='fixed left-0 top-0 w-full z-10'
+      className='border-gray-200 shadow-md fixed left-0 top-0 w-full z-10'
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center text-white'>
         <Link href='/'>

@@ -89,7 +89,7 @@ export default function Contact() {
 
       <label
         htmlFor="fullname"
-        className="text-gray-500 font-light mt-8 dark:text-gray-50"
+        className="text-gray-500  mt-8 dark:text-gray-50"
       >
         Full name<span className="text-red-500 dark:text-gray-50">*</span>
       </label>
@@ -100,13 +100,13 @@ export default function Contact() {
           setFullname(e.target.value);
         }}
         name="fullname"
-        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500  text-gray-500"
       />
 
 
       <label
         htmlFor="email"
-        className="text-gray-500 font-light mt-8 dark:text-gray-50"
+        className="text-gray-500  mt-8 dark:text-gray-50"
       >
         E-mail<span className="text-red-500">*</span>
       </label>
@@ -117,13 +117,13 @@ export default function Contact() {
         onChange={(e) => {
           setEmail(e.target.value);
         }}
-        className="bg-transparent border-b py-2 pl-2 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+        className="bg-transparent border-b py-2 pl-2 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500  text-gray-500"
       />
 
 
       <label
         htmlFor="subject"
-        className="text-gray-500 font-light mt-4 dark:text-gray-50"
+        className="text-gray-500  mt-4 dark:text-gray-50"
       >
         Subject<span className="text-red-500">*</span>
       </label>
@@ -134,12 +134,12 @@ export default function Contact() {
         onChange={(e) => {
           setSubject(e.target.value);
         }}
-        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500  text-gray-500"
       />
 
       <label
         htmlFor="message"
-        className="text-gray-500 font-light mt-2 dark:text-gray-50"
+        className="text-gray-500  mt-2 dark:text-gray-50"
       >
         Message<span className="text-red-500">*</span>
       </label>
@@ -149,13 +149,13 @@ export default function Contact() {
         onChange={(e) => {
           setMessage(e.target.value);
         }}
-        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500  text-gray-500"
       ></textarea>
 
       <div className="flex flex-row items-center justify-start">
         <button
           type="submit"
-          className="px-10 mt-3 py-1 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+          className="px-10 mt-3 py-1 bg-[#130F49] text-gray-50  rounded-md text-lg flex flex-row items-center"
         >
           Submit
           {/* <svg

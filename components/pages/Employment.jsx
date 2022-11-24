@@ -8,62 +8,62 @@ const data1 = [
     {
         "id": 1,
         "title": "KARAN DAVID, BAIN & COMPANY",
-        "img": "./karan_david.jpg",
+        "img": "/karan_david.jpg",
         "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
     },
     {
         "id": 2,
         "title": "ANAMITRA MUNSI, BOSTON CONSULTING GROUP",
-        "img": "./ana.jpg",
+        "img": "/ana.jpg",
         "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
     },
     {
         "id": 3,
         "title": " JAYESH JAWANDHIA, BCG",
-        "img": "./Jayesh.jpg",
+        "img": "/Jayesh.jpg",
         "text": "Hey Shatakshi, I'll be joining BCG next month. <br><br> Thank you so much for all the help, couldn't have been possible without you and GGI. It was a great learning experience"
     },
     {
         "id": 4,
         "title": "MAANYA CHARY KALRA, WORLD BANK GROUP",
-        "img": "./maanya.jpg",
+        "img": "/maanya.jpg",
         "text": "I think ever since I first stumbled upon GGI, my perspective towards my career has changed immensely. My GGI Fellowship lasted 2 months from Oct to Dec'20, and it simply curated itself into a glass half full situation wherein I could scrape off the shadows of the pandemic tainted hiring freezes and just breathe and plan for the future.<br><br> GGI Masterclasses, founder office hours, peer sessions, and of course the research paper, all in unison collected my professional ambitions and shaped them in a way that I could somehow manage to achieve them. My weeks are covered with working on my bit towards social behavioral change by running my content portal @hasrat.work and working full time at IFC."
     },
     {
         "id": 5,
         "title": "NISHITA GUPTA, BCG",
-        "img": "Schermata.jpg",
+        "img": "/Schermata.jpg",
         "text": "Shortly after the GGI Policy Consulting Masterclass, I bagged an offer to join BCG. It was only during the Policy Consulting masterclass that I was introduced to solving cases and the world of consulting.<br><br> I can never forget that moment when it all seemed worth it, the effort that went in while preparing. "
     },
     {
         "id": 6,
         "title": "LABONI SINGH, BRIDGESPAN",
-        "img": "./laboni.jpg",
+        "img": "/laboni.jpg",
         "text": "Shortly after GGI, I was offered a role by Bridgespan. I will soon be joining the nonprofit consulting organization this year. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup and the third on Management Communications.<br><br> I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It's relevant and important."
     },
     {
         "id": 7,
         "title": "MUSKAAN MALHOTRA,  COUNCIL ON ENERGY, ENVIRONMENT, AND WATER(CEEW)",
-        "img": "./Muskaant.jpg",
+        "img": "/Muskaant.jpg",
         "text": "Shortly after GGI, I joined Council on Energy, Environment, and Water (CEEW). During my interview, my research as a GGI fellow on water woes in Uttar Pradesh and Punjab came in handy for engaging discussions. GGI fellowship started during my college at SRCC. At GGI, I had a lot of opportunities coming in because I got exposed to a lot of sectors. Topics at GGI such as policy and of course consulting were extremely valuable. <br><br>I knew about CEEW because of my interest in climate change and energy security. In fact, I was also excited since the net zero target of India for 2017 was a calculation of CEEW. From what I know, CEEW mostly doesnt hire undergrads , and that is where the employment collaboration of CEEW with GGI as part of GGI's definitely helped me get noticed.<br><br> I am really happy about my work at CEEW because I am getting to work where my interest lies. I’m really thankful to GGI for getting me this opportunity and creating this opportunity for me. Question- One word that would describe my GGI experience?<br><br>I think my one word would be enlightening!<br><br>  Starting with the masterclass and then the fellowship, I had a very different experience than a lot of other people. I really learned how to think analytically and apply tools from the masterclasses."
 
     },
     {
         "id": 8,
         "title": "DARSHITA DEVNANI, SATTVA CONSULTING",
-        "img": "./DARSHITA.jpg",
+        "img": "/DARSHITA.jpg",
         "text": "Shortly after GGI, I joined Sattva Consulting.<br><br> I'm a commerce graduate from Gargi college. I was working at EY as an Assurance Associate in their Private Equity team.<br>I came across GGI six months ago, and soon I enrolled for the Impact MBA Scholars program. And here is my GGI journey:<br><br>  1. I got to learn about Management and Policy consulting at length; and it resonated with my mid-term and long-term goal of exploring and working in these sectors. 2. I became part of a very diverse community who helped me in each step of the way; frame and shape my mid-term and long-term career. 3. Lastly, I wanted to make a switch from Audit to a Consulting sector. In a span of one month, I came across diverse individuals from B-schools working at Consulting firms and got to connect Naman and Shatakshi (the founders) regarding this. They helped me end to end as a fellow later.<br><br>  I finally got an offer letter from an impact consulting firm, and I am excited to start my journey there!"
     },
     {
         "id": 9,
         "title": " VIDYADHARI M, TECH MAHINDRA MANAGEMENT CONSULTING",
-        "img": "./VidyahariM.jpg",
+        "img": "/VidyahariM.jpg",
         "text": "Shortly after GGI, I joined Tech Mahindra Management Consulting Team.<br><br>I joined GGI at the age of 30, which is technically a little late as I was on the other end of the bell curve.<br><br>I was considering a formal MBA before joining GGI’s Impact MBA Scholar program. Through Global Governance Initiative, I wanted to test the waters on how I would fit into the MBA ecosystem, and get a head start on gaining the necessary skills. In these aspects, GGI worked out really well for me.<br><br>  It got me up to speed with for example Economics, something I had stopped studying 15 years ago. Earlier I had understood management consulting on a very superficial level only. <br><br>After GGI, I got invaluable insights into the deeper working of this industry like- what work they do as we did multiple cases ourselves during Masterclasses with speakers and outside and what kind of problems they solve."
     },
     {
         "id": 10,
         "title": "RITIKAA KHANNA, COUNCIL ON ENERGY, ENVIRONMENT AND WATER (CEEW)",
-        "img": "./Ritikaa.jpg",
+        "img": "/Ritikaa.jpg",
         "text": "Shortly after GGI, I joined Council on Energy, Environment and Water(CEEW). <br><br> I got introduced to GGI through a competition that was being held by GGI.It was a national - level policy consulting challenge, and a couple of my friends and I participated together.It went really well for me, and I also got introduced to GGI Masterclasses through that competition.<br><br> My first GGI masterclass was Management Consulting and Sustainability, and that was the first time I got introduced to the world of Management Consulting.I was in my final year of Economics and I didn't have much exposure to Management Consulting or the Corporate world for that matter. <br><br>  The entire 10 hours were so informative and by the end, I realized that was the most productive Sunday I have ever had in my life! Soon after, I applied for the fellowship, and I was fortunate enough to get selected.The following months of the GGI fellowship were such an enriching experience for me."
     }
 ]
@@ -72,44 +72,44 @@ const data2 = [
     {
         "id": 1,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
-        "img": "./sayam.jpg",
+        "img": "/sayam.jpg",
         "text": ""
     },
     {
         "id": 2,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
-        "img": "./sayam.jpg",
+        "img": "/sayam.jpg",
         "text": ""
     },
     {
         "id": 3,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
-        "img": "./sayam.jpg",
+        "img": "/sayam.jpg",
         "text": ""
     },
     {
         "id": 4,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
-        "img": "./sayam.jpg",
+        "img": "/sayam.jpg",
         "text": ""
     },
     {
         "id": 5,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
-        "img": "./sayam.jpg",
+        "img": "/sayam.jpg",
         "text": ""
     }
 ]
 const Card = ({ title, img, text }) => {
     return (
 
-        <div className="max-w-sm my-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div className="mx-5 min-h-screen my-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="p-5">
                 <a href="#">
                     <h5 className="mb-2 underline primary text-xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
                 </a>
                 <a href="#">
-                    <Image className="" src={img} alt="" />
+                    <Image className="" src={img} layout="fill" alt="" />
                 </a>
                 <p className="my-5 font-normal text-gray-700 dark:text-gray-400" dangerouslySetInnerHTML={{ __html: text }}></p>
                 <a href="#" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -129,7 +129,7 @@ const Employment = () => {
     return (
         <>
             <Hero image={"/reviews.webp"} />
-            <div className='md:mx-12 mb-96 place-items-center h-screen grid grid-cols-1 sm:grid-cols-3'>
+            <div className='md:mx-12 mb-96 place-items-center h-auto grid grid-cols-1 sm:grid-cols-3'>
                 <div className='r1'>
                     {data1.map((e) => {
                         return (
@@ -147,10 +147,24 @@ const Employment = () => {
                     })}
                 </div>
                 <div className='r1'>
-                    <Card  />
+                    {/* <Card  /> */}
                 </div>
             </div>
-            
+            {/* <div class="mx-5 min-h-screen grid place-content-center">
+                <div class="bg-gradient-to-r from-blue-400 to-indigo-500 rounded-2xl text-white p-8 text-center h-72 max-w-sm mx-auto">
+                    <h1 class="text-3xl mb-3">Hi George</h1>
+                    <p class="text-lg">You can contact us whenever you need help or just curious about something.</p>
+                </div>
+                <div class="bg-white py-8 px-10 text-center rounded-md shadow-lg transform -translate-y-20 sm:-translate-y-24 max-w-xs mx-auto">
+                    <h2 class="font-semibold text-2xl mb-6">Start chatting</h2>
+                    <img class="w-20 h-20 object-cover rounded-full mx-auto shadow-lg" src="https://images.unsplash.com/photo-1611342799915-5dd9f1665d04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="User avatar"/>
+                        <p class="capitalize text-xl mt-1">essie walton</p>
+                        <span class="flex items-center border rounded-full w-24 pr-2 justify-center mx-auto mt-2 mb-12"><div class="bg-green-400 rounded-full w-2.5 h-2.5 block mr-2"></div>Active</span>
+                        <button class="rounded-md bg-gradient-to-r from-blue-400 to-indigo-500 text-xl text-white pt-3 pb-4 px-8 inline">Send a message</button>
+                </div>
+            </div> */}
+            <Heading>Frequently Asked Questions</Heading>
+            <Accordion />
         </>
     )
 }
