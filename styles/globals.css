@@ -2,22 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: PoppinsBold;
+  src: url('../fonts/Poppins-Bold.ttf');
+}
 
 /* fonts */
 @font-face {
   font-family: PoppinsSemi;
-  src: url('/fonts/Poppins-SemiBold.ttf');
+  src: url('../fonts/Poppins-SemiBold.ttf');
 }
 
 @font-face {
   font-family: PoppinsLight;
-  src: url('/fonts/Poppins-Light.ttf');
+  src: url('../fonts/Poppins-Light.ttf');
 }
 
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Raleway', sans-serif;
+  font-family: PoppinsLight, sans-serif;
 }
 
 .h80vh {
@@ -27,8 +31,9 @@ html {
 /* additional colors */
 .skin {
   background-color: #ffe5b4;
-  /* background: linear-gradient(to right, #ffe5b4 60%, #FFD586); */
-  background-color: #f7f6f6e3;
+  /* background: linear-gradient(to right, #ffe5b4 60%, #FFD586);*/
+  background-color: #F2F3F5;
+  background: linear-gradient(to right , #F2F3F5 30%, white,#F2F3F5 );
 }
 
 /* headings */
@@ -43,6 +48,7 @@ html {
 h1,
 h2,
 h3 {
+  font-family: PoppinsBold, serif;
   font-weight: 800;
   /* color: #CF1515; */
   text-align: center;

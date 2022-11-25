@@ -29,8 +29,8 @@ const Slider = ({ slides }) => {
               key={index}
               className={
                 index === current
-                  ? 'opacity-[1] ease-in duration-1000'
-                  : 'opacity-0'
+                  ? 'opacity-[1] ease-in duration-1000 flex justify-center'
+                  : 'opacity-0 flex justify-center'
               }
             >
               <FaArrowCircleLeft
@@ -39,17 +39,22 @@ const Slider = ({ slides }) => {
                 size={50}
               />
               {index === current && (
-                <div className='flex flex-col lg:flex-row justify-center border shadow-lg px-4 py-8 md:py-12 skin'>
-                  <div className='flex justify-center'>
+                <div className='flex flex-col lg:flex-row justify-evenly border px-4 py-5  md:w-4/5 skin rounded-lg'>
+                  <div className='text-center p-4'>
                     <Image
                       className='rounded-full'
                       src={slide.image}
                       alt='/'
-                      width='200'
-                      height='200'
+                      width='180'
+                      height='180'
                     />
+                    <p className='font-semibold text-sm text-center' dangerouslySetInnerHTML={{ __html: slide.name }}></p>
+                    <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p>
+
                   </div>
-                  <div className='flex-justify center p-4 lg:w-1/2'><p dangerouslySetInnerHTML={{ __html: slide.review }}></p></div>
+                  <div className='flex-justify center p-4 lg:w-1/2'>
+                    <p dangerouslySetInnerHTML={{ __html: slide.review }}></p>
+                  </div>
 
                 </div>
               )}

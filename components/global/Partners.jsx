@@ -20,9 +20,9 @@ const Partners = ({ companies,g }) => {
     return (
         <div className='flex flex-row justify-center'>
             <div className='md:p-8 lg:w-5/6 flex flex-row justify-center gap-1 md:gap-4 flex-wrap'>
-                {companies.map((c) => {
+                {companies.map((c, index) => {
                     return (
-                        <div key={1} className=''>
+                        <div key={index} className=''>
                             <Image src={c} alt=""/>
                         </div>
                      

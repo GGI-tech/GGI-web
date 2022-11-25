@@ -97,8 +97,8 @@ const Main = () => {
                 </div>
                 <div className="p-8 flex justify-center skin">
                     <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20">
-                        <div>
-                            <h2 className='text-2xl my-8 text-left '>GGI MBA Scholar </h2>
+                        <div className=''>
+                            <h2 className='text-2xl my-8 text-left primary'>GGI MBA Scholar </h2>
                             <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
                             <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
                             <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
@@ -109,7 +109,7 @@ const Main = () => {
                             </button>
                         </div>
                         <div>
-                            <h2 className='text-2xl my-8 text-left'>GGI Policy Scholar </h2>
+                            <h2 className='text-2xl my-8 text-left primary'>GGI Policy Scholar </h2>
                             <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
                             <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
                             <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
