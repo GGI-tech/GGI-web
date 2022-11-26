@@ -3,6 +3,7 @@ import Accordion from '../global/Accordian'
 import Heading from '../global/Heading'
 import Hero from '../global/Hero'
 import Image from 'next/image'
+import YouTubeEmbed from '../global/YoutubeEmbed'
 import Container from '../global/Container'
 const data1 = [
     {
@@ -73,18 +74,18 @@ const data2 = [
         "id": 1,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
         "img": "/sayam.jpg",
-        "text": ""
+        "text": "After GGI, I will join Bain & Company. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds.<br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
     },
     {
         "id": 2,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
-        "img": "/sayam.jpg",
+        "img": "/shreyas.jpg",
         "text": ""
     },
     {
         "id": 3,
         "title": "SAIYAM HOTA, BAIN & COMPANY",
-        "img": "/sayam.jpg",
+        "img": "/ansh.jpg",
         "text": ""
     },
     {
@@ -103,16 +104,16 @@ const data2 = [
 const Card = ({ title, img, text }) => {
     return (
 
-        <div className="mx-5 min-h-screen my-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div className="mx-5 my-10 bg-white ">
             <div className="p-5">
-                <a href="#">
-                    <h5 className="mb-2 underline primary text-xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
-                </a>
-                <a href="#">
-                    <Image className="" src={img} layout="fill" alt="" />
-                </a>
-                <p className="my-5 font-normal text-gray-700 dark:text-gray-400" dangerouslySetInnerHTML={{ __html: text }}></p>
-                <a href="#" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <div className='text-center'>
+                    <Image src={img} alt="" height={300} width={300} className="rounded-lg" />
+
+                    <h5 className="my-2 underline primary font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+                </div>
+
+                <p className="my-5 font-normal text-gray-700 text-xs" dangerouslySetInnerHTML={{ __html: text }}></p>
+                <a href="#" className="inline-flex items-center py-2 px-3 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Read more
                     <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                 </a>
@@ -129,7 +130,10 @@ const Employment = () => {
     return (
         <>
             <Hero image={"/reviews.webp"} />
-            <div className='md:mx-12 mb-96 place-items-center h-auto grid grid-cols-1 sm:grid-cols-3'>
+            <Heading>LIFE AFTER GGI</Heading>
+            <p> </p>
+            <YouTubeEmbed/>
+            <div className='md:mx-12 mb-96 place-items-center grid grid-cols-1 sm:grid-cols-3'>
                 <div className='r1'>
                     {data1.map((e) => {
                         return (
