@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import React, { useState } from 'react';
+import { React, useState } from 'react';
 import { SliderData } from './SliderData';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
-
+//IoIosArrowForward
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -29,8 +29,8 @@ const Slider = ({ slides }) => {
               key={index}
               className={
                 index === current
-                  ? 'opacity-[1] ease-in duration-1000'
-                  : 'opacity-0'
+                  ? 'opacity-[1] ease-in duration-1000 flex justify-center'
+                  : 'opacity-0 flex justify-center'
               }
             >
               <FaArrowCircleLeft
@@ -39,15 +39,22 @@ const Slider = ({ slides }) => {
                 size={50}
               />
               {index === current && (
-                <div className='flex flex-col md:flex-row justify-center'>
-                  <Image
-                    src={slide.image}
-                    alt='/'
-                    width='440'
-                    height='400'
-                    objectFit='cover'
-                  />
-                  <p className='p-4 md:w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quos quod, dignissimos, praesentium consequuntur, facilis iusto nesciunt accusantium vitae asperiores similique? Ad qui, quidem cum aperiam placeat nostrum. Facere, necessitatibus.</p>
+                <div className='flex flex-col lg:flex-row justify-evenly border px-4 py-5  md:w-4/5 skin rounded-lg'>
+                  <div className='text-center p-4'>
+                    <Image
+                      className='rounded-full'
+                      src={slide.image}
+                      alt='/'
+                      width='180'
+                      height='180'
+                    />
+                    <p className='font-semibold text-sm text-center' dangerouslySetInnerHTML={{ __html: slide.name }}></p>
+                    <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p>
+
+                  </div>
+                  <div className='flex-justify center p-4 lg:w-1/2'>
+                    <p dangerouslySetInnerHTML={{ __html: slide.review }}></p>
+                  </div>
 
                 </div>
               )}
@@ -63,5 +70,8 @@ const Slider = ({ slides }) => {
     </div>
   );
 };
+
+
+
 
 export default Slider;

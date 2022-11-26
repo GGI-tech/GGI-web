@@ -7,9 +7,9 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
 
     return (
         <>
-            <div onClick={() => handleSetIndex(index)} className='flex w-screen sm:w-3/4 justify-between px-10 py-3 mt-2 rounded bg-black/5'>
+            <div onClick={() => handleSetIndex(index)} className='flex w-screen sm:w-3/4 justify-between pl-10 pr-5 py-3 mt-2 rounded skin'>
                 <div className='flex'>
-                    <div className='primary font-bold'>{title}</div>
+                    <div className='primary font-medium'>{title}</div>
                 </div>
                 <div className="flex items-center justify-center">
                     {
@@ -22,7 +22,7 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
 
             {(activeIndex === index) && (
                 <div className="flex w-screen sm:w-3/4 shadow-3xl rounded-2xl shadow-cyan-500/50 px-10 py-10 mb-6">
-                   <div dangerouslySetInnerHTML={{ __html: children }}></div> 
+                   <div  dangerouslySetInnerHTML={{ __html: children }}></div> 
                 </div>
             )}
         </>
