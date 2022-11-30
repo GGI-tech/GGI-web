@@ -44,6 +44,7 @@ import gov from '../../public/gov.jpg';
 import contact from '../../public/contact.jpg'
 
 import React from 'react'
+import MainHero from '../global/MainHero';
 
 const Main = () => {
     const fourcolumndata = [ //to be fetched from database
@@ -76,7 +77,7 @@ const Main = () => {
     return (
         <div>
             <Hero heading='' home={true} message='' />
-
+            {/* <MainHero/> */}
             <div id='' className='p-4 text-center'>
                 <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
                     Learn More about Advancing Your Career
