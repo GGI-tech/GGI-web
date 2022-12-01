@@ -27,6 +27,7 @@ import ey from '../../public/ey.png';
 import pwc from '../../public/pwc.jpg';
 import amz from '../../public/amz.jpg';
 import paytm from '../../public/paytm.png';
+import Button from '../global/Button';
 
 
 const MPP = () => {
@@ -68,8 +69,8 @@ const MPP = () => {
             <SlidingHero image={'./policy.jpg'} title={["Learn Policy Skills Live, Join Global Network & Get Hired at GGI Policy Scholar to Become Leader in Society ", "GGI Policy Scholar seeks solutions - from geopolitics to sanctions along with government leaders  "]} />
 
             <div id='' className='p-4 flex justify-center'>
-                <button className="bg-blue-700 hover:bg-blue-500 text-white font-bold my-12 py-5 px-12 border border-blue-500 rounded">
-                    Advance Your Career by Applying Now
+                <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
+                    ADVANCE YOUR CAREER BY APPLYING NOW
                 </button>
             </div>
 
@@ -79,6 +80,7 @@ const MPP = () => {
             <Heading>+88% GGIians working in Top Policy & Social Impact Roles and Organizations</Heading>
             <Partners companies={companies} />
             <YoutubeEmbed embedId='8lWeJ3Ekq-I' />
+            <Button>APPLY NOW</Button>
 
             <Heading>Who is this Program for?</Heading>
             <Container>
@@ -89,14 +91,24 @@ const MPP = () => {
 
             </Container>
             <YoutubeEmbed embedId='URhwxoFL6S8' />
+            <Button>APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment  </Heading>
             <Curriculum />
             <YoutubeEmbed embedId='lGyhkONUSwk' />
-
+            <Button>APPLY NOW</Button>
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
+            <div className='flex flex-wrap gap-10'>
+                {/* to be added */}
+            </div>
+            <Container>
+                <p>
+                    GGI Policy Scholars community comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the London School of Economics and Political Science. A few of the policy scholars are working professionals in organizations such as Pratham, Teach for India, NITI Aayog, Hindustan Times and other leading education NGOs.
+                </p>
+            </Container>
             <YoutubeEmbed embedId='OA4YaeVZhsA' />
+            <Button>APPLY NOW</Button>
 
             <Heading>A Liberal Refund Policy for You </Heading>
             <Container>
@@ -105,6 +117,7 @@ const MPP = () => {
 
             <Heading>Learn & Network with World&#39;s top CEOs, Partners, And Policy Leaders  </Heading>
             <Gallery />
+            <Button>APPLY NOW</Button>
 
             <Heading>As GGI Policy Scholar, You will Immerse Yourself in a Truly Impactful Experience  </Heading>
             <Container>
@@ -131,6 +144,7 @@ const MPP = () => {
                     <p className='mb-2'>Impact MBA Scholars are also made part of the GGI&#39;s Growing network through its various technology portals that comprise an international and diverse network at &#34;wiggly&#34; of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
                 </div>)}
             </Container>
+            <Button url='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram'>APPLY NOW</Button>
 
             <Heading>Program Fees </Heading>
             <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.

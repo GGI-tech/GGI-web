@@ -28,7 +28,7 @@ const Gallery = () => {
   }
   return (
     <>
-      <div className='md:w-3/4 mx-auto text-center md:py-5'>
+      <div className='md:w-2/3 mx-auto text-center md:py-5'>
         <div className='grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4 :plg-12'>
           <InstagramImg socialImg={img13} caption={'Ex Asia Chairman, Blackrock'} />
           <InstagramImg socialImg={img12} caption={'Ex-Global CEO, Mckinsey & Co'} />

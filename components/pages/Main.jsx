@@ -124,7 +124,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div id='' className='p-4 flex justify-center'>
-                <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
+                    <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
                         Learn More about Advancing Your Career
                     </button>
                 </div>

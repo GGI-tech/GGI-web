@@ -17,7 +17,7 @@ import img23 from '../../public/23.jpg';
 const Curriculum = () => {
     return (
 
-        <div className='md:w-3/4 mx-auto text-center md:py-5'>
+        <div className='md:w-2/3 mx-auto text-center md:py-5'>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-10 p-4 :plg-12'>
                 <div className=''>
                     <p className='pink font-bold'>3-6 Months</p>
