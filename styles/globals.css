@@ -40,6 +40,9 @@ html {
 .primary {
   color: #C00005;
 }
+.hero{
+  background-color: #C00005;
+}
 
 .pink {
   color: #FF6161;
@@ -60,7 +63,7 @@ ul,
 a,
 button {
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   /* font-family: PoppinsLight,'Poppins',sans-serif; */
 }
 

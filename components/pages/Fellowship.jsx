@@ -14,6 +14,7 @@ import Masterclasses from '../global/Masterclasses'
 import SlidingHero from '../global/SlidingHero'
 import Steps from '../global/Steps'
 import Footer from '../global/Footer'
+import Button from '../global/Button'
 // ------------------------------------------------------------------
 import network from '../../public/network2.jpeg'
 import clinton from '../../public/clinton.png'
@@ -79,6 +80,8 @@ const Fellowship = () => {
         <>
             <div className='mt-10'></div>
             <SlidingHero image={'./impactfellowship.jpg'} title={["Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader", "Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants & Join Global Network at GGI Impact Fellowship To Become a Young Leader"]} />
+            <Button url=""> ADVANCE YOUR CAREER NOW</Button>
+
             <Heading>Why GGI Impact Fellowship Works ?</Heading>
             <FourColumnLayout data={fourcolumndata} />
             <Container>
@@ -100,6 +103,8 @@ const Fellowship = () => {
                 <p className='mb-4'>Many large employers find that Impact Fellowship from Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, and other functional areas that necessitate an education that goes beyond traditional business skills. </p>
                 <p>Impact Fellows at Global Governance Initiative are positioned to have a deep understanding of the complexity of national and local situations. </p>
             </Container>
+            <Button url=""> APPLY NOW</Button>
+
 
             <Heading>Who is this Fellowship for ?</Heading>
             <Container>
@@ -110,11 +115,15 @@ const Fellowship = () => {
 
             </Container>
             <YoutubeEmbed embedId='URhwxoFL6S8' />
+            <Button url=""> APPLY NOW</Button>
+
 
             <Heading>Curriculum & Commitment</Heading>
             <p className='px-8 text-center font-medium mb-4' >If GGI MBA Scholars is Harvard Business School then GGI Impact fellowship is Harvard Business School along with Mckinsey&#39;s work experience </p>
             <Curriculum />
             <YoutubeEmbed embedId='3xL9AbP92yo' />
+            <Button url=""> APPLY NOW</Button>
+
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
             <Container>
@@ -125,6 +134,8 @@ const Fellowship = () => {
                 </div>
             </Container>
             <YoutubeEmbed embedId='BCwbgh9-69k' />
+            <Button url=""> APPLY NOW</Button>
+
 
             <Heading>A Liberal Refund Policy for You </Heading>
             <Container>
@@ -136,6 +147,8 @@ const Fellowship = () => {
 
             <Heading>With Impact Fellowship, The World is Your Classroom</Heading>
             <Steps data={stages} />
+            <Button url=""> APPLY NOW</Button>
+
             {/* <Container>
         <p>Today's Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
         <h1 className='text-center pink text-xl font-semibold my-8'>Stage 1 - Upskilling   </h1>

@@ -34,6 +34,7 @@ import amz from '../../public/amz.jpg';
 import paytm from '../../public/paytm.png';
 // -----------------------------------------------------
 import certificate from '../../public/certificate.jpg'
+import Button from '../global/Button';
 
 const MBA = () => {
     const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
@@ -73,11 +74,8 @@ const MBA = () => {
         <div>
             <SlidingHero image={'./mba.jpeg'} title={["A 6 month weekend only hybrid program with a focus on real-world learning with CEOs ", "Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"]} />
 
-            <div id='' className='p-4 flex justify-center'>
-                <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
-                    Advance Your Career by Applying Now
-                </button>
-            </div>
+            <Button url=""> Advance Your Career by Applying Now</Button>
+
 
             <Heading>Why GGI Impact MBA Scholars Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
@@ -89,9 +87,13 @@ const MBA = () => {
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <YoutubeEmbed embedId='iuNMaVSwH0E' />
+            <Button url=""> APPLY NOW</Button>
+
 
             <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
             <Partners companies={companies} />
+            <Button url=""> APPLY NOW</Button>
+
 
             <Heading>Who is this Program for ?</Heading>
             <Container>
@@ -102,6 +104,7 @@ const MBA = () => {
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
+            <Button url=""> APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment</Heading>
             <Curriculum />
@@ -142,6 +145,8 @@ const MBA = () => {
                     <p className='mb-2'>Impact MBA Scholars are also made part of the GGI&#39;s Growing network through its various technology portals that comprise an international and diverse network at &#34;wiggly&#34; of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
                 </div>)}
             </Container>
+            <Button url=""> APPLY NOW</Button>
+
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
@@ -162,7 +167,7 @@ const MBA = () => {
             <Container>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                     <div>
-                        <Image src={certificate} alt=""/>
+                        <Image src={certificate} alt="" />
                     </div>
                     <div className='col-span-2'>
                         <p className='mb-2'>Let us be honest. We are not in the certificate minting business. However, on successful completion of the program, you receive a unique GGI Impact MBA Scholars graduation letter- </p>
