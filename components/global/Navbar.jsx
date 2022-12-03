@@ -47,32 +47,32 @@ const Navbar = () => {
         </Link>
         <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex '>
           <Link href='/ggischolars'>
-            <li className='p-4 cursor-pointer  text-sm hover:text-black hover:bg-slate-200'>
+            <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               MBA
             </li>
           </Link>
           <Link href='/ggipolicyscholarsprogram'>
-            <li className='p-4 cursor-pointer text-sm hover:text-black hover:bg-slate-200'>
+            <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
               MPP
             </li>
           </Link>
           <Link href='/impactfellowship'>
-            <li className='p-4 cursor-pointer text-sm  hover:text-black hover:bg-slate-200'>
+            <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               Fellowship
             </li>
           </Link>
           <Link re href='/reviews'>
-            <li className='p-4 cursor-pointer  text-sm hover:text-black hover:bg-slate-200'>
+            <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               Employment Report
             </li>
           </Link>
-          <li className='group relative inline-block p-4 cursor-pointer text-sm  hover:text-black '>
+          <li className='group relative inline-block p-4 cursor-pointer   hover:text-black '>
             <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold text-sm">Explore</button>
+              <button className="inline-flex items-center rounded font-semibold ">Explore</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
-                <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className="text-sm whitespace-no-wrap block rounded-t bg-gray-100 py-1 px-4 hover:bg-gray-400" >Free Series</div></Link>
-                <Link href="/blogs" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 text-sm" >Blogs & Research</div></Link>
-                <Link href="/careers"><div className="whitespace-no-wrap block rounded-b bg-gray-100 py-1 px-6 hover:bg-gray-400 text-sm" >Careers</div></Link>
+                <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-1 px-4 hover:bg-gray-400" >Free Series</div></Link>
+                <Link href="/blogs" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Blogs & Research</div></Link>
+                <Link href="/careers"><div className="whitespace-no-wrap block rounded-b bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Careers</div></Link>
               </ul>
             </span>
           </li>
