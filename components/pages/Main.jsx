@@ -76,8 +76,8 @@ const Main = () => {
     const companies = [BCG, mckinsey, bain, dalberg, kearney, fsg, UN, gov, Worldbank, pwc, bridgespan, Delloite, ey];
     return (
         <div>
-            <Hero heading='' home={true} message='' />
-            {/* <MainHero/> */}
+            {/* <Hero heading='' home={true} message='' /> */}
+            <MainHero />
             <div id='' className='p-4 text-center'>
                 <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
                     Learn More about Advancing Your Career
@@ -85,14 +85,16 @@ const Main = () => {
             </div>
 
             <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
+
             <Slider slides={SliderData} />
 
 
-            <Heading>+88% GGIians working in Top Consulting, Policy, Product Roles and Organizations</Heading>
+            <Heading>+88% GGIians working in Top <strong >Consulting</strong>,<strong> Policy</strong>, <strong>Product</strong> Roles and Organizations
+            </Heading>
             <Partners companies={companies} />
 
-            <div className='skin'>
-                <Heading >GGI Offers Live Upskilling, Employment & Networking </Heading>
+            {/* <div className='skin'> */}
+                <Heading >GGI Offers Live <strong>Upskilling</strong>, <strong>Employment</strong> & Networking </Heading>
                 <div id='' className='flex justify-center my-12'>
                     <p className='px-4 md:w-4/6'>Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
                 </div>
@@ -128,11 +130,11 @@ const Main = () => {
                         Learn More about Advancing Your Career
                     </button>
                 </div>
-            </div>
+            {/* </div> */}
 
 
 
-            <Heading>You Solve Cases & Network with World&#39;s Top CEOs, Partners, Consulting, Policy, Product Leaders </Heading>
+            <Heading>You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners, Consulting, Policy, Product Leaders </Heading>
             <Gallery />
 
 
@@ -170,7 +172,7 @@ const Main = () => {
             </div>
 
 
-            <Heading>You Learn live via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
+            <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
             {/* <div className="p-3 md:p-12 flex justify-center">
           <div className="md:w-4/5 grid grid-cols-2 md:grid-cols-4 gap-1 lg:gap-5">

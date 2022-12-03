@@ -17,7 +17,7 @@
   font-family: PoppinsLight;
   src: url('../fonts/Poppins-Light.ttf');
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); 
 
 html {
   scroll-behavior: smooth;
@@ -33,21 +33,25 @@ html {
   background-color: #ffe5b4;
   /* background: linear-gradient(to right, #ffe5b4 60%, #FFD586);*/
   background-color: #F2F3F5;
-  background: linear-gradient(to right , #F2F3F5 30%, white,#F2F3F5 );
+  background: linear-gradient(to right, #F2F3F5 30%, white, #F2F3F5);
 }
 
 /* headings */
 .primary {
   color: #C00005;
 }
-.hero{
+
+.hero {
   background-color: #C00005;
 }
 
 .pink {
   color: #FF6161;
 }
-
+.arial{
+  font-family:'Archivo Black', sans-serif;
+  font-weight: 900;
+}
 h1,
 h2,
 h3 {
@@ -63,22 +67,50 @@ ul,
 a,
 button {
   font-weight: 300;
-  font-size: 0.85rem;
+  font-size: 1rem;
   /* font-family: PoppinsLight,'Poppins',sans-serif; */
 }
 
-@media screen and (min-width:600px) {
-
-  p,
-  ul,
-  a,
-  button {
-    font-weight: 300;
-    font-size: 1rem;
-    /* font-family: PoppinsLight,'Poppins',sans-serif; */
-  }
+/* underlines for headings */
+strong {
+  position: relative;
+}
+strong::after {
+  content: "";
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  height: 1.3rem;
+  z-index: -1;
+  background-image: url("/u1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+p > strong {
+  font-weight: 400;
+}
+p > strong::after {
+  bottom: -0.2rem;
+  height: 0.5rem;
+  left: -0.25rem;
+  right: -0.25rem;
+}
+
+
+
+/* variable base font size for smaller and larger devices */
+
+html {
+  font-size: 12px
+}
+
+@media (min-width:770px) {
+  html {
+    font-size: 14px
+  }
+}
 
 /* background image on home */
 .custom-img {

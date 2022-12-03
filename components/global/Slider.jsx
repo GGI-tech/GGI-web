@@ -33,13 +33,16 @@ const Slider = ({ slides }) => {
                   : 'opacity-0 flex justify-center'
               }
             >
-              <FaArrowCircleLeft
+              {/* <FaArrowCircleLeft
                 onClick={prevSlide}
                 className='absolute top-[50%] left-[30px] text-black/50 cursor-pointer select-none z-[2]'
                 size={50}
-              />
+              /> */}
+              <span  onClick={prevSlide} className="absolute top-[50%] left-[30px] text-black/50 cursor-pointer select-none z-[2] material-symbols-outlined">
+                arrow_back_ios
+              </span>
               {index === current && (
-                <div className='flex flex-col lg:flex-row justify-evenly border px-4 py-5  md:w-4/5 skin rounded-lg'>
+                <div className='flex flex-col lg:flex-row justify-evenly px-4 py-5  md:w-4/5 border-black/10 shadow-md rounded-lg'>
                   <div className='text-center p-4'>
                     <Image
                       className='rounded-full'
@@ -58,11 +61,16 @@ const Slider = ({ slides }) => {
 
                 </div>
               )}
-              <FaArrowCircleRight
+              <span onClick={nextSlide}
+                className='material-symbols-outlined absolute top-[50%] right-[30px] text-black/50 cursor-pointer select-none z-[2]'
+                size={50}>
+                arrow_forward_ios
+              </span>
+              {/* <FaArrowCircleRight
                 onClick={nextSlide}
                 className='absolute top-[50%] right-[30px] text-black/50 cursor-pointer select-none z-[2]'
                 size={50}
-              />
+              /> */}
             </div>
           );
         })}
