@@ -4,7 +4,8 @@ import Heading from '../global/Heading'
 import Hero from '../global/Hero'
 import Image from 'next/image'
 import YouTubeEmbed from '../global/YoutubeEmbed'
-import Container from '../global/Container'
+import Footer from '../global/Footer'
+// import Container from '../global/Container'
 const data1 = [
     {
         "id": 1,
@@ -199,6 +200,7 @@ const Employment = () => {
             </div> */}
             <Heading>Frequently Asked Questions</Heading>
             <Accordion />
+            <Footer/>
         </>
     )
 }

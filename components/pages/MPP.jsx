@@ -1,7 +1,7 @@
 import { React, useState } from 'react'
 import SlidingHero from '../global/SlidingHero';
 import Accordian from '../global/Accordian';
-import Socials from '../global/Socials';
+// import Socials from '../global/Socials';
 import Heading from '../global/Heading';
 import FourColumnLayout from '../global/FourColumnLayout';
 import Container from '../global/Container';

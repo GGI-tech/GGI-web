@@ -160,7 +160,7 @@ const Footer = () => {
 
                 <div className="grid lg:grid-cols-4 md:grid-cols-2">
                     <div className="mb-6">
-                        <h5 className="uppercase font-bold mb-2.5">Our programs</h5>
+                        <h3 className="uppercase font-bold mb-2.5">Our programs</h3>
 
                         <ul className="list-none mb-0">
                             <li>
@@ -179,7 +179,7 @@ const Footer = () => {
                     </div>
 
                     <div className="mb-6">
-                        <h5 className="uppercase font-bold mb-2.5">Learning Tools</h5>
+                        <h3 className="uppercase font-bold mb-2.5">Learning Tools</h3>
 
                         <ul className="list-none mb-0">
                             <li>
@@ -198,7 +198,7 @@ const Footer = () => {
                     </div>
 
                     <div className="mb-6">
-                        <h5 className="uppercase font-bold mb-2.5">Links</h5>
+                        <h3 className="uppercase font-bold mb-2.5">Links</h3>
 
                         <ul className="list-none mb-0">
                             <li>
@@ -217,7 +217,7 @@ const Footer = () => {
                     </div>
 
                     <div className="mb-6">
-                        <h5 className="uppercase font-bold mb-2.5">Links</h5>
+                        <h3 className="uppercase font-bold mb-2.5">Links</h3>
 
                         <ul className="list-none mb-0">
                             <li>

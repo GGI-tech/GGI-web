@@ -7,7 +7,7 @@ import YoutubeEmbed from '../global/YoutubeEmbed';
 import Container from '../global/Container';
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
-import Socials from '../global/Socials';
+// import Socials from '../global/Socials';
 import Gallery from '../global/Gallery';
 import Community from '../global/Community';
 import Curriculum from '../global/Curriculum';
@@ -15,7 +15,7 @@ import Masterclasses from '../global/Masterclasses';
 import FourColumnLayout from '../global/FourColumnLayout';
 import OfficialPartners from '../global/OfficialPartners';
 import Associations from '../global/Associations';
-import { AiFillCheckCircle } from 'react-icons/ai'
+// import { AiFillCheckCircle } from 'react-icons/ai'
 import Footer from '../global/Footer';
 
 // -------------------------------------------------------
@@ -186,7 +186,7 @@ const MBA = () => {
 
             <Heading>Frequently Asked Questions</Heading>
             <Accordion />
-            <Socials />
+            {/* <Socials /> */}
             <Footer />
         </div>
     )

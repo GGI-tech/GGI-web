@@ -8,9 +8,9 @@ import { SliderData } from '../global/SliderData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
-import Socials from '../global/Socials';
+// import Socials from '../global/Socials';
 import Contact from '../global/Contact';
-import Container from '../global/Container'
+// import Container from '../global/Container'
 import Footer from '../global/Footer';
 
 //---------------------------------------------------------
