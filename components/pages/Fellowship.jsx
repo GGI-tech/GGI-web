@@ -7,8 +7,8 @@ import OfficialPartners from '../global/OfficialPartners'
 import Container from '../global/Container'
 import Curriculum from '../global/Curriculum'
 import FourColumnLayout from '../global/FourColumnLayout'
-import { AiFillCheckCircle } from 'react-icons/ai'
-import Partners from '../global/Partners';
+// import { AiFillCheckCircle } from 'react-icons/ai'
+// import Partners from '../global/Partners';
 import YoutubeEmbed from '../global/YoutubeEmbed'
 import Masterclasses from '../global/Masterclasses'
 import SlidingHero from '../global/SlidingHero'
