@@ -3,7 +3,7 @@ import React from 'react';
 const Container = (props) => {
     return (
         <div id='' className='flex justify-center my-12'>
-            <div className='px-8 lg:w-3/4'>
+            <div className='px-8 lg:w-2/3'>
                 {props.children}
             </div>
         </div>

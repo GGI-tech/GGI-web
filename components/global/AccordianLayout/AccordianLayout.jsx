@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { BsFillArrowDownCircleFill, BsFillArrowUpCircleFill } from 'react-icons/bs'
+import { IoIosArrowDown,IoIosArrowUp } from "react-icons/io";
 
 const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
     const handleSetIndex = (index) => (activeIndex !== index) && setActiveIndex(index);
@@ -14,8 +15,8 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
                 <div className="flex items-center justify-center">
                     {
                         (activeIndex === index)
-                            ? <BsFillArrowUpCircleFill className='w-8 h-8' />
-                            : <BsFillArrowDownCircleFill className='w-8 h-8' />
+                            ? <IoIosArrowUp className='w-5 h-5 text-black/60' />
+                            : <IoIosArrowDown className='w-5 h-5 text-black/60' />
                     }
                 </div>
             </div>
