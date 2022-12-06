@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { React, useState } from 'react';
 import { SliderData } from './SliderData';
-// import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
-//IoIosArrowForward
+import { IoIosArrowForward,IoIosArrowBack } from "react-icons/io";
+
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -33,16 +33,16 @@ const Slider = ({ slides }) => {
                   : 'opacity-0 flex justify-center'
               }
             >
-              {/* <FaArrowCircleLeft
+              <IoIosArrowBack
                 onClick={prevSlide}
-                className='absolute top-[50%] left-[30px] text-black/50 cursor-pointer select-none z-[2]'
-                size={50}
-              /> */}
-              <span  onClick={prevSlide} className="absolute top-[50%] left-[30px] text-black/50 cursor-pointer select-none z-[2] material-symbols-outlined">
+                className='absolute top-[50%] left-[30px] text-black/40 cursor-pointer select-none z-[2]'
+                size={30}
+              />
+              {/* <span  onClick={prevSlide} className="absolute top-[50%] left-[30px] text-black/50 cursor-pointer select-none z-[2] material-symbols-outlined">
                 arrow_back_ios
-              </span>
+              </span> */}
               {index === current && (
-                <div className='flex flex-col lg:flex-row justify-evenly px-4 py-5  md:w-4/5 border-black/10 shadow-md rounded-lg'>
+                <div className='flex flex-col lg:flex-row justify-evenly px-4 py-5  md:w-4/5 border border-black/10  shadow-md rounded-lg'>
                   <div className='text-center p-4'>
                     <Image
                       className='rounded-full'
@@ -61,16 +61,16 @@ const Slider = ({ slides }) => {
 
                 </div>
               )}
-              <span onClick={nextSlide}
+              {/* <span onClick={nextSlide}
                 className='material-symbols-outlined absolute top-[50%] right-[30px] text-black/50 cursor-pointer select-none z-[2]'
                 size={50}>
                 arrow_forward_ios
-              </span>
-              {/* <FaArrowCircleRight
+              </span> */}
+              <IoIosArrowForward
                 onClick={nextSlide}
-                className='absolute top-[50%] right-[30px] text-black/50 cursor-pointer select-none z-[2]'
-                size={50}
-              /> */}
+                className='absolute top-[50%] right-[30px] text-black/40 cursor-pointer select-none z-[2]'
+                size={30}
+              />
             </div>
           );
         })}

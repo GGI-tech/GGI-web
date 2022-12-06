@@ -44,7 +44,7 @@ const Gallery = () => {
           <InstagramImg socialImg={img23} caption={'Dean, IBGC Fletcher School of Law '} />
         </div>
       </div>
-      {!isOpened && (<div className='text-center' onClick={toggle}>Show more..</div>)}
+      {!isOpened && (<div className='text-center text-sm md:text-base text-blue-900' onClick={toggle}>Show more..</div>)}
       {isOpened && (
         <div className='md:w-3/4 mx-auto text-center md:py-5'>
           <div className='grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4 :plg-12'>

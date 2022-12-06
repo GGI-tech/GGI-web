@@ -17,6 +17,8 @@ import OfficialPartners from '../global/OfficialPartners';
 import Associations from '../global/Associations';
 // import { AiFillCheckCircle } from 'react-icons/ai'
 import Footer from '../global/Footer';
+import Slider from '../global/Slider'
+import { SliderData } from '../global/SliderData';
 
 // -------------------------------------------------------
 import network from '../../public/network.jpg'
@@ -35,6 +37,7 @@ import paytm from '../../public/paytm.png';
 // -----------------------------------------------------
 import certificate from '../../public/certificate.jpg'
 import Button from '../global/Button';
+// import Testimonial from '../global/Testimonial';
 
 const MBA = () => {
     const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
@@ -72,9 +75,9 @@ const MBA = () => {
     }
     return (
         <div>
-            <SlidingHero image={'./mba.jpeg'} title={["A 6 month weekend only hybrid program with a focus on real-world learning with CEOs ", "Learn Business Skills Live, Join Global Network & Get Hired at GGI MBA Scholar to Become a Business Leader"]} />
+            <SlidingHero image={'./mba.jpeg'} title={["A 6 month weekend only hybrid program with a focus on real-world learning with CEOs ", "Learn Business Skills Live, Join Global Network & Get Hired at <span className='text-amber-300'>GGI MBA Scholar</span> to Become a Business Leader"]} />
 
-            <Button url=""> Advance Your Career by Applying Now</Button>
+            <Button url=""> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
             <Heading>Why GGI Impact MBA Scholars Works ? </Heading>
@@ -86,6 +89,7 @@ const MBA = () => {
 
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
+            <Slider slides={SliderData} />
             <YoutubeEmbed embedId='iuNMaVSwH0E' />
             <Button url=""> APPLY NOW</Button>
 
@@ -113,7 +117,7 @@ const MBA = () => {
 
             <Heading>A Liberal Refund Policy for You  </Heading>
             <Container>
-                <p>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We have <span className="font-medium">no questions ask the full refund of the enrollment amount</span>of the selected scholars and fellows, till the first 6 days from the payment date. </p>
+                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We have <span className="font-bold">no questions ask the full refund of the enrollment amount</span> of the selected scholars and fellows, till the first 6 days from the payment date. </p>
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
