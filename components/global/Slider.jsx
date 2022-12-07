@@ -42,14 +42,14 @@ const Slider = ({ slides }) => {
                 arrow_back_ios
               </span> */}
               {index === current && (
-                <div className='flex flex-col lg:flex-row justify-evenly px-4 py-5  md:w-4/5 border border-black/10  shadow-md rounded-lg'>
+                <div className='flex flex-col lg:flex-row justify-evenly px-4 py-5  md:w-4/5 border-black/10 shadow-black/5 shadow-2xl rounded-lg'>
                   <div className='text-center p-4'>
                     <Image
                       className='rounded-full'
                       src={slide.image}
                       alt='/'
-                      width='180'
-                      height='180'
+                      width='150'
+                      height='150'
                     />
                     <p className='font-semibold text-sm text-center' dangerouslySetInnerHTML={{ __html: slide.name }}></p>
                     <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p>

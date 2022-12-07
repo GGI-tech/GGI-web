@@ -12,7 +12,7 @@ import Accordion from '../global/Accordian';
 import Contact from '../global/Contact';
 // import Container from '../global/Container'
 import Footer from '../global/Footer';
-
+import Button from '../global/Button';
 //---------------------------------------------------------
 import poets from '../../public/poets.jpg';
 import bcg from '../../public/bcg.jpg';
@@ -78,12 +78,11 @@ const Main = () => {
         <div>
             {/* <Hero heading='' home={true} message='' /> */}
             <MainHero />
-            <div id='' className='p-4 text-center'>
-                <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
+       
+                <Button >
                     Learn More about Advancing Your Career
-                </button>
-            </div>
-
+                </Button>
+      
             <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
 
             <Slider slides={SliderData} />
@@ -107,9 +106,9 @@ const Main = () => {
                             <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
                             <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
                             <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
-                            <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
+                            <Button url="/ggischolars">
                                 Learn More about GGI Impact MBA
-                            </button>
+                            </Button>
                         </div>
                         <div>
                             <h2 className='text-2xl my-8 text-left primary'>GGI Policy Scholar </h2>
@@ -118,17 +117,17 @@ const Main = () => {
                             <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
                             <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
                             <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
-                            <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
+                            <Button url="/ggipolicyscholarsprogram">
                                 Learn More about GGI Policy Scholar
-                            </button>
+                            </Button>
                         </div>
 
                     </div>
                 </div>
                 <div id='' className='p-4 flex justify-center'>
-                    <button className="bg-blue-700 hover:bg-blue-500 text-white  my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg ">
+                    <Button url="/impactfellowship">
                         Learn More about Advancing Your Career
-                    </button>
+                    </Button>
                 </div>
             {/* </div> */}
 
@@ -199,18 +198,18 @@ const Main = () => {
           </div>
         </div> */}
             <div id='' className='p-4 flex justify-center'>
-                <button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
+                <Button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
                     Learn More about GGI Impact MBA Scholars
-                </button>
+                </Button>
             </div>
 
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <Community />
 
             <div id='' className='p-4 flex justify-center mb-60'>
-                <button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
+                <Button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
                     Learn More about GGI Impact MBA Scholars
-                </button>
+                </Button>
             </div>
             <div className="flex justify-center">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
