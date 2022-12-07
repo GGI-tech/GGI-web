@@ -151,7 +151,7 @@ const Card = ({ title, img, text }) => {
                     {/* <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p> */}
                 </div>
                 <div className='flex-justify center p-4 lg:w-2/3 italic text-sm'>
-                    <p dangerouslySetInnerHTML={{ __html: text }}></p>
+                    <p className=' ' dangerouslySetInnerHTML={{ __html: text }}></p>
                     <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
                         Read the full story here
                         <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -174,9 +174,9 @@ const Employment = () => {
             <Hero image={"/reviews.webp"} />
             <Heading>LIFE AFTER GGI</Heading>
             <p> </p>
-            <YouTubeEmbed embedId='' />
+            <YouTubeEmbed embedId='0XC2VXBF29g' />
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
+            <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
 
                 {data1.map((e) => {
                     return (
@@ -185,17 +185,14 @@ const Employment = () => {
                     );
                 })}
 
-                {/* <div className='r1'>
+                
                     {data2.map((e) => {
                         return (
                             <Card key={e.id} title={e.title} img={e.img} text={e.text} />
 
                         );
                     })}
-                </div> */}
-                {/* <div className='r1'>
-                   
-                </div> */}
+           
             </div>
          
             <Heading>Frequently Asked Questions</Heading>

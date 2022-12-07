@@ -93,7 +93,7 @@ const Main = () => {
             <Partners companies={companies} />
 
             {/* <div className='skin'> */}
-                <Heading >GGI Offers Live <strong>Upskilling</strong>, <strong>Employment</strong> & Networking </Heading>
+                <Heading >GGI Offers Live <strong>Upskilling,</strong> <strong>Employment</strong> & Networking </Heading>
                 <div id='' className='flex justify-center my-12'>
                     <p className='px-4 md:w-4/6'>Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
                 </div>
@@ -138,7 +138,7 @@ const Main = () => {
 
 
             <div className='mt-24 flex justify-center'>
-                <p className='md:w-3/5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
+                <p className='md:w-3/5 text-xl font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
             <YoutubeEmbed embedId="8lWeJ3Ekq-I" />
 

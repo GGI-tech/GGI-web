@@ -66,7 +66,7 @@ const FAQ = [
     }
 ]
 const Accordion = () => {
-    const [activeIndex, setActiveIndex] = useState(2);
+    const [activeIndex, setActiveIndex] = useState(0);
 
     return (
         <div className='flex flex-col justify-center items-center'>
