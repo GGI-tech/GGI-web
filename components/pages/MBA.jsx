@@ -99,7 +99,7 @@ const MBA = () => {
             <Button url=""> APPLY NOW</Button>
 
 
-            <Heading>Who is this Program for ?</Heading>
+            <Heading>Who is this Program for?</Heading>
             <Container>
                 <p> 1. You are a young professional looking for better <span className='primary font-medium'> alternatives to international MBA</span> programs and want to learn directly from top industry leaders.</p><br />
                 <p>2. You are CA/non-MBA looking to pivot in management consulting in firms such as <span className='primary font-medium'> Mckinsey & BCG,  Product Management, roles</span> in firms such as Uber, Amazon, Microsoft, & leading tech startups.</p><br />
