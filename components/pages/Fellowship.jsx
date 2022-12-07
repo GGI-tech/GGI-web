@@ -68,7 +68,7 @@ const Fellowship = () => {
         {
             "id": 3,
             "ques": "Stage 3 - Community, Networking Nights, and Wellness Sessions ",
-            "ans": ""
+            "ans": "<p>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For Impact Fellows that one person is the entire community at Global Governance Initiative.&nbsp;</p><p><br></p><p>Impact Fellows get exclusive access to office hours with the leadership of the Global Governance Initiative. They attend monthly inner circle meetings, and networking events with fellows from across industries and sectors. And they also provided an ecosystem - where their mental health is given paramount importance.&nbsp;</p><p><br></p><p>Even though the journey of an Impact Fellow formally ends in 6 months. But Fellows - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. Impact Fellows also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools.&nbsp;</p><p><br></p> <p>GGI Impact Fellowship is the Cr&egrave;me de la cr&egrave;me of the Global Governance Initiative network. Through core Masterclasses, flexible curriculum, and consulting style projects - Impact Fellowship provides a deep dive into the world of social impact consulting, development consulting, and international development.</p> <p><br></p><p>GGI Impact Fellowship is personalized and tailored-made, and a detailed schedule is shared only after the Initial Founders Call.&nbsp;</p>  <p><br></p><p>Impact Fellows are also made part of the GGI&apos;s Growing network through its various technology portals that comprise an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across 4 continents.&nbsp;</p>"
         }
     ]
     const [isOpened, setIsOpened] = useState(false);
@@ -146,33 +146,13 @@ const Fellowship = () => {
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, Consulting & Policy Leaders</Heading>
             <Gallery />
 
-            <Heading>With Impact Fellowship, The World is Your Classroom</Heading>
+            <Heading>With Impact Fellowship, The World is Your Classroom</Heading>      
+
+            <Container>
+            <p>Today&apos;s Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : &nbsp;</p>
+            </Container>
             <Steps data={stages} />
             <Button url=""> APPLY NOW</Button>
-
-            {/* <Container>
-        <p>Today's Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
-        <h1 className='text-center pink text-xl font-semibold my-8'>Stage 1 - Upskilling   </h1>
-        <p className='mb-2'>Context is a critical component of sound decision-making in the world of consulting and international development - and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that allow them to connect the dots across many different areas including policy consulting, management consulting & sustainability, product management & tech ethics, impact investing, liberal arts, and core Business perspectives - via GGI's trademarked Masterclasses.   </p>
-        {!isOpened && (<div className='text-center' style={{ color: "blue" }} onClick={toggle}>Show more..</div>)}
-        {isOpened && (<div>
-          <p className='mb-3'>In this stage, Impact Fellows during their executive education also have access to the personalized Career Development Program of the Global Governance Initiative. This learning component is critical for those interested to work in organizations such as McKinsey, BCG, Bain, United Nations, World Bank, and inter-alia. Many of the Masterclasses are usually taken by incumbent partners and leadership of such organizations.  </p>
-          <p className='mb-3'>The Career Development Program further consists of two pillars.  </p>
-          <h1 className='text-center pink text-xl font-semibold my-8'>Stage 2 - Access to Employment Partnerships & Skin in the Game  </h1>
-          <p className='mb-3'>In order to understand the world, you have to have skin in the game. The world of Consulting and International Development is unpredictable and adventurous. Impact Fellows are put in tough spots where they refine their craft by publishing consulting-style research papers under the Council on Sustainable Development.  </p>
-          <p className='mb-3'>Theoretical learnings, intertwined with practical experiences are what make the Impact Fellowship unique. Passionate Fellows, and their mentors - delve into the hard of questions of international business, and public policy in this stage. </p>
-          <p className='mb-3'>It is because of the experiential learning component, Impact Fellows are able to successfully outshine others in their Consulting Interviews.  </p>
-          <h1 className='text-center pink text-xl font-semibold my-8'>Stage 3 - Community, Networking Nights, and Wellness Sessions  </h1>
-          <p className='mb-3'>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For Impact Fellows that one person is the entire community at Global Governance Initiative.  </p>
-          <p className='mb-3'>Impact Fellows get exclusive access to office hours with the leadership of the Global Governance Initiative. They attend monthly inner circle meetings, and networking events with fellows from across industries and sectors. And they also provided an ecosystem - where their mental health is given paramount importance. </p>
-          <p className='mb-3'>Even though the journey of an Impact Fellow formally ends in 6 months. But Fellows - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. Impact Fellows also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools.  </p>
-          <p className='mb-3'>GGI Impact Fellowship is the Crème de la crème of the Global Governance Initiative network. Through core Masterclasses, flexible curriculum, and consulting style projects - Impact Fellowship provides a deep dive into the world of social impact consulting, development consulting, and international development.</p>
-          <p className='mb-3'>GGI Impact Fellowship is personalized and tailored-made, and a detailed schedule is shared only after the Initial Founders Call.  </p>
-          <p className='mb-3'>Impact Fellows are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across 4 continents.  </p>
-          <p className='mb-2'>Impact MBA Scholars are also made part of the GGI's Growing network through its various technology portals that comprise an international and diverse network at "wiggly" of GGI Delegates, Impact Scholars, Policy Scholars, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
-        </div>)}
-
-      </Container> */}
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Management & Impact Consulting </Heading>
             <Masterclasses />

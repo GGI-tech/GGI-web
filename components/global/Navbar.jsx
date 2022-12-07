@@ -35,9 +35,9 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className='border-gray-200 shadow-md fixed left-0 top-0 w-full z-10'
+      className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10'
     >
-      <div className='max-w-[1240px] m-auto flex justify-between items-center text-white'>
+      <div className='max-w-[1240px] m-auto flex justify-between items-center text-white pr-5'>
         <Link href='/'>
           {/* <p style={{ color: `${textColor}` }} className='font-bold text-4xl'>
             Global Governance Initiative

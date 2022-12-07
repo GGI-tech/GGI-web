@@ -3,7 +3,7 @@ import React from 'react';
 
 const InstagramImg = ({ socialImg, caption }) => {
   return (
-    <div className='relative shadow-lg border border-black/10'>
+    <div className='relative shadow-black/5 shadow-xl border border-black/5'>
       <Image
         src={socialImg}
         alt='/'  
@@ -17,7 +17,7 @@ const InstagramImg = ({ socialImg, caption }) => {
       </p>
       </div>
       {/* <figcaption  className='p-4 bg-black/20'>{caption}</figcaption> */}
-      <p className='h-20 p-1 md:p-4 bg-black/5 text-sm'>{caption}</p>
+      <p className='h-20 p-1 md:p-4 text-sm'>{caption}</p>
     </div>
   );
 };

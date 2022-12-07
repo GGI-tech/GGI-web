@@ -134,23 +134,34 @@ const data2 = [
 ]
 const Card = ({ title, img, text }) => {
     return (
+        <>
+            <div className='mx-4 my-12 flex flex-col lg:flex-row justify-evenly  py-5 border border-black/10 shadow-black/5 shadow-xl rounded-lg'>
+                <div className='flex justify-center'>
+                    <div className='text-center p-4'>
+                        <Image
+                            className='rounded-full'
+                            src={img}
+                            alt='/'
+                            width='150'
+                            height='150'
+                        />
 
-        <div className="mx-5 my-10 bg-white ">
-            <div className="p-5">
-                <div className='text-center'>
-                    <Image src={img} alt="" height={300} width={300} className="rounded-lg" />
-
-                    <h5 className="my-2 underline primary font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+                        <p className='my-2 underline primary font-bold tracking-tight text-gray-900 dark:text-white max-w-[200px] ' dangerouslySetInnerHTML={{ __html: title }}></p>
+                    </div>
+                    {/* <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p> */}
+                </div>
+                <div className='flex-justify center p-4 lg:w-2/3 italic text-sm'>
+                    <p dangerouslySetInnerHTML={{ __html: text }}></p>
+                    <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
+                        Read the full story here
+                        <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                    </a>
                 </div>
 
-                <div className="my-5 font-normal text-gray-700 text-sm" dangerouslySetInnerHTML={{ __html: text }}></div>
-                <a href="#" className="inline-flex items-center py-2 px-3 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    Read more
-                    <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                </a>
             </div>
-        </div>
 
+
+        </>
 
     )
 }
@@ -163,44 +174,33 @@ const Employment = () => {
             <Hero image={"/reviews.webp"} />
             <Heading>LIFE AFTER GGI</Heading>
             <p> </p>
-            <YouTubeEmbed />
-            <div className='md:mx-12 mb-96  grid grid-cols-1 sm:grid-cols-3'>
-                <div className='r1'>
-                    {data1.map((e) => {
-                        return (
-                            <Card key={e.id} title={e.title} img={e.img} text={e.text} />
+            <YouTubeEmbed embedId='' />
 
-                        );
-                    })}
-                </div>
-                <div className='r1'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
+
+                {data1.map((e) => {
+                    return (
+                        <Card key={e.id} title={e.title} img={e.img} text={e.text} />
+
+                    );
+                })}
+
+                {/* <div className='r1'>
                     {data2.map((e) => {
                         return (
                             <Card key={e.id} title={e.title} img={e.img} text={e.text} />
 
                         );
                     })}
-                </div>
-                <div className='r1'>
-                    {/* <Card  /> */}
-                </div>
+                </div> */}
+                {/* <div className='r1'>
+                   
+                </div> */}
             </div>
-            {/* <div class="mx-5 min-h-screen grid place-content-center">
-                <div class="bg-gradient-to-r from-blue-400 to-indigo-500 rounded-2xl text-white p-8 text-center h-72 max-w-sm mx-auto">
-                    <h1 class="text-3xl mb-3">Hi George</h1>
-                    <p class="text-lg">You can contact us whenever you need help or just curious about something.</p>
-                </div>
-                <div class="bg-white py-8 px-10 text-center rounded-md shadow-lg transform -translate-y-20 sm:-translate-y-24 max-w-xs mx-auto">
-                    <h2 class="font-semibold text-2xl mb-6">Start chatting</h2>
-                    <img class="w-20 h-20 object-cover rounded-full mx-auto shadow-lg" src="https://images.unsplash.com/photo-1611342799915-5dd9f1665d04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="User avatar"/>
-                        <p class="capitalize text-xl mt-1">essie walton</p>
-                        <span class="flex items-center border rounded-full w-24 pr-2 justify-center mx-auto mt-2 mb-12"><div class="bg-green-400 rounded-full w-2.5 h-2.5 block mr-2"></div>Active</span>
-                        <button class="rounded-md bg-gradient-to-r from-blue-400 to-indigo-500 text-xl text-white pt-3 pb-4 px-8 inline">Send a message</button>
-                </div>
-            </div> */}
+         
             <Heading>Frequently Asked Questions</Heading>
             <Accordion />
-            <Footer/>
+            <Footer />
         </>
     )
 }
