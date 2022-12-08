@@ -45,6 +45,7 @@ import contact from '../../public/contact.jpg'
 
 import React from 'react'
 import MainHero from '../global/MainHero';
+import Container from '../global/Container';
 
 const Main = () => {
     const fourcolumndata = [ //to be fetched from database
@@ -78,11 +79,11 @@ const Main = () => {
         <div>
             {/* <Hero heading='' home={true} message='' /> */}
             <MainHero />
-       
-                <Button >
-                    Learn More about Advancing Your Career
-                </Button>
-      
+
+            <Button >
+                Learn More about Advancing Your Career
+            </Button>
+
             <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
 
             <Slider slides={SliderData} />
@@ -93,42 +94,44 @@ const Main = () => {
             <Partners companies={companies} />
 
             {/* <div className='skin'> */}
-                <Heading >GGI Offers Live <strong>Upskilling,</strong> <strong>Employment</strong> & Networking </Heading>
-                <div id='' className='flex justify-center my-12'>
-                    <p className='px-4 md:w-4/6'>Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
-                </div>
-                <div className="p-8 flex justify-center skin">
-                    <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20">
-                        <div className=''>
-                            <h2 className='text-2xl my-8 text-left primary'>GGI MBA Scholar </h2>
-                            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
-                            <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
-                            <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
-                            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
-                            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
-                            <Button url="/ggischolars">
-                                Learn More about GGI Impact MBA
-                            </Button>
-                        </div>
-                        <div>
-                            <h2 className='text-2xl my-8 text-left primary'>GGI Policy Scholar </h2>
-                            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
-                            <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
-                            <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
-                            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
-                            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
-                            <Button url="/ggipolicyscholarsprogram">
-                                Learn More about GGI Policy Scholar
-                            </Button>
-                        </div>
+            <Heading >GGI Offers Live <strong>Upskilling,</strong> <strong>Employment</strong> & Networking </Heading>
 
+            <Container>
+                <p >Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
+
+            </Container>
+            <div className="p-8 flex justify-center  skin">
+                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20">
+                    <div className=''>
+                        <h2 className='text-2xl my-8 text-left primary'>GGI MBA Scholar </h2>
+                        <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
+                        <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
+                        <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
+                        <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
+                        <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
+                        <Button url="/ggischolars">
+                            Learn More about GGI Impact MBA
+                        </Button>
                     </div>
+                    <div>
+                        <h2 className='text-2xl my-8 text-left primary'>GGI Policy Scholar </h2>
+                        <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
+                        <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
+                        <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
+                        <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
+                        <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
+                        <Button url="/ggipolicyscholarsprogram">
+                            Learn More about GGI Policy Scholar
+                        </Button>
+                    </div>
+
                 </div>
-                <div id='' className='p-4 flex justify-center'>
-                    <Button url="/impactfellowship">
-                        Learn More about Advancing Your Career
-                    </Button>
-                </div>
+            </div>
+            <div id='' className='p-4 flex justify-center'>
+                <Button url="/impactfellowship">
+                    Learn More about Advancing Your Career
+                </Button>
+            </div>
             {/* </div> */}
 
 
@@ -173,30 +176,8 @@ const Main = () => {
 
             <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
-            {/* <div className="p-3 md:p-12 flex justify-center">
-          <div className="md:w-4/5 grid grid-cols-2 md:grid-cols-4 gap-1 lg:gap-5">
-            <div className='flex flex-col text-center'>
-              <div> <Image className='' src={harvardcase} /></div>
-              <h2 className='text-3xl my-8'>Harvard Case Method</h2>
-              <p className='mt-3 '>Driven by experiential learning through real case based teaching and heavily interactive & live feedback based problem solving </p>
-            </div>
-            <div className='flex flex-col text-center'>
-              <div> <Image src={officeofcareer} /></div>
-              <h2 className='text-3xl my-8'>Office of  Career Service</h2>
-              <p className='mt-1'>GGI facilitates your hiring by partnering with leading employment partners in consulting, & PM along with resume' and interview prep</p>
-            </div>
-            <div className='flex flex-col text-center'>
-              <div><Image className='' src={becomepart} /></div>
-              <h2 className='text-3xl my-8'>Become part of the Tribe</h2>
-              <p className='mt-10'>Masterclasses are designed to ensure your peer to peer-based learning; so that you grow by growing others. </p>
-            </div>
-            <div className='flex flex-col text-center'>
-              <div><Image src={leadingpurpose} /></div>
-              <h2 className='text-3xl my-8'>Leading with Purpose </h2>
-              <p className='mt-6 '>All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers </p>
-            </div>
-          </div>
-        </div> */}
+         
+         
             <div id='' className='p-4 flex justify-center'>
                 <Button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
                     Learn More about GGI Impact MBA Scholars
@@ -226,10 +207,10 @@ const Main = () => {
 
             <div className="flex justify-center">
                 <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-4 md:mx-10">
-                    <div className='flex flex-col justify-center content-center  col-span-1'>
+                    <div className=''>
                         <Contact />
                     </div>
-                    <div className='col-span-1'>
+                    <div className=''>
                         <p className='p-8'>  GGI Co-Founders - Naman and Shatakshi have worked extensively at the intersection of public policy, technology, management consulting, & entrepreneurship at BCG, UN, Tony Blair Institute and have been recognized as Linkedin for Top Voice for work on gender equality and reimagining higher education. They would love to hear back from you on your experiences, grievances, and new ideas!
                         </p>
                         <p className='p-8 pt-2 text-center'>
