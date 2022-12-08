@@ -6,7 +6,7 @@ const FAQ = [
         "ques": "Which program is the best fit for me?",
         "ans": `<p>Global Governance Initiative is removing barriers to high-quality learning experiences.</p>
         <br>        
-        <p >A. You can access free recorded MBA in 10 minutes series <u><a href="https://thetrinitybyggi.org/" target="_blank" rel="noreferrer noopener">here</a></u> on the Trinity which will allow you to directly learn MBA lessons in 10 minutes from an Ex BCG consultant on Strategy/Finance/Operations etc. free of cost.&nbsp;</p>                
+        <p >A. You can access free recorded MBA in 10 minutes series <u><a href="https://thetrinitybyggi.org/" target="_blank" rel="noreferrer noopener">here</a></u> on the Trinity which will allow you to directly learn MBA lessons in 10 minutes from an Ex BCG consultant on Strategy/ Finance/ Operations etc. free of cost.&nbsp;</p>                
         <br>        
         <p >B.&nbsp;</span><u><a href="https://www.globalgovernanceinitiative.org/ggi-scholars" target="_blank" rel="noreferrer noopener">GGI MBA Scholars</a></u>- Serves as a classic <span style="font-weight:bold;">Alt MBA &amp; Pre MBA,</span> designed specifically for those who wish to pivot their career into management consulting, business strategy, and product management</p>        
         <br>        
@@ -53,7 +53,7 @@ const FAQ = [
     {
         "id": 6,
         "ques": "What are the hiring opportunities via GGI Programs?",
-        "ans": `<p>GGI also has <strong>actively partnered with top hiring consulting/policy/product management partners</strong> such as Samagra Governance, Sattva Consulting, BCG Social Impact, Leading Tech Ventures in the space of social impact, consulting, and product management roles. </p>
+        "ans": `<p>GGI also has <strong>actively partnered with top hiring consulting/ policy/ product management partners</strong> such as Samagra Governance, Sattva Consulting, BCG Social Impact, Leading Tech Ventures in the space of social impact, consulting, and product management roles. </p>
                 <br>
                 <p>These hiring partners trust the GGI selection and learning process because of which they periodically hire from the close community of the Global Governance Initiative! If selected, you'd be invited for sessions by our hiring partners periodically and invited to submit your applications by our employers. </p>
                 <br>

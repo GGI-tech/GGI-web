@@ -1,6 +1,4 @@
 import React from 'react';
-
-import { BsFillArrowDownCircleFill, BsFillArrowUpCircleFill } from 'react-icons/bs'
 import { IoIosArrowDown,IoIosArrowUp } from "react-icons/io";
 
 const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
@@ -9,7 +7,7 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
     return (
         <>
             <div onClick={() => handleSetIndex(index)} className='flex w-screen sm:w-3/4 justify-between pl-10 pr-5 py-3 mt-2 rounded skin border'>
-                <div className='flex'>
+                <div className=''>
                     <p className='primary font-semibold'>{title}</p>
                 </div>
                 <div className="flex items-center justify-center">
@@ -22,7 +20,7 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
             </div>
 
             {(activeIndex === index) && (
-                <div className="flex w-screen sm:w-3/4 shadow-3xl rounded-2xl shadow-cyan-500/50 px-10 py-10 mb-6">
+                <div className="w-screen sm:w-3/4 rounded-2xl px-10 py-10 mb-6">
                    <div  dangerouslySetInnerHTML={{ __html: children }}></div> 
                 </div>
             )}
