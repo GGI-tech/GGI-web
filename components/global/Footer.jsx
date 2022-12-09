@@ -239,7 +239,7 @@ const Footer = () => {
 
             <div className="text-center p-4" style={{"backgroundColor": "rgba(0, 0, 0, 0.2)"}}>
                 © 2022 Copyright:
-                <a className="text-white" href="https://tailwind-elements.com/">Global Governance Initiative</a>
+                <a className="text-white" href="https://tailwind-elements.com/"> Global Governance Initiative</a>
             </div>
         </footer>
     )

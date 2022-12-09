@@ -132,6 +132,69 @@ const data2 = [
         "text": `Shortly after GGI, I got selected as a summer intern under the policy initiatives team at eGovernments Foundation. I will be joining the non-profit organisation in May this year. The first masterclass I attended on Product Management and Tech Ethics helped me gain a wider perspective of the complementarity of soft and hard skills. My key learning from the masterclass was that sustainability needs to be at the forefront of product innovation.&nbsp;The policy consulting masterclass helped me direct my efforts towards this field.<br><br> I have been in touch with the GGI community with the help of regular inner circle meetings and networking events which helped me finally land an internship in my area of interest. The co-founders place great importance on mental well-being which has enabled me to be more confident, accepting and strong.`
     }
 ]
+const data3 = [
+    {
+        "id": 1,
+        "title": `<a href="https://www.linkedin.com/in/averi-chakraborty/" rel="noreferrer noopener" target="_blank">Averi Chakraborty, Boston consulting group (bcg)</a>`,
+        "img": "/averi.jpg",
+        "text": "&quot; Hi, Naman and Shatakshi hope you both are doing fine :)&nbsp;</p><p><br>Have really been enjoying your posts on LinkedIn and Instagram, a big shoutout for that.</p><p><br>Also, wanted to inform you that I would be joining BCG the coming month and this probably would not have been possible without GGI by my side. Thanks for building this community :) &quot;"
+    },
+    {
+        "id": 2,
+        "title": `<a href="https://www.linkedin.com/in/aditya510/" rel="noreferrer noopener" target="_blank">aditya bansal, bain &amp; company</a>`,
+        "img": "/aditya.jpg",
+        "text": "&quot;Hi Shatakshi, I got into&nbsp;Bain!&nbsp;I had it my top preference within consulting, Also got an offer to work as a trader in Amsterdam.&nbsp;</p><p><br></p><p>Thank you for guidance and support&quot;"
+    },
+    {
+        "id": 3,
+        "title": "Tushar Bagrodia, Kearney India",
+        "img": "/tushar.jpg",
+        "text": "Shortly after GGI, I was offered a role by&nbsp;Kearney India. The GGI Masterclass enabled me to develop a more holistic view of the manner in which public sector works in our country and the challenges that arise while working to create an impact with them.</p><p>&nbsp;</p><p>The first time I was introduced to case interviews was also during the GGI Masterclass on my campus. I was able to understand the problems better and develop structured solutions which made me stand out."
+    },
+    {
+        "id": 4,
+        "title": "MAHEK JAIN, BAIN &amp; COMPANY",
+        "img": "/mahek.jpg",
+        "text": `Shortly after GGI, I bagged a Management Consultant offer at&nbsp;<a href="https://www.linkedin.com/company/bain-and-company/" rel="noreferrer noopener" target="_blank">Bain &amp; Company</a>, and Product Management offer at&nbsp;<a href="https://www.linkedin.com/company/zomato/" rel="noreferrer noopener" target="_blank">Zomato</a>.&nbsp;<br><br>&quot;I am a final year Mechanical Engineering student at&nbsp;<a href="https://www.linkedin.com/company/delhi-technological-university-formerly-dce/" rel="noreferrer noopener" target="_blank">Delhi Technological University (Formerly DCE)</a>. I have always been interested in Management Consulting and Product Management. Interestingly, I was also an employee at Global Governance Initiative (GGI), which was a fantastic experience as I got to learn a lot during my 7-month stint at GGI.&nbsp;<br><br>I recently received a Management Consulting offer from Bain &amp; Company, and also a Product Management Internship offer from Zomato.&quot;&nbsp;`
+    },
+    {
+        "id": 5,
+        "title": `<a href="https://www.linkedin.com/in/rahul-prasad-289422178/" rel="noreferrer noopener" target="_blank">Rahul Prasad, Kearney India</a>`,
+        "img": "/rahul.jpg",
+        "text": "Shortly after GGI, I got placed at&nbsp;Kearney India. This was possible due to GGI&rsquo;s prestigious Masterclass. It was a stepping stone for me, where I was exposed to the consulting world, and learned the tips and tricks that I could apply in the consulting world. Shatakshi&rsquo;s mock interviews were also very helpful during my placement season.</p><p>&nbsp;</p><p>I was taught to approach problems in real life scenarios from the best leaders in the game. I was among one of the 5 people from my college to be shortlisted for the coveted EY Global Scholarship Internship Opportunity, and I was able to apply the knowledge that I gained from the Masterclass there as well."
+    },
+    {
+        "id": 6,
+        "title": `<a href="https://www.linkedin.com/in/swatisachdeva-/" rel="noreferrer noopener" target="_blank">Swati Sureka, auctus advisors, Bain &amp; Company job offer</a>`,
+        "img": "/swati.jpg",
+        "text": "I don&apos;t think getting an offer from Bain could have been possible without the community and at the end of my journey, I had offers from 3 Management Consulting firms.</p><p>&nbsp;</p><p>Today, I am a Management Consultant at Auctus Advisors and have been working there for 7 months now before that I was an account strategist at InMobi which was something I joined right after under graduation in Commerce from SRCC. I was a part of the first batch of Impact Scholars, and it was the right thing for me that came at a right time. I attended all the five master classes, and all of those were amazing, management consulting masterclass was one I really liked and I felt it was something I really wanted to work upon.<br><br>GGI has been the most wonderful experience of my life. I was confused during my bachelor&rsquo;s to immediately go for CAT and do my MBA or to switch to management consulting. I remember it was my first conversation with Shatakshi where she shared her personal experience where she mentioned how she had changed her job and you should definitely do so if you have a good reason to. I remember Shatakshi telling me how to apply and approach the interviews and the lovely support of people in the GGI community. I had superstars helping me with CV review and case preparation.<br><br>I had two key values I derived from the community.<br><br>Firstly, a learning mindset, learning from scratch about an industry, and different functions and then communicating it to multiple CXOs with confidence felt normal.<br><br>Secondly, helping each other, I couldn&rsquo;t have imagined being part of such a lovely community. I have reached out to people from the community and they have always answered positively. So yes, it has been the best experience of my life so far."
+    },
+    {
+        "id": 7,
+        "title": "Anusheela Ghosh, Samagra",
+        "img": "/anusheeela.jpg",
+        "text": "Shortly after GGI, I bagged an offer Samagra | Transforming Governance. I have recently started my journey at Samagra and am super excited to grow! Upon joining GGI, I took a deep dive into the consulting space. This involved case prep, networking, brushing up on interview skills and so on.&lt;br&gt;<br />&lt;br&gt;<br />&lt;br&gt;<br />All this eventually culminated into bagging offers from DCPCR, GDI and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!"
+    },
+    {
+        "id": 8,
+        "title": "AKSHAT BANG, TECH MAHINDRA Management consulting ",
+        "img": "/akshat.jpg",
+        "text": `Shortly after GGI, I joined <a href="https://www.linkedin.com/company/tech-mahindra/" target="_blank" rel="noreferrer noopener">Tech Mahindra</a>&nbsp;Management Consulting Team.<br /><br />Before joining GGI, I was on an exchange program at Toulouse Business School in France pursuing strategy and marketing courses. When the pandemic hit, I came back to my homeland. At this point, I was doing my&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=mba&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6949196350186041344" target="_blank" rel="noreferrer noopener">#MBA</a>&nbsp;from home and I was disappointed that my Master&rsquo;s experience was going down the drain. That is when I thought of taking up a GGI to enhance my skills, as my learning was getting stagnated in my online MBA formal degree and I was not feeling that I was learning practical skills.&nbsp;<br /><br />Soon after, I joined&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggi&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6949196350186041344" target="_blank" rel="noreferrer noopener">#GGI</a>&nbsp;and attended my first and one of the most interesting Masterclass was- Management Communications. The kind of people I got to know in the first class itself made me believe that I am at the right place, and I thoroughly enjoyed the class.<br /><br />I also remember attending a guest speaker session on structured thinking which helped me immensely. I started my GGI journey with the mindset that I want to learn, and enhance my communication and articulation skills.<br /><br />I carefully listened to every input, made well-structured notes, and revised everything I noted down. During one masterclass Shatakshi talked about the issue tree approach. I had previously learnt about the entire concept but the way it was discussed and structured in the GGI coursework was really helpful, and it helped me use the framework for solving real-world problems.<br /><br />That&#39;s precisely what was missing in my traditional MBA coursework.`
+    },
+    {
+        "id": 9,
+        "title": "Vidhi Singh, Azim Premji Foundation.",
+        "img": "/vidhi.jpg",
+        "text": "Shortly after GGI, I secured an offer from Azim Premji Foundation. I started my fellowship at GGI alongside my MA Development program at Azim Premji University, Bangalore. Having been a part of Policy Consulting and Management Communication masterclasses I was exposed to frameworks that helped me understand and tackle issues at the policy level. Better articulation and how to tell your story is something that aided me in putting my volunteering experiences in education well and leading me to secure an offer from Azim Premji Foundation as Field Associate. I would like to express my gratitude to the diverse GGI network and supportive mentors like Naman Shrivastava and Shatakshi Sharma for guiding me throughout."
+    },
+    {
+        "id": 10,
+        "title": "Ishita Jain, TresVista",
+        "img": "/ishita.jpg",
+        "text": "Shortly after GGI, I was offered a role by TresVista.<br><br> My first interaction with GGI was back in January 2020 through the Policy Consulting masterclass, then the Management Consulting masterclass. Now it&#39;s more than a year and I continue to be a part of this immensely talented family. The masterclasses boosted my confidence and made me realise my interest for problem solving and creating impact. This eventually led me to work with Teach For India as a campaign leader, intern with Ernst and Young and get placed in TresVista."
+    },
+
+]
 const Card = ({ title, img, text }) => {
     return (
         <>
@@ -173,7 +236,7 @@ const Employment = () => {
         <>
             <Hero image={"/reviews.webp"} />
             <Heading>LIFE AFTER GGI</Heading>
-            <p> </p>
+            <p className='text-center text-xl mb-12'>HOW WILL GGI TRANSFORM YOUR LIFE ?</p>
             <YouTubeEmbed embedId='0XC2VXBF29g' />
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
@@ -185,16 +248,22 @@ const Employment = () => {
                     );
                 })}
 
-                
-                    {data2.map((e) => {
-                        return (
-                            <Card key={e.id} title={e.title} img={e.img} text={e.text} />
 
-                        );
-                    })}
-           
+                {data2.map((e) => {
+                    return (
+                        <Card key={e.id} title={e.title} img={e.img} text={e.text} />
+
+                    );
+                })}
+                     {data3.map((e) => {
+                    return (
+                        <Card key={e.id} title={e.title} img={e.img} text={e.text} />
+
+                    );
+                })}
+
             </div>
-         
+
             <Heading>Frequently Asked Questions</Heading>
             <Accordion />
             <Footer />

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Image from 'next/image';
-
+import secondarynavbar from '../secondaryNav';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   // const [color, setColor] = useState('transparent');
@@ -35,8 +35,11 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10'
+      className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10 '
     >
+      {secondarynavbar && <div className='w-100 bg-red-700 flex justify-center align-center flex-wrap leading-none'>
+        <p className='flex align-center p-3 arial text-sm sm:text-base lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN </p> <a href='' className='ml-6 my-2 py-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black arial'>APPLY NOW</a>
+      </div>}
       <div className='max-w-[1240px] m-auto flex justify-between items-center text-white pr-5'>
         <Link href='/'>
           {/* <p style={{ color: `${textColor}` }} className='font-bold text-4xl'>

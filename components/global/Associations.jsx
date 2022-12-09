@@ -8,8 +8,8 @@ import ceibs from '../../public/ceibs.png'
 
 const Associations = () => {
     return (
-        <div className='flex justify-center'>
-            <div className='w-3/4 gap-5 flex flex-row flex-wrap justify-around'>
+        <div className='mx-3 flex justify-center'>
+            <div className='md:w-3/4 gap-5 flex flex-row justify-around'>
                 <Image src={ceibs} alt="ceibs"/>
                 <Image src={harvard} alt="harvard" />
                 <Image src={un} alt="un"/>
