@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+
+import secondarynavbar from '../secondaryNav'
 const MainHero = () => {
     return (
-        <div className='hero  text-white flex-col mt-4 md:mt-auto pt-24 px-2 lg:px-48 h-full md:h-screen'>
+        <div className={ `hero text-white flex-col ${ secondarynavbar? 'mt-24 sm:mt-12' :'mt-4 lg:mt-auto'} pt-24 px-2 lg:px-48 h-full md:h-screen`}>
             <div className='r1 flex gap-5 md:gap-10 justify-center lg:justify-start  items-end flex-wrap'>
                 <h1 className='text-6xl md:text-9xl font-black arial'>100X</h1>
                 <h1 className='text-2xl font-black arial'> YOUR CHANCES</h1>
