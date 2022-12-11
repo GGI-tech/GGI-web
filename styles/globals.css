@@ -54,7 +54,7 @@ html {
 
 /* headings */
 .primary {
-  color: #C00005;
+  color: #d40209;
 }
 
 .hero {
@@ -119,7 +119,8 @@ p > strong::after {
 
 /* background image on home */
 .custom-img {
-  background-image: url('/Global\ Governance\ Initiative\ .jpg')
+  background-image: url('/Global\ Governance\ Initiative\ .jpg');
+
 }
 
 @media screen and (max-width:500px) {
