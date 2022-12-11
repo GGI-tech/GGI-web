@@ -33,7 +33,7 @@ import Delloite from '../../public/delloite.png';
 import ey from '../../public/ey.png';
 import dalberg from '../../public/dalberg.jpg';
 import fsg from '../../public/fsg.jpg';
-import bain from '../../public/bain-logo.jpg';
+import bain from '../../public/bain.png';
 import kearney from '../../public/Kearney.jpg';
 import bridgespan from '../../public/bridgespan.jpg';
 import mckinsey from '../../public/mckinsey.png';
@@ -74,13 +74,13 @@ const Main = () => {
             "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
         },
     ]
-    const companies = [BCG, mckinsey, bain, dalberg, kearney, fsg, UN, gov, Worldbank, pwc, bridgespan, Delloite, ey];
+    const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite, ey];
     return (
         <div>
-            {/* <Hero heading='' home={true} message='' /> */}
-            <MainHero />
+            <Hero heading='' home={true} message='' />
+            {/* <MainHero /> */}
 
-            <Button >
+            <Button url="">
                 Learn More about Advancing Your Career
             </Button>
 

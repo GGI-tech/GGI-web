@@ -21,7 +21,7 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
 
             {(activeIndex === index) && (
                 <div className="w-screen sm:w-3/4 rounded-2xl px-10 py-10 mb-6">
-                   <div  dangerouslySetInnerHTML={{ __html: children }}></div> 
+                   <p  dangerouslySetInnerHTML={{ __html: children }}></p> 
                 </div>
             )}
         </>

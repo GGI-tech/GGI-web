@@ -6,7 +6,7 @@ const Hero = ({ home, image, heading, message }) => {
   return (
     <>
       {home ?
-        <div className='flex items-center justify-center h-screen mb-12 bg-center bg-cover custom-img '>{/*bg-fixed for parallax effect */}
+        <div className='flex items-center justify-center h-screen mt-24 md:mt-12 bg-center bg-cover custom-img '>{/*bg-fixed for parallax effect */}
           {/* Overlay */}
           <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/0 z-[2]' />       {/* black/percentage  */}
 
