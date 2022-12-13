@@ -19,9 +19,9 @@ export default function SlidingHero({ image, title }) {
         modules={[ Pagination, Autoplay]}
         className="mySwiper"
       >{
-        title.map((t)=>{
+        title.map((t,i)=>{
           return (
-            <SwiperSlide >
+            <SwiperSlide key={i}>
             <div  className='flex items-center justify-center h-full w-screen'>{/*bg-fixed for parallax effect */}
                 {/* Overlay */}
                 <div className='flex justify-center content-center md:w-1/2 m-10 z-[2] mt-[10rem]  h-80'>

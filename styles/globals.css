@@ -73,7 +73,6 @@ h2,
 h3 {
   font-family: PoppinsBold, serif;
   font-weight: 800;
-  /* color: #CF1515; */
   text-align: center;
   letter-spacing: 0.04em;
 }
@@ -83,10 +82,7 @@ ul,
 a,
 button {
   font-weight: 300;
-  font-size: 1rem;
   letter-spacing: 0.08em;
-
-  /* font-family: PoppinsLight,'Poppins',sans-serif; */
 }
 
 /* underlines for headings */

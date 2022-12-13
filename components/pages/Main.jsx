@@ -6,6 +6,7 @@ import Hero from '../global/Hero';
 import Slider from '../global/Slider';
 import { SliderData } from '../global/SliderData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
+
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
 // import Socials from '../global/Socials';
@@ -176,8 +177,8 @@ const Main = () => {
 
             <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
-         
-         
+
+
             <div id='' className='p-4 flex justify-center'>
                 <Button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
                     Learn More about GGI Impact MBA Scholars
@@ -192,16 +193,25 @@ const Main = () => {
                     Learn More about GGI Impact MBA Scholars
                 </Button>
             </div>
-            <div className="flex justify-center">
+            <div className="flex flex-col justify-center">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
-                    <div className='col-span-2'><Image src={bhaskar_chakra} alt="" /></div>
+                    <div className='col-span-2 '><Image src={bhaskar_chakra} alt="" /></div>
                     <div className='flex flex-col justify-center content-center gap-7 p-10 col-span-1'>
                         <p className='text-3xl tracking-widest font-extrabold'>GGI Advisor</p>
                         <p className='text-xl'>Bhaskar Chakravorti</p>
                         <p className='mt-3'>Mr. Bhaskar brings decades of experience having worked as former Partner- McKinsey & Co., Dean of Global business- The Fletcher School, Faculty- Harvard Business School, Advisor- World Economic Forum, UNDP, Brookings Institution, and MasterCard</p>
                     </div>
                 </div>
+                <div className='flex justify-center'>
+                    <div className='w-100 sm:w-3/4 md:w-1/2 lg:w-2/5'>
+                        <video autoPlay={true} loop={true} controls={true} width="100%" height="100%" >
+                            <source src='/file.mp4' />
+                        </video>
+                    </div>
+                </div>
+
             </div>
+
 
             <Heading >Cofounder&#39;s Desk</Heading>
 
