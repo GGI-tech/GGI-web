@@ -2,11 +2,10 @@ import React from 'react';
 
 const Container = (props) => {
     return (
-        <div id='' className='flex justify-center'>
-            <div className='px-8 lg:w-2/3'>
-                {props.children}
-            </div>
+        <div className='px-8 lg:w-2/3 mx-auto'>
+            {props.children}
         </div>
+
     );
 };
 

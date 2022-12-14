@@ -204,7 +204,7 @@ const Main = () => {
                 </div>
                 <div className='flex justify-center'>
                     <div className='w-100 sm:w-3/4 md:w-1/2 lg:w-2/5'>
-                        <video autoPlay={true} loop={true} controls={true} width="100%" height="100%" >
+                        <video autoPlay={true} loop={true} controls={true} muted={true} width="100%" height="100%" >
                             <source src='/file.mp4' />
                         </video>
                     </div>

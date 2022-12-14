@@ -60,7 +60,7 @@ const Footer = () => {
 
                     </div>
                     <div className="w-full lg:w-6/12 px-4">
-                        <div className="flex flex-wrap items-top mb-6">
+                        <div className="flex flex-wrap items-top mb-6 gap-5">
                             <div className="w-full lg:w-4/12 px-4 ml-auto">
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Our Programs</span>
                                 <ul className="list-unstyled">
