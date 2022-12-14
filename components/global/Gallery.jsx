@@ -47,7 +47,7 @@ const Gallery = () => {
       {!isOpened && (<div className='text-center text-sm md:text-base text-blue-900' onClick={toggle}>Show more..</div>)}
       {isOpened && (
         <div className='md:w-3/4 mx-auto text-center md:py-5'>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4 :plg-12'>
+          <div className='grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4 lg:p-12'>
             <InstagramImg socialImg={img24} caption={'CEO, Arthur D. Little, South Asia & India '} />
             <InstagramImg socialImg={img25} caption={'Minister in Malaysia '} />
             <InstagramImg socialImg={img26} caption={'Harvard MBA, Chief of Staff- Hike '} />

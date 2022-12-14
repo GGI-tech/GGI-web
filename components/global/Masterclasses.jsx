@@ -14,7 +14,7 @@ const Masterclasses = () => {
   return (
     <>
       <div className='p-6 md:p-12 flex justify-center '>
-        <div className='box flex flex-row flex-wrap justify-evenly w-full sm:w-5/6 lg:w-1/2 gap-20 pink'>
+        <div className='box flex flex-row flex-wrap justify-evenly w-full sm:w-5/6 lg:w-1/2 gap-10 md:gap-20 pink'>
           <div className='w-20 text-center'>
             <Image src={m1} alt='/' />
             <p className='text-sm text-center'>Policy Consulting Masterclass </p>
