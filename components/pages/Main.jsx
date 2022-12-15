@@ -1,4 +1,6 @@
 
+import React from 'react'
+import MainHero from '../global/MainHero';
 import Image from 'next/image';
 import Gallery from '../global/Gallery';
 import Heading from '../global/Heading';
@@ -9,9 +11,8 @@ import YoutubeEmbed from '../global/YoutubeEmbed';
 
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
-// import Socials from '../global/Socials';
 import Contact from '../global/Contact';
-// import Container from '../global/Container'
+import Container from '../global/Container'
 import Footer from '../global/Footer';
 import Button from '../global/Button';
 //---------------------------------------------------------
@@ -44,9 +45,7 @@ import Worldbank from '../../public/Worldbank.jpg';
 import gov from '../../public/gov.jpg';
 import contact from '../../public/contact.jpg'
 
-import React from 'react'
-import MainHero from '../global/MainHero';
-import Container from '../global/Container';
+
 
 const Main = () => {
     const fourcolumndata = [ //to be fetched from database

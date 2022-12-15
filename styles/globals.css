@@ -20,14 +20,24 @@
   src: url('../fonts/Poppins-Light.ttf');
   font-display: swap;
 }
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 html {
   scroll-behavior: smooth;
   color: rgb(35, 34, 34);
   font-family: PoppinsLight, sans-serif;
-  font-size: 12px
+  font-size: 12px;
+
+  @media (min-width:770px) {
+    font-size: 14px
+  }
+
+  @media (min-width:1000px) {
+    font-size: 16px
+  }
 }
+
 /* variable base font size for smaller and larger devices */
 
 @media (min-width:770px) {
@@ -35,6 +45,7 @@ html {
     font-size: 14px
   }
 }
+
 @media (min-width:1000px) {
   html {
     font-size: 16px
@@ -65,10 +76,12 @@ html {
 .pink {
   color: #FF6161;
 }
-.arial{
-  font-family:'Archivo Black', sans-serif;
+
+.arial {
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 900;
 }
+
 h1,
 h2,
 h3 {
@@ -90,6 +103,7 @@ button {
 strong {
   position: relative;
 }
+
 strong::after {
   content: "";
   position: absolute;
@@ -103,10 +117,11 @@ strong::after {
   background-size: cover;
 }
 
-p > strong {
+p>strong {
   font-weight: 400;
 }
-p > strong::after {
+
+p>strong::after {
   bottom: -0.2rem;
   height: 0.5rem;
   left: -0.25rem;
@@ -152,4 +167,3 @@ p > strong::after {
 .box>* {
   flex: 1 1 20px;
 }
-

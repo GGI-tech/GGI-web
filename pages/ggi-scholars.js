@@ -1,6 +1,6 @@
 import MBA from "../components/pages/MBA"
 
-import Head from "next/dist/shared/lib/head"
+import Head from 'next/head';
 const ggischolars = () => {
 
   return (
