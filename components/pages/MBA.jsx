@@ -7,7 +7,6 @@ import YoutubeEmbed from '../global/YoutubeEmbed';
 import Container from '../global/Container';
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
-// import Socials from '../global/Socials';
 import Gallery from '../global/Gallery';
 import Community from '../global/Community';
 import Curriculum from '../global/Curriculum';
@@ -16,7 +15,6 @@ import FourColumnLayout from '../global/FourColumnLayout';
 import OfficialPartners from '../global/OfficialPartners';
 import Associations from '../global/Associations';
 import Steps from '../global/Steps'
-// import { AiFillCheckCircle } from 'react-icons/ai'
 import Footer from '../global/Footer';
 import Slider from '../global/Slider'
 import { SliderData } from '../global/SliderData';
@@ -111,7 +109,7 @@ const MBA = () => {
             <Button url=""> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
-            <Heading>Why GGI Impact MBA Scholars Works ? </Heading>
+            <Heading>Why GGI Impact MBA Scholars Works? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <p className='px-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
