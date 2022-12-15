@@ -24,6 +24,7 @@
 
 html {
   scroll-behavior: smooth;
+  color: rgb(35, 34, 34);
   font-family: PoppinsLight, sans-serif;
   font-size: 12px
 }
