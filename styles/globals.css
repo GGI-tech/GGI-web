@@ -25,9 +25,9 @@
 
 html {
   scroll-behavior: smooth;
-  color: rgb(35, 34, 34);
+  color: rgb(84, 80, 80);
   font-family: PoppinsLight, sans-serif;
-  font-size: clamp(0.8rem, 0.6875rem + 0.5000vw, 1rem);
+  font-size: clamp(0.75rem, 0.6094rem + 0.6250vw, 1rem);
 }
 
 /* variable base font size for smaller and larger devices */

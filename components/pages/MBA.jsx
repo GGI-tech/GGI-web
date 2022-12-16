@@ -17,7 +17,7 @@ import Associations from '../global/Associations';
 import Steps from '../global/Steps'
 import Footer from '../global/Footer';
 import Slider from '../global/Slider'
-import { SliderData } from '../global/SliderData';
+import { testimonialMBA } from '../../data/testimonialMBA';
 
 // -------------------------------------------------------
 import network from '../../public/network.jpg'
@@ -41,7 +41,7 @@ import Button from '../global/Button';
 const MBA = () => {
     const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
 
-    const fourcolumndata = [ //to be fetched from database
+    const fourcolumndata = [ 
         {
             "id": 1,
             "img": rjgupta,
@@ -112,13 +112,14 @@ const MBA = () => {
             <Heading>Why GGI Impact MBA Scholars Works? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <p className='px-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
+            <p className='px-8 my-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
             <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
+            <div className='my-8'></div>
             <YoutubeEmbed embedId='8lWeJ3Ekq-I' />
 
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
-            <Slider slides={SliderData} />
+            <Slider slides={testimonialMBA} />
             <YoutubeEmbed embedId='iuNMaVSwH0E' />
             <Button url=""> APPLY NOW</Button>
 

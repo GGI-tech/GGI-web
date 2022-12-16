@@ -5,7 +5,7 @@ import { render } from "react-dom";
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
-const YoutubeEmbed = ({ embedId,autoplay }) => (
+const YoutubeEmbed = ({ embedId,autoplay=0 }) => (
   // <LiteYouTubeEmbed 
   //       id={embedId}
   //       title="What’s new in Material Design for the web (Chrome Dev Summit 2019)"
@@ -13,7 +13,8 @@ const YoutubeEmbed = ({ embedId,autoplay }) => (
   <div className="p-4 mb-48 md:mb-4 flex justify-center">
     <iframe
       width={480}
-      height={270}
+      height={250}
+    
       src={`https://www.youtube.com/embed/${embedId}?autoplay=${autoplay}`}
       frameBorder="0"
       align="center"

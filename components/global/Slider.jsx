@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { React, useState } from 'react';
-import { SliderData } from './SliderData';
 import { IoIosArrowForward,IoIosArrowBack } from "react-icons/io";
 
 
@@ -23,7 +22,7 @@ const Slider = ({ slides }) => {
     <div id='gallery' className='max-w-[1240px] mx-auto mb-12'>
       <div className='relative flex justify-center p-4'>
 
-        {SliderData.map((slide, index) => {
+        {slides.map((slide, index) => {
           return (
             <div
               key={index}

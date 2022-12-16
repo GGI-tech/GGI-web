@@ -6,7 +6,7 @@ import Gallery from '../global/Gallery';
 import Heading from '../global/Heading';
 import Hero from '../global/Hero';
 import Slider from '../global/Slider';
-import { SliderData } from '../global/SliderData';
+import { testimonialMain } from '../../data/testimonialMain';
 import YoutubeEmbed from '../global/YoutubeEmbed';
 
 import Partners from '../global/Partners';
@@ -86,7 +86,7 @@ const Main = () => {
 
             <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
 
-            <Slider slides={SliderData} />
+            <Slider slides={testimonialMain} />
 
 
             <Heading>+88% GGIians working in Top <strong >Consulting</strong>,<strong> Policy</strong>, <strong>Product</strong> Roles and Organizations
@@ -103,7 +103,7 @@ const Main = () => {
             <div className="p-8 flex justify-center  skin">
                 <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20">
                     <div className=''>
-                        <h2 className='text-2xl my-8 text-center md:text-left primary'>GGI MBA Scholar </h2>
+                        <h2 className='text-xl md:text-2xl my-8 text-center md:text-left primary'>GGI MBA Scholar </h2>
                         <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
                         <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
                         <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
@@ -116,7 +116,7 @@ const Main = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl my-8 text-center md:text-left primary'>GGI Policy Scholar </h2>
+                        <h2 className='text-xl md:text-2xl my-8 text-center md:text-left primary'>GGI Policy Scholar </h2>
                         <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
                         <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
                         <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
