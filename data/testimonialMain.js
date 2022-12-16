@@ -1,5 +1,5 @@
 
-export const SliderData = [
+export const testimonialMain = [
   {
     name: 'Ansh Aggarwal',
     org: 'GGI Delegate, Policy Consulting Masterclass Cohort, 2019<br> Shri Ram College of Commerce (SRCC)',
