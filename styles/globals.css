@@ -27,15 +27,7 @@ html {
   scroll-behavior: smooth;
   color: rgb(35, 34, 34);
   font-family: PoppinsLight, sans-serif;
-  font-size: 12px;
-
-  @media (min-width:770px) {
-    font-size: 14px
-  }
-
-  @media (min-width:1000px) {
-    font-size: 16px
-  }
+  font-size: clamp(0.8rem, 0.6875rem + 0.5000vw, 1rem);
 }
 
 /* variable base font size for smaller and larger devices */
