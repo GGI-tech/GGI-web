@@ -46,7 +46,6 @@ const Navbar = () => {
             <Image style={{ cursor: "pointer" }} alt="/" height={70} width={200} src={img} />
           </Link>
         </div>
-        <div className=''>
           <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex '>
             <Link href='/ggi-scholars'>
               <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
@@ -79,10 +78,8 @@ const Navbar = () => {
               </span>
             </li>
           </ul>
-        </div>
 
         {/* Mobile Button */}
-        <div className=''>
           <div onClick={handleNav} className='block sm:hidden z-10'>
             {nav ? (
               <AiOutlineClose size={25} style={{ color: 'white' }} />// `${textColor}`
@@ -131,7 +128,6 @@ const Navbar = () => {
           </div>
           </div>{/*yell  */}
       </div>
-    </div >
   );
 };
 
