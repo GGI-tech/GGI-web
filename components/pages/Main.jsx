@@ -89,7 +89,7 @@ const Main = () => {
             <Slider slides={testimonialMain} />
 
 
-            <Heading>+88% GGIians working in Top <strong >Consulting</strong>,<strong> Policy</strong>, <strong>Product</strong> Roles and Organizations
+            <Heading>+88% GGIians working in Top <strong >Consulting,</strong><strong> Policy,</strong> <strong>Product</strong> Roles and Organizations
             </Heading>
             <Partners companies={companies} />
 
@@ -102,27 +102,27 @@ const Main = () => {
             </Container>
             <div className="p-8 flex justify-center  skin">
                 <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20">
-                    <div className=''>
-                        <h2 className='text-xl md:text-2xl my-8 text-center md:text-left primary'>GGI MBA Scholar </h2>
+                    <div className='text-center md:text-left'>
+                        <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
                         <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
                         <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
                         <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
                         <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
                         <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
-                        <div className='flex justify-center md:justify-left'>
+                        <div className='flex justify-center md:justify-start'>
                         <Button url="/ggi-scholars">
                             Learn More about GGI Impact MBA
                         </Button>
                         </div>
                     </div>
-                    <div>
-                        <h2 className='text-xl md:text-2xl my-8 text-center md:text-left primary'>GGI Policy Scholar </h2>
+                    <div className='text-center md:text-left'>
+                        <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                         <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
                         <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
                         <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
                         <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
                         <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
-                        <div className='flex justify-center md:justify-left'>
+                        <div className='flex justify-center md:justify-start'>
                         <Button url="/ggipolicyscholarsprogram">
                             Learn More about GGI Policy Scholar
                         </Button>
@@ -149,27 +149,27 @@ const Main = () => {
 
 
             <Heading>Global Recognition Allows us to Serve you Better</Heading>
-            <div className="p-3 md:p-12 flex justify-center skin">
-                <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
+            <div className="p-5 md:p-12 flex justify-center skin">
+                <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
                     <div className='flex flex-col text-center'>
                         <div className='h-40'> <Image className='' src={poets} alt="" /></div>
-                        <p className='mt-5 '>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni&#34;</p>
-                        <p className='mt-10'>— YOURSTORY</p>
+                        <p className='mt-12 text-amber-500'>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni&#34;</p>
+                        <p className='my-10'>— YOURSTORY</p>
                     </div>
                     <div className='flex flex-col text-center'>
                         <div className='h-40'> <Image src={bcg} alt="" /></div>
-                        <p className='mt-5'>&#34;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth&#34;</p>
-                        <p className='mt-10'>— BCG Global Media</p>
+                        <p className='mt-12 text-amber-500'>&#34;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth&#34;</p>
+                        <p className='my-10'>— BCG Global Media</p>
                     </div>
                     <div className='flex flex-col text-center'>
                         <div className='h-40'><Image className='' src={Linkedin} alt="" /></div>
-                        <p className='mt-5'>&#34;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&#34;</p>
-                        <p className='mt-10'> — Linkedin News</p>
+                        <p className='mt-12 text-amber-500'>&#34;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&#34;</p>
+                        <p className='my-10'> — Linkedin News</p>
                     </div>
                     <div className='flex flex-col text-center'>
                         <div className='h-40'><Image src={yrstory} alt="" /></div>
-                        <p className='mt-5 '>&#34;The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.&#34; </p>
-                        <p className='mt-10'> — YourStory</p>
+                        <p className='mt-12 text-amber-500'>&#34;The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.&#34; </p>
+                        <p className='my-10'> — YourStory</p>
                     </div>
                 </div>
             </div>

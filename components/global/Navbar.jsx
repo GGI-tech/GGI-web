@@ -38,7 +38,7 @@ const Navbar = () => {
       className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10 '
     >
       {/* top banner */}
-      {secondarynavbar && <div className='w-100 bg-red-700'>
+      {secondarynavbar && <div className='w-100 bg-[#C30b0b]'>
         <p className='flex flex-wrap justify-center p-3 arial text-sm sm:text-base lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN &nbsp;
         <a href='' className='text-center mt-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black '>APPLY NOW</a></p>
       </div>}

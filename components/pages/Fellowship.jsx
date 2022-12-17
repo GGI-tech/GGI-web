@@ -13,6 +13,7 @@ import YoutubeEmbed from '../global/YoutubeEmbed'
 import Masterclasses from '../global/Masterclasses'
 import SlidingHero from '../global/SlidingHero'
 import Steps from '../global/Steps'
+import Slider from '../global/Slider'
 import Footer from '../global/Footer'
 import Button from '../global/Button'
 // ------------------------------------------------------------------
@@ -26,6 +27,7 @@ import teach from '../../public/teach.png';
 import studs1 from '../../public/s1.png'
 import studs2 from '../../public/s2.png'
 // --------------------------------------------------------------------
+import { testimonialFellow } from '../../data/testimonialFellow'
 
 const Fellowship = () => {
     const fourcolumndata = [ //to be fetched from database
@@ -127,6 +129,7 @@ const Fellowship = () => {
 
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
+            <Slider slides={testimonialFellow}/>
             <Container>
                 <p className='my-12 '>Fellows are directly mentored by industry practitioners at every step. Mentor led education to interweave learning with working, instead of seeing these as separate things. The fellowship selection process is rigorous and is an invite-only program.</p>
                 <div className='grid sm:grid-cols-2 gap-5'>
