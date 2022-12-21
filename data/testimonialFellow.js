@@ -2,59 +2,59 @@
 export const testimonialFellow = [
     {
         name: 'Arpita',
-        org: 'GGI Delegate, Policy Consulting Masterclass Cohort, 2019<br> Shri Ram College of Commerce (SRCC)',
+        org: 'Meet Arpita G. GGI Fellow 2021.',
         image: '/arpita.jpg',
-        review: "&#34;Shortly after GGI, I got placed in McKinsey & Company. In fact, I will be moving to Mumbai to work as a Business Analyst. Also after the masterclass, having won the EY Scholarship for entrepreneurship, I completed an internship at EY as well.<br> <br>Amongst all the sectors, I am especially excited to contribute to the public sector and private equity verticals at McKinsey. GGI&#39;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process. :)&#34;"
+        review: "&#34;Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of Deloitt<br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P&#34;"
     },
     {
         name: 'Sahil',
-        org: 'GGI Delegate, Policy Consulting Masterclass Cohort, 2019<br>St. Stephen&#39;s College',
+        org: 'Meet Sahil B. GGI Fellow 2021.',
         image: '/sahil.jpg',
-        review: '&#34;Shortly after GGI, I joined as an Associate Consultant at Bain & Company. My role at Bain involved working on portfolio operations and private equity across varied sectors.<br><br> It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting and eventually excelled in policy case competitions as well. The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout.&#34;'
+        review: "&#34;Sahil is a fourth-year undergraduate student at Ashoka University, completing his advanced major in Economics. He is writing his undergraduate thesis on the RBI's monetary policy framework. His primary interest lies in the areas of macroeconomic and development policy and also likes to explore the disciplines of International Relations and Political Science.<br><br> He has worked as a Research Assistant on papers evaluating the impact of government policies and the Ive Covid&#34;"
     },
     {
         name: 'Divyang Bhartia',
-        org: 'GGI Fellow, Class of 2020<br> Columbia University',
+        org: 'Meet Divyang Bhartia, GGI Fellow 2021.',
         image: '/divyang.jpg',
-        review: '&#34;I think ever since I first stumbled upon GGI, my perspective towards my career has changed immensely. <br><br> GGI Masterclasses, founder office hours, peer sessions, and of course the research paper, all in unison collected my professional ambitions and shaped them in a way that I could somehow manage to achieve them. My weeks are covered with working on my bit towards social behavioral change by running my content portal @hasrat.work and working full time at IFC.&#34;'
+        review: "&#34;Divyang is an undergraduate student at St. Xavier's College (Autonomous), Kolkata, pursuing a Bachelor's Degree in Commerce. <br><br> He is the Founder of KnowMore Community where a bunch of students gets together weekly, to discuss on Issues happening around the world. He has been a former Marketing Intern at BYJU'S & a Global Entrepreneur at Egypt where he spent two months with students from different walks of life, experiencing a different work culture.&#34;"
     },
     {
         name: 'Abhay',
-        org: 'GGI Delegate, Policy Consulting Cohort, 2019 <br> Shri Ram College of Commerce (SRCC) ',
+        org: 'Meet Abhay Malla, GGI Fellow 2021.',
         image: '/abhay.jpg',
         review: '&#34;Shortly after GGI, I was offered a role by Kearney India.<br><br>The GGI Masterclass enabled me to develop a more holistic view of the manner in which the public sector works in our country and the challenges that arise while working to create an impact with them. The first time I was introduced to case interviews was also during the GGI Masterclass in my campus. I was able to understand the problems better and develop structured solutions which made me stand out.&#34;'
     },
     {
         name: 'Anushka Dixit',
-        org: 'GGI Delegate, Policy Consulting Cohort, 2019 <br> Indian Institute of Technology (IIT), Delhi',
+        org: 'Meet Anushka Dbdt, GGI Fellow 2021.',
         image: '/anushka.jpg',
-        review: '&#34;Shortly after the GGI Policy Consulting Masterclass, I bagged an offer to join Boston Consulting Group (BCG).<br><br> It was only during the Policy Consulting masterclass that I was introduced to solving cases and the world of consulting. I can never forget that moment when it all seemed worth the effort&#34;'
+        review: '&#34;Anushka, a Finance graduate from Christ University, Bengaluru, is currently working as a Fellow with Teach For India. She teaches 101 middle school students from the community of Munirka in New Delhi. She has also worked as a Selection Reviewer, Recruiter, as well as a member of the Communications team. <br><br>She has worked with the Samagra Shiksha Abhiyan of the Government of Telangana. She is also a strong champion of child rights and has worked with the Delhi.&#34;'
     }, {
         name: 'Tania Gupta',
-        org: 'GGI Delegate, Policy Consulting &<br> Impact Startup Masterclass Cohort, 2020 <br>St. Stephen&#34;s College',
+        org: 'Meet Tania Gupta, GGI Fellow 2021.',
         image: '/tania.jpg',
-        review: 'Shortly after GGI, I was offered a role by Bridgespan. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup, and the third on Management Communications. I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It&#39;s relevant and important.<br><br> I look forward to applying for the Impact Scholar Program soon, especially to attend the Impact Investment and MBA for Impact masterclasses. Upskilling is key and I wouldn&#39;t want to miss anything!&#34;'
+        review: ' &#34;Tania graduated from NIT Trichy with a B.Tech in Instrumentation and Control. She currently works in HSBC as an Analyst at the Wealth and Personal Banking (Data and Analytics) Team, where she gained an understanding of the nuances of banking and credit card pricing strategies catering to the US market. &#34;'
     }, {
         name: 'Garvit',
-        org: 'GGI Fellow, Class of 2020</br>St. Stephen&#39;s College',
+        org: 'Meet Garvit Goswami, GGI Fellow 2021.',
         image: '/garvit.jpg',
-        review: 'Soon after GGI, I actively pursued a career in Public Policy by associating with the Albright Stonebridge Group. Thereafter I began to work with Deloitte as an Analyst in their Government advisory division.<br><br> GGI has been tremendously helpful in providing the right direction to my career. The art of structuring one&#39;s thoughts and the sheer will to learn has enriched my experience of growth. My favorite aspect of GGI&#39;s program is Wiggly and Networking. It&#39;s amazing to see how a collaborative community like GGI&#39;s can foster growth amongst the members'
+        review: '&#34; Garvit is an undergraduate at Shri Ram College of Commerce persuing B.A.(Hons.) Economics. He was the 2nd National runner up position in the GGI Policy Challenge.<br><br> He has co-founded Saarathi- an app in the development stage showing covid-safe route options using Data, Al, and ML.<br><br>While at SRCC, he developed an interest in the policy and strategy domain through his association with consulting and policy clubs.  &#34;'
     }, {
         name: 'Prachi Mehta',
-        org: 'GGI Impact MBA Scholar, 2021<br>Shaheed Bhagat Singh College',
+        org: 'Meet Prachi Mehta, GGI Fellow 2021.',
         image: '/prachi.jpg',
-        review: 'After GGI, I will join Bain & Company. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds. <br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective.'
+        review: "Prachi is an Economics graduate from Christ University and is currently a research associate at Kingfish Group, a private equity advisory firm. She shares responsibility for conducting market research, commercial due diligence, and developing the firm's executive partnerships.<br><br> She also interned at the IDFC Institute where she contributed to the various research projects: (1) Infrastructure of Urban Peripheries and Job Creation (II) Affordable Housing (III)"
     },
     {
         name: 'Tanya Shashtri',
-        org: 'GGI MBA IMPACT SCHOLAR<br> NIT',
+        org: 'Meet Tanya Shastri, GGI Fellow 2021',
         image: '/tanyashashtri.jpg',
-        review: 'Shortly after GGI, I joined Samagra | Transforming governance. I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a #GGIprojects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role'
+        review: 'Tanya is a Computer Science and Engineering graduate from Visvesvaraya National Institute of Technology (NIT Nagpur), batch of 2020.<br><br> She is currently working as a Business Analyst at IQVIA where she is involved in extracting meaningful insights from relevant data and developing business strategy. She has previously interned at Qatar Computing and Research Institute, where she worked in the domains of Natural Language Processing and How to crack Data Science and Analytics'
     },
     {
         name: 'Maurice',
-        org: 'GGI Fellow<br> Lady ShriRam College for Women (LSR)',
+        org: 'Meet Maurice Patel, GGI Fellow 2021.',
         image: '/maurice.jpg',
-        review: 'Shortly after GGI, I bagged an offer Samagra | Transforming Governance.<br><br>I have recently started my journey at Samagra and am super excited to grow!<br><br> Upon joining GGI, I took a deep dive into the consulting space. This involved case prep, networking, brushing up on interview skills, and so on. All this eventually culminated into bagging offers from DCPCR, GDI, and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!'
+        review: 'Maurice is currently pursuing his post-graduate degree in management from Indian Institute of Management Ahmedabad. He is an undergraduate in Applied Mathematics from Indian Institute of Technology, Roorkee.<br><br>Maurice is passionate about programming & finance, and also loves to read, code and binge-watch tv shows & anime. He can absolutely engage in a conversation with topics ranging from potential startup ideas to fan theories about how George R.R. Martin'
     }
 ];

@@ -5,7 +5,7 @@ import Hero from '../global/Hero'
 import Image from 'next/image'
 import YouTubeEmbed from '../global/YoutubeEmbed'
 import Footer from '../global/Footer'
-import {FaLinkedin} from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 // import Container from '../global/Container'
 const data1 = [
     {
@@ -196,6 +196,93 @@ const data3 = [
     },
 
 ]
+
+const data4 = [
+    {
+        "id": 1,
+        "title": "Bhargavi Jonnalagadda",
+        "img": "/r1.jpg",
+        "text": "Graduated from Global Governance Initiative. <br><br>It was an immense learning journey through networking and industry experts."
+    },
+    {
+        "id": 2,
+        "title": "Maanya Charu Kalra, IFC",
+        "img": "/r2.jpg",
+        "text": "I have been selected for a Consultant role by the International Finance Corporation in their Global Upstream Dept in Washington DC. <br><br>It goes without saying that my time at GGI as a fellow contributed immensely to my interview and other selection processes."
+    },
+    {
+        "id": 3,
+        "title": "SHRAYA SAPRU, SAMAGRA",
+        "img": "/r3.jpg",
+        "text": "I have been made an offer to join as a Senior Associate at Samagra.  I had applied after the GGI info session and had my final round today."
+    },
+    {
+        "id": 4,
+        "title": "Yashvi Churivala, PwC Deals Strategy Consulting",
+        "img": "/r4.jpg",
+        "text": "I got an offer from PwC Deals Strategy Consulting! <br><br>Sessions with my mentor (Akshar) and learnings acquired during the Management Communication class were extremely helpful in every round!"
+    },
+    {
+        "id": 5,
+        "title": "ABHINAV RAVI, INDIAN  school of business",
+        "img": "/r5.jpg",
+        "text": "Had one of the most wonderful Sundays in a long, long time attending the Management Consulting and Sustainability Masterclass organized by Global Governance Initiative. "
+    },
+    {
+        "id": 6,
+        "title": "DARSHITA DEVNANI, EY",
+        "img": "/r6.jpg",
+        "text": "I spent my last weekend attending the Liberal Arts Masterclass organised by Global Governance Initiative as a part of my GGI Impact Scholars Program. Being from a commerce background, I have always been curious to explore the world of Liberal Arts and it goes without saying.<br><br>I had a very enriching and immense learning experience whilst learning and interacting with the diverse community. I am thankful beyond words to Naman and Shatakshi for creating one-of-its-kind learning ecosystem at Global Governance Initiative. Glad to be a part of the GGI family!"
+    },
+    {
+        "id": 7,
+        "title": "FIONA d'souza, zafco",
+        "img": "/r7.jpg",
+        "text": "Attended a brilliant masterclass on Impact Investing by speakers Rachana Ramchand, Ivka Kalus and Daan Besamusca. As someone without much clarity on the Impact Investments space, this session was a great value add.<br><br>Thank you Global Governance Initiative for giving us the opportunity to experience discussions on such niche topics."
+    },
+    {
+        "id": 8,
+        "title": "Ravali kothuri, synamedia",
+        "img": "/r8.jpg",
+        "text": "One thing I am grateful for GGI is it opened my mind to explore new things. It exposed me to new domains by letting me interact with people coming from diverse backgrounds."
+    },
+    {
+        "id": 9,
+        "title": "Shanthan chandrasekhar, vlerick business school",
+        "img": "/r9.jpg",
+        "text": "How often do you get to interact with a BCG Partner Aparna Bijapurkar.!!<br><br>Thank you Shatakshi Sharma and Naman Shrivastava for co-founding Global Governance Initiative and pushing our limits personally and professionally."
+    },
+    {
+        "id": 10,
+        "title": "ANISHA mansingh, zomato",
+        "img": "/r10.jpg",
+        "text": "I have received a campus placement offer from Deloitte India. It is in their Consulting Departmnet, the profile is of a Human Capital Analyst. <br><br>There are so many skills that I learnt from the GGI Fellowship that I applied during the placement process. "
+    },
+    {
+        "id": 11,
+        "title": "NETAnya pereira, ISS ESG",
+        "img": "/r11.jpg",
+        "text": "I had an extremely productive weekend at the Global Governance Initiative Impact Investing Masterclass. Personally, I was looking forward to this Masterclass since the start of GGI and I wasn't let down!"
+    },
+    {
+        "id": 12,
+        "title": "MUSKAAN, CEEW, LAMP, SRCC",
+        "img": "/r12.jpg",
+        "text": "I just want to thank you and the entire GGI Team for facilitating the process as well as comment on the brilliant work you've been doing throughout the organization!"
+    },
+    // {
+    //     "id":13,
+    //     "title":"KASHISH CHORDIA, Yourstory media",
+    //     "img":"/r13.jpg",
+    //     "text":"Selection into the recent Management Consulting & Sustainability Masterclass conducted by the GGI this Saturday enabled me to broaden my horizons of management consulting holistically. It was a 10-hour long tiring session, however, with such a great panel and a diverse cohort of 60 attendees on-board, I was much more enlightened and satisfied."
+    // },
+    // {
+    //     "id":14,
+    //     "title":"",
+    //     "img":"/r14.jpg",
+    //     "text":""
+    // }
+]
 const Card = ({ title, img, text }) => {
     return (
         <>
@@ -217,14 +304,44 @@ const Card = ({ title, img, text }) => {
                 <div className='flex-justify center p-4 lg:w-2/3 text-sm'>
                     <p className=' ' dangerouslySetInnerHTML={{ __html: text }}></p>
                     <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
-                        Read the full story on Linked<FaLinkedin/>
+                        Read the full story on Linked<FaLinkedin />
                         <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                     </a>
                 </div>
-
             </div>
+        </>
 
+    )
+}
 
+const Cardx = ({ title, img, text }) => {
+    return (
+        <>
+            <div className='mx-4 my-12 flex flex-col py-5 shadow-black/5 shadow-xl rounded-lg'>
+                <p className='my-2 mx-auto primary font-bold tracking-tight text-gray-900 dark:text-white max-w-[200px] ' dangerouslySetInnerHTML={{ __html: title }}></p>
+
+                <div className='flex justify-center'>
+
+                    <div className='text-center p-4'>
+                        <Image
+                            className=''
+                            src={img}
+                            alt='/'
+                            width={400}
+                            height={400}
+                        />
+
+                    </div>
+                    {/* <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p> */}
+                </div>
+                <div className='flex-justify center p-4 text-sm'>
+                    <p className=' ' dangerouslySetInnerHTML={{ __html: text }}></p>
+                    <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
+                        Read the full story on Linked<FaLinkedin />
+                        <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                    </a>
+                </div>
+            </div>
         </>
 
     )
@@ -256,12 +373,55 @@ const Employment = () => {
 
                     );
                 })}
-                     {data3.map((e) => {
+                {data3.map((e) => {
                     return (
                         <Card key={e.id} title={e.title} img={e.img} text={e.text} />
 
                     );
                 })}
+
+
+
+            </div>
+
+            <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12 lg:grid-cols-3 md:mx-24'>
+                {
+                    data4.map((e) => {
+                        return (
+                            <Cardx key={e.id} title={e.title} img={e.img} text={e.text} />
+
+                        )
+                    })
+                }
+            </div>
+            <div className='flex flex-wrap justify-center md:mx-12'>
+
+                <img src={'/rr11.jpg'}  alt=''/>
+                <img src={'/rr12.jpg'}  alt='' />
+                <img src={'/rr13.jpg'}  alt='' />
+                <img src={'/rr14.jpg'}  alt='' />
+                <img src={'/rr15.png'}  alt='' />
+                <img src={'/rr16.png'}  alt='' />
+                <img src={'/rr17.jpg'}  alt='' />
+                <img src={'/rr18.png'}  alt='' />
+                <img src={'/rr19.png'}  alt='' />
+                <img src={'/rr20.png'}  alt='' />
+                <img src={'/rr21.png'}  alt='' />
+                <img src={'/rr22.png'} width='80%' alt='' />
+                <img src={'/rr23.png'}  alt='' />
+                <img src={'/rr24.png'}  alt='' />
+                <img src={'/rr25.png'}  alt='' />
+                <img src={'/rr26.png'}  alt='' />
+                <img src={'/rr27.png'}  alt='' />
+                <img src={'/rr28.png'}  alt='' />
+                <img src={'/rr29.png'}  alt='' />
+                <img src={'/rr30.png'}  alt='' />
+                <img src={'/rr31.png'}  alt='' />
+                <img src={'/rr32.png'}  alt='' />
+                <img src={'/rr33.png'}  alt='' />
+                <img src={'/rr34.png'}  alt='' />
+
+
 
             </div>
 

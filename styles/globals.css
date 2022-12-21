@@ -99,7 +99,7 @@ strong {
 strong::after {
   content: "";
   position: absolute;
-  bottom: -0.25rem;
+  bottom: -0.5rem;
   left: 0.25rem;
   right: 0.25rem;
   height: 1.3rem;
