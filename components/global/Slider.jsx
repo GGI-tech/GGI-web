@@ -54,7 +54,7 @@ const Slider = ({ slides }) => {
                     <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p>
 
                   </div>
-                  <div className='flex-justify center p-4 lg:w-1/2 italic text-sm'>
+                  <div className='flex-justify center p-4 lg:w-1/2 text-sm'>
                     <p dangerouslySetInnerHTML={{ __html: slide.review }}></p>
                   </div>
 

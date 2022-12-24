@@ -13,8 +13,8 @@ import m9 from '../../public/m9.jpg';
 const Masterclasses = () => {
   return (
     <>
-      <div className='p-6 md:p-12 flex justify-center '>
-        <div className='box flex flex-row flex-wrap justify-evenly w-full sm:w-5/6 lg:w-1/2 gap-10 md:gap-20 pink'>
+      <div className='p-6 mt-24 mb-12 flex justify-center '>
+        <div className='box flex flex-row flex-wrap justify-evenly w-full sm:w-5/6 md:w-4/5 lg:w-3/5 2xl:w-1/2 gap-10 md:gap-20 pink'>
           <div className='w-20 text-center'>
             <Image src={m1} alt='/' />
             <p className='text-sm text-center'>Policy Consulting Masterclass </p>

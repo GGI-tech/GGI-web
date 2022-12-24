@@ -132,7 +132,7 @@ const Fellowship = () => {
             <Slider slides={testimonialFellow}/>
             <Container>
                 <p className='my-12 '>Fellows are directly mentored by industry practitioners at every step. Mentor led education to interweave learning with working, instead of seeing these as separate things. The fellowship selection process is rigorous and is an invite-only program.</p>
-                <div className='grid sm:grid-cols-2 gap-5'>
+                <div className='my-24 grid sm:grid-cols-2 gap-5'>
                     <div className=''><Image src={studs1} alt="" /></div>
                     <div className=''><Image src={studs2} alt="" /></div>
 

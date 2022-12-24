@@ -27,22 +27,10 @@ html {
   scroll-behavior: smooth;
   color: rgb(84, 80, 80);
   font-family: PoppinsLight, sans-serif;
-  font-size: clamp(0.75rem, 0.6094rem + 0.6250vw, 1rem);
-}
+  font-size: clamp(0.75rem, 0.6522rem + 0.4348vw, 1rem);}
 
 /* variable base font size for smaller and larger devices */
 
-@media (min-width:770px) {
-  html {
-    font-size: 14px
-  }
-}
-
-@media (min-width:1000px) {
-  html {
-    font-size: 16px
-  }
-}
 
 .h80vh {
   height: 80vh;
@@ -99,15 +87,21 @@ strong {
 strong::after {
   content: "";
   position: absolute;
-  bottom: -0.5rem;
+  bottom: -0.01rem;
   left: 0.25rem;
   right: 0.25rem;
-  height: 1.3rem;
+  height: clamp(0.75rem, 0.6094rem + 0.6250vw, 1.1rem);
   z-index: -1;
   background-image: url("/u1.svg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
+/* @media screen and (min-width:600px) {
+  strong::after {
+    bottom: -0.125rem;
+  }
+} */
 
 p>strong {
   font-weight: 400;
