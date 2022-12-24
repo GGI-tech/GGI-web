@@ -23,8 +23,8 @@ export default function SlidingHero({ image, title }) {
             <SwiperSlide key={i}>
             <div  className='flex items-center justify-center h-full w-screen'>{/*bg-fixed for parallax effect */}
                 {/* Overlay */}
-                <div className='flex justify-center content-center md:w-1/2 m-10 z-[2] mt-[10rem]  h-80'>
-                  <h2 className='m-auto bg-black/40 border-2 p-5 text-2xl md:text-4xl font-black text-center text-white' dangerouslySetInnerHTML={{__html:t}}></h2>
+                <div className='flex justify-center content-center md:w-2/3 m-10 z-[2] mt-[10rem]  h-80 md:h-65'>
+                  <h2 className='m-auto bg-black/50 border-4 px-3 py-4 text-2xl lg:text-3xl font-black text-center text-white' dangerouslySetInnerHTML={{__html:t}}></h2>
                   {/* <button className='px-8 py-2 border'>Book</button> */}
                 </div>
               </div>

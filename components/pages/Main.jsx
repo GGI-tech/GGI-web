@@ -77,6 +77,7 @@ const Main = () => {
     const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite, ey];
     return (
         <div>
+
             <Hero heading='' home={true} message='' />
             {/* <MainHero /> */}
 
@@ -101,44 +102,50 @@ const Main = () => {
 
             </Container>
             <div className="p-8 flex justify-center  skin">
-                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20">
-                    <div className='text-center md:text-left'>
-                        <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
-                        <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
-                        <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
-                        <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
-                        <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
-                        <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
-                        <div className='flex justify-center md:justify-start'>
-                        <Button url="/ggi-scholars">
-                            Learn More about GGI Impact MBA
-                        </Button>
+                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20" >
+                    <div>
+                        <div className='text-center md:text-left md:h-[25rem]'>
+                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
+                            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
+                            <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
+                            <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
+                            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
+                            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
+
+                        </div>
+                        <div className='flex justify-center md:justify-start mb-0'>
+                            <Button url="/ggi-scholars">
+                                Learn More about GGI Impact MBA
+                            </Button>
                         </div>
                     </div>
-                    <div className='text-center md:text-left'>
-                        <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
-                        <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
-                        <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
-                        <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
-                        <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
-                        <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
-                        <div className='flex justify-center md:justify-start'>
-                        <Button url="/ggipolicyscholarsprogram">
-                            Learn More about GGI Policy Scholar
-                        </Button>
+                    <div>                    
+                        <div className='text-center md:text-left md:h-[25rem]'>
+                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
+                            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
+                            <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
+                            <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
+                            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
+                            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
+
+                        </div>
+                        <div className='flex justify-center md:justify-start mb-0'>
+                            <Button url="/ggipolicyscholarsprogram">
+                                Learn More about GGI Policy Scholar
+                            </Button>
                         </div>
                     </div>
 
                 </div>
             </div>
-          
+
             {/* </div> */}
 
 
 
             <Heading>You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners, Consulting, Policy, Product Leaders </Heading>
             <Gallery />
-      
+
 
 
             <div className='mt-24 flex justify-center'>

@@ -39,14 +39,14 @@ const Navbar = () => {
     >
       {/* top banner */}
       {secondarynavbar && <div className='w-100 bg-[#C30b0b]'>
-        <p className='flex flex-wrap justify-center p-3 arial text-sm sm:text-base lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN &nbsp;
+        <p className='flex flex-wrap justify-center p-1 arial text-sm sm:text-base lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN &nbsp;
         <a href='' className='text-center mt-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black '>APPLY NOW</a></p>
       </div>}
 
       <div className='sm:mx-12 m-auto flex justify-between gap-2 items-center text-white pr-5'>
-        <div className=' mx-auto sm:ml-0'>
+        <div className='mx-auto sm:ml-12 pt-2'>
           <Link href='/'>
-            <Image style={{ cursor: "pointer" }} alt="/" height={70} width={185} src={img} />
+            <Image style={{ cursor: "pointer" }} alt="/" height={50} width={185} src={img} />
           </Link>
         </div>
         <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex '>
