@@ -12,7 +12,7 @@ const data1 = [
         "id": 1,
         "title": "KARAN DAVID",
         "org": "BAIN & COMPANY",
-        "img": "/karan_david.jpg",
+        "img": "/karan.jpg",
         "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
     },
     {

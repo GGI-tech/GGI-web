@@ -10,55 +10,84 @@ import m7 from '../../public/m7.jpg';
 import m8 from '../../public/m8.jpg';
 import m9 from '../../public/m9.jpg';
 
+const data1 = [
+  {
+    'img': m1,
+    'name': "Policy Consulting Masterclass"
+  },
+  {
+    'img': m2,
+    'name': "MBA for Impact Masterclass"
+  },
+  {
+    'img': m3,
+    'name': "The Liberal Arts Masterclass"
+  },
+  {
+    'img': m4,
+    'name': "Management Consulting & Sustainability Masterclass"
+  },
+  {
+    'img': m5,
+    'name': "Data Analytics & Emerging Tech Masterclass"
+  }
+
+]
+
+const data2 = [
+  {
+    'img': m6,
+    'name': "Management Communications Masterclass"
+  },
+  {
+    'img': m7,
+    'name': "CV and Case Interview Prep Masterclass"
+  },
+  {
+    'img': m8,
+    'name': "Impact Investment Masterclass"
+  },
+  {
+    'img': m9,
+    'name': "Product Management & Tech Ethics Masterclass"
+  }
+]
 const Masterclasses = () => {
   return (
     <>
-      <div className='p-6 mt-24 mb-12 flex justify-center '>
-        <div className='box flex flex-row flex-wrap justify-evenly w-full sm:w-5/6 md:w-4/5 lg:w-3/5 2xl:w-1/2 gap-10 md:gap-20 pink'>
-          <div className='w-20 text-center'>
-            <Image src={m1} alt='/' />
-            <p className='text-sm text-center'>Policy Consulting Masterclass </p>
-          </div>
-          <div className='w-20 text-center'>
-            <Image src={m2} alt='/' />
-            <p className='text-sm text-center'>MBA for Impact Masterclass  </p>
-          </div>
-          <div className='w-20 text-center'>
-            <Image src={m3} alt='/' />
-            <p className='text-sm text-center'>The Liberal Arts Masterclass </p>
-          </div>
-          <div className='w-20 text-center'>
-            <Image src={m4} alt='/' />
-            <p className='text-sm text-center'>Management Consulting & Sustainability Masterclass </p>
-          </div>
-        {/* </div>
-      </div>
-      <div className='mt-5 flex justify-center '>
-
-        <div className='flex flex-row justify-evenly flex-wrap  w-full md:w-4/5 '> */}
-          <div className='w-20 text-center'>
-            <Image src={m5} alt='/' />
-            <p className='text-sm text-center'>Data Analytics & Emerging Tech Masterclass </p>
-          </div>
-          <div className='w-20 text-center'>
-            <Image src={m6} alt='/' />
-            <p className='text-sm text-center'>Management Communications Masterclass </p>
-          </div>
-          <div className='w-20 text-center'>
-            <Image src={m7} alt='/' />
-            <p className='text-sm text-center'>CV and Case Interview Prep Masterclass </p>
-          </div>
-          <div className='w-20 text-center'>
-            <Image src={m8} alt='/' />
-            <p className='text-sm text-center'>Impact Investment Masterclass </p>
-          </div>
-          <div className='w-20 text-center'>
-            <Image src={m9} alt='/' />
-            <p className='text-sm text-center'>Product Management & Tech Ethics Masterclass  </p>
-          </div>
+      <div className='p-6 mt-24 hidden sm:flex justify-center '>
+        <div className='flex justify-evenly w-full sm:w-5/6 md:w-4/5 lg:w-3/5 2xl:w-1/2 gap-10 md:gap-20 pink'>
+          {data1.map((item, i) => {
+            return (
+              <div key={i} className='w-22 text-center'>
+                <Image src={item.img} alt='/' />
+                <p className='text-sm text-center'>{item.name} </p>
+              </div>
+            )
+          })}
         </div>
-
-
+      </div>
+      <div className='my-5 hidden sm:flex justify-center '>
+        <div className='flex justify-evenly w-full sm:w-5/6 md:w-4/5 lg:w-3/5 2xl:w-1/2 gap-10 md:gap-20 pink '>
+          {data2.map((item, i) => {
+            return (
+              <div key={i} className='w-22 text-center'>
+                <Image src={item.img} alt='/' />
+                <p className='text-sm text-center'>{item.name} </p>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+      <div className='sm:hidden grid grid-cols-3 grid-rows-3 gap-8'>
+        {data1.concat(data2).map((item, i) => {
+          return (
+            <div key={i} className='text-center'>
+              <Image src={item.img} alt='/' />
+              <p className='text-sm text-center pink'>{item.name} </p>
+            </div>
+          )
+        })}
       </div>
     </>
   )

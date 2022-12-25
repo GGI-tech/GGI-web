@@ -65,37 +65,38 @@ const Footer = () => {
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Our Programs</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">GGI MBA Scholars</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/ggi-scholars">GGI MBA Scholars</a>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">GGI Policy Scholars</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/ggipolicyscolarsprogram">GGI Policy Scholars</a>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">GGI Impact Fellowship</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/impact-fellowship">GGI Impact Fellowship</a>
                                     </li>
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Young Leaders Program</a>
-                                    </li>
+
                                 </ul>
                             </div>
                             <div className="w-full lg:w-4/12 px-4">
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">Careers</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Our Mission</a>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">Blogs</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/careers">Careers</a>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/blogs">Blogs</a>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Terms &amp; Conditions</a>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Privacy Policy</a>
                                     </li>
+                                    {/* <li>
+                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Contact Us</a>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
