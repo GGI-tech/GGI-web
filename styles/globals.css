@@ -150,6 +150,6 @@ p>strong::after {
 }
 
 /*  */
-.box>* {
+/* .box>* {
   flex: 1 1 20px;
-}
+} */
