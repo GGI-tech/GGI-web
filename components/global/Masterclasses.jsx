@@ -79,7 +79,7 @@ const Masterclasses = () => {
           })}
         </div>
       </div>
-      <div className='sm:hidden grid grid-cols-3 grid-rows-3 gap-8'>
+      <div className='sm:hidden grid grid-cols-3 grid-rows-3 gap-4'>
         {data1.concat(data2).map((item, i) => {
           return (
             <div key={i} className='text-center'>
