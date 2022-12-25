@@ -20,9 +20,9 @@ const Hero = ({ home, image, heading, message }) => {
             objectFit="cover"
           />
           {heading ?
-            <div className="absolute  z-[2] text-white top-1/2 md:top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
-              <h1 className='bg-black/40 text-xl md:text-4xl p-4 md:p-12 md:py-24 border-2 font-bold text-center'>{heading}</h1>
-              <p className='text-center mt-[5rem] font-bold text-xl'>Make your own GGI</p>
+            <div className="absolute  z-[2] text-white top-2/3 md:top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <h1 className='bg-black/30 font-serif text-2xl md:text-4xl p-4 md:py-12 md:px-36 border-2 text-center' dangerouslySetInnerHTML={{__html:heading}}></h1>
+              <p className='text-center mt-[5rem] text-xl font-serif'>Make your own GGI</p>
 
             </div>
             : <div></div>

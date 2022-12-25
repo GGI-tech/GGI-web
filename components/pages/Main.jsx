@@ -149,7 +149,7 @@ const Main = () => {
 
 
             <div className='mt-24 flex justify-center'>
-                <p className='md:w-3/5 text-xl font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
+                <p className='md:w-3/5 md:text-lg font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
             <YoutubeEmbed embedId="8lWeJ3Ekq-I" />
 

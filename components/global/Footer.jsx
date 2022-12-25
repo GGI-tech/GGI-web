@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className="flex flex-wrap text-left lg:text-left">
                     <div className="w-full lg:w-6/12 px-4">
 
-                        <h3 className="text-3xl fonat-semibold text-blueGray-700">Let&apos;s keep in touch!</h3>
+                        <h3 className="text-3xl font-extralight text-left">Let&apos;s keep in touch!</h3>
                         <h4 className="text-lg mt-0 mb-2 text-blueGray-600">
                             Subscribe to our newsletter.
                         </h4>

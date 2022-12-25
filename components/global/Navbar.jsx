@@ -39,7 +39,7 @@ const Navbar = () => {
     >
       {/* top banner */}
       {secondarynavbar && <div className='w-100 bg-[#C30b0b]'>
-        <p className='flex flex-wrap justify-center p-1 arial text-sm sm:text-base lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN &nbsp;
+        <p className='flex flex-wrap justify-center p-1 arial text-lg lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN &nbsp;
           <a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel="noopener noreferrer" className='text-center mt-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black '>APPLY NOW</a></p>
       </div>}
 

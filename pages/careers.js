@@ -7,6 +7,7 @@ const careers = () => {
     <>
       <Head>
         <title>Careers | Global Governance Initiative </title>
+        <link rel='icon' href='/favicon.jpg' />
       </Head>
       <Careers/>
     </>
