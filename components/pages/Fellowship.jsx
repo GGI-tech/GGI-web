@@ -19,7 +19,7 @@ import Button from '../global/Button'
 import studs1 from '../../public/s1.png'
 import studs2 from '../../public/s2.png'
 // --------------------------------------------------------------------
-import {fourcolumndata, stages, testimonialFellow, curriculum } from '../../data/testimonialFellow'
+import {fourcolumndata, stages, testimonialFellow, curriculum } from '../../data/fellowshippgData'
 
 const Fellowship = () => {
   

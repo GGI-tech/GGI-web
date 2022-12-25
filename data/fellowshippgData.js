@@ -1,9 +1,9 @@
 // ------------------------------------------------------------------
-import network from '../../public/network2.jpeg'
-import clinton from '../../public/clinton.png'
-import arunm from '../../public/arun_maira.jpg'
-import BCG from '../../public/bcg-g.jpg';
-import teach from '../../public/teach.png';
+import network from '../public/network2.jpeg'
+import clinton from '../public/clinton.png'
+import arunm from '../public/arun_maira.jpg'
+import BCG from '../public/bcg-g.jpg';
+import teach from '../public/teach.png';
 
 
 export const fourcolumndata = [ //to be fetched from database
