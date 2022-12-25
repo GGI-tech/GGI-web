@@ -23,10 +23,10 @@ const Footer = () => {
                 <div className="flex flex-wrap text-left lg:text-left">
                     <div className="w-full lg:w-6/12 px-4">
 
-                        <h4 className="text-3xl fonat-semibold text-blueGray-700">Let&apos;s keep in touch!</h4>
-                        <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
+                        <h3 className="text-3xl fonat-semibold text-blueGray-700">Let&apos;s keep in touch!</h3>
+                        <h4 className="text-lg mt-0 mb-2 text-blueGray-600">
                             Subscribe to our newsletter.
-                        </h5>
+                        </h4>
                         {/* -------------------------------------------- */}
                         <input
                             type="text"
@@ -118,7 +118,7 @@ const Footer = () => {
                 <div className="flex flex-wrap items-center md:justify-between justify-center">
                     <div className="w-full md:w-4/12 px-4 mx-auto text-center">
                         <div className="text-blueGray-500  py-1">
-                            Copyright © <span id="get-current-year">2022</span><Link href="/"><a className="text-gray-500 hover:text-white"> Global Governance Initiative</a></Link>
+                            Copyright © <span id="get-current-year">2022</span><Link href="/"><a className="text-white hover:text-gray-200"> Global Governance Initiative</a></Link>
                         </div>
                     </div>
                 </div>

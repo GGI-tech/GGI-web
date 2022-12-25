@@ -6,7 +6,7 @@ import Gallery from '../global/Gallery';
 import Heading from '../global/Heading';
 import Hero from '../global/Hero';
 import Slider from '../global/Slider';
-import { testimonialMain } from '../../data/testimonialMain';
+import { testimonialMain } from '../../data/mainpgData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
 
 import Partners from '../global/Partners';
@@ -160,22 +160,22 @@ const Main = () => {
                 <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
                     <div className='flex flex-col text-center'>
                         <div className='h-40'> <Image className='' src={poets} alt="" /></div>
-                        <p className='mt-12 text-amber-500'>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated 5,500 Alumni&#34;</p>
+                        <p className='mt-12 text-yellow-600'>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduayellow,600 Alumni&#34;</p>
                         <p className='my-10'>— YOURSTORY</p>
                     </div>
                     <div className='flex flex-col text-center'>
                         <div className='h-40'> <Image src={bcg} alt="" /></div>
-                        <p className='mt-12 text-amber-500'>&#34;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth&#34;</p>
+                        <p className='mt-12 text-yellow-600'>&#34;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth&#34;</p>
                         <p className='my-10'>— BCG Global Media</p>
                     </div>
                     <div className='flex flex-col text-center'>
                         <div className='h-40'><Image className='' src={Linkedin} alt="" /></div>
-                        <p className='mt-12 text-amber-500'>&#34;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&#34;</p>
+                        <p className='mt-12 text-yellow-600'>&#34;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&#34;</p>
                         <p className='my-10'> — Linkedin News</p>
                     </div>
                     <div className='flex flex-col text-center'>
                         <div className='h-40'><Image src={yrstory} alt="" /></div>
-                        <p className='mt-12 text-amber-500'>&#34;The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.&#34; </p>
+                        <p className='mt-12 text-yellow-600'>&#34;The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.&#34; </p>
                         <p className='my-10'> — YourStory</p>
                     </div>
                 </div>
