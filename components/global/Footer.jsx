@@ -65,13 +65,19 @@ const Footer = () => {
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Our Programs</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/ggi-scholars">GGI MBA Scholars</a>
+                                        <Link href="/ggi-scholars">
+                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI MBA Scholars</p>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/ggipolicyscolarsprogram">GGI Policy Scholars</a>
+                                        <Link href="/ggipolicyscolarsprogram">
+                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Policy Scholars</p>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/impact-fellowship">GGI Impact Fellowship</a>
+                                        <Link href="/impact-fellowship">
+                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Impact Fellowship</p>
+                                        </Link>
                                     </li>
 
                                 </ul>
@@ -80,19 +86,25 @@ const Footer = () => {
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Our Mission</a>
+                                        <Link href="">
+                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Our Mission</p>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/careers">Careers</a>
+                                        <Link href="/careers">
+                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Careers</p>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="/blogs">Blogs</a>
+                                        <Link href="/blogs">
+                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Blogs</p>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Terms &amp; Conditions</a>
+                                        <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Terms &amp; Conditions</p>
                                     </li>
                                     <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Privacy Policy</a>
+                                        <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Privacy Policy</p>
                                     </li>
                                     {/* <li>
                                         <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Contact Us</a>
