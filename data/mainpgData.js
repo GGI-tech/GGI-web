@@ -1,3 +1,50 @@
+import BCG from '../public/bcg.png';
+import Delloite from '../public/delloite.png';
+import ey from '../public/ey.png';
+import dalberg from '../public/dalberg.jpg';
+import fsg from '../public/fsg.jpg';
+import bain from '../public/bain.png';
+import kearney from '../public/Kearney.jpg';
+import bridgespan from '../public/bridgespan.jpg';
+import mckinsey from '../public/mckinsey.png';
+import pwc from '../public/pwc.jpg';
+import UN from '../public/UN.jpg';
+import Worldbank from '../public/Worldbank.jpg';
+import gov from '../public/gov.jpg';
+// -------------------------------------------------------`
+
+import harvardcase from '../public/harvardcase.jpg'
+import becomepart from '../public/becomepart.jpg'
+import leadingpurpose from '../public/leadingwithpurpose.jpg'
+import officeofcareer from '../public/officeofcareer.jpg'
+// -------------------------------------------------------`
+export const fourcolumndata = [ //to be fetched from database
+  {
+    "id": 1,
+    "img": harvardcase,
+    "title": "Harvard Case Method",
+    "body": "Driven by experiential learning through real case based teaching and heavily interactive & live feedback based problem solving."
+  },
+  {
+    "id": 2,
+    "img": officeofcareer,
+    "title": "Office of Career Service",
+    "body": "GGI facilitates your hiring by partnering with leading employment partners in consulting, & PM along with resume' and interview prep."
+  },
+  {
+    "id": 3,
+    "img": becomepart,
+    "title": "Become part of the Tribe",
+    "body": "Masterclasses are designed to ensure your peer to peer-based learning; so that you grow by growing others."
+  },
+  {
+    "id": 4,
+    "img": leadingpurpose,
+    "title": "Leading with Purpose",
+    "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
+  },
+]
+export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite, ey];
 
 export const testimonialMain = [
   {
