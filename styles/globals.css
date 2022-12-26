@@ -27,7 +27,8 @@ html {
   scroll-behavior: smooth;
   color: rgb(84, 80, 80);
   font-family: PoppinsLight, sans-serif;
-  font-size: clamp(0.75rem, 0.6522rem + 0.4348vw, 1rem);}
+  font-size: clamp(0.75rem, 0.6522rem + 0.4348vw, 1rem);
+}
 
 /* variable base font size for smaller and larger devices */
 
@@ -79,6 +80,18 @@ button {
   letter-spacing: 0.08em;
 }
 
+/* only for header headings wrap */
+.hide {
+  display: none;
+
+}
+
+@media screen and (min-width:400px) {
+  .hide {
+    display: block;
+  }
+}
+
 /* underlines for headings */
 strong {
   position: relative;
@@ -97,6 +110,7 @@ strong::after {
   background-size: cover;
 
 }
+
 /* @media screen and (min-width:600px) {
   strong::after {
     bottom: -0.125rem;
@@ -148,8 +162,3 @@ p>strong::after {
   height: 100%;
   border: none;
 }
-
-/*  */
-/* .box>* {
-  flex: 1 1 20px;
-} */

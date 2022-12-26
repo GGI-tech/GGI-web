@@ -6,7 +6,7 @@ import Gallery from '../global/Gallery';
 import Heading from '../global/Heading';
 import Hero from '../global/Hero';
 import Slider from '../global/Slider';
-import { testimonialMain } from '../../data/mainpgData';
+import {fourcolumndata,companies, testimonialMain } from '../../data/mainpgData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
 
 import Partners from '../global/Partners';
@@ -21,65 +21,22 @@ import bcg from '../../public/bcg.jpg';
 import Linkedin from '../../public/linkedin.jpg';
 import yrstory from '../../public/yrstory.jpg';
 // -------------------------------------------------------
-import harvardcase from '../../public/harvardcase.jpg'
-import becomepart from '../../public/becomepart.jpg'
-import leadingpurpose from '../../public/leadingwithpurpose.jpg'
-import officeofcareer from '../../public/officeofcareer.jpg'
-// -------------------------------------------------------
 import bhaskar_chakra from '../../public/bhaskar_chakra.jpg'
 import Community from '../../components/global/Community';
 import FourColumnLayout from '../../components/global/FourColumnLayout';
 // -------------------------------------------------------
-import BCG from '../../public/bcg.png';
-import Delloite from '../../public/delloite.png';
-import ey from '../../public/ey.png';
-import dalberg from '../../public/dalberg.jpg';
-import fsg from '../../public/fsg.jpg';
-import bain from '../../public/bain.png';
-import kearney from '../../public/Kearney.jpg';
-import bridgespan from '../../public/bridgespan.jpg';
-import mckinsey from '../../public/mckinsey.png';
-import pwc from '../../public/pwc.jpg';
-import UN from '../../public/UN.jpg';
-import Worldbank from '../../public/Worldbank.jpg';
-import gov from '../../public/gov.jpg';
+
 import contact from '../../public/contact.jpg'
 
 
 
 const Main = () => {
-    const fourcolumndata = [ //to be fetched from database
-        {
-            "id": 1,
-            "img": harvardcase,
-            "title": "Harvard Case Method",
-            "body": "Driven by experiential learning through real case based teaching and heavily interactive & live feedback based problem solving."
-        },
-        {
-            "id": 2,
-            "img": officeofcareer,
-            "title": "Office of Career Service",
-            "body": "GGI facilitates your hiring by partnering with leading employment partners in consulting, & PM along with resume' and interview prep."
-        },
-        {
-            "id": 3,
-            "img": becomepart,
-            "title": "Become part of the Tribe",
-            "body": "Masterclasses are designed to ensure your peer to peer-based learning; so that you grow by growing others."
-        },
-        {
-            "id": 4,
-            "img": leadingpurpose,
-            "title": "Leading with Purpose",
-            "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
-        },
-    ]
-    const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite, ey];
+   
     return (
         <div>
 
-            <Hero heading='' home={true} message='' />
-            {/* <MainHero /> */}
+            {/* <Hero heading='' home={true} message='' /> */}
+            <MainHero />
 
             <Button url="">
                 Learn More about Advancing Your Career
@@ -102,7 +59,7 @@ const Main = () => {
 
             </Container>
             <div className="p-8 flex justify-center  skin">
-                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20" >
+                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20" >
                     <div>
                         <div className='text-center md:text-left md:h-[25rem]'>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
@@ -113,7 +70,7 @@ const Main = () => {
                             <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
 
                         </div>
-                        <div className='flex justify-center md:justify-start mb-0'>
+                        <div className='flex justify-center md:justify-start mb-10 md:mb-0'>
                             <Button url="/ggi-scholars">
                                 Learn More about GGI Impact MBA
                             </Button>
