@@ -59,7 +59,7 @@ const Main = () => {
 
             </Container>
             <div className="p-8 flex justify-center  skin">
-                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-20" >
+                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20" >
                     <div>
                         <div className='text-center md:text-left md:h-[25rem]'>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
@@ -70,7 +70,7 @@ const Main = () => {
                             <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
 
                         </div>
-                        <div className='flex justify-center md:justify-start mb-0'>
+                        <div className='flex justify-center md:justify-start mb-10 md:mb-0'>
                             <Button url="/ggi-scholars">
                                 Learn More about GGI Impact MBA
                             </Button>

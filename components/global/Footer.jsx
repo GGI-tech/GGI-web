@@ -1,22 +1,25 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaTwitter, FaLinkedin, FaYoutube, FaInstagram } from 'react-icons/fa'
+import { FaTwitter, FaLinkedin, FaYoutube, FaInstagram,FaFacebook } from 'react-icons/fa'
 const Footer = () => {
     return (
         <footer className="relative bg-black/90 pt-8 mt-24 pb-6 text-white">
             <div className=" mb-6 flex justify-center m-auto">
-                <button className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <a href='https://twitter.com/GlobalGovernan4?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor' target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaTwitter />
-                </button>
-                <button className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                </a>
+                <a href="https://www.linkedin.com/company/33628712" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaLinkedin />
-                </button>
-                <button className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                </a>
+                <a href="https://www.instagram.com/globalgovernanceinitiative_/" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaInstagram />
-                </button>
-                <button className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                </a>
+                <a href="https://www.youtube.com/channel/UCFgYJZVI3fQ9M0bF2Suv02Q" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaYoutube />
-                </button>
+                </a>
+                <a href="https://www.facebook.com/globalgovernanceinitiativefoundation.org/" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
+                    <FaFacebook />
+                </a>
             </div>
             <div className="container mx-auto px-4">
 
