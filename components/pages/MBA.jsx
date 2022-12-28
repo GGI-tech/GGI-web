@@ -19,7 +19,7 @@ import Associations from '../global/Associations';
 import Steps from '../global/Steps'
 import Footer from '../global/Footer';
 import Slider from '../global/Slider'
-import { companies,fourcolumndata,stages, testimonialMBA } from '../../data/mbapgData';
+import { companies,fourcolumndata,stages, testimonialMBA, curriculum } from '../../data/mbapgData';
 
 
 const MBA = () => {
@@ -68,7 +68,7 @@ const MBA = () => {
             <Button url=""> APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment</Heading>
-            <Curriculum />
+            <Curriculum data={curriculum}/>
             <YoutubeEmbed embedId='lGyhkONUSwk' />
 
 

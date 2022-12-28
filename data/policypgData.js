@@ -3,17 +3,19 @@ import clinton from '../public/clinton.png'
 import arunm from '../public/arun_maira.jpg'
 import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------------
-import BCG from '../public/BCG_M.jpg';
-import mckinsey from '../public/mckinsey.jpg';
-import bain from '../public/bain-logo.jpg';
-import kearney from '../public/Kearney.jpg';
-import ey from '../public/ey.png';
-import pwc from '../public/pwc.jpg';
-import amz from '../public/amz.jpg';
-import paytm from '../public/paytm.png';
 
+import dalberg from '../public/dalberg.jpg';
+import fsg from '../public/fsg.jpg';
+import central from '../public/central.jpg';
+import bridgespan from '../public/bridgespan.jpg';
+import nudge from '../public/nudge.jpg';
+import gdi from '../public/gdi.jpg';
+import civil from '../public/civil.jpg';
+import UN from '../public/UN.jpg';
+import Worldbank from '../public/Worldbank.jpg';
+import gov from '../public/gov.jpg';
 
-export const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
+export const companies = [ dalberg, Worldbank, fsg, UN, gov,bridgespan, civil,gdi, nudge,central];
 
 export const fourcolumndata = [ //to be fetched from database
     {

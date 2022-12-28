@@ -14,7 +14,7 @@ import Footer from '../global/Footer';
 import Partners from '../global/Partners';
 import Button from '../global/Button';
 import Steps from '../global/Steps';
-import { companies, fourcolumndata,stages, testimonialPolicy } from '../../data/policypgData';
+import { companies, fourcolumndata,stages, testimonialPolicy,curriculum } from '../../data/policypgData';
 
 const MPP = () => {
     
@@ -45,7 +45,7 @@ const MPP = () => {
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment  </Heading>
-            <Curriculum />
+            <Curriculum data={curriculum}/>
             <YoutubeEmbed embedId='lGyhkONUSwk' />
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 

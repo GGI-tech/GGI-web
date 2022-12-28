@@ -1,7 +1,24 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaTwitter, FaLinkedin, FaYoutube, FaInstagram,FaFacebook } from 'react-icons/fa'
+import { FaTwitter, FaLinkedin, FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { useForm } from 'react-hook-form';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Footer = () => {
+    const { register, handleSubmit,reset, formState: { errors }, } = useForm();
+    async function submitHandler (data) {
+        const response = await fetch("/api/sheet", {
+                method: "POST",
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json',
+                  },
+            })
+            toast.success("Email subscribed for the Newsletter!")
+            reset();
+    }
+ 
     return (
         <footer className="relative bg-black/90 pt-8 mt-24 pb-6 text-white">
             <div className=" mb-6 flex justify-center m-auto">
@@ -30,10 +47,12 @@ const Footer = () => {
                         <h4 className="text-lg mt-0 mb-2 text-blueGray-600">
                             Subscribe to our newsletter.
                         </h4>
-                        {/* -------------------------------------------- */}
-                        <input
-                            type="text"
-                            className="
+                        <form onSubmit={handleSubmit(submitHandler)}>
+                            {/* -------------------------------------------- */}
+                            <input
+                                {...register('email',{ required: 'Please enter your email' })}
+                                type="text"
+                                className="
                 form-control
                 block
                 w-full
@@ -50,14 +69,15 @@ const Footer = () => {
                 m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
               "
-                            id="exampleFormControlInput1"
-                            placeholder="Email address" />
+                                id="email"
+                                placeholder="Email address" />
 
-                        <div className="md:mr-auto mb-6">
-                            <button type="submit" className="inline-block mt-4 px-6 py-2 border border-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
-                                Subscribe
-                            </button>
-                        </div>
+                            <div className="md:mr-auto mb-6">
+                                <button type="submit" className="inline-block mt-4 px-6 py-2 border border-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </form>
 
                         {/* ------------------------------------------ */}
 
