@@ -43,9 +43,9 @@ const Curriculum = ({ data }) => {
         //     </div>
         // </div>
         <div className='flex flex-wrap w-5/6  xl:w-2/3 mx-auto gap-5 md:gap-10 justify-center md:py-5'>
-            {data.map((e) => {
+            {data.map((e,i) => {
                 return (
-                    <div className='w-44 sm:w-48 text-center'>
+                    <div key={i} className='w-44 sm:w-48 text-center'>
                         <p className='pink font-bold text-lg md:h-24 mb-3' dangerouslySetInnerHTML={{__html: e.title}}></p>
                         <p className="italic text-sm">{e.description}</p>
                     </div>
