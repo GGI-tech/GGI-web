@@ -18,7 +18,7 @@ import Image from 'next/image';
 
 const Partners = ({ companies,g }) => {
     return (
-        <div className='flex flex-row justify-center'>
+        <div className='flex justify-center'>
             <div className='md:p-8 lg:w-3/4 flex flex-row justify-around sm:justify-center gap-1 md:gap-4 flex-wrap'>
                 {companies.map((c, index) => {
                     return (
