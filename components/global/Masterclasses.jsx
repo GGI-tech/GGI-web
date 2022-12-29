@@ -79,10 +79,10 @@ const Masterclasses = () => {
           })}
         </div>
       </div>
-      <div className='sm:hidden grid grid-cols-3 grid-rows-3 gap-4'>
+      <div className='sm:hidden grid grid-cols-3 grid-rows-3 '>
         {data1.concat(data2).map((item, i) => {
           return (
-            <div key={i} className='text-center'>
+            <div key={i} className='text-center mb-5'>
               <Image src={item.img} alt='/' />
               <p className='text-sm text-center pink'>{item.name} </p>
             </div>

@@ -43,7 +43,7 @@ const Footer = () => {
                 <div className="flex flex-wrap text-left lg:text-left">
                     <div className="w-full lg:w-6/12 px-4">
 
-                        <h3 className="text-3xl font-extralight text-left">Let&apos;s keep in touch!</h3>
+                        <p className="text-xl font-extralight text-left my-3">Let&apos;s keep in touch!</p>
                         <h4 className="text-lg mt-0 mb-2 text-blueGray-600">
                             Subscribe to our newsletter.
                         </h4>
@@ -93,7 +93,7 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/ggipolicyscolarsprogram">
+                                        <Link href="/ggipolicyscholarsprogram">
                                             <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Policy Scholars</p>
                                         </Link>
                                     </li>
