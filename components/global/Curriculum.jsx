@@ -42,7 +42,7 @@ const Curriculum = ({ data }) => {
 
         //     </div>
         // </div>
-        <div className='flex flex-wrap w-5/6  xl:w-2/3 mx-auto gap-5 md:gap-10 justify-center md:py-5'>
+        <div className='flex flex-wrap lg:w-5/6 xl:w-2/3 mx-auto gap-5 md:gap-10 justify-center '>
             {data.map((e,i) => {
                 return (
                     <div key={i} className='w-44 sm:w-48 text-center'>
