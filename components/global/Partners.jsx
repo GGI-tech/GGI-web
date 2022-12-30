@@ -19,10 +19,10 @@ import Image from 'next/image';
 const Partners = ({ companies,g }) => {
     return (
         <div className='flex justify-center'>
-            <div className='md:p-8 lg:w-3/4 flex flex-row justify-around sm:justify-center gap-1 md:gap-4 flex-wrap'>
+            <div className='md:p-8 lg:w-3/4 flex flex-row justify-around sm:justify-center gap-1  flex-wrap'>
                 {companies.map((c, index) => {
                     return (
-                        <div key={index} >
+                        <div className='w-40 h-36 flex' key={index} >
                             <Image src={c} objectFit="contain" alt="partners"/>
                         </div>
                      

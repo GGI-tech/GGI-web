@@ -32,9 +32,9 @@ const Fellowship = () => {
             <Heading>Why GGI Impact Fellowship Works ?</Heading>
             <FourColumnLayout data={fourcolumndata} />
             <Container>
-                <p className='mb-5'><span className='font-semibold'>Best teaching can be done only when there is a direct relationship between a teacher and a good student</span>- a situation where the student discussed ideas, thinks about things, and talks about things.  But in modern times, it&#39;s hard to create scalable solutions since there are so many students. Hence, GGI Impact Fellowship has created a nonscalable Mckinsey work experience ecosystem outcome at 1/500th of the cost!</p>
+                <p className='mb-5 mt-12'><span className='font-semibold'>Best teaching can be done only when there is a direct relationship between a teacher and a good student</span>- a situation where the student discussed ideas, thinks about things, and talks about things.  But in modern times, it&#39;s hard to create scalable solutions since there are so many students. Hence, GGI Impact Fellowship has created a nonscalable Mckinsey work experience ecosystem outcome at 1/500th of the cost!</p>
                 <p className='mb-5'><span className='font-semibold primary'>Young Professionals waste many years</span> either preparing for Civil Services to venture into the development sector or reading innumerable cases in the false hope of getting into management consulting. We at Global Governance Initiative solve this through our Impact Fellowship Program. </p>
-                <p><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program..</p>
+                <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program..</p>
             </Container>
             <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={0} />
 
@@ -58,7 +58,7 @@ const Fellowship = () => {
                 <p> 1. You are a determined young professional looking to pivot in consulting and keen to learn by doing a consulting project directly with a <span className='primary font-semibold'>mentor from Mckinsey, BCG, Bain, Dalberg </span> </p><br />
                 <p>2. You are a UPSC aspirant looking for a relevant <span className='primary font-semibold'> Plan B for Civil Services</span> and keen to contribute to the social impact sector </p><br />
                 <p>3. You are looking for a <span className='primary font-semibold'>unique pre MBA/MPP work experience</span> in the social development consulting space by advising leading national NGO </p><br />
-                <p>4. You are ready to pivot careers and looking to be <span className='primary font-semibold'>connected to GGI employment partners </span></p>
+                <p className='mb-12'>4. You are ready to pivot careers and looking to be <span className='primary font-semibold'>connected to GGI employment partners </span></p>
 
             </Container>
             <YoutubeEmbed embedId='URhwxoFL6S8' />

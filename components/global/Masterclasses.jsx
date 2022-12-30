@@ -83,8 +83,8 @@ const Masterclasses = () => {
         {data1.concat(data2).map((item, i) => {
           return (
             <div key={i} className='text-center mb-5'>
-              <Image src={item.img} alt='/' />
-              <p className='text-sm text-center pink'>{item.name} </p>
+              <div className='h-24'><Image src={item.img} alt='/' /></div>
+              <p className='text-xs sm:text-sm text-center pink my-4'>{item.name} </p>
             </div>
           )
         })}

@@ -44,7 +44,7 @@ export const fourcolumndata = [ //to be fetched from database
     "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
   },
 ]
-export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite, ey];
+export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite];
 
 export const testimonialMain = [
   {
