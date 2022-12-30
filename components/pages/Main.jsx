@@ -17,7 +17,7 @@ import Footer from '../global/Footer';
 import Button from '../global/Button';
 //---------------------------------------------------------
 import poets from '../../public/poets.jpg';
-import bcg from '../../public/bcg.jpg';
+import bcg from '../../public/bcg-green.png';
 import Linkedin from '../../public/linkedin.jpg';
 import yrstory from '../../public/yrstory.jpg';
 // -------------------------------------------------------
