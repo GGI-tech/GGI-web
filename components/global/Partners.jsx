@@ -22,7 +22,7 @@ const Partners = ({ companies,g }) => {
             <div className='md:p-8 lg:w-3/4 flex flex-row justify-around sm:justify-center gap-1  flex-wrap'>
                 {companies.map((c, index) => {
                     return (
-                        <div className='w-40' key={index} >
+                        <div className='w-40 h-36 flex' key={index} >
                             <Image src={c} objectFit="contain" alt="partners"/>
                         </div>
                      

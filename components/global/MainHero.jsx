@@ -21,7 +21,7 @@ const MainHero = () => {
                             <div className='flex sm:mt-4 justify-center'>
                                 <h1 className='text-2xl sm:text-3xl font-black'>PRODUCT<br  className='hide'/><span className='text-2xl sm:text-4xl'> MANAGEMENT</span></h1>
                             </div>
-                            <div className='r11 my-8 lg:mt-12 px-5 sm:px-12 lg:px-auto'>
+                            <div className='r11 my-10 lg:mt-12 px-5 sm:px-12 lg:px-auto'>
                                 <p className='sm:text-xl text-left'>We’re a social impact global organization with a mission to provide quality Business & Policy Education for an Inclusive world.</p>
                             </div>
                             <div className='r12 mt-5 lg:mt-12 grid grid-cols-2 gap-5 md:grid-cols-4'>
@@ -46,7 +46,7 @@ const MainHero = () => {
 
                     </div>
                 </div>
-                <div className='col-span-2 md:col-span-1  flex justify-center items-center px-12 md:px-0 pb-5' > {/*bg-yellow-400 */}
+                <div className='col-span-2 md:col-span-1  flex justify-center items-center px-20 sm:px-12 md:px-0 pb-5' > {/*bg-yellow-400 */}
                     <Image src='/ggi.webp' alt="ggi" height={300} width={306} className="rounded-full" />
                 </div>
 

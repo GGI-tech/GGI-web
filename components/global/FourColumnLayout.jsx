@@ -5,7 +5,7 @@ import Image from 'next/image';
 const FourColumnLayout = ({ data }) => {
   return (
     <div className="p-5 md:p-12">
-      <div className="mx-auto w-6/7 lg:w-4/5 sm:text-sm xl:w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-4 primary">
+      <div className="mx-auto w-6/7 lg:w-4/5 sm:text-sm xl:w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 lg:gap-4 primary">
         {data.map((e) => {
           return (
             <div key={e.id} className='flex flex-col text-center mt-6'>

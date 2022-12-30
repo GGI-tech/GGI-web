@@ -63,7 +63,7 @@ const Main = () => {
                     <div>
                         <div className='text-center md:text-left md:h-[25rem]'>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
-                            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
+                            <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
                             <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
                             <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
@@ -79,7 +79,7 @@ const Main = () => {
                     <div>                    
                         <div className='text-center md:text-left md:h-[25rem]'>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
-                            <p className='my-5 text-xl font-semibold'>Who is this program for?</p>
+                            <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
                             <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
                             <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
