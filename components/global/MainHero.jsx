@@ -13,13 +13,16 @@ const MainHero = () => {
             <div className='grid md:grid-cols-3 grid-cols-2 pb-8'>{/*bg-black*/}
                 <div className='col-span-2'>
                     <div className='r2 flex mt-5 gap-1 md:gap-10 mx-5 text-center justify-evenly sm:justify-between flex-wrap'> {/*bg-blue-900 */}
-                        <h1 className='text-2xl sm:text-3xl font-black  py-3 sm:py-6 '>MANAGEMENT <br className='hide'/><span className='text-2xl sm:text-4xl'>CONSULTING</span></h1>
-                        <h1 className='text-2xl sm:text-3xl font-black py-3 sm:py-6 '>PUBLIC <br className='hide'/><span className='text-2xl sm:text-4xl'> POLICY</span></h1>
+                        <h1 className='relative text-2xl sm:text-3xl font-black  py-3 sm:py-6 '>
+                            <img width={80} height={80} src='/arrow2.jpg' className='hidden sm:block absolute bottom-24 right-36' />
+                            MANAGEMENT <br className='hide' /><span className='text-2xl sm:text-4xl'>CONSULTING </span></h1>
+                        <h1 className='relative text-2xl sm:text-3xl font-black py-3 sm:py-6'>PUBLIC <br className='hide' /><span className=' text-2xl sm:text-4xl'> POLICY <img width={50} height={80} src='/arrow.jpg' className='hidden sm:block absolute top-0 ml-36' />
+                        </span></h1>
                     </div>
                     <div className='r3 mt-4 sm:mt-5 flex flex-wrap lg:flex-nowrap gap-5 md:gap-10 justify-center lg:justify-start items-end '> {/*bg-green-300*/}
                         <div className=''>
                             <div className='flex sm:mt-4 justify-center'>
-                                <h1 className='text-2xl sm:text-3xl font-black'>PRODUCT<br  className='hide'/><span className='text-2xl sm:text-4xl'> MANAGEMENT</span></h1>
+                                <h1 className='relative text-2xl sm:text-3xl font-black'>PRODUCT<img width={50} height={80} src='/arrow.jpg' className='absolute hidden sm:block bottom-12 ml-60' /><br className='hide' /><span className='text-2xl sm:text-4xl'> MANAGEMENT </span></h1>
                             </div>
                             <div className='r11 my-10 lg:mt-12 px-5 sm:px-12 lg:px-auto'>
                                 <p className='sm:text-xl text-left'>We’re a social impact global organization with a mission to provide quality Business & Policy Education for an Inclusive world.</p>
@@ -27,15 +30,15 @@ const MainHero = () => {
                             <div className='r12 mt-5 lg:mt-12 grid grid-cols-2 gap-5 md:grid-cols-4'>
                                 <div className='text-center'>
                                     <h1 className='font-bold text-2xl lg:text-3xl'>52+</h1>
-                                    <p> Employment<br/> Partners</p>
+                                    <p> Employment<br /> Partners</p>
                                 </div>
                                 <div className='text-center'>
                                     <h1 className='font-bold text-2xl lg:text-3xl'>88%</h1>
-                                    <p> Pivoted into Consulting<br/> Policy & Product</p>
+                                    <p> Pivoted into Consulting<br /> Policy & Product</p>
                                 </div>
                                 <div className='text-center'>
                                     <h1 className='font-bold text-2xl lg:text-3xl'>17 LAKHS</h1>
-                                    <p> Average CTC<br/> Offered</p>
+                                    <p> Average CTC<br /> Offered</p>
                                 </div>
                                 <div className='text-center'>
                                     <h1 className='font-bold text-2xl lg:text-3xl'>5500+</h1>
