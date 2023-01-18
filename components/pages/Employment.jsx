@@ -429,8 +429,8 @@ const Employment = () => {
     return (
         <>
             <Hero image={"/reviews.jpg"} />
-            <Heading>LIFE AFTER GGI</Heading>
-            <p className='text-center text-xl mb-12'>HOW WILL GGI TRANSFORM YOUR LIFE ?</p>
+            <div className='primary text-3xl md:text-4xl mt-36 text-center mb-12 font-serif font-bold' >LIFE AFTER GGI</div>
+            <p className='text-center md:text-lg text-black font-serif mb-12'>GGIIANS GET SO MANY JOBS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p>
             <YouTubeEmbed embedId='0XC2VXBF29g' />
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>

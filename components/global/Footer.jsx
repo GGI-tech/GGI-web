@@ -22,19 +22,19 @@ const Footer = () => {
     return (
         <footer className="relative bg-black/90 pt-8 mt-24 pb-6 text-white">
             <div className=" mb-6 flex justify-center m-auto">
-                <a href='https://twitter.com/GlobalGovernan4?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor' target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
+                <a href='https://twitter.com/GlobalGovernan4?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor' target="_blank" rel="noreferrer" className="hover:cursor-pointer flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaTwitter />
                 </a>
-                <a href="https://www.linkedin.com/company/33628712" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
+                <a href="https://www.linkedin.com/company/33628712" target="_blank" rel="noreferrer" className="hover:cursor-pointer flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaLinkedin />
                 </a>
-                <a href="https://www.instagram.com/globalgovernanceinitiative_/" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
+                <a href="https://www.instagram.com/globalgovernanceinitiative_/" target="_blank" rel="noreferrer" className="hover:cursor-pointer flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaInstagram />
                 </a>
-                <a href="https://www.youtube.com/channel/UCFgYJZVI3fQ9M0bF2Suv02Q" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
+                <a href="https://www.youtube.com/channel/UCFgYJZVI3fQ9M0bF2Suv02Q" target="_blank" rel="noreferrer" className="hover:cursor-pointer flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaYoutube />
                 </a>
-                <a href="https://www.facebook.com/globalgovernanceinitiativefoundation.org/" target="_blank" rel="noreferrer" className="flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
+                <a href="https://www.facebook.com/globalgovernanceinitiativefoundation.org/" target="_blank" rel="noreferrer" className="hover:cursor-pointer flex border-white border-2 text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" >
                     <FaFacebook />
                 </a>
             </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                                 placeholder="Email address" />
 
                             <div className="md:mr-auto mb-6">
-                                <button type="submit" className="inline-block mt-4 px-6 py-2 border border-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                                <button type="submit" className="hover:cursor-pointer inline-block mt-4 px-6 py-2 border border-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
                                     Subscribe
                                 </button>
                             </div>
@@ -89,17 +89,17 @@ const Footer = () => {
                                 <ul className="list-unstyled">
                                     <li>
                                         <Link href="/ggi-scholars">
-                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI MBA Scholars</p>
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI MBA Scholars</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/ggipolicyscholarsprogram">
-                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Policy Scholars</p>
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Policy Scholars</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/impact-fellowship">
-                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Impact Fellowship</p>
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Impact Fellowship</p>
                                         </Link>
                                     </li>
 
@@ -110,24 +110,24 @@ const Footer = () => {
                                 <ul className="list-unstyled">
                                     <li>
                                         <Link href="">
-                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Our Mission</p>
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Our Mission</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/careers">
-                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Careers</p>
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Careers</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/blogs">
-                                            <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Blogs</p>
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Blogs</p>
                                         </Link>
                                     </li>
                                     <li>
-                                        <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Terms &amp; Conditions</p>
+                                        <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Terms &amp; Conditions</p>
                                     </li>
                                     <li>
-                                        <p className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Privacy Policy</p>
+                                        <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Privacy Policy</p>
                                     </li>
                                     {/* <li>
                                         <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Contact Us</a>

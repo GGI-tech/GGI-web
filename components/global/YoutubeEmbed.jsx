@@ -12,9 +12,6 @@ const YoutubeEmbed = ({ embedId,autoplay=0 }) => (
   //   />
   <div className="p-4 mt-4 md:mb-4 flex justify-center">
     <iframe
-      width={480}
-      height={250}
-    
       src={`https://www.youtube.com/embed/${embedId}?autoplay=${autoplay}`}
       frameBorder="0"
       align="center"
