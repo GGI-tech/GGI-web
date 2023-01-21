@@ -31,7 +31,7 @@ const MBA = () => {
     }
     return (
         <div>
-            <SlidingHero image={'./mba.jpeg'} title={["Learn Business Skills Live, Join Global Network & Get Hired at <span class='text-yellow-200'>GGI MBA Scholar</span> to Become a Business Leader", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs "]} />
+            <SlidingHero image={'./mba.jpeg'} title={["Learn Business Skills Live, Join Global Network <br class='hidden md:block'/>& Get Hired at <span class='text-yellow-200'>GGI MBA Scholar</span><br class='hidden md:block'/> to Become a Business Leader", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs "]} />
 
             <Button url=""> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 

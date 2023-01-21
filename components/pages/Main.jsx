@@ -4,7 +4,7 @@ import MainHero from '../global/MainHero';
 import Image from 'next/image';
 import Gallery from '../global/Gallery';
 import Heading from '../global/Heading';
-import Hero from '../global/Hero';
+// import Hero from '../global/Hero';
 import Slider from '../global/Slider';
 import {fourcolumndata,companies, testimonialMain } from '../../data/mainpgData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
@@ -58,10 +58,10 @@ const Main = () => {
                 <p >Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
 
             </Container>
-            <div className="p-8 flex justify-center  skin">
-                <div className="lg:w-5/6 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20" >
+            <div className="p-4 flex justify-center  skin">
+                <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-0 lg:grid-cols-3 " >
                     <div>
-                        <div className='text-center md:text-left md:h-[25rem]'>
+                        <div className='text-center md:text-left md:h-[25rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
@@ -76,8 +76,9 @@ const Main = () => {
                             </Button>
                         </div>
                     </div>
+                    <div className='hidden lg:block'></div>
                     <div>                    
-                        <div className='text-center md:text-left md:h-[25rem]'>
+                        <div className='text-center md:text-left md:h-[25rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
@@ -180,7 +181,7 @@ const Main = () => {
             <Heading >Cofounder&#39;s Desk</Heading>
 
             <div className="flex justify-center">
-                <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-4 md:mx-10">
+                <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-4 ">
                     <div className=''>
                         <Contact />
                     </div>

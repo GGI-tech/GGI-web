@@ -46,8 +46,8 @@ const Curriculum = ({ data }) => {
             {data.map((e,i) => {
                 return (
                     <div key={i} className='w-48 text-center mb-5'>
-                        <p className='pink font-bold text-lg h-20 mb-3' dangerouslySetInnerHTML={{__html: e.title}}></p>
-                        <p className="italic text-sm">{e.description}</p>
+                        <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{__html: e.title}}></p>
+                        <p className="italic">{e.description}</p>
                     </div>
                 )
             })

@@ -21,13 +21,13 @@
   font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@900&display=swap');
 html {
   scroll-behavior: smooth;
   color: rgb(84, 80, 80);
   font-family: PoppinsLight, sans-serif;
-  font-size: clamp(0.75rem, 0.6522rem + 0.4348vw, 1rem);
+  font-size: clamp(0.75rem, 0.711rem + 0.211vw, 0.9rem);
 }
 
 /* variable base font size for smaller and larger devices */
@@ -59,8 +59,8 @@ html {
 }
 
 .arial {
-  font-family: 'Archivo Black', sans-serif;
-  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+    
 }
 
 h1,
@@ -141,24 +141,16 @@ p>strong::after {
   }
 }
 
-/* youtube video */
 
-.ytcontainer {
-  width: 60vh;
-  padding-bottom: 56.25%;
-  /* 16:9 Aspect Ratio */
+iframe {
+  height: 250px;
+  width: 440px;
+
 }
 
-.responsive-iframe {
-  display: block;
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; */
-  margin: 0 auto;
-  border-style: none;
-  width: 100%;
-  height: 100%;
-  border: none;
+@media screen and (max-width:600px) {
+  iframe {
+    height: 200px;
+    width: 300px;
+  }
 }

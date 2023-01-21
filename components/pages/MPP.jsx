@@ -20,7 +20,7 @@ const MPP = () => {
     
     return (
         <>
-            <SlidingHero image={'./policy.jpg'} title={[`Learn Policy Skills Live, Join Global Network & Get Hired at<span class="text-yellow-200"> GGI Policy Scholar</span> to Become Leader in Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
+            <SlidingHero image={'./policy.jpg'} title={[`Learn Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Policy Scholar</span><br class='hidden md:block'/> to Become Leader in Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
 
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
