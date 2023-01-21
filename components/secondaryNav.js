@@ -1,3 +1,3 @@
-const secondarynavbar = true;
+const secondarynavbar = false;
 
 export default secondarynavbar;

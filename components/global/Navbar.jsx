@@ -47,7 +47,7 @@ const Navbar = () => {
         <div className='mx-auto sm:ml-12 pt-2'>
           <Link href='/' passHref>
             <div>
-              <Image style={{ cursor: "pointer" }} alt="/" height={50} width={185} src={img} />
+              <Image style={{ cursor: "pointer" }} alt="/" height={40} width={145} src={img} />
             </div>
           </Link>
         </div>
