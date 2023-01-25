@@ -373,12 +373,12 @@ const Card = ({ title, url,org, img, text }) => {
                         <a href={url} rel="noreferrer noopener" target="_blank">
                             <p className='my-2 font-bold text-gray-900 dark:text-white hover:cursor-pointer hover:text-blue-800' dangerouslySetInnerHTML={{ __html: title }}></p>
                         </a>
-                        <p className='text-center primary max-w-[200px]' dangerouslySetInnerHTML={{ __html: org }}></p>
+                        <p className='text-center primary max-w-[200px]' dangerouslySetInnerHTML={{ __html:  org }}></p>
 
                     </div>
                 </div>
                 <div className='flex-justify center p-4 lg:w-2/3 text-sm'>
-                    <p className=' ' dangerouslySetInnerHTML={{ __html: text }}></p>
+                    <p className=' ' dangerouslySetInnerHTML={{ __html: "&ldquo;"+text +"&rdquo;"}}></p>
                     {/* <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
                         Read the full story on Linked<FaLinkedin />
                         <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -411,7 +411,7 @@ const Cardx = ({ title, img, text }) => {
                     {/* <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p> */}
                 </div>
                 <div className='flex-justify center p-4 text-sm'>
-                    <p className=' ' dangerouslySetInnerHTML={{ __html: text }}></p>
+                    <p className=' ' dangerouslySetInnerHTML={{ __html: "&ldquo;"+text +"&rdquo;" }}></p>
                     {/* <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
                         Read the full story on Linked<FaLinkedin />
                         <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -429,8 +429,8 @@ const Employment = () => {
     return (
         <>
             <Hero image={"/reviews.jpg"} />
-            <div className='primary text-3xl md:text-4xl mt-36 text-center mb-12 font-serif font-bold' >LIFE AFTER GGI</div>
-            <p className='text-center md:text-lg text-black font-serif mb-12'>GGIIANS GET SO MANY JOBS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p>
+            <div className='primary text-3xl md:text-4xl mt-36 lg:mt-72 text-center  mb-12 font-serif font-bold' >LIFE AFTER GGI</div>
+            <p className='text-center md:text-lg text-black font-serif my-12'>GGIIANS GET SO MANY JOBS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p>
             <YouTubeEmbed embedId='0XC2VXBF29g' />
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>

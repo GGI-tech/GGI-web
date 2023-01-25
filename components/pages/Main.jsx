@@ -58,9 +58,9 @@ const Main = () => {
                 <p >Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
 
             </Container>
-            <div className="p-4 flex justify-center  skin">
-                <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-0 lg:grid-cols-3 " >
-                    <div>
+            <div className="p-4 flex justify-center">
+                <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 " >
+                    <div className='lg:col-span-2'>
                         <div className='text-center md:text-left md:h-[25rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
@@ -76,8 +76,8 @@ const Main = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className='hidden lg:block'></div>
-                    <div>                    
+                    <div className='hidden lg:block lg:col-span-1'></div>
+                    <div className='lg:col-span-2'>                    
                         <div className='text-center md:text-left md:h-[25rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>

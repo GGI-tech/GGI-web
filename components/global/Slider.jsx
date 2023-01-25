@@ -55,7 +55,7 @@ const Slider = ({ slides }) => {
 
                   </div>
                   <div className='flex flex-col justify-center p-4 lg:w-1/2 text-sm'>
-                    <p className='mb-12' dangerouslySetInnerHTML={{ __html: slide.review }}></p>
+                    <p className='mb-12' dangerouslySetInnerHTML={{ __html: "&ldquo;"+slide.review +"&rdquo;" }}></p>
                     {slide.link &&<a className="italic underline text-center text-blue-900" href={slide.link} target="_blank" rel="noreferrer">Go to Link</a>}
                   </div>
 

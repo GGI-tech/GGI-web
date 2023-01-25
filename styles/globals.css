@@ -20,6 +20,11 @@
   src: url('../fonts/Poppins-Light.ttf');
   font-display: swap;
 }
+@font-face {
+  font-family: GaretHeavy;
+  src: url('../fonts/Garet-Heavy.ttf');
+  font-display: swap;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@900&display=swap');
@@ -59,7 +64,7 @@ html {
 }
 
 .arial {
-  font-family: 'Roboto', sans-serif;
+  font-family: GaretHeavy,serif;
     
 }
 
