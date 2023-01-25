@@ -5,13 +5,13 @@ const FAQ = [
         "id": 1,
         "ques": "Which program is the best fit for me?",
         "ans": `Global Governance Initiative is removing barriers to high-quality learning experiences.
-        <br>        
+        <br><br>      
         A. You can access free recorded MBA in 10 minutes series <u><a href="https://thetrinitybyggi.org/" target="_blank" rel="noreferrer noopener">here</a></u> on the Trinity which will allow you to directly learn MBA lessons in 10 minutes from an Ex BCG consultant on Strategy/ Finance/ Operations etc. free of cost.&nbsp;                
-        <br>        
+        <br><br>        
         B.&nbsp;</span><u><a href="https://www.globalgovernanceinitiative.org/ggi-scholars" target="_blank" rel="noreferrer noopener">GGI MBA Scholars</a></u>- Serves as a classic <span style="font-weight:bold;">Alt MBA &amp; Pre MBA,</span> designed specifically for those who wish to pivot their career into management consulting, business strategy, and product management        
-        <br>        
+        <br><br>        
         <p >C.&nbsp;<u><a href="https://www.globalgovernanceinitiative.org/impact-fellowship" target="_blank" rel="noreferrer noopener">GGI Impact Fellowship</a></u>-&nbsp; Serves as a classic experiential learning and work-study model, designed specifically for those who are exploring Plan B for Civil Services and looking to pivot their career into <span style="font-weight:bold;">management/impact consulting </span>and policy as you work on projects with mentors from MBB
-        <br>        
+        <br><br>        
         D.&nbsp;<u><a href="https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram" target="_blank" rel="noreferrer noopener">GGI Policy Scholars</a></u>- Serves as a classic<span style="font-weight:bold;">&nbsp;Alt MPP &amp; Pre MPP,</span> designed specifically for those who wish to pivot their career into the<span style="font-weight:bold;"> public policy </span>and<span style="font-weight:bold;">  development sector</span></span>`
 
     },
@@ -23,9 +23,9 @@ const FAQ = [
     {
         "id": 3,
         "ques": "What are the program fees?",
-        "ans": `Our competitors charge Rs. 2,00,000 to Rs. 7,00,000. So we decided to try crazy pricing.<strong> We are 90% cheaper than our competitor's price. </strong>We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.&nbsp;</span>
-        &nbsp;
-       Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). Either way, you win. To get detailed pricing and information, it is accessible on our application page <u><a href="https://forms.gle/hv12YCeTFmDwFFJD8" target="_blank" rel="noreferrer noopener">here</a></u>`
+        "ans": `Our competitors charge Rs. 2,00,000 to Rs. 7,00,000. So we decided to try crazy pricing.<span class="font-bold">  We are 80% cheaper than our competitor's price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
+        <br><br>
+       Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected (we have &lt;10% selection rate). Either way, you win. To get detailed pricing and information, it is accessible on our application page <u><a href="https://forms.gle/hv12YCeTFmDwFFJD8" target="_blank" rel="noreferrer noopener">here</a></u>`
     },
     {
         "id": 4,
@@ -35,7 +35,7 @@ const FAQ = [
     {
         "id": 5,
         "ques": "What are GGI Masterclasses?",
-        "ans": `We at GGI provide the world's most practical Live and Interactive 9 practical Masterclasses driven by CEOs and Top Industry Professionals. The 9 practical Harvard-style real case-driven practical Masterclasses come along with the GGI Scholars & Fellows Program and are built to help you pivot into your dream careers. They are- 
+        "ans": `We at GGI provide the world's most practical Live and Interactive 9 practical Masterclasses driven by CEOs and Top Industry Professionals.<span class="font-bold"> The 9 practical Harvard-style real case-driven practical Masterclasses</span> come along with the GGI Scholars & Fellows Program and are built to help you pivot into your dream careers. They are- <br><br>
                 <ul><li>CV Review & Case Interview Prep Masterclass,</li>
                     <li>The MBA for Impact Masterclass,</li>
                     <li>Management Consulting & Sustainability Masterclass,</li>
@@ -45,18 +45,18 @@ const FAQ = [
                     <li>Impact Investing & Entrepreneurship Masterclass, </li>
                     <li>Data Analytics & Emerging Technologies Masterclass, </li>
                     <li>The Liberal Arts Masterclass</li>
-                </ul>
+                </ul><br><br>
                 During the 9 hours, community members solve cases with the speaker and amongst themselves to build foundational business, policy, and product learnings. 
-                You can access all these 9 practical Masterclasses by applying for GGI MBA Scholars program here-
+                <br><br>You can access all these 9 practical Masterclasses by applying for GGI MBA Scholars program here-
                 `
     },
     {
         "id": 6,
         "ques": "What are the hiring opportunities via GGI Programs?",
-        "ans": `GGI also has <strong>actively partnered with top hiring consulting/ policy/ product management partners</strong> such as Samagra Governance, Sattva Consulting, BCG Social Impact, Leading Tech Ventures in the space of social impact, consulting, and product management roles. 
-                <br>
+        "ans": `GGI also has <span class="font-bold">actively partnered with top hiring consulting/ policy/ product management partners</span> such as Samagra Governance, Sattva Consulting, BCG Social Impact, Leading Tech Ventures in the space of social impact, consulting, and product management roles. 
+                <br><br>
                 These hiring partners trust the GGI selection and learning process because of which they periodically hire from the close community of the Global Governance Initiative! If selected, you'd be invited for sessions by our hiring partners periodically and invited to submit your applications by our employers. 
-                <br>
+                <br><br>
                 To become part of the special hiring pool, you can apply to GGI MBA Scholars Program <u><a href="https://forms.gle/k8bebg3L6vTRG7Ft7" target="_blank" rel="noreferrer noopener">here.</a></u>`
     },
     {

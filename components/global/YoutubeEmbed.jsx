@@ -12,7 +12,7 @@ const YoutubeEmbed = ({ embedId,autoplay=0 }) => (
   //   />
   <div className="p-4 mt-4 md:mb-4 flex justify-center">
     <iframe
-      src={`https://www.youtube.com/embed/${embedId}?autoplay=${autoplay}`}
+      src={`https://www.youtube.com/embed/${embedId}?autoplay=${autoplay};&mute=1`}
       frameBorder="0"
       align="center"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

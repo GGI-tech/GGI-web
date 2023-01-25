@@ -109,7 +109,7 @@ const Footer = () => {
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <Link href="">
+                                        <Link href="/mission">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Our Mission</p>
                                         </Link>
                                     </li>
