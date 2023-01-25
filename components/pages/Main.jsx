@@ -38,7 +38,7 @@ const Main = () => {
             {/* <Hero heading='' home={true} message='' /> */}
             <MainHero />
 
-            <Button url="">
+            <Button url="/ggi-scholars">
                 Learn More about Advancing Your Career
             </Button>
 
@@ -64,10 +64,10 @@ const Main = () => {
                         <div className='text-center md:text-left md:h-[25rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
-                            <p className='my-5'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
-                            <p className='my-5'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
-                            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
-                            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
+                            <p className='my-7'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
+                            <p className='my-7'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
+                            <p className='my-7'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
+                            <p className='my-7'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
 
                         </div>
                         <div className='flex justify-center md:justify-start mb-10 md:mb-0'>
@@ -80,11 +80,11 @@ const Main = () => {
                     <div className='lg:col-span-2'>                    
                         <div className='text-center md:text-left md:h-[25rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
-                            <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
-                            <p className='my-5'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
-                            <p className='my-5'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
-                            <p className='my-5'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
-                            <p className='my-5'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
+                            <p className='my-7 text-lg font-semibold'>Who is this program for?</p>
+                            <p className='my-7'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
+                            <p className='my-7'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
+                            <p className='my-7'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
+                            <p className='my-7'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
 
                         </div>
                         <div className='flex justify-center md:justify-start mb-0'>
@@ -109,7 +109,7 @@ const Main = () => {
             <div className='mt-24 flex justify-center'>
                 <p className='md:w-3/5 md:text-lg font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
-            <YoutubeEmbed embedId="8lWeJ3Ekq-I" />
+            <YoutubeEmbed embedId="8lWeJ3Ekq-I" autoplay={1} />
 
 
 
@@ -143,22 +143,15 @@ const Main = () => {
             <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-
-            <div id='' className='p-4 flex justify-center'>
-                <Button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
-                    Learn More about GGI Impact MBA Scholars
-                </Button>
-            </div>
+            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
+  
 
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <Community />
 
-            <div id='' className='p-4 flex justify-center mb-60'>
-                <Button className="bg-blue-700 hover:bg-blue-500 text-white my-12 py-4 px-1 md:px-10 border border-blue-500 rounded-full shadow-lg">
-                    Learn More about GGI Impact MBA Scholars
-                </Button>
-            </div>
-            <div className="flex flex-col justify-center">
+            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
+
+            <div className="flex flex-col justify-center mt-72">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
                     <div className='col-span-2 '><Image src={bhaskar_chakra} alt="" /></div>
                     <div className='flex flex-col justify-center content-center gap-7 p-10 col-span-1'>

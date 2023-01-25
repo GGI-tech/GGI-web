@@ -29,14 +29,14 @@ const Fellowship = () => {
             <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting,<br class='hidden lg:block'/> Mentorship by BCG, Mckinsey Consultants <br class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span><br class='hidden lg:block'/> To Become a Young Leader`]} />
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> ADVANCE YOUR CAREER NOW</Button>
 
-            <Heading>Why GGI Impact Fellowship Works ?</Heading>
+            <Heading margin={60}>Why GGI Impact Fellowship Works ?</Heading>
             <FourColumnLayout data={fourcolumndata} />
             <Container>
                 <p className='mb-5 mt-12'><span className='font-semibold'>Best teaching can be done only when there is a direct relationship between a teacher and a good student</span>- a situation where the student discussed ideas, thinks about things, and talks about things.  But in modern times, it&#39;s hard to create scalable solutions since there are so many students. Hence, GGI Impact Fellowship has created a nonscalable Mckinsey work experience ecosystem outcome at 1/500th of the cost!</p>
                 <p className='mb-5'><span className='font-semibold primary'>Young Professionals waste many years</span> either preparing for Civil Services to venture into the development sector or reading innumerable cases in the false hope of getting into management consulting. We at Global Governance Initiative solve this through our Impact Fellowship Program. </p>
                 <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program..</p>
             </Container>
-            <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={0} />
+            <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={1} />
 
             <Heading>Life After GGI Impact Fellowship</Heading>
             <Container>
@@ -61,7 +61,7 @@ const Fellowship = () => {
                 <p className='mb-12'>4. You are ready to pivot careers and looking to be <span className='primary font-semibold'>connected to GGI employment partners </span></p>
 
             </Container>
-            <YoutubeEmbed embedId='URhwxoFL6S8' />
+            <YoutubeEmbed embedId='URhwxoFL6S8' autoplay={1} />
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
 
@@ -107,7 +107,7 @@ const Fellowship = () => {
             <YoutubeEmbed embedId='nQkS0i38ls8' />
 
             <Heading>Program Fees </Heading>
-            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
+            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
                 <br /><br />
                 Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank" rel='noreferrer'>here</a></u></p>
             </Container>

@@ -33,27 +33,27 @@ const MBA = () => {
         <div>
             <SlidingHero image={'./mba.jpeg'} title={["Learn Business Skills Live, Join Global Network <br class='hidden md:block'/>& Get Hired at <span class='text-yellow-200'>GGI MBA Scholar</span><br class='hidden md:block'/> to Become a Business Leader", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs "]} />
 
-            <Button url=""> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
-            <Heading>Why GGI Impact MBA Scholars Works? </Heading>
+            <Heading margin={60}>Why GGI Impact MBA Scholars Works? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <p className='px-8 my-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
             <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
             <div className='my-8'></div>
-            <YoutubeEmbed embedId='8lWeJ3Ekq-I' />
+            <YoutubeEmbed embedId='8lWeJ3Ekq-I' autoplay={1}/>
 
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
-            <YoutubeEmbed embedId='iuNMaVSwH0E' />
-            <Button url=""> APPLY NOW</Button>
+            <YoutubeEmbed embedId='iuNMaVSwH0E' autoplay={1}/>
+            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
 
             <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <Button url=""> APPLY NOW</Button>
+            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
 
             <Heading>Who is this Program for?</Heading>
@@ -65,7 +65,7 @@ const MBA = () => {
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
-            <Button url=""> APPLY NOW</Button>
+            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment</Heading>
             <Curriculum data={curriculum}/>
@@ -87,7 +87,7 @@ const MBA = () => {
                 <p>To help you develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
             </Container>
             <Steps data={stages} />
-            <Button url=""> APPLY NOW</Button>
+            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
@@ -97,7 +97,7 @@ const MBA = () => {
             <Community />
 
             <Heading>Program Fees </Heading>
-            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
+            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
                 <br /><br />
                 Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank" rel='noreferrer'>here</a></u></p>
             </Container>

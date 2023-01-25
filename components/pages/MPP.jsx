@@ -25,12 +25,12 @@ const MPP = () => {
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
-            <Heading>Why GGI Policy Scholars  Works?</Heading>
+            <Heading margin={60}>Why GGI Policy Scholars  Works?</Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <Heading>+88% GGIians working in Top Policy & Social Impact Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <YoutubeEmbed embedId='8lWeJ3Ekq-I' />
+            <YoutubeEmbed embedId='8lWeJ3Ekq-I' autoplay={1} />
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Who is this Program for?</Heading>
@@ -41,7 +41,7 @@ const MPP = () => {
                 <p>4. You are a <span className='primary font-medium'>budding entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen business skills while building an incredible support system.</p>
 
             </Container>
-            <YoutubeEmbed embedId='URhwxoFL6S8' />
+            <YoutubeEmbed embedId='URhwxoFL6S8' autoplay={1} />
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment  </Heading>
@@ -82,7 +82,7 @@ const MPP = () => {
             <Button url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>APPLY NOW</Button>
 
             <Heading>Program Fees </Heading>
-            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 90% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
+            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
                 <br /><br />
                 Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank" rel="noreferrer" >here</a></u></p>
             </Container>
