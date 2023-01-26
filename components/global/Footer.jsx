@@ -88,17 +88,17 @@ const Footer = () => {
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Our Programs</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <Link href="/ggi-scholars">
+                                        <Link prefetch={false} href="/ggi-scholars">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI MBA Scholars</p>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/ggipolicyscholarsprogram">
+                                        <Link prefetch={false} href="/ggipolicyscholarsprogram">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Policy Scholars</p>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/impact-fellowship">
+                                        <Link prefetch={false} href="/impact-fellowship">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Impact Fellowship</p>
                                         </Link>
                                     </li>
@@ -109,17 +109,17 @@ const Footer = () => {
                                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <Link href="/mission">
+                                        <Link prefetch={false} href="/mission">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Our Mission</p>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/careers">
+                                        <Link prefetch={false} href="/careers">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Careers</p>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blogs">
+                                        <Link prefetch={false} href="/blogs">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Blogs</p>
                                         </Link>
                                     </li>

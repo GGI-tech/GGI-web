@@ -102,31 +102,29 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='/'>Home</Link>
+              <Link prefetch={false} href='/'>Home</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='/ggi-scholars'>MBA</Link>
+              <Link prefetch={false} href='/ggi-scholars'>MBA</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='/ggipolicyscholarsprogram'>MPP</Link>
+              <Link prefetch={false} href='/ggipolicyscholarsprogram'>MPP</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='/impact-fellowship'>Fellowship</Link>
+              <Link prefetch={false} href='/impact-fellowship'>Fellowship</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='/reviews'>Employment Report</Link>
+              <Link prefetch={false} href='/reviews'>Employment Report</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='https://www.schrodingerbyggi.org' target={"_blank"}>Free Series</Link>
+              <Link prefetch={false} href='https://www.schrodingerbyggi.org' target={"_blank"}>Free Series</Link>
             </li>
+
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href=''>Apply Now</Link>
-            </li>
-            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link href='/blogs'>Blogs and Research</Link>
+              <Link prefetch={false} href='/blogs'>Blogs and Research</Link>
             </li>
             <li onClick={handleNav} className='p-4  hover:text-gray-500'>
-              <Link href='/careers'>Careers</Link>
+              <Link prefetch={false} href='/careers'>Careers</Link>
             </li>
 
           </ul>

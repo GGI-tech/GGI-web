@@ -80,7 +80,7 @@ export const testimonialPolicy = [
         name: 'Priyal Keni',
         org: 'GGI MBA Scholar 2021',
         image: '/priyal.jpg',
-        review: "&#34;A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with Deloitte Consulting and is a postgraduate in business studies from the University of Mumbai.&#34;"
+        review: "&#34;A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with <span class='font-bold'>Deloitte Consulting</span> and is a postgraduate in business studies from the University of Mumbai.&#34;"
     },
     {
         name: 'Anisha Sawhney',
@@ -92,7 +92,7 @@ export const testimonialPolicy = [
         name: 'Eshita Rastogi',
         org: 'Meet Eshita, MBA Scholar 2021',
         image: '/eshita.jpg',
-        review: "&#34;Eshita is currently working with KPMG Singapore and as a Management trainee.<br/><br/>Her experiences have transcended mere academic knowledge by providing her a global perspective, ingraining a duty to serve the community, and honing essential soft-skills. As a result, she is in the workforce with confidence, humility, and enthusiasm.&#34;"
+        review: "&#34;Eshita is currently working with <span class='font-bold'>KPMG Singapore</span> and as a Management trainee.<br/><br/>Her experiences have transcended mere academic knowledge by providing her a global perspective, ingraining a duty to serve the community, and honing essential soft-skills. As a result, she is in the workforce with confidence, humility, and enthusiasm.&#34;"
     },
     {
         name: 'Ronak Batra',

@@ -77,7 +77,7 @@ export const testimonialMBA = [
         org: 'GGI MBA Scholar 2021',
         link: 'https://www.linkedin.com/in/priyalkeni/',
         image: '/priyal.jpg',
-        review: "A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with Deloitte Consulting and is a postgraduate in business studies from the University of Mumbai."
+        review: "A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with <span class='font-bold'>Deloitte Consulting</span> and is a postgraduate in business studies from the University of Mumbai."
     },
     {
         name: 'Anisha Sawhney',
@@ -91,14 +91,14 @@ export const testimonialMBA = [
         org: 'Meet Eshita, MBA Scholar 2021',
         link: 'https://www.linkedin.com/in/eshitarastogi/',
         image: '/eshita.jpg',
-        review: "Eshita is currently working with KPMG Singapore and as a Management trainee.<br/><br/>Her experiences have transcended mere academic knowledge by providing her a global perspective, ingraining a duty to serve the community, and honing essential soft-skills. As a result, she is in the workforce with confidence, humility, and enthusiasm."
+        review: "Eshita is currently working with <span class='font-bold'>KPMG Singapore</span> and as a Management trainee.<br/><br/>Her experiences have transcended mere academic knowledge by providing her a global perspective, ingraining a duty to serve the community, and honing essential soft-skills. As a result, she is in the workforce with confidence, humility, and enthusiasm."
     },
     {
         name: 'Ronak Batra',
         org: 'Meet Ronak Batra, GGI Impact Scholar 2021.',
         link: 'https://www.linkedin.com/in/ronakbatra/',
         image: '/ronak.jpg',
-        review: `Ronak works with ThreeFish Consulting as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
+        review: `Ronak works with <span class='font-bold'>ThreeFish Consulting</span> as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
     },
     {
         name: 'Dhruv Goyal',

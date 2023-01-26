@@ -61,7 +61,7 @@ export const testimonialFellow = [
         org: 'Meet Arpita G. GGI Fellow 2021.',
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6761913808798789632/",
         image: '/arpita.jpg',
-        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of Deloitt<br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
+        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitt</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
     },
     {
         name: 'Sahil',
@@ -82,7 +82,7 @@ export const testimonialFellow = [
         org: 'Meet Abhay Malla, GGI Fellow 2021.',
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6750785045692219392/",
         image: '/abhay.jpg',
-        review: 'Shortly after GGI, I was offered a role by Kearney India.<br><br>The GGI Masterclass enabled me to develop a more holistic view of the manner in which the public sector works in our country and the challenges that arise while working to create an impact with them. The first time I was introduced to case interviews was also during the GGI Masterclass in my campus. I was able to understand the problems better and develop structured solutions which made me stand out.'
+        review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Kearney India</span>.<br><br>The GGI Masterclass enabled me to develop a more holistic view of the manner in which the public sector works in our country and the challenges that arise while working to create an impact with them. The first time I was introduced to case interviews was also during the GGI Masterclass in my campus. I was able to understand the problems better and develop structured solutions which made me stand out."
     },
     {
         name: 'Anushka Dixit',
@@ -107,14 +107,14 @@ export const testimonialFellow = [
         org: 'Meet Prachi Mehta, GGI Fellow 2021.',
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6755762502149173248/",
         image: '/prachi.jpg',
-        review: "Prachi is an Economics graduate from Christ University and is currently a research associate at Kingfish Group, a private equity advisory firm. She shares responsibility for conducting market research, commercial due diligence, and developing the firm's executive partnerships.<br><br> She also interned at the IDFC Institute where she contributed to the various research projects: (1) Infrastructure of Urban Peripheries and Job Creation (II) Affordable Housing (III)"
+        review: "Prachi is an Economics graduate from Christ University and is currently a research associate at <span class='font-bold'>Kingfish Group</span>, a private equity advisory firm. She shares responsibility for conducting market research, commercial due diligence, and developing the firm's executive partnerships.<br><br> She also interned at the IDFC Institute where she contributed to the various research projects: (1) Infrastructure of Urban Peripheries and Job Creation (II) Affordable Housing (III)"
     },
     {
         name: 'Tanya Shashtri',
         org: 'Meet Tanya Shastri, GGI Fellow 2021',
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6759392436411359232/",
         image: '/tanyashashtri.jpg',
-        review: 'Tanya is a Computer Science and Engineering graduate from Visvesvaraya National Institute of Technology (NIT Nagpur), batch of 2020.<br><br> She is currently working as a Business Analyst at IQVIA where she is involved in extracting meaningful insights from relevant data and developing business strategy. She has previously interned at Qatar Computing and Research Institute, where she worked in the domains of Natural Language Processing and How to crack Data Science and Analytics'
+        review:"Tanya is a Computer Science and Engineering graduate from Visvesvaraya National Institute of Technology (NIT Nagpur), batch of 2020.<br><br> She is currently working as a Business Analyst at <span class='font-bold'>IQVIA</span> where she is involved in extracting meaningful insights from relevant data and developing business strategy. She has previously interned at Qatar Computing and Research Institute, where she worked in the domains of Natural Language Processing and How to crack Data Science and Analytics"
     },
     {
         name: 'Maurice',

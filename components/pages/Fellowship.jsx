@@ -19,10 +19,10 @@ import Button from '../global/Button'
 import studs1 from '../../public/s1.png'
 import studs2 from '../../public/s2.png'
 // --------------------------------------------------------------------
-import {fourcolumndata, stages, testimonialFellow, curriculum } from '../../data/fellowshippgData'
+import { fourcolumndata, stages, testimonialFellow, curriculum } from '../../data/fellowshippgData'
 
 const Fellowship = () => {
-  
+
     return (
         <>
             <div className='mt-10'></div>
@@ -39,13 +39,16 @@ const Fellowship = () => {
             <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={1} />
 
             <Heading>Life After GGI Impact Fellowship</Heading>
+
             <Container>
                 <p className='mb-4'>There is no &#39;typical&#39; GGI career path. You will be joined by the diverse GGI alumni spanning sectors, industries, and geographies, and interests range from political risk analysis, and banking to consulting, civil services applicants in the emerging markets to policy work in international organizations.</p>
                 <p className='mb-4'>Impact Fellowship has positioned GGI Alumni for careers in a variety of sectors. Examples include :</p>
-                <p className='mb-4'><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</p>
-                <p className='mb-4'><span className='font-semibold primary'>International Organizations</span> such as United Nations, and the International Finance Corporation;</p>
-                <p className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> Groups like Bridgespan, FSG. Dalberg</p>
-                <p className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> such as Amazon, Unilever, and Procter & Gamle;</p>
+                <ul className='list-disc ml-4'>
+                    <li className='mb-4'><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</li>
+                    <li className='mb-4'><span className='font-semibold primary'>International Organizations</span> such as United Nations, and the International Finance Corporation;</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> Groups like Bridgespan, FSG. Dalberg</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> such as Amazon, Unilever, and Procter & Gamle;</li>
+                </ul>
                 <p className='mb-4'>Organizations focused on <span className='font-semibold primary'>developing market interests such as Dalberg</span> </p>
                 <p className='mb-4'>Many large employers find that Impact Fellowship from Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, and other functional areas that necessitate an education that goes beyond traditional business skills. </p>
                 <p>Impact Fellows at Global Governance Initiative are positioned to have a deep understanding of the complexity of national and local situations. </p>
@@ -67,13 +70,13 @@ const Fellowship = () => {
 
             <Heading>Curriculum & Commitment</Heading>
             <p className='px-8 text-center font-medium mb-4' >If GGI MBA Scholars is Harvard Business School then GGI Impact fellowship is Harvard Business School along with Mckinsey&#39;s work experience </p>
-            <Curriculum data={curriculum}/>
+            <Curriculum data={curriculum} />
             <YoutubeEmbed embedId='3xL9AbP92yo' />
             <Button url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
-            <Slider slides={testimonialFellow}/>
+            <Slider slides={testimonialFellow} />
             <Container>
                 <p className='my-12 '>Fellows are directly mentored by industry practitioners at every step. Mentor led education to interweave learning with working, instead of seeing these as separate things. The fellowship selection process is rigorous and is an invite-only program.</p>
                 <div className='my-24 grid sm:grid-cols-2 gap-5'>

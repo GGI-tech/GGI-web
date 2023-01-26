@@ -12,12 +12,12 @@ const Hero = ({ home, image, heading, message }) => {
           <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/0 z-[2]' />       {/* black/percentage  */}
 
         </div> :
-        <div className={`relative ${ secondarynavbar? 'mt-24':'mt-12'} w-full h-[20rem] md:h-[50rem]`}>
+        <div className={`relative ${ secondarynavbar? 'mt-24':'mt-12'} w-full h-[20rem] md:h-[60rem]`}>
           <img
             alt='/'
             layout='fill'
             src={`${image}`}
-            objectFit="cover"
+            objectfit="cover"
           />
           {heading ?
             <div className="absolute  z-[2] text-white top-2/3 md:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">

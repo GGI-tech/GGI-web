@@ -40,7 +40,7 @@ const data1 = [
         "img": "/ana.jpg",
         "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
     },
-    
+
     {
         "id": 5,
         "title": "SHREYA SAPRU",
@@ -48,6 +48,14 @@ const data1 = [
         "org": "SAMAGRA | TRANSFORMING GOVERNANCE",
         "img": "/shreyas.jpg",
         "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also. But also remember to give back to the community in any way that you could by supporting another peer or just giving a heads up on an opportunity that you might have in your organization but centrally go there to learn with an open mind &nbsp;`
+    },
+    {
+        "id": 6,
+        "title": `Simar Sethi `,
+        "url": "https://www.linkedin.com/pulse/shortly-after-ggi-i-joined-kearney-management-/?trackingId=WkuKCMjCgdk4iHYe5TlBFA%3D%3D",
+        "org": "KEARNEY CONSULTING",
+        "img": "/simar.jpg",
+        "text": "Shortly after GGI, I joined Kearney. <br><br>&ldquo; Hi, I am a final- year student at Indian Institute of Technology, Delhi.My major is mechanical engineering and my minor is business management.<br><br>A few years ago, I figured out I wanted to go into consulting. This field was of interest to me because I love learning about different things and meeting people from diverse backgrounds.<br><br>I was initially part of the GGI MBA scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them. Later on, I signed up for GGI fellowship also.<br><br> GGI masterclasses not only prepared me for #consulting but also built my interest towards it. They also taught me skills that could be used in all professions, not just consulting, which was unique as well.<br><br> For me, GGI was a complete package. <br><br> Looking back, I have extracted too many valuable insights from GGI :)&rdquo;"
     },
     {
         "id": 6,
@@ -89,7 +97,7 @@ const data1 = [
         "img": "/maanya.jpg",
         "text": "I think ever since I first stumbled upon GGI, my perspective towards my career has changed immensely. My GGI Fellowship lasted 2 months from Oct to Dec'20, and it simply curated itself into a glass half full situation wherein I could scrape off the shadows of the pandemic tainted hiring freezes and just breathe and plan for the future.<br><br> GGI Masterclasses, founder office hours, peer sessions, and of course the research paper, all in unison collected my professional ambitions and shaped them in a way that I could somehow manage to achieve them. My weeks are covered with working on my bit towards social behavioral change by running my content portal @hasrat.work and working full time at IFC."
     },
-    
+
     {
         "id": 11,
         "title": "PALAK ARORA",
@@ -177,7 +185,7 @@ const data1 = [
         "url": "https://www.linkedin.com/in/anusheela-ghosh/",
         "org": "Samagra",
         "img": "/anusheeela.jpg",
-        "text": "Shortly after GGI, I bagged an offer Samagra | Transforming Governance. I have recently started my journey at Samagra and am super excited to grow! Upon joining GGI, I took a deep dive into the consulting space. This involved case prep, networking, brushing up on interview skills and so on.<br/><br/>All this eventually culminated into bagging offers from DCPCR, GDI and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!"
+        "text": "Shortly after GGI, I bagged an offer Samagra | Transforming Governance. I have recently started my journey at Samagra and am super excited to grow! Upon joining GGI, I took a deep dive into the consulting space. This involved case prep, networking, brushing up on interview skills and so on.<br /><br />All this eventually culminated into bagging offers from DCPCR, GDI and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!"
     },
     {
         "id": 22,
@@ -243,7 +251,7 @@ const data1 = [
         "img": "/ayush.jpg",
         "text": `Shortly after GGI, I got selected as a summer intern under the policy initiatives team at eGovernments Foundation. I will be joining the non-profit organisation in May this year. The first masterclass I attended on Product Management and Tech Ethics helped me gain a wider perspective of the complementarity of soft and hard skills. My key learning from the masterclass was that sustainability needs to be at the forefront of product innovation.&nbsp;The policy consulting masterclass helped me direct my efforts towards this field.<br><br> I have been in touch with the GGI community with the help of regular inner circle meetings and networking events which helped me finally land an internship in my area of interest. The co-founders place great importance on mental well-being which has enabled me to be more confident, accepting and strong.`
     },
-    
+
     {
         "id": 30,
         "title": "Ishita Jain",
@@ -251,6 +259,14 @@ const data1 = [
         "org": "TresVista",
         "img": "/ishita.jpg",
         "text": "Shortly after GGI, I was offered a role by TresVista.<br><br> My first interaction with GGI was back in January 2020 through the Policy Consulting masterclass, then the Management Consulting masterclass. Now it&#39;s more than a year and I continue to be a part of this immensely talented family. The masterclasses boosted my confidence and made me realise my interest for problem solving and creating impact. This eventually led me to work with Teach For India as a campaign leader, intern with Ernst and Young and get placed in TresVista."
+    },
+    {
+        "id": 31,
+        "title": "Sourav Panda",
+        "url": "https://www.linkedin.com/in/souravpanda/",
+        "org": "The Fletcher School",
+        "img": "/sourav.jpg",
+        "text": "I took the bold move of coupling my business education (MBA) from CEIBS with one of the best international affairs courses in the world at The Fletcher School. <br><br> The GGI scholars’ community  helped me be prepared for what’s coming, especially discussions with Naman and Shatakshi, and Dean Bhaskar’s session for the scholars, but truly, you can never be ready for the abundance here at Fletcher!"
     }
 ]
 
@@ -353,7 +369,7 @@ const data2 = [
     //     "text":""
     // }
 ]
-const Card = ({ title, url,org, img, text }) => {
+const Card = ({ title, url, org, img, text }) => {
     return (
         <>
             <div className='mx-4 my-12 flex flex-col lg:flex-row justify-evenly  py-5 border border-black/10 shadow-black/5 shadow-xl rounded-lg'>
@@ -371,12 +387,12 @@ const Card = ({ title, url,org, img, text }) => {
                         <a href={url} rel="noreferrer noopener" target="_blank">
                             <p className='my-2 font-bold text-gray-900 dark:text-white hover:cursor-pointer hover:text-blue-800' dangerouslySetInnerHTML={{ __html: title }}></p>
                         </a>
-                        <p className='text-center primary max-w-[200px]' dangerouslySetInnerHTML={{ __html:  org }}></p>
+                        <p className='text-center primary max-w-[200px]' dangerouslySetInnerHTML={{ __html: org }}></p>
 
                     </div>
                 </div>
                 <div className='flex-justify center p-4 lg:w-2/3 text-sm'>
-                    <p className=' ' dangerouslySetInnerHTML={{ __html: "&ldquo;"+text +"&rdquo;"}}></p>
+                    <p className=' ' dangerouslySetInnerHTML={{ __html: "&ldquo;" + text + "&rdquo;" }}></p>
                     {/* <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
                         Read the full story on Linked<FaLinkedin />
                         <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -409,7 +425,7 @@ const Cardx = ({ title, img, text }) => {
                     {/* <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p> */}
                 </div>
                 <div className='flex-justify center p-4 text-sm'>
-                    <p className=' ' dangerouslySetInnerHTML={{ __html: "&ldquo;"+text +"&rdquo;" }}></p>
+                    <p className=' ' dangerouslySetInnerHTML={{ __html: "&ldquo;" + text + "&rdquo;" }}></p>
                     {/* <a href="#" className="mt-4 inline-flex items-center py-2 px-3 text-sm text-center text-white bg-red-700 rounded-lg hover:bg-red-800 hover:scale-105 shadow-lg  transition duration-400">
                         Read the full story on Linked<FaLinkedin />
                         <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -427,15 +443,15 @@ const Employment = () => {
     return (
         <>
             <Hero image={"/reviews.jpg"} />
-            <div className='primary text-3xl md:text-4xl mt-36 lg:mt-96 text-center  mb-12 font-serif font-bold' >LIFE AFTER GGI</div>
+            <div className='primary text-3xl md:text-4xl mt-[10vw] text-center  mb-12 font-serif font-bold' >LIFE AFTER GGI</div>
             <p className='text-center md:text-lg text-black font-serif my-12'>GGIIANS GET SO MANY JOBS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p>
             <YouTubeEmbed embedId='0XC2VXBF29g' />
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
 
-                {data1.map((e) => {
+                {data1.map((e, id) => {
                     return (
-                        <Card key={e.id} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
+                        <Card key={id} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
 
                     );
                 })}
