@@ -19,7 +19,7 @@ const data1 = [
     {
         "id": 2,
         "title": "SAIYAM HOTA",
-        "url": "",
+        "url": "https://www.linkedin.com/in/saiyam-hota-5a5a9680/",
         "org": " BAIN & COMPANY",
         "img": "/sayam.jpg",
         "text": "After GGI, I will join Bain & Company. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds.<br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
@@ -76,7 +76,7 @@ const data1 = [
     {
         "id": 8,
         "title": "ANSH AGGARWAL",
-        "url": "",
+        "url": "https://www.linkedin.com/in/ansh-aggarwal-15448a1a9/",
         "org": "MCKINSEY & CO",
         "img": "/ansh.jpg",
         "text": "Shortly after GGI, I got placed in&nbsp;McKinsey &amp; Company. In fact, I will be moving to Mumbai to work as a Business Analyst. Also after the masterclass, having won the EY Scholarship for entrepreneurship, I completed an internship at EY Global as well. [...] GGI&apos;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process.</p>"
@@ -84,9 +84,9 @@ const data1 = [
     {
         "id": 9,
         "title": "Tushar Bagrodia",
-        "url": "",
+        "url": "https://www.linkedin.com/in/tusharbagrodia/",
         "org": "Kearney India",
-        "img": "/tushar.jpg",
+        "img": "/Tushar.jpg",
         "text": "Shortly after GGI, I was offered a role by&nbsp;Kearney India. The GGI Masterclass enabled me to develop a more holistic view of the manner in which public sector works in our country and the challenges that arise while working to create an impact with them.</p><p>&nbsp;</p><p>The first time I was introduced to case interviews was also during the GGI Masterclass on my campus. I was able to understand the problems better and develop structured solutions which made me stand out."
     },
     {
@@ -117,7 +117,7 @@ const data1 = [
     {
         "id": 13,
         "title": "NISHITA GUPTA",
-        "url": "",
+        "url": "https://www.linkedin.com/in/nishthagupta001/",
         "org": "BCG",
         "img": "/Schermata.jpg",
         "text": "Shortly after the GGI Policy Consulting Masterclass, I bagged an offer to join BCG. It was only during the Policy Consulting masterclass that I was introduced to solving cases and the world of consulting.<br><br> I can never forget that moment when it all seemed worth it, the effort that went in while preparing. "
@@ -289,14 +289,14 @@ const data2 = [
     {
         "id": 3,
         "title": "SHRAYA SAPRU, SAMAGRA",
-        "url": "",
+        "url": "https://www.linkedin.com/in/shraya-sapru/",
         "img": "/r3.jpg",
         "text": "I have been made an offer to join as a Senior Associate at Samagra.  I had applied after the GGI info session and had my final round today."
     },
     {
         "id": 4,
         "title": "Yashvi Churivala, PwC Deals Strategy Consulting",
-        "url": "",
+        "url": "https://www.linkedin.com/in/yashvi-churiwala-792230204/",
         "img": "/r4.jpg",
         "text": "I got an offer from PwC Deals Strategy Consulting! <br><br>Sessions with my mentor (Akshar) and learnings acquired during the Management Communication class were extremely helpful in every round!"
     },
@@ -310,49 +310,49 @@ const data2 = [
     {
         "id": 6,
         "title": "DARSHITA DEVNANI, EY",
-        "url": "",
+        "url": "https://www.linkedin.com/posts/darshitadevnani_learning-ggi-ggibound-activity-6847803873285980160-uTIv/",
         "img": "/r6.jpg",
         "text": "I spent my last weekend attending the Liberal Arts Masterclass organised by Global Governance Initiative as a part of my GGI Impact Scholars Program. Being from a commerce background, I have always been curious to explore the world of Liberal Arts and it goes without saying.<br><br>I had a very enriching and immense learning experience whilst learning and interacting with the diverse community. I am thankful beyond words to Naman and Shatakshi for creating one-of-its-kind learning ecosystem at Global Governance Initiative. Glad to be a part of the GGI family!"
     },
     {
         "id": 7,
         "title": "FIONA d'souza, zafco",
-        "url": "",
+        "url": "https://www.linkedin.com/posts/fionads_attended-a-brilliant-masterclass-on-impact-activity-6789957312535695360-zHKb/",
         "img": "/r7.jpg",
         "text": "Attended a brilliant masterclass on Impact Investing by speakers Rachana Ramchand, Ivka Kalus and Daan Besamusca. As someone without much clarity on the Impact Investments space, this session was a great value add.<br><br>Thank you Global Governance Initiative for giving us the opportunity to experience discussions on such niche topics."
     },
     {
         "id": 8,
         "title": "Ravali kothuri, synamedia",
-        "url": "",
+        "url": "https://www.linkedin.com/in/ravali-kothuri-02/",
         "img": "/r8.jpg",
         "text": "One thing I am grateful for GGI is it opened my mind to explore new things. It exposed me to new domains by letting me interact with people coming from diverse backgrounds."
     },
     {
         "id": 9,
         "title": "Shanthan chandrasekhar, vlerick business school",
-        "url": "",
+        "url": "https://www.linkedin.com/posts/shanthan-chandrasekhar_ggi-sustainability-mindset-activity-6787062916190470144-s__m/",
         "img": "/r9.jpg",
         "text": "How often do you get to interact with a BCG Partner Aparna Bijapurkar.!!<br><br>Thank you Shatakshi Sharma and Naman Shrivastava for co-founding Global Governance Initiative and pushing our limits personally and professionally."
     },
     {
         "id": 10,
         "title": "ANISHA mansingh, zomato",
-        "url": "",
+        "url": "https://www.linkedin.com/in/anisha-mansingh-62a88b162/",
         "img": "/r10.jpg",
         "text": "I have received a campus placement offer from Deloitte India. It is in their Consulting Departmnet, the profile is of a Human Capital Analyst. <br><br>There are so many skills that I learnt from the GGI Fellowship that I applied during the placement process. "
     },
     {
         "id": 11,
         "title": "NETAnya pereira, ISS ESG",
-        "url": "",
+        "url": "https://www.linkedin.com/in/netanya-pereira-5a2409192/",
         "img": "/r11.jpg",
         "text": "I had an extremely productive weekend at the Global Governance Initiative Impact Investing Masterclass. Personally, I was looking forward to this Masterclass since the start of GGI and I wasn't let down!"
     },
     {
         "id": 12,
         "title": "MUSKAAN, CEEW, LAMP, SRCC",
-        "url": "",
+        "url": "https://www.linkedin.com/in/muskaan-malhotra-6ba254170/",
         "img": "/r12.jpg",
         "text": "I just want to thank you and the entire GGI Team for facilitating the process as well as comment on the brilliant work you've been doing throughout the organization!"
     },
