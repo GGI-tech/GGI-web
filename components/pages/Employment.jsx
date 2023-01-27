@@ -5,7 +5,7 @@ import Hero from '../global/Hero'
 import Image from 'next/image'
 import YouTubeEmbed from '../global/YoutubeEmbed'
 import Footer from '../global/Footer'
-import { FaLinkedin } from 'react-icons/fa'
+// import { FaLinkedin } from 'react-icons/fa'
 // import Container from '../global/Container'
 const data1 = [
     {
