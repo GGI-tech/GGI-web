@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image';
 import m1 from '../../public/m1.jpg';
 import m2 from '../../public/m2.jpg';
@@ -60,7 +59,7 @@ const Masterclasses = () => {
           {data1.map((item, i) => {
             return (
               <div key={i} className='w-22 text-center'>
-                <Image src={item.img} alt='/' />
+                <Image placeholder="blur" src={item.img} alt='/' />
                 <p className='text-sm text-center'>{item.name} </p>
               </div>
             )
@@ -72,7 +71,7 @@ const Masterclasses = () => {
           {data2.map((item, i) => {
             return (
               <div key={i} className='w-22 text-center'>
-                <Image src={item.img} alt='/' />
+                <Image placeholder="blur" src={item.img} alt='/' />
                 <p className='text-sm text-center'>{item.name} </p>
               </div>
             )
@@ -83,7 +82,7 @@ const Masterclasses = () => {
         {data1.concat(data2).map((item, i) => {
           return (
             <div key={i} className='text-center mb-5'>
-              <div className='h-24'><Image src={item.img} alt='/' /></div>
+              <div className='h-24'><Image placeholder="blur" src={item.img} alt='/' /></div>
               <p className='text-xs sm:text-sm text-center pink my-4'>{item.name} </p>
             </div>
           )

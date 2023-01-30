@@ -1,4 +1,3 @@
-import React from 'react'
 import Heading from '../global/Heading';
 import Accordion from '../global/Accordian';
 import Container from '../global/Container';

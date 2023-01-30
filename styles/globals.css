@@ -147,14 +147,14 @@ p>strong::after {
 }
 
 
-iframe {
+.iframe {
   height: 250px;
   width: 440px;
 
 }
 
 @media screen and (max-width:600px) {
-  iframe {
+  .iframe {
     height: 200px;
     width: 300px;
   }
