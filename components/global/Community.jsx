@@ -12,17 +12,17 @@ const Community = () => {
     return (
         <>
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
-                <div className='col-span-2'><Image src={community1} alt="" /></div>
-                <div className='col-span-1'><Image src={community2} alt="" /></div>
+                <div className='col-span-2'><Image placeholder="blur" src={community1} alt="" /></div>
+                <div className='col-span-1'><Image placeholder="blur" src={community2} alt="" /></div>
                 <div className='col-span-2 my-auto p-5'><p>Going through the program alongside a group of highly accomplished peers is the best way to achieve transformation. Our Alumni have an annual in-person get-together also.</p></div>
-                <div className='col-span-1'><Image src={community3} alt="" /></div>
-                <div className='col-span-2'><Image src={community4} alt="" /></div>
+                <div className='col-span-1'><Image placeholder="blur" src={community3} alt="" /></div>
+                <div className='col-span-2'><Image placeholder="blur" src={community4} alt="" /></div>
                 <div className='col-span-1  p-5 my-auto'><p>We do not prefer a particular curriculum for undergraduate study for admission to the GGI Program. The Undergraduate representations come from IIT Bombay, IIT Madras, St. Stephen&#39;s College, NMIMS to IIM Ahmedabad, The Fletcher School. Yale University, </p></div>
             </div>
 
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
                 <div className='col-span-1 my-auto p-5'><p>There are more than 100+ organizations represented in the cohort including Deloitte Consulting, EnY Consulting, Amazon AWS, Ministry of Finance, Bain Research, Goldman Sachs, Deutsche Bank, Schlumberger</p></div>
-                <div className='col-span-2'><Image src={community5} alt="" /></div>
+                <div className='col-span-2'><Image placeholder="blur" src={community5} alt="" /></div>
             </div>
 
         </>

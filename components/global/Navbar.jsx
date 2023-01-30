@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10 '
+      className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10 py-3'
     >
       {/* top banner */}
       {secondarynavbar && <div className='w-100 bg-[#C30b0b]'>

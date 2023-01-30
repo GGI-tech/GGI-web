@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image';
 import ibgc from '../../public/ibgc.png'
 import fletchers from '../../public/fletcher.jpg'

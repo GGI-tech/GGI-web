@@ -153,7 +153,7 @@ const Main = () => {
 
             <div className="flex flex-col justify-center mt-72">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
-                    <div className='col-span-2 '><Image src={bhaskar_chakra} alt="" /></div>
+                    <div className='col-span-2 '><Image src={bhaskar_chakra} placeholder="blur" alt="Bhaskar Chakravorty" /></div>
                     <div className='flex flex-col justify-center content-center gap-7 p-10 col-span-1'>
                         <p className='text-3xl tracking-widest font-extrabold'>GGI Advisor</p>
                         <p className='text-xl'>Bhaskar Chakravorti</p>

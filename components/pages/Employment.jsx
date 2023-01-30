@@ -1,4 +1,3 @@
-import React from 'react'
 import Accordion from '../global/Accordian'
 import Heading from '../global/Heading'
 import Hero from '../global/Hero'

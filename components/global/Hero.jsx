@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import secondarynavbar from '../secondaryNav'
 
 const Hero = ({ home, image, heading, message }) => {
