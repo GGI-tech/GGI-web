@@ -43,7 +43,7 @@ const Navbar = () => {
           <a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel="noopener noreferrer" className='text-center mt-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black font-bold '>APPLY NOW</a></p>
       </div>}
 
-      <div className='sm:mx-12 m-auto flex justify-between gap-2 items-center text-white pr-5'>
+      <div className='sm:mx-12 m-auto flex justify-between gap-2 items-center text-white pr-5 text-[14px]'>
         <div className='mx-auto sm:ml-12 pt-2'>
           <Link href='/' passHref>
             <div>
