@@ -72,7 +72,7 @@ const MPP = () => {
             <Heading>As GGI Policy Scholar, You will Immerse Yourself in a Truly Impactful Experience  </Heading>
             <Container>
                 <p className='mb-2'>Through teaching,  public sector knowledge, change theories, and engagement with government practitioners, GGI Policy Scholar during GGI MPP improves public policy and public leadership so that people can live in societies that are safer, freer, juster, and more sustainably prosperous. Our practitioner&#39;s focus on economic, technology, extremism, sustainability, and your public leadership practice.   </p>
-                <p>Leaders looking to pivot into the world of public policy, social impact, international affairs and impact investing should be able to successfully navigate different cultures, economies, governments, and jobs. To help GGI Policy Scholars develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential programs that take place across the social impact and public policy domain. This is achieved in 3 stages during the 3-6 months  :  </p>
+                <p>Leaders looking to pivot into the world of public policy, social impact, international affairs and impact investing should be able to successfully navigate different cultures, economies, governments, and jobs. To help GGI Policy Scholars develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential programs that take place across the social impact and public policy domain. <span className='font-bold'>This is achieved in 3 stages during the 3-6 months  : </span> </p>
             </Container>
             <Steps data={stages} />
 
@@ -83,7 +83,7 @@ const MPP = () => {
             <Heading>Program Fees </Heading>
             <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
                 <br /><br />
-                Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://forms.gle/hv12YCeTFmDwFFJD8' target="_blank" rel="noreferrer" >here</a></u></p>
+                Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform' target="_blank" rel="noreferrer" >here</a></u></p>
             </Container>
 
             <Heading>Our Official Partners</Heading>

@@ -51,7 +51,7 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
-        <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex text-sm'>
+        <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex '>
           <Link href='/ggi-scholars'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
               MBA
