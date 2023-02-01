@@ -1,23 +1,23 @@
 import Link from 'next/link'
 import { FaTwitter, FaLinkedin, FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { useForm } from 'react-hook-form';
-import {  toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Footer = () => {
-    const { register, handleSubmit,reset, formState: { errors }, } = useForm();
-    async function submitHandler (data) {
+    const { register, handleSubmit, reset, formState: { errors }, } = useForm();
+    async function submitHandler(data) {
         const response = await fetch("/api/sheet", {
-                method: "POST",
-                body: JSON.stringify(data),
-                headers: {
-                    'Content-Type': 'application/json',
-                  },
-            })
-            toast.success("Email subscribed for the Newsletter!")
-            reset();
+            method: "POST",
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+        toast.success("Email subscribed for the Newsletter!")
+        reset();
     }
- 
+
     return (
         <footer className="relative bg-black/90 pt-8 mt-24 pb-6 text-white">
             <div className=" mb-6 flex justify-center m-auto">
@@ -49,7 +49,7 @@ const Footer = () => {
                         <form onSubmit={handleSubmit(submitHandler)}>
                             {/* -------------------------------------------- */}
                             <input
-                                {...register('email',{ required: 'Please enter your email' })}
+                                {...register('email', { required: 'Please enter your email' })}
                                 type="text"
                                 className="
                 form-control
@@ -123,10 +123,14 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Terms &amp; Conditions</p>
+                                        <Link prefetch={false} href="/terms-conditions">
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Terms &amp; Conditions</p>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Privacy Policy</p>
+                                        <Link prefetch={false} href="/privacy-policy">
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Privacy Policy</p>
+                                        </Link>
                                     </li>
                                     {/* <li>
                                         <a className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" href="">Contact Us</a>

@@ -4,7 +4,7 @@ const reviews = () => {
   return (
     <>
       <Head>
-        <title>Global Governance Initiative | MBA &amp; Fellowship</title>
+        <title>GGI Honest Reviews | Global Governance Initiative</title>
         <meta property="description" content="Honest reviews of the Global Governance Initiative program from the own words of its beneficiaries."/>
         <link rel='icon' href='/favicon.jpg' />
       </Head>
