@@ -11,7 +11,7 @@ const FourColumnLayout = ({ data }) => {
             <div key={e.id} className='flex flex-col text-center mt-6'>
               <div> <Image placeholder="blur" className='' alt="" src={e.img} /></div>
               <h2 className='text-2xl font-bold h-20 md:h-36 lg:h-28 pt-2 mt-4'>{e.title}</h2>
-              <p className='text-center sm:text-left mt-3 p-2'>{e.body}</p>
+              <p className='text-center sm:text-left px-2'>{e.body}</p>
             </div>
           );
         })}

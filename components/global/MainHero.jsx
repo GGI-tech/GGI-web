@@ -9,7 +9,7 @@ const MainHero = () => {
                 <h1 className='text-2xl arial'> YOUR CHANCES</h1>
                 <h1><button className='bg-white text-black px-4 py-2 hover:bg-black hover:text-white arial rounded-full text-3xl'>TO GET IN</button></h1>
             </div>
-            <div className='grid md:grid-cols-4 grid-cols-3 pb-8'>{/*bg-black*/}
+            <div className='grid gap-10 sm:gap-0 md:grid-cols-4 grid-cols-3 pb-8'>{/*bg-black*/}
                 <div className='col-span-3'>
                     <div className='r2 flex mt-12 md:mt-24 gap-1 md:gap-10  text-center justify-evenly sm:justify-between flex-wrap'> {/*bg-blue-900 */}
                         <h1 className='relative text-2xl sm:text-3xl arial  py-3 sm:py-6 '>
