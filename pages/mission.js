@@ -10,7 +10,7 @@ const Mission = () => {
             <Head>
                 <title>Mission | Global Governance Initiative</title>
                 <meta name="description" content="Our mission is to democratize experiential&nbsp;education through young globally accomplished practitioners&nbsp;and unlock potential of the youth at grass root level.&nbsp;" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                 <link rel='icon' href='/favicon.jpg' />
                 <link rel="shortcut icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png"/>
                 <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png"/>

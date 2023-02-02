@@ -9,7 +9,7 @@ const ggischolars = () => {
         <title>MBA Scholars by Global Governance Initiative | Learn Business Live  &amp; Get Hired.</title>
         <meta property="description" content="Learn Business Skills Live, Get Hired, &amp; Network at GGI MBA Scholar To Become an Impactful Business Leader&nbsp;" />
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel='icon' href='/favicon.jpg' />
         <link rel="shortcut icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png" />
         <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png" />
