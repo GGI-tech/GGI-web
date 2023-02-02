@@ -3,9 +3,28 @@ import Accordion from '../components/global/Accordian';
 import Container from '../components/global/Container';
 import Footer from '../components/global/Footer';
 import Heading from '../components/global/Heading';
+import Head from 'next/head';
 const Mission = () => {
     return (
         <>
+            <Head>
+                <title>Mission | Global Governance Initiative</title>
+                <meta name="description" content="Our mission is to democratize experiential&nbsp;education through young globally accomplished practitioners&nbsp;and unlock potential of the youth at grass root level.&nbsp;" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                <link rel='icon' href='/favicon.jpg' />
+                <link rel="shortcut icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png"/>
+                <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png"/>
+                <link rel="canonical" href="https://www.globalgovernanceinitiative.org/mission"/>
+                <meta property="og:title" content="Mission | Global Governance Initiative"/>
+                <meta property="og:description" content="Our mission is to democratize experiential&nbsp;education through young globally accomplished practitioners&nbsp;and unlock potential of the youth at grass root level.&nbsp;"/>
+                <meta property="og:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png"/> 
+            
+                <meta property="og:image:width" content="2500"/>
+                <meta property="og:image:height" content="1330"/>
+                <meta property="og:url" content="https://www.globalgovernanceinitiative.org/mission"/>
+                <meta property="og:site_name" content="GGI"/>
+                <meta property="og:type" content="website"/>
+            </Head>
             <div className='mt-36 flex justify-center'>
                 <div className='w-100 sm:w-3/4 md:w-1/2 lg:w-2/5'>
                     <video autoPlay={true} loop={true} controls={true} muted={true} width="100%" height="100%" >
