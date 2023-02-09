@@ -77,7 +77,7 @@ const Navbar = () => {
               <button className="inline-flex items-center rounded font-semibold ">Explore</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-1 px-4 hover:bg-gray-400" >Free Series</div></Link>
-                <Link href="/blogs" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Blogs & Research</div></Link>
+                <Link href="https://theggi.org/blogs" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Blogs & Research</div></Link>
                 <Link href="/careers"><div className="whitespace-no-wrap block rounded-b bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Careers</div></Link>
               </ul>
             </span>

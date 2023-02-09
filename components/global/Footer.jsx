@@ -118,7 +118,7 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link prefetch={false} href="/blogs">
+                                        <Link prefetch={false} href="https://theggi.org/blogs">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >Blogs</p>
                                         </Link>
                                     </li>
