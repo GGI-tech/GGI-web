@@ -43,11 +43,11 @@ const Navbar = () => {
           <a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel="noopener noreferrer" className='text-center mt-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black font-bold '>APPLY NOW</a></p>
       </div>}
 
-      <div className='sm:mx-12 m-auto flex justify-between gap-2 items-center text-white pr-5 text-[14px]'>
+      <div className='sm:mx-12 m-auto flex justify-between gap-2 items-center text-white pr-5 '>
         <div className='mx-auto sm:ml-12 pt-2'>
           <Link href='/' passHref>
             <div>
-              <Image style={{ cursor: "pointer" }} alt="/" height={40} width={145} src={img} />
+              <Image style={{ cursor: "pointer" }} alt="/" height={45} width={160} src={img} />
             </div>
           </Link>
         </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
               <button className="inline-flex items-center rounded font-semibold ">Explore</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-1 px-4 hover:bg-gray-400" >Free Series</div></Link>
-                <Link href="https://theggi.org/blogs" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Blogs & Research</div></Link>
+                <Link href="https://theggi.org" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Blogs & Research</div></Link>
                 <Link href="/careers"><div className="whitespace-no-wrap block rounded-b bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Careers</div></Link>
               </ul>
             </span>
