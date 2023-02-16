@@ -6,7 +6,8 @@ const medicalscholars = () => {
     <>
       <Head>
         <title>GGI Medical Scholars 2023 | GGI</title>
-
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <link rel='icon' href='/favicon.jpg' />
       </Head>
       <MedicalScholars />
     </>
