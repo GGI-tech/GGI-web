@@ -15,7 +15,7 @@ export const fourcolumndata = [
     },
     {
         "id": 2,
-        "img": network,
+        "img": poets,
         "title": "Learn MBA/MPP Skills without quitting your practice",
         "body": "GGI MBA was globally featured by <span class='font-bold'>Poets and Quants</span> as the world's most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
     },
@@ -27,7 +27,7 @@ export const fourcolumndata = [
     },
     {
         "id": 4,
-        "img": poets,
+        "img": network,
         "title": "Become Part of Purposeful Community",
         "body": "This global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - <span class='font-bold'>not just in referring you to your first job, but in navigating a thriving career or in building your startups.</span>  "
     }
