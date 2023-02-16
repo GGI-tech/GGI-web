@@ -47,11 +47,11 @@ const Navbar = () => {
         <div className='mx-auto sm:ml-12 pt-2'>
           <Link href='/' passHref>
             <div>
-              <Image style={{ cursor: "pointer" }} alt="/" height={45} width={160} src={img} />
+              <Image style={{ cursor: "pointer" }} alt="/" height={50} width={180} src={img} />
             </div>
           </Link>
         </div>
-        <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex '>
+        <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex md:text-[16px] '>
           <Link href='/ggi-scholars'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
               MBA
