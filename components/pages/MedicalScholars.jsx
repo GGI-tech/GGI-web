@@ -117,7 +117,7 @@ const MedicalScholars = () => {
 
             <Heading>GGI Medical Scholars 2023 is centered around 3 things  </Heading>
             <Container>
-                <p className='mb-3'>Today's Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help GGI Medical Scholars during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential Masterclasses that take place across sectors and industries. This is achieved in 3 stages : </p>
+                <p className='mb-3'>Today&apos;s Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help GGI Medical Scholars during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential Masterclasses that take place across sectors and industries. This is achieved in 3 stages : </p>
             </Container>
             <Steps data={stages} />
             <Button url="https://docs.google.com/forms/d/1b_2u8I0EVe8Qf8DoKdUOTqGXq4-u8ul6CzuHl5tL3Rs/viewform"> APPLY NOW</Button>

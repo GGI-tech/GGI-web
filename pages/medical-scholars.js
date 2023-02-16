@@ -5,7 +5,7 @@ const medicalscholars = () => {
   return (
     <>
       <Head>
-        <title>MBA Scholars by Global Governance Initiative | Learn Business Live  &amp; Get Hired.</title>
+        <title>GGI Medical Scholars 2023 | GGI</title>
 
       </Head>
       <MedicalScholars />
