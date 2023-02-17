@@ -4,6 +4,8 @@ dotenv.config();
 
 export default async (req, res) => {
   const { name, email, message } = req.body;
+  console.log(email, message);
+
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -17,7 +19,7 @@ export default async (req, res) => {
   try {
     await transporter.sendMail({
       from: email,
-      to: "shivambunge9898@gmail.com",
+      to: "shivam@globalgovernanceinitiative.org, shatakshi@globalgovernanceinitiative.org, ceo@globalgovernanceinitiative.org",
       subject: `Contact form submission from ${name}`,
       html: `<p>You have a contact form submission</p><br>
         <p><strong>Email: </strong> ${email}</p><br>
