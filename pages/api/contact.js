@@ -7,7 +7,7 @@ dotenv.config();
 
 const createTransporter = async () => {
   const oauth2Client = new OAuth2(
-    process.env.CLIENT_ID,
+    process.env.GCLIENT_ID,
     process.env.CLIENT_SECRET,
     "https://developers.google.com/oauthplayground"
   );
@@ -31,7 +31,7 @@ const createTransporter = async () => {
       type: "OAuth2",
       user: process.env.EMAIL,
       accessToken,
-      clientId: process.env.CLIENT_ID,
+      clientId: process.env.GCLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
       refreshToken: process.env.REFRESH_TOKEN
     },
@@ -79,7 +79,7 @@ export default async (req, res) => {
       html: `<p>You have a contact form submission from  </strong>${name}</p> <strong>
          <p><strong>Email: </strong> ${email}</p>
           <p><strong>Message: </strong> ${message}</p>`,
-      to: "shivambunge9898@gmail.com",
+      to: "shivam@globalgovernanceinitiative.org, shatakshi@globalgovernanceinitiative.org",
       from: process.env.EMAIL
     });
   } catch (error) {
