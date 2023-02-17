@@ -85,7 +85,6 @@ export default function Contact() {
       setShowFailureMessage(false);
       setButtonText("Send");
     }
-    console.log(fullname, email, subject, message);
   };
 
   return (
