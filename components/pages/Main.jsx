@@ -52,7 +52,7 @@ const Main = () => {
             <Partners companies={companies} />
 
             {/* <div className='skin'> */}
-            <Heading >GGI Offers Live <strong>Upskilling,</strong> <strong>Employment</strong> & Networking </Heading>
+            <Heading>GGI Offers Live <strong>Upskilling,</strong> <strong>Employment</strong> &  <strong>Networking</strong> </Heading>
 
             <Container>
                 <p >Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
@@ -61,7 +61,7 @@ const Main = () => {
             <div className="p-4 flex justify-center">
                 <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 " >
                     <div className='lg:col-span-2'>
-                        <div className='text-center md:text-left md:h-[25rem] '>
+                        <div className='text-center md:text-left md:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-7'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
@@ -78,7 +78,7 @@ const Main = () => {
                     </div>
                     <div className='hidden lg:block lg:col-span-1'></div>
                     <div className='lg:col-span-2'>                    
-                        <div className='text-center md:text-left md:h-[25rem] '>
+                        <div className='text-center md:text-left md:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                             <p className='my-7 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-7'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>

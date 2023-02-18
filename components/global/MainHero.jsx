@@ -23,24 +23,24 @@ const MainHero = () => {
                             <div className='flex sm:mt-4 justify-center'>
                                 <h1 className='relative text-2xl sm:text-3xl lg:text-6xl arial'>PRODUCT<img width={50} height={80} src='/arrow.jpg' className='absolute hidden sm:block bottom-12 left-48 lg:left-80' /><br className='hide' /><span className='text-2xl sm:text-3xl lg:text-4xl'> MANAGEMENT </span></h1>
                             </div>
-                            <div className='r11 my-10 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
+                            <div className='r11 my-14 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
                                 <p className='sm:text-xl text-left'>We’re a social impact global organization with a mission to provide quality Business & Policy Education for an Inclusive world.</p>
                             </div>
                             <div className='r12 mt-5 lg:mt-12 grid grid-cols-2 gap-5 md:grid-cols-4'>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl'>61+</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-12'>61+</h1>
                                     <p className='font-black'> Employment<br /> Partners</p>
                                 </div>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl'>88%</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-12'>88%</h1>
                                     <p className='font-black'> Pivoted into Consulting<br /> Policy & Product</p>
                                 </div>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl'>17 LAKHS</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-12'>17 LAKHS</h1>
                                     <p className='font-black'> Average CTC<br /> Offered</p>
                                 </div>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl'>5500+</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-12'>5500+</h1>
                                     <p className='font-black'>GGI Scholars & <br/>Fellows</p>
                                 </div>
                             </div>
