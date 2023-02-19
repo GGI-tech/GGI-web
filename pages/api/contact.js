@@ -79,7 +79,7 @@ export default async (req, res) => {
       html: `<p>You have a contact form submission from  </strong>${name}</p> <strong>
          <p><strong>Email: </strong> ${email}</p>
           <p><strong>Message: </strong> ${message}</p>`,
-      to: "shivam@globalgovernanceinitiative.org, shivambunge42@gmail.com",
+      to: "shivam@globalgovernanceinitiative.org, shatakshi@globalgovernanceinitiative.org",
       from: process.env.EMAIL
     });
     return res.status(200).json("success");
