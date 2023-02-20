@@ -81,12 +81,15 @@ async function sendEmail(req, res) {
   try {
     // console.log("REQ.BODY", req.body);
     await sendgrid.send({
-      to: "shivambunge9898@gmail.com", // Your email where you'll receive emails
+      to: "shivambunge9898@gmail.com, shatakshi@globalgovernanceinitiative.org, ceo@globalgovernanceinitiative.org", // Your email where you'll receive emails
       from: "shivam@globalgovernanceinitiative.org", // your website email address here
       subject: `${subject}`,
-      html: `<div>You've got a mail from <b>${name}</b></div>
+      html: `<div>New Lead from Website. You've got a mail from <b>${name}</b></div>
+             <br>
              <div>Email : <b>${email}</b></div>
+             <br>
              <div>Message :</div>
+             <br>
              <div>${message}</div>`,
     });
     
