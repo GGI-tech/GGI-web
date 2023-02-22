@@ -20,6 +20,7 @@
   src: url('../fonts/Poppins-Light.ttf');
   font-display: swap;
 }
+
 @font-face {
   font-family: GaretHeavy;
   src: url('../fonts/Garet-Heavy.ttf');
@@ -28,6 +29,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@900&display=swap');
+
 html {
   scroll-behavior: smooth;
   color: rgb(84, 80, 80);
@@ -70,8 +72,8 @@ html {
 }
 
 .arial {
-  font-family: GaretHeavy,serif;
-    
+  font-family: GaretHeavy, serif;
+
 }
 
 h1,
@@ -80,7 +82,7 @@ h3 {
   font-family: PoppinsBold, serif;
   text-align: center;
   letter-spacing: 0.04em;
-
+  font-size: clamp(0.875rem, 1vw + 1rem, 1.875rem);
 }
 
 p,
@@ -111,7 +113,7 @@ strong {
 strong::after {
   content: "";
   position: absolute;
-  bottom: -0.35rem;
+  bottom: -0.2rem;
   left: 0.25rem;
   right: 0.25rem;
   height: clamp(1rem, 0.6094rem + 0.6250vw, 1.2rem);
@@ -167,9 +169,10 @@ p>strong::after {
 }
 
 
-/* .underline-image {
+.bg-custom-underline {
   background-image: url('/ceo.jpg');
+  background-repeat: repeat-x;
+  background-size: 100% 14px;
   background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: auto 20px;
-} */
+
+}
