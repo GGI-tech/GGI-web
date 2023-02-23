@@ -156,7 +156,7 @@ export const curriculum = [
         "description": "Over 9  weekends, based on your availability "
     },
     {
-        "title": "52+ Employment Partners",
+        "title": "75+ Employment Partners",
         "description": "Who recruit from GGI peridocially"
     }, 
     {
@@ -172,7 +172,7 @@ export const curriculum = [
         "description": "During graduation. 1 to take forward your MBA dreams "
     },
     {
-        "title": "GGI Projects & Startup Weekend",
+        "title": "GGI Startup Weekend",
         "description": "Peer to Peer projects "
     },
     {

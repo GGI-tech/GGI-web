@@ -150,7 +150,7 @@ export const curriculum=[
         "description":"Over9 weekends, based on your availability "
     },
     {
-        "title":"52+ Employment Partners",
+        "title":"75+ Employment Partners",
         "description":"Which Recruit GGIians"
     },
     {
@@ -164,6 +164,10 @@ export const curriculum=[
     {
         "title":"1:1 Founders&#39; Office Hours",
         "description":"Post Term 1 to take forward your MPP dreams  "
+    },
+    {
+        "title": "GGI Startup Weekend",
+        "description": "Peer to Peer projects "
     },
     {
         "title":"10+ Hours of Trinity",

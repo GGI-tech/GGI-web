@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const InstagramImg = ({ socialImg, caption }) => {
+const GalleryImg = ({ socialImg, caption }) => {
   return (
     <div className='relative shadow-black/5 shadow-xl border border-black/5'>
       <Image
@@ -23,4 +23,4 @@ const InstagramImg = ({ socialImg, caption }) => {
   );
 };
 
-export default InstagramImg;
+export default GalleryImg;
