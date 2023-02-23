@@ -28,7 +28,7 @@ const MainHero = () => {
                             </div>
                             <div className='r12 mt-5 lg:mt-12 grid grid-cols-2 gap-5 md:grid-cols-4'>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl h-12'>61+</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-12'>75+</h1>
                                     <p className='font-black'> Employment<br /> Partners</p>
                                 </div>
                                 <div className='text-center'>

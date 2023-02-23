@@ -23,7 +23,7 @@ const FAQ = [
     {
         "id": 3,
         "ques": "What are the program fees?",
-        "ans": `Our competitors charge Rs. 2,00,000 to Rs. 7,00,000. So we decided to try crazy pricing.<span class="font-bold">  We are 80% cheaper than our competitor's price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
+        "ans": `Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing.<span class="font-bold">  We are 80% cheaper than our competitor's price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
         <br><br>
        Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected (we have &lt;10% selection rate). Either way, you win. To get detailed pricing and information, it is accessible on our application page <u><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform" target="_blank" rel="noreferrer noopener">here.</a></u>`
     },
