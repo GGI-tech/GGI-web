@@ -34,7 +34,8 @@ html {
   scroll-behavior: smooth;
   color: rgb(84, 80, 80);
   font-family: PoppinsLight, sans-serif;
-  font-size: clamp(0.75rem, 0.711rem + 0.211vw, 0.9rem);
+  /* font-size: clamp(0.75rem, 0.711rem + 0.211vw, 0.9rem); */
+  font-size:clamp(0.75rem, 1vw + 0.25rem, 1rem);
   line-height: 2;
 
 }
