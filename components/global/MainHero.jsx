@@ -4,7 +4,7 @@ import secondarynavbar from '../secondaryNav'
 const MainHero = () => {
     return (
         <div className={`hero text-white flex-col ${secondarynavbar ? 'mt-20 sm:mt-12' : 'mt-8 lg:mt-5'} pt-24 px-2 sm:px-12 lg:px-24 xl:px-36 h-full`}>
-            <div className='r1 flex gap-5 md:gap-10 justify-around lg:justify-start items-end flex-wrap lg:flex-nowrap px-4'> {/*bg-purple-500 */}
+            <div className='r1 flex gap-5 md:gap-10 justify-center lg:justify-start items-end flex-wrap lg:flex-nowrap px-4'> {/*bg-purple-500 */}
                 <h1 className='text-6xl md:text-8xl lg:text-9xl arial'>100X</h1>
                 <h1 className='text-2xl arial'> YOUR CHANCES</h1>
                 <h1><button className='bg-white text-black px-4 py-2 hover:bg-black hover:text-white arial rounded-full text-3xl'>TO GET IN</button></h1>
