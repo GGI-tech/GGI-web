@@ -41,10 +41,11 @@ const Curriculum = ({ data }) => {
 
         //     </div>
         // </div>
-        <div className='mt-24 flex flex-wrap lg:w-5/6 2xl:w-2/3 mx-auto gap-5 lg:gap-20 justify-center '>
+        // <div className='mt-24 flex flex-wrap lg:w-5/6 2xl:w-2/3 mx-auto gap-5 lg:gap-20 justify-center '>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-7 lg:gap-10  lg:w-5/6 2xl:w-2/3 mx-auto p-4 '>
             {data.map((e,i) => {
                 return (
-                    <div key={i} className='w-48 text-center mb-5'>
+                    <div key={i} className=' text-center mb-5'>{/*w-48 if using flex*/}
                         <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{__html: e.title}}></p>
                         <p className="italic">{e.description}</p>
                     </div>

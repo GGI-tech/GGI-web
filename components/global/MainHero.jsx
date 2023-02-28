@@ -4,7 +4,7 @@ import secondarynavbar from '../secondaryNav'
 const MainHero = () => {
     return (
         <div className={`hero text-white flex-col ${secondarynavbar ? 'mt-20 sm:mt-12' : 'mt-8 lg:mt-5'} pt-24 px-2 sm:px-12 lg:px-24 xl:px-36 h-full`}>
-            <div className='r1 flex gap-5 md:gap-10 justify-around lg:justify-start  items-end flex-wrap lg:flex-nowrap'> {/*bg-purple-500 */}
+            <div className='r1 flex gap-5 md:gap-10 justify-center lg:justify-start items-end flex-wrap lg:flex-nowrap px-4'> {/*bg-purple-500 */}
                 <h1 className='text-6xl md:text-8xl lg:text-9xl arial'>100X</h1>
                 <h1 className='text-2xl arial'> YOUR CHANCES</h1>
                 <h1><button className='bg-white text-black px-4 py-2 hover:bg-black hover:text-white arial rounded-full text-3xl'>TO GET IN</button></h1>
@@ -26,21 +26,21 @@ const MainHero = () => {
                             <div className='r11 my-14 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
                                 <p className='sm:text-xl text-left'>We’re a social impact global organization with a mission to provide quality Business & Policy Education for an Inclusive world.</p>
                             </div>
-                            <div className='r12 mt-5 lg:mt-12 grid grid-cols-2 gap-5 md:grid-cols-4'>
+                            <div className='r12 mt-5 lg:mt-12 grid grid-cols-2 gap-7 md:grid-cols-4'>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl h-12'>75+</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-10'>75+</h1>
                                     <p className='font-black'> Employment<br /> Partners</p>
                                 </div>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl h-12'>88%</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-10'>88%</h1>
                                     <p className='font-black'> Pivoted into Consulting<br /> Policy & Product</p>
                                 </div>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl h-12'>17 LAKHS</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-10'>17 LAKHS</h1>
                                     <p className='font-black'> Average CTC<br /> Offered</p>
                                 </div>
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl h-12'>5500+</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-10'>5500+</h1>
                                     <p className='font-black'>GGI Scholars & <br/>Fellows</p>
                                 </div>
                             </div>
