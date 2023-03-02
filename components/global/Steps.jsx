@@ -1,9 +1,11 @@
 import { React, useState } from 'react'
 import Container from './Container';
-let arr = [false, false, false]
 
 const Steps = ({ data }) => {
-
+    var arr = [];
+    for (var i = 1; i <= data.length; i++) {
+        arr.push(false);
+    }
     const [isOpened, setIsOpened] = useState(arr);
 
     function toggle(id) {
@@ -24,7 +26,7 @@ const Steps = ({ data }) => {
             {data.map((e) => {
                 return (
                     <div className="" key={e.id}>
-                        <h2 className='my-10 pink text-xl md:text-2xl flex justify-center' dangerouslySetInnerHTML={{ __html:e.ques}}>
+                        <h2 className='my-10 pink text-xl md:text-2xl flex justify-center' dangerouslySetInnerHTML={{ __html: e.ques }}>
                         </h2>
                         <div className='ans' dangerouslySetInnerHTML={{ __html: e.ans[0] }}>
                         </div>

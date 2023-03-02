@@ -177,3 +177,29 @@ p>strong::after {
   background-position: bottom;
 
 }
+
+.ylp1{
+  background-image: url('/ylp1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ylp2{
+  background-image: url('/ylp2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ylp3{
+  background-image: url('/ylp3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ylp4{
+  background-image: url('/ylp4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ylp5{
+  background-image: url('/ylp5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
