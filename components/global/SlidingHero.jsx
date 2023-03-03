@@ -12,7 +12,7 @@ export default function SlidingHero({ image, title }) {
     <div style={{ backgroundImage: `url(${image})` }} className="relative bg-center bg-cover" >
       <div className='flex items-center justify-center h-full '>{/*bg-fixed for parallax effect */}
         {/* Overlay */}
-        <div className='flex justify-center content-center md:w-2/3  mx-5 z-[2] mt-[10rem]  h-80 md:h-65'>
+        <div className='flex justify-center content-center md:w-2/3  mx-5 z-[2] mt-[10rem] sm:mt-[15rem]  h-80 md:h-60'>
           <h2 className='m-auto bg-black/50 border-4 px-3 py-4 text-2xl lg:text-3xl font-black text-center text-white' dangerouslySetInnerHTML={{ __html: title[0] }}></h2>
           {/* <button className='px-8 py-2 border'>Book</button> */}
         </div>
