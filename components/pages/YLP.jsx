@@ -7,13 +7,23 @@ import YoutubeEmbed from "../global/YoutubeEmbed"
 import Steps from "../global/Steps"
 import Slider from '../global/Slider'
 import { stages, testimonialYLP } from '../../data/ylpData';
-import Image from "next/image"
+import Button from "../global/Button"
+import Link from "next/link"
 
 const YLP = () => {
     return (
         <div>
             <SlidingHero image={'/ylp.jpg'} title={["180 DAYS VIRTUAL INTERNSHIP <br/>TO TRANSFORM YOUR LIFE"]} />
-            <Heading>WHY GGI IMPACT LAB, YOUNG LEADERS  </Heading>
+            <Link href="#more">
+                <div id='' className='flex justify-center font-serif'>
+
+                    <p className="md:text-base text-lg text-center bg-blue-700 hover:bg-yellow-500 hover:scale-105  transition duration-500 text-white mt-12 md:p-5 py-4 px-3 md:px-8 rounded-2xl shadow-xl whitespace-nowrap">
+                        Read More About the Program
+                    </p>
+                </div>
+            </Link>
+
+            <Heading margin={60}>WHY GGI IMPACT LAB, YOUNG LEADERS  </Heading>
             <Container>
                 <p className="mb-7">It is often said that the forty-hour workweek is a relic of the industrial age. Knowledge workers function like athletes - train, and sprint, then rest and reassess. </p>
                 <p className="mb-7">The Young Leaders program at GGI Impact Lab is designed for the &apos;knowledge athletes&apos; of the modern world who want to escape competition through &apos;authenticity&apos;, and <span className="font-bold">build careers in the world of Policy, Consulting, and Product Management. </span></p>
@@ -21,7 +31,7 @@ const YLP = () => {
                 <p className="mb-7"> Our Young Leaders arrive at the Global Governance Initiative with professional experience and career aspirations as diverse as they are. While each Young Leader cultivates their own path to what comes next professionally, the impeccable Impact Lab ecosystem provides tools, resources, and support to empower these leaders to identify and reach their goals. </p>
             </Container>
             <YoutubeEmbed embedId="RwQe5LJZTys" />
-
+            <div id="more"></div>
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>
                 <p className="mb-7">The Impact Lab YLP is a one-of-a-kind technology-driven essential program at GGI that has redefined the business school experience. Here, you&apos;ll be pushed and challenged by best-in-class faculty and supported by an AI tool in an environment unlike anywhere else at a fraction of a cost. </p>

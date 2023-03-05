@@ -70,7 +70,7 @@ const MedicalScholars = () => {
                 <p className='mb-4'>Many large employers find that Impact Fellowship from Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, and other functional areas that necessitate an education that goes beyond traditional business skills. </p>
                 <p>GGI Medical Scholars are positioned to have a deep understanding of the complexity of national and local situations. </p>
             </Container>
-            <Button url="https://docs.google.com/forms/d/e/https://docs.google.com/forms/d/e/1FAIpQLSfucucR9-b5YGyI1ovQDbZm3mBhKOst3uJEyVNWIV6L22bZdg/viewform/viewform"> APPLY NOW</Button>
+            <Button url="https://docs.google.com/forms/d/1b_2u8I0EVe8Qf8DoKdUOTqGXq4-u8ul6CzuHl5tL3Rs/edit"> APPLY NOW</Button>
 
 
             <Heading>Who is this GGI Medical Scholars Program for?</Heading>
