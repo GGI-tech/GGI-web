@@ -33,7 +33,7 @@ const MBA = () => {
         <div>
             <SlidingHero image={'./mba.jpeg'} title={["Learn Business Skills Live, Join Global Network <br class='hidden md:block'/>& Get Hired at <span class='text-yellow-200'>GGI MBA Scholar</span><br class='hidden md:block'/> to Become a Business Leader", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs "]} />
 
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
             <Heading margin={60}>Why GGI Impact MBA Scholars Works? </Heading>
@@ -48,12 +48,12 @@ const MBA = () => {
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
             <YoutubeEmbed embedId='iuNMaVSwH0E' autoplay={1}/>
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
 
             <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
 
             <Heading>Who is this Program for?</Heading>
@@ -65,7 +65,7 @@ const MBA = () => {
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment</Heading>
             <Curriculum data={curriculum}/>
@@ -87,7 +87,7 @@ const MBA = () => {
                 <p>To help you develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
             </Container>
             <Steps data={stages} />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
