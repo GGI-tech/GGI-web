@@ -21,7 +21,7 @@ const MPP = () => {
         <>
             <SlidingHero image={'./policy.jpg'} title={[`Learn Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Policy Scholar</span><br class='hidden md:block'/> to Become Leader in Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
 
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
             <Heading margin={60}>Why GGI Policy Scholars  Works?</Heading>
@@ -30,7 +30,7 @@ const MPP = () => {
             <Heading>+88% GGIians working in Top Policy & Social Impact Roles and Organizations</Heading>
             <Partners companies={companies} />
             <YoutubeEmbed embedId='8lWeJ3Ekq-I' autoplay={1} />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Who is this Program for?</Heading>
             <Container>
@@ -41,12 +41,12 @@ const MPP = () => {
 
             </Container>
             <YoutubeEmbed embedId='URhwxoFL6S8' autoplay={1} />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment  </Heading>
             <Curriculum data={curriculum}/>
             <YoutubeEmbed embedId='lGyhkONUSwk' />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
             <div className='flex flex-wrap gap-10'>
@@ -58,7 +58,7 @@ const MPP = () => {
                 </p>
             </Container>
             <YoutubeEmbed embedId='OA4YaeVZhsA' />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>A Liberal Refund Policy for You </Heading>
             <Container>
@@ -67,7 +67,7 @@ const MPP = () => {
 
             <Heading>Learn & Network with World&#39;s top CEOs, Partners, And Policy Leaders  </Heading>
             <Gallery />
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>As GGI Policy Scholar, You will Immerse Yourself in a Truly Impactful Experience  </Heading>
             <Container>
@@ -78,7 +78,7 @@ const MPP = () => {
 
 
 
-            <Button url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>APPLY NOW</Button>
+            <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>APPLY NOW</Button>
 
             <Heading>Program Fees </Heading>
             <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.

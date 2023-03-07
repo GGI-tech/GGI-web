@@ -143,13 +143,13 @@ const Main = () => {
             <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
   
 
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <Community />
 
-            <Button url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
 
             <div className="flex flex-col justify-center mt-72">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
