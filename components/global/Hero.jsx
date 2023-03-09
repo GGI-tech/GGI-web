@@ -5,7 +5,7 @@ const Hero = ({ image, heading, message }) => {
 
   return (
     <>
-      <div className={`relative ${secondarynavbar ? 'mt-36' : 'mt-24'} `}>
+      <div className={`relative ${secondarynavbar ? 'mt-32' : 'mt-24'} `}>
       
         <img src={image} className="w-full"/>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
