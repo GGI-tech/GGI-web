@@ -30,7 +30,7 @@ const YLP = () => {
                 <p className="mb-7">The essential transformational experience is designed for all those - who want to intertwine the theories and practice of learning at their own pace. Young Leaders learn intricate concepts and apply those concepts - as they make mistakes, learn, and grow in a virtual consulting and product management Internship.  </p>
                 <p className="mb-7"> Our Young Leaders arrive at the Global Governance Initiative with professional experience and career aspirations as diverse as they are. While each Young Leader cultivates their own path to what comes next professionally, the impeccable Impact Lab ecosystem provides tools, resources, and support to empower these leaders to identify and reach their goals. </p>
             </Container>
-            <YoutubeEmbed embedId="RwQe5LJZTys" />
+            <YoutubeEmbed embedId="RwQe5LJZTys" autoplay={1} />
             <div id="more"></div>
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>
