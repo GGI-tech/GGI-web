@@ -86,13 +86,7 @@ export const testimonialMBA = [
         image: '/anisha.jpg',
         review: "Anisha recently graduated from University of Warwick with a masters degree (MSc) in Economics. She is the author of two published papers in economic journals with excellent communication and analytical skills.<br><br>She has over 2 years' experience in economic research & mentoring roles through internships in organizations like NITI Aayog, UNV, NinelsMine, Bright Network, Admitkard & Mitkat Advisory."
     },
-    {
-        name: 'Eshita Rastogi',
-        org: 'Meet Eshita, MBA Scholar 2021',
-        link: 'https://www.linkedin.com/in/eshitarastogi/',
-        image: '/eshita.jpg',
-        review: "Eshita is currently working with <span class='font-bold'>KPMG Singapore</span> and as a Management trainee.<br/><br/>Her experiences have transcended mere academic knowledge by providing her a global perspective, ingraining a duty to serve the community, and honing essential soft-skills. As a result, she is in the workforce with confidence, humility, and enthusiasm."
-    },
+    
     {
         name: 'Ronak Batra',
         org: 'Meet Ronak Batra, GGI Impact Scholar 2021.',
