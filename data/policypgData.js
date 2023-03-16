@@ -163,7 +163,7 @@ export const curriculum=[
     },
     {
         "title":"1:1 Founders&#39; Office Hours",
-        "description":"Post Term 1 to take forward your MPP dreams  "
+        "description":"During graduation. 1 to take forward your MPP dreams "
     },
     {
         "title": "GGI Startup Weekend",
@@ -171,6 +171,6 @@ export const curriculum=[
     },
     {
         "title":"10+ Hours of Trinity",
-        "description":"Post Term 1, you get access to recorded Masterclasses of top policy speakers at GGI  "
+        "description":"You get access to recorded Masterclasses of top speakers in consulting at GGI"
     }
 ]
