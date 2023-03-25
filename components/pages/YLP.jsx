@@ -31,6 +31,12 @@ const YLP = () => {
                 <p className="mb-7"> Our Young Leaders arrive at the Global Governance Initiative with professional experience and career aspirations as diverse as they are. While each Young Leader cultivates their own path to what comes next professionally, the impeccable Impact Lab ecosystem provides tools, resources, and support to empower these leaders to identify and reach their goals. </p>
             </Container>
             <YoutubeEmbed embedId="RwQe5LJZTys" autoplay={1} />
+            <Heading>YOU LEARN ALONG WITH DIVERSE COMMUNITY WHO ADDS TO YOUR PERSPECTIVE</Heading>
+            <Slider slides={testimonialYLP} />
+            <Container>
+                <p>GGI Impact Lab, Young Leaders community comprises an extremely diverse cohort - from current students at prestigious engineering universities to highly qualified professionals in the domain of Product Management and Finance. They are working professionals in organizations such as IIM-B, ICICI Bank, KPMG, Axis Bank, Microsoft, and other leading organisations.</p>
+            </Container>
+            
             <div id="more"></div>
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>
@@ -39,11 +45,7 @@ const YLP = () => {
             </Container>
             <Steps data={stages} />
 
-            <Heading>YOU LEARN ALONG WITH DIVERSE COMMUNITY WHO ADDS TO YOUR PERSPECTIVE</Heading>
-            <Slider slides={testimonialYLP} />
-            <Container>
-                <p>GGI Impact Lab, Young Leaders community comprises an extremely diverse cohort - from current students at prestigious engineering universities to highly qualified professionals in the domain of Product Management and Finance. They are working professionals in organizations such as IIM-B, ICICI Bank, KPMG, Axis Bank, Microsoft, and other leading organisations.</p>
-            </Container>
+
             <Heading>BENEFITS OF  GGI IMPACT LAB, YLP </Heading>
             <div className="lg:w-2/3 mx-auto text-white italic">
                 {/* <div className="relative"> */}
