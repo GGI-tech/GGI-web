@@ -16,8 +16,8 @@ export const fourcolumndata = [ //to be fetched from database
     {
         "id": 2,
         "img": teach,
-        "title": "Write  Consulting Style Paper",
-        "body": "As GGI Impact Fellow you learn consulting practice by actually writing a consulting style research paper, thereby increasing your skill and enhancing your profile"
+        "title": "Do Live Consulting Project & Write  Consulting Style Paper",
+        "body": "As GGI Impact Fellow you learn consulting practice by actually advising real cients in this country and writing a consulting style research paper, thereby increasing your skill and enhancing your profile"
     },
     {
         "id": 3,
@@ -151,8 +151,8 @@ export const curriculum=[
         "description":"Through Your Journey"
     },
     {
-        "title":"Wellness Session",
-        "description":"Once in 2 months, to not just learn but stay motivated"
+        "title":"Live Consulting Project",
+        "description":"After finishing white paper, to build your profile for consulting "
     },
     {
         "title":"70+ Hours ofCase Interview Practice",
