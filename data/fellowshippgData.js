@@ -155,7 +155,7 @@ export const curriculum=[
         "description":"After finishing white paper, to build your profile for consulting "
     },
     {
-        "title":"70+ Hours ofCase Interview Practice",
+        "title":"70+ Hours of Case Interview Practice",
         "description":"Via our inhouse AI Based software"
     }
 ]
