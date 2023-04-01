@@ -168,5 +168,9 @@ export const curriculum = [
         "title": "GGI Startup Weekend",
         "description": "Peer to Peer projects "
     },
+    {
+        "title":"10+ Hours of Trinity",
+        "description":"You get access to recorded Masterclasses of top speakers in consulting at GGI"
+    }
 
 ]
