@@ -51,12 +51,12 @@ const data2 = [
     'name': "Product Management & Tech Ethics Masterclass"
   }
 ]
-const Masterclasses = () => {
+const Masterclasses = ({d1=data1, d2=data2}) => {
   return (
     <>
       <div className='p-6 mt-24 hidden sm:flex justify-center '>
         <div className='flex justify-evenly w-full sm:w-5/6 md:w-4/5 lg:w-3/5 2xl:w-1/2 gap-10 md:gap-20 pink'>
-          {data1.map((item, i) => {
+          {d1.map((item, i) => {
             return (
               <div key={i} className='w-22 text-center'>
                 <Image placeholder="blur" src={item.img} alt='/' />
@@ -68,7 +68,7 @@ const Masterclasses = () => {
       </div>
       <div className='my-5 hidden sm:flex justify-center '>
         <div className='flex justify-evenly w-full sm:w-5/6 md:w-4/5 lg:w-3/5 2xl:w-1/2 gap-10 md:gap-20 pink '>
-          {data2.map((item, i) => {
+          {d2.map((item, i) => {
             return (
               <div key={i} className='w-22 text-center'>
                 <Image placeholder="blur" src={item.img} alt='/' />
