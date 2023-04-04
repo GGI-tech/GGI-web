@@ -46,7 +46,7 @@ const data1 = [
         "url": "https://www.linkedin.com/in/shraya-sapru/",
         "org": "SAMAGRA | TRANSFORMING GOVERNANCE",
         "img": "/shreyas.jpg",
-        "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also. But also remember to give back to the community in any way that you could by supporting another peer or just giving a heads up on an opportunity that you might have in your organization but centrally go there to learn with an open mind &nbsp;`
+        "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also.`
     },
     {
         "id": 6,
@@ -232,7 +232,7 @@ const data1 = [
         "url": "https://www.linkedin.com/in/vidhi-singh-she-her-997973157/",
         "org": "Azim Premji Foundation",
         "img": "/vidhi.jpg",
-        "text": "Shortly after GGI, I secured an offer from Azim Premji Foundation. I started my fellowship at GGI alongside my MA Development program at Azim Premji University, Bangalore. Having been a part of Policy Consulting and Management Communication masterclasses I was exposed to frameworks that helped me understand and tackle issues at the policy level. Better articulation and how to tell your story is something that aided me in putting my volunteering experiences in education well and leading me to secure an offer from Azim Premji Foundation as Field Associate. I would like to express my gratitude to the diverse GGI network and supportive mentors like Naman Shrivastava and Shatakshi Sharma for guiding me throughout."
+        "text": "Shortly after GGI, I secured an offer from Azim Premji Foundation.<br><br> I started my fellowship at GGI alongside my MA Development program at Azim Premji University, Bangalore. Having been a part of Policy Consulting and Management Communication masterclasses I was exposed to frameworks that helped me understand and tackle issues at the policy level.<br><br>  Better articulation and how to tell your story is something that aided me in putting my volunteering experiences in education well and leading me to secure an offer from Azim Premji Foundation as Field Associate. <br><br> I would like to express my gratitude to the diverse GGI network and supportive mentors like Naman Shrivastava and Shatakshi Sharma for guiding me throughout."
     },
     {
         "id": 28,
@@ -248,7 +248,7 @@ const data1 = [
         "url": "https://www.linkedin.com/in/ayush-agarwal-96a276190/",
         "org": " eGovernments Foundation",
         "img": "/ayush.jpg",
-        "text": `Shortly after GGI, I got selected as a summer intern under the policy initiatives team at eGovernments Foundation. I will be joining the non-profit organisation in May this year. The first masterclass I attended on Product Management and Tech Ethics helped me gain a wider perspective of the complementarity of soft and hard skills. My key learning from the masterclass was that sustainability needs to be at the forefront of product innovation.&nbsp;The policy consulting masterclass helped me direct my efforts towards this field.<br><br> I have been in touch with the GGI community with the help of regular inner circle meetings and networking events which helped me finally land an internship in my area of interest. The co-founders place great importance on mental well-being which has enabled me to be more confident, accepting and strong.`
+        "text": `Shortly after GGI, I got selected as a summer intern under the policy initiatives team at eGovernments Foundation. I will be joining the non-profit organisation in May this year.<br><br>  The first masterclass I attended on Product Management and Tech Ethics helped me gain a wider perspective of the complementarity of soft and hard skills. My key learning from the masterclass was that sustainability needs to be at the forefront of product innovation.&nbsp;The policy consulting masterclass helped me direct my efforts towards this field.<br><br> I have been in touch with the GGI community with the help of regular inner circle meetings and networking events which helped me finally land an internship in my area of interest. The co-founders place great importance on mental well-being which has enabled me to be more confident, accepting and strong.`
     },
 
     {
@@ -266,6 +266,30 @@ const data1 = [
         "org": "The Fletcher School",
         "img": "/sourav.jpg",
         "text": "I took the bold move of coupling my business education (MBA) from CEIBS with one of the best international affairs courses in the world at The Fletcher School. <br><br> The GGI scholars’ community  helped me be prepared for what’s coming, especially discussions with Naman and Shatakshi, and Dean Bhaskar’s session for the scholars, but truly, you can never be ready for the abundance here at Fletcher!"
+    },
+    {
+        "id": 32,
+        "title": "Varshini Murali",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7046113624540528640",
+        "org": "Sattva Consulting",
+        "img": "/varshini.jpg",
+        "text": "Shortly after GGI, I joined Sattva Consulting<br><br>&apos;Hi, I graduated with a master&apos;s in education policy from the University of Warwick.<br><br>   Post pandemic I decided to come back to India and started working in the education sector in designing curriculum for primary education.From there, I moved to the role of a program manager, where I facilitated the education of twenty first century skills in government high schools.<br><br> Thats when I believed consulting would be the best choice for me as it would hone my skills and give me exposure. I also understood the role will give me more client facing exposure, allowing for betterment of my skills. <br><br>  Eventually, I interviewed for MBB, which did not go well. I lacked the guidance to crack a case interview.<br>  That is when I stumbled upon GGI. I connected with one of my school seniors who had been a fellow at GGI who had great things to say about them.<br><br>  At GGI, I believe that you have to proactively ensure that you are making the best out of any opportunity that you take. <br>And I do believe I have made the best out of the opportunities I had at GGI!"
+    },
+    {
+        "id": 33,
+        "title": "Abdul Ahad Rana",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7025808428975497216",
+        "org": "Tech Mahindra",
+        "img": "/abdul.jpg",
+        "text": "Shortly after GGI MBA, I joined Tech Mahindra in a Management Consulting role.<br><br>&apos;I have done my graduation and post-graduation in petroleum technology and I was working as an Analyst in Global Data when I joined GGI.<br>That&apos;s when I wanted to step up my professional career and join management consulting.<br><br> And I thought of applying for B Schools abroad but dedicating 2 years of my life and spending a huge amount of money wasn&apos;t feasible for me.<br><br>   Thats when I was looking for alternatives when I discovered GGI.   GGI&apos;s Impact MBA program perfectly fit eventually all my requirements-  not leaving his job and being able to smoothly pivot into consulting.”<br><br> Q- One word that would describe your GGI experience?<br> &apos;Change Maker.<br><br>  After a few years of my work experience, there came a time when I wanted to change my path, but couldn&apos;t afford to quit my job or take a hectic and expensive MBA program.<br><br> GGI provided me a one-stop change-maker platform for all these problems."
+    },
+    {
+        "id": 34,
+        "title": "Krithikaa Kumaresan",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7030846249255723008",
+        "org": "Queen Mary Institute of London",
+        "img": "/krithikaa.jpg",
+        "text": "Shortly after GGI, I got a management consulting offer.<br><br>&apos;Hi, I graduated with a Master&apos;s from the Queen Mary Institute of London.<br><br> After my graduation, I wanted to experience a corporate environment and eventually start up after returning from London also. I was extremely skeptical about my choice of moving back to India, but GGI gave me hope. GGI Masterclasses were very interactive and people didn&apos;t judge me. My mentor especially was very supportive.<br><br>  Eventually, I was able to take help from the cohort to crack my consulting case interview too.&apos; <br><br>  Q- One word that would describe your GGI experience?<br><br>  &apos;#Unlearn. <br><br> While I was already aware of some concepts taught in the masterclasses, GGI&apos;s methodology and case-based format learning were transformative. <br><br>  I was able to practically apply all the concepts from economics to marketing in my actual interviews.<br><br> I was part of a diverse cohort who helped me express my opinions in a safe ecosystem.”"
     }
 ]
 
@@ -371,7 +395,7 @@ const data2 = [
 const Card = ({ title, url, org, img, text }) => {
     return (
         <>
-            <div className='mx-4 my-12 flex flex-col lg:flex-row justify-evenly  py-5 border border-black/10 shadow-black/5 shadow-xl rounded-lg'>
+            <div className='mx-4 my-12 flex flex-col lg:flex-row justify-evenly  py-5 border border- shadow-black/5 shadow- rounded-sm'>
                 <div className='flex justify-center'>
                     <div className='text-center p-4 '>
                         <div className='hover:scale-105'>
@@ -406,7 +430,7 @@ const Card = ({ title, url, org, img, text }) => {
 const Cardx = ({ title, img, text }) => {
     return (
         <>
-            <div className='mx-4 my-12 flex flex-col py-5 shadow-black/5 shadow-xl rounded-lg'>
+            <div className='mx-4 my-12 flex flex-col py-5 border'>
                 <p className='my-2 mx-auto primary font-bold tracking-tight text-gray-900 dark:text-white max-w-[200px] ' dangerouslySetInnerHTML={{ __html: title }}></p>
 
                 <div className='flex justify-center'>
@@ -448,15 +472,17 @@ const Employment = () => {
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
 
-                {data1.map((e, id) => {
+                {data1.slice(0, -1).map((e, id) => {
                     return (
                         <Card key={id} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
 
                     );
                 })}
-
-
             </div>
+            <div className='sm:mx-12'>
+                <Card url={data1[data1.length - 1].url} org={data1[data1.length - 1].org} title={data1[data1.length - 1].title} img={data1[data1.length - 1].img} text={data1[data1.length - 1].text} />
+            </div>
+
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12 lg:grid-cols-3 md:mx-24'>
                 {
@@ -469,7 +495,11 @@ const Employment = () => {
                 }
             </div>
             <div className='flex flex-wrap justify-center md:mx-12'>
-
+                <img src={'/rr35.jpg'} alt='' />
+                <img src={'/rr36.jpg'} alt='' />
+                {/* <img src={'/rr37.jpg'} alt='' /> */}
+                {/* <img src={'/rr39.jpg'} alt='' /> */}
+                <img src={'/rr38.jpg'} alt='' />
                 <img src={'/rr11.jpg'} alt='' />
                 <img src={'/rr12.jpg'} alt='' />
                 <img src={'/rr13.jpg'} alt='' />
