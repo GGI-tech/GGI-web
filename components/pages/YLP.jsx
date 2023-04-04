@@ -50,7 +50,7 @@ const YLP = () => {
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>
                 <p className="mb-7">The Impact Lab YLP is a one-of-a-kind technology-driven essential program at GGI that has redefined the business school experience. Here, you&apos;ll be pushed and challenged by best-in-class faculty and supported by an AI tool in an environment unlike anywhere else at a fraction of a cost. </p>
-                <p>The <span className="font-bold">entire 3- 6 months experiential program</span> is designed in 5 stages. </p>
+                <p>The <span className="font-bold">entire 6 months experiential program</span> is designed in 5 stages. </p>
             </Container>
             <Steps data={stages} />
 
