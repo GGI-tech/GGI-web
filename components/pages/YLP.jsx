@@ -7,9 +7,8 @@ import YoutubeEmbed from "../global/YoutubeEmbed"
 import Steps from "../global/Steps"
 import Slider from '../global/Slider'
 import { stages, testimonialYLP } from '../../data/ylpData';
-import Button from "../global/Button"
 import Link from "next/link"
-
+import Carousel from "../global/Carousel"
 const YLP = () => {
     return (
         <div>
@@ -17,11 +16,16 @@ const YLP = () => {
             <Link href="#more">
                 <div id='' className='flex justify-center font-serif'>
 
-                    <p className="md:text-base text-lg text-center bg-blue-700 hover:bg-yellow-500 hover:scale-105  transition duration-500 text-white mt-12 md:p-5 py-4 px-3 md:px-8 rounded-2xl shadow-xl whitespace-nowrap">
-                        Read More About the Program
+                    <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
+
+                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 ease"></span>
+                        <span className="relative"> Read More About the Program</span>
                     </p>
+           
                 </div>
             </Link>
+
+           
 
             <Heading margin={60}>WHY GGI IMPACT LAB, YOUNG LEADERS  </Heading>
             <Container>
@@ -31,12 +35,17 @@ const YLP = () => {
                 <p className="mb-7"> Our Young Leaders arrive at the Global Governance Initiative with professional experience and career aspirations as diverse as they are. While each Young Leader cultivates their own path to what comes next professionally, the impeccable Impact Lab ecosystem provides tools, resources, and support to empower these leaders to identify and reach their goals. </p>
             </Container>
             <YoutubeEmbed embedId="RwQe5LJZTys" autoplay={1} />
+            <Heading>HEAR WHAT YLPs HAVE TO SAY ABOUT US</Heading>
+
+            <Carousel />
+
+
             <Heading>YOU LEARN ALONG WITH DIVERSE COMMUNITY WHO ADDS TO YOUR PERSPECTIVE</Heading>
             <Slider slides={testimonialYLP} />
             <Container>
                 <p>GGI Impact Lab, Young Leaders community comprises an extremely diverse cohort - from current students at prestigious engineering universities to highly qualified professionals in the domain of Product Management and Finance. They are working professionals in organizations such as IIM-B, ICICI Bank, KPMG, Axis Bank, Microsoft, and other leading organisations.</p>
             </Container>
-            
+
             <div id="more"></div>
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>

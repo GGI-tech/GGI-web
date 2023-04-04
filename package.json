@@ -17,6 +17,7 @@
     "nextjs-google-analytics": "^2.3.0",
     "path": "^0.12.7",
     "react": "18.2.0",
+    "react-alice-carousel": "^2.7.1",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.41.2",
     "react-icons": "^4.7.1",
