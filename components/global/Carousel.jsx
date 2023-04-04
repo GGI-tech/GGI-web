@@ -19,8 +19,8 @@ const responsive = {
     },
 };
 const items = [    
-    <img key={0} src="/ylps1.jpg" onDragStart={handleDragStart} role="presentation" />,
-    <img key={1} src="/ylps2.jpg" onDragStart={handleDragStart} role="presentation" />,
+    <img key={0} src="/ylps1.png" onDragStart={handleDragStart} role="presentation" />,
+    <img key={1} src="/ylps2.png" onDragStart={handleDragStart} role="presentation" />,
     <img key={2} src="/ylps3.jpg" onDragStart={handleDragStart} role="presentation" />,
     <img key={3} src="/ylps4.jpg" onDragStart={handleDragStart} role="presentation" />,
     <img key={4} src="/ylps5.jpg" onDragStart={handleDragStart} role="presentation" />,
