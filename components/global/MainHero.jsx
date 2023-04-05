@@ -25,8 +25,8 @@ const MainHero = () => {
                             <div className='r11 my-14 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
                                 <p className='sm:text-xl text-left'>We’re a social impact global organization with a mission to provide quality Business & Policy Education for an Inclusive world.</p>
                             </div>
-                            <div className='r12 mt-20 lg:mt-12 grid grid-cols-2 gap-7 md:grid-cols-4  grid-x-0'>
-                                <div className='text-center w-48'>
+                            <div className='r12 mt-20 lg:mt-12 flex justify-between gap-7 sm:px-12 sm:mr-12'>
+                                <div className='text-center'>
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>75+</h1>
                                     <p className='font-black'> Employment<br /> Partners</p>
                                 </div>
@@ -34,10 +34,10 @@ const MainHero = () => {
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>88%</h1>
                                     <p className='font-black'> Pivoted into Consulting, <br/> Policy & Product</p>
                                 </div>
-                                <div className='text-center w-48'>
+                                {/* <div className='text-center w-48'>
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>17 LAKHS</h1>
                                     <p className='font-black'> Average CTC<br /> Offered</p>
-                                </div>
+                                </div> */}
                                 <div className='text-center'>
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>5500+</h1>
                                     <p className='font-black'>GGI Scholars & <br/>Fellows</p>

@@ -39,7 +39,7 @@ const YoutubeEmbed = ({ embedId, autoplay = 0 }) => {
     //   />
     // </div>
     // <LazyLoad>
-    <div className="p-2 mt-4 md:mb-4 flex justify-center">
+    <div className="p-2 mt-12 md:mb-4 flex justify-center">
       <div >
         <YouTube
           videoId={embedId}

@@ -58,6 +58,7 @@ const Main = () => {
                 <p >Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
 
             </Container>
+            
             <div className="p-4 flex justify-center">
                 <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 " >
                     <div className='lg:col-span-2'>
@@ -96,12 +97,13 @@ const Main = () => {
 
                 </div>
             </div>
+            <YoutubeEmbed embedId="8lWeJ3Ekq-I" autoplay={1} />
 
             {/* </div> */}
 
 
 
-            <Heading>You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners, Consulting, Policy, Product Leaders </Heading>
+            <Heading> You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners, Consulting, Policy, Product Leaders </Heading>
             <Gallery />
 
 
@@ -109,7 +111,6 @@ const Main = () => {
             <div className='mt-24 flex justify-center'>
                 <p className='md:w-3/5 md:text-lg font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
-            <YoutubeEmbed embedId="8lWeJ3Ekq-I" autoplay={1} />
 
 
 
