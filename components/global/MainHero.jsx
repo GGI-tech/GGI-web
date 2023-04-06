@@ -14,8 +14,7 @@ const MainHero = () => {
                         <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial  py-3 sm:py-6 '>
                             <img width={80} height={80} src='/arrow2.jpg' className='hidden sm:block absolute bottom-24 -translate-x-6' />
                             MANAGEMENT <br className='hide' /><span className='text-2xl sm:text-3xl lg:text-6xl'>CONSULTING </span></h1>
-                        <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial py-3 sm:py-6 xl:mr-24'>PUBLIC <br className='hide' /><span className=' text-2xl sm:text-3xl lg:text-6xl'> POLICY <img width={50} height={80} src='/arrow.jpg' className='hidden sm:block absolute top-0 -right-14 lg:-top-2 lg:-right-5' />
-                        </span></h1>
+                        <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial py-3 sm:py-6 xl:mr-15'>PUBLIC <br className='hide' /><span className=' text-2xl sm:text-3xl lg:text-6xl'> POLICY <img width={50} height={80} src='/arrow.jpg' className='hidden sm:block absolute top-0 -right-14 lg:-top-2 lg:-right-5' />  </span></h1>
                     </div>
                     <div className='r3 mt-4 sm:mt-5 flex flex-wrap lg:flex-nowrap gap-5 md:gap-10 justify-center lg:justify-start items-end '> {/*bg-green-300*/}
                         <div className=''>
