@@ -8,7 +8,7 @@ import Steps from "../global/Steps"
 import Slider from '../global/Slider'
 import { stages, testimonialYLP } from '../../data/ylpData';
 import Link from "next/link"
-import Carousel from "../global/Carousel"
+import Carousal from "../global/Carousal"
 const YLP = () => {
     return (
         <div>
@@ -37,7 +37,7 @@ const YLP = () => {
             <YoutubeEmbed embedId="RwQe5LJZTys" autoplay={1} />
             <Heading>HEAR WHAT YLPs HAVE TO SAY ABOUT US</Heading>
 
-            <Carousel />
+            <Carousal />
 
 
             <Heading>YOU LEARN ALONG WITH DIVERSE COMMUNITY WHO ADDS TO YOUR PERSPECTIVE</Heading>
