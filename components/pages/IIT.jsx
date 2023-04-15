@@ -19,7 +19,7 @@ import Associations from '../global/Associations';
 import Steps from '../global/Steps'
 import Footer from '../global/Footer';
 import Slider from '../global/Slider'
-import { companies,fourcolumndata,stages, testimonialMBA, curriculum } from '../../data/altiitData';
+import { companies,fourcolumndata,stages, testimonialMBA, curriculum, galleryData } from '../../data/altiitData';
 
 
 import m1 from '../../public/m1.jpg';
@@ -129,7 +129,7 @@ const MBA = () => {
             </Container>
 
             <Heading>You Learn & Build Network with World&apos;s Top CTOs, Engineers, & Tech Leaders</Heading>
-            <Gallery />
+            <Gallery data={galleryData}/>
 
 
             <Heading>As a GGI ALT IIT Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
@@ -145,8 +145,11 @@ const MBA = () => {
             <YoutubeEmbed embedId='nQkS0i38ls8' />
 
             <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
-            <Community />
-
+            <div className='flex lg:w-2/3 lg:mx-auto gap-5 flex-wrap mx-3'>
+              <Image src={'/techcommunity.png'} height={300} width={520}/>
+              <Image src={'/techcommunity2.jpg'} height={300} width={520}/>
+              
+            </div>
             <Heading>Program Fees </Heading>
             <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
                 <br /><br />
