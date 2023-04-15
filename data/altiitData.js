@@ -1,24 +1,50 @@
-import network from '../public/network.jpg'
-import clinton from '../public/clinton.png'
-import rjgupta from '../public/rajat_gupta.png'
-import poets from '../public/poetsnquants.png'
+import network from '../public/techcom.png'
+import clinton from '../public/techm.jpg'
+import puneet from '../public/puneet.jpg'
+import BCG from '../public/bcg-g.jpg';
 // -------------------------------------------------------
-import BCG from '../public/bcg.png';
-import mckinsey from '../public/mckinsey.png';
-import bain from '../public/bain-logo.jpg';
-import kearney from '../public/Kearney.jpg';
-import ey from '../public/ey.png';
-import pwc from '../public/pwc.jpg';
+
 import amz from '../public/amz.jpg';
 import paytm from '../public/paytm.png';
-// -----------------------------------------------------
+import microsoft from '../public/microsoft.png';
+import zom from '../public/zomato.jpg';
+import flipkart from '../public/flipkart.png';
+import google from '../public/google.png';
 
-export const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
+// -----------------------------------------------------
+import img12 from '../public/12.jpg';
+import img13 from '../public/13.jpg';
+import img14 from '../public/14.jpg';
+import img15 from '../public/15.jpg';
+import img16 from '../public/16.jpg';
+import img17 from '../public/17.jpg';
+import img18 from '../public/18.jpg';
+import img19 from '../public/19.jpg';
+import img20 from '../public/20.jpg';
+import img21 from '../public/21.jpg';
+import img22 from '../public/22.jpg';
+import img23 from '../public/23.jpg';
+import img24 from '../public/24.jpg';
+import img25 from '../public/25.jpg';
+import img26 from '../public/26.jpg';
+import img27 from '../public/27.jpg';
+import img28 from '../public/28.jpg';
+import img29 from '../public/29.jpg';
+import img30 from '../public/kapildaga.jpg'
+import img31 from '../public/charanya.jpg'
+import img32 from '../public/avinash.jpg'
+import img33 from '../public/ashank.jpg'
+import img34 from '../public/abhishekkala.jpg'
+
+// ---------------------------------------------------------
+
+export const companies = [amz, paytm, microsoft, zom, flipkart, google];
+
 
 export const fourcolumndata = [
     {
         "id": 1,
-        "img": rjgupta,
+        "img": puneet,
         "title": "Learn from Tech Leaders",
         "body": "The top Software Engineers write their own tech cases, and teach core Tech Concepts via designing a case-based learning ecosystem."
     },
@@ -36,7 +62,7 @@ export const fourcolumndata = [
     },
     {
         "id": 4,
-        "img": poets,
+        "img": BCG,
         "title": "Globally Recognized",
         "body": "GGI was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes and leading international magazines for their disruptive work in higher education. "
     }
@@ -60,7 +86,7 @@ export const stages = [
         "id": 2,
         "ques": "STAGE 3 - Community & Networking Nights",
         "ans": [`<p class='mb-2'>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For GGI ALT IIT Scholars that one person is the entire community at Global Governance Initiative. </p>`,
-        `<p class='mb-2'>They attend monthly inner circle meetings, networking on &#34;wiggly&#34; with scholars from across industries and sectors. </p>,
+            `<p class='mb-2'>They attend monthly inner circle meetings, networking on &#34;wiggly&#34; with scholars from across industries and sectors. </p>,
         <p class='mb-2'>An IIT degree is more than learning valuations and Data Structures. You pay for the entire experience - the guest speakers, office hours with your professors, campus events, and eventually landing the job of your dreams. It is an experience of a lifetime. </p>
         <p class='mb-2'>Through Community & Networking Nights via &apos;wiggly&apos;, GGI brings the entire campus experience online. </p>
         <p class='mb-2'>Even though the journey of an ALT IIT Scholar formally ends in 3 months. But Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. GGI Impact Scholars also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Tech Schools. </p>
@@ -71,35 +97,6 @@ export const stages = [
 
 ]
 export const testimonialMBA = [
-    {
-        name: 'Priyal Keni',
-        org: 'GGI MBA Scholar 2021',
-        link: 'https://www.linkedin.com/in/priyalkeni/',
-        image: '/priyal.jpg',
-        review: "A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with <span class='font-bold'>Deloitte Consulting</span> and is a postgraduate in business studies from the University of Mumbai."
-    },
-    {
-        name: 'Anisha Sawhney',
-        org: 'Meet Anisha MBA Scholar 2021.',
-        link: 'https://www.linkedin.com/in/anishasawhney/',
-        image: '/anisha.jpg',
-        review: "Anisha recently graduated from University of Warwick with a masters degree (MSc) in Economics. She is the author of two published papers in economic journals with excellent communication and analytical skills.<br><br>She has over 2 years' experience in economic research & mentoring roles through internships in organizations like NITI Aayog, UNV, NinelsMine, Bright Network, Admitkard & Mitkat Advisory."
-    },
-    
-    {
-        name: 'Ronak Batra',
-        org: 'Meet Ronak Batra, GGI Impact Scholar 2021.',
-        link: 'https://www.linkedin.com/in/ronakbatra/',
-        image: '/ronak.jpg',
-        review: `Ronak works with <span class='font-bold'>ThreeFish Consulting</span> as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
-    },
-    {
-        name: 'Dhruv Goyal',
-        org: 'Meet Dhruv Goyal, GGI Impact Scholar 2021.',
-        link: 'https://www.linkedin.com/in/dhruv-g-178861a4/',
-        image: '/dhruv.jpg',
-        review: "Dhruv is a CA Final student at ICAI. He is a 2019 Commerce graduate from H.R. College of commerce and economics and is pursuing his masters (M.com) from the University of Mumbai. He is currently awaiting the results of the CA Final examinations (Appeared in Nov 2020) and is in the process of honing essential soft- skills."
-    },
     {
         name: 'Abhinav Srijan',
         org: 'Meet Abhinav MBA Scholar 2021.',
@@ -115,30 +112,126 @@ export const testimonialMBA = [
         review: "She is a graduate in Industrial Engineering and Management from IIT Kharagpur with a background in Maths, Analytics and Finance, along with sound experience in leadership and team building.<br/></br>She likes to create things people love. She has a diverse industry experience ranging from Finance to Oil & Gas and from Telecommunications to Non-profit organizations."
     },
     {
-        name: 'Mohammad Arham Hussain',
-        org: 'Meet Mohammad Arham Hussain, MBA Scholar 2021.',
-        link: 'https://www.linkedin.com/in/mohammad-arham-hussain-87342b136/',
-        image: '/arham.jpg',
-        review: "He was an undergraduate student at St. Stephen's College in History (Hons). He is now a Law student at King's College London."
+        name: 'Arpita',
+        org: 'Meet Arpita G. GGI Fellow 2021.',
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6761913808798789632/",
+        image: '/arpita.jpg',
+        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitt</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
     },
     {
-        name: 'Jigyasa Sidana',
-        org: 'Meet Jigyasa Sidana, MBA Scholar 2021.',
-        link: 'https://www.linkedin.com/in/jigyasa-sidana-415516172/',
-        image: '/jigyasa.jpg',
-        review: "Jigyasa is an Economics (Hons.) graduate from Shri Ram College of Commerce. She has worked as a development professional in the education and skill development domain for four years as a fellow with Teach for India, as an advisor with ed-tech startups for school transformation in the state of Maharashtra, and recently with SEWA Bharat and Educate Girls."
+        name: 'Tania Gupta',
+        org: 'Meet Tania Gupta, GGI Fellow 2021.',
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6750369726012116992/",
+        image: '/tania.jpg',
+        review: ' Tania graduated from NIT Trichy with a B.Tech in Instrumentation and Control. She currently works in HSBC as an Analyst at the Wealth and Personal Banking (Data and Analytics) Team, where she gained an understanding of the nuances of banking and credit card pricing strategies catering to the US market. '
     },
-    {
-        name: 'Saakshi More',
-        org: 'Meet Saakshi More, GGI MBA Scholar 2021.',
-        link: 'https://www.linkedin.com/in/saakshi-more/',
-        image: '/saakshi.jpg',
-        review: "During the pandemic, she pioneered her own non-profit education management venture, 'College Catalyst. Through this platform, she developed structured content about the college admission process. She is a Research Wing Member in the Placement cell of LSR and the Associate VP of Membership at Toastmasters, LSR.<br/></br>She is an avid reader of Afghanistan-based domestic fiction. She diligently follows freelancer journalists on social media."
 
+    {
+        name: 'Tanya Shashtri',
+        org: 'Meet Tanya Shastri, GGI Fellow 2021',
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6759392436411359232/",
+        image: '/tanyashashtri.jpg',
+        review: "Tanya is a Computer Science and Engineering graduate from Visvesvaraya National Institute of Technology (NIT Nagpur), batch of 2020.<br><br> She is currently working as a Business Analyst at <span class='font-bold'>IQVIA</span> where she is involved in extracting meaningful insights from relevant data and developing business strategy. She has previously interned at Qatar Computing and Research Institute, where she worked in the domains of Natural Language Processing and How to crack Data Science and Analytics"
     }
 
 ]
+export const galleryData = [
+    {
+        "img": img18,
+        "caption": "President, Amazon AWS South Asia",
+    },
+    {
+        "img": img30,
+        "caption": "Director of AI, GEP",
+    },
+    {
+        "img": img31,
+        "caption": "Group Product Manager, PayPal ",
+    },
+    {
+        "img": img32,
+        "caption": "Senior Product Manager, Amazon Seattle",
+    },
+    {
+        "img": img33,
+        "caption": "Product Manager, Ex Flipkart, Ex Amazon",
+    },
+    
+    {
+        "img": img34,
+        "caption": "Senior Marketing Manager, Bharti Airtel.",
+    },
+    
+    {
+        "img": img13,
+        "caption": "Ex Asia Chairman, Blackrock",
+    },
+    {
+        "img": img12,
+        "caption": "Ex-Global CEO, Mckinsey & Co",
+    },
+    {
+        "img": img14,
+        "caption": "Ex-BCG India Chairman & Member, Planning Commission India",
+    },
+    {
+        "img": img15,
+        "caption": "Ex- Mckinsey Partner; Advisor, Pata",
+    },
+    {
+        "img": img16,
+        "caption": "Managing Partner, Promethos Capital",
+    },
+    {
+        "img": img17,
+        "caption": "Global Chairman, BCG Henderson Institute",
+    },
 
+    {
+        "img": img19,
+        "caption": "Former OSD NITI Aayog",
+    },
+    {
+        "img": img20,
+        "caption": "Partner BCG, Social Impact Practice",
+    },
+    {
+        "img": img21,
+        "caption": "BCG, Managing Director & Senior",
+    },
+    {
+        "img": img22,
+        "caption": "Dean, IBGC Fletcher School of Law ",
+    },
+    {
+        "img": img23,
+        "caption": "Dean, IBGC Fletcher School of Law ",
+    },
+    {
+        "img": img24,
+        "caption": "CEO, Arthur D. Little, South Asia & India",
+    },
+    {
+        "img": img25,
+        "caption": "Minister in Malaysia",
+    },
+    {
+        "img": img26,
+        "caption": "Harvard MBA, Chief of Staff- Hike",
+    },
+    {
+        "img": img27,
+        "caption": "Coach, Ted Speakers",
+    },
+    {
+        "img": img28,
+        "caption": "Ex NDTV Host, Ex- Bain Consultant",
+    },
+    {
+        "img": img29,
+        "caption": "Former COO, UNICEF (Generation Unlimited)",
+    }
+]
 export const curriculum = [
     {
         "title": "3 Months",
@@ -151,7 +244,7 @@ export const curriculum = [
     {
         "title": "75+ Employment Partners",
         "description": "Who recruit from GGI peridocially"
-    }, 
+    },
     {
         "title": "20+ Hours of Business Interview Practice",
         "description": "Via our inhouse AI Based software"
@@ -169,8 +262,8 @@ export const curriculum = [
         "description": "Peer to Peer projects "
     },
     {
-        "title":"10+ Hours of Trinity",
-        "description":"You get access to recorded Masterclasses of top speakers in consulting at GGI"
+        "title": "10+ Hours of Trinity",
+        "description": "You get access to recorded Masterclasses of top speakers in consulting at GGI"
     }
 
 ]

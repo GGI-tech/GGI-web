@@ -13,14 +13,14 @@ const AltIITHero = () => {
                     <div className='r2 flex mt-12 md:mt-24 gap-1 md:gap-10  text-center justify-evenly sm:justify-between flex-wrap'> {/*bg-blue-900 */}
                         <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial  py-3 sm:py-6 '>
                             <img width={80} height={80} src='/arrow2.jpg' className='hidden sm:block absolute bottom-24 -translate-x-6' />
-                            SYSTEM<br className='hide' /><span className='text-2xl sm:text-3xl lg:text-6xl'>DESIGN </span></h1>
+                            SYSTEM<br className='hide' /><span className='text-2xl sm:text-3xl lg:text-6xl'>DESIGNING </span></h1>
                         <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial py-3 sm:py-6 xl:mr-24'> MACHINE <br className='hide' /><span className=' text-2xl sm:text-3xl lg:text-6xl'> LEARNING <img width={50} height={80} src='/arrow.jpg' className='hidden sm:block absolute top-0 -right-14 lg:-top-2 lg:-right-5' />
                         </span></h1>
                     </div>
                     <div className='r3 mt-4 sm:mt-5 flex flex-wrap lg:flex-nowrap gap-5 md:gap-10 justify-center lg:justify-start items-end '> {/*bg-green-300*/}
                         <div className=''>
                             <div className='flex sm:mt-4 justify-center'>
-                                <h1 className='relative text-2xl sm:text-3xl lg:text-6xl arial'>PRODUCT<img width={50} height={80} src='/arrow.jpg' className='absolute hidden sm:block bottom-12 left-48 lg:left-80' /><br className='hide' /><span className='text-2xl sm:text-3xl lg:text-4xl'> MANAGEMENT </span></h1>
+                                <h1 className='relative text-2xl sm:text-3xl lg:text-6xl arial'>SOFTWARE<img width={50} height={80} src='/arrow.jpg' className='absolute hidden sm:block bottom-12 left-48 lg:left-80' /><br className='hide' /><span className='text-2xl sm:text-3xl lg:text-4xl'> DEVELOPMENT</span></h1>
                             </div>
                             <div className='r11 my-14 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
                                 <p className='sm:text-xl font-bold text-left mb-24'>Learn Tech Skills Live, Join Global Cohort & Get Hired at GGI ALT IIT to become a Tech Leader </p>
@@ -32,7 +32,7 @@ const AltIITHero = () => {
                     </div>
                 </div>
                 <div className='col-span-3 md:col-span-1  flex justify-center items-center px-20 sm:px-12 md:px-0 pb-5 ' > {/*bg-yellow-400 */}
-                    {/* <img src='/tech.jpg' alt="ggi" height={300} width={356}  /> */}
+                    <img src='/community.png' alt="ggi" className="rounded-full" height={300} width={300}  />
                 </div>
 
 
