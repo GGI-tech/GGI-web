@@ -9,7 +9,7 @@ import paytm from '../public/paytm.png';
 import microsoft from '../public/microsoft.png';
 import zom from '../public/zomato.jpg';
 import flipkart from '../public/flipkart.png';
-import google from '../public/google.png';
+import google from '../public/Google.png';
 
 // -----------------------------------------------------
 import img12 from '../public/12.jpg';
