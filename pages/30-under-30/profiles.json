@@ -1,0 +1,49 @@
+{
+    "finance": [
+      {
+        "name": "John Doe",
+        "age": 28,
+        "occupation": "Investment banker",
+        "location": "New York",
+        "interests": ["Skiing", "Golf", "Reading"]
+      },
+      {
+        "name": "Jane Smith",
+        "age": 29,
+        "occupation": "Private equity analyst",
+        "location": "San Francisco",
+        "interests": ["Hiking", "Cooking", "Traveling"]
+      },
+      {
+        "name": "John Doe",
+        "age": 28,
+        "occupation": "Investment banker",
+        "location": "New York",
+        "interests": ["Skiing", "Golf", "Reading"]
+      },
+      {
+        "name": "Jane Smith",
+        "age": 29,
+        "occupation": "Private equity analyst",
+        "location": "San Francisco",
+        "interests": ["Hiking", "Cooking", "Traveling"]
+      }
+    ],
+    "tech": [
+      {
+        "name": "Jack Johnson",
+        "age": 26,
+        "occupation": "Software engineer",
+        "location": "Seattle",
+        "interests": ["Photography", "Basketball", "Music"]
+      },
+      {
+        "name": "Jill Davis",
+        "age": 27,
+        "occupation": "Product manager",
+        "location": "San Francisco",
+        "interests": ["Running", "Painting", "Wine tasting"]
+      }
+    ]
+  }
+  

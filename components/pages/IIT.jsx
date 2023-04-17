@@ -9,7 +9,6 @@ import Container from '../global/Container';
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
 import Gallery from '../global/Gallery';
-import Community from '../global/Community';
 import Curriculum from '../global/Curriculum';
 import Masterclasses from '../global/Masterclasses';
 import FourColumnLayout from '../global/FourColumnLayout';
