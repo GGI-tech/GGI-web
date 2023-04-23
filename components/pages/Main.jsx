@@ -103,7 +103,7 @@ const Main = () => {
 
 
 
-            <Heading> You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners, Consulting, Policy, Product Leaders </Heading>
+            <Heading> You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners in Consulting, Policy, Product Leaders </Heading>
             <Gallery />
 
 
@@ -119,8 +119,8 @@ const Main = () => {
                 <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
                     <div className='flex flex-col text-center'>
                         <div className='h-40'> <Image className='' src={poets} alt="" /></div>
-                        <p className='mt-12 text-yellow-600'>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduayellow,600 Alumni&#34;</p>
-                        <p className='my-10'>— YOURSTORY</p>
+                        <p className='mt-12 text-yellow-600'>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated, 5500 Alumni&#34;</p>
+                        <p className='my-10'>— Poets & Quants</p>
                     </div>
                     <div className='flex flex-col text-center'>
                         <div className='h-40'> <Image src={bcg} alt="" /></div>

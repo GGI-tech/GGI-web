@@ -1,48 +1,85 @@
 {
-    "finance": [
+    "healthcare": [
       {
-        "name": "John Doe",
-        "age": 28,
-        "occupation": "Investment banker",
+        "name": "Divja Bhasin",
+        "img":"/divija.jpeg",
+        "age": 26,
+        "occupation": "Psychologist, Content Creator",
         "location": "New York",
-        "interests": ["Skiing", "Golf", "Reading"]
+        "description":"Divija Bhasin (AKA awkwardgoat3) is a Delhi based Psychologist who is also a content creator on Instagram. Her videos include informative topics like mental health, social issues, feminism to general light-hearted comedy. In a world of quacks, Divija&apos;s aim is to raise awareness among the misinformed public on the importance of proper professional treatment from qualified psychologists. For this, she has founded a mental health organisation called The Friendly Couch where she connects people to reliable therapists on her team. Qualifications - BA in Psychology Hons + MSc in Applied Clinical Psychology from University of Bath."
+
       },
       {
-        "name": "Jane Smith",
+        "name": "Dr Tanaya Narendra",
+        "img":"/tanaya.jpg",
         "age": 29,
-        "occupation": "Private equity analyst",
+        "occupation": "Doctor",
         "location": "San Francisco",
-        "interests": ["Hiking", "Cooking", "Traveling"]
-      },
+        "description":"For her ground breaking work in medical education, Dr. Tanaya has been awarded Sexual Health Influencer of the Year 2020 by SH24 - the online sexual health partner of the NHS, Top 25 Disruptors of India 2021 by Cosmopolitan Magazine, and Health Influencer Of The Year by the IHW Council, supported by the Niti Ayog and Ayushman Bharat. In December 2022, Dr. Tanaya launched  her debut book with Penguin Random House India, that became an instant bestseller, on basic sexual education and body literacy for everyone."
+
+      }
+
+    ],
+
+    "education":[
+  
       {
-        "name": "John Doe",
-        "age": 28,
-        "occupation": "Investment banker",
-        "location": "New York",
-        "interests": ["Skiing", "Golf", "Reading"]
-      },
-      {
-        "name": "Jane Smith",
-        "age": 29,
-        "occupation": "Private equity analyst",
-        "location": "San Francisco",
-        "interests": ["Hiking", "Cooking", "Traveling"]
+        "name":"Emily Durham",
+        "img": "/emily1.png",
+        "age":27,
+        "occupation":"Career Content Creator, Public Speaker and Senior Recruiter",
+        "location":"Toronto ON",
+        "description":" Emily Durham, AKA Emily The Recruiter is a Career Content Creator, Public Speaker and Senior Recruiter with a mission of making careers education accessible, authentic and fun. Emily&apos;s content is designed to help viewers thrive in their 9 to 5 and beyond; offering raw insights on topics like job search, promotions and self-advocacy. With a reach of over 3 million across Instagram, TikTok, YouTube and her podcast, The Straight Shooter Recruiter, Emily has innovated and changed the way her viewers approach careers, confidence and professional growth. "
+
       }
     ],
-    "tech": [
+    "marketing":[
       {
-        "name": "Jack Johnson",
-        "age": 26,
-        "occupation": "Software engineer",
-        "location": "Seattle",
-        "interests": ["Photography", "Basketball", "Music"]
+        "name":"Neha Puri",
+        "img":"/neha.jpg",
+        "age":30,
+        "occupation":"Founder VAVO Digital & Cyber Chef",
+        "location":"Mumbai",
+        "description":"Neha Puri, a multi-startup founder, has made a name for herself in the entrepreneurial world by creating solutions to problems that arise from distress and unforeseen circumstances. Her journey began with the launch of &apos;Cyber Chef,&apos; a food delivery platform, when she was only 24 years old. After operating it for two years, she sold the business to pursue her interest in marketing and operations. Neha then worked as the head of franchise and business development for Movenpick ice cream India, where she played a pivotal role in opening eight Movenpick stores in India in just six months. Neha&apos;s visionary zeal and talent have led her to create VAVO Digital, a dynamic influencer marketing space that connects brands with the right influencers to create authentic content that drives engagement and boosts brand awareness. Her entrepreneurial journey has been marked by a passion for problem-solving and a drive to make a difference in the world of marketing and business development."
       },
       {
-        "name": "Jill Davis",
-        "age": 27,
-        "occupation": "Product manager",
-        "location": "San Francisco",
-        "interests": ["Running", "Painting", "Wine tasting"]
+        "name":"Sahiba Bali",
+        "img":"",
+        "age":28,
+        "occupation":"Actor, Content Creator, Marketeer",
+        "location":"Gurgaon",
+        "description":"Sahiba Bali wears many hats- she is not only an actor having worked with Imtiaz Ali in movies or with shows on Netflix and Sony Liv but also a marketeer having lead marketing projects at Zomato for 4 years and then as Associate Director at an ed-tech firm. Moreover she is a content creator who loves travelling, food and wellness. This mindset, together with her persistence in achieving her goals was the key to bringing her the success she is enjoying today. She is one of the most trending Indian woman on YouTube currently. Before all this she graduated in Economics from Delhi University and went to Business School for post grad in UK, and later Oxford University."
+
+      }
+    
+    ],
+    "social-impact":[
+
+      {
+        "name":"Chethan Manchegowda",
+        "img":"/chethan.jpg",
+        "age":28,
+        "occupation":"Founder at Khoon, Senior Associate at GoSports Foundation",
+        "location":"Bengaluru",
+        "description":"Chethan is a social rights and health activist from India. He spent most of his childhood in the social sector. Due to an incident wherein, he lost his teacher as she could not procure blood at the right time, he started his own organization titled Khoon an organization with an aim to make sure nobody dies due to the unavailability of blood. His efforts to make the society better made him the &apos;Most Impactful&apos; person in the social sector in India under the age of 21 awarded by Youth For Seva, a TEDx speaker and the Human Excellence Awardee in Healthcare"
+
+      },
+      {
+        "name":"Rory Moores",
+        "img":"/rory.jpg",
+        "age":25,
+        "occupation":"",
+        "location":"",
+        "description":""
+      },
+      {
+        "name":"Lathika Mouli",
+        "img":"/Lathika.png",
+        "age":30,
+        "occupation":"Sustainability Solutions Consultant",
+        "location":"Singapore",
+        "description":"Lathika is a Sustainability Solutions Consultant at ENGIE Impact, where she supports public and private sector organizations craft and deliver on their sustainability strategy including energy, emissions, and waste. She is also an UNLEASH Ambassador in Singapore and Southeast Asia, where she is responsible for community building and providing youth in the region with tools and resources to accelerate innovation for the UN SDGs, and a Global Shaper at the Singapore Hub.  Prior to joining ENGIE Impact, Lathika worked as a Business Development Manager at Vertech Capital, where her focus was on facilitating investments into clean technologies and projects across APAC.  Before that, Lathika led business development strategies for a renewable energy start-up in Shanghai, where she focused on digital solutions for solar microgrids and electric vehicles (EVs). In 2018 she was listed as one of twelve winners of the UN Environment&apos;s Asia Pacific Low Carbon Lifestyles Challenge, and she is a Leader of Tomorrow at the St.Gallen Symposium for her work in the climate space.  She is passionate about using emerging technologies to make cities more sustainable, safe, and inclusive."
+
       }
     ]
   }

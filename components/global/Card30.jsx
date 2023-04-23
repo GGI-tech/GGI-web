@@ -5,15 +5,17 @@ import React from 'react';
 const GalleryImg = ({ socialImg, caption, link }) => {
   return (
     <Link href={link}>
-      <div className='relative hover:text-blue-600 hover:cursor-pointer'>
-
-        <div className='hover:shadow-blue-600 hover:shadow-lg'>
+      <div className='relative hover:text-blue-600 hover:cursor-pointer h-[300px] lg:h-[500px]'>
+        {/* Set a fixed height for the container element */}
+        {/* You can adjust the height value to fit your design */}
+        
+        <div className='hover:shadow-blue-600 hover:shadow-lg h-full w-full'>
           <Image
             placeholder="blur"
             src={socialImg}
             alt='/'
-            className='w-full h-full '
-            layout='responsive'
+            className='object-cover object-center h-full w-full'
+            layout='fill'
           />
         </div>
 
