@@ -1,7 +1,7 @@
 import Under30 from "../../components/pages/Under30"
 
 import Head from 'next/head';
-const altIIT = () => {
+const Under3 = () => {
 
   return (
     <>
@@ -34,4 +34,4 @@ const altIIT = () => {
   )
 }
 
-export default altIIT
+export default Under3
