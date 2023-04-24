@@ -12,7 +12,7 @@ import Carousal from "../global/Carousal"
 const YLP = () => {
     return (
         <div>
-            <SlidingHero image={'/ylp.jpg'} title={["180 DAYS VIRTUAL INTERNSHIP <br/>TO TRANSFORM YOUR LIFE"]} />
+            <SlidingHero image={'/ylp.jpg'} title={["180 DAYS VIRTUAL INTERNSHIP <br/>TO BUILD YOUR PROFILE BEFORE MBA"]} />
             <Link href="#more">
                 <div id='' className='flex justify-center font-serif'>
 
@@ -50,7 +50,7 @@ const YLP = () => {
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>
                 <p className="mb-7">The Impact Lab YLP is a one-of-a-kind technology-driven essential program at GGI that has redefined the business school experience. Here, you&apos;ll be pushed and challenged by best-in-class faculty and supported by an AI tool in an environment unlike anywhere else at a fraction of a cost. </p>
-                <p>The <span className="font-bold">entire 6 months experiential program</span> is designed in 5 stages. </p>
+                <p>The <span className="font-bold">entire 6 months experiential Pre MBA program</span> is designed in 5 stages. </p>
             </Container>
             <Steps data={stages} />
 
@@ -60,7 +60,7 @@ const YLP = () => {
                 {/* <div className="relative"> */}
                 {/* <img src='/ylp1.jpg' alt="ylp" className="w-full" /> */}
                 <div className="px-2 ylp1 h-60 flex flex-col inset-0 justify-center items-center ">
-                    <h1 className="text-xl font-semibold">Earn a Digital Certificate</h1>
+                    <h1 className="text-xl font-semibold">Earn a Pre MBA Certificate</h1>
                     <p>When you complete consulting and PM virtual internship you’ll earn a digital certificate to share with prospective employers and your professional network</p>
                 </div>
                 {/* </div> */}
