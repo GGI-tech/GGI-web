@@ -101,11 +101,11 @@ const Footer = () => {
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI Impact Fellowship</p>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link prefetch={false} href="https://www.altiit.com/">
                                             <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >ALT IIT</p>
                                         </Link>
-                                    </li>
+                                    </li> */}
 
                                 </ul>
                             </div>
