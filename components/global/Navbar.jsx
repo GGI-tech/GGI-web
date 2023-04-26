@@ -67,6 +67,11 @@ const Navbar = () => {
               Fellowship
             </li>
           </Link>
+          <Link href='https://www.altiit.com/'>
+            <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
+              ALT IIT
+            </li>
+          </Link>
           <Link re href='/reviews'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               Employment Report
@@ -112,6 +117,9 @@ const Navbar = () => {
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/impact-fellowship'>Fellowship</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link prefetch={false} href='https://www.altiit.com/'>ALT IIT</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>Employment Report</Link>
