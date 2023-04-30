@@ -9,6 +9,13 @@ import Slider from '../global/Slider'
 import { stages, testimonialYLP } from '../../data/ylpData';
 import Link from "next/link"
 import Carousal from "../global/Carousal"
+
+import community1 from '../../public/new_com1.jpg'
+import community2 from '../../public/new_com2.jpg'
+import community3 from '../../public/new_com3.jpg'
+import community4 from '../../public/new_com4.jpg'
+import Image from "next/image"
+
 const YLP = () => {
     return (
         <div>
@@ -21,11 +28,11 @@ const YLP = () => {
                         <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 ease"></span>
                         <span className="relative"> Read More About the Program</span>
                     </p>
-           
+
                 </div>
             </Link>
 
-           
+
 
             <Heading margin={60}>WHY GGI IMPACT LAB, YOUNG LEADERS  </Heading>
             <Container>
@@ -53,6 +60,35 @@ const YLP = () => {
                 <p>The <span className="font-bold">entire 6 months experiential Pre MBA program</span> is designed in 5 stages. </p>
             </Container>
             <Steps data={stages} />
+            
+            <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
+            <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
+                <div className="flex items-center col-span-2 ">
+                    <div className="h-[300px] sm:h-[500px] w-full">
+                        <img src="/new_com1.jpg" alt="" className="h-full w-full object-cover" />
+                    </div>
+                </div>
+                <div className="flex items-center  ">
+                    <div className="h-[300px] sm:h-[500px] w-full">
+                        <img src="/new_com2.jpg" alt="" className="h-full w-full object-cover" />
+                    </div>
+                </div>
+                <div className="flex items-center col-span-2 ">
+                    <div className="h-[300px] sm:h-[500px] w-full">
+                        <img src="/new_com3.jpg" alt="" className="h-full w-full object-cover" />
+                    </div>
+                </div>
+                <div className="flex items-center  ">
+                    <div className="h-[300px] sm:h-[500px] w-full">
+                        <img src="/new_com4.jpg" alt="" className="h-full w-full object-cover" />
+                    </div>
+                </div>
+                {/* 
+                <div className='col-span-2 h-[400px]'><Image placeholder="blur" src={community2} style={{ objectFit: 'cover', height: '100%' }} alt="" /></div>
+                <div className='col-span-1 h-[400px]'><Image placeholder="blur" src={community3} style={{ objectFit: 'contain', height: '100%' }} alt="" /></div>
+                <div className='col-span-2 h-[400px]'><Image placeholder="blur" src={community4} style={{ objectFit: 'contain', height: '100%' }} alt="" /></div>
+                <div className='col-span-1 h-[400px]'><Image placeholder="blur" src={community4} style={{ objectFit: 'contain', height: '100%' }} alt="" /></div> */}
+            </div>
 
 
             <Heading>BENEFITS OF  GGI IMPACT LAB, YLP </Heading>
