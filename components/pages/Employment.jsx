@@ -40,22 +40,48 @@ const data1 = [
         "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
     },
 
+
     {
-        "id": 5,
-        "title": "SHREYA SAPRU",
-        "url": "https://www.linkedin.com/in/shraya-sapru/",
-        "org": "SAMAGRA | TRANSFORMING GOVERNANCE",
-        "img": "/shreyas.jpg",
-        "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also.`
+        "id": 35,
+        "title": "Kalash Verma",
+        "url": "https://in.linkedin.com/in/kalash-verma-6b8b79179",
+        "org": "McKinsey & Company",
+        "img": "/kalash.jpeg",
+        "text": `Shortly after GGI, I will be joining McKinsey & Company.<br><br>&ldquo;Hi, I am a final-year student at Indian Institute of Technology, Madras. <br><br>
+
+        I found out about GGI when I was unclear about what I wanted to do in life albeit I had figured out where my general interests lay. <br>
+        
+        That&apos;s when I searched on the internet and found out about GGI.<br> 
+        
+        I signed up for GGI as I knew GGI would be a great platform to understand what I exactly wanted to do in the future as well as up-skill myself and meet great people. &ldquo;<br><br>
+        Q- What would be one word that would describe your GGI experience?<br><br>
+        #Transforming!<br><br>
+        I joined GGI as an undergrad and GGI played a pivotal role in my life by giving me exposure to a lot of different industries and a diverse cohort.<br><br>
+        Q- Your message for the cohort of 2023 ?<br> <br>If you have signed up then go all in!
+
+    Don&apos;t then question the system. <br>
+
+    The instructors will share a lot of lessons. <br>
+
+    Because the program has been built with a lot of trust, rigor and processes by the founders and mentors.`
     },
     {
-        "id": 6,
+        "id": 5,
         "title": `Simar Sethi `,
         "url": "https://www.linkedin.com/pulse/shortly-after-ggi-i-joined-kearney-management-/?trackingId=WkuKCMjCgdk4iHYe5TlBFA%3D%3D",
         "org": "KEARNEY CONSULTING",
         "img": "/simar.jpg",
         "text": "Shortly after GGI, I joined Kearney. <br><br>&ldquo; Hi, I am a final- year student at Indian Institute of Technology, Delhi.My major is mechanical engineering and my minor is business management.<br><br>A few years ago, I figured out I wanted to go into consulting. This field was of interest to me because I love learning about different things and meeting people from diverse backgrounds.<br><br>I was initially part of the GGI MBA scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them. Later on, I signed up for GGI fellowship also.<br><br> GGI masterclasses not only prepared me for #consulting but also built my interest towards it. They also taught me skills that could be used in all professions, not just consulting, which was unique as well.<br><br> For me, GGI was a complete package. <br><br> Looking back, I have extracted too many valuable insights from GGI :)&rdquo;"
     },
+    {
+        "id": 6,
+        "title": "SHREYA SAPRU",
+        "url": "https://www.linkedin.com/in/shraya-sapru/",
+        "org": "SAMAGRA | TRANSFORMING GOVERNANCE",
+        "img": "/shreyas.jpg",
+        "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also.`
+    },
+  
     {
         "id": 6,
         "title": `Aditya Bansal`,
@@ -471,17 +497,19 @@ const Employment = () => {
             <YouTubeEmbed embedId='0XC2VXBF29g' />
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
-
-                {data1.slice(0, -1).map((e, id) => {
+                {/* for odd num of cards data1.slice(0, -1) */}
+                {data1.map((e, id) => {
                     return (
                         <Card key={id} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
 
                     );
                 })}
             </div>
+            {/*
+            for odd num of cards 
             <div className='sm:mx-12'>
                 <Card url={data1[data1.length - 1].url} org={data1[data1.length - 1].org} title={data1[data1.length - 1].title} img={data1[data1.length - 1].img} text={data1[data1.length - 1].text} />
-            </div>
+            </div> */}
 
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12 lg:grid-cols-3 md:mx-24'>
