@@ -28,12 +28,20 @@ const FAQ = [
        Or if you don't want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected (we have &lt;10% selection rate). Either way, you win. To get detailed pricing and information, it is accessible on our application page <u><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform" target="_blank" rel="noreferrer noopener">here.</a></u>`
     },
     {
-        "id": 4,
+        "id":4,
+        "ques":"Am I eligible for the GGI MBA, MPP or Fellowship Program?",
+        "ans":`The pre-requisites of Global Governance Initiative Programs are as below :<br><br>
+         1. <u>Interested in pursuing a career</u> in Management Consulting, Public Policy or Product Management.<br><br>
+         2. <u>Below the age of 36- Global Governance is a mission-oriented organization</u> with an aim to empower youngsters and women to have a seat on the table in business and policy roles. If you are above 35 years of age, we suggest not applying because the program has been tailor-made for young professionals at this stage <br><br>
+         3. <u>Background:</u> GGI is an background-agnostic program. It doesn&apos;t matter whether you are a fresh undergrad with internship experience or the CEO of a startup with entrepreneurial experience. We will cover basics and advanced learning around business, strategy, governance, product and policy. We suggest putting a strong application and welcome you to a beautiful ecosystem as long as you are willing to work hard, learn and thrive.   `
+    },
+    {
+        "id": 5,
         "ques": "What are the program reviews?",
         "ans": `Find the life after GGI stories <u><a href="/reviews" target="_blank" rel="noreferrer noopener">here</a></u>`
     },
     {
-        "id": 5,
+        "id": 6,
         "ques": "What are GGI Masterclasses?",
         "ans": `We at GGI provide the world's most practical Live and Interactive 9 practical Masterclasses driven by CEOs and Top Industry Professionals.<span class="font-bold"> The 9 practical Harvard-style real case-driven practical Masterclasses</span> come along with the GGI Scholars & Fellows Program and are built to help you pivot into your dream careers. They are- <br><br>
                 <ul><li>CV Review & Case Interview Prep Masterclass,</li>
@@ -51,7 +59,7 @@ const FAQ = [
                 `
     },
     {
-        "id": 6,
+        "id": 7,
         "ques": "What are the hiring opportunities via GGI Programs?",
         "ans": `GGI also has <span class="font-bold">actively partnered with top hiring consulting/ policy/ product management partners</span> such as Samagra Governance, Sattva Consulting, BCG Social Impact, Leading Tech Ventures in the space of social impact, consulting, and product management roles. 
                 <br><br>
@@ -60,7 +68,7 @@ const FAQ = [
                 To become part of the special hiring pool, you can apply to GGI MBA Scholars Program <u><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform" target="_blank" rel="noreferrer noopener">here.</a></u>`
     },
     {
-        "id": 7,
+        "id": 8,
         "ques": "How can I work for GGI?",
         "ans": `We are always looking for diverse young professionals adept with technology, content, media, and operations roles. If interested, please apply <u> <a href="/careers" target="_blank">here.</a></u>  If we are actively hiring and you are shortlisted, we will reach out to you automatically later.`
     }
