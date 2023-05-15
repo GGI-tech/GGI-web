@@ -42,7 +42,7 @@ const MBA = () => {
             <p className='px-8 my-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
             <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
             <div className='my-8'></div>
-            <YoutubeEmbed embedId='8lWeJ3Ekq-I' autoplay={1}/>
+            <YoutubeEmbed embedId='pjwQLAI_fHs' autoplay={1}/>
 
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
@@ -124,8 +124,10 @@ const MBA = () => {
             <OfficialPartners />
             <Heading>GGI Associations</Heading>
             <Associations />
-
-            <Heading>Frequently Asked Questions</Heading>
+            <div className='mt-48'>
+                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+            </div>
+            <Heading margin={2}>Frequently Asked Questions</Heading>
             <Accordion />
             {/* <Socials /> */}
             <Footer />

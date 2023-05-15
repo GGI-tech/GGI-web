@@ -15,7 +15,7 @@ import visionunlimited from '../../public/visionunlimited.jpg'
 import udaan from '../../public/udaan.jpg'
 import bhumi from '../../public/bhumi.jpg'
 import Slides from "../global/Slides"
-
+import YoutubeEmbed from "../global/YoutubeEmbed"
 
 const ImpactLab = () => {
     const data=[
@@ -64,7 +64,10 @@ const ImpactLab = () => {
                 <p>Our working members have designed their own projects in the Impact Lab. With the Impact Lab&apos;s support, they are launching these projects at their institutes on topics such as enhancing the quality of school teacher digital training in India, increasing the foothold of after-school clubs, transforming NGO volunteer strategy, expanding services portfolio and enhancing the digital footprint of school NGOs to raise retail funding by working with below-mentioned clients. </p>
             </Container>
             <Partners companies={[teachforindia, pratham, goonj, caspr, gobarefoot, stir, visionunlimited, udaan, bhumi]} />
-
+            
+            <div className='mt-48'>
+                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+            </div>
             <Heading margin={2}>Frequently Asked Questions</Heading>
             <Accordion />
             <Footer />

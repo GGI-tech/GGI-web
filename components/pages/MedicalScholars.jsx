@@ -137,8 +137,11 @@ const MedicalScholars = () => {
             <OfficialPartners />
             <Heading>GGI Associations</Heading>
             <Associations />
-
-            <Heading>Frequently Asked Questions</Heading>
+            
+            <div className='mt-48'>
+                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+            </div>
+            <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />
             {/* <Socials /> */}
             <Footer />

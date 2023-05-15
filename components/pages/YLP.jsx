@@ -127,8 +127,11 @@ const YLP = () => {
                     <p>Nearly 50% of the hours you are awake are spent at work. Discover if this is the right career path for you</p>
                 </div>
             </div >
-
-            <Heading>Frequently Asked Questions</Heading>
+            
+            <div className='mt-48'>
+                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+            </div>
+            <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />
             <Footer />
         </div>

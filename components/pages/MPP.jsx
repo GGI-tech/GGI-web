@@ -13,10 +13,10 @@ import Footer from '../global/Footer';
 import Partners from '../global/Partners';
 import Button from '../global/Button';
 import Steps from '../global/Steps';
-import { companies, fourcolumndata,stages, testimonialPolicy,curriculum } from '../../data/policypgData';
+import { companies, fourcolumndata, stages, testimonialPolicy, curriculum } from '../../data/policypgData';
 
 const MPP = () => {
-    
+
     return (
         <>
             <SlidingHero image={'./policy.jpg'} title={[`Learn Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Policy Scholar</span><br class='hidden md:block'/> to Become Leader in Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
@@ -44,8 +44,8 @@ const MPP = () => {
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment  </Heading>
-            <Curriculum data={curriculum}/>
-            <YoutubeEmbed embedId='lGyhkONUSwk' />
+            <Curriculum data={curriculum} />
+            <YoutubeEmbed embedId='I0t8nCIst3M' />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
@@ -91,8 +91,10 @@ const MPP = () => {
 
             <Heading>Our Associations </Heading>
             <Associations />
-
-            <Heading>Frequently Asked Questions </Heading>
+            <div className='mt-48'>
+                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+            </div>
+            <Heading margin={2}>Frequently Asked Questions </Heading>
             <Accordian />
             {/* <Socials /> */}
             <Footer />
