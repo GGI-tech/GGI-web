@@ -35,7 +35,7 @@ const Fellowship = () => {
                 <p className='mb-5'><span className='font-semibold primary'>Young Professionals waste many years</span> either preparing for Civil Services to venture into the development sector or reading innumerable cases in the false hope of getting into management consulting. We at Global Governance Initiative solve this through our Impact Fellowship Program. </p>
                 <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program..</p>
             </Container>
-            <YoutubeEmbed embedId='cds8xYiGVHg' autoplay={1} />
+            <YoutubeEmbed embedId='CL-UcquUN3k' autoplay={1} />
 
             <Heading>Life After GGI Impact Fellowship</Heading>
 
@@ -117,7 +117,10 @@ const Fellowship = () => {
             <Heading>Official Partners </Heading>
             <OfficialPartners />
 
-            <Heading>Frequently Asked Questions</Heading>
+            <div className='mt-48'>
+                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+            </div>
+            <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />
             <Footer />
         </>
