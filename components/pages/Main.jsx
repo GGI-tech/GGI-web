@@ -6,7 +6,7 @@ import Gallery from '../global/Gallery';
 import Heading from '../global/Heading';
 // import Hero from '../global/Hero';
 import Slider from '../global/Slider';
-import {fourcolumndata,companies, testimonialMain } from '../../data/mainpgData';
+import { fourcolumndata, companies, testimonialMain } from '../../data/mainpgData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
 
 import Partners from '../global/Partners';
@@ -19,7 +19,8 @@ import Button from '../global/Button';
 import poets from '../../public/poets.jpg';
 import bcg from '../../public/bcg-green.png';
 import Linkedin from '../../public/linkedin.jpg';
-import yrstory from '../../public/yrstory.jpg';
+import yrstory from '../../public/ET_logo.png';
+import wef from '../../public/WEF.png'
 // -------------------------------------------------------
 import bhaskar_chakra from '../../public/bhaskar_chakra.jpg'
 import Community from '../../components/global/Community';
@@ -31,7 +32,7 @@ import contact from '../../public/contact.jpg'
 
 
 const Main = () => {
-   
+
     return (
         <div>
 
@@ -58,7 +59,7 @@ const Main = () => {
                 <p >Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
 
             </Container>
-            
+
             <div className="p-4 flex justify-center">
                 <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 " >
                     <div className='lg:col-span-2'>
@@ -78,7 +79,7 @@ const Main = () => {
                         </div>
                     </div>
                     <div className='hidden lg:block lg:col-span-1'></div>
-                    <div className='lg:col-span-2'>                    
+                    <div className='lg:col-span-2'>
                         <div className='text-center md:text-left md:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                             <p className='my-7 text-lg font-semibold'>Who is this program for?</p>
@@ -115,37 +116,62 @@ const Main = () => {
 
 
             <Heading>Global Recognition Allows us to Serve you Better</Heading>
-            <div className="p-5 md:p-12 flex justify-center skin">
-                <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-5">
-                    <div className='flex flex-col text-center'>
-                        <div className='h-40'> <Image className='' src={poets} alt="" /></div>
-                        <p className='mt-12 text-yellow-600'>&#34;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated, 5500 Alumni&#34;</p>
-                        <p className='my-10'>— Poets & Quants</p>
+            <div className="p-5 md:p-12 grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-5">
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={poets} alt="" />
                     </div>
-                    <div className='flex flex-col text-center'>
-                        <div className='h-40'> <Image src={bcg} alt="" /></div>
-                        <p className='mt-12 text-yellow-600'>&#34;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and careeradvancement opportunities for Indian youth&#34;</p>
-                        <p className='my-10'>— BCG Global Media</p>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    &quot;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated, 5500 Alumni &quot;
+                    </p>
+                    <p className="my-10 ">— Poets &amp; Quants</p>
+                </div>
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={bcg} alt="" />
                     </div>
-                    <div className='flex flex-col text-center'>
-                        <div className='h-40'><Image className='' src={Linkedin} alt="" /></div>
-                        <p className='mt-12 text-yellow-600'>&#34;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&#34;</p>
-                        <p className='my-10'> — Linkedin News</p>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    &quot;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and career advancement opportunities for Indian youth &quot;
+                    </p>
+                    <p className="my-10 text-center">— BCG Global Media</p>
+                </div>
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={Linkedin} alt="" />
                     </div>
-                    <div className='flex flex-col text-center'>
-                        <div className='h-40'><Image src={yrstory} alt="" /></div>
-                        <p className='mt-12 text-yellow-600'>&#34;The founders felt that with the right information and awareness, others like them, mostly youth, could also pursue jobs in public policy, and hence founded GGI.&#34; </p>
-                        <p className='my-10'> — YourStory</p>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    &quot;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&quot;
+                    </p>
+                    <p className="my-10">— Linkedin News</p>
+                </div>
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={yrstory} alt="" />
                     </div>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    &quot;GGI has much in common with Ivy League institutions such as Stanford and Harvard&quot;
+                    </p>
+                    <p className="my-10">— The Economic Times</p>
+                </div>
+                <div className="flex flex-col items-center col-start-2 col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={wef} alt="" />
+                    </div>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    &quot;Shatakshi Sharma, GGI cofounder, is empowering global youth to start taking a seat on the table&quot;
+                    </p>
+                    <p className="my-10 text-center">— World Economic Forum</p>
                 </div>
             </div>
+
+
 
 
             <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
-  
+
 
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <Community />
