@@ -122,7 +122,7 @@ const Main = () => {
                         <Image src={poets} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                        "In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated, 5500 Alumni"
+                    &quot;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated, 5500 Alumni &quot;
                     </p>
                     <p className="my-10 ">— Poets &amp; Quants</p>
                 </div>
@@ -131,7 +131,7 @@ const Main = () => {
                         <Image src={bcg} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                        "Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and career advancement opportunities for Indian youth"
+                    &quot;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and career advancement opportunities for Indian youth &quot;
                     </p>
                     <p className="my-10 text-center">— BCG Global Media</p>
                 </div>
@@ -140,7 +140,7 @@ const Main = () => {
                         <Image src={Linkedin} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                        "Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting."
+                    &quot;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&quot;
                     </p>
                     <p className="my-10">— Linkedin News</p>
                 </div>
@@ -149,7 +149,7 @@ const Main = () => {
                         <Image src={yrstory} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                        "GGI has much in common with Ivy League institutions such as Stanford and Harvard"
+                    &quot;GGI has much in common with Ivy League institutions such as Stanford and Harvard&quot;
                     </p>
                     <p className="my-10">— The Economic Times</p>
                 </div>
@@ -158,7 +158,7 @@ const Main = () => {
                         <Image src={wef} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                        "Shatakshi Sharma, GGI cofounder, is empowering global youth to start taking a seat on the table"
+                    &quot;Shatakshi Sharma, GGI cofounder, is empowering global youth to start taking a seat on the table&quot;
                     </p>
                     <p className="my-10 text-center">— World Economic Forum</p>
                 </div>
