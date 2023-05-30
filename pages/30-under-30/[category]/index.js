@@ -5,7 +5,6 @@ import { useRouter } from 'next/router';
 import Container from '../../../components/global/Container'
 function Popup({ currentProfile, setShowPopup }) {
   const router = useRouter();
-
   const category = router.query.category;
   const handleCloseClick = () => {
     setShowPopup(false);
@@ -70,6 +69,8 @@ export default function Category({ category }) {
         profile => profile.name === profileName
       );
       setCurrentProfile(currentProfile);
+      console.log("---------",currentProfile)
+
     }
   }, [router.query.profile]);
 
@@ -87,18 +88,6 @@ export default function Category({ category }) {
     <>
       <Container>
         <h1 className='mt-48 text-3xl'>{category}</h1>
-
-        {/* <div className='mt-48 grid grid-cols-2 gap-5'>
-          <div>
-            <h1 className='text-3xl'>{category}</h1>
-            <p className='text-xl font-bold mt-8'>Creating and designing the future of fashion and the arts</p>
-            <p className='text-xl mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-
-          </div>
-
-          <img src="/hailey.jpg" alt="" />
-        </div> */}
-
         <div className='my-12 grid grid-cols-2 gap-10'>
           {categoryProfiles.map(profile => (
             <div key={profile.name} className="hover:cursor-pointer">
