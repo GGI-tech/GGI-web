@@ -3,6 +3,8 @@ import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Container from '../../../components/global/Container'
+import Footer from '../../../components/global/Footer';
+
 function Popup({ currentProfile, setShowPopup }) {
   const router = useRouter();
   const category = router.query.category;
@@ -87,15 +89,16 @@ export default function Category({ category }) {
   return (
     <>
       <Container>
-        <h1 className='mt-48 text-3xl'>{category}</h1>
-        <div className='my-12 grid grid-cols-2 gap-10'>
+        {/* <h1 className='mt-48 text-3xl'>{category}</h1> */}
+        <div className='my-12 mt-36 grid grid-cols-2 gap-10'>
           {categoryProfiles.map(profile => (
             <div key={profile.name} className="hover:cursor-pointer">
               <a onClick={() => openPopup(profile.name)}>
                 <div className="h-[300px] md:h-[500px] w-full">
-                  <img src={profile.img} alt="" className="h-full w-full object-cover hover:shadow-lg hover:shadow-blue-600 my-5" />
+                  <img src={profile.img} alt="" className="h-full w-full object-cover hover:shadow-lg hover:shadow-[#FF7F50] my-5" />
                 </div>
-                {profile.name}
+                <p className='text-center p-5 font-black text-2xl text-black uppercase'>{profile.age} | {profile.name}</p>
+                <p className='text-center text-lg'>{profile.occupation}</p>
               </a>
             </div>
           ))}
@@ -108,6 +111,7 @@ export default function Category({ category }) {
           />
         )}
       </Container>
+      <Footer/>
 
     </>
   );

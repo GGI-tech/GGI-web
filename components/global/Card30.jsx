@@ -5,11 +5,11 @@ import React from 'react';
 const GalleryImg = ({ socialImg, caption, link }) => {
   return (
     <Link href={link}>
-      <div className='my-5 relative hover:text-blue-600 hover:cursor-pointer h-[300px] w-[300px]  mx-auto sm:w-full lg:h-[500px]'>
+      <div className='my-5 relative hover:text-[#FF7F50] hover:cursor-pointer h-[300px] w-[300px]  mx-auto sm:w-full lg:h-[500px]'>
         {/* Set a fixed height for the container element */}
         {/* You can adjust the height value to fit your design */}
         
-        <div className='hover:shadow-blue-600 hover:shadow-lg h-full w-full'>
+        <div className='hover:shadow-[#FF7F50] hover:shadow-xl h-full w-full'>
           <Image
             placeholder="blur"
             src={socialImg}
@@ -19,7 +19,7 @@ const GalleryImg = ({ socialImg, caption, link }) => {
           />
         </div>
 
-        <p className='h-20 p-8 text-2xl font-bold uppercase '>{caption}</p>
+        <p className='p-5 text-2xl md:text-3xl font-black uppercase '>{caption}</p>
       </div>
     </Link>
   );

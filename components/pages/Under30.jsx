@@ -3,8 +3,7 @@ import Card from '../global/Card30';
 import Footer from '../global/Footer'
 import emily from '../../public/emily1.png';
 import rory from '../../public/rory.jpg';
-import img13 from '../../public/13.jpg';
-import neha from '../../public/neha.jpg';
+import sahiba from '../../public/sahiba.jpg';
 import divija from '../../public/divija.jpeg';
 import subham from '../../public/subham.jpeg'
 import rani from '../../public/ranirampal.jpg'
@@ -32,7 +31,7 @@ const Under30 = () => {
                 <div className='md:w-3/4 mx-auto text-center mt-24'>
                     <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-15 px-12 sm:px-0'>
                         <Card socialImg={rory} link={'/30-under-30/social-impact'} caption={'Social Impact'} />
-                        <Card socialImg={divija} link={'/30-under-30/healthcare'} caption={'Healthcare'} />
+                        <Card socialImg={divija} link={'/30-under-30/healthcare'} caption={'STEM & Healthcare'} />
                         <Card socialImg={subham} link={'/30-under-30/finance'} caption={'Finance'} />
                     </div>
                 </div>
@@ -45,7 +44,7 @@ const Under30 = () => {
                 </div> */}
                 <div className='md:w-3/4 mx-auto text-center mt-24'>
                     <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-15 px-12 md:px-0'>
-                        <Card socialImg={neha} link={'/30-under-30/marketing'} caption={'Marketing'} />
+                        <Card socialImg={sahiba} link={'/30-under-30/marketing'} caption={'Marketing'} />
                         <Card socialImg={avanti} link={'/30-under-30/artists'} caption={'Artists'} />
                         <Card socialImg={rani} link={'/30-under-30/sports'} caption={'Sports'} />
 
