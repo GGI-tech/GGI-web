@@ -13,26 +13,35 @@ import supriya from '../../public/supriya.jpg'
 const Under30 = () => {
     return (
         <>
-            <div className='heading text-center  mt-36'>
-                <div className='font-bold text-xl'>
+            <div className='heading text-center mt-36'>
+                <div className='font-bold text-3xl font-sans text-black'>
                     2023
                 </div>
 
-                <div className='text-center text-6xl font-bold text-black my-7'>
+                <div className='text-center text-6xl sm:text-8xl md:text-9xl roboto text-black my-7'>
                     MEET THE NEWEST GGI 30 UNDER 30
                 </div>
         
-                <div className='md:w-3/4 mx-auto text-center md:py-5 mt-24'>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-20 px-12 sm:px-0'>
-                        <Card socialImg={emily} link={'/30-under-30/education'} caption={'Education'} />
-                        <Card socialImg={supriya} link={'/30-under-30/entrepreneurs'} caption={'Entrepreneurs'} />
+               
+                <div className='md:w-5/6 mx-auto text-center mt-24'>
+                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-20 px-12 md:px-0'>
+                        <Card socialImg={sahiba} link={'/30-under-30/marketing'} caption={'Marketing'} />
+                        <Card socialImg={avanti} link={'/30-under-30/artists'} caption={'Artists'} />
+                        <Card socialImg={rani} link={'/30-under-30/sports'} caption={'Sports'} />
+
                     </div>
                 </div>
-                <div className='md:w-3/4 mx-auto text-center mt-24'>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-15 px-12 sm:px-0'>
+                <div className='md:w-5/6 mx-auto text-center mt-24'>
+                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-20 px-12 sm:px-0'>
                         <Card socialImg={rory} link={'/30-under-30/social-impact'} caption={'Social Impact'} />
                         <Card socialImg={divija} link={'/30-under-30/healthcare'} caption={'STEM & Healthcare'} />
                         <Card socialImg={subham} link={'/30-under-30/finance'} caption={'Finance'} />
+                    </div>
+                </div>
+                <div className='md:w-5/6 mx-auto text-center md:py-5 mt-24'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-20 px-12 sm:px-0'>
+                        <Card socialImg={emily} link={'/30-under-30/education'} caption={'Education'} />
+                        <Card socialImg={supriya} link={'/30-under-30/entrepreneurs'} caption={'Entrepreneurs'} />
                     </div>
                 </div>
                 {/* <div className='md:w-2/3 mx-auto text-center md:py-5 mt-5'>
@@ -42,14 +51,7 @@ const Under30 = () => {
 
                     </div>
                 </div> */}
-                <div className='md:w-3/4 mx-auto text-center mt-24'>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-15 px-12 md:px-0'>
-                        <Card socialImg={sahiba} link={'/30-under-30/marketing'} caption={'Marketing'} />
-                        <Card socialImg={avanti} link={'/30-under-30/artists'} caption={'Artists'} />
-                        <Card socialImg={rani} link={'/30-under-30/sports'} caption={'Sports'} />
-
-                    </div>
-                </div>
+       
 
             </div>
 

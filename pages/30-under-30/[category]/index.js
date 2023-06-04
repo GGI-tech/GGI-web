@@ -59,7 +59,7 @@ function Popup({ currentProfile, setShowPopup }) {
 
 export default function Category({ category }) {
   const router = useRouter();
-  const categoryProfiles = profiles[category];
+  const categoryProfiles = profiles[category].persons;
   const [showPopup, setShowPopup] = useState(false);
   const [currentProfile, setCurrentProfile] = useState({});
 
@@ -71,7 +71,7 @@ export default function Category({ category }) {
         profile => profile.name === profileName
       );
       setCurrentProfile(currentProfile);
-      console.log("---------",currentProfile)
+      console.log("---------", currentProfile)
 
     }
   }, [router.query.profile]);
@@ -88,21 +88,32 @@ export default function Category({ category }) {
 
   return (
     <>
+      <div className='mt-12 md:mt-36 mx-5 lg:mx-auto lg:w-11/12 xl:w-5/6 grid grid-col-1 md:grid-cols-2 gap-10 md:gap-20'>
+        <div>
+          <h1 className='mt-48 uppercase roboto text-6xl sm:text-8xl lg:text-9xl text-black'>{profiles[category].title}</h1>
+          <p className='mt-12 text-center text-xl md:text-3xl'>{profiles[category].description}</p>
+        </div>
+        <div>
+          <img src={categoryProfiles[0].img} alt="" className="h-full w-full object-cover hover:shadow-lg hover:shadow-[#FF7F50] my-5" />
+          Some description can be added like in Forbes website
+        </div>
+      </div>
       <Container>
-        {/* <h1 className='mt-48 text-3xl'>{category}</h1> */}
-        <div className='my-12 mt-36 grid grid-cols-2 gap-10'>
+
+        <div className='mt-36 mb-12 grid grid-cols-2 gap-10'>
           {categoryProfiles.map(profile => (
             <div key={profile.name} className="hover:cursor-pointer">
               <a onClick={() => openPopup(profile.name)}>
                 <div className="h-[300px] md:h-[500px] w-full">
                   <img src={profile.img} alt="" className="h-full w-full object-cover hover:shadow-lg hover:shadow-[#FF7F50] my-5" />
                 </div>
-                <p className='text-center p-5 font-black text-2xl text-black uppercase'>{profile.age} | {profile.name}</p>
-                <p className='text-center text-lg'>{profile.occupation}</p>
+                <p className='text-center pt-4 uppercase text-black font-bold'>{profile.age} | {profile.occupation}</p>
+                <p className='text-center text-3xl font-black tracking-widest font-serif text-black'> {profile.name}</p>
               </a>
             </div>
           ))}
         </div>
+
 
         {showPopup && (
           <Popup
@@ -111,7 +122,7 @@ export default function Category({ category }) {
           />
         )}
       </Container>
-      <Footer/>
+      <Footer />
 
     </>
   );

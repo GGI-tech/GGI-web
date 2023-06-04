@@ -8,7 +8,7 @@ const GalleryImg = ({ socialImg, caption, link }) => {
       <div className='my-5 relative hover:text-[#FF7F50] hover:cursor-pointer h-[300px] w-[300px]  mx-auto sm:w-full lg:h-[500px]'>
         {/* Set a fixed height for the container element */}
         {/* You can adjust the height value to fit your design */}
-        
+
         <div className='hover:shadow-[#FF7F50] hover:shadow-xl h-full w-full'>
           <Image
             placeholder="blur"
@@ -19,8 +19,11 @@ const GalleryImg = ({ socialImg, caption, link }) => {
           />
         </div>
 
-        <p className='p-5 text-2xl md:text-3xl font-black uppercase '>{caption}</p>
+        <p className='p-5 text-2xl sm:text-4xl md:text-5xl roboto tracking-tight text-black uppercase hover:text-[#FF7F50]'>
+          {caption}
+        </p>
       </div>
+
     </Link>
   );
 };
