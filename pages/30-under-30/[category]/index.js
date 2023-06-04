@@ -85,7 +85,7 @@ export default function Category({ category }) {
       <div className='mt-36 w-11/12 mx-auto flex justify-center flex-wrap md:flex-nowrap flex-row gap-20'>
         <div className='md:w-1/2'>
           <Link href="/30-under-30">
-            <img src="/30u30logo.png" alt="30-under-30" className="mx-auto h-auto max-h-24 mt-5 mb-12 hover:shadow-lg hover:shadow-[#FF7F50]" />
+            <img src="/30u30logo.png" alt="30-under-30" className="mx-auto h-20 md:max-h-28 mt-5 mb-2 hover:cursor-pointer" />
           </Link>
           <h1 className='uppercase roboto text-center text-6xl sm:text-8xl xl:text-9xl text-black'>{profiles[category].title}</h1>
           <p className='mt-12 text-center text-xl md:text-3xl'>{profiles[category].description}</p>
