@@ -4,15 +4,12 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Container from '../../../components/global/Container'
 import Footer from '../../../components/global/Footer';
+import Link from 'next/link';
 
 function Popup({ currentProfile, setShowPopup }) {
-  const router = useRouter();
-  const category = router.query.category;
   const handleCloseClick = () => {
     setShowPopup(false);
-    router.push(`/30-under-30/${category}`);
   };
-
 
   return (
     <div className="fixed z-10 inset-0 overflow-y-auto">
@@ -23,7 +20,7 @@ function Popup({ currentProfile, setShowPopup }) {
         <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
         <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl lg:max-w-5xl sm:w-full ">
           <div className="px-4 py-5 sm:p-6">
-            <button className="absolute top-0 right-0 m-4 text-gray-700 hover:text-gray-900" onClick={handleCloseClick} >
+            <button className="absolute top-0 right-0 m-4 text-gray-700 hover:text-gray-900" onClick={handleCloseClick}>
               <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
                 <path
                   fillRule="evenodd"
@@ -56,12 +53,11 @@ function Popup({ currentProfile, setShowPopup }) {
   )
 }
 
-
 export default function Category({ category }) {
-  const router = useRouter();
   const categoryProfiles = profiles[category].persons;
   const [showPopup, setShowPopup] = useState(false);
   const [currentProfile, setCurrentProfile] = useState({});
+  const router = useRouter();
 
   useEffect(() => {
     if (router.query.profile) {
@@ -72,35 +68,35 @@ export default function Category({ category }) {
       );
       setCurrentProfile(currentProfile);
       console.log("---------", currentProfile)
-
     }
   }, [router.query.profile]);
 
   //to open popup with url parameters otherwise simple css would have worked
   function openPopup(profileName) {
-    router.push(
-      `/30-under-30/${category}?profile=${profileName}`,
-      undefined,
-      { shallow: true }
-    );
     setShowPopup(true);
+    const currentProfile = categoryProfiles.find(
+      profile => profile.name === profileName
+    );
+    setCurrentProfile(currentProfile);
   }
 
   return (
     <>
-      <div className='mt-12 md:mt-36 mx-5 lg:mx-auto lg:w-11/12 xl:w-5/6 grid grid-col-1 md:grid-cols-2 gap-10 md:gap-20'>
-        <div>
-          <h1 className='mt-48 uppercase roboto text-6xl sm:text-8xl lg:text-9xl text-black'>{profiles[category].title}</h1>
+      <div className='mt-36 w-11/12 mx-auto flex justify-center flex-wrap md:flex-nowrap flex-row gap-20'>
+        <div className='md:w-1/2'>
+          <Link href="/30-under-30">
+            <img src="/30u30logo.png" alt="30-under-30" className="mx-auto h-auto max-h-24 mt-5 mb-12 hover:shadow-lg hover:shadow-[#FF7F50]" />
+          </Link>
+          <h1 className='uppercase roboto text-center text-6xl sm:text-8xl xl:text-9xl text-black'>{profiles[category].title}</h1>
           <p className='mt-12 text-center text-xl md:text-3xl'>{profiles[category].description}</p>
         </div>
-        <div>
+        <div className='md:w-1/2'>
           <img src={categoryProfiles[0].img} alt="" className="h-full w-full object-cover hover:shadow-lg hover:shadow-[#FF7F50] my-5" />
-          Some description can be added like in Forbes website
+          {categoryProfiles[0].name} for Global Governance Initiative 30 under 30
         </div>
       </div>
       <Container>
-
-        <div className='mt-36 mb-12 grid grid-cols-2 gap-10'>
+        <div className='mt-36 mb-12 grid grid-cols-1 md:grid-cols-2 gap-10'>
           {categoryProfiles.map(profile => (
             <div key={profile.name} className="hover:cursor-pointer">
               <a onClick={() => openPopup(profile.name)}>
@@ -114,7 +110,6 @@ export default function Category({ category }) {
           ))}
         </div>
 
-
         {showPopup && (
           <Popup
             currentProfile={currentProfile}
@@ -123,7 +118,6 @@ export default function Category({ category }) {
         )}
       </Container>
       <Footer />
-
     </>
   );
 }
