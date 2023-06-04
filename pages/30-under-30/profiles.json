@@ -1,192 +1,210 @@
 {
-    "healthcare": [
+  "healthcare": {
+    "title": "STEM & Healthcare",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
       {
         "name": "Divja Bhasin",
-        "img":"/divija.jpeg",
+        "img": "/divija.jpeg",
         "age": 26,
         "occupation": "Psychologist, Content Creator",
         "location": "New York",
-        "description":"Divija Bhasin (AKA awkwardgoat3) is a Delhi based Psychologist who is also a content creator on Instagram. Her videos include informative topics like mental health, social issues, feminism to general light-hearted comedy. In a world of quacks, Divija&apos;s aim is to raise awareness among the misinformed public on the importance of proper professional treatment from qualified psychologists. For this, she has founded a mental health organisation called The Friendly Couch where she connects people to reliable therapists on her team. Qualifications - BA in Psychology Hons + MSc in Applied Clinical Psychology from University of Bath."
-
+        "description": "Divija Bhasin (AKA awkwardgoat3) is a Delhi based Psychologist who is also a content creator on Instagram. Her videos include informative topics like mental health, social issues, feminism to general light-hearted comedy. In a world of quacks, Divija&apos;s aim is to raise awareness among the misinformed public on the importance of proper professional treatment from qualified psychologists. For this, she has founded a mental health organisation called The Friendly Couch where she connects people to reliable therapists on her team. Qualifications - BA in Psychology Hons + MSc in Applied Clinical Psychology from University of Bath."
       },
       {
         "name": "Dr Tanaya Narendra",
-        "img":"/tanaya.jpg",
+        "img": "/tanaya.jpg",
         "age": 29,
         "occupation": "Doctor",
         "location": "San Francisco",
-        "description":"For her ground breaking work in medical education, Dr. Tanaya has been awarded Sexual Health Influencer of the Year 2020 by SH24 - the online sexual health partner of the NHS, Top 25 Disruptors of India 2021 by Cosmopolitan Magazine, and Health Influencer Of The Year by the IHW Council, supported by the Niti Ayog and Ayushman Bharat. In December 2022, Dr. Tanaya launched  her debut book with Penguin Random House India, that became an instant bestseller, on basic sexual education and body literacy for everyone."
-
+        "description": "For her ground breaking work in medical education, Dr. Tanaya has been awarded Sexual Health Influencer of the Year 2020 by SH24 - the online sexual health partner of the NHS, Top 25 Disruptors of India 2021 by Cosmopolitan Magazine, and Health Influencer Of The Year by the IHW Council, supported by the Niti Ayog and Ayushman Bharat. In December 2022, Dr. Tanaya launched  her debut book with Penguin Random House India, that became an instant bestseller, on basic sexual education and body literacy for everyone."
       },
       {
-        "name":"Dr Manan Vora ",
-        "img":"/drmanan.jpg",
-        "age":30,
-        "occupation":"Sportsman | Physician",
-        "location":"",
-        "description":"Born and brought up in Mumbai, Dr Manan has been an avid sportsman and competed at the national and state level in cricket, football, and lawn tennis.<br><br> After completing medical school and surgical residency in Orthopaedics from Mumbai, he went on to pursue his Diploma in Sports Medicine from the International Olympic Committee, Switzerland and Masters in Surgery (M.Ch Orth) from the University of Edinburgh, and Royal College of Surgeons, Edinburgh, UK. He has also completed multiple fellowships in Sports Medicine (SICOT), Sports Radiology, and Pain Medicine, as well as a Diploma in Football Medicine.<br><br>His passion for sport and desire to be a doctor led him to his profession as an Orthopaedic and Sports Medicine Specialist. He has been the sports doctor at various All India Tennis Association tournaments in Mumbai. He was the venue doctor of the IFCS Climbing World Cup, 2016, Hero Intercontinental Football Cup, organised by All India Football Federation (AIFF) in 2018, and Badminton Premier League 2018-2019. Currently, he is also serving as the Orthopaedic and Team Physician of RoundGlass Punjab Football Club in the I-League."
+        "name": "Dr Manan Vora ",
+        "img": "/drmanan.jpg",
+        "age": 30,
+        "occupation": "Sportsman | Physician",
+        "location": "",
+        "description": "Born and brought up in Mumbai, Dr Manan has been an avid sportsman and competed at the national and state level in cricket, football, and lawn tennis.<br><br> After completing medical school and surgical residency in Orthopaedics from Mumbai, he went on to pursue his Diploma in Sports Medicine from the International Olympic Committee, Switzerland and Masters in Surgery (M.Ch Orth) from the University of Edinburgh, and Royal College of Surgeons, Edinburgh, UK. He has also completed multiple fellowships in Sports Medicine (SICOT), Sports Radiology, and Pain Medicine, as well as a Diploma in Football Medicine.<br><br>His passion for sport and desire to be a doctor led him to his profession as an Orthopaedic and Sports Medicine Specialist. He has been the sports doctor at various All India Tennis Association tournaments in Mumbai. He was the venue doctor of the IFCS Climbing World Cup, 2016, Hero Intercontinental Football Cup, organised by All India Football Federation (AIFF) in 2018, and Badminton Premier League 2018-2019. Currently, he is also serving as the Orthopaedic and Team Physician of RoundGlass Punjab Football Club in the I-League."
       },
       {
-        "name":"Smriti Mishra",
-        "img":"/Smriti.jpg",
-        "age":26,
-        "occupation":"",
-        "location":"",
-        "description":"A LinkedIn Top Voice for Tech and Innovation in 2022, Smriti Mishra is a technologist, AI speaker, mentor and AI & Data Science Leader.<br><br> She was nominated one of the finalists at the Nordic Women in Tech Awards in the Rising Star of the Year 2021 for exceptional creativity or ability within the industry. With a background in artificial intelligence, signal processing, startups and leadership, her career expands over several industries including green tech, healthcare, and finance. <br><br> Smriti is also a Google Accelerator Mentor where she is working towards helping startups grow and improve their products/ services. Smriti is also currently the director at AI4Diversity which is the world's largest nonprofit initiative that engages and educates diverse communities about AI. <br><br>Smriti also worked as the head of artificial intelligence at Earthbanc working towards using her knowledge of AI to contribute towards several sustainable development goals. She also contributes towards community learning through her blogs, LinkedIn, mentoring and speaking events. She also contributes towards removing gender parity in technology through Google Developers Women Tech Makers and Female tech makers magazine "
+        "name": "Smriti Mishra",
+        "img": "/Smriti.jpg",
+        "age": 26,
+        "occupation": "Technologist | AI speaker | Mentor | Linkedin Top Voice 2022",
+        "location": "",
+        "description": "A LinkedIn Top Voice for Tech and Innovation in 2022, Smriti Mishra is a technologist, AI speaker, mentor and AI & Data Science Leader.<br><br> She was nominated one of the finalists at the Nordic Women in Tech Awards in the Rising Star of the Year 2021 for exceptional creativity or ability within the industry. With a background in artificial intelligence, signal processing, startups and leadership, her career expands over several industries including green tech, healthcare, and finance. <br><br> Smriti is also a Google Accelerator Mentor where she is working towards helping startups grow and improve their products/ services. Smriti is also currently the director at AI4Diversity which is the world's largest nonprofit initiative that engages and educates diverse communities about AI. <br><br>Smriti also worked as the head of artificial intelligence at Earthbanc working towards using her knowledge of AI to contribute towards several sustainable development goals. She also contributes towards community learning through her blogs, LinkedIn, mentoring and speaking events. She also contributes towards removing gender parity in technology through Google Developers Women Tech Makers and Female tech makers magazine "
       },
       {
-        "name":"Aditya Vivek Thota",
-        "img":"/Adityaswe.jpg",
-        "age":24,
-        "occupation":"Fullstack Engineer | Solopreneur | Linkedin Top Voice 2020 | Tech Content Creator",
-        "location":"",
-        "description":"Aditya is a full-stack software engineer who loves building products, creating content, and exploring AI research. <br><br> He is an aspiring solopreneur and he likes democratizing access to tech, education and AI by spreading awareness through content. He also runs a technology publication on Medium called The Research Nest that focuses mainly on the above topics. <br><br> He has been recognized as a LinkedIn Top Voice in 2020 for his content and thought leadership. Prior to that, he has also been a top writer on Medium. <br><br>   In his free time, you can find him blogging online, writing poetry, or building stuff with code on the internet. Most recently, he created Techflix (the Netflix for software engineering content).<br><br>  He lives by the motto: 'If you ask me a question and I don't know the answer, I'm gonna tell you that I don't know, but I bet you what? I know how to find the answer, and I will find the answer' (The Pursuit of Happyness).<br><br> He believes anything can be learned with the right mindset, curiosity and persistence.<br><br> "
-      }
-
-    ],
-
-    "education":[
-  
-      {
-        "name":"Emily Durham",
-        "img": "/emily1.png",
-        "age":27,
-        "occupation":"Career Content Creator | Public Speaker and Senior Recruiter",
-        "location":"Toronto ON",
-        "description":" Emily Durham, AKA Emily The Recruiter is a Career Content Creator, Public Speaker and Senior Recruiter with a mission of making careers education accessible, authentic and fun. Emily&apos;s content is designed to help viewers thrive in their 9 to 5 and beyond; offering raw insights on topics like job search, promotions and self-advocacy. With a reach of over 3 million across Instagram, TikTok, YouTube and her podcast, The Straight Shooter Recruiter, Emily has innovated and changed the way her viewers approach careers, confidence and professional growth. "
-
-      },
-      {
-        "name":"Zeel Shah Daxini",
-        "img": "/zeel.jpg",
-        "age":27,
-        "occupation":"Career Content Creator | Public Speaker and Senior Recruiter",
-        "location":"Toronto ON",
-        "description":" Zeel is an experienced and qualified career and college counselor with a passion for guiding students towards exploring various career paths. Currently pursuing her MBA in Australia with her International Career and College Counseling certificate and QEAC (Australia) certification, she has had the opportunity to assist over 5000 students from India, Dubai, Pakistan, Canada, and the United States) in finding their ideal careers. Zeel&apos;s dedication to helping students has led her to be a trusted advisor and mentor, providing guidance and support to students through the entire career decision-making process. Her vast knowledge and expertise in the field have enabled her to provide personalized and tailored advice to each student, ensuring their individual needs and goals are met. She is committed to making a positive impact on the lives of young individuals by helping them make informed decisions about their futures and bring awareness about different careers amongst parents in India and motivate women to go into STEM."
-
-      }
-    ],
-    "marketing":[
-      {
-        "name":"Sahiba Bali",
-        "img":"/sahiba.jpg",
-        "age":28,
-        "occupation":"Actor, Content Creator, Marketeer",
-        "location":"Gurgaon",
-        "description":"Sahiba Bali wears many hats- she is not only an actor having worked with Imtiaz Ali in movies or with shows on Netflix and Sony Liv but also a marketeer having lead marketing projects at Zomato for 4 years and then as Associate Director at an ed-tech firm. Moreover she is a content creator who loves travelling, food and wellness. This mindset, together with her persistence in achieving her goals was the key to bringing her the success she is enjoying today. She is one of the most trending Indian woman on YouTube currently. Before all this she graduated in Economics from Delhi University and went to Business School for post grad in UK, and later Oxford University."
-
-      },
-      {
-        "name":"Neha Puri",
-        "img":"/neha.jpg",
-        "age":30,
-        "occupation":"Founder VAVO Digital & Cyber Chef",
-        "location":"Mumbai",
-        "description":"Neha Puri, a multi-startup founder, has made a name for herself in the entrepreneurial world by creating solutions to problems that arise from distress and unforeseen circumstances. Her journey began with the launch of &apos;Cyber Chef,&apos; a food delivery platform, when she was only 24 years old. After operating it for two years, she sold the business to pursue her interest in marketing and operations. Neha then worked as the head of franchise and business development for Movenpick ice cream India, where she played a pivotal role in opening eight Movenpick stores in India in just six months. Neha&apos;s visionary zeal and talent have led her to create VAVO Digital, a dynamic influencer marketing space that connects brands with the right influencers to create authentic content that drives engagement and boosts brand awareness. Her entrepreneurial journey has been marked by a passion for problem-solving and a drive to make a difference in the world of marketing and business development."
-      }
-    
-    ],
-    "social-impact":[
-      {
-        "name":"Chethan Manchegowda",
-        "img":"/chethan.jpg",
-        "age":23,
-        "occupation":"Founder at Khoon, Senior Associate at GoSports Foundation",
-        "location":"Bengaluru",
-        "description":"Chethan is a social rights and health activist from India. He spent most of his childhood in the social sector. Due to an incident wherein, he lost his teacher as she could not procure blood at the right time, he started his own organization titled Khoon an organization with an aim to make sure nobody dies due to the unavailability of blood. His efforts to make the society better made him the &apos;Most Impactful&apos; person in the social sector in India under the age of 21 awarded by Youth For Seva, a TEDx speaker and the Human Excellence Awardee in Healthcare"
-
-      },
-      {
-        "name":"Rory Moores",
-        "img":"/rory.jpg",
-        "age":21,
-        "occupation":"Forbes 30 under 30 | Global Shaper for WEF | Fellow of the Royal Society of Arts | Advises Fortune 500 companies on CSR and ESG strategy",
-        "location":"",
-        "description":"Rory is an award-winning entrepreneur and campaigner. Whilst studying at the London School of Economics, he created the world’s largest Covid-19 volunteering network with 50,000 users in 40 countries, and has received recognition for his work from the United Nations, UK Government, and the OECD. <br><br>He was listed in Forbes 30 under 30, and was appointed by the Prime Minister of the United Kingdom to advise the Government on volunteering strategy.<br><br>He also received the Martin Luther King Award for his campaign work in the UK Youth Parliament, and was appointed as a Global Shaper for the World Economic Forum and a Fellow of the Royal Society of Arts. He regularly speaks about his work at events around the world, as well as advising Fortune 500 companies on CSR and ESG strategy."
-      },
-      {
-        "name":"Lathika Mouli",
-        "img":"/Lathika.png",
-        "age":27,
-        "occupation":"Sustainability Solutions Consultant",
-        "location":"Singapore",
-        "description":"Lathika is a Sustainability Solutions Consultant at ENGIE Impact, where she supports public and private sector organizations craft and deliver on their sustainability strategy including energy, emissions, and waste. She is also an UNLEASH Ambassador in Singapore and Southeast Asia, where she is responsible for community building and providing youth in the region with tools and resources to accelerate innovation for the UN SDGs, and a Global Shaper at the Singapore Hub.  Prior to joining ENGIE Impact, Lathika worked as a Business Development Manager at Vertech Capital, where her focus was on facilitating investments into clean technologies and projects across APAC.  Before that, Lathika led business development strategies for a renewable energy start-up in Shanghai, where she focused on digital solutions for solar microgrids and electric vehicles (EVs). In 2018 she was listed as one of twelve winners of the UN Environment&apos;s Asia Pacific Low Carbon Lifestyles Challenge, and she is a Leader of Tomorrow at the St.Gallen Symposium for her work in the climate space.  She is passionate about using emerging technologies to make cities more sustainable, safe, and inclusive."
-
-      },
-      {
-        "name":"Tanya Marwaha ",
-        "img":"/tanyamarvaha.png",
-        "age":21,
-        "occupation":"Mental Health Activist",
-        "location":"",
-        "description":"Tanya is an award-winning young person that pioneered youth mental health awareness during the pandemic from her bedroom by founding youth-led peer community, Championing Youth Minds.<br><br> She has struggled with her mental health from a young age after developing long-term disabilities, Fibromyalgia and Ehlers-Danlos Syndrome. She shares her lived experience to raise awareness and influence policy about non-visible disabilities in society, especially the workplace.<br><br> Navigating mental health support as a young South Asian female has especially been a challenge due to the stigma attached to mental health. She advocates for mental health education for young people and empowers others to care for their wellbeing. <br><br>She is a part of the Baton of Hope UK, a national campaign working towards a zero-suicide society where she lead the Education Charter and Diversity and Inclusion."
-      },
-      {
-        "name":"Titilope Adedokun",
-        "img":"/titilope.jpg",
-        "age":23,
-        "occupation":"Lawyer | Content Creator | Social Entrepreneur",
-        "location":"",
-        "description":"Titilope Adedokun is a lawyer, content creator, and social entrepreneur who is passionate about the intersection of social impact, business and technology. She is also passionate about the empowerment of young people, particularly young women.<br><br>In 2021, she founded Sisterly HQ, a platform empowering Nigerian women with the community to tell their stories their way, and connecting them with opportunities and resources.<br><br>Through digital storytelling, Sisterly HQ is increasing the representation of Nigerian women through and in the media. And, by curating opportunities and resources for women, Sisterly HQ is shattering the glass ceiling of discrimination and exclusion faced by women in the pursuit of their goals.<br><br> Titilope is a two-time LinkedIn Top Voice in gender equity, and was awarded the 25Under25 Global Legacy Award by Common Purpose in March 2023. She also represented Nigeria in the Fora Network for Change Global Summit in 2022."
-      },
-      {
-        "name":"Chizulu Uwolloh",
-        "img":"/chizulu.jpg",
-        "age":24,
-        "occupation":"International Development | Non Profit | Sustainable Development",
-        "location":"Nigeria",
-        "description":"Chizulu Uwolloh has over two years of experience in the international development sector. She has worked with non-profit organizations and social impact projects to deliver programs in Nigeria and internationally. <br><br>‘Zulu holds a Bachelor of Laws from the University of Lagos and the Nigerian Law School. She works as a Program Assistant at Ford Foundation with a focus on the programmatic areas, Gender, Racial and Ethnic Justice, and Natural Resources and Climate Change. <br><br>With a strong passion for SDGs, she is particularly interested in the engagement of youth as not just beneficiaries, but active stakeholders and architects in the achievement of the 2030 Agenda. In 2022, ‘Zulu founded Kurerie, a youth-led and focused digital platform, and global community focused on educating young people on social impact issues and the actions they can take to make an impact. Through The Kurerie Podcast, 'Zulu interviews young leaders with impact projects that are making a change in their communities."
-      }
-    ],
-    "finance":[
-      {
-        "name":"Subham Rajgaria",
-        "img":"/subham.jpeg",
-        "age":25,
-        "occupation":"Incoming MBA Candidate, HBS | Ex-Westbridge Capital | Ex-McKinsey & Co. | IIT KGP",
-        "location":"Singapore",
-        "description":"Born and raised in Kolkata, Subham attributes his achievements to the unwavering support and inspiration from his parents, who ensured he received the best education possible.<br><br> Subham&apos;s journey took a significant turn when he secured a seat at the prestigious IIT Kharagpur to study computer science. While gaining a comprehensive understanding of various technologies, Subham discovered his passion for the intersection of business and technology. This led him to pursue a career at McKinsey and Co, where he honed his communication, presentation, and analytical skills.<br><br> With his newfound expertise, Subham transitioned to an investing role at WestBridge Capital, focusing on evaluating companies primarily in the SaaS and consumer technology sectors. His time at WestBridge further enriched his knowledge and provided invaluable experience in the world of investments.<br><br>Driven by a thirst for continuous growth and learning, Subham decided to pursue an MBA. His dedication and efforts paid off, as he secured admission to Harvard Business School, where he will embark on a new chapter starting in August 2023. Subham&apos;s journey exemplifies the power of perseverance, passion, and seizing opportunities. "
-
-      }
-    ],
-    "entrepreneurs":[
-      {
-        "name":"Supriya Paul",
-        "img":"/supriya.jpg",
-        "age":29,
-        "occupation":"CEO & Co-Founder of Josh Talks | Advisor Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF's Leadership Council, the Founder Institute, Women Economic Forum.",
-        "location":"",
-        "description":"Supriya Paul is the CEO & Co-Founder of Josh Talks, India&apos;s leading regional content and upskilling platform. She started Josh Talks with Shobhit Banga in 2015 with a vision to make learning accessible and affordable for all.<br><br> Today, Josh Talks runs India&apos;s largest network of non-entertainment channels on YouTube where they have 19 active channels in 10 languages. Their content is viewed more than 180 million times every month while their Android app has over 6 Million downloads.<br><br>In addition to the above, Supriya serves as an advisor and mentor to several notable platforms, including Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF&apos;s Leadership Council, the Founder Institute and the Women Economic Forum. "
-      }
-    ],
-    "artists":[
-      {
-        "name":"Avanti Nagral",
-        "img":"/avanti.jpg",
-        "age":22,
-        "occupation":"Pop Singer | Content Creator",
-        "location":"",
-        "description":"Avanti Nagral is a pop singer & content creator on a mission to create songs, stories and conversations that challenge societal norms. <br><br>The singer draws inspiration from her background in Indian Classical, Broadway, and Gospel music. Avanti&appos;s discography spans Hindi, English pop and soulful acoustic sounds from around the world. From originals to collaborations, she&apos;s creating coming-of-age pop that is impact-driven. She has successfully built a community of extremely engaged empathetic young folks where she spends time nurturing young talent, hosts health-related sessions with experts, skill-based workshops and education/career chats.<br><br>Avanti has amassed an engaged community, the &apos;Avantribe&apos;, 1M+ with 400M+ views across platforms and was the first in the world to do a dual degree at Harvard University and the Berklee College of Music."
-      }
-    ],
-    "sports":[
-      {
-        "name":"Rani Rampal",
-        "img":"/ranirampal.jpg",
-        "age":28,
-        "occupation":"Captain, Indian Hockey Tean",
-        "location":"",
-        "description":"Rani Rampal is an Indian field hockey player who captains the Indian women&apos;s national team. She is a striker and is known for her speed, dribbling skills, and powerful shots. Rampal has been a member of the national team since 2008 and has represented India at the 2010, 2014, and 2018 World Cups, as well as the 2012, 2016, and 2020 Summer Olympics. She is the first Indian woman to win the FIH Player of the Year award in 2016.<br><br> She started playing hockey at the age of 10 and quickly rose through the ranks of the national team. She made her senior international debut in 2008 at the age of 14, becoming the youngest player to ever represent India in a major international tournament.<br><br> Rampal has been a key member of the Indian team for the past decade. She has helped the team win several medals at major international tournaments, including a silver medal at the 2014 Asian Games and a bronze medal at the 2018 Asian Games. She also led the team to a fourth-place finish at the 2020 Summer Olympics, India's best-ever finish in the women's hockey tournament.<br><br> Rampal is a role model for young women in India and around the world. She is an inspiration to aspiring athletes and is a powerful advocate for gender equality. She is also a strong advocate for education and has spoken out about the importance of education for girls and women.<br><br>Rampal is a true champion and a national icon. She is a role model for young women and an inspiration to all. She is a credit to India and to the sport of hockey.<br><br> Some of Rani Rampal's achievements: FIH Player of the Year (2016), Arjuna Award (2014, Padma Shri (2019), Khel Ratna Award (2020), Bronze medal at the 2014 Asian Games, Silver medal at the 2018 Asian Games and Fourth place at the 2020 Summer Olympics. "
-      },
-      {
-        "name":"Deepak Punia",
-        "img":"/deepakpuniya.jpg",
-        "age":23,
-        "occupation":"Wrestler | World Wrestling Championship winner | Commonwealth Silver Medalist | JCO at Indian Army",
-        "location":"India",
-        "description":"Deepak Punia competes in 86kg in freestyle wrestling and is a Junior Commissioned Officer in the Indian Army. <br><br>He finished 4th at the 2020 Tokyo Olympics after narrowly losing his bronze medal bout. He brought laurels to his country by winning a silver medal at the 2019 World Wrestling Championships, and a gold medal at the 2022 Commonwealth Games in Birmingham.<br><br>He is also a two-time medallist at the World Junior Wrestling Championships and won multiple medals at the Asian Championship. "
+        "name": "Aditya Vivek Thota",
+        "img": "/Adityaswe.jpg",
+        "age": 24,
+        "occupation": "Fullstack Engineer | Solopreneur | Linkedin Top Voice 2020 | Tech Content Creator",
+        "location": "",
+        "description": "Aditya is a full-stack software engineer who loves building products, creating content, and exploring AI research. <br><br> He is an aspiring solopreneur and he likes democratizing access to tech, education and AI by spreading awareness through content. He also runs a technology publication on Medium called The Research Nest that focuses mainly on the above topics. <br><br> He has been recognized as a LinkedIn Top Voice in 2020 for his content and thought leadership. Prior to that, he has also been a top writer on Medium. <br><br>   In his free time, you can find him blogging online, writing poetry, or building stuff with code on the internet. Most recently, he created Techflix (the Netflix for software engineering content).<br><br>  He lives by the motto: 'If you ask me a question and I don't know the answer, I'm gonna tell you that I don't know, but I bet you what? I know how to find the answer, and I will find the answer' (The Pursuit of Happyness).<br><br> He believes anything can be learned with the right mindset, curiosity and persistence.<br><br> "
       }
     ]
-
+  },
+  "education": {
+    "title": "Education",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
+      {
+        "name": "Emily Durham",
+        "img": "/emily1.png",
+        "age": 27,
+        "occupation": "Career Content Creator | Public Speaker and Senior Recruiter",
+        "location": "Toronto ON",
+        "description": " Emily Durham, AKA Emily The Recruiter is a Career Content Creator, Public Speaker and Senior Recruiter with a mission of making careers education accessible, authentic and fun. Emily&apos;s content is designed to help viewers thrive in their 9 to 5 and beyond; offering raw insights on topics like job search, promotions and self-advocacy. With a reach of over 3 million across Instagram, TikTok, YouTube and her podcast, The Straight Shooter Recruiter, Emily has innovated and changed the way her viewers approach careers, confidence and professional growth. "
+      },
+      {
+        "name": "Zeel Shah Daxini",
+        "img": "/zeel.jpg",
+        "age": 27,
+        "occupation": "Career Counseling | MBA International Career and College Counseling ",
+        "location": "Toronto ON",
+        "description": " Zeel is an experienced and qualified career and college counselor with a passion for guiding students towards exploring various career paths. Currently pursuing her MBA in Australia with her International Career and College Counseling certificate and QEAC (Australia) certification, she has had the opportunity to assist over 5000 students from India, Dubai, Pakistan, Canada, and the United States) in finding their ideal careers. Zeel&apos;s dedication to helping students has led her to be a trusted advisor and mentor, providing guidance and support to students through the entire career decision-making process. Her vast knowledge and expertise in the field have enabled her to provide personalized and tailored advice to each student, ensuring their individual needs and goals are met. She is committed to making a positive impact on the lives of young individuals by helping them make informed decisions about their futures and bring awareness about different careers amongst parents in India and motivate women to go into STEM."
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
+      {
+        "name": "Sahiba Bali",
+        "img": "/sahiba.jpg",
+        "age": 28,
+        "occupation": "Actor, Content Creator, Marketeer",
+        "location": "Gurgaon",
+        "description": "Sahiba Bali wears many hats- she is not only an actor having worked with Imtiaz Ali in movies or with shows on Netflix and Sony Liv but also a marketeer having lead marketing projects at Zomato for 4 years and then as Associate Director at an ed-tech firm. Moreover she is a content creator who loves travelling, food and wellness. This mindset, together with her persistence in achieving her goals was the key to bringing her the success she is enjoying today. She is one of the most trending Indian woman on YouTube currently. Before all this she graduated in Economics from Delhi University and went to Business School for post grad in UK, and later Oxford University."
+      },
+      {
+        "name": "Neha Puri",
+        "img": "/neha.jpg",
+        "age": 30,
+        "occupation": "Founder VAVO Digital & Cyber Chef",
+        "location": "Mumbai",
+        "description": "Neha Puri, a multi-startup founder, has made a name for herself in the entrepreneurial world by creating solutions to problems that arise from distress and unforeseen circumstances. Her journey began with the launch of &apos;Cyber Chef,&apos; a food delivery platform, when she was only 24 years old. After operating it for two years, she sold the business to pursue her interest in marketing and operations. Neha then worked as the head of franchise and business development for Movenpick ice cream India, where she played a pivotal role in opening eight Movenpick stores in India in just six months. Neha&apos;s visionary zeal and talent have led her to create VAVO Digital, a dynamic influencer marketing space that connects brands with the right influencers to create authentic content that drives engagement and boosts brand awareness. Her entrepreneurial journey has been marked by a passion for problem-solving and a drive to make a difference in the world of marketing and business development."
+      }
+    ]
+  },
+  "social-impact": {
+    "title": "Social Impact",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
+      {
+        "name": "Chethan Manchegowda",
+        "img": "/chethan.jpg",
+        "age": 23,
+        "occupation": "Founder at Khoon, Senior Associate at GoSports Foundation",
+        "location": "Bengaluru",
+        "description": "Chethan is a social rights and health activist from India. He spent most of his childhood in the social sector. Due to an incident wherein, he lost his teacher as she could not procure blood at the right time, he started his own organization titled Khoon an organization with an aim to make sure nobody dies due to the unavailability of blood. His efforts to make the society better made him the &apos;Most Impactful&apos; person in the social sector in India under the age of 21 awarded by Youth For Seva, a TEDx speaker and the Human Excellence Awardee in Healthcare"
+      },
+      {
+        "name": "Rory Moores",
+        "img": "/rory.jpg",
+        "age": 21,
+        "occupation": "Forbes 30 under 30 | Global Shaper for WEF | Fellow of the Royal Society of Arts | Advises Fortune 500 companies on CSR and ESG strategy",
+        "location": "",
+        "description": "Rory is an award-winning entrepreneur and campaigner. Whilst studying at the London School of Economics, he created the world’s largest Covid-19 volunteering network with 50,000 users in 40 countries, and has received recognition for his work from the United Nations, UK Government, and the OECD. <br><br>He was listed in Forbes 30 under 30, and was appointed by the Prime Minister of the United Kingdom to advise the Government on volunteering strategy.<br><br>He also received the Martin Luther King Award for his campaign work in the UK Youth Parliament, and was appointed as a Global Shaper for the World Economic Forum and a Fellow of the Royal Society of Arts. He regularly speaks about his work at events around the world, as well as advising Fortune 500 companies on CSR and ESG strategy."
+      },
+      {
+        "name": "Lathika Chandra Mouli",
+        "img": "/Lathika.png",
+        "age": 27,
+        "occupation": "Sustainability Solutions Consultant",
+        "location": "Singapore",
+        "description": "Lathika is a Sustainability Solutions Consultant at ENGIE Impact, where she supports public and private sector organizations craft and deliver on their sustainability strategy including energy, emissions, and waste. She is also an UNLEASH Ambassador in Singapore and Southeast Asia, where she is responsible for community building and providing youth in the region with tools and resources to accelerate innovation for the UN SDGs, and a Global Shaper at the Singapore Hub.  Prior to joining ENGIE Impact, Lathika worked as a Business Development Manager at Vertech Capital, where her focus was on facilitating investments into clean technologies and projects across APAC.  Before that, Lathika led business development strategies for a renewable energy start-up in Shanghai, where she focused on digital solutions for solar microgrids and electric vehicles (EVs). In 2018 she was listed as one of twelve winners of the UN Environment&apos;s Asia Pacific Low Carbon Lifestyles Challenge, and she is a Leader of Tomorrow at the St.Gallen Symposium for her work in the climate space.  She is passionate about using emerging technologies to make cities more sustainable, safe, and inclusive."
+      },
+      {
+        "name": "Tanya Marwaha ",
+        "img": "/tanyamarvaha.png",
+        "age": 21,
+        "occupation": "Mental Health Activist",
+        "location": "",
+        "description": "Tanya is an award-winning young person that pioneered youth mental health awareness during the pandemic from her bedroom by founding youth-led peer community, Championing Youth Minds.<br><br> She has struggled with her mental health from a young age after developing long-term disabilities, Fibromyalgia and Ehlers-Danlos Syndrome. She shares her lived experience to raise awareness and influence policy about non-visible disabilities in society, especially the workplace.<br><br> Navigating mental health support as a young South Asian female has especially been a challenge due to the stigma attached to mental health. She advocates for mental health education for young people and empowers others to care for their wellbeing. <br><br>She is a part of the Baton of Hope UK, a national campaign working towards a zero-suicide society where she lead the Education Charter and Diversity and Inclusion."
+      },
+      {
+        "name": "Titilope Adedokun",
+        "img": "/titilope.jpg",
+        "age": 23,
+        "occupation": "Lawyer | Content Creator | Social Entrepreneur",
+        "location": "",
+        "description": "Titilope Adedokun is a lawyer, content creator, and social entrepreneur who is passionate about the intersection of social impact, business and technology. She is also passionate about the empowerment of young people, particularly young women.<br><br>In 2021, she founded Sisterly HQ, a platform empowering Nigerian women with the community to tell their stories their way, and connecting them with opportunities and resources.<br><br>Through digital storytelling, Sisterly HQ is increasing the representation of Nigerian women through and in the media. And, by curating opportunities and resources for women, Sisterly HQ is shattering the glass ceiling of discrimination and exclusion faced by women in the pursuit of their goals.<br><br> Titilope is a two-time LinkedIn Top Voice in gender equity, and was awarded the 25Under25 Global Legacy Award by Common Purpose in March 2023. She also represented Nigeria in the Fora Network for Change Global Summit in 2022."
+      },
+      {
+        "name": "Chizulu Uwolloh",
+        "img": "/chizulu.jpg",
+        "age": 24,
+        "occupation": "International Development | Non Profit | Sustainable Development",
+        "location": "Nigeria",
+        "description": "Chizulu Uwolloh has over two years of experience in the international development sector. She has worked with non-profit organizations and social impact projects to deliver programs in Nigeria and internationally. <br><br>‘Zulu holds a Bachelor of Laws from the University of Lagos and the Nigerian Law School. She works as a Program Assistant at Ford Foundation with a focus on the programmatic areas, Gender, Racial and Ethnic Justice, and Natural Resources and Climate Change. <br><br>With a strong passion for SDGs, she is particularly interested in the engagement of youth as not just beneficiaries, but active stakeholders and architects in the achievement of the 2030 Agenda. In 2022, ‘Zulu founded Kurerie, a youth-led and focused digital platform, and global community focused on educating young people on social impact issues and the actions they can take to make an impact. Through The Kurerie Podcast, 'Zulu interviews young leaders with impact projects that are making a change in their communities."
+      }
+    ]
+  },
+  "finance": {
+    "title": "Finance",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
+      {
+        "name": "Subham Rajgaria",
+        "img": "/subham.jpeg",
+        "age": 25,
+        "occupation": "Incoming MBA Candidate, HBS | Ex-Westbridge Capital | Ex-McKinsey & Co. | IIT KGP",
+        "location": "Singapore",
+        "description": "Born and raised in Kolkata, Subham attributes his achievements to the unwavering support and inspiration from his parents, who ensured he received the best education possible.<br><br> Subham&apos;s journey took a significant turn when he secured a seat at the prestigious IIT Kharagpur to study computer science. While gaining a comprehensive understanding of various technologies, Subham discovered his passion for the intersection of business and technology. This led him to pursue a career at McKinsey and Co, where he honed his communication, presentation, and analytical skills.<br><br> With his newfound expertise, Subham transitioned to an investing role at WestBridge Capital, focusing on evaluating companies primarily in the SaaS and consumer technology sectors. His time at WestBridge further enriched his knowledge and provided invaluable experience in the world of investments.<br><br>Driven by a thirst for continuous growth and learning, Subham decided to pursue an MBA. His dedication and efforts paid off, as he secured admission to Harvard Business School, where he will embark on a new chapter starting in August 2023. Subham&apos;s journey exemplifies the power of perseverance, passion, and seizing opportunities. "
+      }
+    ]
+  },
+  "entrepreneurs": {
+    "title": "Entrepreneurs",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
+      {
+        "name": "Supriya Paul",
+        "img": "/supriya.jpg",
+        "age": 29,
+        "occupation": "CEO & Co-Founder of Josh Talks | Advisor Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF's Leadership Council, the Founder Institute, Women Economic Forum.",
+        "location": "",
+        "description": "Supriya Paul is the CEO & Co-Founder of Josh Talks, India&apos;s leading regional content and upskilling platform. She started Josh Talks with Shobhit Banga in 2015 with a vision to make learning accessible and affordable for all.<br><br> Today, Josh Talks runs India&apos;s largest network of non-entertainment channels on YouTube where they have 19 active channels in 10 languages. Their content is viewed more than 180 million times every month while their Android app has over 6 Million downloads.<br><br>In addition to the above, Supriya serves as an advisor and mentor to several notable platforms, including Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF&apos;s Leadership Council, the Founder Institute and the Women Economic Forum. "
+      }
+    ]
+  },
+  "artists": {
+    "title": "Artists",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
+      {
+        "name": "Avanti Nagral",
+        "img": "/avanti.jpg",
+        "age": 22,
+        "occupation": "Pop Singer | Content Creator",
+        "location": "",
+        "description": "Avanti Nagral is a pop singer & content creator on a mission to create songs, stories and conversations that challenge societal norms. <br><br>The singer draws inspiration from her background in Indian Classical, Broadway, and Gospel music. Avanti&appos;s discography spans Hindi, English pop and soulful acoustic sounds from around the world. From originals to collaborations, she&apos;s creating coming-of-age pop that is impact-driven. She has successfully built a community of extremely engaged empathetic young folks where she spends time nurturing young talent, hosts health-related sessions with experts, skill-based workshops and education/career chats.<br><br>Avanti has amassed an engaged community, the &apos;Avantribe&apos;, 1M+ with 400M+ views across platforms and was the first in the world to do a dual degree at Harvard University and the Berklee College of Music."
+      }
+    ]
+  },
+  "sports": {
+    "title": "Sports",
+    "description":"Description - Lorem Ipsum askdj jkasd",
+    "persons": [
+      {
+        "name": "Rani Rampal",
+        "img": "/ranirampal.jpg",
+        "age": 28,
+        "occupation": "Captain, Indian Hockey Tean",
+        "location": "",
+        "description": "Rani Rampal is an Indian field hockey player who captains the Indian women&apos;s national team. She is a striker and is known for her speed, dribbling skills, and powerful shots. Rampal has been a member of the national team since 2008 and has represented India at the 2010, 2014, and 2018 World Cups, as well as the 2012, 2016, and 2020 Summer Olympics. She is the first Indian woman to win the FIH Player of the Year award in 2016.<br><br> She started playing hockey at the age of 10 and quickly rose through the ranks of the national team. She made her senior international debut in 2008 at the age of 14, becoming the youngest player to ever represent India in a major international tournament.<br><br> Rampal has been a key member of the Indian team for the past decade. She has helped the team win several medals at major international tournaments, including a silver medal at the 2014 Asian Games and a bronze medal at the 2018 Asian Games. She also led the team to a fourth-place finish at the 2020 Summer Olympics, India's best-ever finish in the women's hockey tournament.<br><br> Rampal is a role model for young women in India and around the world. She is an inspiration to aspiring athletes and is a powerful advocate for gender equality. She is also a strong advocate for education and has spoken out about the importance of education for girls and women.<br><br>Rampal is a true champion and a national icon. She is a role model for young women and an inspiration to all. She is a credit to India and to the sport of hockey.<br><br> Some of Rani Rampal's achievements: FIH Player of the Year (2016), Arjuna Award (2014, Padma Shri (2019), Khel Ratna Award (2020), Bronze medal at the 2014 Asian Games, Silver medal at the 2018 Asian Games and Fourth place at the 2020 Summer Olympics. "
+      },
+      {
+        "name": "Deepak Punia",
+        "img": "/deepakpuniya.jpg",
+        "age": 23,
+        "occupation": "Wrestler | World Wrestling Championship winner | Commonwealth Silver Medalist | JCO at Indian Army",
+        "location": "India",
+        "description": "Deepak Punia competes in 86kg in freestyle wrestling and is a Junior Commissioned Officer in the Indian Army. <br><br>He finished 4th at the 2020 Tokyo Olympics after narrowly losing his bronze medal bout. He brought laurels to his country by winning a silver medal at the 2019 World Wrestling Championships, and a gold medal at the 2022 Commonwealth Games in Birmingham.<br><br>He is also a two-time medallist at the World Junior Wrestling Championships and won multiple medals at the Asian Championship. "
+      }
+    ]
   }
-  
+}

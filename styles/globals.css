@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@900&display=swap');
+
+@font-face {
+  font-family: Sofia;
+  src: url('../fonts/SofiaSansExtraCondensed-Black.ttf');
+  font-display: swap;
+}
+
 @font-face {
   font-family: PoppinsBold;
   src: url('../fonts/Poppins-Bold.ttf');
@@ -35,7 +43,7 @@ html {
   color: rgb(84, 80, 80);
   font-family: PoppinsLight, sans-serif;
   /* font-size: clamp(0.75rem, 0.711rem + 0.211vw, 0.9rem); */
-  font-size:clamp(0.75rem, 1vw + 0.25rem, 1rem);
+  font-size: clamp(0.75rem, 1vw + 0.25rem, 1rem);
   line-height: 2;
 
 }
@@ -67,7 +75,8 @@ html {
   /* background-color: #013A6B;
   background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%); */
 }
-.iit{
+
+.iit {
   background-color: #013A6B;
   background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
 }
@@ -182,27 +191,31 @@ p>strong::after {
 
 }
 
-.ylp1{
+.ylp1 {
   background-image: url('/ylp1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.ylp2{
+
+.ylp2 {
   background-image: url('/ylp2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.ylp3{
+
+.ylp3 {
   background-image: url('/ylp3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.ylp4{
+
+.ylp4 {
   background-image: url('/ylp4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.ylp5{
+
+.ylp5 {
   background-image: url('/ylp5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,3 +228,6 @@ p>strong::after {
   text-align: center;
 }
 
+.roboto {
+  font-family: Sofia, sans-serif;
+}
