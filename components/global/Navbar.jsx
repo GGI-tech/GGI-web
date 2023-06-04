@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Image from 'next/image';
 import secondarynavbar from '../secondaryNav';
-const Navbar = () => {
+const Navbar = ({applicationbanner}) => {
   const [nav, setNav] = useState(false);
   // const [color, setColor] = useState('transparent');
   // const [textColor, setTextColor] = useState('white');
@@ -38,7 +38,7 @@ const Navbar = () => {
       className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10'
     >
       {/* top banner */}
-      {secondarynavbar && <div className='w-100 hero'>
+      {applicationbanner && secondarynavbar && <div className='w-100 hero'>
         <p className='flex flex-wrap justify-center p-1 font-black text-lg lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN &nbsp;
           <a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel="noopener noreferrer" className='text-center mt-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black font-bold '>APPLY NOW</a></p>
       </div>}

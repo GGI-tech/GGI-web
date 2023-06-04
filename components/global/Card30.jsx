@@ -19,7 +19,7 @@ const GalleryImg = ({ socialImg, caption, link }) => {
           />
         </div>
 
-        <p className='p-5 text-2xl sm:text-4xl md:text-5xl roboto tracking-tight text-black uppercase hover:text-[#FF7F50]'>
+        <p className='p-7 text-4xl md:text-5xl roboto tracking-tight text-black uppercase hover:text-[#FF7F50]'>
           {caption}
         </p>
       </div>

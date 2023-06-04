@@ -24,7 +24,7 @@ const Under30 = () => {
 
 
                 <div className='md:w-5/6 mx-auto text-center mt-24'>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-20 px-5 sm:px-12 md:px-0'>
+                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-20 px-5 sm:px-12 md:px-0'>
                         <Card socialImg={sahiba} link={'/30-under-30/marketing'} caption={'Marketing'} />
                         <Card socialImg={rory} link={'/30-under-30/social-impact'} caption={'Social Impact'} />
                         <Card socialImg={rani} link={'/30-under-30/sports'} caption={'Sports'} />
@@ -32,14 +32,14 @@ const Under30 = () => {
                     </div>
                 </div>
                 <div className='md:w-5/6 mx-auto text-center mt-24'>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-20 px-5 sm:px-0'>
+                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-20 px-5 sm:px-0'>
                         <Card socialImg={avanti} link={'/30-under-30/artists'} caption={'Artists'} />
                         <Card socialImg={divija} link={'/30-under-30/healthcare'} caption={'STEM & Healthcare'} />
                         <Card socialImg={subham} link={'/30-under-30/finance'} caption={'Finance'} />
                     </div>
                 </div>
                 <div className='md:w-5/6 mx-auto text-center md:py-5 mt-24'>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-20 px-5 sm:px-0'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-20 px-5 sm:px-12'>
                         <Card socialImg={emily} link={'/30-under-30/education'} caption={'Education'} />
                         <Card socialImg={supriya} link={'/30-under-30/entrepreneurs'} caption={'Entrepreneurs'} />
                     </div>
