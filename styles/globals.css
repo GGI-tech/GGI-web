@@ -231,3 +231,7 @@ p>strong::after {
 .roboto {
   font-family: Sofia, sans-serif;
 }
+
+.hover-30:hover {
+  content: url("/30u30.png");
+}
