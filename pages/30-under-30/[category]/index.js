@@ -6,6 +6,8 @@ import Container from '../../../components/global/Container'
 import Footer from '../../../components/global/Footer';
 import Link from 'next/link';
 
+
+// this is the popup component
 function Popup({ currentProfile, setShowPopup }) {
   const handleCloseClick = () => {
     setShowPopup(false);
@@ -53,8 +55,10 @@ function Popup({ currentProfile, setShowPopup }) {
   )
 }
 
+
+// this is the category page rendered dynamically
 export default function Category({ category }) {
-  const categoryProfiles = profiles[category].persons;
+  const categoryProfiles = profiles[category].persons;//all the profiles are  stored here
   const [showPopup, setShowPopup] = useState(false);
   const [currentProfile, setCurrentProfile] = useState({});
   const router = useRouter();
@@ -82,10 +86,11 @@ export default function Category({ category }) {
 
   return (
     <>
+    {/* flex box  */}
       <div className='mt-36 w-11/12 mx-auto flex justify-center flex-wrap md:flex-nowrap flex-row gap-20'>
         <div className='md:w-1/2'>
           <Link href="/30-under-30">
-            <img src="/30u30logo.png" alt="30-under-30" className="mx-auto h-20 md:max-h-28 mt-5 mb-2 hover:cursor-pointer" />
+            <img src="/30u30logo.png" alt="30-under-30" className="mx-auto h-20 md:h-32 mt-0 mb-12 hover:cursor-pointer hover-30" />
           </Link>
           <h1 className='uppercase roboto text-center text-6xl sm:text-8xl xl:text-9xl text-black'>{profiles[category].title}</h1>
           <p className='mt-12 text-center text-xl md:text-3xl'>{profiles[category].description}</p>
@@ -95,6 +100,8 @@ export default function Category({ category }) {
           {categoryProfiles[0].name} for Global Governance Initiative 30 under 30
         </div>
       </div>
+
+{/* grid  */}
       <Container>
         <div className='mt-36 mb-12 grid grid-cols-1 md:grid-cols-2 gap-10'>
           {categoryProfiles.map(profile => (
