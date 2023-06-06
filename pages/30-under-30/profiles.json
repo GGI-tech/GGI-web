@@ -78,7 +78,16 @@
         "occupation": "Actor, Content Creator, Marketeer",
         "location": "Gurgaon",
         "description": "Sahiba Bali wears many hats- she is not only an actor having worked with Imtiaz Ali in movies or with shows on Netflix and Sony Liv but also a marketeer having lead marketing projects at Zomato for 4 years and then as Associate Director at an ed-tech firm.<br><br> Moreover she is a content creator who loves travelling, food and wellness. This mindset, together with her persistence in achieving her goals was the key to bringing her the success she is enjoying today. She is one of the most trending Indian woman on YouTube currently.<br><br> Before all this she graduated in Economics from Delhi University and went to Business School for post grad in UK, and later Oxford University."
+      },
+      {
+        "name": "Yurii Veremchuk",
+        "img": "/Yurii.jpg",
+        "age": 27,
+        "occupation": "Top 200 LinkedIn creator",
+        "location": "",
+        "description": "Yurii is leading a Business Groth team in Woodpecker.co. He joined Woodpecker at 20 and in 5 years his contribution helped take the company from a small startup to a publicly traded company (IPO 2021). He closed the first 1000 customers, and helped develop the tool through his insights. Yurii is top 200 LinkedIn creators in 2022 (by Favikon) and top 25 sales execs to follow in 2023 (by Demandbase).<br><br>In his own words, he is no Michael Jordan of outbound sales, he just shares what did work for him.<br><br>Besides business, he&apos;s into shredding slopes and traveling around the world."
       }
+
       
     ]
   },
@@ -167,14 +176,14 @@
         "name": "Supriya Paul",
         "img": "/supriya.jpg",
         "age": 29,
-        "occupation": "CEO & Co-Founder of Josh Talks | Advisor Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF&apos Leadership Council, the Founder Institute, Women Economic Forum.",
+        "occupation": "CEO & Co-Founder of Josh Talks | Advisor Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF's Leadership Council, the Founder Institute, Women Economic Forum.",
         "location": "",
-        "description": "Supriya Paul is the CEO & Co-Founder of Josh Talks, India&apos;s leading regional content and upskilling platform. She started Josh Talks with Shobhit Banga in 2015 with a vision to make learning accessible and affordable for all.<br><br> Today, Josh Talks runs India&apos;s largest network of non-entertainment channels on YouTube where they have 19 active channels in 10 languages. Their content is viewed more than 180 million times every month while their Android app has over 6 Million downloads.<br><br>In addition to the above, Supriya serves as an advisor and mentor to several notable platforms, including Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF&apos;s Leadership Council, the Founder Institute and the Women Economic Forum. "
+        "description": "Supriya Paul is the CEO & Co-Founder of Josh Talks, India&apos;s leading regional content and upskilling platform. She started Josh Talks with Shobhit Banga in 2015 with a vision to make learning accessible and affordable for all.<br><br> Today, Josh Talks runs India&apos;s largest network of non-entertainment channels on YouTube where they have 19 active channels in 10 languages. Their content is viewed more than 180 million times every month while their Android app has over 6 Million downloads.<br><br>In addition to the above, Supriya serves as an advisor and mentor to several notable platforms, including Atal Innovation Mission (NITI Aayog), YuWaah (Generation Unlimited) - UNICEF&apo;s Leadership Council, the Founder Institute and the Women Economic Forum. "
       }
     ]
   },
   "artists": {
-    "title": "Artists",
+    "title": "Artist",
     "description":"Igniting imaginations and hitting high notes- harmonizing our collective consciousness",
     "persons": [
       {
