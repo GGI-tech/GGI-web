@@ -88,14 +88,14 @@ export default function Category({ category }) {
     <>
     {/* flex box  */}
       <div className='mt-36 w-11/12 mx-auto flex justify-center flex-wrap md:flex-nowrap flex-row gap-20'>
-        <div className='md:w-1/2'>
+        <div className='md:min-w-1/2 md:max-w-3/5'> {/*change here*/}
           <Link href="/30-under-30">
             <img src="/30u30logo.png" alt="30-under-30" className="mx-auto h-20 md:h-32 mt-0 mb-12 hover:cursor-pointer hover-30" />
           </Link>
           <h1 className='uppercase roboto text-center text-6xl sm:text-8xl xl:text-9xl text-black'>{profiles[category].title}</h1>
           <p className='mt-12 text-center text-xl md:text-3xl'>{profiles[category].description}</p>
         </div>
-        <div className='md:w-1/2'>
+        <div className='md:max-w-1/2'> {/*change here*/}
           <img src={categoryProfiles[0].img} alt="" className="h-full w-full object-cover hover:shadow-lg hover:shadow-[#FF7F50] my-5" />
           {categoryProfiles[0].name} for Global Governance Initiative 30 under 30
         </div>
