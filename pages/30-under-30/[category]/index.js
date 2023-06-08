@@ -78,6 +78,11 @@ export default function Category({ category }) {
   //to open popup with url parameters otherwise simple css would have worked
   function openPopup(profileName) {
     setShowPopup(true);
+    router.push(
+      `/30-under-30/${category}?profile=${profileName}`,
+      undefined,
+      { shallow: true }
+    );
     const currentProfile = categoryProfiles.find(
       profile => profile.name === profileName
     );
