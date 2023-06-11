@@ -10,7 +10,7 @@ import { stages, testimonialYLP } from '../../data/ylpData';
 import Link from "next/link"
 import Carousal from "../global/Carousal"
 
-
+import Image from "next/image"
 const YLP = () => {
     return (
         <div>
@@ -55,62 +55,49 @@ const YLP = () => {
                 <p>The <span className="font-bold">entire 6 months experiential Pre MBA program</span> is designed in 5 stages. </p>
             </Container>
             <Steps data={stages} />
-            
+
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
-                <div className="flex items-center col-span-2 ">
-                    <div className="h-[300px] sm:h-[500px] w-full">
-                        <img src="/new_com1.jpg" alt="" className="h-full w-full object-cover" />
+                <div className="flex items-center col-span-2">
+                    <div className="h-[300px] sm:h-[500px] w-full relative">
+                        <Image src="/new_com1.jpg" alt="" layout="fill" objectFit="cover" />
                     </div>
                 </div>
                 <div className="flex items-center  ">
-                    <div className="h-[300px] sm:h-[500px] w-full">
-                        <img src="/new_com2.jpg" alt="" className="h-full w-full object-cover" />
-                    </div>
+                    <div className="h-[300px] sm:h-[500px] w-full relative">
+                        <Image src="/new_com2.jpg" alt="" layout="fill" objectFit="cover" />                    </div>
                 </div>
                 <div className="flex items-center col-span-2 ">
-                    <div className="h-[300px] sm:h-[500px] w-full">
-                        <img src="/new_com3.jpg" alt="" className="h-full w-full object-cover" />
-                    </div>
+                    <div className="h-[300px] sm:h-[500px] w-full relative">
+                        <Image src="/new_com3.jpg" alt="" layout="fill" objectFit="cover" />                    </div>
                 </div>
                 <div className="flex items-center  ">
-                    <div className="h-[300px] sm:h-[500px] w-full">
-                        <img src="/new_com4.jpg" alt="" className="h-full w-full object-cover" />
-                    </div>
+                    <div className="h-[300px] sm:h-[500px] w-full relative">
+                        <Image src="/new_com4.jpg" alt="" layout="fill" objectFit="cover" />                    </div>
                 </div>
-                {/* 
-                <div className='col-span-2 h-[400px]'><Image placeholder="blur" src={community2} style={{ objectFit: 'cover', height: '100%' }} alt="" /></div>
-                <div className='col-span-1 h-[400px]'><Image placeholder="blur" src={community3} style={{ objectFit: 'contain', height: '100%' }} alt="" /></div>
-                <div className='col-span-2 h-[400px]'><Image placeholder="blur" src={community4} style={{ objectFit: 'contain', height: '100%' }} alt="" /></div>
-                <div className='col-span-1 h-[400px]'><Image placeholder="blur" src={community4} style={{ objectFit: 'contain', height: '100%' }} alt="" /></div> */}
             </div>
 
 
             <Heading>BENEFITS OF  GGI IMPACT LAB, YLP </Heading>
             <div className="lg:w-2/3 mx-auto text-white italic">
-                {/* <div className="relative"> */}
-                {/* <img src='/ylp1.jpg' alt="ylp" className="w-full" /> */}
+               
                 <div className="px-2 ylp1 h-60 flex flex-col inset-0 justify-center items-center ">
                     <h1 className="text-xl font-semibold">Earn a Pre MBA Certificate</h1>
                     <p>When you complete consulting and PM virtual internship you’ll earn a digital certificate to share with prospective employers and your professional network</p>
                 </div>
-                {/* </div> */}
-
-                {/* <img src='/ylp2.jpg' alt="ylp" className="w-full" /> */}
+                
                 <div className="px-2 ylp2 h-60 flex flex-col inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">Connect with likeminded peers </h1>
                     <p>This Program puts community and budies at the centre. You’ll receive instructions from the GGI team on buddy pairing and will get to brainstorm solutions with them</p>
 
                 </div>
 
-                {/* <img src='/ylp3.jpg' alt="ylp" className="w-full" /> */}
                 <div className="px-2 ylp3 h-60 flex flex-col inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">Do it in your own time </h1>
                     <p>Fit the program in with your busy schedule. Learn at your own pace and reach your personal goals</p>
 
                 </div>
 
-                {/* <img src='/ylp4.jpg' alt="ylp" className="w-full" /> */}
                 <div className="ylp4 px-2 flex flex-col h-60 inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">Gain real work experience </h1>
                     <p>Throughout the program, you’ll develop deep insights into what it is actually like to work at GGI, Impact Lab</p>
@@ -122,7 +109,7 @@ const YLP = () => {
                     <p>Nearly 50% of the hours you are awake are spent at work. Discover if this is the right career path for you</p>
                 </div>
             </div >
-            
+
             <div className='mt-48'>
                 <YoutubeEmbed embedId='DXHPoAPXQQc' />
             </div>
