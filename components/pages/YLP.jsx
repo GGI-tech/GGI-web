@@ -10,11 +10,6 @@ import { stages, testimonialYLP } from '../../data/ylpData';
 import Link from "next/link"
 import Carousal from "../global/Carousal"
 
-import community1 from '../../public/new_com1.jpg'
-import community2 from '../../public/new_com2.jpg'
-import community3 from '../../public/new_com3.jpg'
-import community4 from '../../public/new_com4.jpg'
-import Image from "next/image"
 
 const YLP = () => {
     return (
