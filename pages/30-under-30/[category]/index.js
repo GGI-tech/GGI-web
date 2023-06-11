@@ -1,5 +1,4 @@
 import profiles from '../profiles.json';
-import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Container from '../../../components/global/Container'
@@ -71,7 +70,6 @@ export default function Category({ category }) {
         profile => profile.name === profileName
       );
       setCurrentProfile(currentProfile);
-      console.log("---------", currentProfile)
     }
   }, [router.query.profile]);
 
