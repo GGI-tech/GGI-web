@@ -81,7 +81,7 @@ const data1 = [
         "img": "/shreyas.jpg",
         "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also.`
     },
-  
+
     {
         "id": 6,
         "title": `Aditya Bansal`,
@@ -343,6 +343,27 @@ const data2 = [
         "text": "I have been made an offer to join as a Senior Associate at Samagra.  I had applied after the GGI info session and had my final round today."
     },
     {
+        "id": 15,
+        "title": "RAJAN RAJU",
+        "url": "",
+        "img": "/r15.png",
+        "text": ""
+    },
+    {
+        "id": 16,
+        "title": "PRATITI",
+        "url": "",
+        "img": "/r16.jpeg",
+        "text": ""
+    },
+    {
+        "id": 17,
+        "title": "ANUSHEELA GHOSH",
+        "url": "",
+        "img": "/r17.png",
+        "text": ""
+    },
+    {
         "id": 4,
         "title": "Yashvi Churivala, PwC Deals Strategy Consulting",
         "url": "https://www.linkedin.com/in/yashvi-churiwala-792230204/",
@@ -462,15 +483,15 @@ const Cardx = ({ title, img, text }) => {
                 <div className='flex justify-center'>
 
                     <div className='text-center p-4'>
-                        <Image
-                            className=''
-                            src={img}
-                            alt='/'
-                            width={400}
-                            height={400}
-                        />
-
+                        <div style={{ maxWidth: '400px', margin: '0 auto' }}>
+                            <img
+                                src={img}
+                                alt='/'
+                                style={{ width: '100%', height: 'auto' }}
+                            />
+                        </div>
                     </div>
+
                     {/* <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p> */}
                 </div>
                 <div className='flex-justify center p-4 text-sm'>
@@ -523,6 +544,7 @@ const Employment = () => {
                 }
             </div>
             <div className='flex flex-wrap justify-center md:mx-12'>
+                <img src='/rr39.png' alt=''/>
                 <img src={'/rr35.jpg'} alt='' />
                 <img src={'/rr36.jpg'} alt='' />
                 {/* <img src={'/rr37.jpg'} alt='' /> */}

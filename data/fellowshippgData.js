@@ -56,6 +56,13 @@ export const stages = [
 
 export const testimonialFellow = [
     {
+        name: 'Daphne Randall',
+        org: 'GGI Global Leadership Scholar 2023',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7065257371253514241',
+        image: '/daphne.jpeg',
+        review:"Daphne Randall is a dynamic leader who has demonstrated a passion for bringing positive change to communities through placemaking and community development.<br><br>  She has trained thousands of young people in placemaking and climate action and led many high-impact projects that resulted in the effective makeover of Nairobi&apos;s public spaces.<br><br>  Her experiences in #community development have fueled her broader vision of creating resilient, inclusive, and environmentally conscious cities around the world."
+    },
+    {
         name: 'Arpita',
         org: 'Meet Arpita G. GGI Fellow 2021.',
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6761913808798789632/",
