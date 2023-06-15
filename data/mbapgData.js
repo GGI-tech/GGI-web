@@ -73,11 +73,25 @@ export const stages = [
 ]
 export const testimonialMBA = [
     {
+        name: 'Patrick Makwe Rankhumise',
+        org: 'GGI Global Leadership Scholar 2023',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7073176963816861696',
+        image: '/patrik.jpeg',
+        review: "Patrick Makwe Rankhumise is a driven and innovative leader currently pursuing a Bachelor&apos;s degree in Electrical Engineering at the University of Cape Town. He is passionate about utilizing his technical expertise and collaborating with others to drive transformative change in his community and beyond.<br><br>In addition to his academic pursuits, he is actively involved in various organizations where he has showcased his leadership abilities. Serving as a Co-Director at Startup Grind: University of Cape Town and a Sub-warden at College House Residence. He has honed his communication skills, built strong relationships, and fostered entrepreneurial growth."
+    },
+    {
         name: 'Priyal Keni',
         org: 'GGI MBA Scholar 2021',
         link: 'https://www.linkedin.com/in/priyalkeni/',
         image: '/priyal.jpg',
         review: "A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with <span class='font-bold'>Deloitte Consulting</span> and is a postgraduate in business studies from the University of Mumbai."
+    },
+    {
+        name: 'Sanni',
+        org: 'GGI Global Leadership Scholar 2023',
+        link: '',
+        image: '/sanni.jpeg',
+        review: "Sanni is a passionate equestrian, and a fervent believer in the power of diversity, equity, and inclusion. She is currently in pursuit of a Master of Public Administration with a focus on Management and Innovation at Columbia University. Her unique journey as a first-generation university student and an advocate for the LGBTQ+ community has greatly influenced her understanding of the world, and subsequently, her professional trajectory.<br>,<br> She is an advanced equestrian with over 8 years of experience breaking, training, and handling horses. She regularly competes in regional show jumping competitions, an activity that adds a dash of thrill to her life and complements the dynamic nature of her professional pursuits."
     },
     {
         name: 'Anisha Sawhney',
