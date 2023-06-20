@@ -1,5 +1,4 @@
 import profiles from '../profiles.json';
-import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Container from '../../../components/global/Container'
@@ -71,13 +70,17 @@ export default function Category({ category }) {
         profile => profile.name === profileName
       );
       setCurrentProfile(currentProfile);
-      console.log("---------", currentProfile)
     }
   }, [router.query.profile]);
 
   //to open popup with url parameters otherwise simple css would have worked
   function openPopup(profileName) {
     setShowPopup(true);
+    router.push(
+      `/30-under-30/${category}?profile=${profileName}`,
+      undefined,
+      { shallow: true }
+    );
     const currentProfile = categoryProfiles.find(
       profile => profile.name === profileName
     );
