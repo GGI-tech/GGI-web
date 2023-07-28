@@ -54,12 +54,23 @@ export const testimonialMain = [
     review: "Shortly after GGI, I got placed in <span class='font-bold'>McKinsey & Company</span>. In fact, I will be moving to Mumbai to work as a Business Analyst. <span class='font-bold'>Also after the masterclass, having won the EY Scholarship for entrepreneurship, I completed an internship at EY as well.</span><br> <br>Amongst all the sectors, I am especially excited to contribute to the public sector and private equity verticals at McKinsey. GGI&#39;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process. :)"
   },
   {
+    name: 'Hattie Minglin Ren',
+    org: 'China',
+    image: '/Hattie Minglin Ren.jpg',
+    review: "Hattie is graduate from <span class='font-bold'>National University of Singapore</span>.  Prior to her MBA study, she was working with a U.K listed MNC and managing a team in tech recruitment consulting based in Singapore.<br/><br/>She is contributing to the GGI community with more diverse culture and value exchange, as well as useful regional network."
+  },
+  {
     name: 'Karan David',
     org: 'GGI Delegate, Policy Consulting Masterclass Cohort, 2019<br>St. Stephen&#39;s College',
     image: '/karan.jpg',
     review: "Shortly after GGI, I joined as an Associate Consultant at <span class='font-bold'>Bain & Company</span>. My role at Bain involved working on portfolio operations and private equity across varied sectors.<br><br><span class='font-bold'> It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting and eventually excelled in policy case competitions as well.</span> The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
   },
-
+  {
+    name: 'Callysta Limneus',
+    org: 'Indonesia',
+    image: '/Callysta Limneus.jpeg',
+    review: "Callysta is a second-year student at the <span class='font-bold'>University of British Columbia</span>, majoring in international economics. Her studies mainly focus on economics, finance, international relations, with a particular interest in psychology, philosophy, and literature!<br/><br/>She has a strong interest in finance and consulting, which she finds remarkably akin to the art of debating—a skill she honed during her high school years.<br/><br/>From GGI, she learnt more about the world of consulting and expand her network with professionals in the industry. As a newcomer to this field, she is eager to learn from everyone and gain invaluable insights!"
+  },
   {
     name: `Simar Sethi `,
     org: "KEARNEY CONSULTING",
@@ -74,17 +85,30 @@ export const testimonialMain = [
     review: "I think ever since I first stumbled upon GGI, my perspective towards my career has changed immensely. <br><br><span class='font-bold'> GGI Masterclasses, founder office hours, peer sessions, and of course the research paper, all in unison collected my professional ambitions</span> and shaped them in a way that I could somehow manage to achieve them. My weeks are covered with working on my bit towards social behavioral change by running my content portal @hasrat.work and working full time at <span class='font-bold'>IFC</span>."
   },
   {
+    name: 'JAN MARIE MALLARI RIÑON',
+    org: 'Philippines',
+    image: '/Jan Marie Mallari Riñon.jpg',
+    review: "Jan Marie Mallari Riñon is currently working as a <span class='font-bold'>Planning Officer at the Department of Justice - Philippines</span>. In this role, she actively engages in various responsibilities and contributions to facilitate effective planning and monitoring activities within the Department.<br><br> She firmly believes that learning is a lifelong process, and she is dedicated to expanding her knowledge and expertise. She is particularly interested in specializing in Impact and Policy Consulting, as well as Management, as she seeks to make a significant impact in these areas."
+  },
+  {
     name: 'TUSHAR BAGRODIA',
     org: 'GGI Delegate, Policy Consulting Cohort, 2019 <br> Shri Ram College of Commerce (SRCC) ',
     image: '/Tushar.jpg',
     review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Kearney India</span>.<br><br>The GGI Masterclass enabled me to develop a more holistic view of the manner in which the public sector works in our country and the challenges that arise while working to create an impact with them. <span class='font-bold'>The first time I was introduced to case interviews was also during the GGI Masterclass in my campus. I was able to understand the problems better and develop structured solutions which made me stand out.</span>"
   },
   {
+    name: 'Karabo Diseko',
+    org: 'South Africa',
+    image: '/Karabo.jpg',
+    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the <span class='font-bold'>University of Cape Town</span>, where he is currently wrapping up his <span class='font-bold'>Masters in Bioinformatics</span>.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>More recently, Karabo’s interest in business systems has led him to channel his love for critical thinking towards a career in management consulting.<br/><br/>Through entrepreneurial exploration, active participation in university-based business ecosystems, and as a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change.<br/><br/>During his free time Karabo enjoys running, mountain climbing, and learning new things through a good book."
+  }, 
+  {
     name: 'NISHTHA GUPTA',
     org: 'GGI Delegate, Policy Consulting Cohort, 2019 <br> Indian Institute of Technology (IIT), Delhi',
     image: '/Schermata.jpg',
     review: "Shortly after the GGI Policy Consulting Masterclass, I bagged an offer to join <span class='font-bold'>Boston Consulting Group (BCG)</span>.<br><br> <span class='font-bold'>It was only during the Policy Consulting masterclass that I was introduced to solving cases and the world of consulting. </span>I can never forget that moment when it all seemed worth the effort"
-  }, {
+  },
+  {
     name: 'LABONI SINGH',
     org: 'GGI Delegate, Policy Consulting &<br> Impact Startup Masterclass Cohort, 2020 <br>St. Stephens College',
     image: '/laboni.jpg',
