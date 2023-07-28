@@ -56,7 +56,7 @@ export const testimonialMain = [
   {
     name: 'Hattie Minglin Ren',
     org: 'China',
-    image: '/Hattie Minglin Ren.jpg',
+    image: '/Hattie Minglin Ren.JPG',
     review: "Hattie is graduate from <span class='font-bold'>National University of Singapore</span>.  Prior to her MBA study, she was working with a U.K listed MNC and managing a team in tech recruitment consulting based in Singapore.<br/><br/>She is contributing to the GGI community with more diverse culture and value exchange, as well as useful regional network."
   },
   {
