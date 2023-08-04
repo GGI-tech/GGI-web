@@ -32,7 +32,7 @@ const FAQ = [
         "ques":"Am I eligible for the GGI MBA, MPP or Fellowship Program?",
         "ans":`The pre-requisites of Global Governance Initiative Programs are as below :<br><br>
          1. <u>Interested in pursuing a career</u> in Management Consulting, Public Policy or Product Management.<br><br>
-         2. <u>Below the age of 36- Global Governance is a mission-oriented organization</u> with an aim to empower youngsters and women to have a seat on the table in business and policy roles. If you are above 35 years of age, we suggest not applying because the program has been tailor-made for young professionals at this stage <br><br>
+         2. <u>Below the age of 34- Global Governance is a mission-oriented organization</u> with an aim to empower youngsters and women to have a seat on the table in business and policy roles. If you are above 35 years of age, we suggest not applying because the program has been tailor-made for young professionals at this stage <br><br>
          3. <u>Background:</u> GGI is an background-agnostic program. It doesn&apos;t matter whether you are a fresh undergrad with internship experience or the CEO of a startup with entrepreneurial experience. We will cover basics and advanced learning around business, strategy, governance, product and policy. We suggest putting a strong application and welcome you to a beautiful ecosystem as long as you are willing to work hard, learn and thrive.   `
     },
     {
