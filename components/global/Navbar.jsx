@@ -67,9 +67,9 @@ const Navbar = ({applicationbanner}) => {
               Fellowship
             </li>
           </Link>
-          <Link href='https://www.altiit.org/'>
+          <Link href='https://www.globaltechinitiative.org/'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
-              ALT IIT
+              MS
             </li>
           </Link>
           <Link re href='/reviews'>
