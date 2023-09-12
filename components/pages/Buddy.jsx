@@ -139,7 +139,7 @@ import Footer from "../global/Footer";
 const Buddy = () => {
   return (
     <>
-      <h2 className="mt-40 text-4xl text-red-600">
+      <h2 className="mt-60 sm:mt-40 text-4xl text-red-600">
         GGI Buddy Program- Information
       </h2>
       <div className="pl-10 sm:pl-0 sm:flex sm:justify-center">
@@ -238,7 +238,7 @@ const Buddy = () => {
             <p className="font-bold mr-60 pl-28 sm:pl-0 text-2xl">Join your first buddy</p>
             <p className="mr-40 text-2xl pl-28 sm:pl-0">
               You&apos;ll meet total strangers who can get what you&apos;re going through
-              and might be living some of the same realities. They're just
+              and might be living some of the same realities. They&apos;re just
               everyday people looking for extraordinary conversations. Just like
               you.
             </p>
@@ -249,7 +249,7 @@ const Buddy = () => {
             <p className="mr-40 text-2xl pl-28 sm:pl-0">
               Many members stay with their first group for quite a while. Others
               explore and join different groups to meet new people and gain new
-              perspectives. We'll act as your personal concierge to connect you
+              perspectives. We&apos;ll act as your personal concierge to connect you
               with a great group for all the seasons of life
             </p>
           </li>
