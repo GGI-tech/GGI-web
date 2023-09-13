@@ -160,7 +160,9 @@ const Buddy = () => {
             <span className="text-red-500"> FIND YOUR BUDDY.</span>
           </p>
         </div>
+        <div className="ml-20 sm:ml-0">
         <div className="w-1/2 sm:py-14 pr-20 sm:pr-40  tracking-widest leading-loose sm:ml-36">
+         
           <div className="flex space-x-4 mt-24">
             <img
               src="Woman_with_Crossed_Arms.webp"
@@ -180,6 +182,7 @@ const Buddy = () => {
               alt=""
               className="rounded-full sm:w-40 sm:h-40"
             />
+            </div>
           </div>
         </div>
       </div>
