@@ -195,7 +195,7 @@ const Buddy = () => {
               Its like learning more about yourself through discussing with
               others.
             </p>
-            <img className="rounded-full w-1/6 h-auto mr-16" src="1596026888314.webp" alt="" />
+            <img className="rounded-full w-1/6 h-auto mr-10 sm:mr-16" src="1596026888314.webp" alt="" />
           </div>
           <div className="bg-white mx-10 mt-8 pb-5 mb-10 pl-14 pr-28 pt-12 italic">
             <p>
