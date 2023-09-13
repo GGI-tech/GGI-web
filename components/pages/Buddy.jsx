@@ -142,9 +142,9 @@ const Buddy = () => {
       <h2 className="mt-60 sm:mt-40 text-4xl text-red-600">
         GGI Buddy Program- Information
       </h2>
-      <div className="pl-10 sm:pl-0 sm:flex sm:justify-center">
+      <div className=" sm:pl-0 sm:flex sm:justify-center">
         <div className="py-14 pl-3 pr-3 sm:w-1/2 sm:py-14 sm:pl-40 sm:pr-5 leading-loose text-3xl">
-          <p className="text-left">
+          <p className="text-left p-7 sm:p-0">
             I FEEL THAT WAY TOO.
             <br />
             <span className="text-gray-500">
@@ -160,7 +160,7 @@ const Buddy = () => {
             <span className="text-red-500"> FIND YOUR BUDDY.</span>
           </p>
         </div>
-        <div className="w-1/2 py-14 pr-40 pl-5 tracking-widest leading-loose text-3xl ml-36">
+        <div className="w-1/2 sm:py-14 pr-20 sm:pr-40  tracking-widest leading-loose sm:ml-36">
           <div className="flex space-x-4 mt-24">
             <img
               src="Woman_with_Crossed_Arms.webp"
