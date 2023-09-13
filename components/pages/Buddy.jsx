@@ -165,20 +165,20 @@ const Buddy = () => {
             <img
               src="Woman_with_Crossed_Arms.webp"
               alt=""
-              className="rounded-full w-40 h-40"
+              className="rounded-full sm:w-40 sm:h-40"
             />
-            <img src="Maitrey.webp" alt="" className="rounded-full w-40 h-40" />
+            <img src="Maitrey.webp" alt="" className="rounded-full sm:w-40 sm:h-40" />
           </div>
           <div className="flex space-x-4 mt-4">
             <img
               src="1596026888314.webp"
               alt=""
-              className="rounded-full w-40 h-40"
+              className="rounded-full sm:w-40 sm:h-40"
             />
             <img
               src="Chris_Ashley_Pinto.webp"
               alt=""
-              className="rounded-full w-40 h-40"
+              className="rounded-full sm:w-40 sm:h-40"
             />
           </div>
         </div>
@@ -197,7 +197,7 @@ const Buddy = () => {
             </p>
             <img className="rounded-full w-1/6 h-auto mr-10 sm:mr-16" src="1596026888314.webp" alt="" />
           </div>
-          <div className="bg-white mx-10 mt-8 pb-5 mb-10 pl-14 pr-28 pt-12 italic">
+          <div className="bg-white mx-10 mt-8 pb-10 sm:pb-5 mb-10 pl-9 sm:pl-14 pr-28 pt-12 italic">
             <p>
               Its like learning more about yourself through discussing with
               others.
@@ -206,7 +206,7 @@ const Buddy = () => {
         </div>
 
         <div className="sm:flex flex:col">
-          <div className="bg-white mx-10 mb-10 sm:mb-20 pr-20 pl-5 pt-10 pb-6 italic">
+          <div className="bg-white mx-10 mb-10 sm:mb-20 pr-20 pl-8 sm:pl-5 pt-10 pb-10 sm:pb-6 italic">
             <p >
             &quot;I can relate to each person in some way, no matter what they
               bring in. I feel connected to these people and it&apos;s only session
