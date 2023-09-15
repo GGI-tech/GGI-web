@@ -119,7 +119,7 @@ const Navbar = ({applicationbanner}) => {
               <Link prefetch={false} href='/impact-fellowship'>Fellowship</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='https://www.altiit.org/'>ALT IIT</Link>
+              <Link prefetch={false} href='https://www.altiit.org/'>MS</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>Employment Report</Link>
