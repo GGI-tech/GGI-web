@@ -26,7 +26,7 @@ const reviews = () => {
         <meta name="twitter:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png" />
 
       </Head>
-      <Employment />
+      <Employment/>
     </>
   )
 }
