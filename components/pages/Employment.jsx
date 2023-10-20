@@ -542,14 +542,38 @@ const Employment = () => {
             <YouTubeEmbed embedId='1Ak6KiRi5eE' />
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
-                {/* for odd num of cards data1.slice(0, -1) */}
-                {data1.map((e, id) => {
-                    return (
-                        <Card key={id} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
+            {data1.slice(0, 4).map((e, index) => {
+    return (
+        <Card key={index} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
+    );
+})}
 
-                    );
-                })}
             </div>
+            <YouTubeEmbed embedId='CL-UcquUN3k' />
+            <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
+            {data1.slice(4, 10).map((e, index) => {
+    return (
+        <Card key={index} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
+    );
+})}
+            </div>
+            <YouTubeEmbed embedId='Ce_gZXQ-pN4' />
+            <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
+            {data1.slice(10, 22).map((e, index) => {
+    return (
+        <Card key={index} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
+    );
+})}
+            </div>
+            <YouTubeEmbed embedId='uAxtulumw6I' />
+            <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
+            {data1.slice(22, 30).map((e, index) => {
+    return (
+        <Card key={index} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
+    );
+})}
+            </div>
+            <YouTubeEmbed embedId='AkUb-EO7vXc' />
             {/*
             for odd num of cards 
             <div className='sm:mx-12'>
