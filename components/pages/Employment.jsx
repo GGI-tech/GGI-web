@@ -579,6 +579,13 @@ const Employment = () => {
             <div className='sm:mx-12'>
                 <Card url={data1[data1.length - 1].url} org={data1[data1.length - 1].org} title={data1[data1.length - 1].title} img={data1[data1.length - 1].img} text={data1[data1.length - 1].text} />
             </div> */}
+             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
+            {data1.slice(30).map((e, index) => {
+    return (
+        <Card key={index} url={e.url} org={e.org} title={e.title} img={e.img} text={e.text} />
+    );
+})}
+            </div>
 
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12 lg:grid-cols-3 md:mx-24'>
