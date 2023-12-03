@@ -67,7 +67,7 @@ const Navbar = ({applicationbanner}) => {
               Fellowship
             </li>
           </Link>
-          <Link href='https://www.globaltechinitiative.org/'>
+          <Link href='https://www.globaltechinitiative.org/gti-ms-scholars'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               MS
             </li>
