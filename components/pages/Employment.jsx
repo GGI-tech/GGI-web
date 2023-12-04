@@ -160,7 +160,7 @@ const data1 = [
         "title": "Yashasvi Ghadale",
         "url": "https://in.linkedin.com/in/yashasvighadale/",
         "org": "Boston Consulting Group ",
-        "img": "/yashasvi.png",
+        "img": "/yashasvi.PNG",
         "text": `Hi, I am Yashasvi, and I will soon be joining Boston Consulting Group (BCG) full-time.<br><br>I came to know about GGI many years ago through Shatakshi Sharma's (cofounder) LinkedIn posts and wished to join the cohort ever since.<br><br>I joined right after my graduation because I wanted to learn about policy.<br><br>While I already had some exposure in management consulting, I also wanted to learn more about #Policy Consulting, Impact #Investment, and #Sustainable Finance.<br><br>I have found the masterclasses incredibly valuable so far in terms of the knowledge that is presented and the way it is presented.<br><br>Additionally, I really enjoyed the masterclasses that are uploaded on Trinity as that exponentially increases the value of the entire course. Being able to hear directly from Rajat Gupta and other industry leaders was really unexpected !`
     },
     {
