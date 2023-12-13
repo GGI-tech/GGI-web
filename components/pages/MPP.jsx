@@ -43,7 +43,7 @@ const MPP = () => {
             <YoutubeEmbed embedId='URhwxoFL6S8' autoplay={1} />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
-            <Heading>Curriculum & Commitment  </Heading>
+            <Heading>Post Graduate Program in Public Policy </Heading>
             <Curriculum data={curriculum} />
             <YoutubeEmbed embedId='I0t8nCIst3M' />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>

@@ -70,7 +70,7 @@ const MBA = () => {
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
-            <Heading>Curriculum & Commitment</Heading>
+            <Heading>Post Graduate Program in Management</Heading>
             <Curriculum data={curriculum}/>
             <YoutubeEmbed embedId='lGyhkONUSwk' />
 
