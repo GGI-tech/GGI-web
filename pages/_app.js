@@ -13,6 +13,17 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11172189274"></script>
+        <script> 
+          {`
+          window.dataLayer = window.dataLayer || []; 
+          function gtag(){
+             dataLayer.push(arguments);
+          } 
+          gtag('js', new Date());
+          gtag('config', 'AW-11172189274'); 
+          `}
+        </script>
       </Head>
       <GoogleAnalytics gaMeasurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} trackPageViews={{ ignoreHashChange: true }} />
       <Navbar applicationbanner={showHeader}/>
