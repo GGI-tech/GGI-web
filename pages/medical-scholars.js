@@ -5,7 +5,7 @@ const medicalscholars = () => {
   return (
     <>
       <Head>
-        <title>GGI Medical Scholars 2023 | GGI</title>
+        <title>GGI Medical Scholars 2024 | GGI</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel='icon' href='/favicon.jpg' />
       </Head>
