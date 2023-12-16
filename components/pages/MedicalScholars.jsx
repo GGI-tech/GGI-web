@@ -31,7 +31,7 @@ const MedicalScholars = () => {
     }
     return (
         <>
-            <SlidingHero image={'./medical.jpg'} title={["<span class='text-yellow-200'>GGI Medical Scholars 2023</span> <br class='hidden md:block'/>Combine the world of Medicine with the world of Business,<br class='hidden md:block'/> Public Policy & International Affairs to move into leadership<br class='hidden md:block'/> roles within your organization or pivot careers by becoming <br class='hidden md:block'/>part of a Diverse Global Network", ""]} />
+            <SlidingHero image={'./medical.jpg'} title={["<span class='text-yellow-200'>GGI Medical Scholars 2024</span> <br class='hidden md:block'/>Combine the world of Medicine with the world of Business,<br class='hidden md:block'/> Public Policy & International Affairs to move into leadership<br class='hidden md:block'/> roles within your organization or pivot careers by becoming <br class='hidden md:block'/>part of a Diverse Global Network", ""]} />
 
             <Button url="https://docs.google.com/forms/d/1b_2u8I0EVe8Qf8DoKdUOTqGXq4-u8ul6CzuHl5tL3Rs/edit"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
@@ -44,7 +44,7 @@ const MedicalScholars = () => {
                 <p className='my-7'>Of course, there are salary benefits of learning skills at the intersection of Medicine, Finance, Operations, Technology, Product Management, Public Policy, and so on. But most importantly, it allows medical professionals to wear multiple hats - as investors, founders, product Managers, Advisors to Ministers, and so on. There are seemingly endless amounts of opportunities for Physicians outside of clinical practice and for all the right reasons. </p>
                 <p className='my-7'>When Medical Professionals are trained in the skills at the intersection of Business, Public Policy, and Medicine- they can transform the IRRs of VC funds focussed on Healthtech investment because they bring in specialized expertise, and they can help Ministers redefine and redesign Public Policy via analyzing market failures, they can create nudges in the world of startups, and they can advice McKinsey help transform the Pharma sector of an entire country. </p>
                 <p className='my-7'>And therefore, relevant exposure to the world of Business and Public Policy could be a SUPERPOWER for medical professionals. </p>
-                <p className='my-7 font-semibold text-black'>GGI Medical Scholars 2023 are the Young Medical Doctors of the world to immerse in this beautiful world. The world of intersections - around philosophy, management consulting, product management, public policy, data analytics, and Impact investing. GGI Medical Scholars will not be just astute doctors, but will rather become well-rounded, and well-informed Physicians. </p>
+                <p className='my-7 font-semibold text-black'>GGI Medical Scholars 2024 are the Young Medical Doctors of the world to immerse in this beautiful world. The world of intersections - around philosophy, management consulting, product management, public policy, data analytics, and Impact investing. GGI Medical Scholars will not be just astute doctors, but will rather become well-rounded, and well-informed Physicians. </p>
                 <p className='my-7 font-semibold text-black'>While designing this Program, GGI Team collaborated with multiple experts and industry partners and discovered that from McKinsey to Hedge Funds to Venture Funds - all are vying for talents that have relevant exposure to the world of medicine, and most importantly - those who can tie the world of Medicine to the world of Business. </p>
                 <p className='my-7'><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program.</p>
             </Container>
@@ -115,7 +115,7 @@ const MedicalScholars = () => {
             <Gallery />
 
 
-            <Heading>GGI Medical Scholars 2023 is centered around 3 things  </Heading>
+            <Heading>GGI Medical Scholars 2024 is centered around 3 things  </Heading>
             <Container>
                 <p className='mb-3'>Today&apos;s Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help GGI Medical Scholars during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential Masterclasses that take place across sectors and industries. This is achieved in 3 stages : </p>
             </Container>
