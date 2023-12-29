@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 
 
-const FourColumnLayout = ({ data }) => {
+const FourColumnLayout2 = ({ data }) => {
   return (
     <div className="p-5 md:p-12">
       <div className="mx-auto w-6/7 lg:w-4/5 xl:w-3/4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-4 primary">
@@ -17,8 +17,9 @@ const FourColumnLayout = ({ data }) => {
         })}
 
       </div>
+      <p class="mt-80 text-center text-lg">The world is getting complex and with it complex solutions are needed. Most public policy problems<br/> today require technological solutions. However schools and universities are either not teaching them<br/> or teaching is siloes. GGI Tech Policy Scholar program aims to bridge this gap in the society to bring<br/> Tech leaders to solve world’s trickiest problems. </p>
     </div>
   )
 }
 
-export default FourColumnLayout;
+export default FourColumnLayout2;
