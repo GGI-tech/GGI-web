@@ -1,7 +1,7 @@
-import network from '../public/network2.jpeg'
+import network from '../public/image21.png'
 import clinton from '../public/clinton.png'
 import arunm from '../public/arun_maira.jpg'
-import poets from '../public/poetsnquants.png'
+import image18 from '../public/image18.png'
 // -------------------------------------------------------------
 
 import dalberg from '../public/dalberg.jpg';
@@ -38,7 +38,7 @@ export const fourcolumndata = [ //to be fetched from database
     },
     {
         "id": 4,
-        "img": poets,
+        "img": image18,
         "title": "Globally Recognized",
         "body": "GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
     }
