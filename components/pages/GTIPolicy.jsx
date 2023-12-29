@@ -2,7 +2,7 @@ import SlidingHero from '../global/SlidingHero';
 import Accordian from '../global/Accordian';
 // import Socials from '../global/Socials';
 import Heading from '../global/Heading';
-import FourColumnLayout from '../global/FourColumnLayout';
+import FourColumnLayout2 from '../global/FourColumnLayout2';
 import Container from '../global/Container';
 import OfficialPartners from '../global/OfficialPartners';
 import YoutubeEmbed from '../global/YoutubeEmbed';
@@ -25,7 +25,7 @@ const GTIPolicy = () => {
 
 
             <Heading margin={60}>Why GGI Tech-Policy Scholars Works?</Heading>
-            <FourColumnLayout data={fourcolumndata} />
+            <FourColumnLayout2 data={fourcolumndata} />
 
             <Heading>+88% GGIians working in Top Policy & Tech Impact Roles and Organizations</Heading>
             <Partners companies={companies} />
