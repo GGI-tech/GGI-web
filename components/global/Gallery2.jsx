@@ -9,7 +9,7 @@ import img16 from '../../public/16.jpg';
 import img17 from '../../public/17.jpg';
 import img18 from '../../public/18.jpg';
 import img19 from '../../public/19.jpg';
-import img20 from '../../public/20.jpg';
+import img20 from '../../public/image14.png';
 import img21 from '../../public/21.jpg';
 import img22 from '../../public/22.jpg';
 import img23 from '../../public/23.jpg';
@@ -56,7 +56,7 @@ const defaultData=[
   },
   {
     "img":img20,
-    "caption":"Partner BCG, Social Impact Practice",
+    "caption":"Data Scientist, IIT Guwahati",
   },
   {
     "img":img21,
