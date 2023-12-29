@@ -8,7 +8,7 @@ import OfficialPartners from '../global/OfficialPartners';
 import YoutubeEmbed from '../global/YoutubeEmbed';
 import Curriculum from '../global/Curriculum';
 import Associations from '../global/Associations';
-import Gallery from '../global/Gallery';
+import Gallery2 from '../global/Gallery2';
 import Footer from '../global/Footer';
 import Partners from '../global/Partners';
 import Button from '../global/Button';
@@ -66,7 +66,7 @@ const GTIPolicy = () => {
             </Container>
 
             <Heading>Learn & Network with World&#39;s top CEOs, Tech And Policy Leaders  </Heading>
-            <Gallery />
+            <Gallery2 />
             <Button page="mpp" url="https://forms.gle/jxT6BKKwd2FpSVAt5">APPLY NOW</Button>
 
             <Heading>As GGI Tech Policy Scholar, You will Immerse Yourself in a Truly Impactful Experience  </Heading>
