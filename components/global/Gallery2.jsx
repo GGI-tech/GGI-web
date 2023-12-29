@@ -36,7 +36,7 @@ const defaultData=[
   },
   {
     "img":img15,
-    "caption":"Head Data Science; Advisor, Pata",
+    "caption":"Head Data Science, Defense Technology, IIM Bangalore",
   },
   {
     "img":img16,
