@@ -1,6 +1,6 @@
 import network from '../public/network2.jpeg'
 import clinton from '../public/clinton.png'
-import arunm from '../public/arun_maira.jpg'
+import arunr from '../public/arunreplace.jpg'
 import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------------
 
@@ -20,7 +20,7 @@ export const companies = [ dalberg, Worldbank, fsg, UN, gov,bridgespan, civil,gd
 export const fourcolumndata = [ //to be fetched from database
     {
         "id": 1,
-        "img": arunm,
+        "img": arunr,
         "title": "Learn from Policy Tech Leaders",
         "body": "Top Government and tech Leaders write their own policy and tech cases and teach core Policy and Tech Concepts via designing a case-based learning ecosystem."
     },
