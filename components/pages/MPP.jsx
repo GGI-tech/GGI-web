@@ -34,10 +34,10 @@ const MPP = () => {
 
             <Heading>Who is this Program for?</Heading>
             <Container>
-                <p> 1. You are a young professional looking for better <span className='primary font-bold'> Alternatives to international MBA</span> programs and want to learn directly from top industry leaders.</p><br />
-                <p>2. You are CA/non-MBA looking to pivot in management consulting in firms such as <span className='primary font-bold'> Mckinsey & BCG,  Product Management, roles</span> in firms such as Uber, Amazon, Microsoft, & leading tech startups.</p><br />
-                <p>3. You are a <span className='primary font-bold'>Pre-MBA </span>with admits to Harvard 2+2, Yale Silver Scholars, and other top MBAs and looking to finish the business curriculum before your program.</p><br />
-                <p>4. You are a <span className='primary font-bold'>budding entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen business skills while building an incredible support system.</p>
+                <p> 1. You are looking for best <span className='primary font-bold'> Alternative to International- MPP</span>. </p><br />
+                <p>2. You are looking to pivot in impact firms such as <span className='primary font-bold'> UN, World Bank, FSG or social impact</span> roles.</p><br />
+                <p>3. You are a <span className='primary font-bold'>Pre-MPP </span>with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs.</p><br />
+                <p>4. You are a <span className='primary font-bold'>budding social impact entrepreneur</span> who is aiming to launch a venture.</p>
 
             </Container>
             <YoutubeEmbed embedId='URhwxoFL6S8' autoplay={1} />
