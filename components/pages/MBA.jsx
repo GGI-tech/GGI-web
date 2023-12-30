@@ -44,7 +44,7 @@ const MBA = () => {
             <div className='my-8'></div>
             <YoutubeEmbed embedId='pjwQLAI_fHs' autoplay={1}/>
 
-            <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
+            <Heading>Hear what GGIians who have pivoted into Strategy, Consulting and PM roles- have to say about us</Heading >
 
             <Slider slides={testimonialMain2} /> 
 
