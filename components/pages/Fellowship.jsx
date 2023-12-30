@@ -38,7 +38,7 @@ const Fellowship = () => {
             </Container>
             <YoutubeEmbed embedId='CL-UcquUN3k' autoplay={1} />
 
-            <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
+            <Heading>Hear what GGIians who have pivoted into Management Consulting, Government Consulting and Public Policy roles- have to say about us</Heading >
 
             <Slider slides={testimonialMain} /> 
 

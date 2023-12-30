@@ -43,7 +43,7 @@ const Main = () => {
                 Learn More about Advancing Your Career
             </Button>
 
-            <Heading>Hear what GGIians who have witnessed a +200% Increase in their Salary- have to say about us</Heading >
+            <Heading>Hear what GGIians who have pivoted into Consulting, Policy, and Product Management- have to say about us</Heading >
 
             <Slider slides={testimonialMain} />
 
