@@ -17,7 +17,7 @@ const FourColumnLayout2 = ({ data }) => {
         })}
 
       </div>
-      <p className="mt-80 text-center text-lg">The world is getting complex and with it complex solutions are needed. Most public policy problems<br/> today require technological solutions. However schools and universities are either not teaching them<br/> or teaching is siloes. GGI Tech Policy Scholar program aims to bridge this gap in the society to bring<br/> Tech leaders to solve world&apos;s trickiest problems. </p>
+      <p className="mt-20 text-center text-lg">The world is getting complex and with it complex solutions are needed. Most public policy problems<br/> today require technological solutions. However schools and universities are either not teaching them<br/> or teaching is siloes. GGI Tech Policy Scholar program aims to bridge this gap in the society to bring<br/> Tech leaders to solve world&apos;s trickiest problems. </p>
     </div>
   )
 }
