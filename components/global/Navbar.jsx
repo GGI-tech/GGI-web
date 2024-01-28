@@ -57,7 +57,7 @@ const Navbar = ({applicationbanner}) => {
               MBA
             </li>
           </Link>
-          <Link href='/ggitechpolicy'>
+          <Link href='/ggipolicyscholarsprogram'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
               MPP
             </li>
