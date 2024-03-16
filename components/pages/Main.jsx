@@ -43,7 +43,7 @@ const Main = () => {
                 Learn More about Advancing Your Career
             </Button>
 
-            <Heading>Hear what GGIians who have pivoted into Consulting, Policy, and Product Management- have to say about us</Heading >
+            <Heading>Hear from GGIians who have successfully transitioned into Consulting, Policy, and Product Management roles - their experiences with us.</Heading >
 
             <Slider slides={testimonialMain} />
 
@@ -56,7 +56,7 @@ const Main = () => {
             <Heading>GGI Offers Live <strong>Upskilling,</strong> <strong>Employment</strong> &  <strong>Networking</strong> </Heading>
 
             <Container>
-                <p >Find below specific programs within the fellowship and the 2 flagship Scholar tracks, to learn more about admission requirements, scholarships, and career opportunities and upskill on <span className='font-semibold'>how to build a career in management consulting, product management, policy, finance, impact investing, or program management roles. </span>   </p>
+                <p >Explore the specific programs available within our fellowship, including the two flagship Scholar tracks, to discover more about admission requirements, scholarships, and career opportunities. Upskill and learn <span className='font-semibold'>how to build a successful career in fields such as Management Consulting, Product Management, Policy, Finance, Impact Investing, or Program Management. </span>   </p>
 
             </Container>
 
