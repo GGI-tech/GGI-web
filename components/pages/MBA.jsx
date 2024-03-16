@@ -39,8 +39,8 @@ const MBA = () => {
             <Heading margin={60}>Why GGI Impact MBA Scholars Works? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <p className='px-8 my-8 text-center font-medium'>GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
-            <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a Top 20 Global Business School in the world. Despite the high premium - many of the Global Schools (baring few Ivy leagues) do not write their own cases, do not have an extensive global network, do not have experiential learning components, nor do they have strong industry connections.   We at Global Governance Initiative solve this through our mission. </Container>
+            <p className='px-8 my-8 text-center font-medium'>The GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
+            <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a top 20 global business school. Despite the high cost, many global schools—aside from a few Ivy League institutions—do not write their own cases, lack an extensive global network, offer limited experiential learning opportunities, and have weak industry connections.<br/><br/>At Global Governance Initiative, we address these issues through our mission.  </Container>
             <div className='my-8'></div>
             <YoutubeEmbed embedId='pjwQLAI_fHs' autoplay={1}/>
 
@@ -61,10 +61,10 @@ const MBA = () => {
 
             <Heading>Who is this Program for?</Heading>
             <Container>
-                <p> 1. You are a young professional looking for better <span className='primary font-bold'> Alternatives to international MBA</span> programs and want to learn directly from top industry leaders.</p><br />
-                <p>2. You are CA/non-MBA looking to pivot in management consulting in firms such as <span className='primary font-bold'> Mckinsey & BCG,  Product Management, roles</span> in firms such as Uber, Amazon, Microsoft, & leading tech startups.</p><br />
-                <p>3. You are a <span className='primary font-bold'>Pre-MBA </span>with admits to Harvard 2+2, Yale Silver Scholars, and other top MBAs and looking to finish the business curriculum before your program.</p><br />
-                <p className='mb-24'>4. You are a <span className='primary font-bold'>budding entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen business skills while building an incredible support system.</p>
+                <p> 1. If you&#39;re a young professional seeking <span className='primary font-bold'> Alternatives to international MBA</span> programs and want to learn directly from top industry leaders, you&#39;re in the right place.</p><br />
+                <p>2.  If you&#39;re a CA or non-MBA looking to pivot into Management Consulting roles at firms like <span className='primary font-bold'> McKinsey & BCG, or into Product Management roles </span> at companies like Uber, Amazon, Microsoft, and leading tech startups, this is for you.</p><br />
+                <p>3. If you&#39;re a <span className='primary font-bold'>Pre-MBA </span>with admissions offers from Harvard 2+2, Yale Silver Scholars, or other top MBA programs and looking to complete the business curriculum before starting your program, this path is designed for you.</p><br />
+                <p className='mb-24'>4. If you&#39;re an <span className='primary font-bold'>aspiring entrepreneur</span> aiming to launch and scale ventures and looking to enhance your business skills while building an incredible support network, you&#39;ve found the right opportunity.</p>
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
@@ -77,7 +77,7 @@ const MBA = () => {
 
             <Heading>A Liberal Refund Policy for You  </Heading>
             <Container>
-                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We have <span className="font-bold">no questions ask the full refund of the enrollment amount</span> of the selected scholars and fellows, till the first 6 days from the payment date. </p>
+                <p className='text-lg'>Your learning is our top priority, and we aim to make this decision entirely risk-free for you, allowing you to focus solely on learning. We offer a no-questions-asked full refund of the enrollment fee for selected scholars and fellows until the first 6 days from the payment date. </p>
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
@@ -86,8 +86,8 @@ const MBA = () => {
 
             <Heading>As a GGI MBA Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
             <Container>
-                <p className='mb-2'>Leaders looking to pivot into the World of <span className='font-semibold'> Management Consulting, Investing and Product Management </span> should be able to successfully navigate different cultures, economies, sectors, and industries. </p>
-                <p>To help you develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : </p>
+                <p className='mb-2'>As leaders looking to pivot into the world of <span className='font-semibold'> Management Consulting, Investing, and Product Management, </span> you should be adept at navigating various cultures, economies, sectors, and industries. </p>
+                <p>To support the development of these essential skills, GGI has meticulously designed a portfolio of immersive, experiential courses spanning across sectors and industries, organized into three stages: </p>
             </Container>
             <Steps data={stages} />
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
