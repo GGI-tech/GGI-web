@@ -184,20 +184,21 @@ const Main = () => {
                     Shatakshi Sharma, GGI & GTI Cofounder representing entrepreneurial views at the Invest Goa summit. 
                     </p>
                 </div>
-                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
-                    <div className="h-40">
-                        <Image src={Goasummit2} alt="" />
-                    </div>
-                    <p className="mt-12 text-yellow-600 text-center">
-                    Shatakshi Sharma, shaping policies for entrepreneurs for the state of Goa and overall India. 
-                    </p>
-                </div>
+                
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
                     <div className="h-40">
                         <Image src={Goasummit1} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
                     Naman Shrivastava, shaping policies for disruption and innovation for the state of Goa and overall India. 
+                    </p>
+                </div>
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={Goasummit2} alt="" />
+                    </div>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    Shatakshi Sharma, shaping policies for entrepreneurs for the state of Goa and overall India. 
                     </p>
                 </div>
             </div>
