@@ -19,6 +19,10 @@ import Button from '../global/Button';
 import poets from '../../public/poets.jpg';
 import bcg from '../../public/bcg-green.png';
 import Linkedin from '../../public/linkedin.jpg';
+import Goasummit1 from '../../public/Goasummit1.png';
+import Goasummit2 from '../../public/Goasummit2.png';
+import Goasummit3 from '../../public/Goasummit3.jpg';
+import Goasummit4 from '../../public/Goasummit4.jpeg';
 import yrstory from '../../public/ET_logo.png';
 import wef from '../../public/WEF.png'
 // -------------------------------------------------------
@@ -161,6 +165,40 @@ const Main = () => {
                     &quot;Shatakshi Sharma, GGI cofounder, is empowering global youth to start taking a seat on the table&quot;
                     </p>
                     <p className="my-10 text-center">— World Economic Forum</p>
+                </div>
+            </div>
+            <div className="p-5 md:p-12 grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-4 lg:gap-5">
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={Goasummit3} alt="" />
+                    </div>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    Shatakshi Sharma and Naman Shrivastava, GGI Cofounders, shape policies for Youth Empowerment and Upskilling for New India at the India Global Forum, India NXT 
+                    </p>
+                </div>
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={Goasummit4} alt="" />
+                    </div>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    Shatakshi Sharma, GGI & GTI Cofounder representing entrepreneurial views at the Invest Goa summit. 
+                    </p>
+                </div>
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={Goasummit2} alt="" />
+                    </div>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    Shatakshi Sharma, shaping policies for entrepreneurs for the state of Goa and overall India. 
+                    </p>
+                </div>
+                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                    <div className="h-40">
+                        <Image src={Goasummit1} alt="" />
+                    </div>
+                    <p className="mt-12 text-yellow-600 text-center">
+                    Naman Shrivastava, shaping policies for disruption and innovation for the state of Goa and overall India. 
+                    </p>
                 </div>
             </div>
 
