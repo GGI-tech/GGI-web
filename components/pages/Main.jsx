@@ -177,7 +177,7 @@ const Main = () => {
                     </p>
                 </div>
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
-                    <div className="h-40">
+                    <div >
                         <Image src={Goasummit4} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
