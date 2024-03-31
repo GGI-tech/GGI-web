@@ -10,48 +10,53 @@ export const fourcolumndata = [ //to be fetched from database
         "id": 1,
         "img": BCG,
         "title": "Learn from Mckinsey, BCG Mentors",
-        "body": "The mentor guides you personally on the fundamentals of consulting by training you through a case interviews and teaching you how to advance your career.  "
+        "body": "The mentor personally guides you through the fundamentals of consulting by training you in case interviews and teaching you how to advance your career. "
     },
     {
         "id": 2,
         "img": teach,
         "title": "Do Live Consulting Project & Write  Consulting Style Paper",
-        "body": "As GGI Impact Fellow you learn consulting practice by actually advising real cients in this country and writing a consulting style research paper, thereby increasing your skill and enhancing your profile"
+        "body": "As a GGI Impact Fellow, you will learn consulting practices by actually advising real clients in this country and writing a consulting-style research paper, thereby increasing your skills and enhancing your profile."
     },
     {
         "id": 3,
         "img": clinton,
         "title": "Advance Your Career with Top Employers",
-        "body": "GGI has forged strong partnerships with leading management consulting and development consulting organizations."
+        "body": "GGI has established strong partnerships with leading organizations in management consulting and development consulting."
     },
     {
         "id": 4,
         "img": network,
         "title": "Become Part of Purposeful Community",
-        "body": "This global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups.  "
+        "body": "This global community represents powerful, internationally diverse leaders at the helm of leading organizations. This community supports one another, not only by referring members to their first job but also by navigating a thriving career and building startups.  "
     }
 ]
 export const stages = [
     {
         "id": 0,
         "ques": "Stage 1 - Upskilling ",
-        "ans": ["<p className='mb-2'>Context is a critical component of sound decision-making in the world of consulting and international development - and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that allow them to connect the dots across many different areas including policy consulting, management consulting & sustainability, product management & tech ethics, impact investing, liberal arts, and core Business perspectives - via GGI&#39;s trademarked Masterclasses. ", `</p><br><p className='mb-3'>In this stage, Impact Fellows during their executive education also have access to the personalized Career Development Program of the Global Governance Initiative. This learning component is critical for those interested to work in organizations such as McKinsey, BCG, Bain, United Nations, World Bank, and inter-alia. Many of the Masterclasses are usually taken by incumbent partners and leadership of such organizations.  </p><br><p className='mb-3'> The Career Development Program further consists of two pillars.</p>
-                    <p class='text-xl font-semibold my-4'>1. Hands-on Case Solving Sessions  (Unique for every learner) </p><p>GGI Impact Fellows learn the art and science of problem-solving in a closed ecosystem along with a CV and cover letter hacks. GGI mentors who lead these sessions are handpicked from top firms such as McKinsey, BCG, Bain, United Nations, Tesla, etc. </p> <p class="text-xl font-semibold my-4">2. Microlearning Experience and Buddy System </p><p> 
+        "ans": ["<p className='mb-2'>Context is a critical component of sound decision-making in consulting and international development, and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that enable them to connect the dots across various areas, including policy consulting, management consulting and sustainability, product management and tech ethics, impact investing, liberal arts, and core business perspectives, through GGI&#39;s trademarked Masterclasses. ", `</p><br><p className='mb-3'>In this stage, Impact Fellows, during their executive education, also have access to the personalized Career Development Program of the Global Governance Initiative. This component is crucial for those aiming to work in organizations like McKinsey, BCG, Bain, United Nations, World Bank, and others. Many Masterclasses are typically led by incumbent partners and leaders of such organizations.
+            </p><br><p className='mb-3'> The Career Development Program comprises two pillars:</p>
+                    <p class='text-xl font-semibold my-4'>1. Hands-on Case Solving Sessions (Unique for every learner):  </p><p>GGI Impact Fellows learn the art and science of problem-solving in a closed ecosystem, along with CV and cover letter hacks. The mentors leading these sessions are handpicked from top organizations such as McKinsey, BCG, Bain, United Nations, Tesla, etc.
+                    </p> <p class="text-xl font-semibold my-4">2. Microlearning Experience and Buddy System </p><p> 
 
-                    ​GGI has crafted and designed a micro-learning AI-based experience via Schrödinger (by GGI) It is an interactive hand-picked, real-life - case simulator that allows fellows to practice cases and interview at a time that works best for them. The tool has been a game-changer for many GGI fellows - who credit their success in getting into top-notch consulting firms to Schrödinger.
+                    GGI has developed a microlearning AI-based experience through Schrödinger (by GGI). It is an interactive, real-life case simulator that allows fellows to practice cases and interviews at their convenience. This tool has been transformative for many GGI fellows, who credit their success in entering top consulting firms to Schrödinger.
                     <br><br>                    
-                    GGI impact Fellows during their executive education are also made part of a rotating buddy system - where they practice cases, network on wiggly, and build bonds with other members of this incredible community at Global Governance Initiative. </p>`]
+                    During their executive education, GGI Impact Fellows are also integrated into a rotating buddy system, where they practice cases, network on Wiggly, and build bonds with other members of this exceptional community at the Global Governance Initiative.
+ </p>`]
     },
     {
         "id": 1,
         "ques": "Stage 2 - Access to Employment Partnerships<br/> &<br/> Skin in the Game ",
-        "ans": ["<p className='mb-3'>In order to understand the world, you have to have skin in the game. The world of Consulting and International Development is unpredictable and adventurous. Impact Fellows are put in tough spots where they refine their craft by publishing consulting-style research papers under the Council on Sustainable Development.", "  </p><br><p className='mb-3'>Theoretical learnings, intertwined with practical experiences are what make the Impact Fellowship unique. Passionate Fellows, and their mentors - delve into the hard of questions of international business, and public policy in this stage. </p><br> <p className='mb-3'>It is because of the experiential learning component, Impact Fellows are able to successfully outshine others in their Consulting Interviews.  </p>"]
+        "ans": ["<p className='mb-3'>To truly understand the world, you must have skin in the game. The realms of Consulting and International Development are unpredictable and adventurous. Impact Fellows are placed in challenging situations where they refine their skills by publishing consulting-style research papers under the Council on Sustainable Development.", "  </p><br><p className='mb-3'>The combination of theoretical learning with practical experiences makes the Impact Fellowship unique. Passionate Fellows and their mentors delve into the core questions of international business and public policy at this stage. </p><br> <p className='mb-3'>Thanks to the experiential learning component, Impact Fellows can successfully outshine others in their consulting interviews.  </p>"]
     },
     {
         "id": 2,
         "ques": "Stage 3 - Community, Networking Nights, and Wellness Sessions ",
-        "ans": ["<p>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For Impact Fellows that one person is the entire community at Global Governance Initiative.</p>", "<p><br></p><p>Impact Fellows get exclusive access to office hours with the leadership of the Global Governance Initiative. They attend monthly inner circle meetings, and networking events with fellows from across industries and sectors. And they also provided an ecosystem - where their mental health is given paramount importance.&nbsp;</p><p><br></p><p>Even though the journey of an Impact Fellow formally ends in 6 months. But Fellows - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. Impact Fellows also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools.&nbsp;</p><p><br></p> <p>GGI Impact Fellowship is the Cr&egrave;me de la cr&egrave;me of the Global Governance Initiative network. Through core Masterclasses, flexible curriculum, and consulting style projects - Impact Fellowship provides a deep dive into the world of social impact consulting, development consulting, and international development.</p> <p><br></p><p>GGI Impact Fellowship is personalized and tailored-made, and a detailed schedule is shared only after the Initial Founders Call.&nbsp;</p>  <p><br></p><p>Impact Fellows are also made part of the GGI&apos;s Growing network through its various technology portals that comprise an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across 4 continents.&nbsp;</p>"]
-    }
+        "ans": [
+            "<p>It is often said that having just one person who cares for you unconditionally can do wonders for your self-esteem. That person is the entire community at the Global Governance Initiative.</p>",
+            "<p><br></p><p>Impact Fellows gain exclusive access to the Global Governance Initiative. They attend monthly inner circle meetings and networking events with fellows from various fields. They are also provided with an ecosystem where their mental health is given paramount importance.</p><p><br></p><p>Even though the fellowship ends after 6 months, Fellows—as GGI Alumni—will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Initiative for the rest of their lives. Impact Fellows also enjoy access to the exclusive partnerships that GGI continuously establishes with leading universities, businesses, and policy schools.</p><p><br></p><p>The GGI Impact Fellowship is the Crème de la crème of the GGI network. Through core Masterclasses, a flexible curriculum, and consulting-style projects, the Impact Fellowship offers a deep dive into consulting, development consulting, and international development.</p><p><br></p><p>The GGI Impact Fellowship is personalized, and the schedule is shared only after the Initial Founders Call.</p><p><br></p><p>Impact Fellows are also integrated into GGI's growing technology portals, encompassing an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across the globe.</p>"
+          ] }
 ]
 
 export const testimonialFellow = [
