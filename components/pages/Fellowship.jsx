@@ -32,29 +32,33 @@ const Fellowship = () => {
             <Heading margin={60}>Why GGI Impact Fellowship Works ?</Heading>
             <FourColumnLayout data={fourcolumndata} />
             <Container>
-                <p className='mb-5 mt-12'><span className='font-semibold'>Best teaching can be done only when there is a direct relationship between a teacher and a good student</span>- a situation where the student discussed ideas, thinks about things, and talks about things.  But in modern times, it&#39;s hard to create scalable solutions since there are so many students. Hence, GGI Impact Fellowship has created a nonscalable Mckinsey work experience ecosystem outcome at 1/500th of the cost!</p>
-                <p className='mb-5'><span className='font-semibold primary'>Young Professionals waste many years</span> either preparing for Civil Services to venture into the development sector or reading innumerable cases in the false hope of getting into management consulting. We at Global Governance Initiative solve this through our Impact Fellowship Program. </p>
-                <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span> GGI Fellowship was also recognized by BCG Global Media for its consulting feeder program..</p>
+                <p className='mb-5 mt-12'>The best teaching occurs only when there is a direct relationship between a teacher and a student—a situation where the student discusses ideas, thinks critically, and engages in meaningful conversation. However, in modern times, creating scalable solutions is challenging due to the sheer number of students. Consequently, GGI Impact Fellowship has developed a non-scalable McKinsey work experience ecosystem at 1/500th of the cost.</p>
+                <p className='mb-5'><span className='font-semibold primary'>Young professionals often waste years preparing for Civil Services</span> to enter the development sector or reading countless cases in the false hope of breaking into management consulting. At Global Governance Initiative, we address this issue through our Impact Fellowship Program.</p>
+                <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span>The GGI Fellowship has been recognized by BCG Global Media for its consulting feeder program.</p>
             </Container>
             <YoutubeEmbed embedId='CL-UcquUN3k' autoplay={1} />
 
-            <Heading>Hear what GGIians who have pivoted into Management Consulting, Government Consulting and Public Policy roles- have to say about us</Heading >
+            <Heading>Hear from GGIians who have successfully transitioned into Consulting, Policy, and Product Management roles - their experiences with us.</Heading >
 
             <Slider slides={testimonialMain} /> 
 
             <Heading>Life After GGI Impact Fellowship</Heading>
 
             <Container>
-                <p className='mb-4'>There is no &#39;typical&#39; GGI career path. You will be joined by the diverse GGI alumni spanning sectors, industries, and geographies, and interests range from political risk analysis, and banking to consulting, civil services applicants in the emerging markets to policy work in international organizations.</p>
-                <p className='mb-4'>Impact Fellowship has positioned GGI Alumni for careers in a variety of sectors. Examples include :</p>
+                <p className='mb-4'>There is no &#39;typical&#39; GGI career path. You will join diverse GGI alumni spanning sectors, industries, geographies, and interests, ranging from political risk analysis and banking to consulting, civil services in emerging markets, and policy work in international organizations.
+</p>
+                <p className='mb-4'>The Impact Fellowship has positioned GGI Alumni for careers in various sectors, including:</p>
                 <ul className='list-disc ml-4'>
                     <li className='mb-4'><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</li>
-                    <li className='mb-4'><span className='font-semibold primary'>International Organizations</span> such as United Nations, and the International Finance Corporation;</li>
-                    <li className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> Groups like Bridgespan, FSG. Dalberg</li>
-                    <li className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> such as Amazon, Unilever, and Procter & Gamle;</li>
+                    <li className='mb-4'><span className='font-semibold primary'>International Organizations</span> like the United Nations and the International Finance Corporation;</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> consulting groups such as Bridgespan, FSG, and Dalberg;</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> like Amazon, Unilever, and Procter & Gamble;</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Organizations</span> focused on developing market interests, such as Dalberg.
+</li>
+                    
                 </ul>
-                <p className='mb-4'>Organizations focused on <span className='font-semibold primary'>developing market interests such as Dalberg</span> </p>
-                <p className='mb-4'>Many large employers find that Impact Fellowship from Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, and other functional areas that necessitate an education that goes beyond traditional business skills. </p>
+                <p className='mb-4'>Many large employers find that the Impact Fellowship from the Global Governance Initiative prepares young professionals not just for general management positions but also for roles within governmental affairs, environmental affairs, and other functional areas that require an education extending beyond traditional business skills. </p>
+                <p className='mb-4'>Impact Fellows at the Global Governance Initiative are equipped to understand the complexities of national and local situations deeply. </p>
                 <p>Impact Fellows at Global Governance Initiative are positioned to have a deep understanding of the complexity of national and local situations. </p>
             </Container>
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
@@ -62,10 +66,12 @@ const Fellowship = () => {
 
             <Heading>Who is this Fellowship for ?</Heading>
             <Container>
-                <p> 1. You are a determined young professional looking to pivot in consulting and keen to learn by doing a consulting project directly with a <span className='primary font-semibold'>mentor from Mckinsey, BCG, Bain, Dalberg </span> </p><br />
-                <p>2. You are a UPSC aspirant looking for a relevant <span className='primary font-semibold'> Plan B for Civil Services</span> and keen to contribute to the social impact sector </p><br />
-                <p>3. You are looking for a <span className='primary font-semibold'>unique pre MBA/MPP work experience</span> in the social development consulting space by advising leading national NGO </p><br />
-                <p className='mb-12'>4. You are ready to pivot careers and looking to be <span className='primary font-semibold'>connected to GGI employment partners </span></p>
+                <p> 1. You are a determined young professional looking to pivot into consulting and keen to learn by doing a consulting project directly with a <span className='primary font-semibold'>mentor from McKinsey, BCG, Bain, or Dalberg. </span> </p><br />
+                <p>2. You are a UPSC aspirant looking for a relevant <span className='primary font-semibold'> Plan B for Civil Services</span> and keen to contribute to the social impact sector.
+ </p><br />
+                <p>3. You are seeking a <span className='primary font-semibold'>unique pre MBA/MPP work experience</span> in the social development consulting space by advising leading national NGO </p><br />
+                <p className='mb-12'>4. You are ready to pivot careers and looking <span className='primary font-semibold'>to connect with GGI&apos;s employment partners.
+</span></p>
 
             </Container>
             <YoutubeEmbed embedId='0XC2VXBF29g' autoplay={1} />
@@ -104,7 +110,7 @@ const Fellowship = () => {
             <Heading>With Impact Fellowship, The World is Your Classroom</Heading>
 
             <Container>
-                <p>Today&apos;s Global Leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that take place across sectors and industries. This is achieved in 3 stages : &nbsp;</p>
+                <p>Today&apos;s global leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that span various sectors and industries. This is achieved in three stages: &nbsp;</p>
             </Container>
             <Steps data={stages} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
