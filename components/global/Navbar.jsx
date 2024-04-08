@@ -129,7 +129,7 @@ const Navbar = ({applicationbanner}) => {
             </li>
 
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='https://theggi.org'>Blogs and Research</Link>
+              <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>Blogs and Research</Link>
             </li>
             <li onClick={handleNav} className='p-4  hover:text-gray-500'>
               <Link prefetch={false} href='/careers'>Careers</Link>
