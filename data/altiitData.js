@@ -205,7 +205,7 @@ export const galleryData = [
     },
     {
         "img": img23,
-        "caption": "Dean, IBGC Fletcher School of Law ",
+        "caption": "Group Cofounder, Good Glam Group",
     },
     {
         "img": img24,
