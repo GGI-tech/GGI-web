@@ -31,15 +31,15 @@ const MBA = () => {
     }
     return (
         <div>
-            <SlidingHero image={'./mba.jpeg'} title={["Learn Business Skills Live, Join Global Network <br class='hidden md:block'/>& Get Hired at <span class='text-yellow-200'>GGI MBA Scholar</span><br class='hidden md:block'/> to Become a Business Leader", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs "]} />
+            <SlidingHero image={'./mba.jpeg'} title={["Learn Business Skills Live, Join Global Network <br class='hidden md:block'/>& Get Hired at <span class='text-yellow-200'>GGI Management Scholar</span><br class='hidden md:block'/> to Become a Business Leader", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs "]} />
 
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
-            <Heading margin={60}>Why GGI Impact MBA Scholars Works? </Heading>
+            <Heading margin={60}>Why GGI Impact Scholars Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <p className='px-8 my-8 text-center font-medium'>The GGI Impact MBA has created an Ivy League MBA outcome at 1/1000th of the cost. </p>
+            <p className='px-8 my-8 text-center font-medium'>The GGI Impact Management has created an Ivy League Management outcome at 1/1000th of the cost. </p>
             <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a top 20 global business school. Despite the high cost, many global schools—aside from a few Ivy League institutions—do not write their own cases, lack an extensive global network, offer limited experiential learning opportunities, and have weak industry connections.<br/><br/>At Global Governance Initiative, we address these issues through our mission.  </Container>
             <div className='my-8'></div>
             <YoutubeEmbed embedId='pjwQLAI_fHs' autoplay={1}/>

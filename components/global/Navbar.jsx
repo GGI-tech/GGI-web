@@ -54,7 +54,7 @@ const Navbar = ({applicationbanner}) => {
         <ul style={{ color: `${textColor}` }} className='font-semibold hidden sm:flex lg:text-[16px] '>
           <Link href='/ggi-scholars'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
-              MBA
+            Management 
             </li>
           </Link>
           <Link href='/ggipolicyscholarsprogram'>
