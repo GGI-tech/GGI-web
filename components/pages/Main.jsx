@@ -68,9 +68,9 @@ const Main = () => {
                 <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 " >
                     <div className='lg:col-span-2'>
                         <div className='text-center md:text-left md:h-[27rem] '>
-                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI MBA Scholar </h2>
+                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Management Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
-                            <p className='my-7'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- MBA</span></p>
+                            <p className='my-7'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- Management</span></p>
                             <p className='my-7'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
                             <p className='my-7'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
                             <p className='my-7'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
