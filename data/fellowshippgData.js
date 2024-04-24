@@ -176,17 +176,17 @@ export const curriculum=[
 export const socialspaceimpactdata = [ //to be fetched from database
     {
         "id": 1,
-        "img": IFBB,
+        "img": pushpagiri,
         "body": "A dedicated team of GGI Fellows identified and tackled key challenges—ranging from operational infrastructure to staff hospitality. This project not only underscores our commitment to building an inclusive world but also highlights the unique power of collaboration between GGI and leading global nonprofits."
     },
     {
         "id": 2,
-        "img": goodstep,
+        "img": IFBB,
         "body": "Our team of GGI fellows took on a challenge faced by Indian Blind Football Federation to create awareness about blind football in the country and increase their funding pipeline. IBFF is aiding in building an inclusive environment by providing a platform to people with disabilities to participate in mainstream sports like football."
     },
     {
         "id": 3,
-        "img": pushpagiri,
+        "img": goodstep,
         "body": "We took on a challenge faced by The Goodstep in creating a User and NGO onboarding and engagement roadmap and designing a GTM strategy for the venture- The Goodstep is an awareness and discovery platform that helps presently untapped audiences transition into more sustainable and socially conscious lifestyles."
     }
 ]
