@@ -6,6 +6,7 @@ import OfficialPartners from '../global/OfficialPartners'
 import Container from '../global/Container'
 import Curriculum from '../global/Curriculum'
 import FourColumnLayout from '../global/FourColumnLayout'
+import ThreeColumnLayout from '../global/ThreeColumnLayout'
 import YoutubeEmbed from '../global/YoutubeEmbed'
 import Masterclasses from '../global/Masterclasses'
 import SlidingHero from '../global/SlidingHero'
@@ -19,7 +20,7 @@ import { testimonialMain } from '../../data/mainpgData';
 import studs1 from '../../public/s1.png'
 import studs2 from '../../public/s2.png'
 // --------------------------------------------------------------------
-import { fourcolumndata, stages, testimonialFellow, curriculum } from '../../data/fellowshippgData'
+import { fourcolumndata, stages, testimonialFellow, curriculum, socialspaceimpactdata } from '../../data/fellowshippgData'
 
 const Fellowship = () => {
 
@@ -98,8 +99,10 @@ const Fellowship = () => {
             <YoutubeEmbed embedId='BCwbgh9-69k' />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
-
+            <Heading>This is how You'd Create Impact in Social Space with Your Consulting Skills  ? </Heading>
+            <ThreeColumnLayout data={socialspaceimpactdata} />
             <Heading>A Liberal Refund Policy for You </Heading>
+            <FourColumnLayout data={fourcolumndata} />
             <Container>
                 <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We have <span className="font-bold">no questions ask the full refund of the enrollment amount</span> of the selected scholars and fellows, till the first 6 days from the payment date. </p>
             </Container>

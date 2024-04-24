@@ -110,7 +110,7 @@ const Navbar = ({applicationbanner}) => {
               <Link prefetch={false} href='/'>Home</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/ggi-scholars'>MBA</Link>
+              <Link prefetch={false} href='/ggi-scholars'>Management</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/ggipolicyscholarsprogram'>MPP</Link>
