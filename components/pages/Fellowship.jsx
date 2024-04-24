@@ -99,7 +99,7 @@ const Fellowship = () => {
             <YoutubeEmbed embedId='BCwbgh9-69k' />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
-            <Heading>This is how You'd Create Impact in Social Space with Your Consulting Skills  ? </Heading>
+            <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills  ? </Heading>
             <ThreeColumnLayout data={socialspaceimpactdata} />
             <Heading>A Liberal Refund Policy for You </Heading>
             <FourColumnLayout data={fourcolumndata} />
