@@ -1,13 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        'cochin': ['Nicolas Cochin', 'serif'], // Add 'serif' as a fallback
-      },
-    },
-  },
+ 
   // purge: [],
   mode: 'jit',
   content: [
