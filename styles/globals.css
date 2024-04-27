@@ -35,11 +35,7 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: NicolasCochin;
-  src: url('../fonts/Nicolas-Cochin-EF-Regular.ttf');
-  font-display: swap;
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@900&display=swap');
 
