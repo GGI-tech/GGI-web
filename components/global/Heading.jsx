@@ -2,7 +2,7 @@
 const Heading = ({children,margin}) => {
     return (
         <div id='' className={`mb-12 mt-48 ${margin?'md:mt-'+margin:'md:mt-72'}`}>
-            <h2 className='mx-auto primary px-2 md:w-4/5 xl:w-3/5 text-center leading-relaxed'>{children}</h2>
+            <h2 className='font-cochin mx-auto primary px-2 md:w-4/5 xl:w-3/5 text-center leading-relaxed'>{children}</h2>
         </div>
     );
 };
