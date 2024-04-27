@@ -4,9 +4,9 @@ const MainHero = () => {
     return (
         <div className={`hero text-white flex-col ${secondarynavbar ? 'mt-20' : 'mt-8 lg:mt-5'} pt-24 px-2 sm:px-12 lg:px-24 xl:px-36 h-full`}>
             <div className='r1 flex gap-5 md:gap-10 justify-center lg:justify-start items-end flex-wrap lg:flex-nowrap px-4'> {/*bg-purple-500 */}
-                <h1 className='text-6xl md:text-8xl lg:text-9xl arial'>100X</h1>
-                <h1 className='text-2xl arial'> YOUR CHANCES</h1>
-                <h1><button className='bg-white text-black px-4 py-2 hover:bg-black hover:text-white arial rounded-full text-3xl'>TO GET IN</button></h1>
+                <h1 className='font-cochin text-6xl md:text-8xl lg:text-9xl arial'>100X</h1>
+                <h1 className='font-cochin text-2xl arial'> YOUR CHANCES</h1>
+                <h1><button className='bg-white text-black px-4 py-2 hover:bg-black hover:text-white arial rounded-full text-3xl font-cochin'>TO GET IN</button></h1>
             </div>
             <div className='grid gap-10 sm:gap-0 md:grid-cols-4 grid-cols-3 pb-8'>{/*bg-black*/}
                 <div className='col-span-3'>
