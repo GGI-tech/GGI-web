@@ -102,7 +102,7 @@ const Fellowship = () => {
             <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills  ? </Heading>
             <ThreeColumnLayout data={socialspaceimpactdata} />
             <Heading>A Liberal Refund Policy for You </Heading>
-            <FourColumnLayout data={fourcolumndata} />
+    
             <Container>
                 <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We have <span className="font-bold">no questions ask the full refund of the enrollment amount</span> of the selected scholars and fellows, till the first 6 days from the payment date. </p>
             </Container>
