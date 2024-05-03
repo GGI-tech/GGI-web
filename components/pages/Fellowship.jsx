@@ -101,6 +101,7 @@ const Fellowship = () => {
 
             <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills  ? </Heading>
             <ThreeColumnLayout data={socialspaceimpactdata} />
+            <Container>Similarly,  <span className='primary font-semibold'>Council on Sustainable Development (CSD)</span> is a sister organization and think tank arm allowing exclusive opportunities to <span className="font-bold">GGI Fellows Only</span> to work with handpicked GGI mentors on cutting edge topics nudging public policy and achieving United Nations Sustainable Development Goals in emerging markets on climate, water, AI, women empowerment, investment and education crisis via young passionate mindset. You can read more about CSD research by our GGI fellows <u><a href='https://www.councilonsustainabledevelopment.org/' target="_blank" rel='noreferrer'>here</a></u>. </Container>
             <Heading>A Liberal Refund Policy for You </Heading>
     
             <Container>
