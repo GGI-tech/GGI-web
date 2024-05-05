@@ -59,7 +59,7 @@ const Navbar = ({applicationbanner}) => {
           </Link>
           <Link href='/ggipolicyscholarsprogram'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
-              MPP
+              Policy
             </li>
           </Link>
           <Link href='/impact-fellowship'>
@@ -113,7 +113,7 @@ const Navbar = ({applicationbanner}) => {
               <Link prefetch={false} href='/ggi-scholars'>Management</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/ggipolicyscholarsprogram'>MPP</Link>
+              <Link prefetch={false} href='/ggipolicyscholarsprogram'>Policy</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/impact-fellowship'>Fellowship</Link>
