@@ -51,20 +51,20 @@ const Navbar = ({applicationbanner}) => {
             </div>
           </Link>
         </div>
-        <ul style={{ color: `${textColor}` }} className=' font-semibold hidden sm:flex lg:text-[16px] '>
+        <ul style={{ color: textColor, letterSpacing: '0.2em' }} className="font-sans font-semibold hidden sm:flex lg:text-[13px]">
           <Link href='/ggi-scholars'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
-            Management 
+            MANAGEMENT
             </li>
           </Link>
           <Link href='/ggipolicyscholarsprogram'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
-              Policy
+              POLICY
             </li>
           </Link>
           <Link href='/impact-fellowship'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
-              Fellowship
+              FELLOWSHIP
             </li>
           </Link>
           <Link href='https://www.globaltechinitiative.org/gti-ms-scholars'>
@@ -74,12 +74,12 @@ const Navbar = ({applicationbanner}) => {
           </Link>
           <Link re href='/reviews'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
-              Employment Report
+              EMPLOYMENT REPORT
             </li>
           </Link>
           <li className='group relative inline-block p-4 cursor-pointer   hover:text-black '>
             <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold ">Explore</button>
+              <button className="inline-flex items-center rounded font-semibold ">EXPLORE</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-1 px-4 hover:bg-gray-400" >Free Series</div></Link>
                 <Link href="https://www.councilonsustainabledevelopment.org/" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Blogs & Research</div></Link>
