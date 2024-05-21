@@ -83,7 +83,7 @@ const MBA = () => {
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
             <Gallery />
 
-
+            <YoutubeEmbed embedId='vNSyUNfmh24' autoplay={1}/>
             <Heading>As a GGI MBA Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
             <Container>
                 <p className='mb-2'>As leaders looking to pivot into the world of <span className='font-semibold'> Management Consulting, Investing, and Product Management, </span> you should be adept at navigating various cultures, economies, sectors, and industries. </p>
