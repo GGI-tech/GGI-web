@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
- 
+  theme: {
+    fontFamily: {
+      sans: ['Helvetica', 'Arial', 'sans-serif'],
+    },
+  },
   // purge: [],
   mode: 'jit',
   content: [
@@ -14,3 +18,5 @@ module.exports = {
     // require('tw-elements/dist/plugin')
   ]
 }
+
+
