@@ -116,9 +116,9 @@ const Main = () => {
             <div className='mt-24 flex justify-center'>
                 <p className='md:w-3/5 md:text-lg font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
-
-
-
+            <YoutubeEmbed embedId='vNSyUNfmh24' />
+            
+            
             <Heading>Global Recognition Allows us to Serve you Better</Heading>
             <div className="p-5 md:p-12 grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-5">
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">

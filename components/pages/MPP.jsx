@@ -67,6 +67,7 @@ const MPP = () => {
 
             <Heading>Learn & Network with World&#39;s top CEOs, Partners, And Policy Leaders  </Heading>
             <Gallery />
+            <YoutubeEmbed embedId='HkJmwoBp4As' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>As GGI Policy Scholar, You will Immerse Yourself in a Truly Impactful Experience  </Heading>
