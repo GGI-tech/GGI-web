@@ -107,32 +107,32 @@ const Navbar = ({applicationbanner}) => {
         >
           <ul>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/'>Home</Link>
+              <Link prefetch={false} href='/'>HOME</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/ggi-scholars'>Management</Link>
+              <Link prefetch={false} href='/ggi-scholars'>MANAGEMENT</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/ggipolicyscholarsprogram'>Policy</Link>
+              <Link prefetch={false} href='/ggipolicyscholarsprogram'>POLICY</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/impact-fellowship'>Fellowship</Link>
+              <Link prefetch={false} href='/impact-fellowship'>FELLOWSHIP</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='https://www.altiit.org/'>MS</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/reviews'>Employment Report</Link>
+              <Link prefetch={false} href='/reviews'>EMPLOYMENT REPORT</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='https://www.schrodingerbyggi.org' target={"_blank"}>Free Series</Link>
+              <Link prefetch={false} href='https://www.schrodingerbyggi.org' target={"_blank"}>FREE SERIES</Link>
             </li>
 
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>Blogs and Research</Link>
+              <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>BLOGS AND RESEARCH</Link>
             </li>
             <li onClick={handleNav} className='p-4  hover:text-gray-500'>
-              <Link prefetch={false} href='/careers'>Careers</Link>
+              <Link prefetch={false} href='/careers'>CAREERS</Link>
             </li>
 
           </ul>
