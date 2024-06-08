@@ -12,14 +12,14 @@ const MainHero = () => {
                 <div className='col-span-3'>
                     <div className='r2 flex mt-12 md:mt-24 gap-1 md:gap-10  text-center justify-evenly lg:justify-between flex-wrap'> {/*bg-blue-900 */}
                         <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial  py-3 sm:py-6 '>
-                            <img width={80} height={80} src='/arrow2.jpg' className='hidden sm:block absolute bottom-24 -translate-x-6' />
+                            <img width={80} height={80} src='/arrow2.jpg' alt="arrow" className='hidden sm:block absolute bottom-24 -translate-x-6' />
                             MANAGEMENT <br className='hide' /><span className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'>CONSULTING </span></h1>
-                        <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial py-3 sm:py-6 xl:mr-15'>PUBLIC <br className='hide' /><span className=' text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'> POLICY <img width={50} height={80} src='/arrow.jpg' className='hidden sm:block absolute top-0 -right-14 lg:-top-2 lg:-right-5' />  </span></h1>
+                        <h1 className='relative text-2xl sm:text-3xl lg:text-4xl arial py-3 sm:py-6 xl:mr-15'>PUBLIC <br className='hide' /><span className=' text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'> POLICY <img width={50} height={80} src='/arrow.jpg' alt="arrow" className='hidden sm:block absolute top-0 -right-14 lg:-top-2 lg:-right-5' />  </span></h1>
                     </div>
                     <div className='r3 mt-4 sm:mt-5 flex flex-wrap lg:flex-nowrap gap-5 md:gap-10 justify-center lg:justify-start items-end '> {/*bg-green-300*/}
                         <div className=''>
                             <div className='flex sm:mt-4 justify-center'>
-                                <h1 className='relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl arial'>PRODUCT<img width={50} height={80} src='/arrow.jpg' className='absolute hidden sm:block bottom-12 left-48 lg:left-80' /><br className='hide' /><span className='text-2xl sm:text-3xl lg:text-4xl'> MANAGEMENT </span></h1>
+                                <h1 className='relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl arial'>PRODUCT<img width={50} height={80} alt="arrow" src='/arrow.jpg' className='absolute hidden sm:block bottom-12 left-48 lg:left-80' /><br className='hide' /><span className='text-2xl sm:text-3xl lg:text-4xl'> MANAGEMENT </span></h1>
                             </div>
                             <div className='r11 my-14 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
                                 <p className='sm:text-xl text-left'>We’re a social impact global organization with a mission to provide quality Business & Policy Education for an Inclusive world.</p>

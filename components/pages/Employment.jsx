@@ -638,7 +638,6 @@ const Employment = () => {
                 <img src={'/rr25.png'} alt='' />
                 <img src={'/rr26.png'} alt='' />
                 <img src={'/rr27.png'} alt='' />
-                <img src={'/rr28.png'} alt='' />
                 <img src={'/rr29.png'} alt='' />
                 <img src={'/rr30.png'} alt='' />
                 <img src={'/rr31.png'} alt='' />

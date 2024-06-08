@@ -8,7 +8,7 @@ import Footer from '../global/Footer';
 const Careers = () => {
     return (
         <>
-            <Hero key={1} heading='WELCOME TO YOUR<br> GGI CAREER' message='Make your own GGI' image={'/careers.jpg'} />
+            <Hero key={1} heading='WELCOME TO YOUR<br> GGI CAREER' message='Make your own GGI' altText="Careers" image={'/careers.jpg'} />
 
             <h2 className='text-3xl mt-24 mb-12 text-black'>A Career that fits your calling</h2>
             <Container>
