@@ -24,7 +24,10 @@ const reviews = () => {
         <meta name="twitter:title" content="GGI Honest Reviews | Global Governance Initiative " />
         <meta property="og:description" content="Honest reviews of the Global Governance Initiative program from the own words of its beneficiaries." />
         <meta name="twitter:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png" />
-
+        <meta
+          name='description'
+          content='Global Governance Initiative reviews'
+        />
       </Head>
       <Employment/>
     </>

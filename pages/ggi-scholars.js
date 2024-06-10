@@ -27,7 +27,10 @@ const ggischolars = () => {
         <meta name="twitter:title" content="MBA Scholars by Global Governance Initiative | Learn Business Live  &amp; Get Hired. " />
         <meta name="twitter:description" content="Learn Business Skills Live, Get Hired, &amp; Network at GGI MBA Scholar To Become an Impactful Business Leader&nbsp; " />
         <meta name="twitter:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png" />
-      
+        <meta
+          name='description'
+          content='GGI scholars Global Governance Initiative. '
+        />
       </Head>
       <MBA />
     </>

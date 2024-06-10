@@ -7,6 +7,10 @@ const careers = () => {
     <>
       <Head>
         <title>Careers | Global Governance Initiative </title>
+        <meta
+          name='description'
+          content='Explore career opportunities at Global Governance Initiative. '
+        />
         <link rel='icon' href='/favicon.jpg' />
       </Head>
       <Careers/>
