@@ -41,7 +41,7 @@ const Slider = ({ slides }) => {
                 arrow_back_ios
               </span> */}
               {index === current && (
-                <div className='flex flex-col lg:flex-row justify-evenly px-4 py-5  md:w-4/5 shadow-black/5 border-black/10 shadow-2xl rounded-lg'>
+                <div className='flex flex-col lg:items-center lg:flex-row justify-evenly px-4 py-5  md:w-4/5 shadow-black/5 border-black/10 shadow-2xl rounded-lg'>
                   <div className='text-center p-4'>
                     <Image
                       className='rounded-full object-cover bg-cover'
