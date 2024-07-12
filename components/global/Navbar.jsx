@@ -72,6 +72,11 @@ const Navbar = ({applicationbanner}) => {
               MS
             </li>
           </Link>
+          <Link href='http://www.globalmentalhealthinitiative.com/'>
+            <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
+            MENTAL HEALTH
+            </li>
+          </Link>
           <Link re href='/reviews'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               EMPLOYMENT REPORT
@@ -120,6 +125,9 @@ const Navbar = ({applicationbanner}) => {
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='https://www.globaltechinitiative.org/'>MS</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link prefetch={false} href='http://www.globalmentalhealthinitiative.com/'>MENTAL HEALTH</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>EMPLOYMENT REPORT</Link>
