@@ -51,7 +51,7 @@ const Navbar = ({applicationbanner}) => {
             </div>
           </Link>
         </div>
-        <ul style={{ color: textColor, letterSpacing: '0.2em' }} className="font-sans font-semibold hidden sm:flex lg:text-[13px]">
+        <ul style={{ color: textColor, letterSpacing: '0.1em' }} className="font-sans font-semibold hidden sm:flex lg:text-[13px]">
           <Link href='/ggi-scholars'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
             MANAGEMENT
@@ -72,14 +72,14 @@ const Navbar = ({applicationbanner}) => {
               MS
             </li>
           </Link>
-          <Link href='http://www.globalmentalhealthinitiative.com/'>
-            <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
-            MENTAL HEALTH
-            </li>
-          </Link>
           <Link re href='/reviews'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               EMPLOYMENT REPORT
+            </li>
+          </Link>
+          <Link href='http://www.globalmentalhealthinitiative.com/'>
+            <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200'>
+            MENTAL HEALTH
             </li>
           </Link>
           <li className='group relative inline-block p-4 cursor-pointer   hover:text-black '>
@@ -127,10 +127,10 @@ const Navbar = ({applicationbanner}) => {
               <Link prefetch={false} href='https://www.globaltechinitiative.org/'>MS</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='http://www.globalmentalhealthinitiative.com/'>MENTAL HEALTH</Link>
+              <Link prefetch={false} href='/reviews'>EMPLOYMENT REPORT</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/reviews'>EMPLOYMENT REPORT</Link>
+              <Link prefetch={false} href='http://www.globalmentalhealthinitiative.com/'>MENTAL HEALTH</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='https://www.schrodingerbyggi.org' target={"_blank"}>FREE SERIES</Link>
