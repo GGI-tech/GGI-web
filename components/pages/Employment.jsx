@@ -632,7 +632,18 @@ const Employment = () => {
                 }
             </div>
             <div className='flex flex-wrap justify-center md:mx-12'>
-                <img src='/rr39.png' alt=''/>
+                <img src={'/rr40.png'} width='60%' alt=''/>
+                <img src={'/rr41.png'} width='60%' alt='' />
+                <img src={'/rr42.png'} width='60%' alt='' />
+                <img src={'/rr43.png'} width='60%' alt=''/>
+                <img src={'/rr44.png'} width='60%' alt='' />
+                <img src={'/rr45.png'} width='60%' alt='' />
+                <img src={'/rr46.png'} width='60%' alt=''/>
+                <img src={'/rr47.png'} width='60%' alt='' />
+                <img src={'/rr48.png'} width='60%' alt='' />
+                <img src={'/rr49.png'} width='60%' alt=''/>
+                <img src={'/rr50.png'} width='60%' alt='' />
+                <img src={'/rr39.png'} alt=''/>
                 <img src={'/rr35.jpg'} alt='' />
                 <img src={'/rr36.jpg'} alt='' />
                 {/* <img src={'/rr37.jpg'} alt='' /> */}
