@@ -82,6 +82,7 @@ const data1 = [
         "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also.`
     },
 
+   
     {
         "id": 6,
         "title": `Aditya Bansal`,
@@ -89,6 +90,14 @@ const data1 = [
         "org": "Bain &amp; Company",
         "img": "/aditya.jpg",
         "text": "Hi Shatakshi, I got into&nbsp;Bain!&nbsp;I had it my top preference within consulting, Also got an offer to work as a trader in Amsterdam.&nbsp;</p><p><br></p><p>Thank you for guidance and support"
+    },
+    {
+        "id": 29,
+        "title": `Manvi Sherawat`,
+        "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
+        "org": "Chase India",
+        "img": "/MANICKAM.PNG",
+        "text": `Hi, I am Manvi.<br><br>I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce.<br><br>I came across GGI when I was looking into MBA programs. I started going through the ‘MBA in 10 Minutes’ series which I found extremely interesting.`
     },
     {
         "id": 7,
@@ -139,6 +148,14 @@ const data1 = [
         "text": "Shortly after GGI, I was offered a role by&nbsp;Kearney India. The GGI Masterclass enabled me to develop a more holistic view of the manner in which public sector works in our country and the challenges that arise while working to create an impact with them.</p><p>&nbsp;</p><p>The first time I was introduced to case interviews was also during the GGI Masterclass on my campus. I was able to understand the problems better and develop structured solutions which made me stand out."
     },
     {
+        "id": 30,
+        "title": `Aayushman Singh`,
+        "url": "https://in.linkedin.com/in/aayushmansingh",
+        "org": "Stealth Startup",
+        "img": "/ayushsingh.PNG",
+        "text": `Hi, I completed civil engineering from University of Hong Kong.<br><br>I had a brief stint in entrepreneurship, after which I started working in a Fortune 500 infrastructure consulting firm. I have over 6 years of experience in this space.br><br>I wanted to pivot to management consulting post MBA. Last year and that is when I found out about GGI.`
+    },
+    {
         "id": 13,
         "title": "MAANYA CHARY KALRA",
         "url": "https://www.linkedin.com/in/maanyacharukalra/",
@@ -186,6 +203,14 @@ const data1 = [
         "org": "MENTERRA VENTURES",
         "img": "/chris.jpg",
         "text": `Shortly after GGI, I got Impact Investment offer from&nbsp;<a href="https://www.linkedin.com/company/menterra-venture-advisors/" rel="noreferrer noopener" target="_blank">Menterra Ventures</a><br><br>I actually used what I learned at GGI,within GGI, to get a job by GGI.<br><br>During my interview round, I was asked about a strategy case- the case became pretty easy because I had already completed my GGI fellowship. Having worked with Shreya (GGI mentor) on a Consulting Style white Paper allowed me to put the whole framework into practice.<br><br>GGI Fellowship helped fill my skills gaps as my expertise lay on the quantitative side earlier since I had gotten qualifications such as CFA, FRM, and others, but I was missing qualitative nuance in my analysis. And I had actually joined GGI to fill that gap.<br><br>I&apos;m also glad that my fellowship helped me a great deal to grab this opportunity.`
+    },
+    {
+        "id": 31,
+        "title": "Suvidha Jani",
+        "url": "https://www.linkedin.com/in/suvidha-jani/",
+        "org": "Michael & Susan Dell Foundation",
+        "img": "/suvidha.jfif",
+        "text": `Hi, I am Suvidha Jani<br><br>I am a post graduate student from Delhi University.<br><br>Since I am not on any social media platform, getting connected to GGI was simply destiny. It was as if the universe wanted me to be a part of the GGI community :)<br><br>An ex colleague had recommended GGI to me. And this is how I found my way to GGI.`
     },
     {
         "id": 19,
