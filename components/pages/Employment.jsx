@@ -96,7 +96,7 @@ const data1 = [
         "title": `Manvi Sherawat`,
         "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
         "org": "Chase India",
-        "img": "/MANICKAM.PNG",
+        "img": "/MANICKAM.jfif",
         "text": `Hi, I am Manvi.<br><br>I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce.<br><br>I came across GGI when I was looking into MBA programs. I started going through the ‘MBA in 10 Minutes’ series which I found extremely interesting.`
     },
     {
