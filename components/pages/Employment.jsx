@@ -97,8 +97,30 @@ const data1 = [
         "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
         "org": "Chase India",
         "img": "/MANICKAM.jfif",
-        "text": `Hi, I am Manvi.<br><br>I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce.<br><br>I came across GGI when I was looking into MBA programs. I started going through the ‘MBA in 10 Minutes’ series which I found extremely interesting.`
-    },
+        "text": `Shortly after GGI, I’d be joining Chase India in policy strategy role.<br><br>&ldquo;Hi, I am Manvi.<br><br>
+
+        I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce. <br><br>
+        
+        I came across GGI when I was looking into MBA programs. I started going through the ‘MBA in 10 Minutes’ series which I found extremely interesting.&ldquo;<br> 
+        <br>
+        
+        Q- What are the 3 things you learned at GGI?
+        <br><br>
+        &ldquo;What stood out the most for me is the quality of the cohort.<br><br>
+        GGIans have been so nice and helpful to me. In fact, they helped me get into my recent job as well. <br><br>
+
+    2nd, the way the classes have been structured, including the pre-reads and the post-reads has helped me significantly. <br><br>
+
+    Lastly, I have to give credit to Schrodinger, the AI case interview preparation tool. I was completely new to the concept of case-ing. This helped me understand what a consultant actually does.<br><br>I was good at some and really stuck out in the rest. In the end, my learning curve has been very steep.<br><br>
+    Q- So, what is your advice for the cohort of 2024?
+
+        <br><br>
+        &ldquo;I’d say, just trust the process.<br><br>The learning curve will be steep. Sometimes you may get overwhelmed by it or feel that nothing is making sense.
+        <br><br>It will all eventually start coming together. Be diligent in classes and do all your asynchronous work as well.
+         <br><br>Sit tight for 6 months, the team and the cohort are there to help you.
+         <br><br>6 months later, your learnings are going to grow by 100%.
+        
+    `},
     {
         "id": 7,
         "title": " JAYESH JAWANDHIA",
@@ -151,10 +173,38 @@ const data1 = [
         "id": 30,
         "title": `Aayushman Singh`,
         "url": "https://in.linkedin.com/in/aayushmansingh",
-        "org": "Stealth Startup",
+        "org": "INSEAD MBA",
         "img": "/ayushsingh.PNG",
-        "text": `Hi, I completed civil engineering from University of Hong Kong.<br><br>I had a brief stint in entrepreneurship, after which I started working in a Fortune 500 infrastructure consulting firm. I have over 6 years of experience in this space.br><br>I wanted to pivot to management consulting post MBA. Last year and that is when I found out about GGI.`
-    },
+        "text": `Hi, I am Aayushman from Delhi.<br><br>
+
+        And I’d be joining INSEAD this fall.<br><br>
+        
+        I had updated my application to INSEAD with my GGI Impact Fellowship offer, post which within few days I was also invited to join INSEAD.<br> 
+        <br>
+        &ldquo;Hi, I completed civil engineering from University of Hong Kong.
+         <br><br>I had a brief stint in entrepreneurship, after which I started working in a Fortune 500 infrastructure consulting firm. I have over 6 years of experience in this space.
+         <br><br>I wanted to pivot to management consulting post MBA. Last year and that is when I found out about GGI.&ldquo;
+        <br><br>
+        Q- What are the 3 things you learned at GGI?
+        <br><br>
+        
+        &ldquo;I got a lot of confidence in my ability to crack management consulting through the masterclasses.
+        <br><br>The guest speakers and the co founders shared great insights into the field.<br>Coming from an engineering background, it was all very new to me.
+         <br><br>2nd, the #diverse cohort provided great learning opportunities.
+         <br><br>There was a lot of peer learning taking place in break out rooms.
+        <br><br>Finally, I was pleasantly surprised that I could connect with people and make meaningful #bounds despite the classes being online.
+<br><br>Overall, my experience on a personal and professional level has been great.&ldquo;
+<br><br>
+        Q- So, what would be your advice for the cohort of 2024 ?
+        <br><br>
+        &ldquo;Keep a very #open mind.<br><br>
+        I made this mistake where I went into the GGI ecosystem with a niche mindset of focusing on management consulting. Eventually, due to the masterclasses, I started finding #impactinvesting and #publicpolicy interesting as well.<br><br>
+
+    Being open to all kinds of opportunities and learnings, will give you the chance to explore yourself as a person- introspect and find out what you really want to do. <br><br>
+
+    Enjoy the process.<br><br>
+    The program is built in a manner that will enable you to get the most out of it.<br><br>
+       `},
     {
         "id": 13,
         "title": "MAANYA CHARY KALRA",
@@ -210,8 +260,32 @@ const data1 = [
         "url": "https://www.linkedin.com/in/suvidha-jani/",
         "org": "Michael & Susan Dell Foundation",
         "img": "/suvidha.jfif",
-        "text": `Hi, I am Suvidha Jani<br><br>I am a post graduate student from Delhi University.<br><br>Since I am not on any social media platform, getting connected to GGI was simply destiny. It was as if the universe wanted me to be a part of the GGI community :)<br><br>An ex colleague had recommended GGI to me. And this is how I found my way to GGI.`
-    },
+        "text": `At GGI, I joined Michael & Susan Dell Foundation.<br><br>
+        
+        &ldquo;Hi, I am Suvidha Jani.
+         <br><br>I am a post graduate student from Delhi University.
+         <br><br>Since I am not on any social media platform, getting connected to GGI was simply destiny.
+         <br>It was as if the universe wanted me to be a part of the GGI community :)
+         <br><br>An ex colleague had recommended GGI to me. And this is how I found my way to GGI.&ldquo;
+        <br><br>
+        Q- So, what are the 3 things you learned at GGI ?
+        <br><br>
+        &ldquo;Post my master’s degree, I was very clear that I wanted to work in the development sector and social impact space.<br><br>
+        When I was working with the Haryana, Andhra Pradesh and Telangana Government, I realised that government as a state machinery can do a lot of wonders. <br><br>
+
+    But, gradually I came across a lot of other organisations doing great work in the same sector. I wanted to be part of an organisation which had clear impact goals, which MSDF offers. <br><br>
+
+    1. At GGI, firstly I am really enjoying the clear learning outcomes. I am a nerd at heart and prefer outcome oriented classes.<br><br>
+    GGI is giving me the learning for which I would have had to pay a lot at a #foreign university.<br><br>
+    2. Secondly, I really like the community. So many insightful conversations have taken place in the breakout rooms.<br><br>
+    3. Thirdly, there is a sense of #belonging. I have always felt like a misfit, but at GGI I got a feeling of belongingness.&ldquo;<br><br>
+    Q- Your advice for the cohort of 2024 ?
+
+        <br><br>
+        &ldquo;It is natural to feel uncomfortable about trying something new-
+        <br><br>But give GGI a shot.
+         <br><br>Shoot for the moon and you will reach the stars. GGI is definitely the place that will help you reach the #stars.
+        `},
     {
         "id": 19,
         "title": `Rahul Prasad`,
@@ -632,17 +706,17 @@ const Employment = () => {
                 }
             </div>
             <div className='flex flex-wrap justify-center md:mx-12'>
-                <img src={'/rr40.png'} width='60%' alt=''/>
-                <img src={'/rr41.png'} width='60%' alt='' />
+                <img src={'/rr40.png'} width='50%' alt=''/>
+                <img src={'/rr41.png'} width='50%' alt='' />
                 <img src={'/rr42.png'} width='60%' alt='' />
-                <img src={'/rr43.png'} width='60%' alt=''/>
-                <img src={'/rr44.png'} width='60%' alt='' />
+                <img src={'/rr43.png'} width='50%' alt=''/>
+                <img src={'/rr44.png'} width='50%' alt='' />
                 <img src={'/rr45.png'} width='60%' alt='' />
-                <img src={'/rr46.png'} width='60%' alt=''/>
-                <img src={'/rr47.png'} width='60%' alt='' />
+                <img src={'/rr46.png'} width='50%' alt=''/>
+                <img src={'/rr47.png'} width='50%' alt='' />
                 <img src={'/rr48.png'} width='60%' alt='' />
-                <img src={'/rr49.png'} width='60%' alt=''/>
-                <img src={'/rr50.png'} width='60%' alt='' />
+                <img src={'/rr49.png'} width='50%' alt=''/>
+                <img src={'/rr50.png'} width='50%' alt='' />
                 <img src={'/rr39.png'} alt=''/>
                 <img src={'/rr35.jpg'} alt='' />
                 <img src={'/rr36.jpg'} alt='' />
