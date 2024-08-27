@@ -77,11 +77,6 @@ const Navbar = ({applicationbanner}) => {
               EMPLOYMENT REPORT
             </li>
           </Link>
-          <Link href='http://www.globalmentalhealthinitiative.com/'>
-            <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200'>
-            MENTAL HEALTH
-            </li>
-          </Link>
           <li className='group relative inline-block p-4 cursor-pointer   hover:text-black '>
             <span className="group relative inline-block">
               <button className="inline-flex items-center rounded font-semibold ">EXPLORE</button>
@@ -128,9 +123,6 @@ const Navbar = ({applicationbanner}) => {
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>EMPLOYMENT REPORT</Link>
-            </li>
-            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='http://www.globalmentalhealthinitiative.com/'>MENTAL HEALTH</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='https://www.schrodingerbyggi.org' target={"_blank"}>FREE SERIES</Link>
