@@ -102,3 +102,4 @@ export const testimonialYLP =[
         review: "Meet Vaishnavi Chandrasekar, GGI Impact Lab, Young Leader 2021<br><br> Vaishnavi is a Computer Science Sophomore with a minor in Business.<br><br> Through her technical and financial knowledge, she hopes to apply practical aspects of her study in solving humanitarian issues. <br><br> She works closely with renowned shelters that actively works against the global hunger crisis. She is also a member of the Microsoft Learn Student Ambassador program."
     }
 ]
+
