@@ -14,7 +14,7 @@ const FAQ = [
         <br><br>        
         D.&nbsp;<u><a href="/ggipolicyscholarsprogram" target="_blank" rel="noreferrer noopener">GGI Policy Scholars</a></u>- Serves as a classic<span style="font-weight:bold;">&nbsp;Alt MPP &amp; Pre MPP,</span> designed specifically for those who wish to pivot their career into the<span style="font-weight:bold;"> public policy </span>and<span style="font-weight:bold;">  development sector</span></span>
         <br><br> 
-        E.&nbsp;<u><a href="/executivemanagement" target="_blank" rel="noreferrer noopener">GGI Executive Leaders</a></u>- Serves as a classic<span style="font-weight:bold;">&nbsp;classic Executive MBA,</span> designed specifically for those looking for brakthrough learnings for leaders and looking to get into<span style="font-weight:bold;"> general management, strategy</span>and<span style="font-weight:bold;"> policy.</span></span>`
+        E.&nbsp;<u><a href="/executivemanagement" target="_blank" rel="noreferrer noopener">GGI Executive Leaders</a></u>- Serves as a <span style="font-weight:bold;">&nbsp;classic Executive MBA,</span> designed specifically for those looking for brakthrough learnings for leaders and looking to get into<span style="font-weight:bold;"> general management, strategy</span> and<span style="font-weight:bold;"> policy.</span></span>`
 
     },
     {
@@ -34,7 +34,7 @@ const FAQ = [
         "ques":"Am I eligible for the GGI Management, Policy or Impact Fellowship Program?",
         "ans":`The pre-requisites of Global Governance Initiative Programs are as below :<br><br>
          1. <u>Interested in pursuing a career</u> in Management Consulting, Public Policy or Product Management.<br><br>
-         2. <u>Global Governance is a mission-oriented organization</u>with an aim to empower professionals and women to have a seat on the table in business and policy roles. <br><br>
+         2. <u>Global Governance is a mission-oriented organization</u> with an aim to empower professionals and women to have a seat on the table in business and policy roles. <br><br>
          3. <u>Background:</u> GGI is an background-agnostic program. It doesn&apos;t matter whether you are a fresh undergrad with internship experience or the CEO of a startup with entrepreneurial experience. We will cover basics and advanced learning around business, strategy, governance, product and policy. We suggest putting a strong application and welcome you to a beautiful ecosystem as long as you are willing to work hard, learn and thrive.   `
     },
     {
