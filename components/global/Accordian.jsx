@@ -14,7 +14,7 @@ const FAQ = [
         <br><br>        
         D.&nbsp;<u><a href="/ggipolicyscholarsprogram" target="_blank" rel="noreferrer noopener">GGI Policy Scholars</a></u>- Serves as a classic<span style="font-weight:bold;">&nbsp;Alt MPP &amp; Pre MPP,</span> designed specifically for those who wish to pivot their career into the<span style="font-weight:bold;"> public policy </span>and<span style="font-weight:bold;">  development sector</span></span>
         <br><br> 
-        E.&nbsp;<u><a href="/executivemanagement" target="_blank" rel="noreferrer noopener">GGI Executive Leaders</a></u>- Serves as a <span style="font-weight:bold;">&nbsp;classic Executive MBA,</span> designed specifically for those looking for brakthrough learnings for leaders and looking to get into<span style="font-weight:bold;"> general management, strategy</span> and<span style="font-weight:bold;"> policy.</span></span>`
+        E.&nbsp;<u><a href="/executivemanagement" target="_blank" rel="noreferrer noopener">GGI Executive Leaders</a></u>- Serves as a <span style="font-weight:bold;">&nbsp;classic Executive MBA,</span> designed specifically for those looking for brakthrough learnings for leaders and looking to get into<span style="font-weight:bold;"> general management, strategy</span> and <span style="font-weight:bold;"> policy.</span></span>`
 
     },
     {

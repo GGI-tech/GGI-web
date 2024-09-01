@@ -17,8 +17,13 @@ import OfficialPartners from '../global/OfficialPartners';
 const Executive = () => {
     return (
         <div>
-            <SlidingHero image={'/1691767917954.jpeg'} title={["GGI Executive Program: Be a<br/> Leader Who Matters"]} />
-            <Link href="#more">
+            <SlidingHero 
+  image={'/1691767917954.jpeg'} 
+  title={[
+    "<span class='text-yellow-300' style='font-size: 40px;'>GGI Executive Program:</span><br/><span style='font-size: 40px;'>Be a Leader Who Matters</span>"
+  ]} 
+/>
+<Link href="https://forms.gle/hr8ZBPLBrareNndBA">
                 <div id='' className='flex justify-center font-serif'>
 
                     <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
@@ -44,13 +49,13 @@ const Executive = () => {
             <Heading>Who is this Program for?</Heading>
             <Container>
                 <p> 1. If you&#39;re a <span className='primary font-bold'>Senior Professional</span> seeking  Alternatives to international MBA programs and want to learn directly from top industry leaders, you&#39;re in the right place.</p><br />
-                <p>2.  If you&#39;re a CA or non-MBA looking to pivot into Management Consulting roles at firms like <span className='primary font-bold'> McKinsey & BCG, or into Product Management roles </span> at companies like Uber, Amazon, Microsoft, and leading tech startups, this is for you.</p><br />
+                <p>2.  If you&#39;re a CA or non-MBA looking to pivot into <span className='primary font-bold'>Management Consulting</span> roles <span className='primary font-bold'> or into Policy roles </span> at companies like Dell Foundation, United Nations and leading tech ventures, this is for you.</p><br />
                 <p>3 . If you&#39;re an <span className='primary font-bold'>aspiring entrepreneur</span> aiming to launch and scale ventures and looking to enhance your business skills while building an incredible support network, you&#39;ve found the right opportunity.</p><br />
                 <p className='mb-24'>4. If you&#39;re a <span className='primary font-bold'> seasoned and influential executives</span> who are motivated to make a difference and Senior-level leaders at growth companies who are challenged to scale.</p>
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
-            <Link href="#more">
+            <Link href="https://forms.gle/hr8ZBPLBrareNndBA">
                 <div id='' className='flex justify-center font-serif'>
 
                     <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
@@ -78,7 +83,7 @@ const Executive = () => {
                 <p>This <span className="font-bold">3-month immersive program</span> is structured into five comprehensive stages, each designed to equip you with the skills, insights, and experiences necessary to excel in strategic management, policy development, and business leadership. </p>
             </Container>
             <Steps data={stages} />
-            <Link href="#more">
+            <Link href="https://forms.gle/hr8ZBPLBrareNndBA">
                 <div id='' className='flex justify-center font-serif'>
 
                     <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
@@ -151,7 +156,7 @@ const Executive = () => {
 
                 </div>
             </div >
-            <Link href="#more">
+            <Link href="https://forms.gle/hr8ZBPLBrareNndBA">
                 <div id='' className='flex justify-center font-serif'>
 
                     <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
