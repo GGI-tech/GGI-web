@@ -124,10 +124,10 @@ const Executive = () => {
             </Container>
             <div className="lg:w-2/3 mx-auto text-white italic">
                
-                <div className="px-2 ylp1 h-60 flex flex-col inset-0 justify-center items-center ">
+                {/* <div className="px-2 ylp1 h-60 flex flex-col inset-0 justify-center items-center ">
                     <h1 className="text-xl font-semibold">Leadership in Extraordinary Times</h1>
                     <p>From moments of opportunity to times of adversity, the GGI Executive approach to executive education equips modern leaders to guide their organizations through any and every challenge.</p>
-                </div>
+                </div> */}
                 <div className="px-2 ylp1 h-60 flex flex-col inset-0 justify-center items-center ">
                     <h1 className="text-xl font-semibold">Earn an Executive Certificate</h1>
                     <p>When you complete consulting and policy sessions and curriculum you&apos;ll earn a digital certificate to share with prospective employers and your professional network</p>
