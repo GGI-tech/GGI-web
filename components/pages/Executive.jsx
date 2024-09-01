@@ -13,6 +13,7 @@ import Curriculum from '../global/Curriculum';
 import Image from "next/image"
 import Gallery from '../global/Gallery';
 import OfficialPartners from '../global/OfficialPartners';
+import Button from '../global/Button';
 
 const Executive = () => {
     return (
@@ -23,17 +24,9 @@ const Executive = () => {
     "<span class='text-yellow-300' style='font-size: 40px;'>GGI Executive Program:</span><br/><span style='font-size: 40px;'>Be a Leader Who Matters</span>"
   ]} 
 />
-<Link href="https://forms.gle/hr8ZBPLBrareNndBA">
-                <div id='' className='flex justify-center font-serif'>
+<Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
-                    <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
 
-                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 ease"></span>
-                        <span className="relative"> Advance Your Career by Applying Now</span>
-                    </p>
-
-                </div>
-            </Link>
 
 
 
@@ -55,17 +48,8 @@ const Executive = () => {
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
-            <Link href="https://forms.gle/hr8ZBPLBrareNndBA">
-                <div id='' className='flex justify-center font-serif'>
+            <Button page="mba" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
-                    <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
-
-                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 ease"></span>
-                        <span className="relative"> Advance Your Career by Applying Now</span>
-                    </p>
-
-                </div>
-            </Link>
             <Heading>Executive Program in Management & Policy</Heading>
             <Curriculum data={curriculum}/>
             
@@ -83,17 +67,8 @@ const Executive = () => {
                 <p>This <span className="font-bold">3-month immersive program</span> is structured into five comprehensive stages, each designed to equip you with the skills, insights, and experiences necessary to excel in strategic management, policy development, and business leadership. </p>
             </Container>
             <Steps data={stages} />
-            <Link href="https://forms.gle/hr8ZBPLBrareNndBA">
-                <div id='' className='flex justify-center font-serif'>
+            <Button page="mba" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
-                    <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
-
-                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 ease"></span>
-                        <span className="relative"> Advance Your Career by Applying Now</span>
-                    </p>
-
-                </div>
-            </Link>
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
                 <div className="flex items-center col-span-2">
@@ -156,17 +131,9 @@ const Executive = () => {
 
                 </div>
             </div >
-            <Link href="https://forms.gle/hr8ZBPLBrareNndBA">
-                <div id='' className='flex justify-center font-serif'>
+            <Button page="mba" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
-                    <p className="mt-12  rounded-xl px-5 py-2.5 overflow-hidden group bg-blue-500 relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 whitespace-nowrap">
-
-                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 ease"></span>
-                        <span className="relative"> Advance Your Career by Applying Now</span>
-                    </p>
-
-                </div>
-            </Link>
+            
             <Heading>Program Fees </Heading>
             <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
                 <br /><br />
