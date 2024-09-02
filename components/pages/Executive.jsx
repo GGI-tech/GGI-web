@@ -48,7 +48,7 @@ const Executive = () => {
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
-            <Button page="mba" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
             <Heading>Executive Program in Management & Policy</Heading>
             <Curriculum data={curriculum}/>
@@ -67,7 +67,7 @@ const Executive = () => {
                 <p>This <span className="font-bold">3-month immersive program</span> is structured into five comprehensive stages, each designed to equip you with the skills, insights, and experiences necessary to excel in strategic management, policy development, and business leadership. </p>
             </Container>
             <Steps data={stages} />
-            <Button page="mba" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
@@ -131,7 +131,7 @@ const Executive = () => {
 
                 </div>
             </div >
-            <Button page="mba" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
             
             <Heading>Program Fees </Heading>
