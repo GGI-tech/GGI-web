@@ -5,7 +5,7 @@ import Gallery from '../global/Gallery'
 import OfficialPartners from '../global/OfficialPartners'
 import Container from '../global/Container'
 import Curriculum from '../global/Curriculum'
-import FourColumnLayout from '../global/FourColumnLayout'
+import FiveColumnLayout from '../global/FiveColumnLayout'
 import ThreeColumnLayout from '../global/ThreeColumnLayout'
 import YoutubeEmbed from '../global/YoutubeEmbed'
 import Masterclasses from '../global/Masterclasses'
@@ -20,7 +20,7 @@ import { testimonialMain } from '../../data/mainpgData';
 import studs1 from '../../public/s1.png'
 import studs2 from '../../public/s2.png'
 // --------------------------------------------------------------------
-import { fourcolumndata, stages, testimonialFellow, curriculum, socialspaceimpactdata } from '../../data/fellowshippgData'
+import { fivecolumndata, stages, testimonialFellow, curriculum, socialspaceimpactdata } from '../../data/fellowshippgData'
 
 const Fellowship = () => {
 
@@ -31,7 +31,7 @@ const Fellowship = () => {
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> ADVANCE YOUR CAREER NOW</Button>
 
             <Heading margin={60}>Why GGI Impact Fellowship Works ?</Heading>
-            <FourColumnLayout data={fourcolumndata} />
+            <FiveColumnLayout data={fivecolumndata} />
             <Container>
                 <p className='mb-5 mt-12'>The best teaching occurs only when there is a direct relationship between a teacher and a student—a situation where the student discusses ideas, thinks critically, and engages in meaningful conversation. However, in modern times, creating scalable solutions is challenging due to the sheer number of students. Consequently, GGI Impact Fellowship has developed a non-scalable McKinsey work experience ecosystem at 1/500th of the cost.</p>
                 <p className='mb-5'><span className='font-semibold primary'>Young professionals often waste years preparing for Civil Services</span> to enter the development sector or reading countless cases in the false hope of breaking into management consulting. At Global Governance Initiative, we address this issue through our Impact Fellowship Program.</p>

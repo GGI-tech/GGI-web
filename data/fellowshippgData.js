@@ -8,7 +8,7 @@ import goodstep from '../public/goodstep.jpg';
 import pushpagiri from '../public/pushpagiri.png';
 import deepdive from '../public/pic7235026.jpg';
 
-export const fourcolumndata = [ //to be fetched from database
+export const fivecolumndata = [ //to be fetched from database
     {
         "id": 1,
         "img": BCG,
@@ -33,13 +33,13 @@ export const fourcolumndata = [ //to be fetched from database
         "title": "Become Part of Purposeful Community",
         "body": "This global community represents powerful, internationally diverse leaders at the helm of leading organizations. This community supports one another, not only by referring members to their first job but also by navigating a thriving career and building startups.  "
     }
-    // ,
-    // {
-    //     "id": 5,
-    //     "img": deepdive,
-    //     "title": "Living Knowledge",
-    //     "body": "Our curriculum is always evolving. Post your graduation, you'd get access to free weekly deep dive sessions for 2 months where over and above curriculum, you'd also get to problem solve contemporary policy, geopolitics and business problems because the probability of recent problems being asked in interviews is very high. At GGI fellowship- Every year, every day, and every session is one-of-a-kind. "
-    // }
+    ,
+    {
+        "id": 5,
+        "img": deepdive,
+        "title": "Living Knowledge",
+        "body": "Our curriculum is always evolving. Post your graduation, you'd get access to free weekly deep dive sessions for 2 months where over and above curriculum, you'd also get to problem solve contemporary policy, geopolitics and business problems because the probability of recent problems being asked in interviews is very high. At GGI fellowship- Every year, every day, and every session is one-of-a-kind. "
+    }
 ]
 export const stages = [
     {
