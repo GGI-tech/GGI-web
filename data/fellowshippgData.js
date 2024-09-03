@@ -6,7 +6,7 @@ import teach from '../public/teach.png';
 import IFBB from '../public/IBFF.png';
 import goodstep from '../public/goodstep.jpg';
 import pushpagiri from '../public/pushpagiri.png';
-import deepdive from '../public/pic7235026.jpg';
+import deepdive from '../public/file.jpg';
 
 export const fivecolumndata = [ //to be fetched from database
     {
