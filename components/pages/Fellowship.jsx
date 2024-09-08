@@ -4,7 +4,7 @@ import Accordion from '../global/Accordian'
 import Gallery from '../global/Gallery'
 import OfficialPartners from '../global/OfficialPartners'
 import Container from '../global/Container'
-import Curriculum from '../global/Curriculum'
+import Curriculum2 from '../global/Curriculum2'
 import FiveColumnLayout from '../global/FiveColumnLayout'
 import ThreeColumnLayout from '../global/ThreeColumnLayout'
 import YoutubeEmbed from '../global/YoutubeEmbed'
@@ -81,7 +81,7 @@ const Fellowship = () => {
 
             <Heading>Curriculum & Commitment</Heading>
             <p className='px-8 text-center font-bold mb-4' >If GGI MBA Scholars is Harvard Business School then GGI Impact fellowship is Harvard Business School along with Mckinsey&#39;s work experience </p>
-            <Curriculum data={curriculum} />
+            <Curriculum2 data={curriculum} />
             <YoutubeEmbed embedId='3xL9AbP92yo' />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
