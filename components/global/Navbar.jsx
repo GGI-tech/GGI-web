@@ -74,7 +74,7 @@ const Navbar = ({applicationbanner}) => {
           </Link>
           <Link href='https://www.globalgovernanceinitiative.org/executivemanagement'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
-              EXECUTIVE
+              EXECUTIVE MBA
             </li>
           </Link>
           <Link re href='/reviews'>
@@ -127,7 +127,7 @@ const Navbar = ({applicationbanner}) => {
               <Link prefetch={false} href='https://www.globaltechinitiative.org/'>MS</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/executivemanagement'>EXECUTIVE</Link>
+              <Link prefetch={false} href='/executivemanagement'>EXECUTIVE MBA</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>EMPLOYMENT REPORT</Link>
