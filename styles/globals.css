@@ -222,6 +222,35 @@ p>strong::after {
   background-size: cover;
 }
 
+.exe1 {
+  background-image: url('/executive.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exe2 {
+  background-image: url('/edited_graduation_photo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exe3 {
+  background-image: url('/ylp2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exe4 {
+  background-image: url('/ylp3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exe5 {
+  background-image: url('/ylp4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .card {
   max-width: 350px;
