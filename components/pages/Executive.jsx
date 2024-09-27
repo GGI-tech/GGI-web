@@ -19,7 +19,7 @@ const Executive = () => {
     return (
         <div>
             <SlidingHero 
-  image={'/1691767917954.jpeg'} 
+  image={'/executivetopbanner.png'} 
   title={[
     "<span class='text-yellow-300' style='font-size: 40px;'>GGI Executive Program:</span><br/><span style='font-size: 40px;'>Be a Leader Who Matters</span>"
   ]} 
@@ -41,13 +41,16 @@ const Executive = () => {
             
             <Heading>Who is this Program for?</Heading>
             <Container>
-                <p> 1. If you&#39;re a <span className='primary font-bold'>Senior Professional</span> seeking  Alternatives to international MBA programs and want to learn directly from top industry leaders, you&#39;re in the right place.</p><br />
-                <p>2.  If you&#39;re a CA or non-MBA looking to pivot into <span className='primary font-bold'>Management Consulting</span> roles <span className='primary font-bold'> or into Policy roles </span> at companies like Dell Foundation, United Nations and leading tech ventures, this is for you.</p><br />
-                <p>3 . If you&#39;re an <span className='primary font-bold'>aspiring entrepreneur</span> aiming to launch and scale ventures and looking to enhance your business skills while building an incredible support network, you&#39;ve found the right opportunity.</p><br />
-                <p className='mb-24'>4. If you&#39;re a <span className='primary font-bold'> seasoned and influential executives</span> who are motivated to make a difference and Senior-level leaders at growth companies who are challenged to scale.</p>
-
+            The Global Governance Executive Program is designed for professionals with a minimum of 10 years of experience, including:<br/><br/>
+                <p> 1. <span className='primary font-bold'>Diplomats and Government Officials</span>: Professionals seeking to transition into consulting or the private sector, utilizing their knowledge of global governance and policy-making.</p><br />
+                <p>2. <span className='primary font-bold'>Military Officers</span> : Leaders looking to pivot into consulting or defense industry roles by expanding their strategic insights into global security and governance.</p><br />
+                <p>3. <span className='primary font-bold'>Politicians and Policy Makers</span>: Individuals aiming to leverage their governance and public policy expertise to transition into advisory or corporate roles in the private sector.</p><br />
+                <p>4. <span className='primary font-bold'>Entrepreneurs and Business Leaders</span>: Those ready to scale their businesses internationally or move into consulting and leadership roles within global organizations.</p>
+                <p>5. <span className='primary font-bold'>Movie Stars, Producers, and Sportspersons</span>: High-profile individuals who wish to quickly upskill and launch their own product lines, brands, or ventures in the business world.
+                </p>
+                <br/><br/>Participants must have at least 10 years of experience, ensuring they bring valuable insights and leadership potential to the program, while also gaining the skills to successfully pivot into consulting or the private sector.
             </Container>
-            <YoutubeEmbed embedId='NrAvqFqbZrU' />
+            
             <Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
             <Heading>Executive Program in Management & Policy</Heading>
@@ -71,11 +74,7 @@ const Executive = () => {
 
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
-                <div className="flex items-center col-span-2">
-                    <div className="h-[300px] sm:h-[500px] w-full relative">
-                        <Image src="/new_com1.jpg" alt="" layout="fill" objectFit="cover" />
-                    </div>
-                </div>
+              
                 <div className="flex items-center  ">
                     <div className="h-[300px] sm:h-[500px] w-full relative">
                         <Image src="/new_com2.jpg" alt="" layout="fill" objectFit="cover" />                    </div>
@@ -84,10 +83,7 @@ const Executive = () => {
                     <div className="h-[300px] sm:h-[500px] w-full relative">
                         <Image src="/new_com3.jpg" alt="" layout="fill" objectFit="cover" />                    </div>
                 </div>
-                <div className="flex items-center  ">
-                    <div className="h-[300px] sm:h-[500px] w-full relative">
-                        <Image src="/new_com4.jpg" alt="" layout="fill" objectFit="cover" />                    </div>
-                </div>
+                
             </div>
 
 
@@ -104,28 +100,28 @@ const Executive = () => {
             </Container>
             <div className="lg:w-2/3 mx-auto text-white italic">
                
-                {/* <div className="px-2 ylp1 h-60 flex flex-col inset-0 justify-center items-center ">
+                <div className="px-2 exe1 h-60 flex flex-col inset-0 justify-center items-center ">
                     <h1 className="text-xl font-semibold">Leadership in Extraordinary Times</h1>
                     <p>From moments of opportunity to times of adversity, the GGI Executive approach to executive education equips modern leaders to guide their organizations through any and every challenge.</p>
-                </div> */}
-                <div className="px-2 ylp1 h-60 flex flex-col inset-0 justify-center items-center ">
+                </div>
+                {/* <div className="px-2 exe2 h-60 flex flex-col inset-0 justify-center items-center ">
                     <h1 className="text-xl font-semibold">Earn an Executive Certificate</h1>
                     <p>When you complete consulting and policy sessions and curriculum you&apos;ll earn a digital certificate to share with prospective employers and your professional network</p>
-                </div>
+                </div> */}
                 
-                <div className="px-2 ylp2 h-60 flex flex-col inset-0 justify-center items-center">
+                <div className="px-2 exe3 h-60 flex flex-col inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">The Whole You </h1>
                     <p>We put health, happiness, and purpose on the same level as leadership learning. Enjoy meditation, weekly deep dive sessions, access to GGI&apos;s facilities, and personal development sessions fostering impactful leadership and creativity.</p>
 
                 </div>
 
-                <div className="px-2 ylp3 h-60 flex flex-col inset-0 justify-center items-center">
+                <div className="px-2 exe4 h-60 flex flex-col inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">Living Knowledge</h1>
                     <p>Our curriculum is always evolving. Looking forward, shifting through collaboration and discussion to evolve organically. Every year, every day, and every session is one-of-a-kind.</p>
 
                 </div>
 
-                <div className="ylp4 px-2 flex flex-col h-60 inset-0 justify-center items-center">
+                <div className="exe5 px-2 flex flex-col h-60 inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">Discover if this career is for you</h1>
                     <p>Nearly 50% of the hours you are awake are spent at work. Discover if this is the right career path for you</p>
 
