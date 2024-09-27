@@ -9,7 +9,7 @@ import Slider from '../global/Slider'
 import { stages, curriculum, } from '../../data/executiveData';
 import Link from "next/link"
 import Carousal from "../global/Carousal"
-import Curriculum from '../global/Curriculum';
+import Curriculum3 from '../global/Curriculum3';
 import Image from "next/image"
 import Gallery from '../global/Gallery';
 import OfficialPartners from '../global/OfficialPartners';
@@ -51,7 +51,7 @@ const Executive = () => {
             <Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
             <Heading>Executive Program in Management & Policy</Heading>
-            <Curriculum data={curriculum}/>
+            <Curriculum3 data={curriculum}/>
             
             <Heading>A Liberal Refund Policy for You  </Heading>
             <Container>

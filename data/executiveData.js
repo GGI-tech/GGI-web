@@ -33,12 +33,12 @@ In leadership, your network is as crucial as your skills. Our Networking Nights 
 ]
 export const curriculum = [
     {
-        "title": "3 Months",
+        "title": "3-6 Months",
         "description": "Program length, flexible upon your needs and availability"
     },
     {
-        "title": "30+ Hours of Business Masterclasses",
-        "description": "Over 12 weeks, with availability of recordings for a time period"
+        "title": "30+ Hours of Business/Policy Masterclasses",
+        "description": "Deep dive weekly initiative, with availability of recordings for a time period"
     },
     {
         "title": "60+ Hours of Business Interview Practice",
@@ -55,5 +55,9 @@ export const curriculum = [
     {
         "title": "10+ Hours of Trinity",
         "description": "You get access to recorded Masterclasses of top speakers in consulting at GGI"
+    },
+    {
+        "title": "30+ Hours of flagship Live GGI Masterclasses",
+        "description": "You get access to platforms, policy, negotiations, marketing, leadership masterclasses"
     }
 ]
