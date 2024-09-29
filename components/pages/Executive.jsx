@@ -45,7 +45,7 @@ const Executive = () => {
                 <p> 1. <span className='primary font-bold'>Diplomats and Government Officials</span>: Professionals seeking to transition into consulting or the private sector, utilizing their knowledge of global governance and policy-making.</p><br />
                 <p>2. <span className='primary font-bold'>Military Officers</span> : Leaders looking to pivot into consulting or defense industry roles by expanding their strategic insights into global security and governance.</p><br />
                 <p>3. <span className='primary font-bold'>Politicians and Policy Makers</span>: Individuals aiming to leverage their governance and public policy expertise to transition into advisory or corporate roles in the private sector.</p><br />
-                <p>4. <span className='primary font-bold'>Entrepreneurs and Business Leaders</span>: Those ready to scale their businesses internationally or move into consulting and leadership roles within global organizations.</p>
+                <p>4. <span className='primary font-bold'>Entrepreneurs and Business Leaders</span>: Those ready to scale their businesses internationally or move into consulting and leadership roles within global organizations.</p><br />
                 <p>5. <span className='primary font-bold'>Movie Stars, Producers, and Sportspersons</span>: High-profile individuals who wish to quickly upskill and launch their own product lines, brands, or ventures in the business world.
                 </p>
                 <br/><br/>Participants must have at least 10 years of experience, ensuring they bring valuable insights and leadership potential to the program, while also gaining the skills to successfully pivot into consulting or the private sector.
