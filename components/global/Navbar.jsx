@@ -54,7 +54,7 @@ const Navbar = ({applicationbanner}) => {
         <ul style={{ color: textColor, letterSpacing: '0.1em' }} className="font-sans font-semibold hidden sm:flex lg:text-[13px]">
           <Link href='/ggi-scholars'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
-            Management
+            MBA
             </li>
           </Link>
           <Link href='/ggipolicyscholarsprogram'>
@@ -115,7 +115,7 @@ const Navbar = ({applicationbanner}) => {
               <Link prefetch={false} href='/'>HOME</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/ggi-scholars'>MANAGEMENT</Link>
+              <Link prefetch={false} href='/ggi-scholars'>MBA</Link>
             </li>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/ggipolicyscholarsprogram'>POLICY</Link>
