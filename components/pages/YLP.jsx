@@ -9,6 +9,8 @@ import Slider from '../global/Slider'
 import { stages, testimonialYLP } from '../../data/ylpData';
 import Link from "next/link"
 import Carousal from "../global/Carousal"
+import Curriculum4 from '../global/Curriculum4';
+import { curriculum, } from '../../data/ylpData';
 
 import Image from "next/image"
 const YLP = () => {
@@ -36,7 +38,8 @@ const YLP = () => {
                 <p className="mb-7">The essential transformational experience is designed for all those - who want to intertwine the theories and practice of learning at their own pace. Young Leaders learn intricate concepts and apply those concepts - as they make mistakes, learn, and grow in a virtual consulting and product management Internship.  </p>
                 <p className="mb-7"> Our Young Leaders arrive at the Global Governance Initiative with professional experience and career aspirations as diverse as they are. While each Young Leader cultivates their own path to what comes next professionally, the impeccable Impact Lab ecosystem provides tools, resources, and support to empower these leaders to identify and reach their goals. </p>
             </Container>
-            <YoutubeEmbed embedId="RwQe5LJZTys" autoplay={1} />
+            <YoutubeEmbed embedId="RwQe5LJZTys" autoplay={1} /><br/><br/>
+            
             <Heading>HEAR WHAT YLPs HAVE TO SAY ABOUT US</Heading>
 
             <Carousal />
@@ -47,7 +50,8 @@ const YLP = () => {
             <Container>
                 <p>GGI Impact Lab, Young Leaders community comprises an extremely diverse cohort - from current students at prestigious engineering universities to highly qualified professionals in the domain of Product Management and Finance. They are working professionals in organizations such as IIM-B, ICICI Bank, KPMG, Axis Bank, Microsoft, and other leading organisations.</p>
             </Container>
-
+            <Heading>Executive Program in Management & Policy</Heading>
+            <Curriculum4 data={curriculum}/>
             <div id="more"></div>
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>
@@ -94,7 +98,7 @@ const YLP = () => {
 
                 <div className="px-2 ylp3 h-60 flex flex-col inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">Do it in your own time </h1>
-                    <p>Fit the program in with your busy schedule. Learn at your own pace and reach your personal goals</p>
+                    <p>Fit the program in with your busy schedule. In case you miss the live deep dive weekly sessions, dearn at your own pace and reach your personal goals</p>
 
                 </div>
 

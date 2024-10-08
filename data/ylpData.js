@@ -7,7 +7,7 @@ export const stages = [
     {
         "id":1,
         "ques":"Stage 2: ADVANCED UPSKILLING",
-        "ans":[`The advance upskilling stage will ensure that the young leaders are a billion times better prepared than their counterparts to tackle the uncertainty of consulting interviews. In this stage, young leaders will have exclusive access to the Trinity Learning Experience - where they will learn the application of Basic Skills of stage 1  by Mckinsey Partners. In this stage, YLPs will be provided exclusively recorded access to the masterclasses taken by giants of the management consulting industry - including the former CEO of McKinsey & Company. The advanced upskilling stage will also prepare YLPs with a macro-perspective about the industry by the Partners who might even end up interviewing them. `]
+        "ans":[`The advanced upskilling stage will ensure that the young leaders are a billion times better prepared than their counterparts to tackle the uncertainty of consulting interviews. In this stage, young leaders will have exclusive access to weekly live and interactive Deep Dive sessions- case based discussions on business, geopolitics, policy, education and healthcare subjects that are often tested in interviews.<br/><br/>Over and above this, you’d get access to the Trinity Learning Experience - where they will learn the application of Basic Skills of stage 1 by Mckinsey Partners. In this stage, YLPs will be provided exclusively recorded access to the masterclasses taken by giants of the management consulting industry - including the former CEO of McKinsey & Company. The advanced upskilling stage will also prepare YLPs with a macro-perspective about the industry by the Partners who might even end up interviewing them.`]
 
     },
     {
@@ -103,3 +103,29 @@ export const testimonialYLP =[
     }
 ]
 
+export const curriculum = [
+    {
+        "title": "6 Months",
+        "description": "Program length, flexible upon your needs and availability"
+    },
+    {
+        "title": "40+ Hours of Business/Policy Masterclasses",
+        "description": "Deep dive weekly initiative, with availability of recordings for a time period"
+    },
+    {
+        "title": "60+ Hours of Business Interview Practice",
+        "description": "Via our inhouse AI Based software"
+    }, 
+    {
+        "title": "Unlimited Networking",
+        "description": "You continue to be a part of the family post your graduation"
+    },
+    {
+        "title": "YLP Impact Projects",
+        "description": "Peer to Peer projects"
+    },
+    {
+        "title": "10+ Hours of Trinity",
+        "description": "You get access to recorded Masterclasses of top speakers in consulting at GGI"
+    }
+]
