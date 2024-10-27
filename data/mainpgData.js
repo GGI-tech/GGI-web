@@ -59,7 +59,7 @@ export const testimonialMain = [
     name: 'Hattie Minglin Ren',
     org: 'China',
     image: '/Hattie Minglin Ren.JPG',
-    review: "Hattie is graduate from <span class='font-bold'>National University of Singapore</span>.  Prior to her MBA study, she was working with a U.K listed MNC and managing a team in tech recruitment consulting based in Singapore.<br/><br/>She is contributing to the GGI community with more diverse culture and value exchange, as well as useful regional network."
+    review: "Hattie is graduate from National University of Singapore.  Prior to her MBA study, she was working with a U.K listed MNC and managing a team in tech recruitment consulting based in Singapore.<br/><br/>She is contributing to the GGI community with more diverse culture and value exchange, as well as useful regional network."
   },
   {
     name: 'Aditya Bansal',
@@ -71,7 +71,7 @@ export const testimonialMain = [
     name: 'Ansh Aggarwal',
     org: 'GGI Delegate, Policy Consulting Masterclass Cohort, 2019<br> Shri Ram College of Commerce (SRCC)',
     image: '/ansh.jpg',
-    review: "Shortly after GGI, I got placed in <span class='font-bold'>McKinsey & Company</span>. In fact, I will be moving to Mumbai to work as a Business Analyst. Also after the masterclass, having won the <span class='font-bold'>EY Scholarship for entrepreneurship,</span> I completed an internship at <span class='font-bold'>EY as well.</span><br> <br>Amongst all the sectors, I am especially excited to contribute to the public sector and private equity verticals at McKinsey. GGI&#39;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process. :)"
+    review: "Shortly after GGI, I got placed in <span class='font-bold'>McKinsey & Company</span>. In fact, I will be moving to Mumbai to work as a Business Analyst. Also after the masterclass, having won the <span class='font-bold'>EY Scholarship for entrepreneurship,</span> I completed an internship at <span class='font-bold'>EY</span> as well.<br> <br>Amongst all the sectors, I am especially excited to contribute to the public sector and private equity verticals at McKinsey. GGI&#39;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process. :)"
   },
   {
     name: 'Karan David',
@@ -95,7 +95,7 @@ export const testimonialMain = [
     name: 'Callysta Limneus',
     org: 'Indonesia',
     image: '/Callysta Limneus.jpeg',
-    review: "Callysta is a second-year student at the <span class='font-bold'>University of British Columbia</span>, majoring in international economics. Her studies mainly focus on economics, finance, international relations, with a particular interest in psychology, philosophy, and literature!<br/><br/>She has a strong interest in finance and consulting, which she finds remarkably akin to the art of debating—a skill she honed during her high school years.<br/><br/>From GGI, she learnt more about the world of consulting and expand her network with professionals in the industry. As a newcomer to this field, she is eager to learn from everyone and gain invaluable insights!"
+    review: "Callysta is a second-year student at the University of British Columbia, majoring in international economics. Her studies mainly focus on economics, finance, international relations, with a particular interest in psychology, philosophy, and literature!<br/><br/>She has a strong interest in finance and consulting, which she finds remarkably akin to the art of debating—a skill she honed during her high school years.<br/><br/>From GGI, she learnt more about the world of consulting and expand her network with professionals in the industry. As a newcomer to this field, she is eager to learn from everyone and gain invaluable insights!"
   },
   {
     name: `Simar Sethi `,
@@ -114,7 +114,7 @@ export const testimonialMain = [
     name: 'JAN MARIE MALLARI RIÑON',
     org: 'Philippines',
     image: '/Jan Marie Mallari Riñon.jpg',
-    review: "Jan Marie Mallari Riñon is currently working as a <span class='font-bold'>Planning Officer at the Department of Justice - Philippines</span>. In this role, she actively engages in various responsibilities and contributions to facilitate effective planning and monitoring activities within the Department.<br><br> She firmly believes that learning is a lifelong process, and she is dedicated to expanding her knowledge and expertise. She is particularly interested in specializing in Impact and Policy Consulting, as well as Management, as she seeks to make a significant impact in these areas."
+    review: "Jan Marie Mallari Riñon is currently working as a Planning Officer at the <span class='font-bold'>Department of Justice - Philippines</span>. In this role, she actively engages in various responsibilities and contributions to facilitate effective planning and monitoring activities within the Department.<br><br> She firmly believes that learning is a lifelong process, and she is dedicated to expanding her knowledge and expertise. She is particularly interested in specializing in Impact and Policy Consulting, as well as Management, as she seeks to make a significant impact in these areas."
   },
   {
     name: 'TUSHAR BAGRODIA',
@@ -126,7 +126,7 @@ export const testimonialMain = [
     name: 'Karabo Diseko',
     org: 'South Africa',
     image: '/Karabo.jpg',
-    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the <span class='font-bold'>University of Cape Town</span>, where he is currently wrapping up his <span class='font-bold'>Masters in Bioinformatics</span>.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>More recently, Karabo’s interest in business systems has led him to channel his love for critical thinking towards a career in management consulting.<br/><br/>Through entrepreneurial exploration, active participation in university-based business ecosystems, and as a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change.<br/><br/>During his free time Karabo enjoys running, mountain climbing, and learning new things through a good book."
+    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>More recently, Karabo’s interest in business systems has led him to channel his love for critical thinking towards a career in management consulting.<br/><br/>Through entrepreneurial exploration, active participation in university-based business ecosystems, and as a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change.<br/><br/>During his free time Karabo enjoys running, mountain climbing, and learning new things through a good book."
   }, 
   {
     name: 'NISHTHA GUPTA',
@@ -138,23 +138,23 @@ export const testimonialMain = [
     name: 'LABONI SINGH',
     org: 'GGI Delegate, Policy Consulting &<br> Impact Startup Masterclass Cohort, 2020 <br>St. Stephens College',
     image: '/laboni.jpg',
-    review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Bridgespan</span>. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup, and the third on Management Communications.<span class='font-bold'> I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points.</span> I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It&#39;s relevant and important.<br><br> I look forward to applying for the Impact Scholar Program soon, especially to attend the Impact Investment and MBA for Impact masterclasses. Upskilling is key and I wouldn&#39;t want to miss anything!"
+    review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Bridgespan</span>. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup, and the third on Management Communications. I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It&#39;s relevant and important.<br><br> I look forward to applying for the Impact Scholar Program soon, especially to attend the Impact Investment and MBA for Impact masterclasses. Upskilling is key and I wouldn&#39;t want to miss anything!"
   }, {
     name: 'Palak Arora',
     org: 'GGI Fellow, Class of 2020</br>St. Stephen&#39;s College',
     image: '/palak.jpg',
-    review: "Soon after GGI, I actively pursued a career in Public Policy by associating with the <span class='font-bold'>Albright Stonebridge Group.</span> Thereafter I began to work with <span class='font-bold'>Deloitte</span> as an Analyst in their Government advisory division.<br><br> <span class='font-bold'>GGI has been tremendously helpful in providing the right direction to my career.</span> The art of structuring one&#39;s thoughts and the sheer will to learn has enriched my experience of growth. My favorite aspect of GGI&#39;s program is Wiggly and Networking. It&#39;s amazing to see how a <span class='font-bold'>collaborative community</span> like GGI&#39;s can foster growth amongst the members"
+    review: "Soon after GGI, I actively pursued a career in Public Policy by associating with the <span class='font-bold'>Albright Stonebridge Group.</span> Thereafter I began to work with <span class='font-bold'>Deloitte</span> as an Analyst in their Government advisory division.<br><br> GGI has been tremendously helpful in providing the right direction to my career. The art of structuring one&#39;s thoughts and the sheer will to learn has enriched my experience of growth. My favorite aspect of GGI&#39;s program is Wiggly and Networking. It&#39;s amazing to see how a collaborative community like GGI&#39;s can foster growth amongst the members"
   }, {
     name: 'SAIYAM HOTA',
     org: 'GGI Impact MBA Scholar, 2021<br>Shaheed Bhagat Singh College',
     image: '/sayam.jpg',
-    review: "After GGI, I will join <span class='font-bold'>Bain & Company</span>. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to <span class='font-bold'>get knowledge about not just consulting</span> but all the fields and also to <span class='font-bold'>network with people from diverse backgrounds.</span> <br><br> Mainly, I think <span class='font-bold'>GGI is the strongest community one can get to be a part of</span>. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
+    review: "After GGI, I will join <span class='font-bold'>Bain & Company</span>. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds. <br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
   },
   {
     name: 'ANUSHEELA GHOSH',
     org: 'GGI Fellow<br> Lady ShriRam College for Women (LSR)',
     image: '/anusha.jpg',
-    review: "Shortly after GGI, I bagged an offer <span class='font-bold'>Samagra | Transforming Governance.</span><br><br>I have recently started my journey at Samagra and am super excited to grow!<br><br><span class='font-bold'> Upon joining GGI, I took a deep dive into the consulting space. </span>This involved case prep, networking, brushing up on interview skills, and so on. All this eventually culminated into bagging offers from DCPCR, GDI, and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!"
+    review: "Shortly after GGI, I bagged an offer <span class='font-bold'>Samagra | Transforming Governance.</span><br><br>I have recently started my journey at Samagra and am super excited to grow!<br><br> Upon joining GGI, I took a deep dive into the consulting space. This involved case prep, networking, brushing up on interview skills, and so on. All this eventually culminated into bagging offers from DCPCR, GDI, and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!"
   },
   {
     name: 'SHREYA SAPRU',
@@ -166,25 +166,25 @@ export const testimonialMain = [
     name: 'CHIRAG MITTAL',
     org: 'GGI Delegate, Policy Consulting Cohort, 2019<br>Indian Institute of Management (IIM), Bangalore',
     image: '/chirag.jpg',
-    review: "Shortly after the GGI Policy consulting masterclass, I aced many case competitions at Indian Institute of Management Bangalore, and later joined <span class='font-bold'>BCG as Summer Associate.</span><br><br> In the hindsight, I chose Boston Consulting Group (BCG) primarily because of my keen interest in government projects.<br><br>  I realised my knack for public policy after completing my engineering from IIT Delhi, while I was preparing for UPSC. GGI masterclass provided me with further drive."
+    review: "Shortly after the GGI Policy consulting masterclass, I aced many case competitions at Indian Institute of Management Bangalore, and later joined <span class='font-bold'>BCG</span> as Summer Associate.<br><br> In the hindsight, I chose Boston Consulting Group (BCG) primarily because of my keen interest in government projects.<br><br>  I realised my knack for public policy after completing my engineering from IIT Delhi, while I was preparing for UPSC. GGI masterclass provided me with further drive."
   },
   {
     name: 'AAYUSHI DHAWAN',
     org: 'GGI Policy Fellow, Policy Consulting Cohort, 2019<br> Delhi School of Economics ',
     image: '/aayushi.jpg',
-    review: "GGI is definitely not about the masterclass, but also about awareness, knowledge, networking, information and so much more. This day wouldn&#39;t have been completed without thanking you for the initiative, knowledge sharing, continuous support, and guidance.<br><br> You guys are doing wonderful work at GGI, which I would want to be associated with too. <span class='font-bold'>You not only guided me about the policy space, but also a lot about QCI.</span> There was a proud feeling being a GGI Delegate and also on seeing that QCI too respects and praises GGI. It, in itself, is an unparalleled feeling!"
+    review: "GGI is definitely not about the masterclass, but also about awareness, knowledge, networking, information and so much more. This day wouldn&#39;t have been completed without thanking you for the initiative, knowledge sharing, continuous support, and guidance.<br><br> You guys are doing wonderful work at GGI, which I would want to be associated with too. You not only guided me about the policy space, but also a lot about QCI. There was a proud feeling being a GGI Delegate and also on seeing that QCI too respects and praises GGI. It, in itself, is an unparalleled feeling!"
   },
   {
     name: 'JACK WINKLES',
     org: 'GGI delegate- Startup Masterclass Cohort, 2019<br>Top 10 Engineering and Construction undergraduates of the year 2019',
     image: '/jack.jpg',
-    review: "I&#39;ve spent my weekend completing a business startup masterclass with GGI, listening to multiple speakers, and learning what it takes to successfully create and kick start a business. Although it meant starting at 5.30 am on Saturday and 3 am this morning, <span class='font-bold'>it was absolutely worth it! </span><br><br>  Massive thank you to Shatakshi Sharma and Naman Shrivastava for creating this initiative and helping me realize my dreams. I will absolutely keep going to get my business startup up and running."
+    review: "I&#39;ve spent my weekend completing a business startup masterclass with GGI, listening to multiple speakers, and learning what it takes to successfully create and kick start a business. Although it meant starting at 5.30 am on Saturday and 3 am this morning, it was absolutely worth it! <br><br>  Massive thank you to Shatakshi Sharma and Naman Shrivastava for creating this initiative and helping me realize my dreams. I will absolutely keep going to get my business startup up and running."
   },
   {
     name: 'ALEXIS PELLIER',
     org: 'GGI delegate- Impact Startup Cohort, 2020<br> Sciences Po',
     image: '/alexis.jpg',
-    review: "Glad and grateful to have been selected to participate in Global Governance Initiative&#39;s startup masterclass chaired by the insightful and inspiring Shatakshi Sharma and Naman Shrivastava.<br><br> Throughout this intense one-day-long journey, starting at 4.30 am, my peers and I have <span class='font-bold'>learnt more about the critical steps of launching and growing a startup while listening to successful entrepreneurs&#39; story,</span> developing our ideas and taking on the challenge to pitch them.<br><br>  Many thanks again to the GGI team for this experience!"
+    review: "Glad and grateful to have been selected to participate in Global Governance Initiative&#39;s startup masterclass chaired by the insightful and inspiring Shatakshi Sharma and Naman Shrivastava.<br><br> Throughout this intense one-day-long journey, starting at 4.30 am, my peers and I have learnt more about the critical steps of launching and growing a startup while listening to successful entrepreneurs&#39; story, developing our ideas and taking on the challenge to pitch them.<br><br>  Many thanks again to the GGI team for this experience!"
   }
 ];
 
