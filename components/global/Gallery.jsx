@@ -4,11 +4,11 @@ import GalleryImg from '../global/GalleryImg';
 import img12 from '../../public/12.jpg';
 import img13 from '../../public/13.jpg';
 import img14 from '../../public/14.jpg';
-import img15 from '../../public/15.jpg';
+import img15 from '../../public/janmejaya.jpg';
 import img16 from '../../public/16.jpg';
 import img17 from '../../public/17.jpg';
 import img18 from '../../public/18.jpg';
-import img19 from '../../public/19.jpg';
+import img19 from '../../public/ashok.jpg';
 import img20 from '../../public/20.jpg';
 import img21 from '../../public/21.jpg';
 import img22 from '../../public/22.jpg';
@@ -36,7 +36,7 @@ const defaultData=[
   },
   {
     "img":img15,
-    "caption":"Ex- Mckinsey Partner; Advisor, Pata",
+    "caption":"Current BCG India Chairman",
   },
   {
     "img":img16,
@@ -52,7 +52,7 @@ const defaultData=[
   },
   {
     "img":img19,
-    "caption":"Former OSD NITI Aayog",
+    "caption":"Former Election Commissioner- Finance Secretary",
   },
   {
     "img":img20,

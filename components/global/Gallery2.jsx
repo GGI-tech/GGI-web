@@ -8,7 +8,7 @@ import img15 from '../../public/image15 (1).png';
 import img16 from '../../public/16.jpg';
 import img17 from '../../public/17.jpg';
 import img18 from '../../public/18.jpg';
-import img19 from '../../public/19.jpg';
+import img19 from '../../public/ashok.jpg';
 import img20 from '../../public/image14abc.png';
 import img21 from '../../public/21.jpg';
 import img22 from '../../public/22.jpg';
@@ -52,7 +52,7 @@ const defaultData=[
   },
   {
     "img":img19,
-    "caption":"Former OSD NITI Aayog",
+    "caption":"Former Election Commissioner- Finance Secretary",
   },
   {
     "img":img20,
