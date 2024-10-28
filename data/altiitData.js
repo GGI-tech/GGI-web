@@ -120,7 +120,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Tania Gupta',
-        org: 'Meet Tania Gupta, GGI Fellow 2021.',
+        org: 'Meet Tania Gupta, GGI Fellow 2021',
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6750369726012116992/",
         image: '/tania.jpg',
         review: ' Tania graduated from NIT Trichy with a B.Tech in Instrumentation and Control. She currently works in HSBC as an Analyst at the Wealth and Personal Banking (Data and Analytics) Team, where she gained an understanding of the nuances of banking and credit card pricing strategies catering to the US market. '
