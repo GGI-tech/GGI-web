@@ -52,6 +52,7 @@ const Navbar = ({applicationbanner}) => {
           </Link>
         </div>
         <ul style={{ color: textColor, letterSpacing: '0.1em' }} className="font-sans font-semibold hidden sm:flex lg:text-[13px]">
+          {/*
           <Link href='/ggi-scholars'>
             <li className='p-4 cursor-pointer  hover:text-black hover:bg-slate-200'>
             MBA
@@ -77,11 +78,67 @@ const Navbar = ({applicationbanner}) => {
               EXECUTIVE MBA
             </li>
           </Link>
+          */}
+          <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
+            <span className="group relative inline-block">
+              <button className="inline-flex items-center rounded font-semibold ">FOR WORKING PROFESSIONALS</button>
+              <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
+                <Link href='/ggi-scholars'>
+                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</div>
+                </Link>
+                <Link href='/ggipolicyscholarsprogram'>
+                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">POLICY</div>
+                </Link>
+                <Link href='/impact-fellowship'>
+                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</div>
+                </Link>
+                <Link href='https://www.globaltechinitiative.org/gti-ms-scholars'>
+                  <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                    MS SCHOLARS
+                  </li>
+                </Link>
+                <Link href='https://www.globaltechinitiative.org/feynmanfellowship'>
+                  <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                    FEYNMAN FELLOWSHIP
+                  </li>
+                </Link>
+              </ul>
+            </span>
+          </li>
+
+          <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
+            <span className="group relative inline-block">
+              <button className="inline-flex items-center rounded font-semibold ">FOR COLLEGE STUDENTS</button>
+              <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
+                <Link href='/ggi-scholars'>
+                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</div>
+                </Link>
+                <Link href='/impact-fellowship'>
+                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</div>
+                </Link>
+              </ul>
+            </span>
+          </li>
+
+          <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
+            <span className="group relative inline-block">
+              <button className="inline-flex items-center rounded font-semibold ">FOR SENIOR EXECUTIVES</button>
+              <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
+                <Link href='https://www.globalgovernanceinitiative.org/executivemanagement'>
+                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">EXECUTIVE MBA</div>
+                </Link>
+              </ul>
+            </span>
+          </li>
+
+
+
           <Link re href='/reviews'>
             <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
               EMPLOYMENT REPORT
             </li>
           </Link>
+
           <li className='group relative inline-block p-4 cursor-pointer   hover:text-black '>
             <span className="group relative inline-block">
               <button className="inline-flex items-center rounded font-semibold ">EXPLORE</button>
