@@ -43,7 +43,7 @@ const Main = () => {
             {/* <Hero heading='' home={true} message='' /> */}
             <MainHero />
 
-            <Button url="/ggi-scholars">
+            <Button url="/impact-fellowship">
                 Learn More about Advancing Your Career
             </Button>
 

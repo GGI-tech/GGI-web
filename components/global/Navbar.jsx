@@ -83,25 +83,33 @@ const Navbar = ({applicationbanner}) => {
             <span className="group relative inline-block">
               <button className="inline-flex items-center rounded font-semibold ">FOR WORKING PROFESSIONALS</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
-                <Link href='/ggi-scholars'>
-                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</div>
+                <Link href='/ggi-scholars' target="_blank">
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</a>
                 </Link>
-                <Link href='/ggipolicyscholarsprogram'>
-                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">POLICY</div>
+                <Link href='/ggipolicyscholarsprogram' target="_blank">
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">POLICY</a>
                 </Link>
-                <Link href='/impact-fellowship'>
-                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</div>
+                <Link href='/impact-fellowship' target="_blank">
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</a>
                 </Link>
-                <Link href='https://www.globaltechinitiative.org/gti-ms-scholars'>
+                {/*<Link href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
                     MS SCHOLARS
                   </li>
-                </Link>
-                <Link href='https://www.globaltechinitiative.org/feynmanfellowship'>
+                </Link>*/}
+                <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                    MS SCHOLARS
+                  </a>
+
+                {/*<Link href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
                     FEYNMAN FELLOWSHIP
                   </li>
-                </Link>
+                </Link>*/}
+
+                <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                        FEYNMAN FELLOWSHIP
+                      </a>
               </ul>
             </span>
           </li>
@@ -111,10 +119,10 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold ">FOR COLLEGE STUDENTS</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href='/ggi-scholars'>
-                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</div>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</a>
                 </Link>
                 <Link href='/impact-fellowship'>
-                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</div>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</a>
                 </Link>
               </ul>
             </span>
@@ -125,7 +133,7 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold ">FOR SENIOR EXECUTIVES</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href='https://www.globalgovernanceinitiative.org/executivemanagement'>
-                  <div className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">EXECUTIVE MBA</div>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">EXECUTIVE MBA</a>
                 </Link>
               </ul>
             </span>
