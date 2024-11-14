@@ -119,7 +119,7 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold ">FOR COLLEGE STUDENTS</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href='/ggi-scholars'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MBA</a>
                 </Link>
                 <Link href='/impact-fellowship'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</a>
