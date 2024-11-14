@@ -11,9 +11,17 @@ const Navbar = ({applicationbanner}) => {
   const [color, setColor] = useState('#ffffff');
   const [textColor, setTextColor] = useState('#CF1515');
   const [img, setImg] = useState("/logo.jpg");
+
+  const [dropdownWorking, setDropdownWorking] = useState(false);
+  const [dropdownCollege, setDropdownCollege] = useState(false);
+  const [dropdownExecutive, setDropdownExecutive] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
+
+  const toggleDropdownWorking = () => setDropdownWorking(!dropdownWorking);
+  const toggleDropdownCollege = () => setDropdownCollege(!dropdownCollege);
+  const toggleDropdownExecutive = () => setDropdownExecutive(!dropdownExecutive);
 
   // useEffect(() => {
   //   const changeColor = () => {
@@ -175,7 +183,7 @@ const Navbar = ({applicationbanner}) => {
               : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
           }
         >
-          <ul>
+          {/* <ul>
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/'>HOME</Link>
             </li>
@@ -208,6 +216,77 @@ const Navbar = ({applicationbanner}) => {
               <Link prefetch={false} href='/careers'>CAREERS</Link>
             </li>
 
+          </ul> */}
+          <ul className='text-white'>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link prefetch={false} href='/'>HOME</Link>
+            </li>
+            {/* Mobile dropdown for "For Working Professionals" */}
+            <li onClick={toggleDropdownWorking} className='p-4 cursor-pointer'>
+              <button className="inline-flex items-center rounded font-semibold">FOR WORKING PROFESSIONALS</button>
+              {dropdownWorking && (
+                <ul className="pt-1 bg-black text-white font-medium">
+                  <Link prefetch={false} href='/ggi-scholars' target="_blank">
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">MBA</a>
+                  </Link>
+                  <Link prefetch={false} href='/ggipolicyscholarsprogram' target="_blank">
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">POLICY</a>
+                  </Link>
+                  <Link prefetch={false} href='/impact-fellowship' target="_blank">
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
+                  </Link>
+                  <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
+                    MS SCHOLARS
+                  </a>
+                  <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
+                    FEYNMAN FELLOWSHIP
+                  </a>
+                </ul>
+              )}
+            </li>
+            {/* Mobile dropdown for "For College Students" */}
+            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
+              <button className="inline-flex items-center rounded font-semibold">FOR COLLEGE STUDENTS</button>
+              {dropdownCollege && (
+                <ul className="pt-1 bg-black text-white font-medium">
+                  <Link prefetch={false} href='/ggi-scholars'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Pre-MBA</a>
+                  </Link>
+                  <Link prefetch={false} href='/impact-fellowship'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
+                  </Link>
+                </ul>
+              )}
+            </li>
+            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
+              <button className="inline-flex items-center rounded font-semibold">FOR SENIOR EXECUTIVES</button>
+              {dropdownCollege && (
+                <ul className="pt-1 bg-black text-white font-medium">
+                  <Link prefetch={false} href='/ggi-scholars'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">EXECUTIVE MBA</a>
+                  </Link>
+                </ul>
+              )}
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link prefetch={false} href='/reviews'>Employment Report</Link>
+            </li>
+            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
+              <button className="inline-flex items-center rounded font-semibold">EXPLORE</button>
+              {dropdownCollege && (
+                <ul className="pt-1 bg-black text-white font-medium">
+                  <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Blogs & Research</a>
+                  </Link>
+                  <Link prefetch={false} href='https://www.schrodingerbyggi.org/'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Free Series</a>
+                  </Link>
+                  <Link prefetch={false} href='/careers'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Careers</a>
+                  </Link>
+                </ul>
+              )}
+            </li>
           </ul>
         </div>
       </div>{/*yell  */}
