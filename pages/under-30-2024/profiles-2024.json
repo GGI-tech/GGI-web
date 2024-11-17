@@ -1,0 +1,165 @@
+{
+    "stem": {
+      "title": "STEM",
+      "description":"Changing status quo- innovators of the world. ",
+      "persons": [
+        {
+          "name": "Eleonora Svanberg",
+          "img": "/eleonora.jpg",
+          "age": "",
+          "occupation": "Physicist | Writer ",
+          "location": "United Kingdom",
+          "description": "Eleonora Svanberg, 25 years old, is a half-Swedish and half-Persian, writer, founder, speaker, advocate and theoretical physics PhD student at the University of Oxford, with a passion to make science accessible for marginalized groups.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        },
+        {
+          "name": "Kushal Vijay",
+          "img": "/kushal.jpg",
+          "age": "",
+          "occupation": "Software engineer ",
+          "location": "India",
+          "description": "Kushal Vijay is a software engineer at Microsoft and a content creator with an audience of over 400,000 across multiple platforms. A 2021 graduate of NIT Jalandhar, Kushal has interned at Microsoft and StackGuardian and has spoken at PyCon'22 Hong Kong and Xtreme Python'22.<br><br> He&apos;s also an ACM ICPC&apos;19 Regionalist and mentored students in Google CodeIn&apos;19 for the TensorFlow organization. With 12 offline sessions, 40+ webinars, and experience judging hackathons, Kushal continues to make an impact in the tech community.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        },
+        {
+          "name": "Ishita Arora",
+          "img": "/ishita2024.jpg",
+          "age": "",
+          "occupation": "Software developer ",
+          "location": "India",
+          "description": "Ishita Arora is a tech-savvy trailblazer blending code, creativity, and charisma. By day, she&apos;s a software developer at Blinkit, crafting impactful digital solutions in the fast-paced world of e-commerce.<br><br>By night, she dives into my passions as a content creator, sharing her love for fashion, fitness, and lifestyle. She thrives on inspiring others with her journey, whether it&apos;s through chic fashion tips, dynamic fitness routines, or a peek into the life of a woman in tech<br><br> She&apos;s passionate about empowering women to step into STEM fields, breaking barriers and stereotypes along the way. Balancing multiple roles with finesse, she&apos;s always pushing boundaries, redefining what it means to be a modern creator with a full time corporate job, and continuously chasing growth in both fields.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        },
+        {
+          "name": "Mariana Antaya",
+          "img": "/mariana.jpg",
+          "age": "",
+          "occupation": "Product Manager ",
+          "location": "USA",
+          "description": "Mariana is a product manager at Microsoft, and the head of marketing at Batchery, a prominent Silicon Valley AI accelerator dedicated to empowering early-stage founders. <br><br>Her passion for developing innovative software solutions and educating others about artificial intelligence is evident in every facet of her professional and personal endeavors.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        },
+        {
+          "name": "Anjali Viramgama",
+          "img": "/anjali.jpg",
+          "age": "",
+          "occupation": "Software engineer | Author ",
+          "location": "India",
+          "description": "Anjali is software engineer and a tech content creator, passionate about diversity and inclusion of women and minorities in tech. She has over 100 Million views and 250,000+ followers on Instagram and LinkedIn combined. <br><br> She has helped over 350 students get jobs and was also featured on Times Square, New York as one of the most influential creators in tech. She has hosted multiple workshops and webinars at conferences and universities in the US, Canada and India to help students get into tech, and wrote a book called &quotNavigating the American Dream&quot to help international students in the US.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i> "
+        },
+        {
+          "name": "Mazher Khan",
+          "img": "/mazher.jpg",
+          "age": "",
+          "occupation": "Data Scientist | Mentor ",
+          "location": "India",
+          "description": " Mazher Khan is an IIT graduate with 6 years of experience in Data Science & Analytics. After honing his expertise, he is now sharing valuable Data Analytics resources and insights with a growing community online. <br><br> Through his content, he aims to simplify Data Analytics for learners and professionals alike, while also offering mentorship to those with up to 18 years of experience, helping them excel in their careers.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i> "
+        },
+        {
+          "name": "Stefanie Dechant",
+          "img": "/stefanie.jpg",
+          "age": "",
+          "occupation": "Automotive Industry ",
+          "location": "Germany",
+          "description": "When Stefanie first entered the world of engineering, she had no idea about cars or motorsports. In fact, she started her journey armed only with a bachelor's degree and strong math skills, knowing little about the automotive industry that would later define my career. <br><br> Born and raised in Nuremberg with both German and African roots, she carried diverse interests in fashion and engineering—none of which fit the traditional mould of a female engineer. She faced stereotypes and biases that made her feel out of place, especially as someone who didn&apos;t grow up with an innate passion for cars. <br><br> Everything changed with a pivotal moment that ignited a passion she never knew, leading her to dive deeper into the automotive world, where she is now pursuing a PhD. Her once-skeptical view of her place in this industry has become a driving force behind her mission to empower and inspire other women to enter and thrive in this male-dominated space. <br><br> She hopes her journey shows others the importance of authenticity, the power of community, and the need to break free from societal expectations. It&apos;s not just a story about cars—it&apos;s about creating space for women in underrepresented industries and proving that passion, even if discovered later, can drive transformative change.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "description":"Democratising information- Fueling minds and unlocking potential.",
+      "persons": [
+        {
+          "name": "Adam Aleksic",
+          "img": "/adam.jpg",
+          "age": "",
+          "occupation": "Linguist | Content Creator ",
+          "location": "USA",
+          "description": "Adam Aleksic is a linguist with a mission of making the science of language more accessible to a broad audience. <br><br> Professionally, Adam&apos;s research specializes on the intersections between language and social media. He is the former president of the Harvard Undergraduate Linguistics Society and is a frequent opinions contributor for the Washington Post. He has repeatedly been featured in The New York Times and NPR, lectured at multiple universities, and performed a TEDx talk for his work in researching contemporary slang. Adam is currently writing a book, to be released in June 2025.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        },
+        {
+          "name": "Cherie Brooke Luo",
+          "img": "/cherie.jpg",
+          "age": "",
+          "occupation": "Founder | Content Creator | Tech ",
+          "location": "USA",
+          "description": "Cherie is a founder, podcast host, and influencer with over 300K followers and 100M+ views on Instagram, TikTok, and YouTube. Her content breaks down the complexities of big tech, finance, and MBA programs. Cherie&apos;s vision is to empower 1 billion people to advance in their careers by demystifying the ups and downs of navigating careers, tech, and entrepreneurship—while keeping it real about staying healthy, stylish, and joyful along the way.<br><br> Before pursuing her MBA at Stanford Graduate School of Business, Cherie was a senior product manager at LinkedIn, where she led engineering and design teams to develop social video learning products. She is a TEDx speaker, LinkedIn Top Voice 2024, and a contributor for Forbes. She was recognized as a top 50 creator to watch in 2023 by Antler Venture Capital and has partnered with renowned brands like Salesforce, Microsoft, Kraken Crypto, Amazon, Meta, Adobe, eBay, and Target.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description":" Unleashing the power of persuasion and creativity- blending the arts and sciences of marketing.",
+      "persons": [
+        {
+          "name": "Noharika Gangaramany",
+          "img": "/noharika.jpg",
+          "age": "",
+          "occupation": "Marketeer | Creator | Founder ",
+          "location": "India",
+          "description": "Noharika is an accomplished content creator with four years of experience. As the co-founder of AGENZ, a pioneering social media led storytelling media agency, she has spent the last two years elevating narratives that captivate and inspire. With a strong foundation in styling, creative direction, and storytelling, Noharika excels in crafting content that not only engages but also resonates deeply with audiences <br><br> Beyond her agency work, she leads Seedz Club, a vibrant book club that nurtures a community of readers and celebrates diverse voices. Through her passion and expertise, Noharika is committed to inspiring creativity and fostering meaningful connections through the art of storytelling.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        }
+      ]
+    },
+    "social-impact": {
+      "title": "Social Impact",
+      "description":"Illuminating the world- one brightened life at a time. ",
+      "persons": [
+        {
+          "name": "Giulia Tariello",
+          "img": "/guilia.jpg",
+          "age": "",
+          "occupation": "United Nations ",
+          "location": "Italy",
+          "description": "Giulia is a graduate with a Master&apos;s Degree in Diplomacy from the University of Milan, where she graduated with honors. Since 2023, she has been serving as the European Union Youth Delegate to the United Nations. Prior to this, she was one of Italy's Youth Delegates to the UN in 2022-2023, advocating for youth engagement and empowerment in decision-making processes, education, and gender equality.<br><br>In her international experience, she has had the privilege of meeting youth from around the world, and exchanging ideas on our collective future. Representing the voice of youth at the UN, she is committed to promoting initiatives that elevate the voices of those often unheard. Having sat at decision-making tables, her goal is to ensure more young people are granted the same opportunity to influence global policy.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        }
+      ]
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "description":"Changing status quo- healers of the world.",
+      "persons": [
+        {
+          "name": "Arjun Gupta",
+          "img": "/arjun.jpg",
+          "age": "",
+          "occupation": "Psychologist ",
+          "location": "India",
+          "description": "Arjun Gupta is a Psychologist from Hisar, Haryana. He completed his bachelor's in Applied Psychology from DU and Master's from Ambedkar University. Arjun entered the world of Psychology in 2017 after dropping out of the MBBS course due to his personal struggles with severe clinical depression.<br><br> Given his personal experiences with mental illness at a young age, Arjun has had a special interest in the mental health of men and what we can collectively do to help young boys and men struggling with mental health issues. Arjun also has a keen interest in research and statistics and tries to make the concepts accessible to psychology students through content and workshops.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        }
+      ]
+    },
+    "artists": {
+      "title": "Artist",
+      "description":"Masters of expression, creators of connection.",
+      "persons": [
+        {
+          "name": "Saksham Garg",
+          "img": "/saksham.jpg",
+          "age": "",
+          "occupation": "Author",
+          "location": "India",
+          "description": "Saksham Garg is a literary agent, ex-editor at Penguin India, and the bestselling author of the record-breaking SAMSARA: ENTER THE VALLEY OF THE GODS, which has been translated into Hindi and Marathi, and sold over 70,000 copies. <br><br> He studied at Woodstock School, Mussoorie, for seven years, from where he found inspiration for his debut novel. He studied BA Economics Hons. from Hindu College, Delhi University, after which he joined the much-coveted editorial team at Penguin Random House India. After 5 years of working as an Editor, he launched his debut novel to resounding success using game-chinging marketing techniques involving direct marketing. <br><br> Saksham plays football, and the violin, and invests in real estate and development. He lives in Jaipur and Delhi, traveling between the two regularly, and is currently working on the much-awaited sequel to SAMSARA, the slow writing of which is often criticized within the comments section of the viral reels around the book.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i> "
+        },
+        {
+          "name": "Ananya Dwivedi",
+          "img": "/ananya.jpg",
+          "age": "",
+          "occupation": "MusicTech Coach | Founder ",
+          "location": "India",
+          "description": "Ananya is a Music Entrepreneur, Creator, Singer and Music Critic. Her venture Creator School aims at enabling musicians to record and create their own music.  She completed her MBA from IIM Lucknow in 2016 and started pursuing full-time music in 2019.<br><br> Her content creation journey started as an amateur singer in 2018 and currently she&apos;s diversifying into multiple aspects of music business and exploring new opportunities. <br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        }
+      ]
+    },
+    "sports": {
+      "title": "Fitness & Sports",
+      "description":"Game changers- from dreams into victories.",
+      "persons": [
+        {
+          "name": "Vedika Anand",
+          "img": "/vedika.jpg",
+          "age": "",
+          "occupation": "Athlete | Fitness ",
+          "location": "India",
+          "description": "Vedika Anand, born in Delhi and now based in New York, is a former NCAA Division I tennis player, Certified Strength and Conditioning Specialist (CSCS), currently serving as the Manager, Player Operations for the Professional Tennis Players Association (PTPA).<br><br> As a former athlete, Vedika brings firsthand experience and a deep understanding of the sports world to her role. She is dedicated to transforming the Indian sports landscape by creating pathways for athletes and sports enthusiasts to pursue successful careers.<br><br> <i>Important Note: &apos;Honorees are chosen for their accomplishments, not by sponsorship.&apos;</i>"
+        }
+      ]
+    }
+  }
+  

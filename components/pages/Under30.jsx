@@ -19,7 +19,7 @@ const Under30 = () => {
                 </div>
 
                 <div className='text-center text-6xl sm:text-8xl md:text-9xl roboto text-black my-7'>
-                    MEET THE NEWEST GGI 30 UNDER 30
+                    GGI 30 UNDER 30
                 </div>
 
 

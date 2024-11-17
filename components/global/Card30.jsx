@@ -14,7 +14,7 @@ const GalleryImg = ({ socialImg, caption, link }) => {
             placeholder="blur"
             src={socialImg}
             alt='/'
-            className='object-cover object-center h-full w-full'
+            className='object-contain object-center h-full w-full'
             layout='fill'
           />
         </div>
@@ -29,3 +29,4 @@ const GalleryImg = ({ socialImg, caption, link }) => {
 };
 
 export default GalleryImg
+
