@@ -12,6 +12,7 @@ import Link from 'next/link';
 // remove home page bold, make italics, put imp note everywhere
 // artists ~ marketing
 // stem ~ fitness
+// make header under 30
 
 const Under30_2024 = () => {
     return (
@@ -22,7 +23,7 @@ const Under30_2024 = () => {
                 </div>
 
                 <div className='text-center pb-0 text-6xl sm:text-8xl md:text-9xl roboto text-black my-7'>
-                    MEET THE NEWEST<br/> GGI 30 UNDER 30
+                    MEET THE NEWEST<br/> GGI UNDER 30
                 </div>
 
                 <div className='md:w-11/12 mx-auto text-center mt-24'>
