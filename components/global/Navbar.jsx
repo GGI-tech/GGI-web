@@ -130,8 +130,11 @@ const Navbar = ({applicationbanner}) => {
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">PRE-MBA</a>
                 </Link>
                 <Link href='/impact-fellowship'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">IMPACT FELLOWSHIP</a>
                 </Link>
+                <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                        FEYNMAN AI FELLOWSHIP
+                  </a>
               </ul>
             </span>
           </li>
@@ -253,8 +256,11 @@ const Navbar = ({applicationbanner}) => {
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MBA</a>
                   </Link>
                   <Link prefetch={false} href='/impact-fellowship'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">IMPACT FELLOWSHIP</a>
                   </Link>
+                  <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
+                    FEYNMAN AI FELLOWSHIP
+                  </a>
                 </ul>
               )}
             </li>
