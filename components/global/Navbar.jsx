@@ -95,10 +95,10 @@ const Navbar = ({applicationbanner}) => {
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</a>
                 </Link>
                 <Link href='/ggipolicyscholarsprogram' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">POLICY</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Policy</a>
                 </Link>
                 <Link href='/impact-fellowship' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">FELLOWSHIP</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Fellowship</a>
                 </Link>
                 {/*<Link href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
@@ -106,7 +106,7 @@ const Navbar = ({applicationbanner}) => {
                   </li>
                 </Link>*/}
                 <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                    MS SCHOLARS
+                    MS Scholars
                   </a>
 
                 {/*<Link href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank">
@@ -116,7 +116,7 @@ const Navbar = ({applicationbanner}) => {
                 </Link>*/}
 
                 <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                        FEYNMAN FELLOWSHIP
+                        Feynman Fellowship
                       </a>
               </ul>
             </span>
@@ -127,13 +127,13 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold ">FOR COLLEGE STUDENTS</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href='/ggi-scholars'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">PRE-MBA</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MBA</a>
                 </Link>
                 <Link href='/impact-fellowship'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">IMPACT FELLOWSHIP</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Impact Fellowship</a>
                 </Link>
                 <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                        FEYNMAN AI FELLOWSHIP
+                        Feynman AI Fellowship
                   </a>
               </ul>
             </span>
@@ -144,7 +144,7 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold ">FOR SENIOR EXECUTIVES</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href='https://www.globalgovernanceinitiative.org/executivemanagement'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">EXECUTIVE MBA</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Executive MBA</a>
                 </Link>
               </ul>
             </span>
@@ -163,8 +163,18 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold ">EXPLORE</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-1 px-4 hover:bg-gray-400" >Free Series</div></Link>
-                <Link href="https://www.councilonsustainabledevelopment.org/" ><div className="whitespace-no-wrap block bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Blogs & Research</div></Link>
-                <Link href="/careers"><div className="whitespace-no-wrap block rounded-b bg-gray-100 py-1 px-6 hover:bg-gray-400 " >Careers</div></Link>
+                <Link href='https://www.councilonsustainabledevelopment.org/'>
+                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Blogs & Research</a>
+                </Link>
+                <Link href='https://www.globalgovernanceinitiative.org/mission'>
+                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Mission</a>
+                </Link>
+                <Link href='/careers'>
+                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Careers</a>
+                </Link>
+                <Link href='https://www.globalgovernanceinitiative.org/under-30-2024'>
+                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">GGI Awardees</a>
+                </Link>
               </ul>
             </span>
           </li>
@@ -281,14 +291,20 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold">EXPLORE</button>
               {dropdownCollege && (
                 <ul className="pt-1 bg-black text-white font-medium">
-                  <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Blogs & Research</a>
-                  </Link>
                   <Link prefetch={false} href='https://www.schrodingerbyggi.org/'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Free Series</a>
                   </Link>
+                  <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Blogs & Research</a>
+                  </Link>
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/mission'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Mission</a>
+                  </Link>
                   <Link prefetch={false} href='/careers'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Careers</a>
+                  </Link>
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/under-30-2024'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">GGI Awardees</a>
                   </Link>
                 </ul>
               )}
