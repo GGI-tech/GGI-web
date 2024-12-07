@@ -51,12 +51,23 @@ const YLP = () => {
                 <p>GGI Impact Lab, Young Leaders community comprises an extremely diverse cohort - from current students at prestigious engineering universities to highly qualified professionals in the domain of Product Management and Finance. They are working professionals in organizations such as IIM-B, ICICI Bank, KPMG, Axis Bank, Microsoft, and other leading organisations.</p>
             </Container>
             <Heading>Executive Program in Management & Policy</Heading>
+            
             <Curriculum4 data={curriculum}/>
             <div id="more"></div>
+            {/* <div className="flex justify-center items-start gap-12 mt-8">
+    <div className="text-center max-w-xs">
+        <h3 className="font-bold text-red-500 text-xl">YLP Impact Projects</h3>
+        <p>Peer to Peer projects</p>
+    </div>
+    <div className="text-center max-w-xs">
+        <h3 className="font-bold text-red-500 text-xl">10+ Hours of Trinity</h3>
+        <p>You get access to recorded Masterclasses of top speakers in consulting at GGI</p>
+    </div>
+</div> */}
             <Heading>WHAT IS GGI IMPACT LAB, YOUNG LEADERS,<br /> POLICY, CONSULTING & PM INTERNSHIP PROGRAM </Heading>
             <Container>
                 <p className="mb-7">The Impact Lab YLP is a one-of-a-kind technology-driven essential program at GGI that has redefined the business school experience. Here, you&apos;ll be pushed and challenged by best-in-class faculty and supported by an AI tool in an environment unlike anywhere else at a fraction of a cost. </p>
-                <p>The <span className="font-bold">entire 6 months experiential Pre MBA program</span> is designed in 5 stages. </p>
+                <p>The <span className="font-bold">entire 6 months experiential Pre MBA program</span> is designed in 4 stages. </p>
             </Container>
             <Steps data={stages} />
 

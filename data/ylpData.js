@@ -4,26 +4,26 @@ export const stages = [
         "ques": "Stage 1 - BASIC UPSKILLING",
         "ans": [`<p class='mb-4'>At GGI, we are thoroughly convinced that &apos;Foundations are key&apos;. Stage 1 focuses on building essential business foundations - where YLPs are provided exclusive access to MBA in 10 minutes series by Ex BCG Consultant. These are recorded videos that will walk you through the core skills across Finance, Statistics, Marketing, Branding, Operations. These Foundational Skills are regularly tested in the consulting/product/marketing/finance interviews.</p>`]
     },
-    {
-        "id":1,
-        "ques":"Stage 2: ADVANCED UPSKILLING",
-        "ans":[`The advanced upskilling stage will ensure that the young leaders are a billion times better prepared than their counterparts to tackle the uncertainty of consulting interviews. In this stage, young leaders will have exclusive access to weekly live and interactive Deep Dive sessions- case based discussions on business, geopolitics, policy, education and healthcare subjects that are often tested in interviews.<br/><br/>Over and above this, you’d get access to the Trinity Learning Experience - where they will learn the application of Basic Skills of stage 1 by Mckinsey Partners. In this stage, YLPs will be provided exclusively recorded access to the masterclasses taken by giants of the management consulting industry - including the former CEO of McKinsey & Company. The advanced upskilling stage will also prepare YLPs with a macro-perspective about the industry by the Partners who might even end up interviewing them.`]
+    // {
+    //     "id":1,
+    //     "ques":"Stage 2: ADVANCED UPSKILLING",
+    //     "ans":[`The advanced upskilling stage will ensure that the young leaders are a billion times better prepared than their counterparts to tackle the uncertainty of consulting interviews. In this stage, young leaders will have exclusive access to weekly live and interactive Deep Dive sessions- case based discussions on business, geopolitics, policy, education and healthcare subjects that are often tested in interviews.<br/><br/>Over and above this, you’d get access to the Trinity Learning Experience - where they will learn the application of Basic Skills of stage 1 by Mckinsey Partners. In this stage, YLPs will be provided exclusively recorded access to the masterclasses taken by giants of the management consulting industry - including the former CEO of McKinsey & Company. The advanced upskilling stage will also prepare YLPs with a macro-perspective about the industry by the Partners who might even end up interviewing them.`]
 
-    },
+    // },
     {
         "id":2,
-        "ques":"Stage 3: Consulting Style Internship",
+        "ques":"Stage 2: Consulting Style Internship",
         "ans":[`In order to &apos;crack consulting or product interviews&apos;, it is imperative that young leaders go beyond solving &apos;regular cases&apos;. The Virtual AI-Driven Internship is designed to allow young leaders to experience the thrill and adventure of solving problems of the United Nations, International Governments, and a big conglomerate. It is this unique experience that allows young leaders to apply the concepts learned in stage 1 and stage 2 in a practical setting.`,`The diligent completion of this stage has directly assisted many GGI Alumni to get into full-fledged consulting and PM roles.`]
 
     },
     {
         "id":3,
-        "ques":"Stage 4: Buddies ",
+        "ques":"Stage 3: Buddies ",
         "ans":[`The heart of the Global Governance Initiative is Community. During your time as an Impact Lab, Young Leader, you will be nudged to collaborate with buddies - where you can learn the best practices, or discuss the mistakes you made during your AI Case-Based Internship. You can also collaborate &apos;outside&apos; of the GGI &apos;nudges&apos; and collaborate with other buddies - as and when you become part of the community - via social media groups or networking nights. `]
     },
     {
         "id":4,
-        "ques": "Stage 5:  Networking Nights",
+        "ques": "Stage 4:  Networking Nights",
         "ans":[`No matter how professionally successful you are, or how &apos;networked&apos; you are - as long as you don&apos;t have a community to cherish and celebrate your successes or be your sounding board at times of failures - many aspects of life will remain hollow. And therefore, young Leaders will also attend networking events - where they will meet the new members of the growing YLP community.`, `Please note- Unlike the GGI&apos;s Flagship GGI Scholars and Fellows Program, the entire Impact Lab, YLP experience is virtual. YLPs do not have access to live masterclasses, office hours, live projects. YLPs will not be provided access to education and employment partnerships that GGI has established or will establish in the future. It is to be duly noted, the entire program is virtual and highly selective. The selection rate is usually higher for YLPs in comparison to other flagship GGI programs - that are considered to be more prestigious, highly selective, and more personalized. 
 
         ​`]
@@ -108,10 +108,10 @@ export const curriculum = [
         "title": "6 Months",
         "description": "Program length, flexible upon your needs and availability"
     },
-    {
-        "title": "40+ Hours of Business/Policy Masterclasses",
-        "description": "Deep dive weekly initiative, with availability of recordings for a time period"
-    },
+    // {
+    //     "title": "40+ Hours of Business/Policy Masterclasses",
+    //     "description": "Deep dive weekly initiative, with availability of recordings for a time period"
+    // },
     {
         "title": "60+ Hours of Business Interview Practice",
         "description": "Via our inhouse AI Based software"

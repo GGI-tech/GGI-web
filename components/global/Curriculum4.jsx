@@ -1,11 +1,43 @@
+// const Curriculum4 = ({ data }) => {
+//     // Split the data into two sections
+//     const firstRow = data.slice(0, 3);  // First 4 items for the first row
+//     const secondRow = data.slice(3);    // Remaining items for the second row
+
+//     return (
+//         <div className='lg:w-5/6 2xl:w-2/3 mx-auto p-4'>
+//             {/* First Row: 4 Columns on larger screens, 2 columns on smaller screens */}
+//             <div className='grid grid-cols-2 md:grid-cols-3 gap-14 lg:gap-10 mb-16'>
+//                 {firstRow.map((e, i) => (
+//                     <div key={i} className='text-center'>
+//                         <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
+//                         <p className="italic">{e.description}</p>
+//                     </div>
+//                 ))}
+//             </div>
+
+//             {/* Second Row: 3 Columns on larger screens, 2 columns on smaller screens */}
+//             <div className='grid grid-cols-2 md:grid-cols-3 gap-14 lg:gap-10'>
+//                 {secondRow.map((e, i) => (
+//                     <div key={i} className='text-center'>
+//                         <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
+//                         <p className="italic">{e.description}</p>
+//                     </div>
+//                 ))}
+//             </div>
+//         </div>
+//     );
+// }
+
+// export default Curriculum4;
+
 const Curriculum4 = ({ data }) => {
     // Split the data into two sections
-    const firstRow = data.slice(0, 3);  // First 4 items for the first row
-    const secondRow = data.slice(3);    // Remaining items for the second row
+    const firstRow = data.slice(0, 3); // First 3 items for the first row
+    const secondRow = data.slice(3);  // Remaining items for the second row
 
     return (
         <div className='lg:w-5/6 2xl:w-2/3 mx-auto p-4'>
-            {/* First Row: 4 Columns on larger screens, 2 columns on smaller screens */}
+            {/* First Row: 3 Columns on larger screens, 2 columns on smaller screens */}
             <div className='grid grid-cols-2 md:grid-cols-3 gap-14 lg:gap-10 mb-16'>
                 {firstRow.map((e, i) => (
                     <div key={i} className='text-center'>
@@ -15,10 +47,10 @@ const Curriculum4 = ({ data }) => {
                 ))}
             </div>
 
-            {/* Second Row: 3 Columns on larger screens, 2 columns on smaller screens */}
-            <div className='grid grid-cols-2 md:grid-cols-3 gap-14 lg:gap-10'>
+            {/* Second Row: Adjusted for 2 items only */}
+            <div className='flex justify-center items-start gap-12'>
                 {secondRow.map((e, i) => (
-                    <div key={i} className='text-center'>
+                    <div key={i} className='text-center max-w-xs'>
                         <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
                         <p className="italic">{e.description}</p>
                     </div>
@@ -26,6 +58,7 @@ const Curriculum4 = ({ data }) => {
             </div>
         </div>
     );
-}
+};
 
 export default Curriculum4;
+
