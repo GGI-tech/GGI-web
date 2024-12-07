@@ -102,11 +102,11 @@ const Navbar = ({applicationbanner}) => {
                 </Link>
                 {/*<Link href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                    MS SCHOLARS
+                    ALT IIT
                   </li>
                 </Link>*/}
                 <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                    MS Scholars
+                    ALT IIT
                   </a>
 
                 {/*<Link href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank">
@@ -249,7 +249,7 @@ const Navbar = ({applicationbanner}) => {
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
                   </Link>
                   <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
-                    MS SCHOLARS
+                    ALT IIT
                   </a>
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN FELLOWSHIP
