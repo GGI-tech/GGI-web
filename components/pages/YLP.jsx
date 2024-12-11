@@ -109,7 +109,7 @@ const YLP = () => {
 
                 <div className="px-2 ylp3 h-60 flex flex-col inset-0 justify-center items-center">
                     <h1 className="text-xl font-semibold">Do it in your own time </h1>
-                    <p>Fit the program in with your busy schedule. In case you miss the live deep dive weekly sessions, dearn at your own pace and reach your personal goals</p>
+                    <p>Fit the program in with your busy schedule and learn at your own pace and reach your personal goals</p>
 
                 </div>
 
