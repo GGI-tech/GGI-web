@@ -38,7 +38,7 @@ export const curriculum = [
     },
     {
         "title": "30+ Hours of Business/Policy Masterclasses",
-        "description": "Deep dive weekly initiative, with availability of recordings for a time period"
+        "description": " Deep dive bi-monthly initiative, with availability of recordings for a time period"
     },
     {
         "title": "60+ Hours of Business Interview Practice",
