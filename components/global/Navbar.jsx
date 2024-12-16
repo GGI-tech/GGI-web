@@ -106,7 +106,7 @@ const Navbar = ({applicationbanner}) => {
                   </li>
                 </Link>*/}
                 <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                    ALT IIT
+                    Data Science
                   </a>
 
                 {/*<Link href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank">
@@ -249,7 +249,7 @@ const Navbar = ({applicationbanner}) => {
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
                   </Link>
                   <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
-                    ALT IIT
+                    Data Science
                   </a>
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN FELLOWSHIP
