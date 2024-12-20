@@ -8,7 +8,7 @@ const Navbar = ({applicationbanner}) => {
   // const [color, setColor] = useState('transparent');
   // const [textColor, setTextColor] = useState('white');
   // const [img, setImg] = useState("");
-  const [color, setColor] = useState('#ffffff');
+  const [color, setColor] = useState('#ffffff'); 
   const [textColor, setTextColor] = useState('#CF1515');
   const [img, setImg] = useState("/logo.jpg");
 
