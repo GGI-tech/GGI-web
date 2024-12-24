@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import Image from 'next/image';
+import Image from 'next/image'; 
 import secondarynavbar from '../secondaryNav';
 const Navbar = ({applicationbanner}) => {
   const [nav, setNav] = useState(false);
