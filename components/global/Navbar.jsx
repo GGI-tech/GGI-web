@@ -100,13 +100,13 @@ const Navbar = ({applicationbanner}) => {
                 <Link href='/impact-fellowship' target="_blank">
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Fellowship</a>
                 </Link>
-                {/*<Link href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank">
+                {/*<Link href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                    Data Science /ALT IIT
+                    Tech Policy Scolars
                   </li>
                 </Link>*/}
-                <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                    Data Science
+                <a href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                    Tech Policy Scholars
                   </a>
 
                 {/*<Link href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank">
@@ -248,8 +248,8 @@ const Navbar = ({applicationbanner}) => {
                   <Link prefetch={false} href='/impact-fellowship' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
                   </Link>
-                  <a href='https://www.globaltechinitiative.org/gti-ms-scholars' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
-                    Data Science
+                  <a href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
+                    Tech Policy Scholars
                   </a>
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN FELLOWSHIP
