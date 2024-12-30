@@ -1,0 +1,37 @@
+import TechMBA from "../components/pages/TechMBA"
+import Head from "next/head"
+
+const techmba = () => {
+
+  return (
+    <>
+      <Head>
+        <title>Tech-MBA Scholars by Global Governance Initiative | Learn Tech-MBA Skills Live &amp; Get Hired.</title>
+        <meta name='description' content="Learn Tech-MBA Skills Live, Get Hired, &amp; Network at GGI Tech-MBA Scholar To Create an Impact in Society &nbsp;" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <link rel='icon' href='/favicon.jpg' />
+        <link rel="shortcut icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png" />
+        <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/65ca63_b536077bdc99495ca651850cdaca0c92%7Emv2.png" type="image/png" />
+        <link rel="canonical" href="https://www.globalgovernanceinitiative.org/tech-mba" />
+
+        <meta property="og:title" content="Tech-MBA Scholars by Global Governance Initiative | Learn Tech-MBA Skills Live &amp; Get Hired." />
+        <meta property="og:description" content="Learn Tech Management Skills Live, Get Hired, &amp; Network at GGI Tech-MBA Scholar To Create an Impact in Society &nbsp;" />
+        <meta property="og:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png" />
+        <meta property="og:image:width" content="2500" />
+        <meta property="og:image:height" content="1330" />
+        <meta property="og:url" content="https://www.globalgovernanceinitiative.org/tech-mba" />
+        <meta property="og:site_name" content="GGI" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Tech-MBA Scholars by Global Governance Initiative | Learn Management Skills Live &amp; Get Hired. " />
+        <meta name="twitter:description" content="Learn Tech-MBA Skills Live, Get Hired, &amp; Network at GGI Tech-MBA Scholar To Create an Impact in Society &nbsp;" />
+        <meta name="twitter:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png" />
+      
+      </Head>
+      <TechMBA />
+    </>
+
+  )
+}
+
+export default techmba
