@@ -216,3 +216,25 @@ export const testimonialMain2 = [
 },
  
 ];
+
+export const testimonialMain3 = [
+  {
+   name: 'Sameer Chatterjee',
+   org: 'GGI Executive, 2025<br>',
+   image: '/sameer.jpg',
+   review: "My transition from a 20-year career in the <span class='font-bold'>Indian Army to global governance</span> has been a journey of growth and purpose. With expertise in operational leadership, crisis management, and strategic planning, I aim to shape policies that promote peace and security through roles at the <span class='font-bold'>United Nations</span> or within public administration in New Zealand. <br><br> Inspired by my family&apos;s legacy as a third-generation officer, I&apos;ve always been driven by duty and service. My experiences, from rigorous training at the National Defence Academy to leading operations in conflict zones, have taught me resilience, discipline, and the value of diverse perspectives. <br><br>As I prepare for this next chapter, my deferred admission to the MIR program at <span class='font-bold'>Victoria University of Wellington</span> reflects my commitment to learning and global collaboration. Guided by values of compassion, transparency, and ethical leadership, I&apos;m ready to contribute to policies that make the world safer and more united."
+ },
+ {
+  name: 'Dhaval Sahija',
+  org: 'GGI Executive, 2025<br>',
+  image: '/dhaval.jpg',
+  review: "I am a <span class='font-bold'>Business Development Manager based in Dallas, USA</span> passionate about transforming businesses with innovative and cutting edge digital solutions. With expertise in Technology Consulting, I focus upon providing solutions around Digital Transformation, Data Analytics, AI and Industrial IOT.<br/><br/> I bridge the gap between goals of Business teams, capabilities of technology and at the same time keeping a broader budget in mind to bring value based transformation that creates impacts in Sales, operations, engineering and IT Functions.<br/><br/> Broader challenge in current Market is that Management Consultants are able to address to question of 'Why'; however businesses are looking for answer to 'How'; so <span class='font-bold'>as a GGI Executive Program Scholar; I have been able to, and continue to deepen my knowledge in Management Consulting & Public Policy and bridge the gap between 'Why' and 'How'</span> "
+},
+   {
+   name: 'Prasenjit Waghmare',
+   org: 'GGI Executive, 2025<br>',
+   image: '/parsen.jpg',
+   review: "My name is Prasenjit Waghmare, and I bring over 14 years of experience in the aviation industry. I studied Aircraft Maintenance Engineering at The Bombay Flying Club, a rigorous 3.5-year professional program, and hold a Bachelor&apos;s in Business Administration from Sikkim Manipal University. <br> <br> My career has taken me across India, Qatar, and the UAE, and I currently work as an aircraft maintenance professional for a Dubai-based airline. While my technical expertise has been fulfilling, I&apos;ve reached a point where my work feels monotonous, and I&apos;m eager to explore other dimensions of business like strategy, operations, and finance. <br><br>This curiosity led me to GGI, where the unique pedagogical approach aligns perfectly with my goal of gaining holistic business insights and preparing for the dynamic job market. I aspire to pivot into consulting, ideally within boutique firms catering to aviation. <span class='font-bold'>GGI&apos;s training has refined my leadership and strategic thinking skills,</span> positioning me to achieve my long-term ambition of becoming a Partner at a Big 4 or MBB firm, focusing on aviation, energy, or sustainability."
+ },
+
+];
