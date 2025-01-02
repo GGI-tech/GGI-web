@@ -16,6 +16,14 @@ const data1 = [
         "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br><br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br><br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br><br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
     },
     {
+        "id": 100,
+        "title": "Tushar Gopalka",
+        "url": "https://www.linkedin.com/in/tushar-gopalka-06591757/",
+        "org": "Boston Consulting Group",
+        "img": "/tushar_gopal.jpg",
+        "text": "Shortly after GGI, I got an offer from Boston Consulting Group (BCG) <br/><br/> Hi, I am Tushar Gopalka, a GGI Fellow from the 2024 cohort. <br/> <br/>GGI came into my life when I was looking to refine my #problemsolving skills and prepare for high-stakes interviews. <br/> <br/>Honestly, joining GGI was a pivotal decision for me. It offered access to an incredible network of peers and mentors who pushed me to be my best. <br/><br/>One memorable moment was an office hour with Shatakshi just 12 hours before my BCG first-round interview. Her honest and constructive feedback helped me completely restructure my fit interview, and it made all the difference I got selected! <br/><br/>Beyond the network, the programs like Startup Weekend were transformative. They gave me the confidence to consider launching my own venture, something I never imagined I could do a year ago. <br/><br/> GGI also taught me the importance of structured communication and preparation. For instance, practicing on tools like Schrodinger well in advance gave me a clear edge during BCG’s first-round case board interview."
+    },
+    {
         "id": 2,
         "title": "SAIYAM HOTA",
         "url": "https://www.linkedin.com/in/saiyam-hota-5a5a9680/",
@@ -586,7 +594,7 @@ const Card = ({ title, url, org, img, text }) => {
                             />
                         </div>
                         <a href={url} rel="noreferrer noopener" target="_blank">
-                            <p className='my-2 font-bold text-gray-900 dark:text-white hover:cursor-pointer hover:text-blue-800' dangerouslySetInnerHTML={{ __html: title }}></p>
+                            <p className='my-2 font-bold text-gray-900 dark:text-black hover:cursor-pointer hover:text-blue-800' dangerouslySetInnerHTML={{ __html: title }}></p>
                         </a>
                         <p className='text-center primary max-w-[200px]' dangerouslySetInnerHTML={{ __html: org }}></p>
 
