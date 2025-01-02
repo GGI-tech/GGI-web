@@ -14,6 +14,7 @@ import Image from "next/image"
 import Gallery from '../global/Gallery';
 import OfficialPartners from '../global/OfficialPartners';
 import Button from '../global/Button';
+import { testimonialMain3 } from '../../data/mainpgData';
 
 const Executive = () => {
     return (
@@ -71,8 +72,9 @@ const Executive = () => {
             </Container>
             <Steps data={stages} />
             <Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
-
-            <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
+            <Heading>Meet our latest additions to GGI Executives 2025</Heading >
+            <Slider slides={testimonialMain3} />
+            {/* <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
               
                 <div className="flex items-center  ">
@@ -84,7 +86,7 @@ const Executive = () => {
                         <Image src="/new_com3.jpg" alt="" layout="fill" objectFit="cover" />                    </div>
                 </div>
                 
-            </div>
+            </div> */}
 
 
             <Heading>We prepare and propel leaders to achieve the next elevation—for their organizations and for themselves.</Heading>
