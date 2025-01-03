@@ -1,6 +1,6 @@
 import network from '../public/image51a.png'
 import clinton from '../public/clintonreplace.png'
-import arunm from '../public/Janmejaya-Sinha (2).png'
+import arunm from '../public/puneet.jpg'
 import image18 from '../public/image50a.png'
 // -------------------------------------------------------------
 
@@ -14,8 +14,16 @@ import civil from '../public/civil.jpg';
 import UN from '../public/UN.jpg';
 import Worldbank from '../public/Worldbank.jpg';
 import gov from '../public/gov.jpg';
+import BCG from '../public/bcg.png';
+import mckinsey from '../public/mckinsey.png';
+import bain from '../public/bain-logo.jpg';
+import kearney from '../public/Kearney.jpg';
+import ey from '../public/ey.png';
+import pwc from '../public/pwc.jpg';
+import amz from '../public/amz.jpg';
+import paytm from '../public/paytm.png';
 
-export const companies = [ dalberg, Worldbank, fsg, UN, gov,bridgespan, civil,gdi, nudge,central];
+export const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
 
 export const fourcolumndata = [ //to be fetched from database
     {
@@ -48,11 +56,11 @@ export const stages = [
     {
         "id": 0,
         "ques": "STAGE 1 - Adept with MBA and Tech Fundamental Toolkit",
-        "ans": [`<p class='mb-4'>Today research and technology-oriented management is a critical component of sound decision-making in the world where Technology and Management intersect, to navigate amidst the breadth of knowledge is what creates a great Tech-MBA thinker and a leader. GGI prepares Tech-MBA Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including management, macroeconomics, python, emerging technologies such as Machine Learning, Artificial Intelligence, public market failures, liberal arts, python, financial inclusion, sustainability, responsible investing, product management, ethics, energy, climate impact, and core Tech+MBA perspectives - Via GGI&#39;s <span class='font-bold'>trademarked Masterclasses.</span>  </p>
-            `, ` <p class='mb-4'>In this stage, GGI&#39;s Tech-MBA scholars will attend the 100 hours of Masterclasses in order for the scholars to interact with key government leaders, technocrats and practitioners, tech MBA scholars will also be provided unlimited exclusive access to renowned Guest Speakers Masterclasses.  </p>
-            <p class='mb-4'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of consulting firms, Tech leaders and practitioners, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Tech MBA Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
+        "ans": [`<p class='mb-4'>Today research and technology-oriented management is a critical component of sound decision-making in the world where Technology and Management intersect, to navigate amidst the breadth of knowledge is what creates a great Tech-MBA thinker and a leader. GGI prepares Tech-MBA Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including management, macroeconomics, python, emerging technologies such as Machine Learning, Artificial Intelligence, business analysis, public market failures, liberal arts, python, financial inclusion, sustainability, responsible investing, product management, ethics, energy, climate impact, and core Tech+MBA perspectives - Via GGI&#39;s <span class='font-bold'>trademarked Masterclasses.</span>  </p>
+            `, ` <p class='mb-4'>In this stage, GGI&#39;s Tech-MBA scholars will attend the 90 hours of Masterclasses in order for the scholars to interact with key business leaders, technocrats and practitioners, tech MBA scholars will also be provided unlimited exclusive access to renowned Guest Speakers Masterclasses.  </p>
+            <p class='mb-4'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of management firms, Tech leaders and Business Owners, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Tech MBA Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
             <p class='mb-4'>
-            The <span class='font-bold'>Management Consulting and The Liberal Arts Masterclass</span> will teach the core Management, Economics, Statistics Principles in 20 hours, allowing young professionals to apply an advanced toolkit to contemporary Management challenges. and these principles will be applied across Masterclasses in impact investing, etc. The Machine Learning and Artificial Intelligence Masterclass will teach core of Supervised/Unsupervised learnings, Human AI collaboration, ANN, CNN , Reinforcement learning etc.  For the deferred Tech MPPs - this stage will ensure that you have touched the basics of the core term curriculum before the start of your MPP Program - completion of this stage will save time to effectively engage in networking events during your MPP. For the working professionals, this will stage allow you to pivot in the world of public Management solve problems with contextual intelligence and technological fundamentals from across the sectors in your day job.
+            The <span class='font-bold'>Management Consulting and The Liberal Arts Masterclass</span> will teach the core Management, Economics, Statistics Principles in 20 hours, allowing young professionals to apply an advanced toolkit to contemporary Management challenges using Technology and AI. and these principles will be applied across Masterclasses in impact investing, etc. The Machine Learning and Artificial Intelligence Masterclass will teach core of Supervised/Unsupervised learnings, Human AI collaboration, ANN, CNN , Reinforcement learning etc.  For the deferred Tech MBAs - this stage will ensure that you have touched the basics of the core term curriculum before the start of your MBA Program - completion of this stage will save time to effectively engage in networking events during your MBA. For the working professionals, this will stage allow you to pivot in the world of public Management solve problems with contextual intelligence and technological fundamentals from across the sectors in your day job.
 </p>`]
     },
     {
@@ -147,7 +155,7 @@ export const curriculum=[
         "description":"Program length, flexible upon your needs and availability"
     },
     {
-        "title":"100+ Hours of Tech and MBA Masterclasses",
+        "title":"90+ Hours of Tech and MBA Masterclasses",
         "description":"Over 9 weekends, based on your availability "
     },
     {
