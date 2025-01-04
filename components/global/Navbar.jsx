@@ -105,8 +105,8 @@ const Navbar = ({applicationbanner}) => {
                     Tech Policy Scolars
                   </li>
                 </Link>*/}
-                <a href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                    Tech Policy
+                <a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                    Tech MBA
                   </a>
 
                 {/*<Link href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank">
@@ -131,6 +131,9 @@ const Navbar = ({applicationbanner}) => {
                 </Link>
                 <Link href='/impact-fellowship'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Impact Fellowship</a>
+                </Link>
+                <Link href='/ggipolicyscholarsprogram'>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
                 </Link>
                 <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
                         Feynman AI Fellowship
@@ -248,8 +251,8 @@ const Navbar = ({applicationbanner}) => {
                   <Link prefetch={false} href='/impact-fellowship' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
                   </Link>
-                  <a href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
-                    Tech Policy
+                  <a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
+                    Tech MBA
                   </a>
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN FELLOWSHIP
@@ -268,6 +271,9 @@ const Navbar = ({applicationbanner}) => {
                   <Link prefetch={false} href='/impact-fellowship'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">IMPACT FELLOWSHIP</a>
                   </Link>
+                  <Link href='/ggipolicyscholarsprogram'>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
+                </Link>
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN AI FELLOWSHIP
                   </a>
