@@ -34,6 +34,12 @@ const Associations = () => {
     return (
         <div className='px-3 mx-auto md:w-3/4 gap-5 flex flex-row justify-around'>
             <div className="w-32 h-32 relative">
+                <Image src={ongc} alt="ongc" layout="fill" objectFit="contain" />
+            </div>
+            <div className="w-32 h-32 relative">
+                <Image src={goa} alt="goa" layout="fill" objectFit="contain" />
+            </div>
+            <div className="w-32 h-32 relative">
                 <Image src={ceibs} alt="ceibs" layout="fill" objectFit="contain" />
             </div>
             <div className="w-32 h-32 relative">
@@ -41,12 +47,6 @@ const Associations = () => {
             </div>
             <div className="w-32 h-32 relative">
                 <Image src={un} alt="un" layout="fill" objectFit="contain" />
-            </div>
-            <div className="w-32 h-32 relative">
-                <Image src={goa} alt="goa" layout="fill" objectFit="contain" />
-            </div>
-            <div className="w-32 h-32 relative">
-                <Image src={ongc} alt="ongc" layout="fill" objectFit="contain" />
             </div>
         </div>
     );
