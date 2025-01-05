@@ -39,6 +39,9 @@ const Executive = () => {
                 <p className="mb-7"> When you join us at the Global Governance Initiative Executive, you bring your unique professional experience and ambitions. And while your path forward is uniquely yours, we’ll provide the unparalleled tools, resources, and networks to not just help you reach your goals, but to empower you to redefine them.</p>
             </Container>
             <YoutubeEmbed embedId="BndV70SfOZE" autoplay={1} />
+
+            <Heading>Meet our latest additions to GGI Executives 2025</Heading >
+            <Slider slides={testimonialMain3} />
             
             <Heading>Who is this Program for?</Heading>
             <Container>
@@ -72,8 +75,7 @@ const Executive = () => {
             </Container>
             <Steps data={stages} />
             <Button page="executive" url="https://forms.gle/hr8ZBPLBrareNndBA"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
-            <Heading>Meet our latest additions to GGI Executives 2025</Heading >
-            <Slider slides={testimonialMain3} />
+            
             {/* <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
               
