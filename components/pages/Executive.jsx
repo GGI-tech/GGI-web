@@ -1,5 +1,5 @@
 import Accordion from "../global/Accordian"
-import Footer from "../global/Footer"
+import Footer from "../global/Footer" 
 import SlidingHero from "../global/SlidingHero"
 import Heading from "../global/Heading"
 import Container from "../global/Container"
