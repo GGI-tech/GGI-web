@@ -129,11 +129,11 @@ const Navbar = ({applicationbanner}) => {
                 <Link href='/ggi-scholars'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MBA</a>
                 </Link>
-                <Link href='/impact-fellowship'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Impact Fellowship</a>
-                </Link>
                 <Link href='/ggipolicyscholarsprogram'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
+                </Link>
+                <Link href='/impact-fellowship'>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Impact Fellowship</a>
                 </Link>
                 <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
                         Feynman AI Fellowship
@@ -268,12 +268,12 @@ const Navbar = ({applicationbanner}) => {
                   <Link prefetch={false} href='/ggi-scholars'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MBA</a>
                   </Link>
-                  <Link prefetch={false} href='/impact-fellowship'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">IMPACT FELLOWSHIP</a>
-                  </Link>
                   <Link href='/ggipolicyscholarsprogram'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
                 </Link>
+                  <Link prefetch={false} href='/impact-fellowship'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">IMPACT FELLOWSHIP</a>
+                  </Link>
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN AI FELLOWSHIP
                   </a>
