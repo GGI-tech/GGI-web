@@ -4,7 +4,7 @@ import Head from "next/head"
 
 
 const curiefellowship = () => {
-
+ 
   return (
     <>
       <Head>
