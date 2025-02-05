@@ -49,7 +49,8 @@ const TechMBA = () => {
 
                 <p>2. You are a non-MBA looking to pivot in Tech & Management roles in firms such as<span className='primary font-bold'> Uber, Amazon, Microsoft, & leading tech startups.</span></p><br />
                 <p>3. You are a <span className='primary font-bold'>Pre-MBA </span>with admits to Harvard Kennedy 2+2, Yale Silver Scholars, and other top MBAs and looking to finish the <span className='primary font-bold'>business curriculum with an AI focus, </span> before your program.</p><br />
-                <p>4. You are a <span className='primary font-bold'>budding social impact entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen tech skills while building an incredible support system.</p>
+                <p>4. You are a <span className='primary font-bold'>tech professional</span> who loves tech but wants to pivot into <span className='primary font-bold'>leadership roles.</span></p>
+                <p>5. You are a <span className='primary font-bold'>budding social impact entrepreneur</span> who is aiming to launch & scale ventures and looking to strengthen tech skills while building an incredible support system.</p>
 
             </Container>
             <YoutubeEmbed embedId='iuNMaVSwH0E' autoplay={1}/>
