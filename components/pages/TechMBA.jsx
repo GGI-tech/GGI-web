@@ -17,7 +17,7 @@ import { companies, fourcolumndata, stages, testimonialPolicy, curriculum } from
 
 const TechMBA = () => {
 
-    return (
+    return ( 
         <>
             <SlidingHero image={'./24935508850.jpg'} title={[`Join us where Technology meets Business<br class='hidden md:block'/> at<span class="text-yellow-200"> GGI Tech-MBA Scholars Program: An AI Focused MBA</span><br class='hidden md:block'/> to Become a Tech-Business Leader `, `<span class="text-yellow-200">GGI Tech-MBA Scholar</span><br/> seeks solutions - from technology to AI along with business leaders  `]} />
 
