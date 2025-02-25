@@ -105,9 +105,9 @@ const Navbar = ({applicationbanner}) => {
                     Tech Policy Scolars
                   </li>
                 </Link>*/}
-                <a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                {/* <a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
                     Tech MBA
-                  </a>
+                  </a>*/}
 
                 {/*<Link href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
@@ -142,7 +142,7 @@ const Navbar = ({applicationbanner}) => {
             </span>
           </li>
 
-          <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
+          {/* <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
             <span className="group relative inline-block">
               <button className="inline-flex items-center rounded font-semibold ">FOR SENIOR EXECUTIVES</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
@@ -151,7 +151,7 @@ const Navbar = ({applicationbanner}) => {
                 </Link>
               </ul>
             </span>
-          </li>
+          </li> */}
 
 
 
@@ -251,9 +251,9 @@ const Navbar = ({applicationbanner}) => {
                   <Link prefetch={false} href='/impact-fellowship' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
                   </Link>
-                  <a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
+                  { /*<a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     Tech MBA
-                  </a>
+                  </a> */}
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN FELLOWSHIP
                   </a>
@@ -280,7 +280,7 @@ const Navbar = ({applicationbanner}) => {
                 </ul>
               )}
             </li>
-            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
+            {/*<li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
               <button className="inline-flex items-center rounded font-semibold">FOR SENIOR EXECUTIVES</button>
               {dropdownCollege && (
                 <ul className="pt-1 bg-black text-white font-medium">
@@ -289,7 +289,7 @@ const Navbar = ({applicationbanner}) => {
                   </Link>
                 </ul>
               )}
-            </li>
+            </li> */}
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>Employment Report</Link>
             </li>
