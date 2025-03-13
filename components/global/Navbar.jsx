@@ -14,14 +14,16 @@ const Navbar = ({applicationbanner}) => {
 
   const [dropdownWorking, setDropdownWorking] = useState(false);
   const [dropdownCollege, setDropdownCollege] = useState(false);
-  const [dropdownExecutive, setDropdownExecutive] = useState(false);
+  const [dropdownMom, setDropdownMom] = useState(false);
+  const [dropdownExplore, setDropdownExplore] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
 
   const toggleDropdownWorking = () => setDropdownWorking(!dropdownWorking);
   const toggleDropdownCollege = () => setDropdownCollege(!dropdownCollege);
-  const toggleDropdownExecutive = () => setDropdownExecutive(!dropdownExecutive);
+  const toggleDropdownMom = () => setDropdownMom(!dropdownMom);
+  const toggleDropdownExplore = () => setDropdownExplore(!dropdownExplore);
 
   // useEffect(() => {
   //   const changeColor = () => {
@@ -257,13 +259,13 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold">FOR WORKING PROFESSIONALS</button>
               {dropdownWorking && (
                 <ul className="pt-1 bg-black text-white font-medium">
-                  <Link prefetch={false} href='/ggi-scholars' target="_blank">
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">MBA</a>
                   </Link>
-                  <Link prefetch={false} href='/ggipolicyscholarsprogram' target="_blank">
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">POLICY</a>
                   </Link>
-                  <Link prefetch={false} href='/impact-fellowship' target="_blank">
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
                   </Link>
                   { /*<a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
@@ -280,16 +282,16 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-semibold">FOR COLLEGE STUDENTS</button>
               {dropdownCollege && (
                 <ul className="pt-1 bg-black text-white font-medium">
-                  <Link prefetch={false} href='/ggi-scholars'>
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MBA</a>
                   </Link>
-                  <Link prefetch={false} href='/ggipolicyscholarsprogram'>
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MPP</a>
                   </Link>
                   {/*<Link href='/ggipolicyscholarsprogram'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
                 </Link>*/}
-                  <Link prefetch={false} href='/impact-fellowship'>
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">IMPACT FELLOWSHIP</a>
                   </Link>
                   {/*<a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
@@ -298,9 +300,9 @@ const Navbar = ({applicationbanner}) => {
                 </ul>
               )}
             </li>
-            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
+            <li onClick={toggleDropdownMom} className='p-4 cursor-pointer'>
               <button className="inline-flex items-center rounded font-semibold">FOR MOMS</button>
-              {dropdownCollege && (
+              {dropdownMom && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.thirdspace.org.in/curiefellowship'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">CURIE FELLOWSHIP</a>
@@ -311,9 +313,9 @@ const Navbar = ({applicationbanner}) => {
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>Employment Report</Link>
             </li>
-            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
+            <li onClick={toggleDropdownExplore} className='p-4 cursor-pointer'>
               <button className="inline-flex items-center rounded font-semibold">EXPLORE</button>
-              {dropdownCollege && (
+              {dropdownExplore && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.schrodingerbyggi.org/'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Free Series</a>
@@ -324,7 +326,7 @@ const Navbar = ({applicationbanner}) => {
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/mission'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Mission</a>
                   </Link>
-                  <Link prefetch={false} href='/careers'>
+                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/careers'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Careers</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/under-30-2024'>
