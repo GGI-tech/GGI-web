@@ -1,4 +1,4 @@
-import network from '../public/techcom.png' 
+import network from '../public/techcom.png'
 import clinton from '../public/techm.jpg'
 import puneet from '../public/puneet.jpg'
 import BCG from '../public/bcg-g.jpg';
