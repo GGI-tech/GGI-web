@@ -142,6 +142,21 @@ const Navbar = ({applicationbanner}) => {
             </span>
           </li>
 
+          <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
+            <span className="group relative inline-block">
+              <button className="inline-flex items-center rounded font-semibold ">FOR MOMS</button>
+              <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
+                <Link href='https://www.thirdspace.org.in/curiefellowship'>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Curie Fellowship</a>
+                </Link>
+               
+                {/*<a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                        Feynman AI Fellowship
+                  </a>*/}
+              </ul>
+            </span>
+          </li>
+
           {/* <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
             <span className="group relative inline-block">
               <button className="inline-flex items-center rounded font-semibold ">FOR SENIOR EXECUTIVES</button>
@@ -280,16 +295,16 @@ const Navbar = ({applicationbanner}) => {
                 </ul>
               )}
             </li>
-            {/*<li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
-              <button className="inline-flex items-center rounded font-semibold">FOR SENIOR EXECUTIVES</button>
+            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
+              <button className="inline-flex items-center rounded font-semibold">FOR MOMS</button>
               {dropdownCollege && (
                 <ul className="pt-1 bg-black text-white font-medium">
-                  <Link prefetch={false} href='/ggi-scholars'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">EXECUTIVE MBA</a>
+                  <Link prefetch={false} href='https://www.thirdspace.org.in/curiefellowship'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">CURIE FELLOWSHIP</a>
                   </Link>
                 </ul>
               )}
-            </li> */}
+            </li> 
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
               <Link prefetch={false} href='/reviews'>Employment Report</Link>
             </li>
