@@ -283,9 +283,12 @@ const Navbar = ({applicationbanner}) => {
                   <Link prefetch={false} href='/ggi-scholars'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MBA</a>
                   </Link>
-                  <Link href='/ggipolicyscholarsprogram'>
+                  <Link prefetch={false} href='/ggipolicyscholarsprogram'>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MPP</a>
+                  </Link>
+                  {/*<Link href='/ggipolicyscholarsprogram'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
-                </Link>
+                </Link>*/}
                   <Link prefetch={false} href='/impact-fellowship'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">IMPACT FELLOWSHIP</a>
                   </Link>
