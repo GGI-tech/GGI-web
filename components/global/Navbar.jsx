@@ -260,18 +260,18 @@ const Navbar = ({applicationbanner}) => {
               {dropdownWorking && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">MBA</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>MBA</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">POLICY</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>POLICY</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">FELLOWSHIP</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>FELLOWSHIP</a>
                   </Link>
                   { /*<a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     Tech MBA
                   </a> */}
-                  <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
+                  <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
                     FEYNMAN FELLOWSHIP
                   </a>
                 </ul>
@@ -283,16 +283,16 @@ const Navbar = ({applicationbanner}) => {
               {dropdownCollege && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MBA</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >PRE-MBA</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">PRE-MPP</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >PRE-MPP</a>
                   </Link>
                   {/*<Link href='/ggipolicyscholarsprogram'>
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
                 </Link>*/}
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">IMPACT FELLOWSHIP</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >IMPACT FELLOWSHIP</a>
                   </Link>
                   {/*<a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     FEYNMAN AI FELLOWSHIP
@@ -305,7 +305,7 @@ const Navbar = ({applicationbanner}) => {
               {dropdownMom && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.thirdspace.org.in/curiefellowship'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">CURIE FELLOWSHIP</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >CURIE FELLOWSHIP</a>
                   </Link>
                 </ul>
               )}
@@ -318,19 +318,19 @@ const Navbar = ({applicationbanner}) => {
               {dropdownExplore && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.schrodingerbyggi.org/'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Free Series</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Free Series</a>
                   </Link>
                   <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Blogs & Research</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Blogs & Research</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/mission'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Mission</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Mission</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/careers'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">Careers</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Careers</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/under-30-2024'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">GGI Awardees</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >GGI Awardees</a>
                   </Link>
                 </ul>
               )}
