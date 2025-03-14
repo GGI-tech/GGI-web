@@ -49,6 +49,12 @@ export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, W
 export const testimonialMain = [
   
   {
+    name: 'Darshita Devnani',
+    org: 'GGI Fellow, 2021<br> Asian Development Bank (ADB) (Post GGI Impact Fellowship Program)',
+    image: '/darshita2.jpg',
+    review: "After GGI, I got an opportunity to work with <span class='font-bold'>Asian Development Bank (ADB) , focusing on economic research and development impact.</span> <br/><br/>Hi, I am Darshita, a GGI Fellow from the 2021 cohort. <br/><br/>GGI came into my life when I was working with EY but realized that audit was not my forte or long-term career. <br/><br/>This became my biggest motivation to join the GGI Impact Fellowship. There, my journey started. <span class='font-bold'>I was able to learn so much about #impactconsulting and management consulting, and I met so many people who helped me build my career in this space.</span> <br/><br/>I truly learned the art of networking and connected with individuals who had been there and done that. I attended all the masterclasses diligently, interacted with speakers, and engaged with those who taught live cases. It&apos;s been almost four years since I&apos;ve been associated with GGI, and the experience has been transformative."
+  },
+  {
     name: 'ANAMITRA MUNSI',
     org: 'GGI MBA Scholar, 2021<br> ISB Hyderabad (Post GGI Pre-MBA Scholars Program)',
     image: '/ana.jpg',

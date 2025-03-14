@@ -8,12 +8,12 @@ import Footer from '../global/Footer'
 // import Container from '../global/Container'
 const data1 = [
     {
-        "id": 1,
-        "title": "KARAN DAVID",
-        "url": "https://www.linkedin.com/in/karandavid/",
-        "org": "BAIN & COMPANY",
-        "img": "/karan.jpg",
-        "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br><br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br><br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br><br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
+        "id": 345,
+        "title": "Darshita Devnani",
+        "url": "https://www.linkedin.com/in/darshitadevnani/",
+        "org": "Asian Development Bank (ADB)",
+        "img": "/darshita2.jpg",
+        "text": "After GGI, I got an opportunity to work with <span class='font-bold'>Asian Development Bank (ADB) , focusing on economic research and development impact.</span> <br/><br/>Hi, I am Darshita, a GGI Fellow from the 2021 cohort. <br/><br/>GGI came into my life when I was working with EY but realized that audit was not my forte or long-term career. <br/><br/>This became my biggest motivation to join the GGI Impact Fellowship. There, my journey started. <span class='font-bold'>I was able to learn so much about #impactconsulting and management consulting, and I met so many people who helped me build my career in this space.</span> <br/><br/>I truly learned the art of networking and connected with individuals who had been there and done that. I attended all the masterclasses diligently, interacted with speakers, and engaged with those who taught live cases. It&apos;s been almost four years since I&apos;ve been associated with GGI, and the experience has been transformative."
     },
     {
         "id": 100,
@@ -24,13 +24,14 @@ const data1 = [
         "text": "Shortly after GGI, I got an offer from Boston Consulting Group (BCG) <br/><br/> Hi, I am Tushar Gopalka, a GGI Fellow from the 2024 cohort. <br/> <br/>GGI came into my life when I was looking to refine my #problemsolving skills and prepare for high-stakes interviews. <br/> <br/>Honestly, joining GGI was a pivotal decision for me. It offered access to an incredible network of peers and mentors who pushed me to be my best. <br/><br/>One memorable moment was an office hour with Shatakshi just 12 hours before my BCG first-round interview. Her honest and constructive feedback helped me completely restructure my fit interview, and it made all the difference I got selected! <br/><br/>Beyond the network, the programs like Startup Weekend were transformative. They gave me the confidence to consider launching my own venture, something I never imagined I could do a year ago. <br/><br/> GGI also taught me the importance of structured communication and preparation. For instance, practicing on tools like Schrodinger well in advance gave me a clear edge during BCG’s first-round case board interview."
     },
     {
-        "id": 2,
-        "title": "SAIYAM HOTA",
-        "url": "https://www.linkedin.com/in/saiyam-hota-5a5a9680/",
-        "org": " BAIN & COMPANY",
-        "img": "/sayam.jpg",
-        "text": "After GGI, I will join Bain & Company. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds.<br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
+        "id": 1,
+        "title": "KARAN DAVID",
+        "url": "https://www.linkedin.com/in/karandavid/",
+        "org": "BAIN & COMPANY",
+        "img": "/karan.jpg",
+        "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br><br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br><br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br><br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
     },
+    
     {
         "id": 3,
         "title": `Averi Chakraborty`,
@@ -40,14 +41,13 @@ const data1 = [
         "text": " Hi, Naman and Shatakshi hope you both are doing fine :)&nbsp;</p><p><br>Have really been enjoying your posts on LinkedIn and Instagram, a big shoutout for that.</p><p><br>Also, wanted to inform you that I would be joining BCG the coming month and this probably would not have been possible without GGI by my side. Thanks for building this community :) "
     },
     {
-        "id": 4,
-        "title": "ANAMITRA MUNSI",
-        "url": "https://www.linkedin.com/in/anamitra-munsi/",
-        "org": "BOSTON CONSULTING GROUP",
-        "img": "/ana.jpg",
-        "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
+        "id": 2,
+        "title": "SAIYAM HOTA",
+        "url": "https://www.linkedin.com/in/saiyam-hota-5a5a9680/",
+        "org": " BAIN & COMPANY",
+        "img": "/sayam.jpg",
+        "text": "After GGI, I will join Bain & Company. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds.<br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
     },
-
 
     {
         "id": 35,
@@ -73,6 +73,15 @@ const data1 = [
 
     Because the program has been built with a lot of trust, rigor and processes by the founders and mentors.`
     },
+    {
+        "id": 4,
+        "title": "ANAMITRA MUNSI",
+        "url": "https://www.linkedin.com/in/anamitra-munsi/",
+        "org": "BOSTON CONSULTING GROUP",
+        "img": "/ana.jpg",
+        "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
+    },
+
     {
         "id": 5,
         "title": `Simar Sethi `,
