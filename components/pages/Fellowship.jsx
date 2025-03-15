@@ -75,7 +75,7 @@ const Fellowship = () => {
 </span></p>
 
             </Container>
-            <YoutubeEmbed embedId='0XC2VXBF29g' autoplay={1} />
+            <YoutubeEmbed embedId='9J-rLUjhb-E' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
 
