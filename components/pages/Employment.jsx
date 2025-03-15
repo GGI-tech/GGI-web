@@ -113,7 +113,7 @@ const data1 = [
         "title": `Manvi Sherawat`,
         "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
         "org": "Chase India",
-        "img": "/MANICKAM.jfif",
+        "img": "/manvi.jpg",
         "text": `Shortly after GGI, I’d be joining Chase India in policy strategy role.<br><br>&ldquo;Hi, I am Manvi.<br><br>
 
         I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce. <br><br>
@@ -276,7 +276,7 @@ const data1 = [
         "title": "Suvidha Jani",
         "url": "https://www.linkedin.com/in/suvidha-jani/",
         "org": "Michael & Susan Dell Foundation",
-        "img": "/suvidha.jfif",
+        "img": "/suvidha.jpeg",
         "text": `At GGI, I joined Michael & Susan Dell Foundation.<br><br>
         
         &ldquo;Hi, I am Suvidha Jani.
