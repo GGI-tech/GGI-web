@@ -660,10 +660,10 @@ const Cardx = ({ title, img, text }) => {
 const Employment = () => {
     return (
         <>
-            <Hero image={"/reviews.jpeg"} altText="Careers"/>
-            <div className='primary text-3xl md:text-4xl mt-[10vw] text-center  mb-12 font-serif font-bold' >LIFE AFTER GGI</div>
-            <p className='text-center md:text-lg text-black font-serif my-12'>GGIIANS GET SO MANY JOBS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p>
-            <YouTubeEmbed embedId='1Ak6KiRi5eE' />
+            {/* <Hero image={"/reviews.jpeg"} altText="Careers"/> */}
+            <div className='primary text-3xl md:text-4xl mt-[10vw] text-center  mb-12 font-serif font-bold' >GGI ALUMNI SPOTLIGHT</div>
+            <p className='text-center md:text-lg text-black font-serif my-12'>GGIIANS THRIVE SO MUCH IN THEIR CAREERS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p>
+            {/* <YouTubeEmbed embedId='1Ak6KiRi5eE' /> */}
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(0, 4).map((e, index) => {
