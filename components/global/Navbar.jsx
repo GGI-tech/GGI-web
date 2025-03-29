@@ -91,7 +91,7 @@ const Navbar = ({applicationbanner}) => {
           */}
           <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
             <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold ">FOR WORKING PROFESSIONALS</button>
+              <button className="inline-flex items-center rounded font-semibold ">OUR PROGRAMS</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href='/ggi-scholars' target="_blank">
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">MBA</a>
@@ -100,7 +100,7 @@ const Navbar = ({applicationbanner}) => {
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Policy</a>
                 </Link>
                 <Link href='/impact-fellowship' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Fellowship</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Impact Fellowship</a>
                 </Link>
                 {/*<Link href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
@@ -118,77 +118,47 @@ const Navbar = ({applicationbanner}) => {
                 </Link>*/}
 
                 <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                        Feynman Fellowship
+                        Feynman AI Fellowship
+                      </a>
+                      <a href='https://www.thirdspace.org.in/curiefellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                        Curie Fellowship: For Mothers
                       </a>
               </ul>
             </span>
           </li>
 
-          <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
-            <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold ">FOR COLLEGE STUDENTS</button>
-              <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
-                <Link href='/ggi-scholars'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MBA</a>
-                </Link>
-                <Link href='/ggipolicyscholarsprogram'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
-                </Link>
-                <Link href='/impact-fellowship'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Impact Fellowship</a>
-                </Link>
-                {/*<a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                        Feynman AI Fellowship
-                  </a>*/}
-              </ul>
-            </span>
+
+          <a href="https://www.globalgovernanceinitiative.org/life-at-ggi" target="_blank" rel="noopener noreferrer">
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+            GGI EXPERIENCE
           </li>
+        </a>
 
-          <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
-            <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold ">FOR MOMS</button>
-              <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
-                <Link href='https://www.thirdspace.org.in/curiefellowship'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Curie Fellowship</a>
-                </Link>
-               
-                {/*<a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
-                        Feynman AI Fellowship
-                  </a>*/}
-              </ul>
-            </span>
+
+
+        <a href="https://www.councilonsustainabledevelopment.org/" target="_blank" rel="noopener noreferrer">
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+            RESEARCH
           </li>
+        </a>
 
-          {/* <li className='group relative inline-block p-4 cursor-pointer hover:text-black'>
-            <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold ">FOR SENIOR EXECUTIVES</button>
-              <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
-                <Link href='https://www.globalgovernanceinitiative.org/executivemanagement'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Executive MBA</a>
-                </Link>
-              </ul>
-            </span>
-          </li> */}
+        <a href="/reviews" target="_blank" rel="noopener noreferrer">
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+            ALUMNI
+          </li>
+        </a>
 
-
-
-          <Link re href='/reviews'>
-            <li className='p-4 cursor-pointer   hover:text-black hover:bg-slate-200'>
-              EMPLOYMENT REPORT
-            </li>
-          </Link>
+        <a href="https://www.globalgovernanceinitiative.org/mission" target="_blank" rel="noopener noreferrer">
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+            ABOUT
+          </li>
+        </a>
 
           <li className='group relative inline-block p-4 cursor-pointer   hover:text-black '>
             <span className="group relative inline-block">
               <button className="inline-flex items-center rounded font-semibold ">EXPLORE</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block">
                 <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-1 px-4 hover:bg-gray-400" >Free Series</div></Link>
-                <Link href='https://www.councilonsustainabledevelopment.org/'>
-                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Blogs & Research</a>
-                </Link>
-                <Link href='https://www.globalgovernanceinitiative.org/mission'>
-                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Mission</a>
-                </Link>
                 <Link href='/careers'>
                   <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Careers</a>
                 </Link>
@@ -256,7 +226,7 @@ const Navbar = ({applicationbanner}) => {
             </li>
             {/* Mobile dropdown for "For Working Professionals" */}
             <li onClick={toggleDropdownWorking} className='p-4 cursor-pointer'>
-              <button className="inline-flex items-center rounded font-semibold">FOR WORKING PROFESSIONALS</button>
+              <button className="inline-flex items-center rounded font-semibold">OUR PROGRAMS</button>
               {dropdownWorking && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars' target="_blank">
@@ -266,52 +236,32 @@ const Navbar = ({applicationbanner}) => {
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>POLICY</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>FELLOWSHIP</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>IMPACT FELLOWSHIP</a>
                   </Link>
                   { /*<a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     Tech MBA
                   </a> */}
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
-                    FEYNMAN FELLOWSHIP
+                    FEYNMAN AI FELLOWSHIP
+                  </a>
+                  <a href='https://www.thirdspace.org.in/curiefellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
+                    CURIE FELLOWSHIP: FOR MOTHERS
                   </a>
                 </ul>
               )}
             </li>
-            {/* Mobile dropdown for "For College Students" */}
-            <li onClick={toggleDropdownCollege} className='p-4 cursor-pointer'>
-              <button className="inline-flex items-center rounded font-semibold">FOR COLLEGE STUDENTS</button>
-              {dropdownCollege && (
-                <ul className="pt-1 bg-black text-white font-medium">
-                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >PRE-MBA</a>
-                  </Link>
-                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >PRE-MPP</a>
-                  </Link>
-                  {/*<Link href='/ggipolicyscholarsprogram'>
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">Pre-MPP</a>
-                </Link>*/}
-                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >IMPACT FELLOWSHIP</a>
-                  </Link>
-                  {/*<a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
-                    FEYNMAN AI FELLOWSHIP
-                  </a> */}
-                </ul>
-              )}
-            </li>
-            <li onClick={toggleDropdownMom} className='p-4 cursor-pointer'>
-              <button className="inline-flex items-center rounded font-semibold">FOR MOMS</button>
-              {dropdownMom && (
-                <ul className="pt-1 bg-black text-white font-medium">
-                  <Link prefetch={false} href='https://www.thirdspace.org.in/curiefellowship'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >CURIE FELLOWSHIP</a>
-                  </Link>
-                </ul>
-              )}
-            </li> 
+
             <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
-              <Link prefetch={false} href='/reviews'>Employment Report</Link>
+              <Link prefetch={false} href='/life-at-ggi'>GGI EXPERIENCE</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>RESEARCH</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link prefetch={false} href='/reviews'>ALUMNI</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 border-b hover:text-gray-500'>
+              <Link prefetch={false} href='/mission'>ABOUT</Link>
             </li>
             <li onClick={toggleDropdownExplore} className='p-4 cursor-pointer'>
               <button className="inline-flex items-center rounded font-semibold">EXPLORE</button>
@@ -319,12 +269,6 @@ const Navbar = ({applicationbanner}) => {
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.schrodingerbyggi.org/'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Free Series</a>
-                  </Link>
-                  <Link prefetch={false} href='https://www.councilonsustainabledevelopment.org/'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Blogs & Research</a>
-                  </Link>
-                  <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/mission'>
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Mission</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/careers'>
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav} >Careers</a>
