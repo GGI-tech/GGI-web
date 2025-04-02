@@ -242,7 +242,7 @@ export const curriculum = [
         "description": "Over 7  weekends, based on your availability "
     },
     {
-        "title": "95+ Employment Partners",
+        "title": "115+ Employment Partners",
         "description": "Who recruit from GGI peridocially"
     },
     {

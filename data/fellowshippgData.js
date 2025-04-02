@@ -160,7 +160,7 @@ export const curriculum=[
         "description":"A small group mentorship research project under "
     },
     {
-        "title":"95+ Employment Partners",
+        "title":"115+ Employment Partners",
         "description":"Which Hire GGI Fellows "
     },
     {
