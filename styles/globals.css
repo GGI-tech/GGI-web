@@ -3,7 +3,7 @@
 @tailwind utilities;  
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@900&display=swap');
-
+ 
 @font-face {
   font-family: Sofia;
   src: url('../fonts/SofiaSansExtraCondensed-Black.ttf');
