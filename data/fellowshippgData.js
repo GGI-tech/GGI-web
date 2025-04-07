@@ -82,7 +82,7 @@ export const testimonialFellow = [
         org: 'Meet Arpita G. GGI Fellow 2021.',
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6761913808798789632/",
         image: '/arpita.jpg',
-        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitt</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
+        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitte</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
     },
     {
         name: 'Sahil',

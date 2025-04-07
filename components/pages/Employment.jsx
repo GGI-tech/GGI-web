@@ -661,8 +661,19 @@ const Employment = () => {
     return (
         <>
             {/* <Hero image={"/reviews.jpeg"} altText="Careers"/> */}
-            <div className='primary text-3xl md:text-4xl mt-[10vw] text-center  mb-12 font-serif font-bold' >GGI ALUMNI SPOTLIGHT</div>
-            <p className='text-center md:text-lg text-black font-serif my-12'>GGIIANS THRIVE SO MUCH IN THEIR CAREERS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p>
+            {/* <div className='primary text-3xl md:text-4xl mt-[10vw] text-center  mb-12 font-serif font-bold' >GGI ALUMNI SPOTLIGHT</div>
+            <p className='text-center md:text-lg text-black font-serif my-12'>GGIIANS THRIVE SO MUCH IN THEIR CAREERS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p> */}
+            <div className="flex flex-col lg:flex-row items-center justify-center px-6 mt-20 mb-16 gap-8 max-w-7xl mx-auto">
+                <img src="/reviews.jpeg" alt="GGI Reviews" className="w-full max-w-md rounded-lg shadow-md" />
+                <div className="text-center lg:text-left max-w-xl">
+                    <h2 className="text-4xl md:text-5xl font-bold text-red-700 mb-6">
+                        GGI Alumni Spotlight
+                    </h2>
+                    <p className="text-lg text-gray-600">
+                        GGIians thrive so much in their careers, we had to create an entire page to celebrate them! :)
+                    </p>
+                </div>
+            </div>
             {/* <YouTubeEmbed embedId='1Ak6KiRi5eE' /> */}
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>

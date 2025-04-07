@@ -77,7 +77,7 @@ const MBA = () => {
 
             <Heading>A Liberal Refund Policy for You  </Heading>
             <Container>
-                <p className='text-lg'>Your learning is our top priority, and we aim to make this decision entirely risk-free for you, allowing you to focus solely on learning. We offer a no-questions-asked full refund of the enrollment fee for selected scholars and fellows until the first 6 days from the payment date. </p>
+                <p className='text-lg'>Your learning is our top priority, and we aim to make this decision entirely risk-free for you, allowing you to focus solely on learning. We offer a no-questions-asked 3-day full refund policy from your first live masterclass date. </p>
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
