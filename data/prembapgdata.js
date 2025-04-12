@@ -2,9 +2,11 @@ import network from '../public/network.jpg'
 import sb1 from '../public/sb1.png'
 import rjgupta from '../public/rajat_gupta.png'
 import palakr from '../public/palakr.png'
-import roi from '../public/roi.jpg'
+import roi from '../public/rproi.jpg'
 import swan from '../public/swan.jpg'
-import cas from '../public/case.png'
+import stress from '../public/stress.jpg'
+import cas from '../public/case2.jpg'
+import crisis from '../public/crisis.jpg'
 // -------------------------------------------------------
 import BCG from '../public/bcg.png';
 import mckinsey from '../public/mckinsey.png';
@@ -59,13 +61,13 @@ export const fourcolumndata2 = [
     },
     {
         "id": 3,
-        "img": network,
+        "img": stress,
         "title": "Stress Portfolio",
         "body": "Showcase your resilience through a recruiter-ready performance tracker."
     },
     {
         "id": 4,
-        "img": roi,
+        "img": crisis,
         "title": "Crisis Electives",
         "body": "Dive into geopolitical and financial shock simulations to master decision-making under fire."
     }
@@ -117,9 +119,9 @@ export const testimonialMBA = [
       },
       {
         name: 'Arpita',
-        org: 'GGI Impact Fellow',
+        org: 'INSEAD, MBA <br/>GGI Impact Fellow',
         image: '/arpita.jpg',
-        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitte</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
+        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitte</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P<br/><br/> <span class='font-bold'>The things I loved the most about GGI are the community, the people and just the power of a really strong network- how to build one, how to nurture one. I also loved the continued education and learning. Through GGI, I was exposed to a spectrum of topics, ranging from Tech Ethics to Liberal Arts to Policy Consulting and even Management Communications. <br/><br/>Through the course of Masterclasses and case-based learning, I understood the part of holistic and multidisciplinary learning to succeed in today's world and make an impact. <br/><br/> Last but not the least, I learned how to build a personal brand and how to stay true to yourself :)</span>"
       },
       {
         name: 'Oliviya Brar',
@@ -128,16 +130,10 @@ export const testimonialMBA = [
         review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitte</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
       },
       {
-        name: 'Ronak Agarwal',
-        org: 'McKinsey, Wharton MBA<br/><br/> GGI Impact Fellow',
-        image: '/ronakag.jpg',
-        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitte</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
-      },
-      {
         name: 'Deepa Das',
         org: 'Northwestern University- Kellogg School of Management <br/><br/> GGI Impact Scholar',
         image: '/deepa.jpg',
-        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitte</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
+        review: "<span class='font-bold'>Thrilled to share that I have started a full-time MBA program at Northwestern University- Kellogg School of Management, Evanston, Illinois<br/><br/>Respect Shatakshi Sharma and Global Governance Initiative for planting the seed of purpose in young Indian minds.</span>"
       },
     {
         name: 'ANAMITRA MUNSI',
@@ -150,6 +146,12 @@ export const testimonialMBA = [
         org: 'GGI MBA IMPACT SCHOLAR<br> NIT',
         image: '/shreyas.jpg',
         review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a #GGIprojects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
+      },
+      {
+        name: 'Ronak Agarwal',
+        org: 'McKinsey, Wharton MBA<br/><br/> GGI Impact Fellow',
+        image: '/ronakag.jpg',
+        review: ""
       },
       {
          name: `Swati Sureka `,

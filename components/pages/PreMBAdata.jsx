@@ -98,14 +98,14 @@ const PREMBADATA = () => {
             <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
             <Community />
 
-            <Heading>Program Fees </Heading>
+            {/* <Heading>Program Fees </Heading>
             <p className='text-center text-xl'> <span className="primary font-extrabold">Crisis-Proof Investment</span></p> <br/>
             <Container>
                 <p> 1. Premium Pricing <span className='primary font-bold'>Selective cohort of 50/term </span></p><br />
                 <p>2. <span className='primary font-bold'>ROI Tracker</span>: Post-MBA salary increase metrics </p><br />
                 <p>3.Flexible Payments: <span className='primary font-bold'>Deferred options for founders</span>.</p><br />
 
-            </Container>
+            </Container> */}
 
 
 
