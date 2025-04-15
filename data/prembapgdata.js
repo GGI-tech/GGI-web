@@ -127,7 +127,7 @@ export const testimonialMBA = [
         name: 'Oliviya Brar',
         org: 'BCG, INSEAD MBA <br/> GGI Impact Fellow',
         image: '/oli.jpg',
-        review: "Arpita is currently an Associate Solution Advisor in the Cyber Risk Advisory practice of<span class='font-bold'> Deloitte</span><br/><br/> An Electronics & Telecommunications Engineer from Army Institute of Technology, Pune, Arpita has previously worked in the fields of Financial Crimes Prevention, Anti-Money Laundering and Regulatory reporting.<br/><br/>  She has a penchant for science-fiction and poetry. She spends her free time spreading awareness about Mangrove trees on her podcast, The Saltwater Tree P"
+        review: "I joined GGI back in June and I had a great time! Infact Shatakshi said that our journey is over but it really doesn't feel that way. <br/><br/><span class='font-bold'>Three months is just something on paper but in reality, you stay a part of it for life. The founders are just as approachable now as they were, during the duration of the program</span>."
       },
       {
         name: 'Deepa Das',
@@ -238,7 +238,43 @@ export const testimonialMBA = [
         image: '/saakshi.jpg',
         review: "During the pandemic, she pioneered her own non-profit education management venture, 'College Catalyst. Through this platform, she developed structured content about the college admission process. She is a Research Wing Member in the Placement cell of LSR and the Associate VP of Membership at Toastmasters, LSR.<br/></br>She is an avid reader of Afghanistan-based domestic fiction. She diligently follows freelancer journalists on social media."
 
-    }
+    },
+    {
+        name: 'Hattie Minglin Ren',
+        org: 'China',
+        image: '/Hattie Minglin Ren.JPG',
+        review: "Hattie is graduate from National University of Singapore.  Prior to her MBA study, she was working with a U.K listed MNC and managing a team in tech recruitment consulting based in Singapore.<br/><br/>She is contributing to the GGI community with more diverse culture and value exchange, as well as useful regional network."
+      },
+      {
+        name: 'Callysta Limneus',
+        org: 'Indonesia',
+        image: '/Callysta Limneus.jpeg',
+        review: "Callysta is a second-year student at the University of British Columbia, majoring in international economics. Her studies mainly focus on economics, finance, international relations, with a particular interest in psychology, philosophy, and literature!<br/><br/>She has a strong interest in finance and consulting, which she finds remarkably akin to the art of debating—a skill she honed during her high school years.<br/><br/>From GGI, she learnt more about the world of consulting and expand her network with professionals in the industry. As a newcomer to this field, she is eager to learn from everyone and gain invaluable insights!"
+      },
+      {
+        name: 'JAN MARIE MALLARI RIÑON',
+        org: 'Philippines',
+        image: '/Jan Marie Mallari Riñon.jpg',
+        review: "Jan Marie Mallari Riñon is currently working as a Planning Officer at the <span class='font-bold'>Department of Justice - Philippines</span>. In this role, she actively engages in various responsibilities and contributions to facilitate effective planning and monitoring activities within the Department.<br><br> She firmly believes that learning is a lifelong process, and she is dedicated to expanding her knowledge and expertise. She is particularly interested in specializing in Impact and Policy Consulting, as well as Management, as she seeks to make a significant impact in these areas."
+      },
+      {
+        name: 'Karabo Diseko',
+        org: 'South Africa',
+        image: '/Karabo.jpg',
+        review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>More recently, Karabo’s interest in business systems has led him to channel his love for critical thinking towards a career in management consulting.<br/><br/>Through entrepreneurial exploration, active participation in university-based business ecosystems, and as a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change.<br/><br/>During his free time Karabo enjoys running, mountain climbing, and learning new things through a good book."
+      }, 
+      {
+        name: 'JACK WINKLES',
+        org: 'GGI delegate- Startup Masterclass Cohort, 2019<br>Top 10 Engineering and Construction undergraduates of the year 2019',
+        image: '/jack.jpg',
+        review: "I&#39;ve spent my weekend completing a business startup masterclass with GGI, listening to multiple speakers, and learning what it takes to successfully create and kick start a business. Although it meant starting at 5.30 am on Saturday and 3 am this morning, it was absolutely worth it! <br><br>  Massive thank you to Shatakshi Sharma and Naman Shrivastava for creating this initiative and helping me realize my dreams. I will absolutely keep going to get my business startup up and running."
+      },
+      {
+        name: 'ALEXIS PELLIER',
+        org: 'GGI delegate- Impact Startup Cohort, 2020<br> Sciences Po',
+        image: '/alexis.jpg',
+        review: "Glad and grateful to have been selected to participate in Global Governance Initiative&#39;s startup masterclass chaired by the insightful and inspiring Shatakshi Sharma and Naman Shrivastava.<br><br> Throughout this intense one-day-long journey, starting at 4.30 am, my peers and I have learnt more about the critical steps of launching and growing a startup while listening to successful entrepreneurs&#39; story, developing our ideas and taking on the challenge to pitch them.<br><br>  Many thanks again to the GGI team for this experience!"
+      }
 
 ]
 

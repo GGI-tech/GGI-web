@@ -32,7 +32,7 @@ const PREMBADATA = () => {
         <div>
             <SlidingHero image={'./ivy.jpg'} title={["GGI Anti-Fragile Scholars: <br class='hidden md:block'/><span class='text-yellow-200'>Crisis-Proof Your Ivy League MBA</span><br class='hidden md:block'/> "]} />
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
             <Heading margin={60}>Why GGI Anti-Fragile Scholars Works ? </Heading>
@@ -46,12 +46,12 @@ const PREMBADATA = () => {
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
             <YoutubeEmbed embedId='iuNMaVSwH0E' autoplay={1}/>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
 
             <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
 
             <Heading>Who is this Program for?</Heading>
@@ -65,7 +65,7 @@ const PREMBADATA = () => {
 
             </Container>
             <YoutubeEmbed embedId='NrAvqFqbZrU' />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
             <Heading>Post Graduate Program in Management</Heading>
             <Curriculum data={curriculum}/>
@@ -89,7 +89,7 @@ const PREMBADATA = () => {
                 <p>To support the development of these essential skills, GGI has meticulously designed a portfolio of immersive, experiential courses spanning across sectors and industries, organized into three stages: </p>
             </Container>
             <Steps data={stages} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
