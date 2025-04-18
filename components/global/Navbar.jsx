@@ -123,6 +123,9 @@ const Navbar = ({applicationbanner}) => {
                       <a href='https://www.thirdspace.org.in/curiefellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
                         Curie Fellowship: For Mothers
                       </a>
+                   <a href='https://www.globalgovernanceinitiative.org/anti-fragile' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
+                        GGI Anti-Fragile Scholars
+                      </a>
               </ul>
             </span>
           </li>
@@ -246,6 +249,9 @@ const Navbar = ({applicationbanner}) => {
                   </a>
                   <a href='https://www.thirdspace.org.in/curiefellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
                     CURIE FELLOWSHIP: FOR MOTHERS
+                  </a>
+                  <a href='https://www.globalgovernanceinitiative.org/anti-fragile' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
+                    GGI ANTI-FRAGILE SCHOLARS
                   </a>
                 </ul>
               )}
