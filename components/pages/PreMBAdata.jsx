@@ -30,7 +30,7 @@ const PREMBADATA = () => {
     }
     return (
         <div>
-            <SlidingHero image={'./ivy.jpg'} title={["GGI Anti-Fragile Scholars: <br class='hidden md:block'/><span class='text-yellow-200'>Crisis-Proof Your Ivy League MBA</span><br class='hidden md:block'/> "]} />
+            <SlidingHero image={'./athens.jpg'} title={["GGI Anti-Fragile Scholars: <br class='hidden md:block'/><span class='text-yellow-200'>Crisis-Proof Your Ivy League MBA</span><br class='hidden md:block'/> "]} />
 
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
