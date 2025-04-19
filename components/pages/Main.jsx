@@ -31,7 +31,7 @@ import Community from '../../components/global/Community';
 import FourColumnLayout from '../../components/global/FourColumnLayout';
 // -------------------------------------------------------
 
-import contact from '../../public/contact.jpg'
+import contact from '../../public/ss.jpeg'
 
 
 
@@ -167,13 +167,13 @@ const Main = () => {
                     <p className="my-10 text-center">— World Economic Forum</p>
                 </div>
             </div>
-            <div className="p-5 md:p-12 grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-4 lg:gap-5">
+            <div className="p-5 md:p-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5 justify-center">
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
                     <div className="h-40">
                         <Image src={Goasummit3} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                    Shatakshi Sharma and Naman Shrivastava, GGI Cofounders, shape policies for Youth Empowerment and Upskilling for New India at the India Global Forum, India NXT 
+                    Shatakshi Sharma, GGI Cofounder, shape policies for Youth Empowerment and Upskilling for New India at the India Global Forum, India NXT 
                     </p>
                 </div>
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
@@ -185,14 +185,14 @@ const Main = () => {
                     </p>
                 </div>
                 
-                <div className="flex flex-col items-center col-span-2 lg:col-span-1">
+                {/* <div className="flex flex-col items-center col-span-2 lg:col-span-1">
                     <div className="h-40">
                         <Image src={Goasummit1} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
                     Naman Shrivastava, shaping policies for disruption and innovation for the state of Goa and overall India. 
                     </p>
-                </div>
+                </div> */}
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
                     <div className="h-40">
                         <Image src={Goasummit2} alt="" />
@@ -245,7 +245,7 @@ const Main = () => {
                         <Contact />
                     </div>
                     <div className=''>
-                        <p className='p-8'>  GGI Co-Founders - Naman and Shatakshi have worked extensively at the intersection of public policy, technology, management consulting, & entrepreneurship at BCG, UN, Tony Blair Institute and have been recognized as Linkedin for Top Voice for work on gender equality and reimagining higher education. They would love to hear back from you on your experiences, grievances, and new ideas!
+                        <p className='p-8'>  GGI Founder & CEO - Shatakshi Sharma has worked extensively at the intersection of public policy, technology, management consulting, & entrepreneurship at BCG, Tony Blair Institute and has been recognized as Linkedin for Top Voice for work on gender equality and reimagining higher education. She would love to hear back from you on your experiences, grievances, and new ideas!
                         </p>
                         <p className='p-8 pt-2 text-center'>
                             <Image src={contact} alt="" />
