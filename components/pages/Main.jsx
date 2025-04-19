@@ -144,7 +144,7 @@ const Main = () => {
                         <Image src={Linkedin} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                    &quot;Shatakshi Sharma, Cofounder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&quot;
+                    &quot;Shatakshi Sharma, Founder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&quot;
                     </p>
                     <p className="my-10">— Linkedin News</p>
                 </div>
@@ -162,7 +162,7 @@ const Main = () => {
                         <Image src={wef} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                    &quot;Shatakshi Sharma, GGI cofounder, is empowering global youth to start taking a seat on the table&quot;
+                    &quot;Shatakshi Sharma, GGI Founder, is empowering global youth to start taking a seat on the table&quot;
                     </p>
                     <p className="my-10 text-center">— World Economic Forum</p>
                 </div>
@@ -173,7 +173,7 @@ const Main = () => {
                         <Image src={Goasummit3} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                    Shatakshi Sharma, GGI Cofounder, shape policies for Youth Empowerment and Upskilling for New India at the India Global Forum, India NXT 
+                    Shatakshi Sharma, GGI Founder, shape policies for Youth Empowerment and Upskilling for New India at the India Global Forum, India NXT 
                     </p>
                 </div>
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
@@ -181,7 +181,7 @@ const Main = () => {
                         <Image src={Goasummit4} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                    Shatakshi Sharma, GGI & GTI Cofounder representing entrepreneurial views at the Invest Goa summit. 
+                    Shatakshi Sharma, GGI & GTI Founder representing entrepreneurial views at the Invest Goa summit. 
                     </p>
                 </div>
                 
@@ -237,7 +237,7 @@ const Main = () => {
             </div>
 
 
-            <Heading >Cofounder&#39;s Desk</Heading>
+            <Heading >Founder&#39;s Desk</Heading>
 
             <div className="flex justify-center">
                 <div className="md:w-4/5 grid grid-cols-1 sm:grid-cols-2 gap-4 ">
