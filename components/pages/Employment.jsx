@@ -4,6 +4,7 @@ import Hero from '../global/Hero'
 import Image from 'next/image'
 import YouTubeEmbed from '../global/YoutubeEmbed'
 import Footer from '../global/Footer'
+import SlidingHero from '../global/SlidingHero'
 // import { FaLinkedin } from 'react-icons/fa'
 // import Container from '../global/Container'
 const data1 = [
@@ -663,17 +664,24 @@ const Employment = () => {
             {/* <Hero image={"/reviews.jpeg"} altText="Careers"/> */}
             {/* <div className='primary text-3xl md:text-4xl mt-[10vw] text-center  mb-12 font-serif font-bold' >GGI ALUMNI SPOTLIGHT</div>
             <p className='text-center md:text-lg text-black font-serif my-12'>GGIIANS THRIVE SO MUCH IN THEIR CAREERS, THAT WE DECIDED TO MAKE A NEW WEB PAGE FOR IT :)</p> */}
-            <div className="flex flex-col lg:flex-row items-center justify-center px-6 mt-20 mb-16 gap-8 max-w-7xl mx-auto">
-                <img src="/reviews.jpeg" alt="GGI Reviews" className="w-full max-w-md rounded-lg shadow-md" />
-                <div className="text-center lg:text-left max-w-xl">
-                    <h2 className="text-4xl md:text-5xl font-bold text-red-700 mb-6">
-                        GGI Alumni Spotlight
-                    </h2>
-                    <p className="text-lg text-gray-600">
-                        GGIians thrive so much in their careers, we had to create an entire page to celebrate them! :)
-                    </p>
-                </div>
-            </div>
+            <SlidingHero
+  image="/op1.jpg"
+  title={[
+    `<div class='text-center text-white w-full'>
+      <h4 class='text-3xl sm:text-4xl md:text-5xl font-bold mb-4 w-full'>
+        GGI Alumni Spotlight
+      </h4>
+      <p class='text-lg font-normal mt-4'>
+        Where our fellows & scholars thrive and make global impact across top organizations.
+      </p>
+    </div>`
+    
+  ]}
+/>
+<div className="text-center text-gray-700 italic text-xl font-medium max-w-3xl mx-auto mt-8 px-6">
+  “Behind every GGI fellow is a story of resilience, ambition, and transformation.”
+</div>
+
             {/* <YouTubeEmbed embedId='1Ak6KiRi5eE' /> */}
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
@@ -684,7 +692,7 @@ const Employment = () => {
 })}
 
             </div>
-            <YouTubeEmbed embedId='CL-UcquUN3k' />
+            <YouTubeEmbed embedId='CL-UcquUN3k' autoplay={1}/>
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(4, 10).map((e, index) => {
     return (
@@ -692,7 +700,7 @@ const Employment = () => {
     );
 })}
             </div>
-            <YouTubeEmbed embedId='9J-rLUjhb-E' />
+            <YouTubeEmbed embedId='9J-rLUjhb-E' autoplay={1}/>
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(10, 22).map((e, index) => {
     return (
@@ -700,7 +708,7 @@ const Employment = () => {
     );
 })}
             </div>
-            <YouTubeEmbed embedId='uAxtulumw6I' />
+            <YouTubeEmbed embedId='uAxtulumw6I' autoplay={1}/>
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(22, 30).map((e, index) => {
     return (
@@ -708,7 +716,7 @@ const Employment = () => {
     );
 })}
             </div>
-            <YouTubeEmbed embedId='AkUb-EO7vXc' />
+            <YouTubeEmbed embedId='AkUb-EO7vXc' autoplay={1}/>
             {/*
             for odd num of cards 
             <div className='sm:mx-12'>
