@@ -45,7 +45,7 @@ const MPP = () => {
 
             <Heading>Post Graduate Program in Public Policy </Heading>
             <Curriculum data={curriculum} />
-            <YoutubeEmbed embedId='hnoA7rzFbHw' />
+            <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
@@ -57,7 +57,7 @@ const MPP = () => {
                     GGI Policy Scholars community comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the London School of Economics and Political Science. A few of the policy scholars are working professionals in organizations such as Pratham, Teach for India, NITI Aayog, Hindustan Times and other leading education NGOs.
                 </p>
             </Container>
-            <YoutubeEmbed embedId='7CAlOgCt_Cc' />
+            <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>A Liberal Refund Policy for You </Heading>
@@ -93,7 +93,7 @@ const MPP = () => {
             <Heading>Our Associations </Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='Pt8cnPkD4k0' />
+                <YoutubeEmbed embedId='Pt8cnPkD4k0' autoplay={1}/>
             </div>
             <Heading margin={2}>Frequently Asked Questions </Heading>
             <Accordian />

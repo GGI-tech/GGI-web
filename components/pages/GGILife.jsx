@@ -63,7 +63,7 @@ const GGILife = () => {
       </section>
 
        {/* Video Section */}
-      <YouTubeEmbed embedId="x4WeiJ8eBEs" autoplay={true} />
+      <YouTubeEmbed embedId="O_PC43if0KE" autoplay={true} />
 
       <section className="mt-[12px] text-center px-6">
       <h2 className="text-4xl mt-36 mb-10 text-red-700">Belonging at GGI</h2>
@@ -72,7 +72,7 @@ const GGILife = () => {
         </Container>
       </section>
       {/* Video Section */}
-      <YouTubeEmbed embedId="qVd_83NdKIo" autoplay={true} />
+      <YouTubeEmbed embedId="lNS7Z_EGQ3Y" autoplay={true} />
       {/* Student Experience Sections */}
       <section className="mt-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
         <div className="bg-white shadow-lg p-6 rounded-lg">
@@ -106,7 +106,7 @@ const GGILife = () => {
       </section>
 
       {/* Video Section */}
-      <YouTubeEmbed embedId="c1zKCj_5wg8" autoplay={true} />
+      <YouTubeEmbed embedId="GlZLrrIMvOQ" autoplay={true} />
 
       <section className="mt-[12px] text-center px-6">
       <h2 className="text-4xl mt-36 mb-10 text-red-700">Life Beyond Classroom</h2>
@@ -116,7 +116,7 @@ const GGILife = () => {
       </section>
 
       {/* Video Section */}
-      <YouTubeEmbed embedId="7CjUGqTLHQI" autoplay={true} />
+      <YouTubeEmbed embedId="VU2gyZnKkbU" autoplay={true} />
 
       {/* Testimonials Section */}
 
@@ -130,7 +130,7 @@ const GGILife = () => {
       </section>
 
         {/* Video Section */}
-       <YouTubeEmbed embedId="9cLDsZtRqxc" autoplay={true} />
+       <YouTubeEmbed embedId="x4tjqNvIj9g" autoplay={true} />
 
       {/* FAQs Section */}
       <Heading>Frequently Asked Questions</Heading>

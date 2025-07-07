@@ -52,12 +52,13 @@ return (
       <div className='md:p-8 lg:w-3/4 flex flex-row justify-around sm:justify-center gap-4 flex-wrap'>
         {companies.map((c, index) => {
           const isPwC = c.src?.toLowerCase().includes("pwc");
+          const istwb = c.src?.toLowerCase().includes("worldbank");
   
           return (
             <div
               key={index}
               className={`flex relative ${
-                isPwC ? 'w-100 h-100' : 'w-52 h-48'
+                isPwC || istwb? 'w-52 h-48' : 'w-60 h-56'
               }`}
             >
               <Image

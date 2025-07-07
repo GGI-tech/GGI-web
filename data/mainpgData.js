@@ -1,17 +1,17 @@
-import BCG from '../public/bcg.png';
+import BCG from '../public/bcg.jpg';
 import Delloite from '../public/delloite.png';
 import ey from '../public/ey.png';
 import dalberg from '../public/dalberg.jpg';
-import fsg from '../public/fsg.jpg';
+import fsg from '../public/fsg.png';
 import bain from '../public/bain.png';
 import kearney from '../public/Kearney.jpg';
-import bridgespan from '../public/bridgespan.jpg';
+import bridgespan from '../public/tbg.png';
 import mckinsey from '../public/mckinsey.png';
-import pwc from '../public/pwc.jpg';
+import pwc from '../public/pwc2.png';
 import UN from '../public/UN.jpg';
-import Worldbank from '../public/Worldbank.jpg';
+import worldbank from '../public/Worldbank.jpg';
 import gov from '../public/gov.jpg';
-import tony from '../public/tony.png';
+import tony from '../public/tbi.png';
 // -------------------------------------------------------`
 
 import harvardcase from '../public/harvardcase.jpg'
@@ -45,7 +45,7 @@ export const fourcolumndata = [ //to be fetched from database
     "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
   },
 ]
-export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite, tony];
+export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, worldbank, fsg, bridgespan, Delloite, tony];
 
 export const testimonialMain = [
   

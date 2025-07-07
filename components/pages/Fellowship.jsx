@@ -82,7 +82,7 @@ const Fellowship = () => {
             <Heading>Curriculum & Commitment</Heading>
             <p className='px-8 text-center font-bold mb-4' >If GGI MBA Scholars is Harvard Business School then GGI Impact fellowship is Harvard Business School along with Mckinsey&#39;s work experience </p>
             <Curriculum2 data={curriculum} />
-            <YoutubeEmbed embedId='3xL9AbP92yo' />
+            <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
 
@@ -96,7 +96,7 @@ const Fellowship = () => {
 
                 </div>
             </Container>
-            <YoutubeEmbed embedId='BCwbgh9-69k' />
+            <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
             <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills  ? </Heading>
@@ -121,7 +121,7 @@ const Fellowship = () => {
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Management & Impact Consulting </Heading>
             <Masterclasses />
-            <YoutubeEmbed embedId='nQkS0i38ls8' />
+            <YoutubeEmbed embedId='Pt8cnPkD4k0' autoplay={1}/>
 
             <Heading>Program Fees </Heading>
             <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
@@ -133,7 +133,7 @@ const Fellowship = () => {
             <OfficialPartners />
 
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='7CAlOgCt_Cc' autoplay={1}/>
             </div>
             <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />

@@ -67,12 +67,12 @@ const MBA = () => {
                 <p className='mb-24'>4. If you&#39;re an <span className='primary font-bold'>aspiring entrepreneur</span> aiming to launch and scale ventures and looking to enhance your business skills while building an incredible support network, you&#39;ve found the right opportunity.</p>
 
             </Container>
-            <YoutubeEmbed embedId='hnoA7rzFbHw' />
+            <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
             <Heading>Post Graduate Program in Management</Heading>
             <Curriculum data={curriculum}/>
-            <YoutubeEmbed embedId='zJzwHEBd7Zc' />
+            <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
 
 
             <Heading>A Liberal Refund Policy for You  </Heading>
@@ -94,7 +94,7 @@ const MBA = () => {
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
-            <YoutubeEmbed embedId='Pt8cnPkD4k0' />
+            <YoutubeEmbed embedId='Pt8cnPkD4k0' autoplay={1}/>
 
             <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
             <Community />
@@ -128,7 +128,7 @@ const MBA = () => {
             <Heading>GGI Associations</Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='7CAlOgCt_Cc' />
+                <YoutubeEmbed embedId='7CAlOgCt_Cc' autoplay={1}/>
             </div>
             <Heading margin={2}>Frequently Asked Questions</Heading>
             <Accordion />
