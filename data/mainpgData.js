@@ -11,6 +11,7 @@ import pwc from '../public/pwc.jpg';
 import UN from '../public/UN.jpg';
 import Worldbank from '../public/Worldbank.jpg';
 import gov from '../public/gov.jpg';
+import tony from '../public/tony.png';
 // -------------------------------------------------------`
 
 import harvardcase from '../public/harvardcase.jpg'
@@ -44,7 +45,7 @@ export const fourcolumndata = [ //to be fetched from database
     "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
   },
 ]
-export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite];
+export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, UN, gov, Worldbank, fsg, bridgespan, Delloite, tony];
 
 export const testimonialMain = [
   
@@ -57,13 +58,13 @@ export const testimonialMain = [
   {
     name: 'ANAMITRA MUNSI',
     org: 'GGI MBA Scholar, 2021<br> ISB Hyderabad (Post GGI Pre-MBA Scholars Program)',
-    image: '/ana.jpg',
+    image: '/anamitra.jpg',
     review: "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from <span class='font-bold'>Boston Consulting Group (BCG)</span>.<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that.<br><br> Everyone at GGI is there to learn and they won&#39;t be judging you, don&#39;t be bogged down. And there hasn&#39;t been a single instance when I have reached out and not received a response from Naman and Shatakshi"
   },
   {
     name: 'TUSHAR GOPALKA',
     org: 'GGI Impact Fellowship Scholar, 2024<br> BCG, UCLA',
-    image: '/tushar_gopal.jpg',
+    image: '/tushar.png',
     review: "Shortly after GGI, I got an offer from Boston Consulting Group (BCG) <br/><br/> Hi, I am Tushar Gopalka, a GGI Fellow from the 2024 cohort. <br/> <br/>GGI came into my life when I was looking to refine my #problemsolving skills and prepare for high-stakes interviews. <br/> <br/>Honestly, joining GGI was a pivotal decision for me. It offered access to an incredible network of peers and mentors who pushed me to be my best. <br/><br/>One memorable moment was an office hour with Shatakshi just 12 hours before my BCG first-round interview. Her honest and constructive feedback helped me completely restructure my fit interview, and it made all the difference I got selected! <br/><br/>Beyond the network, the programs like Startup Weekend were transformative. They gave me the confidence to consider launching my own venture, something I never imagined I could do a year ago. <br/><br/> GGI also taught me the importance of structured communication and preparation. For instance, practicing on tools like Schrodinger well in advance gave me a clear edge during BCG’s first-round case board interview."
   },
   
@@ -125,13 +126,13 @@ export const testimonialMain = [
   {
     name: 'JAN MARIE MALLARI RIÑON',
     org: 'Philippines',
-    image: '/Jan Marie Mallari Riñon.jpg',
+    image: '/janmarie.png',
     review: "Jan Marie Mallari Riñon is currently working as a Planning Officer at the <span class='font-bold'>Department of Justice - Philippines</span>. In this role, she actively engages in various responsibilities and contributions to facilitate effective planning and monitoring activities within the Department.<br><br> She firmly believes that learning is a lifelong process, and she is dedicated to expanding her knowledge and expertise. She is particularly interested in specializing in Impact and Policy Consulting, as well as Management, as she seeks to make a significant impact in these areas."
   },
   {
     name: 'TUSHAR BAGRODIA',
     org: 'GGI Delegate, Policy Consulting Cohort, 2019 <br> Shri Ram College of Commerce (SRCC) ',
-    image: '/Tushar.jpg',
+    image: '/tusharnew.jpg',
     review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Kearney India</span>.<br><br>The GGI Masterclass enabled me to develop a more holistic view of the manner in which the public sector works in our country and the challenges that arise while working to create an impact with them. The first time I was introduced to case interviews was also during the GGI Masterclass in my campus. I was able to understand the problems better and develop structured solutions which made me stand out."
   },
   {

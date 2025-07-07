@@ -37,12 +37,12 @@ const Fellowship = () => {
                 <p className='mb-5'><span className='font-semibold primary'>Young professionals often waste years preparing for Civil Services</span> to enter the development sector or reading countless cases in the false hope of breaking into management consulting. At Global Governance Initiative, we address this issue through our Impact Fellowship Program.</p>
                 <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span>The GGI Fellowship has been recognized by BCG Global Media for its consulting feeder program.</p>
             </Container>
-            <YoutubeEmbed embedId='CL-UcquUN3k' autoplay={1} />
+            <YoutubeEmbed embedId='BfXtDA8J-JI' autoplay={1} />
 
             <Heading>Hear from GGIians who have successfully transitioned into Consulting, Policy, and Product Management roles - their experiences with us.</Heading >
 
             <Slider slides={testimonialMain} /> 
-            <YoutubeEmbed embedId='B3EOeD5QcAU' autoplay={1}/>
+            <YoutubeEmbed embedId='ZtECOAyyDVA' autoplay={1}/>
             <Heading>Life After GGI Impact Fellowship</Heading>
 
             <Container>
@@ -75,7 +75,7 @@ const Fellowship = () => {
 </span></p>
 
             </Container>
-            <YoutubeEmbed embedId='9J-rLUjhb-E' autoplay={1} />
+            <YoutubeEmbed embedId='lZMBRyoMNSQ' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
 

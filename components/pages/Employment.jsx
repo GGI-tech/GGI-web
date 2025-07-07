@@ -682,7 +682,7 @@ const Employment = () => {
   “Behind every GGI fellow is a story of resilience, ambition, and transformation.”
 </div>
 
-            {/* <YouTubeEmbed embedId='1Ak6KiRi5eE' /> */}
+<YouTubeEmbed embedId='34Hgf5F_M90' autoplay={1}/>
 
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(0, 4).map((e, index) => {
@@ -692,7 +692,7 @@ const Employment = () => {
 })}
 
             </div>
-            <YouTubeEmbed embedId='CL-UcquUN3k' autoplay={1}/>
+            <YouTubeEmbed embedId='rToRQxJn1hE' autoplay={1}/>
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(4, 10).map((e, index) => {
     return (
@@ -700,7 +700,7 @@ const Employment = () => {
     );
 })}
             </div>
-            <YouTubeEmbed embedId='9J-rLUjhb-E' autoplay={1}/>
+            <YouTubeEmbed embedId='DJVRPwP3s0Y' autoplay={1}/>
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(10, 22).map((e, index) => {
     return (
@@ -708,7 +708,7 @@ const Employment = () => {
     );
 })}
             </div>
-            <YouTubeEmbed embedId='uAxtulumw6I' autoplay={1}/>
+            <YouTubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <div className='mt-24 grid grid-cols-1 sm:grid-cols-2 sm:mx-12'>
             {data1.slice(22, 30).map((e, index) => {
     return (
@@ -716,7 +716,7 @@ const Employment = () => {
     );
 })}
             </div>
-            <YouTubeEmbed embedId='AkUb-EO7vXc' autoplay={1}/>
+            <YouTubeEmbed embedId='Pt8cnPkD4k0' autoplay={1}/>
             {/*
             for odd num of cards 
             <div className='sm:mx-12'>

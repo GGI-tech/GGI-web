@@ -8,6 +8,7 @@ import Heading from '../global/Heading';
 import Slider from '../global/Slider';
 import { fourcolumndata, companies, testimonialMain } from '../../data/mainpgData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
+import InstagramEmbed from '../global/InstagramEmbed';
 
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
@@ -67,7 +68,7 @@ const Main = () => {
             <div className="p-4 flex justify-center">
                 <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 " >
                     <div className='lg:col-span-2'>
-                        <div className='text-center md:text-left md:h-[27rem] '>
+                        <div className='text-center md:text-left min:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Management Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-7'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- Management</span></p>
@@ -84,7 +85,7 @@ const Main = () => {
                     </div>
                     <div className='hidden lg:block lg:col-span-1'></div>
                     <div className='lg:col-span-2'>
-                        <div className='text-center md:text-left md:h-[27rem] '>
+                        <div className='text-center md:text-left min:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                             <p className='my-7 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-7'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
@@ -102,7 +103,9 @@ const Main = () => {
 
                 </div>
             </div>
-            <YoutubeEmbed embedId="8lWeJ3Ekq-I" autoplay={1} />
+            <YoutubeEmbed embedId="jg2icvxDHhw" autoplay={1} />
+
+            {/* <InstagramEmbed postUrl="https://www.instagram.com/reel/DJRVTAZhEZ3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" /> */}
 
             {/* </div> */}
 
@@ -116,7 +119,7 @@ const Main = () => {
             <div className='mt-24 flex justify-center'>
                 <p className='md:w-3/5 md:text-lg font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
-            <YoutubeEmbed embedId='vNSyUNfmh24' />
+            <YoutubeEmbed embedId='34Hgf5F_M90' />
             
             
             <Heading>Global Recognition Allows us to Serve you Better</Heading>
@@ -256,7 +259,7 @@ const Main = () => {
             </div>
 
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='2oLOzBJvBDM' />
             </div>
             <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />

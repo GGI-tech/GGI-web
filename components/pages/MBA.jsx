@@ -42,7 +42,7 @@ const MBA = () => {
             <p className='px-8 my-8 text-center font-medium'>The GGI Impact Management has created an Ivy League Management outcome at 1/1000th of the cost. </p>
             <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a top 20 global business school. Despite the high cost, many global schools—aside from a few Ivy League institutions—do not write their own cases, lack an extensive global network, offer limited experiential learning opportunities, and have weak industry connections.<br/><br/>At Global Governance Initiative, we address these issues through our mission.  </Container>
             <div className='my-8'></div>
-            <YoutubeEmbed embedId='pjwQLAI_fHs' autoplay={1}/>
+            <YoutubeEmbed embedId='pwe1YoNGkog' autoplay={1}/>
 
             <Heading>Hear what GGIians who have pivoted into Strategy, Consulting and PM roles- have to say about us</Heading >
 
@@ -50,7 +50,7 @@ const MBA = () => {
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
-            <YoutubeEmbed embedId='iuNMaVSwH0E' autoplay={1}/>
+            <YoutubeEmbed embedId='w-VJdR9wENw' autoplay={1}/>
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
 
@@ -67,12 +67,12 @@ const MBA = () => {
                 <p className='mb-24'>4. If you&#39;re an <span className='primary font-bold'>aspiring entrepreneur</span> aiming to launch and scale ventures and looking to enhance your business skills while building an incredible support network, you&#39;ve found the right opportunity.</p>
 
             </Container>
-            <YoutubeEmbed embedId='NrAvqFqbZrU' />
+            <YoutubeEmbed embedId='hnoA7rzFbHw' />
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
 
             <Heading>Post Graduate Program in Management</Heading>
             <Curriculum data={curriculum}/>
-            <YoutubeEmbed embedId='lGyhkONUSwk' />
+            <YoutubeEmbed embedId='zJzwHEBd7Zc' />
 
 
             <Heading>A Liberal Refund Policy for You  </Heading>
@@ -83,7 +83,7 @@ const MBA = () => {
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
             <Gallery />
 
-            <YoutubeEmbed embedId='vNSyUNfmh24' autoplay={1}/>
+            <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Heading>As a GGI MBA Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
             <Container>
                 <p className='mb-2'>As leaders looking to pivot into the world of <span className='font-semibold'> Management Consulting, Investing, and Product Management, </span> you should be adept at navigating various cultures, economies, sectors, and industries. </p>
@@ -94,7 +94,7 @@ const MBA = () => {
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
-            <YoutubeEmbed embedId='nQkS0i38ls8' />
+            <YoutubeEmbed embedId='Pt8cnPkD4k0' />
 
             <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
             <Community />
@@ -128,7 +128,7 @@ const MBA = () => {
             <Heading>GGI Associations</Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='7CAlOgCt_Cc' />
             </div>
             <Heading margin={2}>Frequently Asked Questions</Heading>
             <Accordion />

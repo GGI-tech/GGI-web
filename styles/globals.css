@@ -149,6 +149,7 @@ p>strong {
   font-weight: 400;
 }
 
+
 p>strong::after {
   bottom: -0.2rem;
   height: 0.5rem;

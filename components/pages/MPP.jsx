@@ -29,7 +29,7 @@ const MPP = () => {
 
             <Heading>+88% GGIians working in Top Policy & Social Impact Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <YoutubeEmbed embedId='8lWeJ3Ekq-I' autoplay={1} />
+            <YoutubeEmbed embedId='pwe1YoNGkog' autoplay={1} />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Who is this Program for?</Heading>
@@ -40,12 +40,12 @@ const MPP = () => {
                 <p>4. You are a <span className='primary font-bold'>budding social impact entrepreneur</span> who is aiming to launch a venture.</p>
 
             </Container>
-            <YoutubeEmbed embedId='URhwxoFL6S8' autoplay={1} />
+            <YoutubeEmbed embedId='7IFecGF-JzA' autoplay={1} />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Post Graduate Program in Public Policy </Heading>
             <Curriculum data={curriculum} />
-            <YoutubeEmbed embedId='I0t8nCIst3M' />
+            <YoutubeEmbed embedId='hnoA7rzFbHw' />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
@@ -57,7 +57,7 @@ const MPP = () => {
                     GGI Policy Scholars community comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the London School of Economics and Political Science. A few of the policy scholars are working professionals in organizations such as Pratham, Teach for India, NITI Aayog, Hindustan Times and other leading education NGOs.
                 </p>
             </Container>
-            <YoutubeEmbed embedId='OA4YaeVZhsA' />
+            <YoutubeEmbed embedId='7CAlOgCt_Cc' />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>A Liberal Refund Policy for You </Heading>
@@ -67,7 +67,7 @@ const MPP = () => {
 
             <Heading>Learn & Network with World&#39;s top CEOs, Partners, And Policy Leaders  </Heading>
             <Gallery />
-            <YoutubeEmbed embedId='HkJmwoBp4As' autoplay={1}/>
+            <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>As GGI Policy Scholar, You will Immerse Yourself in a Truly Impactful Experience  </Heading>
@@ -93,7 +93,7 @@ const MPP = () => {
             <Heading>Our Associations </Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='Pt8cnPkD4k0' />
             </div>
             <Heading margin={2}>Frequently Asked Questions </Heading>
             <Accordian />
