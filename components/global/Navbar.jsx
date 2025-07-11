@@ -97,7 +97,7 @@ const Navbar = ({applicationbanner}) => {
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">MBA</a>
                 </Link>
                 <Link href='/ggipolicyscholarsprogram' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">Policy</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">Policy Consulting Lab</a>
                 </Link>
                 <Link href='/impact-fellowship' target="_blank">
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">Impact Fellowship</a>
@@ -236,7 +236,7 @@ const Navbar = ({applicationbanner}) => {
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>MBA</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>POLICY</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>POLICY CONSULTING LAB</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>IMPACT FELLOWSHIP</a>

@@ -15,8 +15,8 @@ import img22 from '../../public/22.jpg';
 import img23 from '../../public/23.jpg';
 import img24 from '../../public/24.jpg';
 import img25 from '../../public/25.jpg';
-import img26 from '../../public/26.jpg';
-import img27 from '../../public/27.jpg';
+import img26 from '../../public/26new.png';
+import img27 from '../../public/letsgo.png';
 import img28 from '../../public/28.jpg';
 import img29 from '../../public/29.jpg';
 
@@ -68,7 +68,7 @@ const defaultData=[
   },
   {
     "img":img23,
-    "caption":"Group Cofounder, Good Glam Group ",
+    "caption":"Former Cabinet Secretary, Gvt. of India",
   },
   {
     "img":img24,
@@ -80,11 +80,11 @@ const defaultData=[
   },
   {
     "img":img26,
-    "caption":"Harvard MBA, Chief of Staff- Hike",
+    "caption":"Chairman, Founder, Aavishkar group",
   },
   {
     "img":img27,
-    "caption":"Coach, Ted Speakers",
+    "caption":"Founding Partner, Bain & Co. | Light Speed Ventures",
   },
   {
     "img":img28,

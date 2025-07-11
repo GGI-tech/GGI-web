@@ -49,7 +49,7 @@ const Partners = ({ companies,g }) => {
 //     );
 return (
     <div className='flex justify-center'>
-      <div className='md:p-8 lg:w-3/4 flex flex-row justify-around sm:justify-center gap-4 flex-wrap'>
+      <div className='md:p-8 lg:w-3/4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-10 gap-y-12 place-items-center'>
         {companies.map((c, index) => {
           const isPwC = c.src?.toLowerCase().includes("pwc");
           const istwb = c.src?.toLowerCase().includes("worldbank");
@@ -58,7 +58,7 @@ return (
             <div
               key={index}
               className={`flex relative ${
-                isPwC || istwb? 'w-52 h-48' : 'w-60 h-56'
+                isPwC || istwb? 'w-52 h-48' : 'w-52 h-48'
               }`}
             >
               <Image
