@@ -19,12 +19,12 @@ const MPP = () => {
 
     return (
         <>
-            <SlidingHero image={'./policy.jpg'} title={[`Learn Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Policy Scholar</span><br class='hidden md:block'/> to Become Leader in Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
+            <SlidingHero image={'./policy.jpg'} title={[`Learn Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Policy Consulting Lab</span><br class='hidden md:block'/> to Become Leader in Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
 
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
-            <Heading margin={60}>Why GGI Policy Scholars  Works?</Heading>
+            <Heading margin={60}>Why GGI Policy Consulting Lab Works?</Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <Heading>+88% GGIians working in Top Policy & Social Impact Roles and Organizations</Heading>
@@ -54,7 +54,7 @@ const MPP = () => {
             </div>
             <Container>
                 <p>
-                    GGI Policy Scholars community comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the London School of Economics and Political Science. A few of the policy scholars are working professionals in organizations such as Pratham, Teach for India, NITI Aayog, Hindustan Times and other leading education NGOs.
+                    The GGI Policy Consulting Lab comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the London School of Economics and Political Science. A few of the policy scholars are working professionals in organizations such as Pratham, Teach for India, NITI Aayog, Hindustan Times and other leading education NGOs.
                 </p>
             </Container>
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
