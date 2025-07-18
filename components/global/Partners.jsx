@@ -53,6 +53,7 @@ return (
         {companies.map((c, index) => {
           const isPwC = c.src?.toLowerCase().includes("pwc");
           const istwb = c.src?.toLowerCase().includes("worldbank");
+          const isam = c.src?.toLowerCase().includes("amz");
   
           return (
             <div

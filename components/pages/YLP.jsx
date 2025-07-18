@@ -126,7 +126,7 @@ const YLP = () => {
             </div >
 
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='DXHPoAPXQQc' autoplay={1}/>
             </div>
             <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />

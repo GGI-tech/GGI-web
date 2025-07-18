@@ -64,12 +64,12 @@ const PREMBADATA = () => {
                 <p className='mb-24'>4. If you are a <span className='primary font-bold'>founder</span> who wants to adapt to <span className='primary font-bold'>market shocks</span>.</p>
 
             </Container>
-            <YoutubeEmbed embedId='NrAvqFqbZrU' />
+            <YoutubeEmbed embedId='NrAvqFqbZrU' autoplay={1}/>
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
             <Heading>Post Graduate Program in Management</Heading>
             <Curriculum data={curriculum}/>
-            <YoutubeEmbed embedId='lGyhkONUSwk' />
+            <YoutubeEmbed embedId='lGyhkONUSwk' autoplay={1}/>
             <Heading>Program Advantages: <strong>The Anti-Fragility Edge</strong></Heading>
             <FourColumnLayout data={fourcolumndata2} />
 
@@ -93,7 +93,7 @@ const PREMBADATA = () => {
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
-            <YoutubeEmbed embedId='nQkS0i38ls8' />
+            <YoutubeEmbed embedId='nQkS0i38ls8' autoplay={1}/>
 
             <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
             <Community />
@@ -130,7 +130,7 @@ const PREMBADATA = () => {
             <Heading>GGI Associations</Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='DXHPoAPXQQc' autoplay={1}/>
             </div>
             <Heading margin={2}>Frequently Asked Questions</Heading>
             <Accordion />

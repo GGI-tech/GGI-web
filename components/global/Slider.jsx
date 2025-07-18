@@ -47,8 +47,8 @@ const Slider = ({ slides }) => {
                       className='rounded-full object-cover bg-cover'
                       src={slide.image}
                       alt='/'
-                      width='220'
-                      height='220'
+                      width='300'
+                      height='300'
                     />
                     <p className='font-semibold text-sm text-center' dangerouslySetInnerHTML={{ __html: slide.name }}></p>
                     <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p>

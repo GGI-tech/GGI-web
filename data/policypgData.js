@@ -4,18 +4,18 @@ import arunm from '../public/arun_maira.jpg'
 import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------------
 
-import dalberg from '../public/dalberg.jpg';
-import fsg from '../public/fsg.jpg';
+import dalberg from '../public/dalbergnew.jpg';
+import fsg from '../public/fsglogo.jpg';
 import central from '../public/central.jpg';
-import bridgespan from '../public/bridgespan.jpg';
 import nudge from '../public/nudge.jpg';
 import gdi from '../public/gdi.jpg';
 import civil from '../public/civil.jpg';
-import UN from '../public/UN.jpg';
-import Worldbank from '../public/Worldbank.jpg';
-import gov from '../public/gov.jpg';
+import UN from '../public/unlogonew.png';
+import Worldbank from '../public/worldbanknew.png';
+import gov from '../public/govofindia.jpg';
+import tony from '../public/tonyblair.png';
 
-export const companies = [ dalberg, Worldbank, fsg, UN, gov,bridgespan, civil,gdi, nudge,central];
+export const companies = [ dalberg, Worldbank, fsg, central, gov, tony, nudge, UN];
 
 export const fourcolumndata = [ //to be fetched from database
     {

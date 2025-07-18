@@ -58,7 +58,7 @@ const TechMBA = () => {
 
             <Heading>Post Graduate Program in Tech-MBA </Heading>
             <Curriculum data={curriculum} />
-            <YoutubeEmbed embedId='NrAvqFqbZrU' />
+            <YoutubeEmbed embedId='NrAvqFqbZrU' autoplay={1}/>
             <Button page="mpp" url="https://forms.gle/bKdod9UcbUzoEoYYA">APPLY NOW</Button>
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
@@ -70,7 +70,7 @@ const TechMBA = () => {
                 GGI Tech MBA Scholars community comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the MIT. A few of the Tech-MBA scholars are working professionals in organizations such as Pratham, Google, Uber, Teach for India, and other leading Tech-Businesses.
                 </p>
             </Container>
-            <YoutubeEmbed embedId='lGyhkONUSwk' />
+            <YoutubeEmbed embedId='lGyhkONUSwk' autoplay={1}/>
             <Button page="mpp" url="https://forms.gle/bKdod9UcbUzoEoYYA">APPLY NOW</Button>
 
             <Heading>A Liberal Refund Policy for You </Heading>
@@ -105,7 +105,7 @@ const TechMBA = () => {
             <Heading>Our Associations </Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='DXHPoAPXQQc' autoplay={1}/>
             </div>
             <Heading margin={2}>Frequently Asked Questions </Heading>
             <Accordian />

@@ -123,6 +123,15 @@ button {
 /* underlines for headings */
 strong {
   position: relative;
+  /* bottom: -0.2rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  height: clamp(1rem, 0.6094rem + 0.6250vw, 1.2rem);
+  z-index: -1;
+  background-image: url("/u1.svg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+
 }
 
 strong::after {
@@ -146,15 +155,37 @@ strong::after {
 } */
 
 p>strong {
-  font-weight: 400;
+  /* font-weight: 400; */
+  content: "";
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  height: clamp(1rem, 0.6094rem + 0.6250vw, 1.2rem);
+  z-index: -1;
+  background-image: url("/u1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
 p>strong::after {
-  bottom: -0.2rem;
+  /* bottom: -0.2rem;
   height: 0.5rem;
   left: -0.25rem;
-  right: -0.25rem;
+  right: -0.25rem; */
+  content: "";
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  height: clamp(1rem, 0.6094rem + 0.6250vw, 1.2rem);
+  z-index: -1;
+  background-image: url("/u1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 

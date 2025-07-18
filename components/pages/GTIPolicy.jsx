@@ -45,7 +45,7 @@ const GTIPolicy = () => {
 
             <Heading>Post Graduate Program in Tech Policy </Heading>
             <Curriculum data={curriculum} />
-            <YoutubeEmbed embedId='I0t8nCIst3M' />
+            <YoutubeEmbed embedId='I0t8nCIst3M' autoplay={1}/>
             <Button page="mpp" url="https://forms.gle/jxT6BKKwd2FpSVAt5">APPLY NOW</Button>
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
@@ -57,7 +57,7 @@ const GTIPolicy = () => {
                 GGI Tech Policy Scholars community comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the MIT. A few of the tech policy scholars are working professionals in organizations such as Pratham, Google, Uber, Teach for India, NITI Aayog, Hindustan Times and other leading education NGOs.
                 </p>
             </Container>
-            <YoutubeEmbed embedId='OA4YaeVZhsA' />
+            <YoutubeEmbed embedId='OA4YaeVZhsA' autoplay={1}/>
             <Button page="mpp" url="https://forms.gle/jxT6BKKwd2FpSVAt5">APPLY NOW</Button>
 
             <Heading>A Liberal Refund Policy for You </Heading>
@@ -92,7 +92,7 @@ const GTIPolicy = () => {
             <Heading>Our Associations </Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='DXHPoAPXQQc' autoplay={1}/>
             </div>
             <Heading margin={2}>Frequently Asked Questions </Heading>
             <Accordian />

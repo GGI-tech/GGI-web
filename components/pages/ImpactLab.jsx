@@ -66,7 +66,7 @@ const ImpactLab = () => {
             <Partners companies={[teachforindia, pratham, goonj, caspr, gobarefoot, stir, visionunlimited, udaan, bhumi]} />
             
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='DXHPoAPXQQc' autoplay={1}/>
             </div>
             <Heading margin={2}>Frequently Asked Questions</Heading>
             <Accordion />

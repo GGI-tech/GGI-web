@@ -3,13 +3,13 @@ import clinton from '../public/clinton.png'
 import rjgupta from '../public/rajat_gupta.png'
 import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------
-import BCG from '../public/bcg.png';
+import BCG from '../public/bcg.jpg';
 import mckinsey from '../public/mckinsey.png';
 import bain from '../public/bain-logo.jpg';
-import kearney from '../public/Kearney.jpg';
-import ey from '../public/ey.png';
-import pwc from '../public/pwc.jpg';
-import amz from '../public/amz.jpg';
+import kearney from '../public/kearneynew.jpg';
+import ey from '../public/eynew.png';
+import pwc from '../public/pwcnew.png';
+import amz from '../public/amazon.png';
 import paytm from '../public/paytm.png';
 // -----------------------------------------------------
 

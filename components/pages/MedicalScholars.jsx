@@ -83,12 +83,12 @@ const MedicalScholars = () => {
                 <p>5. You arer a Young Doctor who wants to take up Higher Administrative Roles in your Hospitals. </p>
 
             </Container>
-            <YoutubeEmbed embedId='0XC2VXBF29g' />
+            <YoutubeEmbed embedId='0XC2VXBF29g' autoplay={1}/>
             <Button url="https://docs.google.com/forms/d/1b_2u8I0EVe8Qf8DoKdUOTqGXq4-u8ul6CzuHl5tL3Rs/viewform"> APPLY NOW</Button>
 
             <Heading>Curriculum & Commitment</Heading>
             <Curriculum data={curriculum} />
-            <YoutubeEmbed embedId='pEH8DR7LqJM' />
+            <YoutubeEmbed embedId='pEH8DR7LqJM' autoplay={1}/>
 
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
@@ -101,7 +101,7 @@ const MedicalScholars = () => {
 
                 </div>
             </Container>
-            <YoutubeEmbed embedId='BCwbgh9-69k' />
+            <YoutubeEmbed embedId='BCwbgh9-69k' autoplay={1}/>
             <Button url="https://docs.google.com/forms/d/1b_2u8I0EVe8Qf8DoKdUOTqGXq4-u8ul6CzuHl5tL3Rs/viewform"> APPLY NOW</Button>
 
             
@@ -124,7 +124,7 @@ const MedicalScholars = () => {
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Management & Impact Consulting </Heading>
             <Masterclasses />
-            <YoutubeEmbed embedId='nQkS0i38ls8' />
+            <YoutubeEmbed embedId='nQkS0i38ls8' autoplay={1}/>
 
            
             <Heading>Program Fees </Heading>
@@ -139,7 +139,7 @@ const MedicalScholars = () => {
             <Associations />
             
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' />
+                <YoutubeEmbed embedId='DXHPoAPXQQc' autoplay={1}/>
             </div>
             <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />

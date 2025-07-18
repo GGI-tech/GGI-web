@@ -32,7 +32,7 @@ import Community from '../../components/global/Community';
 import FourColumnLayout from '../../components/global/FourColumnLayout';
 // -------------------------------------------------------
 
-import contact from '../../public/ss.jpeg'
+import contact from '../../public/ss-new.jpg'
 
 
 
@@ -119,7 +119,7 @@ const Main = () => {
             <div className='mt-24 flex justify-center'>
                 <p className='md:w-3/5 md:text-lg font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
-            <YoutubeEmbed embedId='34Hgf5F_M90' />
+            <YoutubeEmbed embedId='34Hgf5F_M90' autoplay={1}/>
             
             
             <Heading>Global Recognition Allows us to Serve you Better</Heading>
@@ -259,7 +259,7 @@ const Main = () => {
             </div>
 
             <div className='mt-48'>
-                <YoutubeEmbed embedId='2oLOzBJvBDM' />
+                <YoutubeEmbed embedId='2oLOzBJvBDM' autoplay={1}/>
             </div>
             <Heading margin={1}>Frequently Asked Questions</Heading>
             <Accordion />
