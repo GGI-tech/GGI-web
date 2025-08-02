@@ -52,6 +52,8 @@ const Main = () => {
 
             <Slider slides={testimonialMain} />
 
+            <br/>
+            <br/>
 
             <Heading>+88% GGIians working in Top <strong >Consulting,</strong><strong> Policy,</strong> <strong>Product</strong> Roles and Organizations
             </Heading>

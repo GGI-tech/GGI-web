@@ -6,11 +6,11 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
 
     return (
         <>
-            <button onClick={() => handleSetIndex(index)} className='flex w-screen sm:w-3/4 justify-between pl-10 pr-5 py-3 mt-2 rounded skin border'>
+            <button onClick={() => handleSetIndex(index)} className='flex w-full sm:w-3/4 justify-between pl-10 pr-5 py-3 mt-2 rounded skin border text-left'>
                 <div className=''>
                     <p className='primary font-semibold'>{title}</p>
                 </div>
-                <div className="flex items-center justify-center">
+                <div className="flex items-start justify-center">
                     {
                         (activeIndex === index)
                             ? <IoIosArrowUp className='w-5 h-5 text-black/60' />
