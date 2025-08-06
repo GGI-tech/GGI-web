@@ -366,7 +366,7 @@ const data1 = [
         "title": "DARSHITA DEVNANI",
         "url": "https://www.linkedin.com/in/darshitadevnani/",
         "org": "SATTVA CONSULTING",
-        "img": "/DARSHITA.jpg",
+        "img": "/darshita2.jpg",
         "text": "Shortly after GGI, I joined Sattva Consulting.<br><br> I'm a commerce graduate from Gargi college. I was working at EY as an Assurance Associate in their Private Equity team.<br>I came across GGI six months ago, and soon I enrolled for the Impact MBA Scholars program. And here is my GGI journey:<br><br>  1. I got to learn about Management and Policy consulting at length; and it resonated with my mid-term and long-term goal of exploring and working in these sectors. 2. I became part of a very diverse community who helped me in each step of the way; frame and shape my mid-term and long-term career. 3. Lastly, I wanted to make a switch from Audit to a Consulting sector. In a span of one month, I came across diverse individuals from B-schools working at Consulting firms and got to connect Naman and Shatakshi (the founders) regarding this. They helped me end to end as a fellow later.<br><br>  I finally got an offer letter from an impact consulting firm, and I am excited to start my journey there!"
     },
     {
@@ -746,15 +746,15 @@ const Employment = () => {
                 <img src={'/ssss2.png'} width='50%' alt=''/>
                 <img src={'/ssss3.png'} width='50%' alt=''/>
                 <img src={'/ssss4.png'} width='50%' alt=''/>
-                <img src={'/ssss5.jpeg'} width='50%' alt=''/>
-                <img src={'/ssss6.jpeg'} width='50%' alt=''/>
-                <img src={'/ssss7.png'} width='50%' alt=''/>
-                <img src={'/ssss8.png'} width='50%' alt=''/>
-                <img src={'/ssss9.png'} width='50%' alt=''/>
-                <img src={'/ssss10.png'} width='50%' alt=''/>
+                <img src={'/ssss5.jpeg'} alt=''/>
+                <img src={'/ssss6.jpeg'} alt=''/>
+                <img src={'/ssss7.png'} alt=''/>
+                <img src={'/ssss8.png'} alt=''/>
+                
+                <img src={'/ssss10.png'} alt=''/>
                 <img src={'/ssss11.png'} width='50%' alt=''/>
-                <img src={'/ssss12.png'} width='50%' alt=''/>
-                <img src={'/ssss13.png'} width='50%' alt=''/>
+                <img src={'/ssss12.png'} alt=''/>
+                <img src={'/ssss13.png'} alt=''/>
                 <img src={'/rr40.png'} width='50%' alt=''/>
                 <img src={'/rr41.png'} width='50%' alt='' />
                 <img src={'/rr42.png'} width='60%' alt='' />
