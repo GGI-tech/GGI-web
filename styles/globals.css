@@ -123,6 +123,8 @@ button {
 /* underlines for headings */
 strong {
   position: relative;
+  display: inline-block;
+  z-index: 0;
   /* bottom: -0.2rem;
   left: 0.25rem;
   right: 0.25rem;
@@ -155,8 +157,9 @@ strong::after {
 } */
 
 p>strong {
+  position: relative;
   /* font-weight: 400; */
-  content: "";
+  /* content: "";
   position: absolute;
   bottom: -0.2rem;
   left: 0.25rem;
@@ -165,16 +168,17 @@ p>strong {
   z-index: -1;
   background-image: url("/u1.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 
 }
 
-
+/* 
 p>strong::after {
-  /* bottom: -0.2rem;
+  bottom: -0.2rem;
   height: 0.5rem;
   left: -0.25rem;
-  right: -0.25rem; */
+  right: -0.25rem; 
+
   content: "";
   position: absolute;
   bottom: -0.2rem;
@@ -186,7 +190,7 @@ p>strong::after {
   background-repeat: no-repeat;
   background-size: cover;
 
-}
+} */
 
 
 /* background image on home */

@@ -120,8 +120,8 @@ const Navbar = ({applicationbanner}) => {
                 <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
                         Feynman AI Fellowship
                       </a>
-                      <a href='https://www.thirdspace.org.in/curiefellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
-                        Curie Fellowship: For Mothers
+                      <a href='https://www.thirdspace.org.in/davincilab' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
+                        Da Vinci Lab: To Become Solopreneur
                       </a>
                    {/* <a href='https://www.globalgovernanceinitiative.org/anti-fragile' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
                         GGI Anti-Fragile Scholars
@@ -247,8 +247,8 @@ const Navbar = ({applicationbanner}) => {
                   <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
                     FEYNMAN AI FELLOWSHIP
                   </a>
-                  <a href='https://www.thirdspace.org.in/curiefellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
-                    CURIE FELLOWSHIP: FOR MOTHERS
+                  <a href='https://www.thirdspace.org.in/davincilab' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
+                    DA VINCI LAB: TO BECOME SOLOPRENEUR
                   </a>
                   {/* <a href='https://www.globalgovernanceinitiative.org/anti-fragile' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
                     GGI ANTI-FRAGILE SCHOLARS

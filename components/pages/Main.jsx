@@ -48,7 +48,7 @@ const Main = () => {
                 Learn More about Advancing Your Career
             </Button>
 
-            <Heading>Hear from GGIians who have successfully transitioned into Consulting, Policy, and Product Management roles - their experiences with us.</Heading >
+            <Heading>Hear from GGIians who have successfully transitioned into <strong>Consulting</strong>, <strong>Policy</strong>, and <strong>Product Management</strong> roles - their experiences with us.</Heading >
 
             <Slider slides={testimonialMain} />
 
