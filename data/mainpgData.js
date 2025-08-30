@@ -48,7 +48,30 @@ export const fourcolumndata = [ //to be fetched from database
 export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, fsg, gov, worldbank, UN, Delloite, tony];
 
 export const testimonialMain = [
-  
+  {
+    name: 'Gaurav Sachdeva',
+    org: 'GGI Fellow, 2025<br> MBA & Public Policy at IIM Udaipur',
+    image: '/gaurav_sachdeva.png',
+    review: "Gaurav hails from a military backgroundand brings multiple years of experience across grassroots development, philanthropy, public consulting, and entrepreneurial retail. <br/><br/>He started in disability inclusion, partnering with <span class='font-bold'>McDonald's, Lifestyle, and Shoppers Stop to mainstream hiring of persons with disabilities.</span> <br/><br/>He expanded into corporate philanthropy at Welspun World Industries and Shiv Nadar Foundation, then contributed to an agricultural initiative <span class='font-bold'>impacting 60,000+ farmers at Grant Thornton.</span><br/><br/>Currently, he leads operations for <span class='font-bold'>HCL Corporation's ventures</span> running experiential education programs with institutions like CERN and building a retail school supplies brand. With MBA and, a Public Policy credential from <span class='font-bold'>IIM Udaipur, and a #military family background</span>, his focus remains: building systems that scale with heart and discipline. GGI's Impact Fellowship enables him to solve real-world challenges, expand his network, and enhance his entrepreneurship journey."
+  },
+  {
+    name: 'Anukesh Valase',
+    org: 'GGI Fellow, 2025<br> PhD- Supply Chain Management at IIT Madras, Project Contributor at FedEx',
+    image: '/anukesh_valase.png',
+    review: "Anukesh is currently pursuing my <span class='font-bold'>Ph.D. in Supply Chain Management at Indian Institute of Technology, Madras</span> under joint supervision with the <span class='font-bold'>Technical University of Munich</span>. His research tackles real-world retail challenges, focusing on optimizing inventory strategies, returns management, and channel integration through innovative, AI-driven approaches. <br/><br/>Additionally, he has contributed to FedEx projects by advising on policy challenges for air cargo to suggest efficiency improvements to the <span class='font-bold'>DGCA India and coordinating multiple projects under the FedEx Smart Center</span> at IIT Madras. <br/><br/>Outside of work, Anukesh loves to travel, explore different cuisines, and unwind by playing the piano. Anukesh aspires to be a transformational leader who cultivates resilience through timeless management principles and an unwavering commitment to sustainable growth."
+  },
+  {
+    name: 'Naina Goel',
+    org: 'GGI Fellow, 2025<br> PhD at KU Leuven',
+    image: '/naina.png',
+    review: "Naina is currently pursuing her <span class='font-bold'>PhD in Interdisciplinary Life Sciences at KU Leuven</span>, while also teaching Modern Biology, AI, and ML at Bversity. <br/><br/>Her journey from a rural village in India to world-class research hubs like the Pasteur Institute, and participation in <span class='font-bold'>iGEM</span> is a powerful testament to her passion for healthcare, data, and AI.<br/><br/>At <span class='font-bold'>UCAN.AI</span>, Naina is developing machine learning models to enable data-driven decision-making in clinical settings.<br/><br/>At KU Leuven, she co-founded an open science idea lab and served as a <span class='font-bold'>transdisciplinary coach for decolonizing science</span>, championing equity and accessibility in knowledge creation."
+  },
+  {
+    name: 'Dr. Rahul V',
+    org: 'GGI Fellow, 2025<br> MBBS Graduate',
+    image: '/drrahul.png',
+    review: "Rahul Venkat is an <span class='font-bold'>MBBS graduate</span>, with a strong desire to drive change that extends far beyond the clinical setting.<br/><br/>With a wide understanding of the healthcare system and patient care, Rahul is now charting a path toward strategic leadership where he can combine medical expertise with business acumen to lead impactful initiatives in healthcare delivery, innovation, and systems transformation. <br/><br/>He believes in the power of <span class='font-bold'>cross-sector collaboration to solve complex challenges in public health and healthcare accessibility</span>.<br/><br/>Rahul is also a passionate traveler, always up for an adventure, especially on two wheels. To stay grounded and energized, he actively plays football and maintains a strong focus on physical fitness. At GGI, Rahul looks forward to expanding his toolkit, connecting with like-minded changemakers, and contributing meaningfully to policy and consulting projects that create large-scale impact."
+  },
   {
     name: 'Darshita Devnani',
     org: 'GGI Fellow, 2021<br> Asian Development Bank (ADB) (Post GGI Impact Fellowship Program)',

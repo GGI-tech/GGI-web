@@ -12,6 +12,7 @@ import Gallery from '../global/Gallery';
 import Footer from '../global/Footer';
 import Partners from '../global/Partners';
 import Button from '../global/Button';
+import Slider from '../global/Slider'
 import Steps from '../global/Steps';
 import { companies, fourcolumndata, stages, testimonialPolicy, curriculum } from '../../data/policypgData';
 
@@ -47,6 +48,10 @@ const MPP = () => {
             <Curriculum data={curriculum} />
             <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
+
+            <Heading>Hear what GGIians who have pivoted into Policy and Consulting roles- have to say about us</Heading >
+
+            <Slider slides={testimonialPolicy} /> 
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
             <div className='flex flex-wrap gap-10'>

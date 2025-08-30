@@ -76,6 +76,18 @@ export const stages = [
 
 ]
 export const testimonialPolicy = [
+     {
+        name: 'Akshita Sharma',
+        org: 'GGI Policy Scholar 2025',
+        image: '/akshita_sharma.png',
+        review: "Akshita Sharma is a retired <span class='font-bold'>Deputy Commandant from the INDIAN COAST GUARD</span>, now exploring her second innings in governance and public policy. <br><br> With over a decade of experience in leadership and operational planning, she’s passionate about building systems that are inclusive and grounded in public service. <br><br> Her current focus lies in strengthening institutional accountability and advancing child rights, areas where she hopes to drive meaningful change.<br><br>Through the GGI Policy Scholars, Akshita is looking to deepen her understanding of policy-making and contribute to frameworks that promote equity, transparency, and long-term social impact."
+    },
+    {
+        name: 'Rishabh Kashyap',
+        org: 'GGI Policy Scholar 2025',
+        image: '/rishabh_kashyap.png',
+        review: "Rishabh Kashyap is a public policy enthusiast from Himachal Pradesh with experience at <span class='font-bold'>NITI Aayog</span> under the Aspirational Blocks Programme, where he supported the on-ground implementation and monitoring of government schemes. <br><br> His background spans data analysis, and policy research, shaping his deep interest in development consulting and governance.<br><br> He believes meaningful change begins at the grassroots and aspires to work at the intersection of policy, strategy, and execution to ensure impactful delivery."
+    },
     {
         name: 'Priyal Keni',
         org: 'GGI MBA Scholar 2021',

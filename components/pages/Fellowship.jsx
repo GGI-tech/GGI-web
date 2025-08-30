@@ -42,6 +42,9 @@ const Fellowship = () => {
             <Heading>Hear from GGIians who have successfully transitioned into Consulting, Policy, and Product Management roles - their experiences with us.</Heading >
 
             <Slider slides={testimonialMain} /> 
+            <br/>
+            <br/>
+            <br/>
             <YoutubeEmbed embedId='ZtECOAyyDVA' autoplay={1}/>
             <Heading>Life After GGI Impact Fellowship</Heading>
 
