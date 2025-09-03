@@ -27,6 +27,9 @@ const MPP = () => {
 
             <Heading margin={60}>Why GGI Policy Consulting Lab Works?</Heading>
             <FourColumnLayout data={fourcolumndata} />
+            <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading >
+
+            <Slider slides={testimonialPolicy} />
 
             <Heading>+88% GGIians working in Top Policy & Social Impact Roles and Organizations</Heading>
             <Partners companies={companies} />
@@ -49,9 +52,6 @@ const MPP = () => {
             <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
-            <Heading>Hear what GGIians who have pivoted into Policy and Consulting roles- have to say about us</Heading >
-
-            <Slider slides={testimonialPolicy} /> 
 
             <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
             <div className='flex flex-wrap gap-10'>

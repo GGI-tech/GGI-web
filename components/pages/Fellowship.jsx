@@ -14,7 +14,7 @@ import Steps from '../global/Steps'
 import Slider from '../global/Slider'
 import Footer from '../global/Footer'
 import Button from '../global/Button'
-import { testimonialMain } from '../../data/mainpgData';
+import { testimonialMainFellows } from '../../data/mainpgData';
 
 // --------------------------------------------------------------------
 import studs1 from '../../public/s1.png'
@@ -41,7 +41,7 @@ const Fellowship = () => {
 
             <Heading>Hear from GGIians who have successfully transitioned into Consulting, Policy, and Product Management roles - their experiences with us.</Heading >
 
-            <Slider slides={testimonialMain} /> 
+            <Slider slides={testimonialMainFellows} /> 
             <br/>
             <br/>
             <br/>

@@ -75,6 +75,12 @@ export const stages = [
 ]
 export const testimonialMBA = [
     {
+    name: 'GANGADHAR REDDY',
+    org: 'GGI Impact MBA Scholar, 2025<br>Sarpanch',
+    image: '/gangadhar.png',
+    review: "Gangadhar Reddy is the <span class='font-bold'>Sarpanch of his village</span>, where he has spearheaded community development initiatives, improved infrastructure, and championed the empowerment of marginalized groups through government programs. <br><br> Gangadhar hails from Bodduvanipalle village in Orvakal Mandal, Kurnool district, Andhra Pradesh and holds a Bachelor's degree in Business Administration from Bangalore University. His dedication to Good Governance earned his village the second prize for best governance in Orvakal Mandal.  <br><br> Passionate about creating meaningful social change, Gangadhar envisions a future where large-scale rural development projects and policy-driven solutions transform communities. <br><br> He is committed to building strong, sustainable systems that empower people and leave a lasting impact in the public sector."
+  },
+    {
         name: 'Patrick Makwe Rankhumise',
         org: 'GGI Global Leadership Scholar 2023',
         link: 'https://www.linkedin.com/feed/update/urn:li:activity:7073176963816861696',

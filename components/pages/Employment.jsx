@@ -79,7 +79,7 @@ const data1 = [
         "title": "ANAMITRA MUNSI",
         "url": "https://www.linkedin.com/in/anamitra-munsi/",
         "org": "BOSTON CONSULTING GROUP",
-        "img": "/ana.jpg",
+        "img": "/anamitra.jpg",
         "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
     },
 
