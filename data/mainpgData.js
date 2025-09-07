@@ -364,7 +364,7 @@ export const testimonialMain2 = [
     {
     name: 'ANAMITRA MUNSI',
     org: 'GGI MBA Scholar, 2021<br> ISB Hyderabad (Post GGI Pre-MBA Scholars Program)',
-    image: '/ana.jpg',
+    image: '/anamitra.jpg',
     review: "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations<span class='font-bold'> I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG)</span>.<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. <span class='font-bold'>GGI was the perfect platform to do that.<br><br></span> Everyone at GGI is there to learn and they won&#39;t be judging you, don&#39;t be bogged down. And there hasn&#39;t been a single instance when I have reached out and not received a response from Naman and Shatakshi"
   },
   {
