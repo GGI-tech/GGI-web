@@ -1,5 +1,4 @@
-import React,  { useState } from 'react'
-
+import React, { useState } from 'react'
 import GalleryImg from '../global/GalleryImg';
 import img12 from '../../public/12.jpg';
 import img13 from '../../public/13.jpg';
@@ -20,131 +19,81 @@ import img27 from '../../public/letsgo.png';
 import img28 from '../../public/28.jpg';
 import img29 from '../../public/29.jpg';
 
+const defaultData = [
+  { img: img13, caption: "Ex Asia Chairman, Blackrock" },
+  { img: img12, caption: "Ex-Global CEO, Mckinsey & Co" },
+  { img: img14, caption: "Ex-BCG India Chairman & Member, Planning Commission India" },
+  { img: img15, caption: "Current BCG India Chairman" },
+  { img: img16, caption: "Managing Partner, Promethos Capital" },
+  { img: img17, caption: "Global Chairman, BCG Henderson Institute" },
+  { img: img18, caption: "President, Amazon AWS South Asia" },
+  { img: img19, caption: "Former Election Commissioner- Finance Secretary" },
+  { img: img20, caption: "Partner BCG, Social Impact Practice" },
+  { img: img21, caption: "BCG, Managing Director & Senior" },
+  { img: img22, caption: "Dean, IBGC Fletcher School of Law" },
+  { img: img23, caption: "Former Cabinet Secretary, Govt. of India" },
+  { img: img24, caption: "CEO, Arthur D. Little, South Asia & India" },
+  { img: img25, caption: "Minister in Malaysia" },
+  { img: img26, caption: "Chairman, Founder, Aavishkar Group" },
+  { img: img27, caption: "Founding Partner, Bain & Co. | Light Speed Ventures" },
+  { img: img28, caption: "Ex NDTV Host, Ex- Bain Consultant" },
+  { img: img29, caption: "Former COO, UNICEF (Generation Unlimited)" },
+];
 
-const defaultData=[
-  {
-    "img":img13,
-    "caption":"Ex Asia Chairman, Blackrock",
-  },
-  {
-    "img":img12,
-    "caption":"Ex-Global CEO, Mckinsey & Co",
-  },
-  {
-    "img":img14,
-    "caption":"Ex-BCG India Chairman & Member, Planning Commission India",
-  },
-  {
-    "img":img15,
-    "caption":"Current BCG India Chairman",
-  },
-  {
-    "img":img16,
-    "caption":"Managing Partner, Promethos Capital",
-  },
-  {
-    "img":img17,
-    "caption":"Global Chairman, BCG Henderson Institute",
-  },
-  {
-    "img":img18,
-    "caption":"President, Amazon AWS South Asia",
-  },
-  {
-    "img":img19,
-    "caption":"Former Election Commissioner- Finance Secretary",
-  },
-  {
-    "img":img20,
-    "caption":"Partner BCG, Social Impact Practice",
-  },
-  {
-    "img":img21,
-    "caption":"BCG, Managing Director & Senior",
-  },
-  {
-    "img":img22,
-    "caption":"Dean, IBGC Fletcher School of Law ",
-  },
-  {
-    "img":img23,
-    "caption":"Former Cabinet Secretary, Gvt. of India",
-  },
-  {
-    "img":img24,
-    "caption":"CEO, Arthur D. Little, South Asia & India",
-  },
-  {
-    "img":img25,
-    "caption":"Minister in Malaysia",
-  },
-  {
-    "img":img26,
-    "caption":"Chairman, Founder, Aavishkar group",
-  },
-  {
-    "img":img27,
-    "caption":"Founding Partner, Bain & Co. | Light Speed Ventures",
-  },
-  {
-    "img":img28,
-    "caption":"Ex NDTV Host, Ex- Bain Consultant",
-  },
-  {
-    "img":img29,
-    "caption":"Former COO, UNICEF (Generation Unlimited)",
-  }
-]
-const Gallery = ({data=defaultData}) => {
+const Gallery = ({ data = defaultData }) => {
   const [isOpened, setIsOpened] = useState(false);
 
-  function toggle() {
-    setIsOpened(wasOpened => !wasOpened);
-  }
-  return (
-    <>
-      <div className='md:w-2/3 mx-auto text-center md:py-5'>
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4 :plg-12'>
-          {
-            data.slice(0,12).map((item, ind)=>(
-              <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />
+  const globalConsulting = data.slice(0, 6);
+  const policyMakers = data.slice(6, 12);
+  const corporateLeaders = data.slice(12, data.length);
 
-            ))
-          }
-          {/* <GalleryImg socialImg={img13} caption={'Ex Asia Chairman, Blackrock'} />
-          <GalleryImg socialImg={img12} caption={'Ex-Global CEO, Mckinsey & Co'} />
-          <GalleryImg socialImg={img14} caption={'Ex-BCG India Chairman & Member, Planning Commission India'} />
-          <GalleryImg socialImg={img15} caption={'Ex- Mckinsey Partner; Advisor, Pata'} />
-          <GalleryImg socialImg={img16} caption={'Managing Partner, Promethos Capital'} />
-          <GalleryImg socialImg={img17} caption={'Global Chairman, BCG Henderson Institute'} />
-          <GalleryImg socialImg={img18} caption={'President, Amazon AWS South Asia'} />
-          <GalleryImg socialImg={img19} caption={'Former OSD NITI Aayog'} />
-          <GalleryImg socialImg={img20} caption={'Partner BCG, Social Impact Practice'} />
-          <GalleryImg socialImg={img21} caption={'BCG, Managing Director & Senior'} />
-          <GalleryImg socialImg={img22} caption={'Dean, IBGC Fletcher School of Law '} />
-          <GalleryImg socialImg={img23} caption={'Dean, IBGC Fletcher School of Law '} /> */}
+  function toggle() {
+    setIsOpened(prev => !prev);
+  }
+
+  return (
+    <div className="md:w-3/4 mx-auto text-center md:py-5">
+      {/* ---------- Global Consulting Leaders ---------- */}
+      <div className="my-10">
+        <h2 className="text-xl md:text-2xl font-bold mb-6 text-gray-800">Global Consulting Leaders</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4">
+          {globalConsulting.map((item, ind) => (
+            <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />
+          ))}
         </div>
       </div>
-      {!isOpened && (<div className='text-center text-sm md:text-base text-blue-900' onClick={toggle}>Show more..</div>)}
-      {isOpened && (
-        <div className='md:w-3/4 mx-auto text-center md:py-5'>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4 lg:p-12'>
-          {
-            data.slice(12, data.length).map((item, ind)=>(
-              <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />
 
-            ))
-          }
-            {/* <GalleryImg socialImg={img24} caption={'CEO, Arthur D. Little, South Asia & India '} />
-            <GalleryImg socialImg={img25} caption={'Minister in Malaysia '} />
-            <GalleryImg socialImg={img26} caption={'Harvard MBA, Chief of Staff- Hike '} />
-            <GalleryImg socialImg={img27} caption={'Coach, Ted Speakers'} />
-            <GalleryImg socialImg={img28} caption={'Ex NDTV Host, Ex- Bain Consultant '} />
-            <GalleryImg socialImg={img29} caption={'Former COO, UNICEF (Generation Unlimited) '} /> */}
-          </div>
-        </div>)}
-    </>
-  )
-}
+      {/* ---------- Policy Makers & Bureaucrats ---------- */}
+      <div className="my-10">
+        <h2 className="text-xl md:text-2xl font-bold mb-6 text-gray-800">Policy Makers & Bureaucrats</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4">
+          {policyMakers.map((item, ind) => (
+            <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />
+          ))}
+        </div>
+      </div>
 
-export default Gallery
+      {/* ---------- Corporate & Investment Leaders ---------- */}
+      <div className="my-10">
+        <h2 className="text-xl md:text-2xl font-bold mb-6 text-gray-800">Corporate & Investment Leaders</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4">
+          {corporateLeaders.map((item, ind) => (
+            <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />
+          ))}
+        </div>
+      </div>
+
+      {/* Optional: "Show more" future-proof toggle if needed */}
+      {data.length > 18 && !isOpened && (
+        <div
+          className="text-center text-sm md:text-base text-blue-900 cursor-pointer"
+          onClick={toggle}
+        >
+          Show more..
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Gallery;

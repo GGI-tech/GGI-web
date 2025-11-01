@@ -30,12 +30,14 @@ const Fellowship = () => {
             <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting,<br class='hidden lg:block'/> Mentorship by BCG, Mckinsey Consultants <br class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span><br class='hidden lg:block'/> To Become a Young Leader`]} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> ADVANCE YOUR CAREER NOW</Button>
 
-            <Heading margin={60}>Why GGI Impact Fellowship Works ?</Heading>
+            <Heading margin={60}>Why GGI Impact Fellowship <em>Actually</em> Works ?</Heading>
             <FiveColumnLayout data={fivecolumndata} />
             <Container>
-                <p className='mb-5 mt-12'>The best teaching occurs only when there is a direct relationship between a teacher and a student—a situation where the student discusses ideas, thinks critically, and engages in meaningful conversation. However, in modern times, creating scalable solutions is challenging due to the sheer number of students. Consequently, GGI Impact Fellowship has developed a non-scalable McKinsey work experience ecosystem at 1/500th of the cost.</p>
-                <p className='mb-5'><span className='font-semibold primary'>Young professionals often waste years preparing for Civil Services</span> to enter the development sector or reading countless cases in the false hope of breaking into management consulting. At Global Governance Initiative, we address this issue through our Impact Fellowship Program.</p>
-                <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span>The GGI Fellowship has been recognized by BCG Global Media for its consulting feeder program.</p>
+                <p className='mb-5 mt-12 text-justify font-semibold'>True learning happens through dialogue, not lectures.<br></br> That’s why GGI builds a <em>non-scalable McKinsey-style ecosystem</em> — one mentor, one Fellow, one project — at 1/500th the cost of elite consulting experience.</p>
+                <p className='mb-5 text-justify'><span className='font-semibold primary'>You’ve spent years chasing the UPSC dream — but deep down, you fear being 29, overqualified, and unemployed.
+                Or you’ve read 100 Harvard cases but still don’t know how real consulting feels.
+                GGI’s Impact Fellowship bridges that gap — turning paralysis into purpose.</span></p>
+                <p className='mb-12 text-justify font-semibold'><span className='font-semibold primary'></span>Recognized by BCG Global Media as one of the most effective consulting feeder programs — GGI builds the muscle memory of consulting long before you enter the firm.</p>
             </Container>
             <YoutubeEmbed embedId='BfXtDA8J-JI' autoplay={1} />
 
@@ -49,42 +51,49 @@ const Fellowship = () => {
             <Heading>Life After GGI Impact Fellowship</Heading>
 
             <Container>
-                <p className='mb-4'>There is no &#39;typical&#39; GGI career path. You will join diverse GGI alumni spanning sectors, industries, geographies, and interests, ranging from political risk analysis and banking to consulting, civil services in emerging markets, and policy work in international organizations.
+                <p className='mb-4'>There’s no ‘typical’ GGI path. Fellows lead consulting projects, launch ventures, and shape policy — across 25+ countries.
 </p>
                 <p className='mb-4'>The Impact Fellowship has positioned GGI Alumni for careers in various sectors, including:</p>
                 <ul className='list-disc ml-4'>
-                    <li className='mb-4'><span className='font-semibold primary'>Large Management Consulting Firms</span> such as The Boston Consulting Group, McKinsey, Bain & Company;</li>
-                    <li className='mb-4'><span className='font-semibold primary'>International Organizations</span> like the United Nations and the International Finance Corporation;</li>
-                    <li className='mb-4'><span className='font-semibold primary'>Social Impact Consulting </span> consulting groups such as Bridgespan, FSG, and Dalberg;</li>
-                    <li className='mb-4'><span className='font-semibold primary'>Large Multinationals</span> like Amazon, Unilever, and Procter & Gamble;</li>
-                    <li className='mb-4'><span className='font-semibold primary'>Organizations</span> focused on developing market interests, such as Dalberg.
+                    <li className='mb-4'><span className='font-semibold primary'>Consulting Firms: </span>McKinsey, BCG, Bain, Dalberg, FSG</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Global Organizations: </span>UN, IFC, ADB, WHO.</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Corporate Leaders: </span>Amazon, Unilever, P&G.
+</li>
+                    <li className='mb-4'><span className='font-semibold primary'>Social Impact & Policy Roles: </span>Government, Think Tanks, NGOs.
 </li>
                     
                 </ul>
-                <p className='mb-4'>Many large employers find that the Impact Fellowship from the Global Governance Initiative prepares young professionals not just for general management positions but also for roles within governmental affairs, environmental affairs, and other functional areas that require an education extending beyond traditional business skills. </p>
-                <p className='mb-4'>Impact Fellows at the Global Governance Initiative are equipped to understand the complexities of national and local situations deeply. </p>
-                <p>Impact Fellows at Global Governance Initiative are positioned to have a deep understanding of the complexity of national and local situations. </p>
+                <br/><br/>
+                <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>GGI Fellows don’t just change jobs — they change trajectories.</span></p>
             </Container>
-            <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
+            <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> STOP READING. START ACTING</Button>
 
 
             <Heading>Who is this Fellowship for ?</Heading>
             <Container>
-                <p> 1. You are a determined young professional looking to pivot into consulting and keen to learn by doing a consulting project directly with a <span className='primary font-semibold'>mentor from McKinsey, BCG, Bain, or Dalberg. </span> </p><br />
-                <p>2. You are a UPSC aspirant looking for a relevant <span className='primary font-semibold'> Plan B for Civil Services</span> and keen to contribute to the social impact sector.
- </p><br />
-                <p>3. You are seeking a <span className='primary font-semibold'>unique pre MBA/MPP work experience</span> in the social development consulting space by advising leading national NGO </p><br />
-                <p className='mb-12'>4. You are ready to pivot careers and looking <span className='primary font-semibold'>to connect with GGI&apos;s employment partners.
-</span></p>
-
+            <ul className="list-disc list-inside space-y-4 mb-12">
+                <li>
+                For the <span className='font-semibold primary'>UPSC aspirant</span> seeking a Plan B that’s equally purposeful.
+                </li>
+                <li>
+                For the <span className='font-semibold primary'>analyst or consultant</span> ready to level up through real work, not theory.
+                </li>
+                <li>
+                For the <span className='font-semibold primary'>MBA/MPP hopeful</span> who wants pre-degree consulting experience that stands out.
+                </li>
+                <li>
+                For the <span className='font-semibold primary'>career pivoter</span> looking to enter high-impact, high-prestige spaces with confidence.
+                </li>
+            </ul>
             </Container>
+            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If you’ve outgrown preparation and are ready for performance — this Fellowship is built for you.</span></p>
             <YoutubeEmbed embedId='lZMBRyoMNSQ' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
 
             <Heading>Curriculum & Commitment</Heading>
-            <p className='px-8 text-center font-bold mb-4' >If GGI MBA Scholars is Harvard Business School then GGI Impact fellowship is Harvard Business School along with Mckinsey&#39;s work experience </p>
-            <Curriculum2 data={curriculum} />
+            <Curriculum2 data={curriculum} /><br/><br/>
+            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If GGI MBA Scholars is Harvard Business School, then GGI Impact Fellowship is Harvard + McKinsey work experience — <br/>compressed into one transformative journey.</span></p><br/>
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
@@ -102,16 +111,21 @@ const Fellowship = () => {
             <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
-            <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills  ? </Heading>
-            <ThreeColumnLayout data={socialspaceimpactdata} />
-            <Container>Similarly,  <span className='primary font-semibold'>Council on Sustainable Development (CSD)</span> is a sister organization and think tank arm allowing exclusive opportunities to <span className="font-bold">GGI Fellows Only</span> to work with handpicked GGI mentors on cutting edge topics nudging public policy and achieving United Nations Sustainable Development Goals in emerging markets on climate, water, AI, women empowerment, investment and education crisis via young passionate mindset. You can read more about CSD research by our GGI fellows <u><a href='https://www.councilonsustainabledevelopment.org/' target="_blank" rel='noreferrer'>here</a></u>. </Container>
+            <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills</Heading>
+            {/* <ThreeColumnLayout data={socialspaceimpactdata} /> */}<br/>
+            <Container>
+                <p className='text-lg'>From blind football to climate strategy — our Fellows work with organizations like IBFF, The Goodstep, and CSD to create measurable change.
+                You’ll apply consulting frameworks to solve real-world impact challenges under mentor guidance.</p>
+            </Container><br/><br/>
+            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>Every GGI project drives impact that outlives the Fellowship.</span></p>
             <Heading>A Liberal Refund Policy for You </Heading>
     
             <Container>
-                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">3-day full refund policy from your first live masterclass date</span>. </p>
+                <p className='text-lg'>We want your learning to be 100% risk-free. If you’re not satisfied after your first live masterclass, we offer a no-questions-asked <span className="font-bold"> full refund within 3 days</span>.</p>
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, Consulting & Policy Leaders</Heading>
+            <p className='mb-12 text-center font-semibold'><span className='font-semibold primary'></span>Learn from Those Who’ve Built Nations, Companies, and Careers.</p>
             <Gallery />
 
             <Heading>With Impact Fellowship, The World is Your Classroom</Heading>
@@ -123,13 +137,15 @@ const Fellowship = () => {
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Management & Impact Consulting </Heading>
+             <p className='mb-12 text-center font-semibold'><span className='font-semibold primary'></span>GGI’s curriculum merges liberal arts depth with consulting precision.</p>
             <Masterclasses />
             <YoutubeEmbed embedId='Pt8cnPkD4k0' autoplay={1}/>
 
             <Heading>Program Fees </Heading>
-            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
-                <br /><br />
-                Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel='noreferrer'>here</a></u></p>
+            <Container> <p><span className='font-bold'>Top competitors charge ₹3–7 Lakhs.
+                GGI is 80% more affordable — delivering a real consulting experience for under ₹1 Lakh.
+                Full refund within 6 days of payment if you change your mind.
+                Apply only if you’re ready to perform and commit- selection rate of less than 10%.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel='noreferrer'>here</a></u></p>
             </Container>
 
             <Heading>Official Partners </Heading>

@@ -1,31 +1,63 @@
+// const Curriculum2 = ({ data }) => {
+//   return (
+//     <div className="lg:w-5/6 2xl:w-4/5 mx-auto p-4">
+//       {/* 3-column layout on desktop, 1-column on mobile */}
+//       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+//         {data.map((block, index) => (
+//           <div
+//             key={index}
+//             className="bg-white border border-gray-200 rounded-2xl shadow-md p-8 flex flex-col justify-center hover:shadow-lg transition-shadow duration-300"
+//           >
+//             {/* Block Title */}
+//             <h3 className="text-center text-2xl font-bold mb-6 primary">
+//               {block.blockTitle}
+//             </h3>
+
+//             {/* Bullet List */}
+//             <ul className="list-disc list-inside space-y-3 text-gray-800">
+//               {block.items.map((item, i) => (
+//                 <li key={i} className="font-medium leading-relaxed">
+//                   {item.title}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Curriculum2;
+
 const Curriculum2 = ({ data }) => {
-    // Split the data into two sections
-    const firstRow = data.slice(0, 4);  // First 4 items for the first row
-    const secondRow = data.slice(4);    // Remaining items for the second row
+  return (
+    <div className="lg:w-5/6 2xl:w-4/5 mx-auto p-4">
+      {/* 3-column layout on desktop, 1-column on mobile */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {data.map((block, index) => (
+          <div
+            key={index}
+            className="bg-white border border-gray-200 rounded-2xl shadow-md p-8 flex flex-col hover:shadow-lg transition-shadow duration-300"
+          >
+            {/* Title section (equal height for all cards) */}
+            <h3 className="text-center text-2xl font-bold mb-6 primary min-h-[70px] flex items-center justify-center">
+              {block.blockTitle}
+            </h3>
 
-    return (
-        <div className='lg:w-5/6 2xl:w-2/3 mx-auto p-4'>
-            {/* First Row: 4 Columns on larger screens, 2 columns on smaller screens */}
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-14 lg:gap-10 mb-16'>
-                {firstRow.map((e, i) => (
-                    <div key={i} className='text-center'>
-                        <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
-                        <p className="italic">{e.description}</p>
-                    </div>
-                ))}
-            </div>
-
-            {/* Second Row: 5 Columns on larger screens, 2 columns on smaller screens */}
-            <div className='grid grid-cols-2 md:grid-cols-5 gap-14 lg:gap-10'>
-                {secondRow.map((e, i) => (
-                    <div key={i} className='text-center'>
-                        <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
-                        <p className="italic">{e.description}</p>
-                    </div>
-                ))}
-            </div>
-        </div>
-    );
-}
+            {/* Bullet list */}
+            <ul className="list-disc list-inside space-y-3 text-gray-800">
+              {block.items.map((item, i) => (
+                <li key={i} className="font-medium leading-relaxed">
+                  {item.title}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Curriculum2;

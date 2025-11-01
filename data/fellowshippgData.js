@@ -8,7 +8,7 @@ import goodstep from '../public/goodstep.jpg';
 import pushpagiri from '../public/pushpagiri.png';
 import deepdive from '../public/deepdive.jpg';
 
-export const fivecolumndata = [ //to be fetched from database
+export const fivecolumndata_old = [ //to be fetched from database
     {
         "id": 1,
         "img": BCG,
@@ -41,6 +41,42 @@ export const fivecolumndata = [ //to be fetched from database
         "body": "Our curriculum is always evolving. Post your graduation, you'd get access to free weekly deep dive sessions for 2 months where over and above curriculum, you'd also get to problem solve contemporary policy, geopolitics and business problems because the probability of recent problems being asked in interviews is very high. At GGI fellowship- Every year, every day, and every session is one-of-a-kind. "
     }
 ]
+
+export const fivecolumndata = [ //to be fetched from database
+    {
+        "id": 1,
+        "img": BCG,
+        "title": "Learn from Mckinsey, BCG Mentors",
+        "body": "Work 1:1 with ex-McKinsey & BCG Partners- learn real consulting skills, not just theory. Every month, you complete a live sprint and get line-by-line feedback from top-tier mentors."
+    },
+    {
+        "id": 2,
+        "img": teach,
+        "title": "Do Live Consulting Project & Write  Consulting Style Paper",
+        "body": "Get your first consulting deliverable reviewed — you’ll solve a real client challenge, present to industry leaders, and publish a consulting-style paper that makes your resume stand out."
+    },
+    {
+        "id": 3,
+        "img": clinton,
+        "title": "Advance Your Career with Top Employers",
+        "body": "Our Fellows have transitioned into roles at McKinsey, BCG, Dalberg, the UN, and IFC — not through luck, but because they worked like consultants long before the interview."
+    },
+    {
+        "id": 4,
+        "img": network,
+        "title": "Become Part of Purposeful Community",
+        "body": "You’re not joining just another cohort — you’re entering a tribe of doers. A global network of professionals who solve, not speculate. Every alumnus becomes your credibility signal. "
+    }
+    ,
+    {
+        "id": 5,
+        "img": deepdive,
+        "title": "Living Knowledge",
+        "body": "Every masterclass evolves with the world. Post-graduation, Fellows get free weekly Deep Dive sessions for 2 months — solving current policy, business, and geopolitics problems asked in interviews. At GGI, learning is living — every day, every project, every conversation is one-of-a-kind. "
+    }
+]
+
+
 export const stages = [
     {
         "id": 0,
@@ -171,44 +207,32 @@ export const testimonialFellow = [
     }
 ];
 
-export const curriculum=[
-    {
-        "title":"6-12 Months",
-        "description":"Program length, flexible upon your needs and availability"
-    },
-    {
-        "title":"90+ Hours of Business Masterclasses",
-        "description":"90+ Hours of Business Masterclasses"
-    },
-    {
-        "title":"Consulting Paper with MBB mentor",
-        "description":"A small group mentorship research project under "
-    },
-    {
-        "title":"115+ Employment Partners",
-        "description":"Which Hire GGI Fellows "
-    },
-    {
-        "title":"Unlimited Networking ",
-        "description":"You continue to be a part of the family post your graduation"
-    },
-    {
-        "title":"1:1 Founders&#39; Office Hours ",
-        "description":"Through Your Journey"
-    },
-    {
-        "title":"Live Consulting Project",
-        "description":"After finishing white paper, to build your profile for consulting "
-    },
-    {
-        "title":"70+ Hours of Case Interview Practice",
-        "description":"Via our inhouse AI Based software"
-    },
-    {
-        "title":"Free 2 Months of Live Deep Dive Sessions",
-        "description":"Only after your graduation, to better prepare you for every changing current affairs based problem solving "
-    }
-]
+export const curriculum = [
+  {
+    blockTitle: "Core Learning Experience",
+    items: [
+      { title: "90+ Hours of Case-Based Masterclasses" },
+      { title: "70+ Hours of Interview & Case Practice" },
+      { title: "Live Consulting Project + White Paper" }
+    ]
+  },
+  {
+    blockTitle: "Career Acceleration",
+    items: [
+      { title: "115+ Employment Partners" },
+      { title: "Unlimited Networking + Alumni Access" },
+      { title: "Free 2-Month Post-Grad Deep Dives" }
+    ]
+  },
+  {
+    blockTitle: "Duration & Flexibility",
+    items: [
+      { title: "6–12 Month Program" },
+      { title: "Adaptable Schedule Based on Work Commitments" },
+      { title: "1:1 Founders’ Office Hours" }
+    ]
+  }
+];
 
 export const socialspaceimpactdata = [ //to be fetched from database
     {
