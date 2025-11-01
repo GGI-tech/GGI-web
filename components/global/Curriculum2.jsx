@@ -31,6 +31,11 @@
 // export default Curriculum2;
 
 const Curriculum2 = ({ data }) => {
+  // Add a fallback in case data is undefined
+  if (!data || !Array.isArray(data)) {
+    return null; // Or <div></div> if you prefer an empty placeholder
+  }
+
   return (
     <div className="lg:w-5/6 2xl:w-4/5 mx-auto p-4">
       {/* 3-column layout on desktop, 1-column on mobile */}
@@ -47,7 +52,7 @@ const Curriculum2 = ({ data }) => {
 
             {/* Bullet list */}
             <ul className="list-disc list-inside space-y-3 text-gray-800">
-              {block.items.map((item, i) => (
+              {(block.items || []).map((item, i) => (
                 <li key={i} className="font-medium leading-relaxed">
                   {item.title}
                 </li>
