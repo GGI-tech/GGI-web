@@ -117,7 +117,7 @@ const Navbar = ({applicationbanner}) => {
                   </li>
                 </Link>*/}
                 <a href='https://www.globalgovernanceinitiative.org/campusfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
-                        GGI Campus Fellowship
+                        GGI Campus Fellowship: For Students
                       </a>
 
                 {/* <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
@@ -246,7 +246,7 @@ const Navbar = ({applicationbanner}) => {
                     Tech MBA
                   </a> */}
                   <a href='https://www.globalgovernanceinitiative.org/campusfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
-                    GGI CAMPUS FELLOWSHIP
+                    GGI CAMPUS FELLOWSHIP: FOR STUDENTS
                   </a>
                   {/* <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
                     FEYNMAN AI FELLOWSHIP
