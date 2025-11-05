@@ -52,7 +52,7 @@ const PREMBADATA = () => {
 
 
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
             <Heading margin={60}>Why GGI Campus Fellowship Works ? </Heading>
@@ -67,12 +67,12 @@ const PREMBADATA = () => {
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
             <YoutubeEmbed embedId='ZtECOAyyDVA' autoplay={1}/>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7"> APPLY NOW</Button>
 
 
             <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7"> APPLY NOW</Button>
 
 
             <Heading>Who is this Fellowship for?</Heading>
@@ -87,7 +87,7 @@ const PREMBADATA = () => {
 
             </Container>
             <YoutubeEmbed embedId='lZMBRyoMNSQ' autoplay={1}/>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7"> APPLY NOW</Button>
 
             <Heading> Program Design </Heading>
             <Curriculum5 data={curriculum}/>
@@ -114,7 +114,7 @@ const PREMBADATA = () => {
             <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Heading>The GGI Campus Fellowship Journey</Heading>
             <Steps data={stages} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7"> APPLY NOW</Button>
 
             <Heading>A Liberal Refund Policy for You  </Heading>
             <p className='text-center text-xl'> <span className="primary font-extrabold"> Your Learning, Risk-Free</span></p><br/>
@@ -122,7 +122,7 @@ const PREMBADATA = () => {
                 <p className='text-lg'><span className='font-bold'>We offer a 3-day full refund from your first live masterclass — because your trust matters more than a transaction.</span> </p>
             </Container><br/><br/>
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing">Join the GGI Campus Fellowship</Button><br/>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7">Join the GGI Campus Fellowship</Button><br/>
             <p className='text-center text-xl'> <span className="primary font-extrabold"> Learn what top students wish they knew earlier — and graduate with clarity, skills, and community</span></p><br/>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>

@@ -13,7 +13,7 @@ import BCG from '../public/bcg.jpg';
 import mckinsey from '../public/mckinsey.png';
 import bain from '../public/bain.png';
 import kearney from '../public/kearneynew.jpg';
-import ey from '../public/ey.png';
+import ey from '../public/eynew.png';
 import pwc from '../public/pwcnew.png';
 import amz from '../public/amazon.png';
 import paytm from '../public/paytm.png';
