@@ -10,7 +10,7 @@ import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
 import Gallery from '../global/Gallery';
 import Community from '../global/Community';
-import Curriculum from '../global/Curriculum';
+import Curriculum5 from '../global/Curriculum5';
 import Masterclasses from '../global/Masterclasses';
 import FourColumnLayout from '../global/FourColumnLayout';
 import OfficialPartners from '../global/OfficialPartners';
@@ -30,22 +30,43 @@ const PREMBADATA = () => {
     }
     return (
         <div>
-            <SlidingHero image={'./athens.jpg'} title={["GGI Anti-Fragile Scholars: <br class='hidden md:block'/><span class='text-yellow-200'>Crisis-Proof Your Ivy League MBA</span><br class='hidden md:block'/> "]} />
+            <SlidingHero
+            image={'./athens.jpg'}
+            title={[
+                `
+                <div>
+                    GGI Campus Fellowship:
+                    <br class='hidden md:block'/>
+                    <span class='text-yellow-200'>
+                    Build the Career You Deserve Before You Graduate
+                    </span>
+                    <br class='hidden md:block'/>
+                    <span class='block text-sm md:text-base text-white mt-2 font-light'>
+                    Learn from real industry mentors. Build skills that matter. Land roles in Consulting, Policy, Strategy, and Impact — before you even graduate.
+                    </span>
+                </div>
+                `,
+            ]}
+            />
+
+
+
 
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
-            <Heading margin={60}>Why GGI Anti-Fragile Scholars Works ? </Heading>
+            <Heading margin={60}>Why GGI Campus Fellowship Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <p className='px-8 my-8 text-center font-bold'>The GGI Anti-Fragile program has created an Ivy League Management outcome at 1/1000th of the cost. </p>
-            <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a top 20 global business school. Despite the high cost, many global schools—aside from a few Ivy League institutions—do not write their own cases, lack an extensive global network, offer limited experiential learning opportunities, and have weak industry connections.<br/><br/>At Global Governance Initiative, we address these issues through our mission.  </Container>
+            <p className='px-8 my-8 text-center font-bold'>The GGI Campus Fellowship program has created an Ivy League Management outcome at 1/1000th of the cost. </p>
+            <Container ><span className='primary font-medium'>A college degree alone no longer guarantees a great career, But the right mentorship and community can.</span> The GGI Campus Fellowship helps students from India’s top campuses — IITs, DU, NMIMS, Ashoka, Symbiosis, and more — learn practical business, consulting, and policy skills directly from global leaders.
+            It’s where ambition meets clarity — and where students turn internships into full-time offers.<br/><br/> </Container>
             <div className='my-8'></div>
-            <YoutubeEmbed embedId='pjwQLAI_fHs' autoplay={1}/>
+            <YoutubeEmbed embedId='BfXtDA8J-JI' autoplay={1}/>
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
-            <YoutubeEmbed embedId='iuNMaVSwH0E' autoplay={1}/>
+            <YoutubeEmbed embedId='ZtECOAyyDVA' autoplay={1}/>
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
 
@@ -54,46 +75,59 @@ const PREMBADATA = () => {
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
 
-            <Heading>Who is this Program for?</Heading>
+            <Heading>Who is this Fellowship for?</Heading>
             <p className='text-center text-xl'> <span className="primary font-extrabold">For those who thrive under pressure</span></p>
             <br/>
             <Container>
-                <p> 1. If you are an <span className='primary font-bold'>Ivy Admit: Harvard/Wharton MBA </span>admits aiming to pre-game your campus experience.</p><br />
-                <p>2. If you are a <span className='primary font-bold'>Pre-MBA</span>:  And Looking to <span className='primary font-bold'>build crisis proof experience</span> for your jobs </p><br />
-                <p>3. If you are a Career Shifter and looking to pivot to<span className='primary font-bold'> recession-proof roles</span>.</p><br />
-                <p className='mb-24'>4. If you are a <span className='primary font-bold'>founder</span> who wants to adapt to <span className='primary font-bold'>market shocks</span>.</p>
+                <p> 1. <span className='primary font-bold'>Final and Pre-Final Year Students </span>aiming to land roles in Consulting, Strategy, Policy, or Finance.</p><br />
+                <p>2. <span className='primary font-bold'>Tier 1–2 College Students</span> from IITs, IIMs, SRCC, Ashoka, Christ, and similar campuses who want to stand out in placements. </p><br />
+                <p>3.<span className='primary font-bold'> Students exploring Plan B for UPSC or Public Policy</span> who wish to enter development consulting or governance roles.
+</p><br />
+                <p className='mb-24'>4. <span className='primary font-bold'>Young Professionals and Interns </span> who want to convert internships into full-time roles with confidence and clarity. </p>
 
             </Container>
-            <YoutubeEmbed embedId='NrAvqFqbZrU' autoplay={1}/>
+            <YoutubeEmbed embedId='lZMBRyoMNSQ' autoplay={1}/>
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
-            <Heading>Post Graduate Program in Management</Heading>
-            <Curriculum data={curriculum}/>
-            <YoutubeEmbed embedId='lGyhkONUSwk' autoplay={1}/>
-            <Heading>Program Advantages: <strong>The Anti-Fragility Edge</strong></Heading>
-            <FourColumnLayout data={fourcolumndata2} />
-
-
-            <Heading>A Liberal Refund Policy for You  </Heading>
+            <Heading> Program Design </Heading>
+            <Curriculum5 data={curriculum}/>
+            <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
+            <Heading> <strong>The  Unique Learning Edge</strong></Heading>
+            <p className='text-center text-xl'> <span className="primary font-extrabold">What Makes the GGI Campus Fellowship Different?</span></p>
+            <br/>
             <Container>
-                <p className='text-lg'>Your learning is our top priority, and we aim to make this decision entirely risk-free for you, allowing you to focus solely on learning. We offer a no-questions-asked <span className='font-bold'>3-day full refund policy from your first live masterclass date.</span> </p>
+                <p> 1. <span className='primary font-bold'>Real Problems, Not Textbook Theories: </span>Solve live industry cases and public policy challenges with guidance from mentors who’ve been there</p><br />
+                <p>2. <span className='primary font-bold'>Portfolio That Gets You Noticed: </span> Build a tangible body of work recruiters can see — case projects, thought pieces, and peer collaborations.</p><br />
+                <p>3.<span className='primary font-bold'> Mock-to-Real Career Transition: </span>From resume sprints to live case rounds — every session is designed to simulate your actual campus placement experience.
+</p><br />
+                <p className='mb-24'>4. <span className='primary font-bold'>Community That Has Your Back: </span>Get paired with buddies who are one step ahead — because growth happens when you feel supported. </p>
+
             </Container>
 
-            <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
+
+
+            <Heading>You Learn Directly From People Who’ve Built Real Careers</Heading>
+            <p className='text-center text-xl'> <span className="primary font-extrabold">Learn from McKinsey Partners, IAS Officers, Startup Founders, and Impact Investors <br/> who’ve led through uncertainty — and are now guiding India’s next generation of leaders.</span></p>
+            <br/>
             <Gallery />
 
-            <YoutubeEmbed embedId='vNSyUNfmh24' autoplay={1}/>
-            <Heading>As a GGI Anti-Fragile Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
-            <Container>
-                <p className='mb-2'>As leaders looking to pivot into the world of <span className='font-semibold'> Management Consulting, Investing, and Product Management, </span> you should be adept at navigating various cultures, economies, sectors, and industries. </p>
-                <p>To support the development of these essential skills, GGI has meticulously designed a portfolio of immersive, experiential courses spanning across sectors and industries, organized into three stages: </p>
-            </Container>
+            <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
+            <Heading>The GGI Campus Fellowship Journey</Heading>
             <Steps data={stages} />
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing"> APPLY NOW</Button>
 
+            <Heading>A Liberal Refund Policy for You  </Heading>
+            <p className='text-center text-xl'> <span className="primary font-extrabold"> Your Learning, Risk-Free</span></p><br/>
+            <Container>
+                <p className='text-lg'><span className='font-bold'>We offer a 3-day full refund from your first live masterclass — because your trust matters more than a transaction.</span> </p>
+            </Container><br/><br/>
+
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSch8urh_xQVSS9WT4sJVnIRh81xVSowRdIUyK1XpNZJGauhOQ/viewform?usp=sharing">Join the GGI Campus Fellowship</Button><br/>
+            <p className='text-center text-xl'> <span className="primary font-extrabold"> Learn what top students wish they knew earlier — and graduate with clarity, skills, and community</span></p><br/>
+
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
-            <YoutubeEmbed embedId='nQkS0i38ls8' autoplay={1}/>
+            <YoutubeEmbed embedId='Pt8cnPkD4k0' autoplay={1}/>
 
             <Heading>At GGI, We Believe In- Person Community is the CornerStone when You are Learning Online </Heading>
             <Community />
@@ -130,7 +164,7 @@ const PREMBADATA = () => {
             <Heading>GGI Associations</Heading>
             <Associations />
             <div className='mt-48'>
-                <YoutubeEmbed embedId='DXHPoAPXQQc' autoplay={1}/>
+                <YoutubeEmbed embedId='7CAlOgCt_Cc' autoplay={1}/>
             </div>
             <Heading margin={2}>Frequently Asked Questions</Heading>
             <Accordion />

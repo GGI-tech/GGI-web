@@ -1,5 +1,6 @@
 import network from '../public/network.jpg'
 import sb1 from '../public/sb1.png'
+import intern from '../public/intern.jpg'
 import rjgupta from '../public/rajat_gupta.png'
 import palakr from '../public/palakr.png'
 import roi from '../public/rproi.jpg'
@@ -8,13 +9,13 @@ import stress from '../public/stress.jpg'
 import cas from '../public/case2.jpg'
 import crisis from '../public/crisis.jpg'
 // -------------------------------------------------------
-import BCG from '../public/bcg.png';
+import BCG from '../public/bcg.jpg';
 import mckinsey from '../public/mckinsey.png';
-import bain from '../public/bain-logo.jpg';
-import kearney from '../public/Kearney.jpg';
+import bain from '../public/bain.png';
+import kearney from '../public/kearneynew.jpg';
 import ey from '../public/ey.png';
-import pwc from '../public/pwc.jpg';
-import amz from '../public/amz.jpg';
+import pwc from '../public/pwcnew.png';
+import amz from '../public/amazon.png';
 import paytm from '../public/paytm.png';
 // -----------------------------------------------------
 
@@ -23,27 +24,27 @@ export const companies = [BCG, mckinsey, bain, kearney, ey, pwc, amz, paytm];
 export const fourcolumndata = [
     {
         "id": 1,
-        "img": sb1,
-        "title": "Skip Basics",
-        "body": "Arrive with crisis leadership frameworks."
+        "img": rjgupta,
+        "title": "Learn What Colleges Don’t Teach",
+        "body": " Build real-world business and policy thinking with live case masterclasses led by CXOs and policymakers"
     },
     {
         "id": 2,
-        "img": rjgupta,
-        "title": "Learn from Survivors",
-        "body": "CXOs who navigated market crashes."
+        "img": intern,
+        "title": "Crack Internships, Convert to Offers",
+        "body": "Learn how to navigate assessments, interviews, and early career transitions — with guidance from mentors who’ve done it"
     },
     {
         "id": 3,
-        "img": network,
-        "title": "Stress-Tested Network",
-        "body": "Ivy admits who've survived our simulations."
+        "img": sb1,
+        "title": "Be Seen by Top Employers",
+        "body": "GGI has deep partnerships with consulting, policy, and impact firms that regularly recruit from our scholars"
     },
     {
         "id": 4,
-        "img": roi,
-        "title": "Recession-Proof ROI",
-        "body": "90% secured internships during 2023 hiring freezes."
+        "img": network,
+        "title": "Belong to a Tribe of Doers",
+        "body": "Join a close-knit, diverse community that grows with you — from your first internship to your dream role"
     }
 ]
 export const fourcolumndata2 = [
@@ -75,42 +76,75 @@ export const fourcolumndata2 = [
 export const stages = [
     {
         "id": 0,
-        "ques": "STAGE 1 - Develop Contextual Intelligence",
-        "ans": [` <p class='mb-2'>Understanding context is crucial for sound decision-making in management consulting, investing, and product management. The key to becoming a great analytical thinker and leader is a broad knowledge base. GGI&#39;s Impact MBA prepares you to be a future leader by developing your skills to connect the dots across various domains, including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives, through GGI&#39;s trademarked Masterclasses. </p>`,
-            `<p class='mb-2'>In this phase, you&#39;ll engage in over<span class='font-semibold'> 50+ hours of interactive Masterclasses, </span>including the mandatory MBA for Impact Masterclass, complemented by evaluative peer assignments. To facilitate interaction with industry leaders, you will also gain unlimited exclusive access to renowned Guest Speaker Masterclasses. </p>
-                <p class='mb-2'>These Masterclasses are led by incumbent partners and managing directors from consulting firms, FMCG companies, and international organizations. Beyond the Masterclasses, you&#39;ll engage in peer-to-peer post-Masterclass assignments, projects, and startup weekends to apply what you&#39;ve learned to real-world problems. </p>
-                <p class='mb-2'>The MBA for Impact Masterclass condenses the core MBA curriculum into 10 hours. These principles are then applied across Masterclasses in consulting, investing, product management, etc. For those enrolled in deferred MBA programs like Harvard 2+2 and Yale Silver Scholars, this stage ensures familiarity with the basics of core courses before starting your MBA program. Completing this stage can save you time, allowing you to focus on networking during your MBA. For working professionals, this stage enables you to tackle problems in your day-to-day job with contextual intelligence from various sectors. </p>`
+        "ques": "STAGE 1 - Learn the Toolkit",
+        "ans": [` <p class='mb-2'>Master the fundamentals of strategy, consulting, policy, and communication through live weekend masterclasses</p>`,
         ]
     },
     {
         "id": 1,
-        "ques": "STAGE 2 - Access to Employment Partnerships <br/>& Microexperential learning in Consulting & PM and the Buddy Network",
-        "ans": [`<p class='mb-2'>Global Governance Initiative has developed and now holds the license and patent for a microlearning <span class='font-semibold'>AI-based experience via Schrödinger</span>. Our platform serves as an interactive, real-life case simulator, enabling you to practice cases and interviews whenever it suits you best. </p>
-        `, ` <p class='mb-2'>Many GGI Scholars and Fellows have found the tool to be a game-changer, attributing their success in securing positions at top Consulting firms to this innovative stage. As a GGI Scholar, you&#39;re encouraged to utilize this tool for case solving at least twice prior to your interview date. </p>
-        <p class='mb-2'>Additionally, you will become part of a rotating buddy system. This system allows you to practice cases, foster a sense of community, and network with other members on Wiggly from the incredibly diverse Global Governance Initiative communities. </p>`]
+        "ques": "STAGE 2 - Apply What You Learn",
+        "ans": [`<p class='mb-2'>Work on peer projects and AI-based simulations that prepare you for real interviews and consulting challenges.</p>
+        `]
     },
     {
         "id": 2,
-        "ques": "STAGE 3 - Community & Networking Nights",
+        "ques": "STAGE 3 - Join a Lifelong Network",
         "ans": [`<p class='mb-2'>It&#39;s often said that having even just 1 person who cares for you unconditionally can do wonders for your self-esteem. </p>
-        <p class='mb-2'>For you as a GGI Scholar, this person is represented by the entire Global Governance Initiative community.</p>
-        <p class='mb-2'>You&#39;ll participate in monthly inner circle meetings and networking night with scholars from various industries and sectors.</p>
-        `, `<p class='mb-2'>Earning an MBA degree encompasses more than just mastering valuations and Little&#39;s Law; it&#39;s about the entire experience. This includes guest speakers, QnA hours with instructors, campus events, and ultimately securing your dream job. It&#39;s an experience that lasts a lifetime. </p>
-        <p class='mb-2'>Through Community & Networking Nights on &#34;Wiggly&#34;, GGI recreates the entire campus experience online for you.</p>
-        <p class='mb-2'>Although the formal journey of an Impact Scholar ends after six months, as GGI alumni, you will always have access to this inclusive, supportive, respectful, and collaborative ecosystem. As part of the GGI family, you will continue to benefit from exclusive partnerships that GGI builds with leading organizations and business and policy schools. </p>
-        <p class='mb-2'>As a GGI Impact MBA Scholar, you represent the best of the Global Governance Initiative network on &#34;Wiggly&#34;. Through core masterclasses, a flexible curriculum, Networking Nights, and AI tools, the Impact MBA Scholars Program offers a comprehensive view into the world of social impact consulting, management consulting, and product management. </p>
-        <p class='mb-2'>You will also join GGI&#39;s growing network through its various technology portals, which include a diverse and international network on &#34;Wiggly&#34; of GGI Delegates, Impact Scholars, Policy Scholars, Fellows, and mentors spread across four continents. </p>
+        <p class='mb-2'>Connect with mentors, alumni, and peers who support you well beyond graduation — in jobs, startups, or further study abroad.</p>
 `]
     }
 
 ]
 export const testimonialMBA = [
+      {
+        name: 'Aditya Bansal',
+        org: "Bain &amp; Company",
+        image: "/aditya.jpg",
+        review: "Hi Shatakshi, I got into&nbsp;Bain!&nbsp;I had it my top preference within consulting, Also got an offer to work as a trader in Amsterdam.&nbsp;</p><p><br></p><p>Thank you for guidance and support"
+    },
     {
-        name: 'Palak Raheja',
-        org: 'Bain & Company, Harvard Business School <br/><br/>GGI Impact Fellow 2021',
-        image: '/palakr.png',
-        review: "After GGI, I joined Bain & Company. Hi, I am Palak. <br/><br/>I majored in <span class='font-bold'> Statistics at Lady Sri Ram College, University of Delhi </span>. Post which I started on my professional path. I joined GGI after gaining 1.5 years of experience and close to when I was transitioning between jobs. <br/><br/>Today, I have upwards of 4 years of work experience. I have ventured into the fields of <span class='font-bold'> management consulting and start-up ecosystems </span>"
-      },
+        name: "Rishabh Jain",
+        org: "InMobi",
+        image: "/rishabh.jpg",
+        review: "Shortly after GGI, I bagged an offer from InMobi for the profile of a Business Analyst in their Bangalore office. Two weeks into the GGI Fellowship, and I bagged this offer.<br><br>Being mentored by leaders like Shatakshi Sharma and Naman Shrivastava at such a young age is no less than a blessing. GGI helped me discover my true self and transform into a mature individual from a college-going &lsquo;kid&rsquo;."
+    },
+     {
+        name: "KARAN DAVID",
+        org: "BAIN & COMPANY",
+        image: "/karan.jpg",
+        review: "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br><br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br><br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br><br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
+    },
+    {
+        name: "Tushar Gopalka",
+        org: "Boston Consulting Group",
+        image: "/tushar.png",
+        review: "Shortly after GGI, I got an offer from Boston Consulting Group (BCG) <br/><br/> Hi, I am Tushar Gopalka, a GGI Fellow from the 2024 cohort. <br/> <br/>GGI came into my life when I was looking to refine my #problemsolving skills and prepare for high-stakes interviews. <br/> <br/>Honestly, joining GGI was a pivotal decision for me. It offered access to an incredible network of peers and mentors who pushed me to be my best. <br/><br/>One memorable moment was an office hour with Shatakshi just 12 hours before my BCG first-round interview. Her honest and constructive feedback helped me completely restructure my fit interview, and it made all the difference I got selected! <br/><br/>Beyond the network, the programs like Startup Weekend were transformative. They gave me the confidence to consider launching my own venture, something I never imagined I could do a year ago. <br/><br/> GGI also taught me the importance of structured communication and preparation. For instance, practicing on tools like Schrodinger well in advance gave me a clear edge during BCG’s first-round case board interview."
+    },
+    {
+        name: "SAIYAM HOTA",
+        org: " BAIN & COMPANY",
+        image: "/sayam.jpg",
+        review: "After GGI, I will join Bain & Company. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds.<br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
+    },
+    {
+        name: "Kalash Verma",
+        org: "McKinsey & Company",
+        image: "/kalash.jpeg",
+        review: "Shortly after GGI, I will be joining McKinsey & Company.<br><br>&ldquo;Hi, I am a final-year student at Indian Institute of Technology, Madras. <br><br> I found out about GGI when I was unclear about what I wanted to do in life albeit I had figured out where my general interests lay. <br> That&apos;s when I searched on the internet and found out about GGI.<br> I signed up for GGI as I knew GGI would be a great platform to understand what I exactly wanted to do in the future as well as up-skill myself and meet great people. &ldquo;<br><br> Q- What would be one word that would describe your GGI experience?<br><br> #Transforming!<br><br> I joined GGI as an undergrad and GGI played a pivotal role in my life by giving me exposure to a lot of different industries and a diverse cohort.<br><br>Q- Your message for the cohort of 2023 ?<br> <br>If you have signed up then go all in! Don&apos;t then question the system. <br> The instructors will share a lot of lessons. <br> Because the program has been built with a lot of trust, rigor and processes by the founders and mentors."
+    },
+    {
+        name: " JAYESH JAWANDHIA",
+        org: "BCG",
+        image: "/Jayesh.jpg",
+        review: "Hey Shatakshi, I'll be joining BCG next month. <br><br> Thank you so much for all the help, couldn't have been possible without you and GGI. It was a great learning experience"
+    },
+    {
+        name: "ANSH AGGARWAL",
+        org: "MCKINSEY & CO",
+        image: "/ansh.jpg",
+        review: "Shortly after GGI, I got placed in&nbsp;McKinsey &amp; Company. In fact, I will be moving to Mumbai to work as a Business Analyst. Also after the masterclass, having won the EY Scholarship for entrepreneurship, I completed an internship at EY Global as well. [...] GGI&apos;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process.</p>"
+    },
+
       {
         name: 'Aayushman Singh',
         org: 'INSEAD, MBA <br/> GGI Impact Fellow',
@@ -280,35 +314,27 @@ export const testimonialMBA = [
 
 export const curriculum = [
     {
-        "title": "3 Months",
-        "description": "Program length, flexible upon your needs and availability"
+        "title": "Program Duration",
+        "description": "3 Months (Weekend Masterclasses)"
     },
     {
-        "title": "90+ Hours of Business Masterclasses",
-        "description": "Over 9  weekends, based on your availability "
+        "title": "20+ Hours of Live Industry Sessions",
+        "description": "With top CXOs, Policy Leaders, and Consultants"
     },
     {
-        "title": "115+ Employment Partners",
-        "description": "Who recruit from GGI peridocially"
+        "title": "AI-Based Interview Prep",
+        "description": "For case solving and personal interviews"
     }, 
     {
-        "title": "60+ Hours of Business Interview Practice",
-        "description": "Via our inhouse AI Based software"
+        "title": "1:1 Founders’ Mentorship",
+        "description": "For career clarity and offer conversion"
     },
     {
-        "title": "Unlimited Networking",
-        "description": "You continue to be a part of the family post your graduation"
+        "title": "Peer-to-Peer Consulting Projects",
+        "description": "For hands-on experience"
     },
     {
-        "title": "1:1 Founders&#39; Office Hours ",
-        "description": "During graduation. 1 to take forward your MBA dreams "
-    },
-    {
-        "title": "GGI Startup Weekend",
-        "description": "Peer to Peer projects "
-    },
-    {
-        "title": "10+ Hours of Trinity",
-        "description": "You get access to recorded Masterclasses of top speakers in consulting at GGI"
+        "title": "Unlimited Networking Access",
+        "description": "Post-graduation"
     }
 ]
