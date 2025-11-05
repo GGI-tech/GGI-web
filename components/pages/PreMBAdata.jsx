@@ -14,7 +14,7 @@ import Curriculum5 from '../global/Curriculum5';
 import Masterclasses from '../global/Masterclasses';
 import FourColumnLayout from '../global/FourColumnLayout';
 import OfficialPartners from '../global/OfficialPartners';
-import certificate from '../../public/certificate.jpg'
+import certificate from '../../public/certi-impact.jpg';
 import Associations from '../global/Associations';
 import Steps from '../global/Steps'
 import Footer from '../global/Footer';
