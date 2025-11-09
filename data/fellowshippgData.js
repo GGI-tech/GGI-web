@@ -53,26 +53,26 @@ export const fivecolumndata = [ //to be fetched from database
         "id": 2,
         "img": teach,
         "title": "Do Live Consulting Project & Write  Consulting Style Paper",
-        "body": "Get your first consulting deliverable reviewed — you’ll solve a real client challenge, present to industry leaders, and publish a consulting-style paper that makes your resume stand out."
+        "body": "Get your first consulting deliverable reviewed - you’ll solve a real client challenge, present to industry leaders, and publish a consulting-style paper that makes your resume stand out."
     },
     {
         "id": 3,
         "img": clinton,
         "title": "Advance Your Career with Top Employers",
-        "body": "Our Fellows have transitioned into roles at McKinsey, BCG, Dalberg, the UN, and IFC — not through luck, but because they worked like consultants long before the interview."
+        "body": "Our Fellows have transitioned into roles at McKinsey, BCG, Dalberg, the UN, and IFC - not through luck, but because they worked like consultants long before the interview."
     },
     {
         "id": 4,
         "img": network,
         "title": "Become Part of Purposeful Community",
-        "body": "You’re not joining just another cohort — you’re entering a tribe of doers. A global network of professionals who solve, not speculate. Every alumnus becomes your credibility signal. "
+        "body": "You’re not joining just another cohort - you’re entering a tribe of doers. A global network of professionals who solve, not speculate. Every alumnus becomes your credibility signal. "
     }
     ,
     {
         "id": 5,
         "img": deepdive,
         "title": "Living Knowledge",
-        "body": "Every masterclass evolves with the world. Post-graduation, Fellows get free weekly Deep Dive sessions for 2 months — solving current policy, business, and geopolitics problems asked in interviews. At GGI, learning is living — every day, every project, every conversation is one-of-a-kind. "
+        "body": "Every masterclass evolves with the world. Post-graduation, Fellows get free weekly Deep Dive sessions for 2 months - solving current policy, business, and geopolitics problems asked in interviews. At GGI, learning is living - every day, every project, every conversation is one-of-a-kind. "
     }
 ]
 

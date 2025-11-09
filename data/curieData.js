@@ -65,7 +65,7 @@ export const stages = [
         "ques": "Stage 3 - Holistic Community, Networking Nights, and Mental Wellness Support ",
         "ans": [
             "<p>It is often said that having just one person who cares for you unconditionally can do wonders for your self-esteem. That person is the entire community at the Global Governance Initiative.</p>",
-            "<p><br></p><p>Curie Fellows gain exclusive access to the Global Governance Initiative. They attend and participate in monthly inner circle meetings and networking + wellness sessions with fellows from various fields. They are also provided with an ecosystem where their mental health is given paramount importance.</p><p><br></p><p>Even though the fellowship ends after 6 months, Fellows—as GGI Alumni—will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Initiative for the rest of their lives. Impact Fellows also enjoy access to the exclusive partnerships that GGI continuously establishes with leading universities, businesses, and policy schools.</p><p><br></p><p>The GGI Curie Fellowship is personalized, and the schedule is shared only after the Initial Founders Call.</p><p><br></p><p>Curie Fellows are also integrated into GGI's growing technology portals, encompassing an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across the globe. We prioritize mental health and emotional well-being during the transition back to work, above all</p>"
+            "<p><br></p><p>Curie Fellows gain exclusive access to the Global Governance Initiative. They attend and participate in monthly inner circle meetings and networking + wellness sessions with fellows from various fields. They are also provided with an ecosystem where their mental health is given paramount importance.</p><p><br></p><p>Even though the fellowship ends after 6 months, Fellows-as GGI Alumni-will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Initiative for the rest of their lives. Impact Fellows also enjoy access to the exclusive partnerships that GGI continuously establishes with leading universities, businesses, and policy schools.</p><p><br></p><p>The GGI Curie Fellowship is personalized, and the schedule is shared only after the Initial Founders Call.</p><p><br></p><p>Curie Fellows are also integrated into GGI's growing technology portals, encompassing an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across the globe. We prioritize mental health and emotional well-being during the transition back to work, above all</p>"
           ] }
 ]
 
@@ -189,7 +189,7 @@ export const socialspaceimpactdata = [ //to be fetched from database
     {
         "id": 1,
         "img": pushpagiri,
-        "body": "A dedicated team of GGI Fellows identified and tackled key challenges—ranging from operational infrastructure to staff hospitality. This project not only underscores our commitment to building an inclusive world but also highlights the unique power of collaboration between GGI and leading global nonprofits."
+        "body": "A dedicated team of GGI Fellows identified and tackled key challenges-ranging from operational infrastructure to staff hospitality. This project not only underscores our commitment to building an inclusive world but also highlights the unique power of collaboration between GGI and leading global nonprofits."
     },
     {
         "id": 2,

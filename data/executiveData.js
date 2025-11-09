@@ -13,13 +13,13 @@ export const stages = [
     {
         "id":2,
         "ques":"Stage 3: Executive Startup",
-        "ans":[`To truly excel in consulting, policy, or product management, you need more than theoretical knowledge—you need practical experience. Our Startup weekend will further push you to bring out your entrepreneurship skills. This unique experience allows you to apply the concepts from Stages 1 and 2 in a practical, high-stakes setting. Many GGI Alumni have leveraged this experience to secure senior roles and starting ventures in consulting and policy.`]
+        "ans":[`To truly excel in consulting, policy, or product management, you need more than theoretical knowledge-you need practical experience. Our Startup weekend will further push you to bring out your entrepreneurship skills. This unique experience allows you to apply the concepts from Stages 1 and 2 in a practical, high-stakes setting. Many GGI Alumni have leveraged this experience to secure senior roles and starting ventures in consulting and policy.`]
 
     },
     {
         "id":3,
         "ques":"Stage 4: Peer Collaboration",
-        "ans":[`At the heart of the Global Governance Initiative Executive program is our vibrant community. Throughout the program, you’ll have the opportunity to collaborate with peers—your ‘buddies’—to share best practices, discuss challenges from your deep dive sessions, AI Case-Based Internship, and build lasting professional relationships. Our community extends beyond the program, with social media groups and networking events providing continuous opportunities for collaboration and growth. `]
+        "ans":[`At the heart of the Global Governance Initiative Executive program is our vibrant community. Throughout the program, you’ll have the opportunity to collaborate with peers-your ‘buddies’-to share best practices, discuss challenges from your deep dive sessions, AI Case-Based Internship, and build lasting professional relationships. Our community extends beyond the program, with social media groups and networking events providing continuous opportunities for collaboration and growth. `]
     },
     {
         "id":4,

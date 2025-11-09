@@ -48,7 +48,7 @@ const GGILife = () => {
         Life at Global Governance Initiative: Where Leaders Learn, Grow, and Thrive
       </h20>
       <br/>
-      <p class='text-lg sm:text-xl font-medium text-gray-100'>
+      <p class='text-lg sm:text-xl -medium text-gray-100'>
         Join a vibrant global community of changemakers, innovators, and future leaders. Experience the GGI difference
       </p>
     </div>`

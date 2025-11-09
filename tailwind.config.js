@@ -3,7 +3,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ['Helvetica', 'Arial', 'sans-serif'],
+      sans: ['EB Garamond', 'Helvetica', 'Arial', 'sans-serif'],
     },
   },
   // purge: [],

@@ -4,9 +4,10 @@ import MainHero from '../global/MainHero';
 import Image from 'next/image';
 import Gallery from '../global/Gallery';
 import Heading from '../global/Heading';
+import Heading2 from '../global/Heading2';
 // import Hero from '../global/Hero';
 import Slider from '../global/Slider';
-import { fourcolumndata, companies, testimonialMain } from '../../data/mainpgData';
+import { fourcolumndata, companies, testimonialMain, stages } from '../../data/mainpgData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
 import InstagramEmbed from '../global/InstagramEmbed';
 
@@ -16,6 +17,7 @@ import Contact from '../global/Contact';
 import Container from '../global/Container'
 import Footer from '../global/Footer';
 import Button from '../global/Button';
+import Steps from '../global/Steps'
 //---------------------------------------------------------
 import poets from '../../public/poets.jpg';
 import bcg from '../../public/bcg-green.png';
@@ -45,7 +47,7 @@ const Main = () => {
             <MainHero />
 
             <Button url="/impact-fellowship">
-                Learn More about Advancing Your Career
+                Kickstart your transformation ➞
             </Button>
 
             <Heading>Hear from GGIians who have successfully transitioned into <strong>Consulting</strong>, <strong>Policy</strong>, and <strong>Product Management</strong> roles - their experiences with us.</Heading >
@@ -60,10 +62,11 @@ const Main = () => {
             <Partners companies={companies} />
 
             {/* <div className='skin'> */}
-            <Heading>GGI Offers Live <strong>Upskilling,</strong> <strong>Employment</strong> &  <strong>Networking</strong> </Heading>
+            <Heading2>GGI is a consulting floor.
+ You’ll learn directly from industry leaders - solve real cases, publish live research, and graduate with global career readiness in <strong>consulting</strong>, <strong>policy</strong>, <strong>product</strong> roles. </Heading2>
 
             <Container>
-                <p >Explore the specific programs available within our fellowship, including the two flagship Scholar tracks, to discover more about admission requirements, scholarships, and career opportunities. Upskill and learn <span className='font-semibold'>how to build a successful career in fields such as Management Consulting, Product Management, Policy, Finance, Impact Investing, or Program Management. </span>   </p>
+                <p >Explore our specific programs available within our fellowship, including the two flagship Scholar tracks, to discover more about admission requirements, scholarships, and career opportunities. Upskill and learn how to build a successful career in fields such as Management Consulting, Product Management, Policy, Finance, Impact Investing, or Program Management.  </p>
 
             </Container>
 
@@ -73,12 +76,14 @@ const Main = () => {
                         <div className='text-center md:text-left min:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Management Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
-                            <p className='my-7'>1. You are looking for best <span className='primary font-semibold'>Alternative to International- Management</span></p>
-                            <p className='my-7'>2. You are looking to pivot in strategy and consulting roles such as<span className='primary font-semibold'> Mckinsey, BCG, or Product Management</span></p>
-                            <p className='my-7'>3. You are a <span className='primary font-semibold'>Pre-MBA</span> looking to finish the business curriculum before your program</p>
-                            <p className='my-7'>4. You are a <span className='primary font-semibold'>budding entrepreneur </span>who is aiming to launch & scale ventures </p>
+                            <p className='my-7'>1. <span className='primary font-semibold'>GGI MBA Scholars are ambitious thinkers</span> who don’t wait for permission. </p>
+                            <p className='my-7'>2.  They’re <span className='primary font-semibold'>management consulting aspirants</span> designing strategies before interviews, engineers pivoting to strategy and founders learning the language of <span className='primary font-semibold'>global consulting</span>.
+</p>
+                            <p className='my-7'>3. GGI MBA Scholars escape stagnation - <span className='primary font-semibold'>design strategies that move societies</span> </p>
+                            <p className='my-7'>4. You don’t need another MBA/MIM degree -<span className='primary font-semibold'>you need direction, discipline, and direct access.</span></p>
 
                         </div>
+                        <br/>
                         <div className='flex justify-center md:justify-start mb-10 md:mb-0'>
                             <Button url="/ggi-scholars">
                                 Learn More about GGI Impact MBA
@@ -90,10 +95,10 @@ const Main = () => {
                         <div className='text-center md:text-left min:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                             <p className='my-7 text-lg font-semibold'>Who is this program for?</p>
-                            <p className='my-7'>1. You are looking for best<span className='primary font-semibold'> Alternative to International- MPP</span></p>
-                            <p className='my-7'>2. You are looking to pivot in impact firms such as <span className='primary font-semibold'>UN, World Bank, FSG or social impact </span>roles</p>
-                            <p className='my-7'>3. You are a <span className='primary font-semibold'>Pre-MPP</span> with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs</p>
-                            <p className='my-7'>4. You are a <span className='primary font-semibold'>budding social impact entrepreneur</span> who is aiming to launch a venture  </p>
+                            <p className='my-7'>1. <span className='primary font-semibold'>GGI Policy Scholars are ambitious leaders</span> who don’t wait for permission. </p>
+                            <p className='my-7'>2. They’re <span className='primary font-semibold'> policy and development sector aspirants</span> designing policies before interviews, engineers pivoting to social impact, and social impact leaders learning the language of MBA. </p>
+                            <p className='my-7'>3. GGI Policy Scholars turn their frustration into fluency - <span className='primary font-semibold'>learn how real policy gets shaped by the world’s best.</span> </p>
+                            <p className='my-7'>4. You don’t need another MPP - <span className='primary font-semibold'>you need discipline, and direct access.</span></p>
 
                         </div>
                         <div className='flex justify-center md:justify-start mb-0'>
@@ -111,6 +116,14 @@ const Main = () => {
 
             {/* </div> */}
 
+            <Heading> The GGI Philosophy </Heading>
+
+            <div className='mt-24 flex justify-center'>
+                <p className='md:w-3/5 md:text-lg mb-5 text-justify'>In a world of noise, depth is your edge.
+                GGI’s case-based, mentor-led ecosystem is designed to make you fluent in the intersection of management, policy, and technology.
+                Because the next decade won’t belong to specialists - it’ll belong to systems thinkers who can lead across domains.</p>
+            </div>
+
 
 
             <Heading> You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners in Consulting, Policy, Product Leaders </Heading>
@@ -119,7 +132,7 @@ const Main = () => {
 
 
             <div className='mt-24 flex justify-center'>
-                <p className='md:w-3/5 md:text-lg font-semibold mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
+                <p className='md:w-3/5 md:text-lg mb-5 text-center'>Many large employers find that Global Governance Initiative prepares Young Professionals not only for General Management Positions but also for jobs within governmental affairs, environmental affairs, other functional areas that necessitate an education that goes beyond traditional business skills. </p>
             </div>
             <YoutubeEmbed embedId='34Hgf5F_M90' autoplay={1}/>
             
@@ -131,9 +144,9 @@ const Main = () => {
                         <Image src={poets} alt="" />
                     </div>
                     <p className="mt-12 text-yellow-600 text-center">
-                    &quot;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated, 5500 Alumni &quot;
+                    &quot;In Just 3 Years, This Disruptive Indian Pre-MBA Has Graduated, 7500 Alumni &quot;
                     </p>
-                    <p className="my-10 ">— Poets &amp; Quants</p>
+                    <p className="my-10 ">- Poets &amp; Quants</p>
                 </div>
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
                     <div className="h-40">
@@ -142,7 +155,7 @@ const Main = () => {
                     <p className="mt-12 text-yellow-600 text-center">
                     &quot;Shatakshi Sharma, a BCG Senior Associate, founded the Global Governance Initiative with the goal of providing education and career advancement opportunities for Indian youth &quot;
                     </p>
-                    <p className="my-10 text-center">— BCG Global Media</p>
+                    <p className="my-10 text-center">- BCG Global Media</p>
                 </div>
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
                     <div className="h-40">
@@ -151,7 +164,7 @@ const Main = () => {
                     <p className="mt-12 text-yellow-600 text-center">
                     &quot;Shatakshi Sharma, Founder, Global Governance Initiative recognized as Linkedin Top Voice, Next Gen for work on gender equality, higher education and management consulting.&quot;
                     </p>
-                    <p className="my-10">— Linkedin News</p>
+                    <p className="my-10">- Linkedin News</p>
                 </div>
                 <div className="flex flex-col items-center col-span-2 lg:col-span-1">
                     <div className="h-40">
@@ -160,7 +173,7 @@ const Main = () => {
                     <p className="mt-12 text-yellow-600 text-center">
                     &quot;GGI has much in common with Ivy League institutions such as Stanford and Harvard&quot;
                     </p>
-                    <p className="my-10">— The Economic Times</p>
+                    <p className="my-10">- The Economic Times</p>
                 </div>
                 <div className="flex flex-col items-center col-start-2 col-span-2 lg:col-span-1">
                     <div className="h-40">
@@ -169,7 +182,7 @@ const Main = () => {
                     <p className="mt-12 text-yellow-600 text-center">
                     &quot;Shatakshi Sharma, GGI Founder, is empowering global youth to start taking a seat on the table&quot;
                     </p>
-                    <p className="my-10 text-center">— World Economic Forum</p>
+                    <p className="my-10 text-center">- World Economic Forum</p>
                 </div>
             </div>
             <div className="p-5 md:p-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5 justify-center">
@@ -216,11 +229,19 @@ const Main = () => {
 
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
 
+            <Heading>The GGI Journey</Heading><br/>
+                        <Steps data={stages} />
+
 
             <Heading>At GGI, We Believe In-Person Community is the CornerStone when You are Learning Online</Heading>
             <Community />
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
+            <div className='mt-24 flex justify-center'>
+                <p className='md:w-3/5 md:text-lg mb-5 text-center'>You don’t have to wait for the system to change.<br/>
+                You can learn how to redesign it.</p>
+            </div>
+
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> Apply for the next Fellowship ➞</Button>
 
             <div className="flex flex-col justify-center mt-72">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
@@ -250,7 +271,9 @@ const Main = () => {
                         <Contact />
                     </div>
                     <div className=''>
-                        <p className='p-8'>  GGI Founder & CEO - Shatakshi Sharma has worked extensively at the intersection of public policy, technology, management consulting, & entrepreneurship at BCG, Tony Blair Institute and has been recognized as Linkedin for Top Voice for work on gender equality and reimagining higher education. She would love to hear back from you on your experiences, grievances, and new ideas!
+                        <p className='p-8'>  I built GGI because I saw too many brilliant minds told they weren’t ‘ready.’
+                        Not because they lacked ability - but because no one gave them access.
+                        GGI exists to make that access universal.
                         </p>
                         <p className='p-8 pt-2 text-center'>
                             <Image src={contact} alt="" />

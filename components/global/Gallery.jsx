@@ -26,18 +26,18 @@ const defaultData = [
   { img: img15, caption: "Current BCG India Chairman" },
   { img: img16, caption: "Managing Partner, Promethos Capital" },
   { img: img17, caption: "Global Chairman, BCG Henderson Institute" },
-  { img: img18, caption: "President, Amazon AWS South Asia" },
+  { img: img25, caption: "Minister in Malaysia" },
   { img: img19, caption: "Former Election Commissioner- Finance Secretary" },
   { img: img20, caption: "Partner BCG, Social Impact Practice" },
-  { img: img21, caption: "BCG, Managing Director & Senior" },
+  { img: img29, caption: "Former COO, UNICEF (Generation Unlimited)" },
   { img: img22, caption: "Dean, IBGC Fletcher School of Law" },
   { img: img23, caption: "Former Cabinet Secretary, Govt. of India" },
   { img: img24, caption: "CEO, Arthur D. Little, South Asia & India" },
-  { img: img25, caption: "Minister in Malaysia" },
+  { img: img18, caption: "President, Amazon AWS South Asia" },
   { img: img26, caption: "Chairman, Founder, Aavishkar Group" },
   { img: img27, caption: "Founding Partner, Bain & Co. | Light Speed Ventures" },
   { img: img28, caption: "Ex NDTV Host, Ex- Bain Consultant" },
-  { img: img29, caption: "Former COO, UNICEF (Generation Unlimited)" },
+  { img: img21, caption: "BCG, Managing Director & Senior" },
 ];
 
 const Gallery = ({ data = defaultData }) => {

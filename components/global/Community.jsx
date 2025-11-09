@@ -14,7 +14,8 @@ const Community = () => {
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
                 <div className='col-span-2'><Image placeholder="blur" src={community1} alt="" /></div>
                 <div className='col-span-1'><Image placeholder="blur" src={community2} alt="" /></div>
-                <div className='col-span-2 my-auto p-5'><p>Going through the program alongside a group of highly accomplished peers is the best way to achieve transformation. Our Alumni have an annual in-person get-together also.</p></div>
+                <div className='col-span-2 my-auto p-5'><p>Where GGI Fellows Lead: McKinsey. BCG. UNDP. Amazon. World Bank. Dalberg. <br/>
+ From advising ministers to building startups, GGI alumni turn learning into leverage.</p></div>
                 <div className='col-span-1'><Image placeholder="blur" src={community3} alt="" /></div>
                 <div className='col-span-2'><Image placeholder="blur" src={community4} alt="" /></div>
                 <div className='col-span-1  p-5 my-auto'><p>We do not have a preference for a specific undergraduate curriculum for admission to the GGI Program. Our undergraduate representations include, but are not limited to, IIT Bombay, IIT Madras, St. Stephen&#39;s College, NMIMS, IIM Ahmedabad, The Fletcher School, and Yale University. </p></div>

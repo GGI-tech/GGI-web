@@ -4,6 +4,13 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        {/* ✅ EB Garamond font import */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+
+        {/* Microsoft Clarity Script */}
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -15,6 +22,7 @@ export default function Document() {
           }}
         />
 
+        {/* Facebook Pixel Script */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -39,9 +47,8 @@ export default function Document() {
             src={`https://www.facebook.com/tr?id=${process.env.PIXEL_ID}&ev=PageView&noscript=1`}
           />
         </noscript>
-
-
       </Head>
+
       <body>
         <Main />
         <NextScript />

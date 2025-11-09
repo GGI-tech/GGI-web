@@ -32,7 +32,7 @@ export const fourcolumndata = [
         "id": 2,
         "img": intern,
         "title": "Crack Internships, Convert to Offers",
-        "body": "Learn how to navigate assessments, interviews, and early career transitions — with guidance from mentors who’ve done it"
+        "body": "Learn how to navigate assessments, interviews, and early career transitions - with guidance from mentors who’ve done it"
     },
     {
         "id": 3,
@@ -44,7 +44,7 @@ export const fourcolumndata = [
         "id": 4,
         "img": network,
         "title": "Belong to a Tribe of Doers",
-        "body": "Join a close-knit, diverse community that grows with you — from your first internship to your dream role"
+        "body": "Join a close-knit, diverse community that grows with you - from your first internship to your dream role"
     }
 ]
 export const fourcolumndata2 = [
@@ -76,25 +76,31 @@ export const fourcolumndata2 = [
 export const stages = [
     {
         "id": 0,
-        "ques": "STAGE 1 - Learn the Toolkit",
-        "ans": [` <p class='mb-2'>Master the fundamentals of strategy, consulting, policy, and communication through live weekend masterclasses</p>`,
-        ]
+        "ques": "Stage 1 - Upskilling ",
+        "ans": ["<p className='mb-2'>Context is a critical component of sound decision-making in consulting and international development, and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Campus Fellows to be future leaders by honing skills that enable them to connect the dots across various areas, including policy consulting, management consulting and sustainability and product management, through GGI&#39;s trademarked Masterclasses. ", `</p><br><p className='mb-3'>In this stage, Campus Fellows, during their executive education, also have access to the personalized Career Development Program of the Global Governance Initiative. This component is crucial for those aiming to work in organizations like McKinsey, BCG, Bain, United Nations, World Bank, and others. Many Masterclasses are typically led by incumbent partners and leaders of such organizations.
+            </p><br><p className='mb-3'> The Career Development Program comprises two pillars:</p>
+                    <p class='text-xl font-semibold my-4'>1. Hands-on Case Solving Sessions (Unique for every learner):  </p><p>GGI Campus Fellows learn the art and science of problem-solving in a closed ecosystem. The mentors leading these sessions are handpicked from top organizations such as McKinsey, BCG, Bain, United Nations, Tesla, etc.
+                    </p> <p class="text-xl font-semibold my-4">2. Microlearning Experience and Buddy System </p><p> 
+
+                    GGI has developed a microlearning AI-based experience through Schrödinger (by GGI). It is an interactive, real-life case simulator that allows fellows to practice cases and interviews at their convenience. This tool has been transformative for many GGI fellows, who credit their success in entering top consulting firms to Schrödinger.
+                    <br><br>                    
+                    During their executive education, GGI Impact Fellows are also integrated into a rotating buddy system, where they practice cases, network on Wiggly, and build bonds with other members of this exceptional community at the Global Governance Initiative.
+ </p>`]
     },
     {
         "id": 1,
-        "ques": "STAGE 2 - Apply What You Learn",
-        "ans": [`<p class='mb-2'>Work on peer projects and AI-based simulations that prepare you for real interviews and consulting challenges.</p>
-        `]
+        "ques": "Stage 2 - Access to Employment Partnerships<br/> &<br/> Skin in the Game ",
+        "ans": ["<p className='mb-3'>To truly understand the world, you must have skin in the game. The realms of Consulting and International Development are unpredictable and adventurous. Impact Fellows are placed in challenging situations where they refine their skills by publishing consulting-style research papers under the Council on Sustainable Development.", "  </p><br><p className='mb-3'>The combination of theoretical learning with practical experiences makes the Impact Fellowship unique. Passionate Fellows and their mentors delve into the core questions of international business and public policy at this stage. </p><br> <p className='mb-3'>Thanks to the experiential learning component, Impact Fellows can successfully outshine others in their consulting interviews.  </p>"]
     },
     {
         "id": 2,
-        "ques": "STAGE 3 - Join a Lifelong Network",
-        "ans": [`<p class='mb-2'>It&#39;s often said that having even just 1 person who cares for you unconditionally can do wonders for your self-esteem. </p>
-        <p class='mb-2'>Connect with mentors, alumni, and peers who support you well beyond graduation — in jobs, startups, or further study abroad.</p>
-`]
-    }
-
+        "ques": "Stage 3 - Community, Networking Nights, and Wellness Sessions ",
+        "ans": [
+            "<p>It is often said that having just one person who cares for you unconditionally can do wonders for your self-esteem. That person is the entire community at the Global Governance Initiative.</p>",
+            "<p><br></p><p>Campus Fellows gain exclusive access to the Global Governance Initiative. They attend monthly inner circle meetings and networking events with fellows from various fields. They are also provided with an ecosystem where their mental health is given paramount importance.</p><p><br></p><p>Even though the fellowship ends after 6 months, Fellows—as GGI Alumni—will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Initiative for the rest of their lives. Campus Fellows also enjoy access to the exclusive partnerships that GGI continuously establishes with leading universities, businesses, and policy schools.</p><p><br></p><p>The GGI Campus Fellowship is the Crème de la crème of the GGI network. Through core Masterclasses, a flexible curriculum, and consulting-style projects, the Campus Fellowship offers a deep dive into consulting, development consulting, and international development.</p><p><br></p><p>The GGI Campus Fellowship is personalized, and the schedule is shared only after the Initial Founders Call.</p><p><br></p><p>Campus Fellows are also integrated into GGI's growing technology portals, encompassing an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across the globe.</p>"
+          ] }
 ]
+
 export const testimonialMBA = [
       {
         name: 'Aditya Bansal',

@@ -33,8 +33,8 @@ const Executive = () => {
 
             <Heading margin={60}>WHY GGI EXECUTIVE PROGRAM  </Heading>
             <Container>
-                <p className="mb-7">We all know that the traditional forty-hour workweek, a relic of the industrial age, doesn’t fit the demands of today’s strategic roles. In the modern world, you need to operate like an elite athlete—strategically training, executing with precision, and then taking the time to rest, reassess, and innovate. </p>
-                <p className="mb-7">That&apos;s where the Executive Management Program at GGI comes in. This program is crafted for professionals like you—our &apos;strategic athletes&apos; —who are ready to <span className="font-bold">redefine their careers in Management Strategy, Policy Development, and Organizational Leadership. </span></p>
+                <p className="mb-7">We all know that the traditional forty-hour workweek, a relic of the industrial age, doesn’t fit the demands of today’s strategic roles. In the modern world, you need to operate like an elite athlete-strategically training, executing with precision, and then taking the time to rest, reassess, and innovate. </p>
+                <p className="mb-7">That&apos;s where the Executive Management Program at GGI comes in. This program is crafted for professionals like you-our &apos;strategic athletes&apos; -who are ready to <span className="font-bold">redefine their careers in Management Strategy, Policy Development, and Organizational Leadership. </span></p>
                 <p className="mb-7">We&apos;ve designed this advanced, transformational experience for those who are ready to seamlessly integrate cutting-edge theories with real-world application, all at your own pace. You’ll dive deep into complex concepts, then apply them through hands-on exercises in a high-stakes virtual consulting and strategy environment. Along the way, you’ll embrace the iterative process of learning, adapting, and excelling.  </p>
                 <p className="mb-7"> When you join us at the Global Governance Initiative Executive, you bring your unique professional experience and ambitions. And while your path forward is uniquely yours, we’ll provide the unparalleled tools, resources, and networks to not just help you reach your goals, but to empower you to redefine them.</p>
             </Container>
@@ -91,7 +91,7 @@ const Executive = () => {
             </div> */}
 
 
-            <Heading>We prepare and propel leaders to achieve the next elevation—for their organizations and for themselves.</Heading>
+            <Heading>We prepare and propel leaders to achieve the next elevation-for their organizations and for themselves.</Heading>
             <Container>
                 <p>For over 6 years, leaders have turned to the Global Governance Initiative as a catalyst for evolution and self-discovery. Embark on an unparalleled journey where leadership development and personal growth converge in a one-of-a-kind experience. </p>
                 <br />

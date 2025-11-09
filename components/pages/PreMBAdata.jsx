@@ -42,7 +42,7 @@ const PREMBADATA = () => {
                     </span>
                     <br class='hidden md:block'/>
                     <span class='block text-sm md:text-base text-white mt-2 font-light'>
-                    Learn from real industry mentors. Build skills that matter. Land roles in Consulting, Policy, Strategy, and Impact — before you even graduate.
+                    Learn from real industry mentors. Build skills that matter. Land roles in Consulting, Policy, Strategy, and Impact - before you even graduate.
                     </span>
                 </div>
                 `,
@@ -59,8 +59,8 @@ const PREMBADATA = () => {
             <FourColumnLayout data={fourcolumndata} />
 
             <p className='px-8 my-8 text-center font-bold'>The GGI Campus Fellowship program has created an Ivy League Management outcome at 1/1000th of the cost. </p>
-            <Container ><span className='primary font-medium'>A college degree alone no longer guarantees a great career, But the right mentorship and community can.</span> The GGI Campus Fellowship helps students from India’s top campuses — IITs, DU, NMIMS, Ashoka, Symbiosis, and more — learn practical business, consulting, and policy skills directly from global leaders.
-            It’s where ambition meets clarity — and where students turn internships into full-time offers.<br/><br/> </Container>
+            <Container ><span className='primary font-medium'>A college degree alone no longer guarantees a great career, But the right mentorship and community can.</span> The GGI Campus Fellowship helps students from India’s top campuses - IITs, DU, NMIMS, Ashoka, Symbiosis, and more - learn practical business, consulting, and policy skills directly from global leaders.
+            It’s where ambition meets clarity - and where students turn internships into full-time offers.<br/><br/> </Container>
             <div className='my-8'></div>
             <YoutubeEmbed embedId='BfXtDA8J-JI' autoplay={1}/>
 
@@ -97,17 +97,17 @@ const PREMBADATA = () => {
             <br/>
             <Container>
                 <p> 1. <span className='primary font-bold'>Real Problems, Not Textbook Theories: </span>Solve live industry cases and public policy challenges with guidance from mentors who’ve been there</p><br />
-                <p>2. <span className='primary font-bold'>Portfolio That Gets You Noticed: </span> Build a tangible body of work recruiters can see — case projects, thought pieces, and peer collaborations.</p><br />
-                <p>3.<span className='primary font-bold'> Mock-to-Real Career Transition: </span>From resume sprints to live case rounds — every session is designed to simulate your actual campus placement experience.
+                <p>2. <span className='primary font-bold'>Portfolio That Gets You Noticed: </span> Build a tangible body of work recruiters can see - case projects, thought pieces, and peer collaborations.</p><br />
+                <p>3.<span className='primary font-bold'> Mock-to-Real Career Transition: </span>From resume sprints to live case rounds - every session is designed to simulate your actual campus placement experience.
 </p><br />
-                <p className='mb-24'>4. <span className='primary font-bold'>Community That Has Your Back: </span>Get paired with buddies who are one step ahead — because growth happens when you feel supported. </p>
+                <p className='mb-24'>4. <span className='primary font-bold'>Community That Has Your Back: </span>Get paired with buddies who are one step ahead - because growth happens when you feel supported. </p>
 
             </Container>
 
 
 
             <Heading>You Learn Directly From People Who’ve Built Real Careers</Heading>
-            <p className='text-center text-xl'> <span className="primary font-extrabold">Learn from McKinsey Partners, IAS Officers, Startup Founders, and Impact Investors <br/> who’ve led through uncertainty — and are now guiding India’s next generation of leaders.</span></p>
+            <p className='text-center text-xl'> <span className="primary font-extrabold">Learn from McKinsey Partners, IAS Officers, Startup Founders, and Impact Investors <br/> who’ve led through uncertainty - and are now guiding India’s next generation of leaders.</span></p>
             <br/>
             <Gallery />
 
@@ -119,11 +119,11 @@ const PREMBADATA = () => {
             <Heading>A Liberal Refund Policy for You  </Heading>
             <p className='text-center text-xl'> <span className="primary font-extrabold"> Your Learning, Risk-Free</span></p><br/>
             <Container>
-                <p className='text-lg'><span className='font-bold'>We offer a 3-day full refund from your first live masterclass — because your trust matters more than a transaction.</span> </p>
+                <p className='text-lg'><span className='font-bold'>We offer a 3-day full refund from your first live masterclass - because your trust matters more than a transaction.</span> </p>
             </Container><br/><br/>
 
             <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7">Join the GGI Campus Fellowship</Button><br/>
-            <p className='text-center text-xl'> <span className="primary font-extrabold"> Learn what top students wish they knew earlier — and graduate with clarity, skills, and community</span></p><br/>
+            <p className='text-center text-xl'> <span className="primary font-extrabold"> Learn what top students wish they knew earlier - and graduate with clarity, skills, and community</span></p><br/>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />

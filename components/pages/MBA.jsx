@@ -31,53 +31,55 @@ const MBA = () => {
     }
     return (
         <div>
-            <SlidingHero image={'./mba.jpeg'} title={["Learn Business Skills Live, Join Global Network <br class='hidden md:block'/>& Get Hired at <span class='text-yellow-200'>GGI Management Scholar</span><br class='hidden md:block'/> to Become a Business Leader", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs "]} />
+            <SlidingHero image={'./mba.jpeg'} title={[" Learn Business Skills You Were Never Taught in School. <class='hidden md:block'/>Join a Global Network. Get Hired <span class='text-yellow-200'><br/>Become the kind of business leader companies fight to hire </span><br class='hidden md:block'/> ", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs"]} />
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO THE GGI MBA SCHOLAR PROGRAM</Button>
 
 
             <Heading margin={60}>Why GGI Impact Scholars Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <p className='px-8 my-8 text-center font-medium'>The GGI Impact Management has created an Ivy League Management outcome at 1/1000th of the cost. </p>
-            <Container ><span className='primary font-medium'>Your MBA is a big investment, in terms of - time, money, and emotions.</span> It costs upward of $200,000 to pursue an MBA from a top 20 global business school. Despite the high cost, many global schools—aside from a few Ivy League institutions—do not write their own cases, lack an extensive global network, offer limited experiential learning opportunities, and have weak industry connections.<br/><br/>At Global Governance Initiative, we address these issues through our mission.  </Container>
+            <p className='px-8 my-8 text-center font-medium'>The traditional MBA is a $200,000 bet on your future </p>
+            <Container ><span className='primary font-medium'> At GGI, we make that same outcome accessible - at less than 1/1000th of the cost.</span> Because we believe access to world-class business education shouldn’t depend on your bank balance - only on your ambition. </Container>
             <div className='my-8'></div>
             <YoutubeEmbed embedId='pwe1YoNGkog' autoplay={1}/>
 
             <Heading>Hear what GGIians who have pivoted into Strategy, Consulting and PM roles- have to say about us</Heading >
 
-            <Slider slides={testimonialMain2} /> 
+            <Slider slides={testimonialMain2} />
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
             <YoutubeEmbed embedId='w-VJdR9wENw' autoplay={1}/>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI MBA SCHOLAR TODAY</Button>
 
 
             <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI MBA SCHOLAR TODAY</Button>
 
 
             <Heading>Who is this Program for?</Heading>
             <Container>
-                <p> 1. If you&#39;re a young professional seeking <span className='primary font-bold'> Alternatives to international MBA</span> programs and want to learn directly from top industry leaders, you&#39;re in the right place.</p><br />
-                <p>2.  If you&#39;re a CA or non-MBA looking to pivot into Management Consulting roles at firms like <span className='primary font-bold'> McKinsey & BCG, or into Product Management roles </span> at companies like Uber, Amazon, Microsoft, and leading tech startups, this is for you.</p><br />
-                <p>3. If you&#39;re a <span className='primary font-bold'>Pre-MBA </span>with admissions offers from Harvard 2+2, Yale Silver Scholars, or other top MBA programs and looking to complete the business curriculum before starting your program, this path is designed for you.</p><br />
-                <p className='mb-24'>4. If you&#39;re an <span className='primary font-bold'>aspiring entrepreneur</span> aiming to launch and scale ventures and looking to enhance your business skills while building an incredible support network, you&#39;ve found the right opportunity.</p>
+                <p> 1. You want to pivot into consulting, strategy, or product roles - <span className='primary font-bold'>  without spending $200,000 on a foreign MBA.
+                </span> </p><br />
+                <p>2. If you are a CA or IIT engineer looking to pivot into Management Consulting roles at firms like <span className='primary font-bold'>McKinsey & BCG, or into Product Management roles </span>at companies like Uber, Amazon, Microsoft, and leading tech startups, this is for you.</p><br/>
+                <p>3. You’re an aspiring founder <span className='primary font-bold'>looking to master business fundamentals </span>while building your network.</p><br />
+                <p className='mb-24'>4. You believe in global thinking, <span className='primary font-bold'>but want local impact</span>.</p>
+                
 
             </Container>
             <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI MBA SCHOLAR TODAY</Button>
 
             <Heading>Post Graduate Program in Management</Heading>
             <Curriculum data={curriculum}/>
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
 
 
-            <Heading>A Liberal Refund Policy for You  </Heading>
+            <Heading>We Believe Learning Should Be a No-Risk Decision.  </Heading>
             <Container>
-                <p className='text-lg'>Your learning is our top priority, and we aim to make this decision entirely risk-free for you, allowing you to focus solely on learning. We offer a no-questions-asked 3-day full refund policy from your first live masterclass date. </p>
+                <p className='text-lg'>That’s why we offer a <em>full refund within 3 days</em> of your first live masterclass - no questions asked. Your only investment should be your curiosity.</p>
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
@@ -90,7 +92,12 @@ const MBA = () => {
                 <p>To support the development of these essential skills, GGI has meticulously designed a portfolio of immersive, experiential courses spanning across sectors and industries, organized into three stages: </p>
             </Container>
             <Steps data={stages} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI MBA SCHOLAR TODAY</Button>
+
+            <div className='mt-24 flex justify-center'>
+                <p className='md:w-3/5 md:text-lg mb-5 text-center'>Because the world doesn’t need more degrees - it needs leaders who can think, decide, and build.<br/>
+                </p>
+            </div>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
@@ -104,6 +111,7 @@ const MBA = () => {
                 <br /><br />
                 Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform' target="_blank" rel='noreferrer'>here</a></u></p>
             </Container>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI MBA SCHOLAR TODAY</Button>
 
 
 

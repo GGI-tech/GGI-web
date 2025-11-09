@@ -21,26 +21,26 @@ export const fourcolumndata = [ //to be fetched from database
     {
         "id": 1,
         "img": arunm,
-        "title": "Learn from Industry Leaders",
-        "body": "Top Government & Society Leaders write their own policy and social impact cases and teach core Policy Concepts via designing a case-based learning ecosystem."
+        "title": "Learn from Practitioners Who’ve Written Real Policy",
+        "body": "Our faculty includes bureaucrats, diplomats, and global consultants who’ve drafted reforms, built programs, and shaped narratives - not just studied them"
     },
     {
         "id": 2,
         "img": clinton,
-        "title": "Get Recruited by Top Employers",
-        "body": "GGI has forged strong employment partnerships with leading consulting, public policy, product management, and impact investing organizations."
+        "title": "Get Recruited by the World’s Most Impactful Organizations",
+        "body": "GGI Scholars have joined the UN, World Bank, BCG, FSG, and top government programs - where ideas turn into measurable outcomes"
     },
     {
         "id": 3,
         "img": network,
-        "title": "Become Part of Global Network",
-        "body": "Global community represents powerful internationally diverse leaders who are at the helm of leading organizations. And this community helps each other out - not just in referring you to your first job, but in navigating a thriving career or in building your startups."
+        "title": "Grow Inside a Global Network That Opens Doors",
+        "body": "You’ll collaborate with a powerful, values-driven community of policymakers, entrepreneurs, and consultants - all helping each other navigate thriving global careers"
     },
     {
         "id": 4,
         "img": poets,
-        "title": "Globally Recognized",
-        "body": "GGI MBA was globally featured by Poets and Quants as the world’s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes "
+        "title": "Be Recognized by the World’s Leading Institutions",
+        "body": "GGI’s Impact MPP has been featured by Poets & Quants and the World Economic Forum as one of the most disruptive alternatives to traditional public policy degrees"
     }
 ]
 
@@ -75,52 +75,41 @@ export const stages = [
     }
 
 ]
+
 export const testimonialPolicy = [
      {
         name: 'Akshita Sharma',
         org: 'GGI Policy Scholar 2025',
         image: '/akshita_sharma.png',
-        review: "Akshita Sharma is a retired <span class='font-bold'>Deputy Commandant from the INDIAN COAST GUARD</span>, now exploring her second innings in governance and public policy. <br><br> With over a decade of experience in leadership and operational planning, she’s passionate about building systems that are inclusive and grounded in public service. <br><br> Her current focus lies in strengthening institutional accountability and advancing child rights, areas where she hopes to drive meaningful change.<br><br>Through the GGI Policy Scholars, Akshita is looking to deepen her understanding of policy-making and contribute to frameworks that promote equity, transparency, and long-term social impact."
+        review: "After serving a decade in the <span class='font-bold'>Indian Coast Guard</span>, I wanted to shift from enforcing policy to shaping it. <br/><br/>GGI became that bridge - connecting real-world governance with purpose-led leadership.<br/><br/> Today, I’m working on child rights and institutional accountability - areas where I can see the ripple effects of what I learned every single day."
     },
     {
         name: 'Rishabh Kashyap',
         org: 'GGI Policy Scholar 2025',
         image: '/rishabh_kashyap.png',
-        review: "Rishabh Kashyap is a public policy enthusiast from Himachal Pradesh with experience at <span class='font-bold'>NITI Aayog</span> under the Aspirational Blocks Programme, where he supported the on-ground implementation and monitoring of government schemes. <br><br> His background spans data analysis, and policy research, shaping his deep interest in development consulting and governance.<br><br> He believes meaningful change begins at the grassroots and aspires to work at the intersection of policy, strategy, and execution to ensure impactful delivery."
+        review: "Working at the grassroots through the <span class='font-bold'>Aspirational Blocks Programme at NITI Aayog</span>, I saw firsthand how data and policy intersect to shape lives. <br/><br/>GGI became my space to connect those dots - turning analytical insights into purposeful governance. <br/><br/>Today, I’m building my path in development consulting and governance, where every project is a chance to translate ideas into real impact on the ground."
     }
 ]
 
 export const curriculum=[
     {
-        "title":"3-6 Months",
-        "description":"Program length, flexible upon your needs and availability"
-    },
-    {
         "title":"90+ Hours of Policy Masterclasses",
-        "description":"Over9 weekends, based on your availability "
+        "description":" Learn frameworks from global bureaucrats, economists, and consultants."
     },
     {
         "title":"115+ Employment Partners",
-        "description":"Which Recruit GGIians"
+        "description":"Our partner ecosystem recruits GGIians regularly."
     },
     {
         "title":"60+ Hours of Policy Interview Practice",
-        "description":"Via our inhouse AI Based software"
-    },
-    {
-        "title":"Unlimited Networking ",
-        "description":"You continue to be a part of the family post your graduation"
+        "description":"Train through our in-house AI software."
     },
     {
         "title":"1:1 Founders&#39; Office Hours",
-        "description":"During graduation. 1 to take forward your MPP dreams "
+        "description":"Personalized guidance for your policy or MPP goals."
     },
     {
-        "title": "GGI Startup Weekend",
-        "description": "Peer to Peer projects "
-    },
-    {
-        "title":"10+ Hours of Trinity",
-        "description":"You get access to recorded Masterclasses of top speakers in consulting at GGI"
+        "title":"Lifetime Community Access",
+        "description":"Because your network shouldn’t end with graduation."
     }
 ]

@@ -33,8 +33,8 @@ const CurieFellowship = () => {
             <Heading margin={60}>Why GGI Curie Fellowship Works ?</Heading>
             <FiveColumnLayout data={fivecolumndata} />
             <Container>
-                <p className='mb-5 mt-12'>The most impactful learning happens through direct, meaningful connections between mentors and fellows—where ideas are explored, critical thinking is fostered, and supportive conversations drive growth. However, scaling this personalized experience is challenging in today’s fast-paced world. <br/><br/>The GGI Curie Fellowship bridges this gap by offering an exclusive, hands-on consulting and leadership experience tailored for women navigating pregnancy, family planning, and postpartum transitions—all at just 1/500th of the traditional cost of an MBA degree</p>
-                <p className='mb-5'><span className='font-semibold primary'>Many women professionals struggle to re-enter competitive fields like management and development consulting after a career break or spend years trying to bridge the gap through self-study.</span> The GGI Curie Fellowship solves this by providing direct access to real-world projects, mentorship from top consultants at firms like BCG and McKinsey, and a supportive global network—empowering women to thrive as leaders while balancing career and family.</p>
+                <p className='mb-5 mt-12'>The most impactful learning happens through direct, meaningful connections between mentors and fellows-where ideas are explored, critical thinking is fostered, and supportive conversations drive growth. However, scaling this personalized experience is challenging in today’s fast-paced world. <br/><br/>The GGI Curie Fellowship bridges this gap by offering an exclusive, hands-on consulting and leadership experience tailored for women navigating pregnancy, family planning, and postpartum transitions-all at just 1/500th of the traditional cost of an MBA degree</p>
+                <p className='mb-5'><span className='font-semibold primary'>Many women professionals struggle to re-enter competitive fields like management and development consulting after a career break or spend years trying to bridge the gap through self-study.</span> The GGI Curie Fellowship solves this by providing direct access to real-world projects, mentorship from top consultants at firms like BCG and McKinsey, and a supportive global network-empowering women to thrive as leaders while balancing career and family.</p>
                 <p className='mb-12'><span className='font-semibold primary'>Recognition by BCG:</span>The GGI Fellowship has been recognized by BCG Global Media for its consulting feeder program.</p>
             </Container>
             <YoutubeEmbed embedId='CL-UcquUN3k' autoplay={1} />
@@ -58,7 +58,7 @@ const CurieFellowship = () => {
 </li>
                     
                 </ul>
-                <p className='mb-4'>Many leading employers recognize that the Curie Fellowship prepares women not only for leadership roles in management but also for specialized positions in government affairs, sustainability, and strategic initiatives—fields that demand skills beyond conventional business training.</p>
+                <p className='mb-4'>Many leading employers recognize that the Curie Fellowship prepares women not only for leadership roles in management but also for specialized positions in government affairs, sustainability, and strategic initiatives-fields that demand skills beyond conventional business training.</p>
                 <p className='mb-4'>Curie Fellows at the Global Governance Initiative develop a profound understanding of the complexities of national and local environments, empowering them to lead with impact across sectors.</p>
             </Container>
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
@@ -66,10 +66,10 @@ const CurieFellowship = () => {
 
             <Heading>Who is this Fellowship for ?</Heading>
             <Container>
-                <p> 1. Aspiring Women Leaders in Consulting- Pregnancy & Postpartum-Friendly: You are a driven young professional eager to pivot into management or development consulting by working on real-world projects with direct<span className='primary font-semibold'>mentorship from consultants at McKinsey, BCG, Bain, or Dalberg—all within a program designed to support women navigating pregnancy or postpartum transitions. </span> </p><br />
+                <p> 1. Aspiring Women Leaders in Consulting- Pregnancy & Postpartum-Friendly: You are a driven young professional eager to pivot into management or development consulting by working on real-world projects with direct<span className='primary font-semibold'>mentorship from consultants at McKinsey, BCG, Bain, or Dalberg-all within a program designed to support women navigating pregnancy or postpartum transitions. </span> </p><br />
                 <p>2. Civil Services Aspirants Seeking a Family-Friendly Plan B: You are a UPSC aspirant exploring impactful career alternatives and are <span className='primary font-semibold'>passionate about contributing to the social impact and development sector, while balancing family planning, pregnancy, or postpartum needs.</span>
  </p><br />
-                <p>3. Pre-MBA/MPP Professionals Seeking Pregnancy-Supportive Experience: You are preparing for <span className='primary font-semibold'>an MBA or MPP</span> and want to gain consulting experience by advising leading national NGOs—through a flexible, family-friendly program that accommodates the demands of pregnancy and motherhood. </p><br />
+                <p>3. Pre-MBA/MPP Professionals Seeking Pregnancy-Supportive Experience: You are preparing for <span className='primary font-semibold'>an MBA or MPP</span> and want to gain consulting experience by advising leading national NGOs-through a flexible, family-friendly program that accommodates the demands of pregnancy and motherhood. </p><br />
                 <p className='mb-12'>4. Career Pivoters Looking for Family-Centric Employment Opportunities: You are ready to transition into a new career and seek to connect with GGI’s family-friendly employment partners, who prioritize<span className='primary font-semibold'>work-life balance and provide support for women during pregnancy and postpartum.
 </span></p>
 
@@ -80,7 +80,7 @@ const CurieFellowship = () => {
 
             <Heading>Curriculum & Commitment</Heading>
             <p className='px-8 text-center font-bold mb-4' >
-            If GGI MBA Scholars is the equivalent of Harvard Business School, then the GGI Curie Fellowship is like Harvard Business School combined with McKinsey’s work experience—specially designed to support women during pregnancy, family planning, and postpartum transitions.</p>
+            If GGI MBA Scholars is the equivalent of Harvard Business School, then the GGI Curie Fellowship is like Harvard Business School combined with McKinsey’s work experience-specially designed to support women during pregnancy, family planning, and postpartum transitions.</p>
             <Curriculum2 data={curriculum} />
             <YoutubeEmbed embedId='3xL9AbP92yo' />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>

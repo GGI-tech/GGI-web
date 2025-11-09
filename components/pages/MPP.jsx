@@ -6,7 +6,7 @@ import FourColumnLayout from '../global/FourColumnLayout';
 import Container from '../global/Container';
 import OfficialPartners from '../global/OfficialPartners';
 import YoutubeEmbed from '../global/YoutubeEmbed';
-import Curriculum from '../global/Curriculum';
+import Curriculum6 from '../global/Curriculum6';
 import Associations from '../global/Associations';
 import Gallery from '../global/Gallery';
 import Footer from '../global/Footer';
@@ -20,9 +20,9 @@ const MPP = () => {
 
     return (
         <>
-            <SlidingHero image={'./policy.jpg'} title={[`Learn Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Policy Consulting Lab</span><br class='hidden md:block'/> to Become Leader in Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
+            <SlidingHero image={'./policy.jpg'} title={[`Join a Global Network of Practitioners Who Build Better Societies. <br/> <span class="text-yellow-200"> Become the kind of policy leader the world actually needs</span><br class='hidden md:block'/>`, `<span class="text-yellow-200"></span><br/> `]} />
 
-            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> APPLY NOW TO THE GGI POLICY CONSULTING LAB</Button>
 
 
             <Heading margin={60}>Why GGI Policy Consulting Lab Works?</Heading>
@@ -38,36 +38,37 @@ const MPP = () => {
 
             <Heading>Who is this Program for?</Heading>
             <Container>
-                <p> 1. You are looking for best <span className='primary font-bold'> Alternative to International- MPP</span>. </p><br />
-                <p>2. You are looking to pivot in impact firms such as <span className='primary font-bold'> UN, World Bank, FSG or social impact</span> roles.</p><br />
-                <p>3. You are a <span className='primary font-bold'>Pre-MPP </span>with MPP admits to Harvard Kennedy, Oxford MPP, and other top MPPs.</p><br />
-                <p>4. You are a <span className='primary font-bold'>budding social impact entrepreneur</span> who is aiming to launch a venture.</p>
+                <p> 1. You want to pivot into public policy, impact consulting, or international affairs <span className='primary font-bold'>without a $100,000 MPP
+</span>. </p><br />
+                <p>2. You’re aiming for organizations like the <span className='primary font-bold'> UN, World Bank, BCG,</span> or leading social enterprises. </p><br />
+                <p>3. You’ve already secured MPP admits like <span className='primary font-bold'>Harvard Kennedy, Oxford, LSE </span>and want to get a head start on real-world learning.</p><br />
+                <p>4. You’re a social impact entrepreneur <span className='primary font-bold'> building ventures that make policies work for people</span>.</p>
 
             </Container>
             <YoutubeEmbed embedId='7IFecGF-JzA' autoplay={1} />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
             <Heading>Post Graduate Program in Public Policy </Heading>
-            <Curriculum data={curriculum} />
+            <Curriculum6 data={curriculum} />
             <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
-            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">START YOUR POLICY JOURNEY WITH GGI - APPLY NOW</Button>
 
 
-            <Heading>You Learn along with Diverse Community who Adds to Your Perspective </Heading>
+            <Heading>Learn With Changemakers Across Sectors </Heading>
             <div className='flex flex-wrap gap-10'>
                 {/* to be added */}
             </div>
-            <Container>
-                <p>
-                    The GGI Policy Consulting Lab comprises an extremely diverse cohort -  from BTech at IIT&#39;s and YIF at Ashoka to Masters at TISS and the London School of Economics and Political Science. A few of the policy scholars are working professionals in organizations such as Pratham, Teach for India, NITI Aayog, Hindustan Times and other leading education NGOs.
-                </p>
+                <Container>
+                <p className='text-lg'>From <span className="font-bold">IIT engineers and TISS graduates to Teach for India fellows and NITI Aayog professionals</span> - our cohort reflects the diversity of modern policy leadership. The conversations inside GGI are where impact begins. </p>
             </Container>
+
+
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
-            <Heading>A Liberal Refund Policy for You </Heading>
+            <Heading>Your Learning, Without the Risk. </Heading>
             <Container>
-                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">3-day full refund policy from your first live masterclass date</span>. </p>
+                <p className='text-lg'> We offer a <span className="font-bold">no-questions-asked 3-day full refund</span> after your first live class. Because your only commitment should be to learning - not uncertainty. </p>
             </Container>
 
             <Heading>Learn & Network with World&#39;s top CEOs, Partners, And Policy Leaders  </Heading>
@@ -75,10 +76,10 @@ const MPP = () => {
             <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
 
-            <Heading>At GGI Policy Consulting Lab, You will Immerse Yourself in a Truly Impactful Experience  </Heading>
+            <Heading>At GGI Policy Consulting Lab, You Don’t Just Study Policy - You Shape It  </Heading>
             <Container>
-                <p className='mb-2'>Through teaching,  public sector knowledge, change theories, and engagement with government practitioners, GGI Policy Scholar during GGI MPP improves public policy and public leadership so that people can live in societies that are safer, freer, juster, and more sustainably prosperous. Our practitioner&#39;s focus on economic, technology, extremism, sustainability, and your public leadership practice.   </p>
-                <p>Leaders looking to pivot into the world of public policy, social impact, international affairs and impact investing should be able to successfully navigate different cultures, economies, governments, and jobs. To help GGI Policy Scholars develop these crucial abilities, GGI has carefully curated a portfolio of immersive, experiential programs that take place across the social impact and public policy domain. <span className='font-bold'>This is achieved in 3 stages during the 3-6 months  : </span> </p>
+                <p className='mb-2'>Our immersive, experiential curriculum helps you learn how governments think, how systems change, and how policy can create measurable social impact.</p>
+                <p>We prepare you to lead across government, consulting, and impact ecosystems - with a blend of <span className='font-bold'>rigor, empathy, and strategic thinking.</span> </p>
             </Container>
             <Steps data={stages} />
 
@@ -86,11 +87,17 @@ const MPP = () => {
 
             <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>APPLY NOW</Button>
 
-            <Heading>Program Fees </Heading>
-            <Container> <p >Our competitors charge Rs. 3,00,000 to Rs. 7,00,000. So we decided to try crazy pricing. <span className='font-bold'>We are 80% cheaper than our competitor&#39;s price.</span> We are doing this because we want to make high-quality business and policy education truly accessible to you all and disrupt the space.
-                <br /><br />
-                Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform' target="_blank" rel="noreferrer" >here</a></u></p>
+            <Heading>High-Quality Policy Education - at 80% Less Cost </Heading>
+            <Container> <p > Traditional MPPs cost ₹3–7 lakhs or more. GGI’s Policy Lab delivers Ivy League outcomes at a fraction of that - because access should never be a privilege. <br/>
+            We also offer a <span className='font-bold'>6-day full refund policy</span> post-enrollment. <br/> Either way, you win.
+                <br/><br/></p>
             </Container>
+            <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>SHAPE POLICY. LEAD IMPACT. BECOME A GGI POLICY SCHOLAR</Button>
+
+            <div className='mt-24 flex justify-center'>
+                <p className='md:w-3/5 md:text-lg mb-5 text-center'>Because the future won’t be built by politicians - it’ll be built by problem solvers.<br/>
+                </p>
+            </div>
 
             <Heading>Our Official Partners</Heading>
             <OfficialPartners />

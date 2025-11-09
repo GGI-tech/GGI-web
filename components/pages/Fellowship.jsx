@@ -33,11 +33,11 @@ const Fellowship = () => {
             <Heading margin={60}>Why GGI Impact Fellowship <em>Actually</em> Works ?</Heading>
             <FiveColumnLayout data={fivecolumndata} />
             <Container>
-                <p className='mb-5 mt-12 text-justify font-semibold'>True learning happens through dialogue, not lectures.<br></br> That’s why GGI builds a <em>non-scalable McKinsey-style ecosystem</em> — one mentor, one Fellow, one project — at 1/500th the cost of elite consulting experience.</p>
-                <p className='mb-5 text-justify'><span className='font-semibold primary'>You’ve spent years chasing the UPSC dream — but deep down, you fear being 29, overqualified, and unemployed.
+                <p className='mb-5 mt-12 text-justify font-semibold'>True learning happens through dialogue, not lectures.<br></br> That’s why GGI builds a <em>non-scalable McKinsey-style ecosystem</em> - one mentor, one Fellow, one project - at 1/500th the cost of elite consulting experience.</p>
+                <p className='mb-5 text-justify'><span className='font-semibold primary'>You’ve spent years chasing the UPSC dream - but deep down, you fear being 29, overqualified, and unemployed.
                 Or you’ve read 100 Harvard cases but still don’t know how real consulting feels.
-                GGI’s Impact Fellowship bridges that gap — turning paralysis into purpose.</span></p>
-                <p className='mb-12 text-justify font-semibold'><span className='font-semibold primary'></span>Recognized by BCG Global Media as one of the most effective consulting feeder programs — GGI builds the muscle memory of consulting long before you enter the firm.</p>
+                GGI’s Impact Fellowship bridges that gap - turning paralysis into purpose.</span></p>
+                <p className='mb-12 text-justify font-semibold'><span className='font-semibold primary'></span>Recognized by BCG Global Media as one of the most effective consulting feeder programs - GGI builds the muscle memory of consulting long before you enter the firm.</p>
             </Container>
             <YoutubeEmbed embedId='BfXtDA8J-JI' autoplay={1} />
 
@@ -51,7 +51,7 @@ const Fellowship = () => {
             <Heading>Life After GGI Impact Fellowship</Heading>
 
             <Container>
-                <p className='mb-4'>There’s no ‘typical’ GGI path. Fellows lead consulting projects, launch ventures, and shape policy — across 25+ countries.
+                <p className='mb-4'>There’s no ‘typical’ GGI path. Fellows lead consulting projects, launch ventures, and shape policy - across 25+ countries.
 </p>
                 <p className='mb-4'>The Impact Fellowship has positioned GGI Alumni for careers in various sectors, including:</p>
                 <ul className='list-disc ml-4'>
@@ -64,7 +64,7 @@ const Fellowship = () => {
                     
                 </ul>
                 <br/><br/>
-                <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>GGI Fellows don’t just change jobs — they change trajectories.</span></p>
+                <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>GGI Fellows don’t just change jobs - they change trajectories.</span></p>
             </Container>
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> STOP READING. START ACTING</Button>
 
@@ -86,14 +86,14 @@ const Fellowship = () => {
                 </li>
             </ul>
             </Container>
-            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If you’ve outgrown preparation and are ready for performance — this Fellowship is built for you.</span></p>
+            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If you’ve outgrown preparation and are ready for performance - this Fellowship is built for you.</span></p>
             <YoutubeEmbed embedId='lZMBRyoMNSQ' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
 
             <Heading>Curriculum & Commitment</Heading>
             <Curriculum2 data={curriculum} /><br/><br/>
-            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If GGI MBA Scholars is Harvard Business School, then GGI Impact Fellowship is Harvard + McKinsey work experience — <br/>compressed into one transformative journey.</span></p><br/>
+            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If GGI MBA Scholars is Harvard Business School, then GGI Impact Fellowship is Harvard + McKinsey work experience - <br/>compressed into one transformative journey.</span></p><br/>
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
@@ -114,7 +114,7 @@ const Fellowship = () => {
             <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills</Heading>
             {/* <ThreeColumnLayout data={socialspaceimpactdata} /> */}<br/>
             <Container>
-                <p className='text-lg'>From blind football to climate strategy — our Fellows work with organizations like IBFF, The Goodstep, and CSD to create measurable change.
+                <p className='text-lg'>From blind football to climate strategy - our Fellows work with organizations like IBFF, The Goodstep, and CSD to create measurable change.
                 You’ll apply consulting frameworks to solve real-world impact challenges under mentor guidance.</p>
             </Container><br/><br/>
             <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>Every GGI project drives impact that outlives the Fellowship.</span></p>
@@ -143,7 +143,7 @@ const Fellowship = () => {
 
             <Heading>Program Fees </Heading>
             <Container> <p><span className='font-bold'>Top competitors charge ₹3–7 Lakhs.
-                GGI is 80% more affordable — delivering a real consulting experience for under ₹1 Lakh.
+                GGI is 80% more affordable - delivering a real consulting experience for under ₹1 Lakh.
                 Full refund within 6 days of payment if you change your mind.
                 Apply only if you’re ready to perform and commit- selection rate of less than 10%.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel='noreferrer'>here</a></u></p>
             </Container>

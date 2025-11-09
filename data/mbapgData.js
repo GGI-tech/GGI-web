@@ -19,26 +19,26 @@ export const fourcolumndata = [
     {
         "id": 1,
         "img": rjgupta,
-        "title": "Learn from Industry Leaders",
-        "body": "The top CXOs write their own business cases and teach core business concepts by designing a case-based learning ecosystem."
+        "title": "Learn from Leaders Who’ve Actually Led Businesses",
+        "body": "Not just professors - but CXOs, investors, and founders who’ve written their own business cases and lived what they teach"
     },
     {
         "id": 2,
         "img": clinton,
-        "title": "Get Recruited by Top Employers",
-        "body": "GGI has established strong employment partnerships with leading organizations in Consulting, Public Policy, Product Management, and Impact Investing."
+        "title": "Get Recruited by the World’s Best Employers",
+        "body": "Our partners include BCG, Clinton Health Access Initiative and leading policy consulting firms— organizations that trust GGI talent for their rigor, depth, and perspective"
     },
     {
         "id": 3,
         "img": network,
-        "title": "Become Part of Global Network",
-        "body": "Our Global Community represents Powerful, Internationally diverse leaders who are at the helm of leading organizations. This community supports each other not only by referring members to their first jobs but also in navigating thriving careers or building startups."
+        "title": "Grow Inside a Global Network That Stays With You",
+        "body": "GGI isn’t a classroom; it’s a lifelong circle. Fellows refer, mentor, and build with each other - across borders, ideas, and industries"
     },
     {
         "id": 4,
         "img": poets,
-        "title": "Globally Recognized",
-        "body": "The GGI MBA was globally featured by Poets & Quants and World Economic Forum as the world&#39;s most disruptive Alt MBA program. It was also recognized by BCG Global Media for its learning outcomes."
+        "title": "Be Recognized Globally",
+        "body": "GGI’s Impact MBA is globally featured by Poets & Quants, the World Economic Forum, and BCG Global Media - as one of the most disruptive Alt MBAs in the world"
     }
 ]
 export const stages = [

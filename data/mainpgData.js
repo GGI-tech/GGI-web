@@ -23,29 +23,51 @@ export const fourcolumndata = [ //to be fetched from database
   {
     "id": 1,
     "img": harvardcase,
-    "title": "Harvard Case Method",
-    "body": "Driven by experiential learning through real case based teaching and heavily interactive & live feedback based problem solving."
+    "title": "Harvard-Style, Case-Driven masterclasses.",
+    // "body": "Driven by experiential learning through real case based teaching and heavily interactive & live feedback based problem solving."
   },
   {
     "id": 2,
     "img": officeofcareer,
-    "title": "Office of Career Service",
-    "body": "GGI facilitates your hiring by partnering with leading employment partners in consulting, & PM along with resume' and interview prep."
+    "title": "Guided by mentors from McKinsey, BCG, Dalberg, and the UN.",
+    // "body": "GGI facilitates your hiring by partnering with leading employment partners in consulting, & PM along with resume' and interview prep."
   },
   {
     "id": 3,
-    "img": becomepart,
-    "title": "Become part of the Tribe",
-    "body": "Masterclasses are designed to ensure your peer to peer-based learning; so that you grow by growing others."
+    "img": leadingpurpose,
+    "title": "Focused on execution - not theory.",
+    // "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
   },
   {
     "id": 4,
-    "img": leadingpurpose,
-    "title": "Leading with Purpose",
-    "body": "All GGI Masterclasses are curated with a sharp focus on responsible capitalism and ethics by involving leaders, not managers."
+    "img": becomepart,
+    "title": "Rooted in community - not competition.",
+    // "body": "Masterclasses are designed to ensure your peer to peer-based learning; so that you grow by growing others."
   },
 ]
 export const companies = [BCG, mckinsey, bain, dalberg, kearney, pwc, fsg, gov, worldbank, UN, Delloite, tony];
+
+
+export const stages = [
+    {
+        "id": 0,
+        "ques": "Stage 1 - Upskilling ",
+        "ans": ["<p className='mb-2'>Build foundations in consulting, policy design, and strategic communication.", `</p>`]
+    },
+    {
+        "id": 1,
+        "ques": "Stage 2 - Apply ",
+        "ans": ["<p className='mb-3'>Work on live cases with real mentors and organizations.", "  </p><br>"]
+    },
+    {
+        "id": 2,
+        "ques": "Stage 3 - Accelerate ",
+        "ans": [
+            "<p>Publish, pitch, and pivot - join GGI’s 100+ hiring partners in consulting, product, or impact roles.</p>",
+            ""
+          ] }
+]
+
 
 export const testimonialMainFellows = [
   {
@@ -355,31 +377,42 @@ export const testimonialMain = [
 
 
 export const testimonialMain2 = [
-   {
+  {
     name: 'SAIYAM HOTA',
-    org: 'GGI Impact MBA Scholar, 2021<br>Shaheed Bhagat Singh College',
+    org: 'GGI Impact MBA Scholar, 2021',
     image: '/sayam.jpg',
-    review: "After GGI, I will join <span class='font-bold'>Bain & Company</span>. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds. <br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
+    review: `Before GGI, consulting was a curiosity - something I wanted to explore but didn’t fully understand.  <br/><br/>
+    After GGI, I didn’t just learn about consulting; I learned how to think, collaborate, and solve real problems with people from completely different worlds.  <br/><br/>
+    Today, I’m joining <span class='font-bold'>Bain & Company</span> with the confidence and clarity that came from those shared challenges and perspectives.`
   },
-    {
+  {
     name: 'ANAMITRA MUNSI',
-    org: 'GGI MBA Scholar, 2021<br> ISB Hyderabad (Post GGI Pre-MBA Scholars Program)',
+    org: 'GGI MBA Scholar, 2021',
     image: '/anamitra.jpg',
-    review: "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations<span class='font-bold'> I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG)</span>.<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. <span class='font-bold'>GGI was the perfect platform to do that.<br><br></span> Everyone at GGI is there to learn and they won&#39;t be judging you, don&#39;t be bogged down. And there hasn&#39;t been a single instance when I have reached out and not received a response from Naman and Shatakshi"
+    review: `After three years of UPSC preparation, I felt stuck - unsure of my next step.  <br/><br/>
+    GGI became that turning point. It gave me the push to move forward, the clarity to redefine success, and the community that kept me going.  <br/><br/>
+    Those lessons carried me through my MBA at ISB and eventually to <span class='font-bold'>Boston Consulting Group (BCG)</span>.  
+    More than anything, GGI taught me how to restart with purpose.`
   },
   {
     name: 'SHREYA SAPRU',
-    org: 'GGI MBA IMPACT SCHOLAR<br> NIT',
+    org: 'GGI Impact Scholar',
     image: '/shreyas.jpg',
-    review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a GGI projects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
+    review: `Before GGI, interviews and case discussions felt overwhelming.  
+    Through projects and mentorship, I learned to structure my thoughts, find clarity in complexity, and connect policy to real-world outcomes.  <br/><br
+    Soon after, I joined <span class='font-bold'>Samagra | Transforming Governance</span>, where every day feels like a continuation of what began at GGI.  <br/><br/>
+    It wasn’t just a program - it was a mindset shift.`
   },
   {
-     name: `Swati Sureka `,
-     org: "Auctus Advisors, Bain &amp; Company job offer",
-     image: "/swati.jpg",
-     review: "I don&apos;t think getting an offer from Bain could have been possible without the community and at the end of my journey, I had offers from 3 Management Consulting firms.</p><p>&nbsp;</p><p>Today, I am a Management Consultant at Auctus Advisors and have been working there for 7 months now before that I was an account strategist at InMobi which was something I joined right after under graduation in Commerce from SRCC. I was a part of the first batch of Impact Scholars, and it was the right thing for me that came at a right time. I attended all the five master classes, and all of those were amazing, management consulting masterclass was one I really liked and I felt it was something I really wanted to work upon.<br><br>GGI has been the most wonderful experience of my life. I was confused during my bachelor&rsquo;s to immediately go for CAT and do my MBA or to switch to management consulting. I remember it was my first conversation with Shatakshi where she shared her personal experience where she mentioned how she had changed her job and you should definitely do so if you have a good reason to. I remember Shatakshi telling me how to apply and approach the interviews and the lovely support of people in the GGI community. I had superstars helping me with CV review and case preparation.<br><br>I had two key values I derived from the community.<br><br>Firstly, a learning mindset, learning from scratch about an industry, and different functions and then communicating it to multiple CXOs with confidence felt normal.<br><br>Secondly, helping each other, I couldn&rsquo;t have imagined being part of such a lovely community. I have reached out to people from the community and they have always answered positively. So yes, it has been the best experience of my life so far."
-},
- 
+    name: 'SWATI SUREKA',
+    org: 'GGI Impact Scholar',
+    image: '/swati.jpg',
+    review: `When I joined GGI, I was at a crossroads - unsure whether to pursue an MBA or dive into consulting.  
+    The mentorship, the community, and the culture of learning transformed that confusion into conviction.  <br/><br/>
+    I went on to receive offers from three consulting firms and today work at <span class='font-bold'>Auctus Advisors</span>.  <br/><br/>
+    Beyond career milestones, what stayed with me are two values - a learning mindset and the spirit of helping one another.  <br/><br/>
+    GGI wasn’t just a chapter; it was the start of everything that followed.`
+  }
 ];
 
 export const testimonialMain3 = [
