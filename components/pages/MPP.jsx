@@ -25,7 +25,7 @@ const MPP = () => {
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> APPLY NOW TO THE GGI POLICY CONSULTING LAB</Button>
 
 
-            <Heading margin={60}>Why GGI Policy Consulting Lab Works?</Heading>
+            <Heading margin={60}>Why GGI Policy Consulting Lab <em>Actually</em> Works?</Heading>
             <FourColumnLayout data={fourcolumndata} />
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading >
 
@@ -88,16 +88,11 @@ const MPP = () => {
             <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>APPLY NOW</Button>
 
             <Heading>High-Quality Policy Education - at 80% Less Cost </Heading>
-            <Container> <p > Traditional MPPs cost ₹3–7 lakhs or more. GGI’s Policy Lab delivers Ivy League outcomes at a fraction of that - because access should never be a privilege. <br/>
-            We also offer a <span className='font-bold'>6-day full refund policy</span> post-enrollment. <br/> Either way, you win.
+            <Container> <p> Traditional MPPs cost ₹3–7 lakhs or more. GGI’s Policy Lab delivers Ivy League outcomes at a fraction of that because access should never be a privilege.
+            We also offer a <span className='font-bold'>6-day full refund policy</span> post-enrollment. Either way, you win. Because the future won’t be built by politicians - it’ll be built by problem solvers.
                 <br/><br/></p>
             </Container>
             <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>SHAPE POLICY. LEAD IMPACT. BECOME A GGI POLICY SCHOLAR</Button>
-
-            <div className='mt-24 flex justify-center'>
-                <p className='md:w-3/5 md:text-lg mb-5 text-center'>Because the future won’t be built by politicians - it’ll be built by problem solvers.<br/>
-                </p>
-            </div>
 
             <Heading>Our Official Partners</Heading>
             <OfficialPartners />

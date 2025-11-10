@@ -91,16 +91,16 @@ const Navbar = ({applicationbanner}) => {
           */}
           <li className='group relative inline-block px-6 py-4 cursor-pointer hover:text-black'>
             <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold ">OUR PROGRAMS</button>
+              <button className="inline-flex items-center rounded font-bold text-sm lg:text-[15px]">OUR PROGRAMS</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block min-w-[175px] left-1/2 transform -translate-x-1/2">
                 <Link href='/ggi-scholars' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">MBA</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">MBA</a>
                 </Link>
                 <Link href='/ggipolicyscholarsprogram' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">Policy Consulting Lab</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">Policy Consulting Lab</a>
                 </Link>
                 <Link href='/impact-fellowship' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">Impact Fellowship</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">Impact Fellowship</a>
                 </Link>
                 {/*<Link href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
@@ -116,14 +116,14 @@ const Navbar = ({applicationbanner}) => {
                     FEYNMAN FELLOWSHIP
                   </li>
                 </Link>*/}
-                <a href='https://www.globalgovernanceinitiative.org/campusfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
+                <a href='https://www.globalgovernanceinitiative.org/campusfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">
                         GGI Campus Fellowship: For Students
                       </a>
 
                 {/* <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
                         Feynman AI Fellowship
                       </a> */}
-                      <a href='https://www.thirdspace.org.in/davincilab' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
+                      <a href='https://www.thirdspace.org.in/davincilab' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">
                         Da Vinci Lab: To Become Solopreneur
                       </a>
                    
@@ -133,7 +133,7 @@ const Navbar = ({applicationbanner}) => {
 
 
           <a href="https://www.globalgovernanceinitiative.org/life-at-ggi" target="_blank" rel="noopener noreferrer">
-          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold text-sm lg:text-[15px]'>
             GGI EXPERIENCE
           </li>
         </a>
@@ -141,33 +141,33 @@ const Navbar = ({applicationbanner}) => {
 
 
         <a href="https://www.councilonsustainabledevelopment.org/" target="_blank" rel="noopener noreferrer">
-          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold text-sm lg:text-[15px]'>
             RESEARCH
           </li>
         </a>
 
         <a href="/reviews" target="_blank" rel="noopener noreferrer">
-          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold text-sm lg:text-[15px]'>
             ALUMNI
           </li>
         </a>
 
         <a href="https://www.globalgovernanceinitiative.org/mission" target="_blank" rel="noopener noreferrer">
-          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold'>
+          <li className='p-4 cursor-pointer hover:text-black hover:bg-slate-200 font-bold text-sm lg:text-[15px]'>
             ABOUT
           </li>
         </a>
 
           <li className='group relative inline-block px-6 py-4 cursor-pointer   hover:text-black '>
             <span className="group relative inline-block">
-              <button className="inline-flex items-center rounded font-semibold ">EXPLORE</button>
+              <button className="inline-flex items-center rounded font-semibold text-sm lg:text-[15px]">EXPLORE</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block min-w-[175px] left-1/2 transform -translate-x-1/2">
-                <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold" >Free Series</div></Link>
+                <Link href="https://www.schrodingerbyggi.org/" target={"_blank"} rel="noopener noreferrer"  ><div className=" whitespace-no-wrap block rounded-t bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]" >Free Series</div></Link>
                 <Link href='/careers'>
-                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">Careers</a>
+                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">Careers</a>
                 </Link>
                 <Link href='https://www.globalgovernanceinitiative.org/under-30-2024'>
-                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">GGI Awardees</a>
+                  <a target="_blank" rel="noopener noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">GGI Awardees</a>
                 </Link>
               </ul>
             </span>

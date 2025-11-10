@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@900&display=swap');
  
-@font-face {
+/* @font-face {
   font-family: Sofia;
   src: url('../fonts/SofiaSansExtraCondensed-Black.ttf');
   font-display: swap;
@@ -16,7 +16,7 @@
   font-display: swap;
 }
 
-/* fonts */
+
 @font-face {
   font-family: PoppinsSemi;
   src: url('../fonts/Poppins-SemiBold.ttf');
@@ -33,7 +33,48 @@
   font-family: GaretHeavy;
   src: url('../fonts/Garet-Heavy.ttf');
   font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Sofia';
+  src: url('../fonts/SofiaSansExtraCondensed-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('../fonts/Poppins-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PoppinsSemi';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PoppinsLight';
+  src: url('../fonts/Poppins-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GaretHeavy';
+  src: url('../fonts/Garet-Heavy.ttf');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 
  
 
@@ -47,6 +88,11 @@ html {
   font-size: clamp(0.75rem, 1vw + 0.25rem, 1rem);
   line-height: 2;
 
+}
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* variable base font size for smaller and larger devices */

@@ -14,7 +14,7 @@ const Community = () => {
             <div className="p-12 mx-auto lg:w-3/4 grid grid-cols-1 sm:grid-cols-3 gap-1">
                 <div className='col-span-2'><Image placeholder="blur" src={community1} alt="" /></div>
                 <div className='col-span-1'><Image placeholder="blur" src={community2} alt="" /></div>
-                <div className='col-span-2 my-auto p-5'><p>Where GGI Fellows Lead: McKinsey. BCG. UNDP. Amazon. World Bank. Dalberg. <br/>
+                <div className='col-span-2 my-auto p-5'><p>GGI Fellows and Scholars Lead: McKinsey. BCG. UNDP. Amazon. World Bank. Dalberg. <br/>
  From advising ministers to building startups, GGI alumni turn learning into leverage.</p></div>
                 <div className='col-span-1'><Image placeholder="blur" src={community3} alt="" /></div>
                 <div className='col-span-2'><Image placeholder="blur" src={community4} alt="" /></div>

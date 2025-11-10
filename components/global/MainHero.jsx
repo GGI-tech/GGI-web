@@ -38,7 +38,7 @@ const MainHero = () => {
                                     <p className='font-black'> Average CTC<br /> Offered</p>
                                 </div> */}
                                 <div className='text-center'>
-                                    <h1 className='arial text-2xl lg:text-3xl h-10'>5500+</h1>
+                                    <h1 className='arial text-2xl lg:text-3xl h-10'>7500+</h1>
                                     <p className='font-black'>GGI Scholars & <br/>Fellows</p>
                                 </div>
                             </div>

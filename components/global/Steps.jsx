@@ -30,7 +30,22 @@ const Steps = ({ data }) => {
                         </h2>
                         <div className='ans' dangerouslySetInnerHTML={{ __html: e.ans[0] }}>
                         </div>
-                        {!isOpened[e.id] && (<p className='text-left text-bold mt-2 text-blue-700' onClick={() => toggle(e.id)}>Learn more ..</p>)}
+                        {/* {!isOpened[e.id] && (<p className='text-left text-bold mt-2 text-blue-700' onClick={() => toggle(e.id)}>Learn more ..</p>)} */}
+                        {(() => {
+  const lineCount = e.body ? e.body.split('<br>').length : 0; // check if e.body exists
+  return (
+    !isOpened[e.id] &&
+    lineCount > 7 && (
+      <p
+        className="text-left font-bold mt-2 text-blue-700 cursor-pointer"
+        onClick={() => toggle(e.id)}
+      >
+        Learn more ..
+      </p>
+    )
+  );
+})()}
+
                         {isOpened[e.id] && (
                             <div dangerouslySetInnerHTML={{ __html: e.ans[1] }}>
                             </div>

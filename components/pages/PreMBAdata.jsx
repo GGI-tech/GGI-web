@@ -55,7 +55,7 @@ const PREMBADATA = () => {
             <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 
 
-            <Heading margin={60}>Why GGI Campus Fellowship Works ? </Heading>
+            <Heading margin={60}>Why GGI Campus Fellowship <em>Actually</em> Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <p className='px-8 my-8 text-center font-bold'>The GGI Campus Fellowship program has created an Ivy League Management outcome at 1/1000th of the cost. </p>
@@ -118,12 +118,11 @@ const PREMBADATA = () => {
 
             <Heading>A Liberal Refund Policy for You  </Heading>
             <p className='text-center text-xl'> <span className="primary font-extrabold"> Your Learning, Risk-Free</span></p><br/>
-            <Container>
-                <p className='text-lg'><span className='font-bold'>We offer a 3-day full refund from your first live masterclass - because your trust matters more than a transaction.</span> </p>
-            </Container><br/><br/>
+            <Container> <p> We offer a 3-day full refund from your first live masterclass - because your trust matters more than a transaction. Learn what top students wish they knew earlier - and graduate with clarity, skills, and community. <br/><br/> </p>
+            </Container>
+            <br/><br/>
 
             <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7">Join the GGI Campus Fellowship</Button><br/>
-            <p className='text-center text-xl'> <span className="primary font-extrabold"> Learn what top students wish they knew earlier - and graduate with clarity, skills, and community</span></p><br/>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />

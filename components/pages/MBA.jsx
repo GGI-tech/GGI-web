@@ -36,7 +36,7 @@ const MBA = () => {
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO THE GGI MBA SCHOLAR PROGRAM</Button>
 
 
-            <Heading margin={60}>Why GGI Impact Scholars Works ? </Heading>
+            <Heading margin={60}>Why GGI Impact Scholars <em>Actually</em> Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <p className='px-8 my-8 text-center font-medium'>The traditional MBA is a $200,000 bet on your future </p>
