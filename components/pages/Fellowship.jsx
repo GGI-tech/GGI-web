@@ -27,7 +27,7 @@ const Fellowship = () => {
     return (
         <>
             <div className='mt-10'></div>
-            <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting,<br class='hidden lg:block'/> Mentorship by BCG, Mckinsey Consultants <br class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span><br class='hidden lg:block'/> To Become a Young Leader`]} />
+            <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants <br class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span> To Become a Young Leader`]} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> ADVANCE YOUR CAREER NOW</Button>
 
             <Heading margin={60}>Why GGI Impact Fellowship <em>Actually</em> Works ?</Heading>

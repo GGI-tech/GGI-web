@@ -37,7 +37,7 @@ const FourColumnLayout = ({ data }) => {
                 alt={e.title}
                 src={e.img}
               />
-              <h2 className="text-lg font-bold min-h-[60px]">{e.title}</h2>
+              <h2 className="text-lg font-bold font-sans min-h-[60px]">{e.title}</h2>
               <p
                 className="text-base text-red-700 px-4"
                 dangerouslySetInnerHTML={{ __html: e.body }}

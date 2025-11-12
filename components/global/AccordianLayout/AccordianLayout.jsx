@@ -8,7 +8,7 @@ const AccordianLayout = ({ title, children, index, activeIndex, setActiveIndex }
         <>
             <button onClick={() => handleSetIndex(index)} className='flex w-full sm:w-3/4 justify-between pl-10 pr-5 py-3 mt-2 rounded skin border text-left'>
                 <div className=''>
-                    <p className='primary font-semibold'>{title}</p>
+                    <p className='primary font-bold font-sans'>{title}</p>
                 </div>
                 <div className="flex items-start justify-center">
                     {

@@ -90,6 +90,16 @@ html {
 
 }
 
+body {
+  @apply font-sans;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-sans;
+  }
+}
+
 html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

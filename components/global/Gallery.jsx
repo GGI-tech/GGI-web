@@ -55,7 +55,7 @@ const Gallery = ({ data = defaultData }) => {
     <div className="md:w-3/4 mx-auto text-center md:py-5">
       {/* ---------- Global Consulting Leaders ---------- */}
       <div className="my-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-6 text-gray-800">Global Consulting Leaders</h2>
+        <h2 className="text-xl md:text-2xl font-bold font-sans mb-6 text-gray-800">Global Consulting Leaders</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4">
           {globalConsulting.map((item, ind) => (
             <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />
@@ -65,7 +65,7 @@ const Gallery = ({ data = defaultData }) => {
 
       {/* ---------- Policy Makers & Bureaucrats ---------- */}
       <div className="my-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-6 text-gray-800">Policy Makers & Bureaucrats</h2>
+        <h2 className="text-xl md:text-2xl font-bold font-sans mb-6 text-gray-800">Policy Makers & Bureaucrats</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4">
           {policyMakers.map((item, ind) => (
             <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />
@@ -75,7 +75,7 @@ const Gallery = ({ data = defaultData }) => {
 
       {/* ---------- Corporate & Investment Leaders ---------- */}
       <div className="my-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-6 text-gray-800">Corporate & Investment Leaders</h2>
+        <h2 className="text-xl md:text-2xl font-bold font-sans mb-6 text-gray-800">Corporate & Investment Leaders</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 p-4">
           {corporateLeaders.map((item, ind) => (
             <GalleryImg key={ind} socialImg={item.img} caption={item.caption} />

@@ -47,10 +47,10 @@ const Main = () => {
             <MainHero />
 
             <Button url="/impact-fellowship">
-                Kickstart your transformation ➞
+                KICKSTART YOUR TRANSFORMATION ➞
             </Button>
 
-            <Heading>Hear from GGIians who have successfully transitioned into <strong>Consulting</strong>, <strong>Policy</strong>, and <strong>Product Management</strong> roles - their experiences with us.</Heading >
+            <Heading>Hear from GGIians who have successfully transitioned into <strong>Consulting, Policy</strong>, and Product Management roles - their experiences with us.</Heading >
 
             <Slider slides={testimonialMain} />
 
@@ -86,7 +86,7 @@ const Main = () => {
                         <br/>
                         <div className='flex justify-center md:justify-start mb-10 md:mb-0'>
                             <Button url="/ggi-scholars">
-                                Learn More about GGI Impact MBA
+                                LEARN MORE ABOUT GGI IMPACT MBA
                             </Button>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ const Main = () => {
                         </div>
                         <div className='flex justify-center md:justify-start mb-0'>
                             <Button url="/ggipolicyscholarsprogram">
-                                Learn More about GGI Policy Scholar
+                                LEARN MORE ABOUT GGI POLICY SCHOLAR
                             </Button>
                         </div>
                     </div>
@@ -227,7 +227,7 @@ const Main = () => {
             <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> Learn More about GGI Impact MBA Scholars</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> LEARN MORE ABOUT GGI IMPACT MBA SCHOLARS</Button>
 
             <Heading>The GGI Journey</Heading><br/>
                         <Steps data={stages} />
@@ -241,7 +241,7 @@ const Main = () => {
                 You can learn how to redesign it.</p>
             </div>
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> Apply for the next Fellowship ➞</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY FOR THE NEXT FELLOWSHIP ➞</Button>
 
             <div className="flex flex-col justify-center mt-72">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">

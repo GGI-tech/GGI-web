@@ -10,7 +10,7 @@ const FiveColumnLayout = ({ data }) => {
           return (
             <div key={e.id} className='flex flex-col text-center mt-6'>
               <div> <Image placeholder="blur" className='' alt="" src={e.img} /></div>
-              <h2 className='text-lg font-bold h-20 md:h-36 lg:h-28 pt-2 mt-4'>{e.title}</h2>
+              <h2 className='text-lg font-bold font-sans h-20 md:h-36 lg:h-28 pt-2 mt-4'>{e.title}</h2>
               <p className='text-center sm:text-justify px-2' dangerouslySetInnerHTML={{__html:e.body}}></p>
             </div>
           );

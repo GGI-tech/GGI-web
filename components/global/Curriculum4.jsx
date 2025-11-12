@@ -41,7 +41,7 @@ const Curriculum4 = ({ data }) => {
             <div className='grid grid-cols-2 md:grid-cols-3 gap-14 lg:gap-10 mb-16'>
                 {firstRow.map((e, i) => (
                     <div key={i} className='text-center'>
-                        <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
+                        <p className='pink font-bold font-sans text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
                         <p className="italic">{e.description}</p>
                     </div>
                 ))}
@@ -51,7 +51,7 @@ const Curriculum4 = ({ data }) => {
             <div className='flex justify-center items-start gap-12'>
                 {secondRow.map((e, i) => (
                     <div key={i} className='text-center max-w-xs'>
-                        <p className='pink font-bold text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
+                        <p className='pink font-bold font-sans text-xl h-24 mb-3' dangerouslySetInnerHTML={{ __html: e.title }}></p>
                         <p className="italic">{e.description}</p>
                     </div>
                 ))}

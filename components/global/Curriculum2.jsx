@@ -46,7 +46,7 @@ const Curriculum2 = ({ data }) => {
             className="bg-white border border-gray-200 rounded-2xl shadow-md p-8 flex flex-col hover:shadow-lg transition-shadow duration-300"
           >
             {/* Title section (equal height for all cards) */}
-            <h3 className="text-center text-2xl font-bold mb-6 primary min-h-[70px] flex items-center justify-center">
+            <h3 className="text-center text-2xl font-bold font-sans mb-6 primary min-h-[70px] flex items-center justify-center">
               {block.blockTitle}
             </h3>
 

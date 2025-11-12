@@ -4,7 +4,7 @@ const Curriculum5 = ({ data }) => {
             {data.slice(0, 6).map((e, i) => (
                 <div key={i} className="text-center">
                     <p
-                        className="pink font-bold text-xl mb-3 min-h-[5rem]"
+                        className="pink font-bold font-sans text-xl mb-3 min-h-[5rem]"
                         dangerouslySetInnerHTML={{ __html: e.title }}
                     ></p>
                     <p className="italic text-sm">{e.description}</p>

@@ -26,7 +26,7 @@ const Steps = ({ data }) => {
             {data.map((e) => {
                 return (
                     <div className="" key={e.id}>
-                        <h2 className='my-10 pink text-xl md:text-2xl flex justify-center' dangerouslySetInnerHTML={{ __html: e.ques }}>
+                        <h2 className='my-10 pink font-sans font-bold text-2xl md:text-2xl flex justify-center' dangerouslySetInnerHTML={{ __html: e.ques }}>
                         </h2>
                         <div className='ans' dangerouslySetInnerHTML={{ __html: e.ans[0] }}>
                         </div>
@@ -37,7 +37,7 @@ const Steps = ({ data }) => {
     !isOpened[e.id] &&
     lineCount > 7 && (
       <p
-        className="text-left font-bold mt-2 text-blue-700 cursor-pointer"
+        className="text-left font-bold font-sans mt-2 text-blue-700 cursor-pointer"
         onClick={() => toggle(e.id)}
       >
         Learn more ..

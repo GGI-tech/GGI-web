@@ -41,7 +41,7 @@ const PREMBADATA = () => {
                     Build the Career You Deserve Before You Graduate
                     </span>
                     <br class='hidden md:block'/>
-                    <span class='block text-sm md:text-base text-white mt-2 font-light'>
+                    <span class='block text-base md:text-2xl text-white mt-2 font-bold'>
                     Learn from real industry mentors. Build skills that matter. Land roles in Consulting, Policy, Strategy, and Impact - before you even graduate.
                     </span>
                 </div>
@@ -122,7 +122,7 @@ const PREMBADATA = () => {
             </Container>
             <br/><br/>
 
-            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7">Join the GGI Campus Fellowship</Button><br/>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7">JOIN THE GGI CAMPUS FELLOWSHIP</Button><br/>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />
