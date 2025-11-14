@@ -50,8 +50,8 @@ const Slider = ({ slides }) => {
                       width='300'
                       height='300'
                     />
-                    <p className='font-semibold font-sans text-sm text-center' dangerouslySetInnerHTML={{ __html: slide.name }}></p>
-                    <p className='text-center text-sm' dangerouslySetInnerHTML={{ __html: slide.org }}></p>
+                    <p className='font-semibold font-sans text-base text-center' dangerouslySetInnerHTML={{ __html: slide.name }}></p>
+                    <p className='text-center text-base' dangerouslySetInnerHTML={{ __html: slide.org }}></p>
 
                   </div>
                   <div className='flex flex-col justify-center p-4 lg:w-1/2 '>

@@ -92,7 +92,7 @@ export default function Contact() {
       onSubmit={handleSubmit}
       className="flex flex-col p-8 bg-white dark:bg-blue-500"
     >
-      <h1 className="text-2xl font-extrabold font-sans dark:text-gray-50">
+      <h1 className="text-3xl font-extrabold font-sans dark:text-gray-50">
         Send a message
       </h1>
 

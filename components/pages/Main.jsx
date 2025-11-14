@@ -9,7 +9,7 @@ import Heading2 from '../global/Heading2';
 import Slider from '../global/Slider';
 import { fourcolumndata, companies, testimonialMain, stages } from '../../data/mainpgData';
 import YoutubeEmbed from '../global/YoutubeEmbed';
-import InstagramEmbed from '../global/InstagramEmbed';
+import InstagramEmbed from '../global/InstagramEmbed'; 
 
 import Partners from '../global/Partners';
 import Accordion from '../global/Accordian';
@@ -271,7 +271,7 @@ const Main = () => {
                         <Contact />
                     </div>
                     <div className=''>
-                        <p className='p-8'>  I built GGI because I saw too many brilliant minds told they weren’t ‘ready.’
+                        <p className='p-8 text-lg'>  I built GGI because I saw too many brilliant minds told they weren’t ‘ready.’
                         Not because they lacked ability - but because no one gave them access.
                         GGI exists to make that access universal.
                         </p>

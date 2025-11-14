@@ -22,16 +22,16 @@ const MainHero = () => {
                                 <h1 className='relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl arial'>PRODUCT<img width={50} height={80} alt="arrow" src='/arrow.jpg' className='absolute hidden sm:block bottom-12 left-48 lg:left-80' /><br className='hide' /><span className='text-2xl sm:text-3xl lg:text-4xl'> MANAGEMENT </span></h1>
                             </div>
                             <div className='r11 my-14 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
-                                <p className='sm:text-xl text-left'>Learn. Build. Lead. From McKinsey to the UN - GGI helps you move from preparation to purpose.</p>
+                                <p className='sm:text-2xl text-left'>Learn. Build. Lead. From McKinsey to the UN - GGI helps you move from preparation to purpose.</p>
                             </div>
                             <div className='r12 mt-20 lg:mt-12 flex justify-between gap-7 sm:px-12 sm:mr-12'>
                                 <div className='text-center'>
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>115+</h1>
-                                    <p className='font-black'> Employment<br /> Partners</p>
+                                    <p className='font-black text-lg'> Employment<br /> Partners</p>
                                 </div>
                                 <div className='text-center'>
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>88%</h1>
-                                    <p className='font-black'> Pivoted into Consulting, <br/> Policy & Product</p>
+                                    <p className='font-black text-lg'> Pivoted into Consulting, <br/> Policy & Product</p>
                                 </div>
                                 {/* <div className='text-center w-48'>
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>17 LAKHS</h1>
@@ -39,7 +39,7 @@ const MainHero = () => {
                                 </div> */}
                                 <div className='text-center'>
                                     <h1 className='arial text-2xl lg:text-3xl h-10'>7500+</h1>
-                                    <p className='font-black'>GGI Scholars & <br/>Fellows</p>
+                                    <p className='font-black text-lg'>GGI Scholars & <br/>Fellows</p>
                                 </div>
                             </div>
                         </div>
