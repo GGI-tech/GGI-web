@@ -122,7 +122,7 @@ const PREMBADATA = () => {
             </Container>
             <br/><br/>
 
-            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7">JOIN THE GGI CAMPUS FELLOWSHIP</Button><br/>
+            <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7">JOIN GGI CAMPUS FELLOWSHIP</Button><br/>
 
             <Heading>Learn What Matters via GGI Case-based Masterclasses in Consulting, Strategy & Product</Heading>
             <Masterclasses />

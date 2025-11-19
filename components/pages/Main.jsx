@@ -71,7 +71,7 @@ const Main = () => {
             </Container>
 
             <div className="p-4 flex justify-center">
-                <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 " >
+                <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 items-end" >
                     <div className='lg:col-span-2'>
                         <div className='text-center md:text-left min:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Management Scholar </h2>
@@ -83,8 +83,8 @@ const Main = () => {
                             <p className='my-7'>4. You don’t need another MBA/MIM degree -<span className='primary font-semibold'>you need direction, discipline, and direct access.</span></p>
 
                         </div>
-                        <br/>
-                        <div className='flex justify-center md:justify-start mb-10 md:mb-0'>
+                        
+                        <div className='flex justify-center md:justify-start mb-10 md:mb-0 items-end h-full'>
                             <Button url="/ggi-scholars">
                                 LEARN MORE ABOUT GGI IMPACT MBA
                             </Button>
@@ -101,7 +101,8 @@ const Main = () => {
                             <p className='my-7'>4. You don’t need another MPP - <span className='primary font-semibold'>you need discipline, and direct access.</span></p>
 
                         </div>
-                        <div className='flex justify-center md:justify-start mb-0'>
+                        
+                        <div className='flex justify-center md:justify-start mb-0 items-end h-full'>
                             <Button url="/ggipolicyscholarsprogram">
                                 LEARN MORE ABOUT GGI POLICY SCHOLAR
                             </Button>
@@ -127,6 +128,8 @@ const Main = () => {
 
 
             <Heading> You Solve Cases & Network with World&#39;s Top <strong>CEOs</strong>, Partners in Consulting, Policy, Product Leaders </Heading>
+            <p className='text-center text-xl'> <span className="primary font-extrabold">Learn from McKinsey Partners, IAS Officers, Startup Founders, and Impact Investors <br/> who’ve led through uncertainty - and are now guiding India’s next generation of leaders.</span></p>
+            <br/>
             <Gallery />
 
 
@@ -241,7 +244,7 @@ const Main = () => {
                 You can learn how to redesign it.</p>
             </div>
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY FOR THE NEXT FELLOWSHIP ➞</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY FOR NEXT FELLOWSHIP ➞</Button>
 
             <div className="flex flex-col justify-center mt-72">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">

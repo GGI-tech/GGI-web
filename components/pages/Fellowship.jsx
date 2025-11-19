@@ -27,17 +27,17 @@ const Fellowship = () => {
     return (
         <>
             <div className='mt-10'></div>
-            <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants <br class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span> To Become a Young Leader`]} />
+            <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants <class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span> To Become a Young Leader`]} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> ADVANCE YOUR CAREER NOW</Button>
 
             <Heading margin={60}>Why GGI Impact Fellowship <em>Actually</em> Works ?</Heading>
             <FiveColumnLayout data={fivecolumndata} />
             <Container>
-                <p className='mb-5 mt-12 text-justify font-semibold'>True learning happens through dialogue, not lectures.<br></br> That’s why GGI builds a <em>non-scalable McKinsey-style ecosystem</em> - one mentor, one Fellow, one project - at 1/500th the cost of elite consulting experience.</p>
+                <p className='mb-5 mt-12 text-justify'>True learning happens through dialogue, not lectures.<br></br> That’s why GGI builds a <em>non-scalable McKinsey-style ecosystem</em> - one mentor, one Fellow, one project - at 1/500th the cost of elite consulting experience.</p>
                 <p className='mb-5 text-justify'><span className='font-semibold primary'>You’ve spent years chasing the UPSC dream - but deep down, you fear being 29, overqualified, and unemployed.
                 Or you’ve read 100 Harvard cases but still don’t know how real consulting feels.
                 GGI’s Impact Fellowship bridges that gap - turning paralysis into purpose.</span></p>
-                <p className='mb-12 text-justify font-semibold'><span className='font-semibold primary'></span>Recognized by BCG Global Media as one of the most effective consulting feeder programs - GGI builds the muscle memory of consulting long before you enter the firm.</p>
+                <p className='mb-12 text-justify'><span className='font-semibold primary'></span>Recognized by BCG Global Media as one of the most effective consulting feeder programs - GGI builds the muscle memory of consulting long before you enter the firm.</p>
             </Container>
             <YoutubeEmbed embedId='BfXtDA8J-JI' autoplay={1} />
 
@@ -112,7 +112,7 @@ const Fellowship = () => {
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
             <Heading>This is how You&apos;d Create Impact in Social Space with Your Consulting Skills</Heading>
-            {/* <ThreeColumnLayout data={socialspaceimpactdata} /> */}<br/>
+            <ThreeColumnLayout data={socialspaceimpactdata} /><br/>
             <Container>
                 <p className='text-lg'>From blind football to climate strategy - our Fellows work with organizations like IBFF, The Goodstep, and CSD to create measurable change.
                 You’ll apply consulting frameworks to solve real-world impact challenges under mentor guidance.</p>
@@ -125,7 +125,8 @@ const Fellowship = () => {
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, Consulting & Policy Leaders</Heading>
-            <p className='mb-12 text-center font-semibold'><span className='font-semibold primary'></span>Learn from Those Who’ve Built Nations, Companies, and Careers.</p>
+            <p className='text-center text-xl'> <span className="primary font-extrabold">Learn from McKinsey Partners, IAS Officers, Startup Founders, and Impact Investors <br/> who’ve led through uncertainty - and are now guiding India’s next generation of leaders.</span></p>
+            <br/>
             <Gallery />
 
             <Heading>With Impact Fellowship, The World is Your Classroom</Heading>

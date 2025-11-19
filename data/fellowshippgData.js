@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------
 import network from '../public/network2.jpeg'
-import clinton from '../public/clinton.png'
+import clinton from '../public/clinton-new-3.png'
 import BCG from '../public/bcg-g.jpg';
 import teach from '../public/teach.png';
 import IFBB from '../public/IBFF.png';

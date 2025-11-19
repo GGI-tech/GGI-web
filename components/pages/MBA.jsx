@@ -33,7 +33,7 @@ const MBA = () => {
         <div>
             <SlidingHero image={'./mba.jpeg'} title={[" Learn Business Skills You Were Never Taught in School. <class='hidden md:block'/>Join a Global Network. Get Hired <span class='text-yellow-200'><br/>Become the kind of business leader companies fight to hire </span><br class='hidden md:block'/> ", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs"]} />
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO THE GGI MBA SCHOLAR PROGRAM</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO GGI MBA SCHOLAR PROGRAM</Button>
 
 
             <Heading margin={60}>Why GGI Impact Scholars <em>Actually</em> Works ? </Heading>
@@ -83,7 +83,9 @@ const MBA = () => {
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
-            <Gallery />
+            <p className='text-center text-xl'> <span className="primary font-extrabold">Learn from McKinsey Partners, IAS Officers, Startup Founders, and Impact Investors <br/> who’ve led through uncertainty - and are now guiding India’s next generation of leaders.</span></p>
+                        <br/>
+                        <Gallery />
 
             <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Heading>As a GGI MBA Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>

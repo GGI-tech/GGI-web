@@ -1,5 +1,5 @@
 import network from '../public/network2.jpeg'
-import clinton from '../public/clinton.png'
+import clinton from '../public/clinton-new-4.png'
 import arunm from '../public/arun_maira.jpg'
 import poets from '../public/poetsnquants.png'
 // -------------------------------------------------------------
@@ -79,13 +79,13 @@ export const stages = [
 export const testimonialPolicy = [
      {
         name: 'Akshita Sharma',
-        org: 'GGI Policy Scholar 2025',
+        org: '<b>Indian Coast Guard</b><br/>GGI Policy Scholar 2025',
         image: '/akshita_sharma.png',
         review: "After serving a decade in the <span class='font-bold'>Indian Coast Guard</span>, I wanted to shift from enforcing policy to shaping it. <br/><br/>GGI became that bridge - connecting real-world governance with purpose-led leadership.<br/><br/> Today, I’m working on child rights and institutional accountability - areas where I can see the ripple effects of what I learned every single day."
     },
     {
         name: 'Rishabh Kashyap',
-        org: 'GGI Policy Scholar 2025',
+        org: '<b>NITI Aayog</b><br/>GGI Policy Scholar 2025',
         image: '/rishabh_kashyap.png',
         review: "Working at the grassroots through the <span class='font-bold'>Aspirational Blocks Programme at NITI Aayog</span>, I saw firsthand how data and policy intersect to shape lives. <br/><br/>GGI became my space to connect those dots - turning analytical insights into purposeful governance. <br/><br/>Today, I’m building my path in development consulting and governance, where every project is a chance to translate ideas into real impact on the ground."
     }

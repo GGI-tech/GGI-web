@@ -28,7 +28,7 @@ const data1 = [
         "id": 1,
         "title": "KARAN DAVID",
         "url": "https://www.linkedin.com/in/karandavid/",
-        "org": "BAIN & COMPANY",
+        "org": "BAIN & COMPANY, Yale University",
         "img": "/karan.jpg",
         "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br><br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br><br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br><br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
     },
@@ -37,7 +37,7 @@ const data1 = [
         "id": 3,
         "title": `Averi Chakraborty`,
         "url": "https://www.linkedin.com/in/averi-chakraborty/",
-        "org": "Boston Consulting Group",
+        "org": "Enagement Manager, Boston Consulting Group",
         "img": "/averi.jpg",
         "text": " Hi, Naman and Shatakshi hope you both are doing fine :)&nbsp;</p><p><br>Have really been enjoying your posts on LinkedIn and Instagram, a big shoutout for that.</p><p><br>Also, wanted to inform you that I would be joining BCG the coming month and this probably would not have been possible without GGI by my side. Thanks for building this community :) "
     },
@@ -111,35 +111,14 @@ const data1 = [
     },
     {
         "id": 29,
-        "title": `Manvi Sherawat`,
-        "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
-        "org": "Chase India",
-        "img": "/manvi.jpg",
-        "text": `Shortly after GGI, I’d be joining Chase India in policy strategy role.<br><br>&ldquo;Hi, I am Manvi.<br><br>
+        "title": "MUSKAAN MALHOTRA",
+        "url": "https://www.linkedin.com/in/muskaan-malhotra-6ba254170/",
+        "org": " COUNCIL ON ENERGY, ENVIRONMENT, AND WATER(CEEW), Harvard Kennedy School",
+        "img": "/Muskaant.jpg",
+        "text": "Shortly after GGI, I joined Council on Energy, Environment, and Water (CEEW). During my interview, my research as a GGI fellow on water woes in Uttar Pradesh and Punjab came in handy for engaging discussions. GGI fellowship started during my college at SRCC. At GGI, I had a lot of opportunities coming in because I got exposed to a lot of sectors. Topics at GGI such as policy and of course consulting were extremely valuable. <br><br>I knew about CEEW because of my interest in climate change and energy security. In fact, I was also excited since the net zero target of India for 2017 was a calculation of CEEW. From what I know, CEEW mostly doesnt hire undergrads , and that is where the employment collaboration of CEEW with GGI as part of GGI's definitely helped me get noticed.<br><br> I am really happy about my work at CEEW because I am getting to work where my interest lies. I’m really thankful to GGI for getting me this opportunity and creating this opportunity for me. Question- One word that would describe my GGI experience?<br><br>I think my one word would be enlightening!<br><br>  Starting with the masterclass and then the fellowship, I had a very different experience than a lot of other people. I really learned how to think analytically and apply tools from the masterclasses."
 
-        I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce. <br><br>
-        
-        I came across GGI when I was looking into MBA programs. I started going through the ‘MBA in 10 Minutes’ series which I found extremely interesting.&ldquo;<br> 
-        <br>
-        
-        Q- What are the 3 things you learned at GGI?
-        <br><br>
-        &ldquo;What stood out the most for me is the quality of the cohort.<br><br>
-        GGIans have been so nice and helpful to me. In fact, they helped me get into my recent job as well. <br><br>
-
-    2nd, the way the classes have been structured, including the pre-reads and the post-reads has helped me significantly. <br><br>
-
-    Lastly, I have to give credit to Schrodinger, the AI case interview preparation tool. I was completely new to the concept of case-ing. This helped me understand what a consultant actually does.<br><br>I was good at some and really stuck out in the rest. In the end, my learning curve has been very steep.<br><br>
-    Q- So, what is your advice for the cohort of 2024?
-
-        <br><br>
-        &ldquo;I’d say, just trust the process.<br><br>The learning curve will be steep. Sometimes you may get overwhelmed by it or feel that nothing is making sense.
-        <br><br>It will all eventually start coming together. Be diligent in classes and do all your asynchronous work as well.
-         <br><br>Sit tight for 6 months, the team and the cohort are there to help you.
-         <br><br>6 months later, your learnings are going to grow by 100%.
-        
-    `},
-    {
+    },
+        {
         "id": 7,
         "title": " JAYESH JAWANDHIA",
         "url": "https://www.linkedin.com/in/jayesh-jawandhia/",
@@ -338,18 +317,40 @@ const data1 = [
     },
     {
         "id": 23,
-        "title": "MUSKAAN MALHOTRA",
-        "url": "https://www.linkedin.com/in/muskaan-malhotra-6ba254170/",
-        "org": " COUNCIL ON ENERGY, ENVIRONMENT, AND WATER(CEEW)",
-        "img": "/Muskaant.jpg",
-        "text": "Shortly after GGI, I joined Council on Energy, Environment, and Water (CEEW). During my interview, my research as a GGI fellow on water woes in Uttar Pradesh and Punjab came in handy for engaging discussions. GGI fellowship started during my college at SRCC. At GGI, I had a lot of opportunities coming in because I got exposed to a lot of sectors. Topics at GGI such as policy and of course consulting were extremely valuable. <br><br>I knew about CEEW because of my interest in climate change and energy security. In fact, I was also excited since the net zero target of India for 2017 was a calculation of CEEW. From what I know, CEEW mostly doesnt hire undergrads , and that is where the employment collaboration of CEEW with GGI as part of GGI's definitely helped me get noticed.<br><br> I am really happy about my work at CEEW because I am getting to work where my interest lies. I’m really thankful to GGI for getting me this opportunity and creating this opportunity for me. Question- One word that would describe my GGI experience?<br><br>I think my one word would be enlightening!<br><br>  Starting with the masterclass and then the fellowship, I had a very different experience than a lot of other people. I really learned how to think analytically and apply tools from the masterclasses."
+        "title": `Manvi Sherawat`,
+        "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
+        "org": "Chase India",
+        "img": "/manvi.jpg",
+        "text": `Shortly after GGI, I’d be joining Chase India in policy strategy role.<br><br>&ldquo;Hi, I am Manvi.<br><br>
 
-    },
+        I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce. <br><br>
+        
+        I came across GGI when I was looking into MBA programs. I started going through the ‘MBA in 10 Minutes’ series which I found extremely interesting.&ldquo;<br> 
+        <br>
+        
+        Q- What are the 3 things you learned at GGI?
+        <br><br>
+        &ldquo;What stood out the most for me is the quality of the cohort.<br><br>
+        GGIans have been so nice and helpful to me. In fact, they helped me get into my recent job as well. <br><br>
+
+    2nd, the way the classes have been structured, including the pre-reads and the post-reads has helped me significantly. <br><br>
+
+    Lastly, I have to give credit to Schrodinger, the AI case interview preparation tool. I was completely new to the concept of case-ing. This helped me understand what a consultant actually does.<br><br>I was good at some and really stuck out in the rest. In the end, my learning curve has been very steep.<br><br>
+    Q- So, what is your advice for the cohort of 2024?
+
+        <br><br>
+        &ldquo;I’d say, just trust the process.<br><br>The learning curve will be steep. Sometimes you may get overwhelmed by it or feel that nothing is making sense.
+        <br><br>It will all eventually start coming together. Be diligent in classes and do all your asynchronous work as well.
+         <br><br>Sit tight for 6 months, the team and the cohort are there to help you.
+         <br><br>6 months later, your learnings are going to grow by 100%.
+        
+    `},
+
     {
         "id": 24,
         "title": "Rishabh Jain",
         "url": "https://www.linkedin.com/in/rishabhjain0410/",
-        "org": "InMobi",
+        "org": "AT Kearney Consulting | InMobi",
         "img": "/rishabh.jpg",
         "text": `Shortly after GGI, I bagged an offer from InMobi for the profile of a Business Analyst in their Bangalore office. Two weeks into the GGI Fellowship, and I bagged this offer.<br><br>Being mentored by leaders like Shatakshi Sharma and Naman Shrivastava at such a young age is no less than a blessing. GGI helped me discover my true self and transform into a mature individual from a college-going &lsquo;kid&rsquo;.`
     },
@@ -357,17 +358,9 @@ const data1 = [
         "id": 25,
         "title": "Anusheela Ghosh",
         "url": "https://www.linkedin.com/in/anusheela-ghosh/",
-        "org": "Samagra",
+        "org": "BCG | Samagra",
         "img": "/anusheeela.jpg",
         "text": "Shortly after GGI, I bagged an offer Samagra | Transforming Governance. I have recently started my journey at Samagra and am super excited to grow! Upon joining GGI, I took a deep dive into the consulting space. This involved case prep, networking, brushing up on interview skills and so on.<br /><br />All this eventually culminated into bagging offers from DCPCR, GDI and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!"
-    },
-    {
-        "id": 26,
-        "title": "DARSHITA DEVNANI",
-        "url": "https://www.linkedin.com/in/darshitadevnani/",
-        "org": "SATTVA CONSULTING",
-        "img": "/darshita2.jpg",
-        "text": "Shortly after GGI, I joined Sattva Consulting.<br><br> I'm a commerce graduate from Gargi college. I was working at EY as an Assurance Associate in their Private Equity team.<br>I came across GGI six months ago, and soon I enrolled for the Impact MBA Scholars program. And here is my GGI journey:<br><br>  1. I got to learn about Management and Policy consulting at length; and it resonated with my mid-term and long-term goal of exploring and working in these sectors. 2. I became part of a very diverse community who helped me in each step of the way; frame and shape my mid-term and long-term career. 3. Lastly, I wanted to make a switch from Audit to a Consulting sector. In a span of one month, I came across diverse individuals from B-schools working at Consulting firms and got to connect Naman and Shatakshi (the founders) regarding this. They helped me end to end as a fellow later.<br><br>  I finally got an offer letter from an impact consulting firm, and I am excited to start my journey there!"
     },
     {
         "id": 27,
@@ -570,7 +563,7 @@ const data2 = [
     },
     {
         "id": 12,
-        "title": "MUSKAAN, CEEW, LAMP, SRCC",
+        "title": "MUSKAAN, CEEW, LAMP, SRCC, Harvard Kennedy School",
         "url": "https://www.linkedin.com/in/muskaan-malhotra-6ba254170/",
         "img": "/r12.jpg",
         "text": "I just want to thank you and the entire GGI Team for facilitating the process as well as comment on the brilliant work you've been doing throughout the organization!"

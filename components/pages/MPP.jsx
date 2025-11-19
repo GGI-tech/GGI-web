@@ -22,7 +22,7 @@ const MPP = () => {
         <>
             <SlidingHero image={'./policy.jpg'} title={[`Join a Global Network of Practitioners Who Build Better Societies. <br/> <span class="text-yellow-200"> Become the kind of policy leader the world actually needs</span><br class='hidden md:block'/>`, `<span class="text-yellow-200"></span><br/> `]} />
 
-            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> APPLY NOW TO THE GGI POLICY CONSULTING LAB</Button>
+            <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform"> APPLY NOW TO GGI POLICY CONSULTING LAB</Button>
 
 
             <Heading margin={60}>Why GGI Policy Consulting Lab <em>Actually</em> Works?</Heading>
@@ -72,6 +72,8 @@ const MPP = () => {
             </Container>
 
             <Heading>Learn & Network with World&#39;s top CEOs, Partners, And Policy Leaders  </Heading>
+            <p className='text-center text-xl'> <span className="primary font-extrabold">Learn from McKinsey Partners, IAS Officers, Startup Founders, and Impact Investors <br/> who’ve led through uncertainty - and are now guiding India’s next generation of leaders.</span></p>
+            <br/>
             <Gallery />
             <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW</Button>
