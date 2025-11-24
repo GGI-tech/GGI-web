@@ -305,7 +305,7 @@ export const testimonialMBA = [
     name: 'Karabo Diseko',
     org: '<b>University of Cape Town</b>',
     image: '/Karabo.jpg',
-    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>Through entrepreneurial exploration, active participation in university-based business ecosystems, and as a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change."
+    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>As a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change."
   }, 
       {
     name: 'JACK WINKLES',

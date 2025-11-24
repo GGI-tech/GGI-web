@@ -20,7 +20,7 @@ const Slider = ({ slides }) => {
 
   return (
     <div id='gallery' className='max-w-[1240px] mx-auto mb-12'>
-      <div className='relative flex justify-center p-4 h-[600px]'>
+      <div className='relative flex justify-center p-4 min-h-[400px] md:min-h-[500px]'>
 
         {slides.map((slide, index) => {
           return (
@@ -41,7 +41,7 @@ const Slider = ({ slides }) => {
                 arrow_back_ios
               </span> */}
               {index === current && (
-                <div className='flex flex-col lg:items-center lg:flex-row justify-evenly px-4 py-5  md:w-4/5 shadow-black/5 border-black/10 shadow-2xl rounded-lg'>
+                <div className='flex flex-col lg:items-center lg:flex-row justify-evenly px-4 py-5  md:w-4/5 w-full h-auto shadow-black/5 border-black/10 shadow-2xl rounded-lg'>
                   <div className='text-center p-4'>
                     <Image
                       className='rounded-full object-cover bg-cover'

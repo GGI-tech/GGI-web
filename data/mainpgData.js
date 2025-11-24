@@ -135,14 +135,14 @@ export const testimonialMainFellows = [
     name: `Simar Sethi `,
     org: "<b>Kearney Consulting | IIT Delhi</b>",
     image: "/simar.jpg",
-    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi.My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting.<br><br>I was initially part of the GGI MBA scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them. Later on, I signed up for GGI fellowship also.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it.<br><br> For me, GGI was a complete package. Looking back, I have extracted too many valuable insights from GGI :)"
+    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi. My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting.<br><br>I was initially part of the GGI MBA scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it.<br><br> Looking back, I have extracted too many valuable insights from GGI :)"
   },
 
   {
     name: 'CHRIS ASHLEY PINTO',
     org: '<b>Menterra Ventures</b>',
     image: '/chris.jpg',
-    review: "Shortly after GGI, I got Impact Investment offer from&nbsp; <span class='font-bold'>Menterra Ventures</span></a><br><br>I actually used what I learned at GGI, within GGI, to get a job by GGI.<br><br>During my interview round, I was asked about a strategy case- the case became pretty easy because I had already completed my GGI fellowship. Having worked with Shreya (GGI mentor) on a Consulting Style white Paper allowed me to put the whole framework into practice.<br><br>GGI Fellowship helped fill my skills gaps as my expertise lay on the quantitative side earlier since I had gotten qualifications such as CFA, FRM, and others, but I was missing qualitative nuance in my analysis. And I had actually joined GGI to fill that gap."
+    review: "Shortly after GGI, I got Impact Investment offer from&nbsp; <span class='font-bold'>Menterra Ventures</span></a><br><br>During my interview round, I was asked about a strategy case- the case became pretty easy because I had already completed my GGI fellowship. Having worked with Shreya (GGI mentor) on a Consulting Style white Paper allowed me to put the whole framework into practice.<br><br>GGI Fellowship helped fill my skills gaps as my expertise lay on the quantitative side earlier since I had gotten qualifications such as CFA, FRM, and others, but I was missing qualitative nuance in my analysis. And I had actually joined GGI to fill that gap."
   },
   {
     name: 'JAN MARIE MALLARI RIÑON',
@@ -160,7 +160,7 @@ export const testimonialMainFellows = [
     name: 'Karabo Diseko',
     org: '<b>University of Cape Town</b>',
     image: '/Karabo.jpg',
-    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>Through entrepreneurial exploration, active participation in university-based business ecosystems, and as a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change."
+    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>As a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change."
   }, 
   {
     name: 'NISHTHA GUPTA',
@@ -289,14 +289,14 @@ export const testimonialMain = [
     name: `Simar Sethi `,
     org: "<b>Kearney Consulting | IIT Delhi</b>",
     image: "/simar.jpg",
-    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi. My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting. This field was of interest to me because I love learning about different things and meeting people from diverse backgrounds.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it. They also taught me skills that could be used in all professions, not just consulting, which was unique as well.<br><br> For me, GGI was a complete package. Looking back, I have extracted too many valuable insights from GGI :)"
+    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi. My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting.<br><br>I was initially part of the GGI MBA scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it.<br><br> Looking back, I have extracted too many valuable insights from GGI :)"
   },
 
   {
     name: 'CHRIS ASHLEY PINTO',
     org: '<b>Menterra Ventures</b>',
     image: '/chris.jpg',
-    review: "Shortly after GGI, I got Impact Investment offer from&nbsp; <span class='font-bold'>Menterra Ventures</span></a><br><br>I actually used what I learned at GGI, within GGI, to get a job by GGI.<br><br>During my interview round, I was asked about a strategy case- the case became pretty easy because I had already completed my GGI fellowship. Having worked with Shreya (GGI mentor) on a Consulting Style white Paper allowed me to put the whole framework into practice.<br><br>GGI Fellowship helped fill my skills gaps as my expertise lay on the quantitative side earlier since I had gotten qualifications such as CFA, FRM, and others, but I was missing qualitative nuance in my analysis. And I had actually joined GGI to fill that gap."
+    review: "Shortly after GGI, I got Impact Investment offer from&nbsp; <span class='font-bold'>Menterra Ventures</span></a><br><br>During my interview round, I was asked about a strategy case- the case became pretty easy because I had already completed my GGI fellowship. Having worked with Shreya (GGI mentor) on a Consulting Style white Paper allowed me to put the whole framework into practice.<br><br>GGI Fellowship helped fill my skills gaps as my expertise lay on the quantitative side earlier since I had gotten qualifications such as CFA, FRM, and others, but I was missing qualitative nuance in my analysis. And I had actually joined GGI to fill that gap."
   },
   {
     name: 'JAN MARIE MALLARI RIÑON',
@@ -314,7 +314,7 @@ export const testimonialMain = [
     name: 'Karabo Diseko',
     org: '<b>University of Cape Town</b>',
     image: '/Karabo.jpg',
-    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>Through entrepreneurial exploration, active participation in university-based business ecosystems, and as a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change.<br/><br/>During his free time Karabo enjoys running, mountain climbing, and learning new things through a good book."
+    review: "Karabo is born and raised in Johannesburg, South Africa. An interest in locally relevant knowledge generation led Karabo to pursue his tertiary education in the sciences with the University of Cape Town, where he is currently wrapping up his Masters in Bioinformatics.<br/><br/>His research aims to gain insight into the unique genetic and molecular traits of lung cancer among patients of African Ancestry.<br/><br/>As a Global Leadership Scholar with GGI, Karabo has been upskilling himself so that he can successfully make this exciting career change."
   }, 
   {
     name: 'NISHTHA GUPTA',

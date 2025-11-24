@@ -14,7 +14,7 @@ const data1 = [
         "url": "https://www.linkedin.com/in/darshitadevnani/",
         "org": "Asian Development Bank (ADB)",
         "img": "/darshita2.jpg",
-        "text": "After GGI, I got an opportunity to work with <span class='font-bold'>Asian Development Bank (ADB) , focusing on economic research and development impact.</span> <br/><br/>Hi, I am Darshita, a GGI Fellow from the 2021 cohort. <br/><br/>GGI came into my life when I was working with EY but realized that audit was not my forte or long-term career. <br/><br/>This became my biggest motivation to join the GGI Impact Fellowship. There, my journey started. <span class='font-bold'>I was able to learn so much about #impactconsulting and management consulting, and I met so many people who helped me build my career in this space.</span> <br/><br/>I truly learned the art of networking and connected with individuals who had been there and done that. I attended all the masterclasses diligently, interacted with speakers, and engaged with those who taught live cases. It&apos;s been almost four years since I&apos;ve been associated with GGI, and the experience has been transformative."
+        "text": "After GGI, I got an opportunity to work with Asian Development Bank (ADB) , focusing on economic research and development impact. <br/><br/>Hi, I am Darshita, a GGI Fellow from the 2021 cohort. <br/><br/>GGI came into my life when I was working with EY but realized that audit was not my forte or long-term career. <br/><br/>This became my biggest motivation to join the GGI Impact Fellowship. There, my journey started. I was able to learn so much about #impactconsulting and management consulting, and I met so many people who helped me build my career in this space.<br/><br/>I truly learned the art of networking and connected with individuals who had been there and done that. I attended all the masterclasses diligently, interacted with speakers, and engaged with those who taught live cases. It&apos;s been almost four years since I&apos;ve been associated with GGI, and the experience has been transformative."
     },
     {
         "id": 100,
@@ -113,7 +113,7 @@ const data1 = [
         "id": 29,
         "title": "MUSKAAN MALHOTRA",
         "url": "https://www.linkedin.com/in/muskaan-malhotra-6ba254170/",
-        "org": " COUNCIL ON ENERGY, ENVIRONMENT, AND WATER(CEEW), Harvard Kennedy School",
+        "org": " COUNCIL ON ENERGY, ENVIRONMENT, AND WATER(CEEW), HARVARD KENNEDY SCHOOL",
         "img": "/Muskaant.jpg",
         "text": "Shortly after GGI, I joined Council on Energy, Environment, and Water (CEEW). During my interview, my research as a GGI fellow on water woes in Uttar Pradesh and Punjab came in handy for engaging discussions. GGI fellowship started during my college at SRCC. At GGI, I had a lot of opportunities coming in because I got exposed to a lot of sectors. Topics at GGI such as policy and of course consulting were extremely valuable. <br><br>I knew about CEEW because of my interest in climate change and energy security. In fact, I was also excited since the net zero target of India for 2017 was a calculation of CEEW. From what I know, CEEW mostly doesnt hire undergrads , and that is where the employment collaboration of CEEW with GGI as part of GGI's definitely helped me get noticed.<br><br> I am really happy about my work at CEEW because I am getting to work where my interest lies. I’m really thankful to GGI for getting me this opportunity and creating this opportunity for me. Question- One word that would describe my GGI experience?<br><br>I think my one word would be enlightening!<br><br>  Starting with the masterclass and then the fellowship, I had a very different experience than a lot of other people. I really learned how to think analytically and apply tools from the masterclasses."
 
@@ -563,7 +563,7 @@ const data2 = [
     },
     {
         "id": 12,
-        "title": "MUSKAAN, CEEW, LAMP, SRCC, Harvard Kennedy School",
+        "title": "MUSKAAN, CEEW, LAMP, SRCC, HARVARD KENNEDY SCHOOL",
         "url": "https://www.linkedin.com/in/muskaan-malhotra-6ba254170/",
         "img": "/r12.jpg",
         "text": "I just want to thank you and the entire GGI Team for facilitating the process as well as comment on the brilliant work you've been doing throughout the organization!"
