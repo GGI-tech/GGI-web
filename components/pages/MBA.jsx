@@ -79,7 +79,7 @@ const MBA = () => {
 
             <Heading>We Believe Learning Should Be a No-Risk Decision.  </Heading>
             <Container>
-                <p className='text-lg'>That’s why we offer a <em>full refund within 3 days</em> of your first live masterclass - no questions asked. Your only investment should be your curiosity.</p>
+                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">full refund policy within 6 days of enrollment payment</span>. </p>
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>

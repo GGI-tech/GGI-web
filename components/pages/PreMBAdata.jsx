@@ -118,7 +118,7 @@ const PREMBADATA = () => {
 
             <Heading>A Liberal Refund Policy for You  </Heading>
             <p className='text-center text-xl'> <span className="primary font-extrabold"> Your Learning, Risk-Free</span></p><br/>
-            <Container> <p> We offer a 3-day full refund from your first live masterclass - because your trust matters more than a transaction. Learn what top students wish they knew earlier - and graduate with clarity, skills, and community. <br/><br/> </p>
+            <Container> <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">full refund policy within 6 days of enrollment payment</span>. </p>
             </Container>
             <br/><br/>
 

@@ -62,7 +62,7 @@ const Executive = () => {
             
             <Heading>A Liberal Refund Policy for You  </Heading>
             <Container>
-                <p className='text-lg'>Your learning is our top priority, and we aim to make this decision entirely risk-free for you, allowing you to focus solely on learning. We offer a no-questions-asked 3-day full refund policy from your first live masterclass date. </p>
+                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">full refund policy within 6 days of enrollment payment</span>. </p>
             </Container>
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, & Consulting Leaders</Heading>
             <Gallery />

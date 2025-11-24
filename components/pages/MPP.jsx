@@ -68,7 +68,7 @@ const MPP = () => {
 
             <Heading>Your Learning, Without the Risk. </Heading>
             <Container>
-                <p className='text-lg'> We offer a <span className="font-bold">no-questions-asked 3-day full refund</span> after your first live class. Because your only commitment should be to learning - not uncertainty. </p>
+                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">full refund policy within 6 days of enrollment payment</span>. </p>
             </Container>
 
             <Heading>Learn & Network with World&#39;s top CEOs, Partners, And Policy Leaders  </Heading>

@@ -121,7 +121,7 @@ const Fellowship = () => {
             <Heading>A Liberal Refund Policy for You </Heading>
     
             <Container>
-                <p className='text-lg'>We want your learning to be 100% risk-free. If you’re not satisfied after your first live masterclass, we offer a no-questions-asked <span className="font-bold"> full refund within 3 days</span>.</p>
+                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">full refund policy within 6 days of enrollment payment</span>. </p>
             </Container>
 
             <Heading>You Learn & Build Network with World&#39;s Top CEOs, Partners, Consulting & Policy Leaders</Heading>

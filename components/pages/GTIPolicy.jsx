@@ -62,8 +62,7 @@ const GTIPolicy = () => {
 
             <Heading>A Liberal Refund Policy for You </Heading>
             <Container>
-                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">3-day full refund policy from your first live masterclass date</span>. </p>
-            </Container>
+                <p className='text-lg'>Your learning is our no. 1 goal and we want this decision to be 100% risk-free for you so you can just focus on learning.  We offer a no-questions-asked <span className="font-bold">full refund policy within 6 days of enrollment payment</span>. </p>
 
             <Heading>Learn & Network with World&#39;s top CEOs, Tech And Policy Leaders  </Heading>
             <Gallery2 />
