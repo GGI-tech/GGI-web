@@ -10,7 +10,7 @@ import { stages, testimonialYLP } from '../../data/ylpData';
 import Link from "next/link"
 import Carousal from "../global/Carousal"
 import Curriculum4 from '../global/Curriculum4';
-import { curriculum, } from '../../data/ylpData';
+import { curriculum, } from '../../data/ylpData'; 
 
 import Image from "next/image"
 const YLP = () => {
