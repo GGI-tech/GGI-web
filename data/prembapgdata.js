@@ -128,7 +128,7 @@ export const testimonialMBA = [
   },
     {
     name: 'SAIYAM HOTA',
-    org: '<b>Bain & Company</b><br/>GGI Impact MBA Scholar, 2021<br>Shaheed Bhagat Singh College',
+    org: '<b>Bain & Company</b><br/>GGI PGP Scholar, 2021<br>Shaheed Bhagat Singh College',
     image: '/sayam.jpg',
     review: "After GGI, I will join <span class='font-bold'>Bain & Company</span>. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds. <br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
   },
@@ -177,13 +177,13 @@ export const testimonialMBA = [
       },
     {
         name: 'ANAMITRA MUNSI',
-    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI MBA Scholar, 2021',
+    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI PGP Scholar, 2021',
     image: '/anamitra.jpg',
     review: "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from <span class='font-bold'>Boston Consulting Group (BCG)</span>.<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that.<br><br> There hasn&#39;t been a single instance when I have reached out and not received a response from Shatakshi"
       },
       {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI MBA IMPACT SCHOLAR<br> NIT',
+    org: '<b>Samagra</b><br/>GGI PGP IMPACT SCHOLAR<br> NIT',
     image: '/shreyas.jpg',
     review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a GGIprojects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
   },
@@ -197,7 +197,7 @@ export const testimonialMBA = [
     name: 'SWATI SUREKA',
     org: '<b>Auctus Advisors</b><br/>GGI Impact Scholar',
     image: '/swati.jpg',
-    review: `When I joined GGI, I was at a crossroads - unsure whether to pursue an MBA or dive into consulting.  
+    review: `When I joined GGI, I was at a crossroads - unsure whether to pursue Business, Strategy & Leadership or dive into consulting.  
     The mentorship, the community, and the culture of learning transformed that confusion into conviction.  <br/><br/>
     I went on to receive offers from three consulting firms and today work at <span class='font-bold'>Auctus Advisors</span>.  <br/><br/>
     Beyond career milestones, what stayed with me are two values - a learning mindset and the spirit of helping one another.  <br/><br/>
@@ -213,7 +213,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Priyal Keni',
-        org: '<b>Deloitte Consulting</b><br/>GGI MBA Scholar 2021',
+        org: '<b>Deloitte Consulting</b><br/>GGI PGP Scholar 2021',
         link: 'https://www.linkedin.com/in/priyalkeni/',
         image: '/priyal.jpg',
         review: "A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with <span class='font-bold'>Deloitte Consulting</span> and is a postgraduate in business studies from the University of Mumbai."
@@ -227,7 +227,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Anisha Sawhney',
-        org: ' <b>University of Warwick</b><br/>GGI MBA Scholar 2021.',
+        org: ' <b>University of Warwick</b><br/>GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/anishasawhney/',
         image: '/anisha.jpg',
         review: "Anisha recently graduated from University of Warwick with a masters degree (MSc) in Economics. She is the author of two published papers in economic journals with excellent communication and analytical skills.<br><br>She has over 2 years' experience in economic research & mentoring roles through internships in organizations like NITI Aayog, UNV, NinelsMine, Bright Network, Admitkard & Mitkat Advisory."
@@ -249,35 +249,35 @@ export const testimonialMBA = [
     },
     {
         name: 'Abhinav Srijan',
-        org: '<b>Northeastern University</b><br/>GGI MBA Scholar 2021.',
+        org: '<b>Northeastern University</b><br/>GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/abhinavsrijan/',
         image: '/abhinav.jpg',
         review: "Abhinav is a Chemical Engineer pursuing Masters in Engineering Management at Northeastern University. He has previously worked in Management Consulting and Petroleum industry."
     },
     {
         name: 'Manognya Deepthi Gorthy',
-        org: '<b>IIT Kharagpur </b><br/>GGI MBA Scholar 2021.',
+        org: '<b>IIT Kharagpur </b><br/>GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/manognya-deepthi/',
         image: '/manognya.jpg',
         review: "She is a graduate in Industrial Engineering and Management from IIT Kharagpur with a background in Maths, Analytics and Finance, along with sound experience in leadership and team building.<br/></br>She likes to create things people love. She has a diverse industry experience ranging from Finance to Oil & Gas and from Telecommunications to Non-profit organizations."
     },
     {
         name: 'Mohammad Arham Hussain',
-        org: '<b>King&39;s College London | St. Stephen&39;s College</b><br/>GGI MBA Scholar 2021.',
+        org: '<b>King&39;s College London | St. Stephen&39;s College</b><br/>GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/mohammad-arham-hussain-87342b136/',
         image: '/arham.jpg',
         review: "He was an undergraduate student at St. Stephen's College in History (Hons). He is now a Law student at King's College London."
     },
     {
         name: 'Jigyasa Sidana',
-        org: '<b>Shri Ram College of Commerce (SRCC) </b><br/>GGI MBA Scholar 2021.',
+        org: '<b>Shri Ram College of Commerce (SRCC) </b><br/>GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/jigyasa-sidana-415516172/',
         image: '/jigyasa.jpg',
         review: "Jigyasa is an Economics (Hons.) graduate from Shri Ram College of Commerce. She has worked as a development professional in the education and skill development domain for four years as a fellow with Teach for India, as an advisor with ed-tech startups for school transformation in the state of Maharashtra, and recently with SEWA Bharat and Educate Girls."
     },
     {
         name: 'Saakshi More',
-        org: '<b>LSR</b> <br/>GGI MBA Scholar 2021.',
+        org: '<b>LSR</b> <br/>GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/saakshi-more/',
         image: '/saakshi.jpg',
         review: "During the pandemic, she pioneered her own non-profit education management venture, 'College Catalyst. Through this platform, she developed structured content about the college admission process. She is a Research Wing Member in the Placement cell of LSR and the Associate VP of Membership at Toastmasters, LSR.<br/></br>She is an avid reader of Afghanistan-based domestic fiction. She diligently follows freelancer journalists on social media."

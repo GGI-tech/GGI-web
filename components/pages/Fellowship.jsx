@@ -93,7 +93,7 @@ const Fellowship = () => {
 
             <Heading>Curriculum & Commitment</Heading>
             <Curriculum2 data={curriculum} /><br/><br/>
-            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If GGI MBA Scholars is Harvard Business School, then GGI Impact Fellowship is Harvard + McKinsey work experience - <br/>compressed into one transformative journey.</span></p><br/>
+            <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>If GGI PGP Scholars is Harvard Business School, then GGI Impact Fellowship is Harvard + McKinsey work experience - <br/>compressed into one transformative journey.</span></p><br/>
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 

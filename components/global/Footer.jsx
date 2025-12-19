@@ -88,7 +88,7 @@ const Footer = () => {
                                 <ul className="list-unstyled">
                                     <li>
                                         <Link prefetch={false} href="/ggi-scholars">
-                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI MBA Scholars</p>
+                                            <p className="hover:cursor-pointer text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm" >GGI PGP Scholars</p>
                                         </Link>
                                     </li>
                                     <li>

@@ -38,17 +38,17 @@ export const fourcolumndata = [
         "id": 4,
         "img": poets,
         "title": "Be Recognized Globally",
-        "body": "GGI’s Impact MBA is globally featured by Poets & Quants, the World Economic Forum, and BCG Global Media - as one of the most disruptive Alt MBAs in the world"
+        "body": "GGI’s PGP is globally featured by Poets & Quants, the World Economic Forum, and BCG Global Media - as one of the most disruptive Alt MBAs in the world"
     }
 ]
 export const stages = [
     {
         "id": 0,
         "ques": "STAGE 1 - Develop Contextual Intelligence",
-        "ans": [` <p class='mb-2'>Understanding context is crucial for sound decision-making in management consulting, investing, and product management. The key to becoming a great analytical thinker and leader is a broad knowledge base. GGI&#39;s Impact MBA prepares you to be a future leader by developing your skills to connect the dots across various domains, including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives, through GGI&#39;s trademarked Masterclasses. </p>`,
+        "ans": [` <p class='mb-2'>Understanding context is crucial for sound decision-making in management consulting, investing, and product management. The key to becoming a great analytical thinker and leader is a broad knowledge base. GGI&#39;s PGP prepares you to be a future leader by developing your skills to connect the dots across various domains, including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives, through GGI&#39;s trademarked Masterclasses. </p>`,
             `<p class='mb-2'>In this phase, you&#39;ll engage in over<span class='font-semibold'> 50+ hours of interactive Masterclasses, </span>including the mandatory MBA for Impact Masterclass, complemented by evaluative peer assignments. To facilitate interaction with industry leaders, you will also gain unlimited exclusive access to renowned Guest Speaker Masterclasses. </p>
                 <p class='mb-2'>These Masterclasses are led by incumbent partners and managing directors from consulting firms, FMCG companies, and international organizations. Beyond the Masterclasses, you&#39;ll engage in peer-to-peer post-Masterclass assignments, projects, and startup weekends to apply what you&#39;ve learned to real-world problems. </p>
-                <p class='mb-2'>The MBA for Impact Masterclass condenses the core MBA curriculum into 10 hours. These principles are then applied across Masterclasses in consulting, investing, product management, etc. For those enrolled in deferred MBA programs like Harvard 2+2 and Yale Silver Scholars, this stage ensures familiarity with the basics of core courses before starting your MBA program. Completing this stage can save you time, allowing you to focus on networking during your MBA. For working professionals, this stage enables you to tackle problems in your day-to-day job with contextual intelligence from various sectors. </p>`
+                <p class='mb-2'>The MBA for Impact Masterclass condenses the core Business, Strategy & Leadership curriculum into 10 hours. These principles are then applied across Masterclasses in consulting, investing, product management, etc. For those enrolled in deferred MBA programs like Harvard 2+2 and Yale Silver Scholars, this stage ensures familiarity with the basics of core courses before starting your PGP program. Completing this stage can save you time, allowing you to focus on networking during your PGP. For working professionals, this stage enables you to tackle problems in your day-to-day job with contextual intelligence from various sectors. </p>`
         ]
     },
     {
@@ -64,10 +64,10 @@ export const stages = [
         "ans": [`<p class='mb-2'>It&#39;s often said that having even just 1 person who cares for you unconditionally can do wonders for your self-esteem. </p>
         <p class='mb-2'>For you as a GGI Scholar, this person is represented by the entire Global Governance Initiative community.</p>
         <p class='mb-2'>You&#39;ll participate in monthly inner circle meetings and networking night with scholars from various industries and sectors.</p>
-        `, `<p class='mb-2'>Earning an MBA degree encompasses more than just mastering valuations and Little&#39;s Law; it&#39;s about the entire experience. This includes guest speakers, QnA hours with instructors, campus events, and ultimately securing your dream job. It&#39;s an experience that lasts a lifetime. </p>
+        `, `<p class='mb-2'>Earning a PGP degree encompasses more than just mastering valuations and Little&#39;s Law; it&#39;s about the entire experience. This includes guest speakers, QnA hours with instructors, campus events, and ultimately securing your dream job. It&#39;s an experience that lasts a lifetime. </p>
         <p class='mb-2'>Through Community & Networking Nights on &#34;Wiggly&#34;, GGI recreates the entire campus experience online for you.</p>
         <p class='mb-2'>Although the formal journey of an Impact Scholar ends after six months, as GGI alumni, you will always have access to this inclusive, supportive, respectful, and collaborative ecosystem. As part of the GGI family, you will continue to benefit from exclusive partnerships that GGI builds with leading organizations and business and policy schools. </p>
-        <p class='mb-2'>As a GGI Impact MBA Scholar, you represent the best of the Global Governance Initiative network on &#34;Wiggly&#34;. Through core masterclasses, a flexible curriculum, Networking Nights, and AI tools, the Impact MBA Scholars Program offers a comprehensive view into the world of social impact consulting, management consulting, and product management. </p>
+        <p class='mb-2'>As a GGI PGP Scholar, you represent the best of the Global Governance Initiative network on &#34;Wiggly&#34;. Through core masterclasses, a flexible curriculum, Networking Nights, and AI tools, the PGP Scholars Program offers a comprehensive view into the world of social impact consulting, management consulting, and product management. </p>
         <p class='mb-2'>You will also join GGI&#39;s growing network through its various technology portals, which include a diverse and international network on &#34;Wiggly&#34; of GGI Delegates, Impact Scholars, Policy Scholars, Fellows, and mentors spread across four continents. </p>
 `]
     }
@@ -76,7 +76,7 @@ export const stages = [
 export const testimonialMBA = [
     {
     name: 'GANGADHAR REDDY',
-    org: 'GGI Impact MBA Scholar, 2025<br>Sarpanch',
+    org: 'GGI PGP Scholar, 2025<br>Sarpanch',
     image: '/gangadhar.png',
     review: "Gangadhar Reddy is the <span class='font-bold'>Sarpanch of his village</span>, where he has spearheaded community development initiatives, improved infrastructure, and championed the empowerment of marginalized groups through government programs. <br><br> Gangadhar hails from Bodduvanipalle village in Orvakal Mandal, Kurnool district, Andhra Pradesh and holds a Bachelor's degree in Business Administration from Bangalore University. His dedication to Good Governance earned his village the second prize for best governance in Orvakal Mandal.  <br><br> Passionate about creating meaningful social change, Gangadhar envisions a future where large-scale rural development projects and policy-driven solutions transform communities. <br><br> He is committed to building strong, sustainable systems that empower people and leave a lasting impact in the public sector."
   },
@@ -89,7 +89,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Priyal Keni',
-        org: 'GGI MBA Scholar 2021',
+        org: 'GGI PGP Scholar 2021',
         link: 'https://www.linkedin.com/in/priyalkeni/',
         image: '/priyal.jpg',
         review: "A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with <span class='font-bold'>Deloitte Consulting</span> and is a postgraduate in business studies from the University of Mumbai."
@@ -103,7 +103,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Anisha Sawhney',
-        org: 'Meet Anisha MBA Scholar 2021.',
+        org: 'Meet Anisha PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/anishasawhney/',
         image: '/anisha.jpg',
         review: "Anisha recently graduated from University of Warwick with a masters degree (MSc) in Economics. She is the author of two published papers in economic journals with excellent communication and analytical skills.<br><br>She has over 2 years' experience in economic research & mentoring roles through internships in organizations like NITI Aayog, UNV, NinelsMine, Bright Network, Admitkard & Mitkat Advisory."
@@ -125,35 +125,35 @@ export const testimonialMBA = [
     },
     {
         name: 'Abhinav Srijan',
-        org: 'Meet Abhinav MBA Scholar 2021.',
+        org: 'Meet Abhinav PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/abhinavsrijan/',
         image: '/abhinav.jpg',
         review: "Abhinav is a Chemical Engineer pursuing Masters in Engineering Management at Northeastern University. He has previously worked in Management Consulting and Petroleum industry."
     },
     {
         name: 'Manognya Deepthi Gorthy',
-        org: 'Meet Manognya Deep, GGI MBA Scholar 2021.',
+        org: 'Meet Manognya Deep, GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/manognya-deepthi/',
         image: '/manognya.jpg',
         review: "She is a graduate in Industrial Engineering and Management from IIT Kharagpur with a background in Maths, Analytics and Finance, along with sound experience in leadership and team building.<br/></br>She likes to create things people love. She has a diverse industry experience ranging from Finance to Oil & Gas and from Telecommunications to Non-profit organizations."
     },
     {
         name: 'Mohammad Arham Hussain',
-        org: 'Meet Mohammad Arham Hussain, MBA Scholar 2021.',
+        org: 'Meet Mohammad Arham Hussain, PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/mohammad-arham-hussain-87342b136/',
         image: '/arham.jpg',
         review: "He was an undergraduate student at St. Stephen's College in History (Hons). He is now a Law student at King's College London."
     },
     {
         name: 'Jigyasa Sidana',
-        org: 'Meet Jigyasa Sidana, MBA Scholar 2021.',
+        org: 'Meet Jigyasa Sidana, PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/jigyasa-sidana-415516172/',
         image: '/jigyasa.jpg',
         review: "Jigyasa is an Economics (Hons.) graduate from Shri Ram College of Commerce. She has worked as a development professional in the education and skill development domain for four years as a fellow with Teach for India, as an advisor with ed-tech startups for school transformation in the state of Maharashtra, and recently with SEWA Bharat and Educate Girls."
     },
     {
         name: 'Saakshi More',
-        org: 'Meet Saakshi More, GGI MBA Scholar 2021.',
+        org: 'Meet Saakshi More, GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/saakshi-more/',
         image: '/saakshi.jpg',
         review: "During the pandemic, she pioneered her own non-profit education management venture, 'College Catalyst. Through this platform, she developed structured content about the college admission process. She is a Research Wing Member in the Placement cell of LSR and the Associate VP of Membership at Toastmasters, LSR.<br/></br>She is an avid reader of Afghanistan-based domestic fiction. She diligently follows freelancer journalists on social media."
@@ -185,7 +185,7 @@ export const curriculum = [
     },
     {
         "title": "1:1 Founders&#39; Office Hours ",
-        "description": "During graduation. 1 to take forward your MBA dreams "
+        "description": "During graduation. 1 to take forward your Business, Strategy & Leadership dreams "
     },
     {
         "title": "GGI Startup Weekend",

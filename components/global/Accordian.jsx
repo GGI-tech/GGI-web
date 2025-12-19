@@ -57,7 +57,7 @@ const FAQ = [
                     <li>The Liberal Arts Masterclass</li>
                 </ul><br><br>
                 During the 9 hours, community members solve cases with the speaker and amongst themselves to build foundational business, policy, and product learnings. 
-                <br><br>You can access all these 9 practical Masterclasses by applying for GGI MBA Scholars program <u><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform" target="_blank" rel="noreferrer noopener">here.</a></u>
+                <br><br>You can access all these 9 practical Masterclasses by applying for GGI PGP Scholars program <u><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform" target="_blank" rel="noreferrer noopener">here.</a></u>
                 `
     },
     {
@@ -67,7 +67,7 @@ const FAQ = [
                 <br><br>
                 These hiring partners trust the GGI selection and learning process because of which they periodically hire from the close community of the Global Governance Initiative! If selected, you'd be invited for sessions by our hiring partners periodically and invited to submit your applications by our employers. 
                 <br><br>
-                To become part of the special hiring pool, you can apply to GGI MBA Scholars Program <u><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform" target="_blank" rel="noreferrer noopener">here.</a></u>`
+                To become part of the special hiring pool, you can apply to GGI PGP Scholars Program <u><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform" target="_blank" rel="noreferrer noopener">here.</a></u>`
     },
     {
         "id": 8,

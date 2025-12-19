@@ -149,7 +149,7 @@ const PREMBADATA = () => {
                         <Image src={certificate} alt="" />
                     </div>
                     <div className='col-span-2'>
-                        <p className='mb-2'>Let us be honest. We are not in the certificate minting business. However, on successful completion of the program, you receive a unique GGI Impact MBA Scholars graduation letter- </p>
+                        <p className='mb-2'>Let us be honest. We are not in the certificate minting business. However, on successful completion of the program, you receive a unique GGI Post Graduate Programme (PGP) Scholars graduation letter- </p>
                         <ul className='list-disc ml-4'>
                             <li> Showcasing your hard, fun, and enriching journey from a prestigious Global Governance Initiative Scholars journey</li>
                             <li>Get a chance to network with GGI  industry experts, and peers during the program</li>

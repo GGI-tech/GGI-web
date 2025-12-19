@@ -94,7 +94,7 @@ const Navbar = ({applicationbanner}) => {
               <button className="inline-flex items-center rounded font-bold text-sm lg:text-[15px]">OUR PROGRAMS</button>
               <ul className="absolute hidden pt-1 primary font-medium group-hover:block min-w-[175px] left-1/2 transform -translate-x-1/2">
                 <Link href='/ggi-scholars' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">MBA</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">PGP in Business, Strategy & Leadership</a>
                 </Link>
                 <Link href='/ggipolicyscholarsprogram' target="_blank">
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">Policy Consulting Lab</a>
@@ -234,7 +234,7 @@ const Navbar = ({applicationbanner}) => {
               {dropdownWorking && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>MBA</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>PGP in Business, Strategy & Leadership</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram' target="_blank">
                     <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>POLICY CONSULTING LAB</a>

@@ -76,17 +76,17 @@ const Main = () => {
                         <div className='text-center md:text-left min:h-[27rem] '>
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Management Scholar </h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
-                            <p className='my-7'>1. <span className='primary font-semibold'>GGI MBA Scholars are ambitious thinkers</span> who don’t wait for permission. </p>
+                            <p className='my-7'>1. <span className='primary font-semibold'>GGI PGP Scholars are ambitious thinkers</span> who don’t wait for permission. </p>
                             <p className='my-7'>2.  They’re <span className='primary font-semibold'>management consulting aspirants</span> designing strategies before interviews, engineers pivoting to strategy and founders learning the language of <span className='primary font-semibold'>global consulting</span>.
 </p>
-                            <p className='my-7'>3. GGI MBA Scholars escape stagnation - <span className='primary font-semibold'>design strategies that move societies</span> </p>
+                            <p className='my-7'>3. GGI PGP Scholars escape stagnation - <span className='primary font-semibold'>design strategies that move societies</span> </p>
                             <p className='my-7'>4. You don’t need another MBA/MIM degree -<span className='primary font-semibold'>you need direction, discipline, and direct access.</span></p>
 
                         </div>
                         
                         <div className='flex justify-center md:justify-start mb-10 md:mb-0 items-end h-full'>
                             <Button url="/ggi-scholars">
-                                LEARN MORE ABOUT GGI IMPACT MBA
+                                LEARN MORE ABOUT GGI POST GRADUATE PROGRAMME (PGP)
                             </Button>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const Main = () => {
                             <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
                             <p className='my-7 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-7'>1. <span className='primary font-semibold'>GGI Policy Scholars are ambitious leaders</span> who don’t wait for permission. </p>
-                            <p className='my-7'>2. They’re <span className='primary font-semibold'> policy and development sector aspirants</span> designing policies before interviews, engineers pivoting to social impact, and social impact leaders learning the language of MBA. </p>
+                            <p className='my-7'>2. They’re <span className='primary font-semibold'> policy and development sector aspirants</span> designing policies before interviews, engineers pivoting to social impact, and social impact leaders learning the language of Business, Strategy & Leadership. </p>
                             <p className='my-7'>3. GGI Policy Scholars turn their frustration into fluency - <span className='primary font-semibold'>learn how real policy gets shaped by the world’s best.</span> </p>
                             <p className='my-7'>4. You don’t need another MPP - <span className='primary font-semibold'>you need discipline, and direct access.</span></p>
 
@@ -230,7 +230,7 @@ const Main = () => {
             <Heading>You Learn <strong>live</strong> via Case method, Get Hired & Network to become a Leader in Business & Society</Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> LEARN MORE ABOUT GGI IMPACT MBA SCHOLARS</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform?usp=sf_link"> LEARN MORE ABOUT GGI POST GRADUATE PROGRAMME (PGP) SCHOLARS</Button>
 
             <Heading>The GGI Journey</Heading><br/>
                         <Steps data={stages} />
