@@ -8,11 +8,11 @@ const FAQ = [
         <br><br>      
         A. You can access free recorded MBA in 10 minutes series <u><a href="https://thetrinitybyggi.org/" target="_blank" rel="noreferrer noopener">here</a></u> on the Trinity which will allow you to directly learn MBA lessons in 10 minutes from an Ex BCG consultant on Strategy/ Finance/ Operations etc. free of cost.&nbsp;                
         <br><br>        
-        B.&nbsp;</span><u><a href="/ggi-scholars" target="_blank" rel="noreferrer noopener">GGI PGP Scholars</a></u>- Serves as a classic <span style="font-weight:bold;">Alt MBA &amp; Pre MBA,</span> designed specifically for those who wish to pivot their career into management consulting, business strategy, and product management        
+        B.&nbsp;</span><u><a href="/ggi-scholars" target="_blank" rel="noreferrer noopener">GGI PGP Scholars</a></u>- Serves as a classic <span style="font-weight:bold;">Alt MBA &amp; Pre MBA,</span> designed specifically for those who wish to pivot their career into leadership, consulting, business strategy, and product management        
         <br><br>        
-        <p >C.&nbsp;<u><a href="/impact-fellowship" target="_blank" rel="noreferrer noopener">GGI Impact Fellowship</a></u>-&nbsp; Serves as a classic experiential learning and work-study model, designed specifically for those who are exploring Plan B for Civil Services and looking to pivot their career into <span style="font-weight:bold;">management/impact consulting </span>and policy as you work on projects with mentors from MBB
+        <p >C.&nbsp;<u><a href="/impact-fellowship" target="_blank" rel="noreferrer noopener">GGI Impact Fellowship</a></u>-&nbsp; Serves as a classic experiential learning and work-study model, designed specifically for those who are exploring Plan B for Civil Services and looking to pivot their career into <span style="font-weight:bold;">leadership/impact consulting </span>and policy as you work on projects with mentors from MBB
         <br><br>        
-        D.&nbsp;<u><a href="/ggipolicyscholarsprogram" target="_blank" rel="noreferrer noopener">GGI Policy Scholars</a></u>- Serves as a classic<span style="font-weight:bold;">&nbsp;Alt MPP &amp; Pre MPP,</span> designed specifically for those who wish to pivot their career into the<span style="font-weight:bold;"> public policy </span>and<span style="font-weight:bold;">  development sector</span></span>
+        D.&nbsp;<u><a href="/ggipolicyscholarsprogram" target="_blank" rel="noreferrer noopener">GGI PGP Policy Scholars</a></u>- Serves as a classic<span style="font-weight:bold;">&nbsp;Alt Policy PGP &amp; Pre Policy PGP,</span> designed specifically for those who wish to pivot their career into the<span style="font-weight:bold;"> public policy </span>and<span style="font-weight:bold;">  development sector</span></span>
         <br><br> 
         E.&nbsp;<u><a href="/campusfellowship" target="_blank" rel="noreferrer noopener">GGI Campus Fellowship</a></u>- Serves as a classic <span style="font-weight:bold;">&nbsp;Campus Placement accelerator,</span> designed specifically for those looking for breakthroughs into<span style="font-weight:bold;"> consulting, strategy</span> and <span style="font-weight:bold;"> UPSC Plan B.</span></span><br><br>`
 
@@ -33,7 +33,7 @@ const FAQ = [
         "id":4,
         "ques":"Am I eligible for the GGI PGP or Impact Fellowship Program?",
         "ans":`The pre-requisites of Global Governance Initiative Programs are as below :<br><br>
-         1. <u>Interested in pursuing a career</u> in Management Consulting, Public Policy or Product Management.<br><br>
+         1. <u>Interested in pursuing a career</u> in Leadership, Consulting, Public Policy or Product Management.<br><br>
          2. <u>Global Governance is a mission-oriented organization</u> with an aim to empower professionals and women to have a seat on the table in business and policy roles. <br><br>
          3. <u>Background:</u> GGI is an background-agnostic program. It doesn&apos;t matter whether you are a fresh undergrad with internship experience or the CEO of a startup with entrepreneurial experience. We will cover basics and advanced learning around business, strategy, governance, product and policy. We suggest putting a strong application and welcome you to a beautiful ecosystem as long as you are willing to work hard, learn and thrive.   `
     },

@@ -6,7 +6,7 @@ const ggischolars = () => {
   return (
     <>
       <Head>
-        <title>Impact Scholar by Global Governance Initiative | Learn Business Live  &amp; Get Hired.</title>
+        <title>PGP in Business, Strategy & Leadership by Global Governance Initiative | Learn Business Live  &amp; Get Hired.</title>
         <meta property="description" content="Learn Business Skills Live, Get Hired, &amp; Network at GGI PGP Scholar To Become an Impactful Business Leader&nbsp;" />
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

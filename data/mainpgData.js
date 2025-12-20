@@ -172,7 +172,7 @@ export const testimonialMainFellows = [
     name: 'LABONI SINGH',
     org: '<b>Bridgespan | St. Stephen&#39;s College </b><br/>GGI Delegate, Policy Consulting &<br> Impact Startup Masterclass Cohort, 2020',
     image: '/laboni.jpg',
-    review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Bridgespan</span>. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup, and the third on Management Communications. I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It&#39;s relevant and important.<br><br> I look forward to applying for the Impact Scholar Program soon, especially to attend the Impact Investment and MBA for Impact masterclasses. Upskilling is key and I wouldn&#39;t want to miss anything!"
+    review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Bridgespan</span>. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup, and the third on Management Communications. I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It&#39;s relevant and important.<br><br> I look forward to applying for the PGP Scholar Program soon, especially to attend the Impact Investment and MBA for Impact masterclasses. Upskilling is key and I wouldn&#39;t want to miss anything!"
   }, {
     name: 'Palak Arora',
     org: '<b>Albright Stonebridge Group</b> <br/>GGI Fellow, Class of 2020</br>St. Stephen&#39;s College',
@@ -193,7 +193,7 @@ export const testimonialMainFellows = [
   },
   {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI PGP IMPACT SCHOLAR<br> NIT',
+    org: '<b>Samagra</b><br/>GGI PGP SCHOLAR<br> NIT',
     image: '/shreyas.jpg',
     review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a GGIprojects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
   },
@@ -326,7 +326,7 @@ export const testimonialMain = [
     name: 'LABONI SINGH',
     org: '<b>Bridgespan | St. Stephen&#39;s College </b><br/>GGI Delegate, Policy Consulting &<br> Impact Startup Masterclass Cohort, 2020',
     image: '/laboni.jpg',
-    review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Bridgespan</span>. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup, and the third on Management Communications. I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It&#39;s relevant and important.<br><br> I look forward to applying for the Impact Scholar Program soon, especially to attend the Impact Investment and MBA for Impact masterclasses. Upskilling is key and I wouldn&#39;t want to miss anything!"
+    review: "Shortly after GGI, I was offered a role by <span class='font-bold'>Bridgespan</span>. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup, and the third on Management Communications. I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It&#39;s relevant and important.<br><br> I look forward to applying for the PGP Scholar Program soon, especially to attend the Impact Investment and MBA for Impact masterclasses. Upskilling is key and I wouldn&#39;t want to miss anything!"
   }, {
     name: 'Palak Arora',
     org: '<b>Albright Stonebridge Group</b> <br/>GGI Fellow, Class of 2020</br>St. Stephen&#39;s College',
@@ -346,7 +346,7 @@ export const testimonialMain = [
   },
   {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI PGP IMPACT SCHOLAR<br> NIT',
+    org: '<b>Samagra</b><br/>GGI PGP SCHOLAR<br> NIT',
     image: '/shreyas.jpg',
     review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a GGI projects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
   },
@@ -397,7 +397,7 @@ export const testimonialMain2 = [
   },
   {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI PGP IMPACT SCHOLAR<br> NIT',
+    org: '<b>Samagra</b><br/>GGI PGP SCHOLAR<br> NIT',
     image: '/shreyas.jpg',
     review: `Before GGI, interviews and case discussions felt overwhelming.  
     Through projects and mentorship, I learned to structure my thoughts, find clarity in complexity, and connect policy to real-world outcomes.  <br/><br
@@ -406,7 +406,7 @@ export const testimonialMain2 = [
   },
   {
     name: 'SWATI SUREKA',
-    org: '<b>Auctus Advisors</b><br/>GGI Impact Scholar',
+    org: '<b>Auctus Advisors</b><br/>GGI PGP Scholar',
     image: '/swati.jpg',
     review: `When I joined GGI, I was at a crossroads - unsure whether to pursue Business, Strategy & Leadership or dive into consulting.  
     The mentorship, the community, and the culture of learning transformed that confusion into conviction.  <br/><br/>

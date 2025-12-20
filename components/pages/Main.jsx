@@ -66,7 +66,7 @@ const Main = () => {
  You’ll learn directly from industry leaders - solve real cases, publish live research, and graduate with global career readiness in <strong>consulting</strong>, <strong>policy</strong>, <strong>product</strong> roles. </Heading2>
 
             <Container>
-                <p >Explore our specific programs available within our fellowship, including the two flagship Scholar tracks, to discover more about admission requirements, scholarships, and career opportunities. Upskill and learn how to build a successful career in fields such as Management Consulting, Product Management, Policy, Finance, Impact Investing, or Program Management.  </p>
+                <p >Explore our specific programs available within our fellowship, including the two flagship Scholar tracks, to discover more about admission requirements, scholarships, and career opportunities. Upskill and learn how to build a successful career in fields such as Business Strategy and Leadership, Consulting, Product Management, Policy, Finance, Impact Investing, or Program Management.  </p>
 
             </Container>
 
@@ -74,10 +74,10 @@ const Main = () => {
                 <div className="lg:w-5/6 grid grid-cols-1 sm:grid-cols-2 gap-10  lg:grid-cols-5 items-end" >
                     <div className='lg:col-span-2'>
                         <div className='text-center md:text-left min:h-[27rem] '>
-                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Management Scholar </h2>
+                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI PGP Scholar in Business, Strategy & Leadership</h2>
                             <p className='my-5 text-lg font-semibold'>Who is this program for?</p>
                             <p className='my-7'>1. <span className='primary font-semibold'>GGI PGP Scholars are ambitious thinkers</span> who don’t wait for permission. </p>
-                            <p className='my-7'>2.  They’re <span className='primary font-semibold'>management consulting aspirants</span> designing strategies before interviews, engineers pivoting to strategy and founders learning the language of <span className='primary font-semibold'>global consulting</span>.
+                            <p className='my-7'>2.  They’re <span className='primary font-semibold'>Business, Strategy & Leadership aspirants</span> designing strategies before interviews, engineers pivoting to strategy and founders learning the language of <span className='primary font-semibold'>global consulting</span>.
 </p>
                             <p className='my-7'>3. GGI PGP Scholars escape stagnation - <span className='primary font-semibold'>design strategies that move societies</span> </p>
                             <p className='my-7'>4. You don’t need another MBA/MIM degree -<span className='primary font-semibold'>you need direction, discipline, and direct access.</span></p>
@@ -93,18 +93,18 @@ const Main = () => {
                     <div className='hidden lg:block lg:col-span-1'></div>
                     <div className='lg:col-span-2'>
                         <div className='text-center md:text-left min:h-[27rem] '>
-                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI Policy Scholar </h2>
+                            <h2 className='text-xl md:text-2xl my-8 primary text-center md:text-left'>GGI PGP Policy Scholar </h2>
                             <p className='my-7 text-lg font-semibold'>Who is this program for?</p>
-                            <p className='my-7'>1. <span className='primary font-semibold'>GGI Policy Scholars are ambitious leaders</span> who don’t wait for permission. </p>
+                            <p className='my-7'>1. <span className='primary font-semibold'>GGI PGP Policy Scholars are ambitious leaders</span> who don’t wait for permission. </p>
                             <p className='my-7'>2. They’re <span className='primary font-semibold'> policy and development sector aspirants</span> designing policies before interviews, engineers pivoting to social impact, and social impact leaders learning the language of Business, Strategy & Leadership. </p>
-                            <p className='my-7'>3. GGI Policy Scholars turn their frustration into fluency - <span className='primary font-semibold'>learn how real policy gets shaped by the world’s best.</span> </p>
+                            <p className='my-7'>3. GGI PGP Policy Scholars turn their frustration into fluency - <span className='primary font-semibold'>learn how real policy gets shaped by the world’s best.</span> </p>
                             <p className='my-7'>4. You don’t need another MPP - <span className='primary font-semibold'>you need discipline, and direct access.</span></p>
 
                         </div>
                         
                         <div className='flex justify-center md:justify-start mb-0 items-end h-full'>
                             <Button url="/ggipolicyscholarsprogram">
-                                LEARN MORE ABOUT GGI POLICY SCHOLAR
+                                LEARN MORE ABOUT GGI PGP POLICY SCHOLAR
                             </Button>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const Main = () => {
 
             <div className='mt-24 flex justify-center'>
                 <p className='md:w-3/5 md:text-lg mb-5 text-justify'>In a world of noise, depth is your edge.
-                GGI’s case-based, mentor-led ecosystem is designed to make you fluent in the intersection of management, policy, and technology.
+                GGI’s case-based, mentor-led ecosystem is designed to make you fluent in the intersection of Business, Strategy & Leadership, policy, and technology.
                 Because the next decade won’t belong to specialists - it’ll belong to systems thinkers who can lead across domains.</p>
             </div>
 

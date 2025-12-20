@@ -53,7 +53,7 @@ export const stages = [
         "ans": [`<p class='mb-2'>It is often said that if you have nothing in your life, but you have at least one person who cares for your unconditionally, it will do wonders for your self-esteem. For GGI Medical Scholars that one person is the entire community at Global Governance Initiative. </p>
         <p class='mb-2'>Even though the journey of a GGI Medical Scholar ‘formally’ ends in 6 months. But Medical Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. </p>`,
          `<p class='mb-2'>GGI Medical Scholars will also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Businesses, and Policy schools. </p>
-        <p class='mb-2'>GGI Medical Scholars will also be made part of GGI’s growing network through its various technology portals that comprise an international and diverse network of GGI Delegates, Impact Scholars, Impact Fellows, and Mentors spread across 4 continents. </p>`
+        <p class='mb-2'>GGI Medical Scholars will also be made part of GGI’s growing network through its various technology portals that comprise an international and diverse network of GGI Delegates, PGP Scholars, Impact Fellows, and Mentors spread across 4 continents. </p>`
     ]
     }
 
@@ -82,14 +82,14 @@ export const testimonialMedical = [
     },
     {
         name: 'Ronak Batra',
-        org: 'Meet Ronak Batra, GGI Impact Scholar 2021.',
+        org: 'Meet Ronak Batra, GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/ronakbatra/',
         image: '/ronak.jpg',
         review: `Ronak works with <span class='font-bold'>ThreeFish Consulting</span> as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
     },
     {
         name: 'Dhruv Goyal',
-        org: 'Meet Dhruv Goyal, GGI Impact Scholar 2021.',
+        org: 'Meet Dhruv Goyal, GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/dhruv-g-178861a4/',
         image: '/dhruv.jpg',
         review: "Dhruv is a CA Final student at ICAI. He is a 2019 Commerce graduate from H.R. College of commerce and economics and is pursuing his masters (M.com) from the University of Mumbai. He is currently awaiting the results of the CA Final examinations (Appeared in Nov 2020) and is in the process of honing essential soft- skills."

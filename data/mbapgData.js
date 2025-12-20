@@ -66,9 +66,9 @@ export const stages = [
         <p class='mb-2'>You&#39;ll participate in monthly inner circle meetings and networking night with scholars from various industries and sectors.</p>
         `, `<p class='mb-2'>Earning a PGP degree encompasses more than just mastering valuations and Little&#39;s Law; it&#39;s about the entire experience. This includes guest speakers, QnA hours with instructors, campus events, and ultimately securing your dream job. It&#39;s an experience that lasts a lifetime. </p>
         <p class='mb-2'>Through Community & Networking Nights on &#34;Wiggly&#34;, GGI recreates the entire campus experience online for you.</p>
-        <p class='mb-2'>Although the formal journey of an Impact Scholar ends after six months, as GGI alumni, you will always have access to this inclusive, supportive, respectful, and collaborative ecosystem. As part of the GGI family, you will continue to benefit from exclusive partnerships that GGI builds with leading organizations and business and policy schools. </p>
+        <p class='mb-2'>Although the formal journey of a PGP Scholar ends after six months, as GGI alumni, you will always have access to this inclusive, supportive, respectful, and collaborative ecosystem. As part of the GGI family, you will continue to benefit from exclusive partnerships that GGI builds with leading organizations and business and policy schools. </p>
         <p class='mb-2'>As a GGI PGP Scholar, you represent the best of the Global Governance Initiative network on &#34;Wiggly&#34;. Through core masterclasses, a flexible curriculum, Networking Nights, and AI tools, the PGP Scholars Program offers a comprehensive view into the world of social impact consulting, management consulting, and product management. </p>
-        <p class='mb-2'>You will also join GGI&#39;s growing network through its various technology portals, which include a diverse and international network on &#34;Wiggly&#34; of GGI Delegates, Impact Scholars, Policy Scholars, Fellows, and mentors spread across four continents. </p>
+        <p class='mb-2'>You will also join GGI&#39;s growing network through its various technology portals, which include a diverse and international network on &#34;Wiggly&#34; of GGI Delegates, PGP Scholars, Policy Scholars, Fellows, and mentors spread across four continents. </p>
 `]
     }
 
@@ -111,14 +111,14 @@ export const testimonialMBA = [
     
     {
         name: 'Ronak Batra',
-        org: 'Meet Ronak Batra, GGI Impact Scholar 2021.',
+        org: 'Meet Ronak Batra, GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/ronakbatra/',
         image: '/ronak.jpg',
         review: `Ronak works with <span class='font-bold'>ThreeFish Consulting</span> as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
     },
     {
         name: 'Dhruv Goyal',
-        org: 'Meet Dhruv Goyal, GGI Impact Scholar 2021.',
+        org: 'Meet Dhruv Goyal, GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/dhruv-g-178861a4/',
         image: '/dhruv.jpg',
         review: "Dhruv is a CA Final student at ICAI. He is a 2019 Commerce graduate from H.R. College of commerce and economics and is pursuing his masters (M.com) from the University of Mumbai. He is currently awaiting the results of the CA Final examinations (Appeared in Nov 2020) and is in the process of honing essential soft- skills."

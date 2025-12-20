@@ -19,7 +19,7 @@ const GTIPolicy = () => {
 
     return (
         <>
-            <SlidingHero image={'./policy.jpg'} title={[`Learn Tech-Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Tech-Policy Scholar</span><br class='hidden md:block'/> to Become a Tech Leader for Society `, `<span class="text-yellow-200">GGI Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
+            <SlidingHero image={'./policy.jpg'} title={[`Learn Tech-Policy Skills Live, Join Global Network<br class='hidden md:block'/> & Get Hired at<span class="text-yellow-200"> GGI Tech-Policy Scholar</span><br class='hidden md:block'/> to Become a Tech Leader for Society `, `<span class="text-yellow-200">GGI PGP Policy Scholar</span><br/> seeks solutions - from geopolitics to sanctions along with government leaders  `]} />
 
             <Button page="mpp" url="https://forms.gle/jxT6BKKwd2FpSVAt5"> ADVANCE YOUR CAREER BY APPLYING NOW</Button>
 

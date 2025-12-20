@@ -97,7 +97,7 @@ export const stages = [
         "ques": "Stage 3 - Community, Networking Nights, and Wellness Sessions ",
         "ans": [
             "<p>It is often said that having just one person who cares for you unconditionally can do wonders for your self-esteem. That person is the entire community at the Global Governance Initiative.</p>",
-            "<p><br></p><p>Campus Fellows gain exclusive access to the Global Governance Initiative. They attend monthly inner circle meetings and networking events with fellows from various fields. They are also provided with an ecosystem where their mental health is given paramount importance.</p><p><br></p><p>Even though the fellowship ends after 6 months, Fellows—as GGI Alumni—will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Initiative for the rest of their lives. Campus Fellows also enjoy access to the exclusive partnerships that GGI continuously establishes with leading universities, businesses, and policy schools.</p><p><br></p><p>The GGI Campus Fellowship is the Crème de la crème of the GGI network. Through core Masterclasses, a flexible curriculum, and consulting-style projects, the Campus Fellowship offers a deep dive into consulting, development consulting, and international development.</p><p><br></p><p>The GGI Campus Fellowship is personalized, and the schedule is shared only after the Initial Founders Call.</p><p><br></p><p>Campus Fellows are also integrated into GGI's growing technology portals, encompassing an international and diverse network of GGI Delegates, Impact Scholars, fellows, and mentors spread across the globe.</p>"
+            "<p><br></p><p>Campus Fellows gain exclusive access to the Global Governance Initiative. They attend monthly inner circle meetings and networking events with fellows from various fields. They are also provided with an ecosystem where their mental health is given paramount importance.</p><p><br></p><p>Even though the fellowship ends after 6 months, Fellows—as GGI Alumni—will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Initiative for the rest of their lives. Campus Fellows also enjoy access to the exclusive partnerships that GGI continuously establishes with leading universities, businesses, and policy schools.</p><p><br></p><p>The GGI Campus Fellowship is the Crème de la crème of the GGI network. Through core Masterclasses, a flexible curriculum, and consulting-style projects, the Campus Fellowship offers a deep dive into consulting, development consulting, and international development.</p><p><br></p><p>The GGI Campus Fellowship is personalized, and the schedule is shared only after the Initial Founders Call.</p><p><br></p><p>Campus Fellows are also integrated into GGI's growing technology portals, encompassing an international and diverse network of GGI Delegates, PGP Scholars, fellows, and mentors spread across the globe.</p>"
           ] }
 ]
 
@@ -171,7 +171,7 @@ export const testimonialMBA = [
       },
       {
         name: 'Deepa Das',
-        org: '<b>Northwestern University- Kellogg School of Management </b><br/><br/> GGI Impact Scholar',
+        org: '<b>Northwestern University- Kellogg School of Management </b><br/><br/> GGI Scholar',
         image: '/deepa.jpg',
         review: "<span class='font-bold'>Thrilled to share that I have started a full-time MBA program at Northwestern University- Kellogg School of Management, Evanston, Illinois</span><br/><br/>Respect Shatakshi Sharma and Global Governance Initiative for planting the seed of purpose in young Indian minds."
       },
@@ -183,7 +183,7 @@ export const testimonialMBA = [
       },
       {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI PGP IMPACT SCHOLAR<br> NIT',
+    org: '<b>Samagra</b><br/>GGI PGP SCHOLAR<br> NIT',
     image: '/shreyas.jpg',
     review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a GGIprojects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
   },
@@ -195,7 +195,7 @@ export const testimonialMBA = [
       },
       {
     name: 'SWATI SUREKA',
-    org: '<b>Auctus Advisors</b><br/>GGI Impact Scholar',
+    org: '<b>Auctus Advisors</b><br/>GGI PGP Scholar',
     image: '/swati.jpg',
     review: `When I joined GGI, I was at a crossroads - unsure whether to pursue Business, Strategy & Leadership or dive into consulting.  
     The mentorship, the community, and the culture of learning transformed that confusion into conviction.  <br/><br/>
@@ -235,14 +235,14 @@ export const testimonialMBA = [
     
     {
         name: 'Ronak Batra',
-        org: '<b>ThreeFish Consulting</b><br/>GGI Impact Scholar 2021.',
+        org: '<b>ThreeFish Consulting</b><br/>GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/ronakbatra/',
         image: '/ronak.jpg',
         review: `Ronak works with <span class='font-bold'>ThreeFish Consulting</span> as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
     },
     {
         name: 'Dhruv Goyal',
-        org: 'GGI Impact Scholar 2021.',
+        org: 'GGI PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/dhruv-g-178861a4/',
         image: '/dhruv.jpg',
         review: "Dhruv is a CA Final student at ICAI. He is a 2019 Commerce graduate from H.R. College of commerce and economics and is pursuing his masters (M.com) from the University of Mumbai. He is currently awaiting the results of the CA Final examinations (Appeared in Nov 2020) and is in the process of honing essential soft- skills."

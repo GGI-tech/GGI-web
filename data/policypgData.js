@@ -40,7 +40,7 @@ export const fourcolumndata = [ //to be fetched from database
         "id": 4,
         "img": poets,
         "title": "Be Recognized by the World’s Leading Institutions",
-        "body": "GGI’s Impact MPP has been featured by Poets & Quants and the World Economic Forum as one of the most disruptive alternatives to traditional public policy degrees"
+        "body": "GGI’s PGP in Public Policy, Governance & Impact has been featured by Poets & Quants and the World Economic Forum as one of the most disruptive alternatives to traditional Post Graduate Programme (PGP) in Policy"
     }
 ]
 
@@ -49,7 +49,7 @@ export const stages = [
         "id": 0,
         "ques": "STAGE 1 - Adept with Policy Toolkit",
         "ans": [`<p class='mb-4'>Today research and data-oriented policy-making is a critical component of sound decision-making in the world of Policy consulting, and social impact- and learning to navigate amidst the breadth of knowledge is what creates a great analytical policy thinker and a leader. GGI prepares Policy Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including macroeconomics, emerging technologies such as AI, public market failures, liberal arts, financial inclusion, sustainability, responsible investing, ethics, energy, climate impact, and core policy perspectives - Via GGI&#39;s <span class='font-bold'>trademarked Masterclasses.</span>  </p>
-            `, ` <p class='mb-4'>In this stage, GGI&#39;s Policy Consulting Lab will attend the 50 hours of Masterclasses in order for the scholars to interact with key government leaders and practitioners, the Policy Consulting Lab will also be provided unlimited exclusive access to renowned Guest Speakers Masterclasses.  </p>
+            `, ` <p class='mb-4'>In this stage, GGI&#39;s Policy PGP will attend the 50 hours of Masterclasses in order for the scholars to interact with key government leaders and practitioners, the GGI Policy PGP will also be provided unlimited exclusive access to renowned Guest Speakers Masterclasses.  </p>
             <p class='mb-4'>Many of the Masterclasses are anchored by Incumbent Partners and Managing Directors of consulting firms, FMCG companies, and International Organizations. Over and above the Masterclasses, GGI Scholars indulge in peer to peer-based post Masterclass assignments, projects and startup weekend to apply the learnings on real practical problems.  </p>
             <p class='mb-4'>
             The <span class='font-bold'>Policy Consulting and The Liberal Arts Masterclass</span> will teach the core Policy, Economics, Statistics Principles in 20 hours, allowing young professionals to apply an advanced toolkit to contemporary policy challenges. and these principles will be applied across Masterclasses in impact investing, etc. For the deferred MPPs - this stage will ensure that you have touched the basics of the core term curriculum before the start of your MPP Program - completion of this stage will save time to effectively engage in networking events during your MPP. For the working professionals, this will stage allow you to pivot in the world of public policy solve problems with contextual intelligence from across the sectors in your day job.  </p>`]
@@ -68,9 +68,9 @@ export const stages = [
             `, ` <p class='mb-4'>They attend monthly inner circle meetings, networking on &#34;wiggly&#34; with scholars from across industries and sectors. </p>
             <p class='mb-4'>A PGP degree is more than learning valuations and Little’s Law. You pay for the entire experience - the guest speakers, office hours with your professors, campus events, and eventually landing the job of your dreams. It is an experience of a lifetime. </p>
             <p class='mb-4'>Through Community & Networking Nights via &#34;wiggly&#34;, GGI brings the entire campus experience online. </p>
-            <p class='mb-4'>Even though the journey of an Impact Scholar formally ends in 3 months. But Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. GGI Impact Scholars also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools. </p>
+            <p class='mb-4'>Even though the journey of a PGP Scholar formally ends in 3 months. But Scholars - as GGI Alumni will always have access to the inclusive, supportive, respectful, and collaborative ecosystem of the Global Governance Initiative for the rest of their lives. GGI PGP Scholars also enjoy access to the exclusive partnerships that GGI continuously builds with leading organizations, Business and Policy Schools. </p>
             <p class='mb-4'>GGI PGP Scholars is Crème de la crème of the Global Governance Initiative network on &#34;wiggly&#34;. Through core Masterclasses, flexible curriculum, Networking Nights, AI Tools - PGP scholars Program provides a wide view into the world of social Impact Consulting, Management consulting, and Product Management. </p>
-            <p class='mb-4'>PGP Scholars are also made part of the GGI&#39;s Growing network through its various technology portals that comprise an international and diverse network at &#34;wiggly&#34; of GGI Delegates, Impact Scholars, Policy Consulting Lab, Tech MBA Scholars, Fellows, and mentors spread across 4 continents. </p>
+            <p class='mb-4'>PGP Scholars are also made part of the GGI&#39;s Growing network through its various technology portals that comprise an international and diverse network at &#34;wiggly&#34; of GGI Delegates, PGP Scholars, GGI Policy PGP, Fellows, and mentors spread across 4 continents. </p>
 `]
     }
 
@@ -79,13 +79,13 @@ export const stages = [
 export const testimonialPolicy = [
      {
         name: 'Akshita Sharma',
-        org: '<b>Indian Coast Guard</b><br/>GGI Policy Scholar 2025',
+        org: '<b>Indian Coast Guard</b><br/>GGI PGP Policy Scholar 2025',
         image: '/akshita_sharma.png',
         review: "After serving a decade in the <span class='font-bold'>Indian Coast Guard</span>, I wanted to shift from enforcing policy to shaping it. <br/><br/>GGI became that bridge - connecting real-world governance with purpose-led leadership.<br/><br/> Today, I’m working on child rights and institutional accountability - areas where I can see the ripple effects of what I learned every single day."
     },
     {
         name: 'Rishabh Kashyap',
-        org: '<b>NITI Aayog</b><br/>GGI Policy Scholar 2025',
+        org: '<b>NITI Aayog</b><br/>GGI PGP Policy Scholar 2025',
         image: '/rishabh_kashyap.png',
         review: "Working at the grassroots through the <span class='font-bold'>Aspirational Blocks Programme at NITI Aayog</span>, I saw firsthand how data and policy intersect to shape lives. <br/><br/>GGI became my space to connect those dots - turning analytical insights into purposeful governance. <br/><br/>Today, I’m building my path in development consulting and governance, where every project is a chance to translate ideas into real impact on the ground."
     }
