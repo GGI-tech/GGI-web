@@ -33,10 +33,10 @@ const MBA = () => {
         <div>
             <SlidingHero image={'./mba.jpeg'} title={[" Learn Business Skills You Were Never Taught in School. <class='hidden md:block'/>Join a Global Network. Get Hired <span class='text-yellow-200'><br/>Become the kind of business leader companies fight to hire </span><br class='hidden md:block'/> ", "A 6 month weekend only hybrid program with a focus on real-world learning with CEOs"]} />
 
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO GGI PGP SCHOLARS PROGRAM</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO GGI PGP MANAGEMENT SCHOLARS PROGRAM</Button>
 
 
-            <Heading margin={60}>Why GGI PGP Scholars <em>Actually</em> Works ? </Heading>
+            <Heading margin={60}>Why GGI PGP Management Scholars <em>Actually</em> Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
             <p className='px-8 my-8 text-center font-medium'>The traditional PGP in Business, Strategy & Leadership is a $200,000 bet on your future </p>
@@ -51,12 +51,12 @@ const MBA = () => {
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
             <YoutubeEmbed embedId='w-VJdR9wENw' autoplay={1}/>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP SCHOLAR TODAY</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP MANAGEMENT SCHOLAR TODAY</Button>
 
 
             <Heading>+88% GGIians working in Top Consulting, Strategy, Product Roles and Organizations</Heading>
             <Partners companies={companies} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP SCHOLAR TODAY</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP MANAGEMENT SCHOLAR TODAY</Button>
 
 
             <Heading>Who is this Program for?</Heading>
@@ -70,9 +70,9 @@ const MBA = () => {
 
             </Container>
             <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP SCHOLAR TODAY</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP MANAGEMENT SCHOLAR TODAY</Button>
 
-            <Heading>Post Graduate Program in Management</Heading>
+            <Heading>Post Graduate Program in Management, Strategy & Leadership</Heading>
             <Curriculum data={curriculum}/>
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
 
@@ -88,13 +88,13 @@ const MBA = () => {
                         <Gallery />
 
             <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
-            <Heading>As a GGI PGP Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
+            <Heading>As a GGI PGP Management Scholar , You will Immerse Yourself in a Truly Transformative Experience  </Heading>
             <Container>
                 <p className='mb-2'>As leaders looking to pivot into the world of <span className='font-semibold'> Management Consulting, Investing, and Product Management, </span> you should be adept at navigating various cultures, economies, sectors, and industries. </p>
                 <p>To support the development of these essential skills, GGI has meticulously designed a portfolio of immersive, experiential courses spanning across sectors and industries, organized into three stages: </p>
             </Container>
             <Steps data={stages} />
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP SCHOLAR TODAY</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP MANAGEMENT SCHOLAR TODAY</Button>
 
             <div className='mt-24 flex justify-center'>
                 <p className='md:w-3/5 md:text-lg mb-5 text-center'>Because the world doesn’t need more degrees - it needs leaders who can think, decide, and build.<br/>
@@ -113,7 +113,7 @@ const MBA = () => {
                 <br /><br />
                 Or if you don&#39;t want to commit, we have no questions ask full refund policy within 6 days of enrollment payment, i.e. if you are selected ( we have &lt;10% selection rate). <span className='font-bold'>Either way, you win.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform' target="_blank" rel='noreferrer'>here</a></u></p>
             </Container>
-            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP SCHOLAR TODAY</Button>
+            <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> TAKE THE NEXT STEP - APPLY TO BECOME A GGI PGP MANAGEMENT SCHOLAR TODAY</Button>
 
 
 
@@ -124,7 +124,7 @@ const MBA = () => {
                         <Image src={certificate} alt="" />
                     </div>
                     <div className='col-span-2'>
-                        <p className='mb-2'>Let us be honest. We are not in the certificate minting business. However, on successful completion of the program, you receive a unique GGI Post Graduate Programme (PGP) Scholar graduation letter- </p>
+                        <p className='mb-2'>Let us be honest. We are not in the certificate minting business. However, on successful completion of the program, you receive a unique GGI Management Post Graduate Programme (PGP) Scholar graduation letter- </p>
                         <ul className='list-disc ml-4'>
                             <li> Showcasing your hard, fun, and enriching journey from a prestigious Global Governance Initiative Scholars journey</li>
                             <li>Get a chance to network with GGI  industry experts, and peers during the program</li>

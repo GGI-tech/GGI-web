@@ -67,7 +67,7 @@ export const stages = [
         `, `<p class='mb-2'>Earning a PGP degree encompasses more than just mastering valuations and Little&#39;s Law; it&#39;s about the entire experience. This includes guest speakers, QnA hours with instructors, campus events, and ultimately securing your dream job. It&#39;s an experience that lasts a lifetime. </p>
         <p class='mb-2'>Through Community & Networking Nights on &#34;Wiggly&#34;, GGI recreates the entire campus experience online for you.</p>
         <p class='mb-2'>Although the formal journey of a PGP Scholar ends after six months, as GGI alumni, you will always have access to this inclusive, supportive, respectful, and collaborative ecosystem. As part of the GGI family, you will continue to benefit from exclusive partnerships that GGI builds with leading organizations and business and policy schools. </p>
-        <p class='mb-2'>As a GGI PGP Scholar, you represent the best of the Global Governance Initiative network on &#34;Wiggly&#34;. Through core masterclasses, a flexible curriculum, Networking Nights, and AI tools, the PGP Scholars Program offers a comprehensive view into the world of social impact consulting, management consulting, and product management. </p>
+        <p class='mb-2'>As a GGI PGP Management Scholar, you represent the best of the Global Governance Initiative network on &#34;Wiggly&#34;. Through core masterclasses, a flexible curriculum, Networking Nights, and AI tools, the PGP Scholars Program offers a comprehensive view into the world of social impact consulting, management consulting, and product management. </p>
         <p class='mb-2'>You will also join GGI&#39;s growing network through its various technology portals, which include a diverse and international network on &#34;Wiggly&#34; of GGI Delegates, PGP Scholars, Policy Scholars, Fellows, and mentors spread across four continents. </p>
 `]
     }
@@ -76,7 +76,7 @@ export const stages = [
 export const testimonialMBA = [
     {
     name: 'GANGADHAR REDDY',
-    org: 'GGI PGP Scholar, 2025<br>Sarpanch',
+    org: 'GGI PGP Management Scholar, 2025<br>Sarpanch',
     image: '/gangadhar.png',
     review: "Gangadhar Reddy is the <span class='font-bold'>Sarpanch of his village</span>, where he has spearheaded community development initiatives, improved infrastructure, and championed the empowerment of marginalized groups through government programs. <br><br> Gangadhar hails from Bodduvanipalle village in Orvakal Mandal, Kurnool district, Andhra Pradesh and holds a Bachelor's degree in Business Administration from Bangalore University. His dedication to Good Governance earned his village the second prize for best governance in Orvakal Mandal.  <br><br> Passionate about creating meaningful social change, Gangadhar envisions a future where large-scale rural development projects and policy-driven solutions transform communities. <br><br> He is committed to building strong, sustainable systems that empower people and leave a lasting impact in the public sector."
   },
@@ -89,7 +89,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Priyal Keni',
-        org: 'GGI PGP Scholar 2021',
+        org: 'GGI PGP Management Scholar 2021',
         link: 'https://www.linkedin.com/in/priyalkeni/',
         image: '/priyal.jpg',
         review: "A rifle shooter, Priyal has been a member of the Indian shooting team for 7 years and represented the country at top notch international competitions. Till date she has won 100+ medals at state and national level competitions and created multiple national level records.<br><br>A Chartered Accountant by qualification, she is currently working with <span class='font-bold'>Deloitte Consulting</span> and is a postgraduate in business studies from the University of Mumbai."
@@ -111,14 +111,14 @@ export const testimonialMBA = [
     
     {
         name: 'Ronak Batra',
-        org: 'Meet Ronak Batra, GGI PGP Scholar 2021.',
+        org: 'Meet Ronak Batra, GGI PGP Management Scholar 2021.',
         link: 'https://www.linkedin.com/in/ronakbatra/',
         image: '/ronak.jpg',
         review: `Ronak works with <span class='font-bold'>ThreeFish Consulting</span> as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
     },
     {
         name: 'Dhruv Goyal',
-        org: 'Meet Dhruv Goyal, GGI PGP Scholar 2021.',
+        org: 'Meet Dhruv Goyal, GGI PGP Management Scholar 2021.',
         link: 'https://www.linkedin.com/in/dhruv-g-178861a4/',
         image: '/dhruv.jpg',
         review: "Dhruv is a CA Final student at ICAI. He is a 2019 Commerce graduate from H.R. College of commerce and economics and is pursuing his masters (M.com) from the University of Mumbai. He is currently awaiting the results of the CA Final examinations (Appeared in Nov 2020) and is in the process of honing essential soft- skills."
@@ -132,7 +132,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Manognya Deepthi Gorthy',
-        org: 'Meet Manognya Deep, GGI PGP Scholar 2021.',
+        org: 'Meet Manognya Deep, GGI PGP Management Scholar 2021.',
         link: 'https://www.linkedin.com/in/manognya-deepthi/',
         image: '/manognya.jpg',
         review: "She is a graduate in Industrial Engineering and Management from IIT Kharagpur with a background in Maths, Analytics and Finance, along with sound experience in leadership and team building.<br/></br>She likes to create things people love. She has a diverse industry experience ranging from Finance to Oil & Gas and from Telecommunications to Non-profit organizations."
@@ -153,7 +153,7 @@ export const testimonialMBA = [
     },
     {
         name: 'Saakshi More',
-        org: 'Meet Saakshi More, GGI PGP Scholar 2021.',
+        org: 'Meet Saakshi More, GGI PGP Management Scholar 2021.',
         link: 'https://www.linkedin.com/in/saakshi-more/',
         image: '/saakshi.jpg',
         review: "During the pandemic, she pioneered her own non-profit education management venture, 'College Catalyst. Through this platform, she developed structured content about the college admission process. She is a Research Wing Member in the Placement cell of LSR and the Associate VP of Membership at Toastmasters, LSR.<br/></br>She is an avid reader of Afghanistan-based domestic fiction. She diligently follows freelancer journalists on social media."

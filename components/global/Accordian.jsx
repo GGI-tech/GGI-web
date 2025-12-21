@@ -6,16 +6,27 @@ const FAQ = [
         "ques": "Which program is the best fit for me?",
         "ans": `Global Governance Initiative is removing barriers to high-quality learning experiences.
         <br><br>      
-        A. You can access free recorded MBA in 10 minutes series <u><a href="https://thetrinitybyggi.org/" target="_blank" rel="noreferrer noopener">here</a></u> on the Trinity which will allow you to directly learn MBA lessons in 10 minutes from an Ex BCG consultant on Strategy/ Finance/ Operations etc. free of cost.&nbsp;                
+        A. &nbsp;</span><u><a href="https://thetrinitybyggi.org/" target="_blank" rel="noreferrer noopener">Free PGP Micro-Learning (Trinity Series)</a></u>- You can access free recorded <span style="font-weight:bold;">PGP-style micro masterclasses</span> on Trinity. Learn core concepts in <span style="font-weight:bold;">strategy, finance, and operations</span> in 10 minutes per lesson, taught by an <span style="font-weight:bold;">ex-BCG consultant</span> - completely free and designed for rapid skill-building.
         <br><br>        
-        B.&nbsp;</span><u><a href="/ggi-scholars" target="_blank" rel="noreferrer noopener">GGI PGP Scholars</a></u>- Serves as a classic <span style="font-weight:bold;">Alt MBA &amp; Pre MBA,</span> designed specifically for those who wish to pivot their career into leadership, consulting, business strategy, and product management        
+        B.&nbsp;</span><u><a href="/ggi-scholars" target="_blank" rel="noreferrer noopener">GGI Management PGP (Management Track)</a></u>- Serves as an <span style="font-weight:bold;">industry-oriented Post Graduate Programme (PGP)</span> designed for those looking to pivot into <span style="font-weight:bold;">management consulting, business strategy, and product management.</span> Built for ambitious professionals who want rigor, direction, and access - without another traditional degree.        
         <br><br>        
-        <p >C.&nbsp;<u><a href="/impact-fellowship" target="_blank" rel="noreferrer noopener">GGI Impact Fellowship</a></u>-&nbsp; Serves as a classic experiential learning and work-study model, designed specifically for those who are exploring Plan B for Civil Services and looking to pivot their career into <span style="font-weight:bold;">leadership/impact consulting </span>and policy as you work on projects with mentors from MBB
+        <p >C.&nbsp;<u><a href="/impact-fellowship" target="_blank" rel="noreferrer noopener">GGI Impact Fellowship (Experiential Track)</a></u>-&nbsp; An <span style="font-weight:bold;">experiential, work-study fellowship model </span>designed for candidates exploring <span style="font-weight:bold;">Plan B pathways beyond Civil Services</span>, while pivoting into <span style="font-weight:bold;">management consulting, impact consulting, and policy</span> through live projects with mentors from <span style="font-weight:bold;">top global consulting firms (including MBB alumni)</span>.
         <br><br>        
-        D.&nbsp;<u><a href="/ggipolicyscholarsprogram" target="_blank" rel="noreferrer noopener">GGI PGP Policy Scholars</a></u>- Serves as a classic<span style="font-weight:bold;">&nbsp;Alt Policy PGP &amp; Pre Policy PGP,</span> designed specifically for those who wish to pivot their career into the<span style="font-weight:bold;"> public policy </span>and<span style="font-weight:bold;">  development sector</span></span>
+        D.&nbsp;<u><a href="/ggipolicyscholarsprogram" target="_blank" rel="noreferrer noopener"> GGI Policy PGP (Policy Track)</a></u>- Serves as an <span style="font-weight:bold;">&nbsp;industry-oriented Post Graduate Programme (PGP)</span> for those aiming to build careers in<span style="font-weight:bold;"> public policy, development, and governance.</span>and<span style="font-weight:bold;"> Designed for practitioners who want real policy fluency-  not another traditional degree.
+</span></span>
         <br><br> 
-        E.&nbsp;<u><a href="/campusfellowship" target="_blank" rel="noreferrer noopener">GGI Campus Fellowship</a></u>- Serves as a classic <span style="font-weight:bold;">&nbsp;Campus Placement accelerator,</span> designed specifically for those looking for breakthroughs into<span style="font-weight:bold;"> consulting, strategy</span> and <span style="font-weight:bold;"> UPSC Plan B.</span></span><br><br>`
+        E.&nbsp;<u><a href="/campusfellowship" target="_blank" rel="noreferrer noopener">GGI Campus Fellowship</a></u>- A fellowship designed for college students who want early exposure to <span style="font-weight:bold;">management consulting, public policy, and impact careers</span>- <i>before</i> graduation.
+It builds <span style="font-weight:bold;">thinking, execution, and career readiness</span> at a stage where most students are still guessing.
+<br><br>`
 
+    },
+    {
+        "id": 9,
+        "ques": "Is the PGP equivalent to an MBA or MPP?",
+        "ans": `No - and that’s intentional.<br/>
+GGI does <span style="font-weight:bold;">not</span> claim equivalence to any university degree.<br/>
+The PGP is designed as a <span style="font-weight:bold;">parallel, industry-driven pathway</span> for leadership and career acceleration.
+</span></span>`
     },
     {
         "id": 2,

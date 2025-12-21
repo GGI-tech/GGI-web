@@ -22,7 +22,7 @@ const MainHero = () => {
                                 <h1 className='relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl arial'>PRODUCT<img width={50} height={80} alt="arrow" src='/arrow.jpg' className='absolute hidden sm:block bottom-12 left-48 lg:left-80' /><br className='hide' /><span className='text-2xl sm:text-3xl lg:text-4xl'> MANAGEMENT </span></h1>
                             </div>
                             <div className='r11 my-14 lg:mt-36 px-5 sm:px-12 lg:px-auto'>
-                                <p className='sm:text-2xl text-left'>Learn. Build. Lead. From McKinsey to the UN - GGI helps you move from preparation to purpose.</p>
+                                <p className='sm:text-2xl text-left'>Learn. Build. Lead. From McKinsey to the UN - GGI helps you move from preparation to purpose. GGI offers Post Graduate Programmes (PGPs) designed for leadership across consulting, policy, and product.</p>
                             </div>
                             <div className='r12 mt-20 lg:mt-12 flex justify-between gap-7 sm:px-12 sm:mr-12'>
                                 <div className='text-center'>
