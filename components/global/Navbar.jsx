@@ -100,7 +100,7 @@ const Navbar = ({applicationbanner}) => {
                   <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">PGP in Policy, Governance & Impact</a>
                 </Link>
                 <Link href='/impact-fellowship' target="_blank">
-                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">Impact Fellowship</a>
+                  <a target="_blank" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">Impact Fellowship: For Consulting, Plan B UPSC</a>
                 </Link>
                 {/*<Link href='https://www.globalgovernanceinitiative.org/ggitechpolicy' target="_blank">
                   <li className="whitespace-no-wrap block bg-gray-100 py-1 px-4 hover:bg-gray-400">
@@ -234,13 +234,13 @@ const Navbar = ({applicationbanner}) => {
               {dropdownWorking && (
                 <ul className="pt-1 bg-black text-white font-medium">
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggi-scholars' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>PGP in Business, Strategy & Leadership</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>PGP IN BUSINESS, STRATEGY & LEADERSHIP</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>PGP in Policy, Governance & Impact</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>PGP IN POLICY, GOVERNANCE & IMPACT</a>
                   </Link>
                   <Link prefetch={false} href='https://www.globalgovernanceinitiative.org/impact-fellowship' target="_blank">
-                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>IMPACT FELLOWSHIP</a>
+                    <a className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>IMPACT FELLOWSHIP: FOR CONSULTING, PLAN B UPSC</a>
                   </Link>
                   { /*<a href='https://www.globalgovernanceinitiative.org/tech-mba' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800">
                     Tech MBA
