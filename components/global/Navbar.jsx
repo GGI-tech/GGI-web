@@ -123,8 +123,8 @@ const Navbar = ({applicationbanner}) => {
                 {/* <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold">
                         Feynman AI Fellowship
                       </a> */}
-                      <a href='https://www.thirdspace.org.in/davincilab' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">
-                        Da Vinci Lab: To Become Solopreneur
+                      <a href='https://www.thirdspace.org.in/' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">
+                        The Swades Project: To Become Solopreneur
                       </a>
                    
               </ul>
@@ -251,8 +251,8 @@ const Navbar = ({applicationbanner}) => {
                   {/* <a href='https://www.globaltechinitiative.org/feynmanfellowship' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
                     FEYNMAN AI FELLOWSHIP
                   </a> */}
-                  <a href='https://www.thirdspace.org.in/davincilab' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
-                    DA VINCI LAB: TO BECOME SOLOPRENEUR
+                  <a href='https://www.thirdspace.org.in/' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
+                    THE SWADES PROJECT: TO BECOME SOLOPRENEUR
                   </a>
                   
                 </ul>

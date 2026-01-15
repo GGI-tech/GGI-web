@@ -15,7 +15,7 @@ const ggipolicyscholarsprogram = () => {
         <link rel="canonical" href="https://www.globalgovernanceinitiative.org/ggipolicyscholarsprogram" />
 
         <meta property="og:title" content="PGP in Public Policy, Governance & Impact by Global Governance Initiative | Learn Policy Skills Live &amp; Get Hired." />
-        <meta property="og:description" content="Learn Policy Skills Live, Get Hired, &amp; Network at GGI PGP Policy Scholar To Create an Impact in Society &nbsp;" />
+        <meta property="og:description" content="Learn Policy Skills Live, Get Hired, &amp; Network at GGI Policy PGP Scholar To Create an Impact in Society &nbsp;" />
         <meta property="og:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png" />
         <meta property="og:image:width" content="2500" />
         <meta property="og:image:height" content="1330" />
@@ -24,7 +24,7 @@ const ggipolicyscholarsprogram = () => {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="PGP in Public Policy, Governance & Impact by Global Governance Initiative | Learn Policy Skills Live &amp; Get Hired. " />
-        <meta name="twitter:description" content="Learn Policy Skills Live, Get Hired, &amp; Network at GGI PGP Policy Scholar To Create an Impact in Society &nbsp;" />
+        <meta name="twitter:description" content="Learn Policy Skills Live, Get Hired, &amp; Network at GGI Policy PGP Scholar To Create an Impact in Society &nbsp;" />
         <meta name="twitter:image" content="https://static.wixstatic.com/media/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f7385c_30f5f1a667d24a7c8112b4a03168e15e%7Emv2.png" />
       
       </Head>

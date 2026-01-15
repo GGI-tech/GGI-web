@@ -77,13 +77,13 @@ const Main = () => {
     <div className="lg:col-span-2 flex flex-col min-h-[27rem]">
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-xl md:text-2xl my-8 primary">
-          GGI PGP Management Scholar in Business, Strategy & Leadership
+          GGI Management PGP Scholar in Business, Strategy & Leadership
         </h2>
 
         <p className="my-5 text-lg font-semibold">Who is this program for?</p>
 
         <p className="my-7">
-          1. <span className="primary font-semibold">GGI PGP Management Scholars are ambitious thinkers</span> who don’t wait for permission.
+          1. <span className="primary font-semibold">GGI Management PGP Scholars are ambitious thinkers</span> who don’t wait for permission.
         </p>
 
         <p className="my-7">
@@ -91,18 +91,22 @@ const Main = () => {
         </p>
 
         <p className="my-7">
-          3. GGI PGP Scholars escape stagnation — <span className="primary font-semibold">design strategies that move societies</span>
+          3. <span className="primary font-semibold">Future MBAs/Pre MBA</span> applicants- GGI PGP will strengthen your MBA applications, fellowships, and senior-level CVs, proving you’ve invested in understanding business, not just growth.
         </p>
 
         <p className="my-7">
-          4. You don’t need another PGP degree —
+          4. GGI PGP Scholars escape stagnation — <span className="primary font-semibold">design strategies that move societies</span>
+        </p>
+
+        <p className="my-7">
+          5. You don’t need another PGP degree —
           <span className="primary font-semibold"> you need direction, discipline, and direct access.</span>
         </p>
       </div>
 
       <div className="mt-auto flex justify-center md:justify-start">
         <Button url="/ggi-scholars">
-          LEARN MORE ABOUT GGI PGP MANAGEMENT SCHOLAR
+          LEARN MORE ABOUT GGI MANAGEMENT PGP SCHOLAR
         </Button>
       </div>
     </div>
@@ -114,33 +118,37 @@ const Main = () => {
     <div className="lg:col-span-2 flex flex-col min-h-[27rem]">
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-xl md:text-2xl my-8 primary">
-          GGI PGP Management Scholar in Policy, Governance & Impact
+          GGI Policy PGP Scholar in Public Policy, Governance & Impact
         </h2>
 
         <p className="my-7 text-lg font-semibold">Who is this program for?</p>
 
         <p className="my-7">
-          1. <span className="primary font-semibold">GGI PGP Policy Scholars are ambitious leaders</span> who don’t wait for permission.
+          1. <span className="primary font-semibold">GGI Policy PGP Scholars are ambitious leaders</span> who don’t wait for permission.
         </p>
 
         <p className="my-7">
           2. They’re <span className="primary font-semibold">Policy and Development sector aspirants</span> designing policies before interviews, engineers pivoting to social impact.
         </p>
 
+          <p className="my-7">
+          3. <span className="primary font-semibold">Future MPPs/Pre MPP</span> applicants- GGI PGP will strengthen your MPP applications, policy fellowships, and senior-level CVs, proving you’ve invested in understanding governance, not just growth.
+        </p>
+
         <p className="my-7">
-          3. GGI PGP Policy Scholars turn frustration into fluency —
+          4. GGI Policy PGP Scholars turn frustration into fluency —
           <span className="primary font-semibold"> learn how real policy gets shaped by the world’s best.</span>
         </p>
 
         <p className="my-7">
-          4. You don’t need another Policy PGP —
+          5. You don’t need another Policy PGP —
           <span className="primary font-semibold"> you need discipline and direct access.</span>
         </p>
       </div>
 
       <div className="mt-auto flex justify-center md:justify-start">
         <Button url="/ggipolicyscholarsprogram">
-          LEARN MORE ABOUT GGI PGP POLICY SCHOLAR
+          LEARN MORE ABOUT GGI POLICY PGP SCHOLAR
         </Button>
       </div>
     </div>

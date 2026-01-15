@@ -82,14 +82,14 @@ export const testimonialMedical = [
     },
     {
         name: 'Ronak Batra',
-        org: 'Meet Ronak Batra, GGI PGP Management Scholar 2021.',
+        org: 'Meet Ronak Batra, GGI Management PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/ronakbatra/',
         image: '/ronak.jpg',
         review: `Ronak works with <span class='font-bold'>ThreeFish Consulting</span> as a consultant.<br/></br>His book chapter titled "Bhagavad Gita Approach to Stress Mitigation and Holistic Well-Being" was published by Springer International Publishing (2018). His case study titled "Tata Steet: The Acquisition of Corus (2017) has been taught at seminal institutions such as Oxford University, IIM Ahmedabad, and organizations like Goldman Sachs for leadership development.`
     },
     {
         name: 'Dhruv Goyal',
-        org: 'Meet Dhruv Goyal, GGI PGP Management Scholar 2021.',
+        org: 'Meet Dhruv Goyal, GGI Management PGP Scholar 2021.',
         link: 'https://www.linkedin.com/in/dhruv-g-178861a4/',
         image: '/dhruv.jpg',
         review: "Dhruv is a CA Final student at ICAI. He is a 2019 Commerce graduate from H.R. College of commerce and economics and is pursuing his masters (M.com) from the University of Mumbai. He is currently awaiting the results of the CA Final examinations (Appeared in Nov 2020) and is in the process of honing essential soft- skills."

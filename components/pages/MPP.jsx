@@ -43,8 +43,9 @@ const MPP = () => {
                 <p> 1. You want to pivot into public policy, impact consulting, or international affairs <span className='primary font-bold'>without a $100,000 PGP in Policy
 </span>. </p><br />
                 <p>2. You’re aiming for organizations like the <span className='primary font-bold'> UN, World Bank, BCG,</span> or leading social enterprises. </p><br />
-                <p>3. You’ve already secured Post Graduate admits like <span className='primary font-bold'>Harvard Kennedy, Oxford, LSE </span>and want to get a head start on real-world learning.</p><br />
-                <p>4. You’re a social impact entrepreneur <span className='primary font-bold'> building ventures that make policies work for people</span>.</p>
+                <p>3.<span className='primary font-bold'> Future MPPs/Pre MPP</span> applicants- GGI PGP will strengthen your MPP applications, policy fellowships, and senior-level CVs, proving you’ve invested in understanding governance, not just growth.</p><br/>
+                <p>4. You’ve already secured Post Graduate admits like <span className='primary font-bold'>Harvard Kennedy, Oxford, LSE </span>and want to get a head start on real-world learning.</p><br />
+                <p>5. You’re a social impact entrepreneur <span className='primary font-bold'> building ventures that make policies work for people</span>.</p>
 
             </Container>
             <YoutubeEmbed embedId='7IFecGF-JzA' autoplay={1} />
@@ -96,7 +97,7 @@ const MPP = () => {
             We also offer a <span className='font-bold'>6-day full refund policy</span> post-enrollment. Either way, you win. Because the future won’t be built by politicians - it’ll be built by problem solvers.
                 <br/><br/></p>
             </Container>
-            <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>SHAPE POLICY. LEAD IMPACT. BECOME A GGI PGP POLICY SCHOLAR</Button>
+            <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>SHAPE POLICY. LEAD IMPACT. BECOME A GGI POLICY PGP SCHOLAR</Button>
             <Heading>GGI Graduation Certificate</Heading>
                         <Container>
                             <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>

@@ -78,7 +78,7 @@ export const testimonialMainFellows = [
   },
   {
     name: 'ANAMITRA MUNSI',
-    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI PGP Management Scholar, 2021',
+    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI Management PGP Scholar, 2021',
     image: '/anamitra.jpg',
     review: "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from <span class='font-bold'>Boston Consulting Group (BCG)</span>.<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that.<br><br> There hasn&#39;t been a single instance when I have reached out and not received a response from Shatakshi"
   },
@@ -135,7 +135,7 @@ export const testimonialMainFellows = [
     name: `Simar Sethi `,
     org: "<b>Kearney Consulting | IIT Delhi</b>",
     image: "/simar.jpg",
-    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi. My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting.<br><br>I was initially part of the GGI PGP Management Scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it.<br><br> Looking back, I have extracted too many valuable insights from GGI :)"
+    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi. My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting.<br><br>I was initially part of the GGI Management PGP Scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it.<br><br> Looking back, I have extracted too many valuable insights from GGI :)"
   },
 
   {
@@ -181,7 +181,7 @@ export const testimonialMainFellows = [
   },
    {
     name: 'SAIYAM HOTA',
-    org: '<b>Bain & Company</b><br/>GGI PGP Management Scholar, 2021<br>Shaheed Bhagat Singh College',
+    org: '<b>Bain & Company</b><br/>GGI Management PGP Scholar, 2021<br>Shaheed Bhagat Singh College',
     image: '/sayam.jpg',
     review: "After GGI, I will join <span class='font-bold'>Bain & Company</span>. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds. <br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
   },
@@ -193,7 +193,7 @@ export const testimonialMainFellows = [
   },
   {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI PGP Management Scholar<br> NIT',
+    org: '<b>Samagra</b><br/>GGI Management PGP Scholar<br> NIT',
     image: '/shreyas.jpg',
     review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a GGIprojects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
   },
@@ -232,7 +232,7 @@ export const testimonialMain = [
   },
   {
     name: 'ANAMITRA MUNSI',
-    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI PGP Management Scholar, 2021',
+    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI Management PGP Scholar, 2021',
     image: '/anamitra.jpg',
     review: "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from <span class='font-bold'>Boston Consulting Group (BCG)</span>.<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that.<br><br> Everyone at GGI is there to learn and they won&#39;t be judging you, don&#39;t be bogged down. And there hasn&#39;t been a single instance when I have reached out and not received a response from Naman and Shatakshi"
   },
@@ -289,7 +289,7 @@ export const testimonialMain = [
     name: `Simar Sethi `,
     org: "<b>Kearney Consulting | IIT Delhi</b>",
     image: "/simar.jpg",
-    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi. My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting.<br><br>I was initially part of the GGI PGP Management Scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it.<br><br> Looking back, I have extracted too many valuable insights from GGI :)"
+    review: "Shortly after GGI, I joined <span class='font-bold'>Kearney</span>. <br><br> Hi, I am a final- year student at Indian Institute of Technology, Delhi. My major is mechanical engineering and my minor is business management.<br>A few years ago, I figured out I wanted to go into consulting.<br><br>I was initially part of the GGI Management PGP Scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them.<br> GGI masterclasses not only prepared me for consulting but also built my interest towards it.<br><br> Looking back, I have extracted too many valuable insights from GGI :)"
   },
 
   {
@@ -334,7 +334,7 @@ export const testimonialMain = [
     review: "Soon after GGI, I actively pursued a career in Public Policy by associating with the <span class='font-bold'>Albright Stonebridge Group.</span> Thereafter I began to work with <span class='font-bold'>Deloitte</span> as an Analyst in their Government advisory division.<br><br> GGI has been tremendously helpful in providing the right direction to my career. The art of structuring one&#39;s thoughts and the sheer will to learn has enriched my experience of growth. My favorite aspect of GGI&#39;s program is Wiggly and Networking. It&#39;s amazing to see how a collaborative community like GGI&#39;s can foster growth amongst the members"
   }, {
     name: 'SAIYAM HOTA',
-    org: '<b>Bain & Company</b><br/>GGI PGP Management Scholar, 2021<br>Shaheed Bhagat Singh College',
+    org: '<b>Bain & Company</b><br/>GGI Management PGP Scholar, 2021<br>Shaheed Bhagat Singh College',
     image: '/sayam.jpg',
     review: "After GGI, I will join <span class='font-bold'>Bain & Company</span>. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds. <br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
   },
@@ -346,7 +346,7 @@ export const testimonialMain = [
   },
   {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI PGP Management Scholar<br> NIT',
+    org: '<b>Samagra</b><br/>GGI Management PGP Scholar<br> NIT',
     image: '/shreyas.jpg',
     review: "Shortly after GGI, I joined <span class='font-bold'>Samagra | Transforming governance.</span> I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br> During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a GGI projects- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>   Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role"
   },
@@ -380,7 +380,7 @@ export const testimonialMain = [
 export const testimonialMain2 = [
   {
     name: 'SAIYAM HOTA',
-    org: '<b>Bain & Company</b><br/>GGI PGP Management Scholar, 2021<br>Shaheed Bhagat Singh College',
+    org: '<b>Bain & Company</b><br/>GGI Management PGP Scholar, 2021<br>Shaheed Bhagat Singh College',
     image: '/sayam.jpg',
     review: `Before GGI, consulting was a curiosity - something I wanted to explore but didn’t fully understand.  <br/><br/>
     After GGI, I didn’t just learn about consulting; I learned how to think, collaborate, and solve real problems with people from completely different worlds.  <br/><br/>
@@ -388,7 +388,7 @@ export const testimonialMain2 = [
   },
   {
     name: 'ANAMITRA MUNSI',
-    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI PGP Management Scholar, 2021',
+    org: '<b>Boston Consulting Group (BCG)</b> <br>ISB Hyderabad<br/>GGI Management PGP Scholar, 2021',
     image: '/anamitra.jpg',
     review: `After three years of UPSC preparation, I felt stuck - unsure of my next step.  <br/><br/>
     GGI became that turning point. It gave me the push to move forward, the clarity to redefine success, and the community that kept me going.  <br/><br/>
@@ -397,7 +397,7 @@ export const testimonialMain2 = [
   },
   {
     name: 'SHREYA SAPRU',
-    org: '<b>Samagra</b><br/>GGI PGP Management Scholar<br> NIT',
+    org: '<b>Samagra</b><br/>GGI Management PGP Scholar<br> NIT',
     image: '/shreyas.jpg',
     review: `Before GGI, interviews and case discussions felt overwhelming.  
     Through projects and mentorship, I learned to structure my thoughts, find clarity in complexity, and connect policy to real-world outcomes.  <br/><br
@@ -406,7 +406,7 @@ export const testimonialMain2 = [
   },
   {
     name: 'SWATI SUREKA',
-    org: '<b>Auctus Advisors</b><br/>GGI PGP Management Scholar',
+    org: '<b>Auctus Advisors</b><br/>GGI Management PGP Scholar',
     image: '/swati.jpg',
     review: `When I joined GGI, I was at a crossroads - unsure whether to pursue Business, Strategy & Leadership or dive into consulting.  
     The mentorship, the community, and the culture of learning transformed that confusion into conviction.  <br/><br/>
