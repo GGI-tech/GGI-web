@@ -127,6 +127,14 @@ const data1 = [
         "text": "Hey Shatakshi, I'll be joining BCG next month. <br><br> Thank you so much for all the help, couldn't have been possible without you and GGI. It was a great learning experience"
     },
     {
+        "id": 899,
+        "title": "Aryaka Shandilya",
+        "url": "https://www.linkedin.com/in/ansh-aggarwal-15448a1a9/",
+        "org": "Kraft Heinz | ISB & Oxford MBA Admits",
+        "img": "/aryaka3.jpg",
+        "text": "Hi, My name is Aryaka. I graduated in 2021 from the National Institute of Technology Raipur, with a degree in Electrical Engineering. After graduation, I joined RPG–CEAT Tyres<br/><br/>GGI really helped me to practice communication, not just go via videos or lessons, lectures. Even the smallest and slightest of thing, be it writing email to texting on WhatsApp, to speaking in the masterclasses. It helped me practice over time so much that I became fluent and confident to put my views on the table.<br/><br/>Number two, it helped me with how to structure things. Not only when you are solving a case study, business, but how you can apply it to your general life. It's a mind skill which you develop as and when you are practicing it.<br/><br/>The third and foremost is network. There are a few GGI friends whom I connect with right now. There is one called Victor Musila, whom I'm still connected with. He helped me throughout my now MBA journey.<br/><br/>The outcome of all of this was that I got selected after GGI. I made a pivot to Kraft Heinz as a product analyst with a 140% hike as well.<br/><br/>Today, I'm standing at the junction where I have cracked GMAT and I'm looking forward for joining Oxford or Indian School of Business.<br/><br/>Thank you so much for the community and especially to Shatakshi Sharma Akshi for helping me in multiple ways whenever I have needed. She has been there. Thank you so much.</p>"
+    },
+    {
         "id": 8,
         "title": "Ansh Aggarwal",
         "url": "https://www.linkedin.com/in/ansh-aggarwal-15448a1a9/",
