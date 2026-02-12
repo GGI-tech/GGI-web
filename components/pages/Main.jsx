@@ -83,7 +83,8 @@ const Main = () => {
         <p className="my-5 text-lg font-semibold">Who is this program for?</p>
 
         <p className="my-7">
-          1. <span className="primary font-semibold">GGI Management PGP Scholars are ambitious thinkers</span> who don’t wait for permission.
+          
+          1. <span className="primary font-semibold">Future MBAs/Pre MBA</span> applicants- GGI PGP will strengthen your MBA applications, fellowships, and senior-level CVs, proving you’ve invested in understanding business, not just growth.
         </p>
 
         <p className="my-7">
@@ -91,7 +92,7 @@ const Main = () => {
         </p>
 
         <p className="my-7">
-          3. <span className="primary font-semibold">Future MBAs/Pre MBA</span> applicants- GGI PGP will strengthen your MBA applications, fellowships, and senior-level CVs, proving you’ve invested in understanding business, not just growth.
+          3. <span className="primary font-semibold">GGI Management PGP Scholars are ambitious thinkers</span> who don’t wait for permission.
         </p>
 
         <p className="my-7">
@@ -124,7 +125,8 @@ const Main = () => {
         <p className="my-7 text-lg font-semibold">Who is this program for?</p>
 
         <p className="my-7">
-          1. <span className="primary font-semibold">GGI Policy PGP Scholars are ambitious leaders</span> who don’t wait for permission.
+          
+          1. <span className="primary font-semibold">Future MPPs/Pre MPP</span> applicants- GGI PGP will strengthen your MPP applications, policy fellowships, and senior-level CVs, proving you’ve invested in understanding governance, not just growth.
         </p>
 
         <p className="my-7">
@@ -132,7 +134,7 @@ const Main = () => {
         </p>
 
           <p className="my-7">
-          3. <span className="primary font-semibold">Future MPPs/Pre MPP</span> applicants- GGI PGP will strengthen your MPP applications, policy fellowships, and senior-level CVs, proving you’ve invested in understanding governance, not just growth.
+          3. <span className="primary font-semibold">GGI Policy PGP Scholars are ambitious leaders</span> who don’t wait for permission.
         </p>
 
         <p className="my-7">
