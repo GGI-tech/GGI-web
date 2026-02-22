@@ -80,7 +80,7 @@ export const fivecolumndata = [ //to be fetched from database
 export const stages = [
     {
         "id": 0,
-        "img": "/s1-policy.jpg",
+        "img": "/s0-fellow.jpg",
         "ques": "Stage 1 - Upskilling ",
         "ans": ["<p className='mb-2'>Context is a critical component of sound decision-making in consulting and international development, and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that enable them to connect the dots across various areas, including policy consulting, management consulting and sustainability, product management and tech ethics, impact investing, liberal arts, and core business perspectives, through GGI&#39;s trademarked Masterclasses. ", `</p><br><p className='mb-3'>In this stage, Impact Fellows, during their executive education, also have access to the personalized Career Development Program of the Global Governance Initiative. This component is crucial for those aiming to work in organizations like McKinsey, BCG, Bain, United Nations, World Bank, and others. Many Masterclasses are typically led by incumbent partners and leaders of such organizations.
             </p><br><p className='mb-3'> The Career Development Program comprises two pillars:</p>
