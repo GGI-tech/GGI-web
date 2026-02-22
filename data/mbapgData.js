@@ -44,6 +44,7 @@ export const fourcolumndata = [
 export const stages = [
     {
         "id": 0,
+        "img": "/s0-ggi-scholars-new.jpg",
         "ques": "STAGE 1 - Develop Contextual Intelligence",
         "ans": [` <p class='mb-2'>Understanding context is crucial for sound decision-making in management consulting, investing, and product management. The key to becoming a great analytical thinker and leader is a broad knowledge base. GGI&#39;s PGP prepares you to be a future leader by developing your skills to connect the dots across various domains, including management consulting, statistics, finance, marketing, product management, finance investing, sustainability, economics, liberal arts, and core business perspectives, through GGI&#39;s trademarked Masterclasses. </p>`,
             `<p class='mb-2'>In this phase, you&#39;ll engage in over<span class='font-semibold'> 50+ hours of interactive Masterclasses, </span>including the mandatory MBA for Impact Masterclass, complemented by evaluative peer assignments. To facilitate interaction with industry leaders, you will also gain unlimited exclusive access to renowned Guest Speaker Masterclasses. </p>
@@ -53,6 +54,7 @@ export const stages = [
     },
     {
         "id": 1,
+        "img": "/s1-ggi-scholars-new-new-new.jpg",
         "ques": "STAGE 2 - Access to Employment Partnerships <br/>& Microexperential learning in Consulting & PM and the Buddy Network",
         "ans": [`<p class='mb-2'>Global Governance Initiative has developed and now holds the license and patent for a microlearning <span class='font-semibold'>AI-based experience via Schrödinger</span>. Our platform serves as an interactive, real-life case simulator, enabling you to practice cases and interviews whenever it suits you best. </p>
         `, ` <p class='mb-2'>Many GGI Scholars and Fellows have found the tool to be a game-changer, attributing their success in securing positions at top Consulting firms to this innovative stage. As a GGI Scholar, you&#39;re encouraged to utilize this tool for case solving at least twice prior to your interview date. </p>
@@ -60,6 +62,7 @@ export const stages = [
     },
     {
         "id": 2,
+        "img": "/op2.jpg",
         "ques": "STAGE 3 - Community & Networking Nights",
         "ans": [`<p class='mb-2'>It&#39;s often said that having even just 1 person who cares for you unconditionally can do wonders for your self-esteem. </p>
         <p class='mb-2'>For you as a GGI Scholar, this person is represented by the entire Global Governance Initiative community.</p>

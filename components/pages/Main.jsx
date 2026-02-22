@@ -17,7 +17,7 @@ import Contact from '../global/Contact';
 import Container from '../global/Container'
 import Footer from '../global/Footer';
 import Button from '../global/Button';
-import Steps from '../global/Steps'
+import Steps from '../global/StepsOld'
 //---------------------------------------------------------
 import poets from '../../public/poets.jpg';
 import bcg from '../../public/bcg-green.png';

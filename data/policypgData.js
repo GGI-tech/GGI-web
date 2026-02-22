@@ -47,6 +47,7 @@ export const fourcolumndata = [ //to be fetched from database
 export const stages = [
     {
         "id": 0,
+        "img": "/s0-policy.jpg",
         "ques": "STAGE 1 - Adept with Policy Toolkit",
         "ans": [`<p class='mb-4'>Today research and data-oriented policy-making is a critical component of sound decision-making in the world of Policy consulting, and social impact- and learning to navigate amidst the breadth of knowledge is what creates a great analytical policy thinker and a leader. GGI prepares Policy Scholars to be future leaders by honing skills that allow them to connect the dots across many areas including macroeconomics, emerging technologies such as AI, public market failures, liberal arts, financial inclusion, sustainability, responsible investing, ethics, energy, climate impact, and core policy perspectives - Via GGI&#39;s <span class='font-bold'>trademarked Masterclasses.</span>  </p>
             `, ` <p class='mb-4'>In this stage, GGI&#39;s Policy PGP will attend the 50 hours of Masterclasses in order for the scholars to interact with key government leaders and practitioners, the GGI Policy PGP will also be provided unlimited exclusive access to renowned Guest Speakers Masterclasses.  </p>
@@ -56,6 +57,7 @@ export const stages = [
     },
     {
         "id": 1,
+        "img": "/s1-policy.jpg",
         "ques": `STAGE 2 - Access to Employment Partnerships<br/> & <br/>Microexperential learning in Consulting & PM and the Buddy Network `,
         "ans": [`<p class='mb-4'>Global Governance Initiative has crafted and designed (now licensed and patented) microlearning <span class='font-bold'>AI-based experience via Schrödinger</span>. It is an interactive real-life case simulator that allows GGI Scholars to practice cases and interviews at a time that works best for them. </p>
             `, `<p class='mb-4'>The Tool has been truly transformative for many GGI Scholars and Fellows who credit their success of getting into a top-notch consulting firm to this stage. As a GGI Scholar, you are expected to solve cases on this tool at least twice before your interview date. </p>
@@ -63,6 +65,7 @@ export const stages = [
     },
     {
         "id": 2,
+        "img": "/op2.jpg",
         "ques": "STAGE 3 - Community & Networking Nights",
         "ans": [`<p class='mb-4'>It is often said that if you have nothing in your life, but you have at least one person who cares for you unconditionally, it will do wonders for your self-esteem. For GGI Scholars that one person is the entire community at Global Governance Initiative. </p>
             `, ` <p class='mb-4'>They attend monthly inner circle meetings, networking on &#34;wiggly&#34; with scholars from across industries and sectors. </p>

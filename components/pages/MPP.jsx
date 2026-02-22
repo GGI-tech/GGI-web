@@ -85,6 +85,7 @@ const MPP = () => {
             <Container>
                 <p className='mb-2'>Our immersive, experiential curriculum helps you learn how governments think, how systems change, and how policy can create measurable social impact.</p>
                 <p>We prepare you to lead across government, consulting, and impact ecosystems - with a blend of <span className='font-bold'>rigor, empathy, and strategic thinking.</span> </p>
+                <br/><br/>
             </Container>
             <Steps data={stages} />
 

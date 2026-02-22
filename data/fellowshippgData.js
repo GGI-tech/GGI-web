@@ -80,6 +80,7 @@ export const fivecolumndata = [ //to be fetched from database
 export const stages = [
     {
         "id": 0,
+        "img": "/s1-policy.jpg",
         "ques": "Stage 1 - Upskilling ",
         "ans": ["<p className='mb-2'>Context is a critical component of sound decision-making in consulting and international development, and breadth of knowledge is what creates great analytical thinkers and leaders. GGI prepares Impact Fellows to be future leaders by honing skills that enable them to connect the dots across various areas, including policy consulting, management consulting and sustainability, product management and tech ethics, impact investing, liberal arts, and core business perspectives, through GGI&#39;s trademarked Masterclasses. ", `</p><br><p className='mb-3'>In this stage, Impact Fellows, during their executive education, also have access to the personalized Career Development Program of the Global Governance Initiative. This component is crucial for those aiming to work in organizations like McKinsey, BCG, Bain, United Nations, World Bank, and others. Many Masterclasses are typically led by incumbent partners and leaders of such organizations.
             </p><br><p className='mb-3'> The Career Development Program comprises two pillars:</p>
@@ -93,11 +94,13 @@ export const stages = [
     },
     {
         "id": 1,
+        "img": "/s1-fellow.jpg",
         "ques": "Stage 2 - Access to Employment Partnerships<br/> &<br/> Skin in the Game ",
         "ans": ["<p className='mb-3'>To truly understand the world, you must have skin in the game. The realms of Consulting and International Development are unpredictable and adventurous. Impact Fellows are placed in challenging situations where they refine their skills by publishing consulting-style research papers under the Council on Sustainable Development.", "  </p><br><p className='mb-3'>The combination of theoretical learning with practical experiences makes the Impact Fellowship unique. Passionate Fellows and their mentors delve into the core questions of international business and public policy at this stage. </p><br> <p className='mb-3'>Thanks to the experiential learning component, Impact Fellows can successfully outshine others in their consulting interviews.  </p>"]
     },
     {
         "id": 2,
+        "img": "/op2.jpg",
         "ques": "Stage 3 - Community, Networking Nights, and Wellness Sessions ",
         "ans": [
             "<p>It is often said that having just one person who cares for you unconditionally can do wonders for your self-esteem. That person is the entire community at the Global Governance Initiative.</p>",

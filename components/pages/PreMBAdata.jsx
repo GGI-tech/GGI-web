@@ -113,6 +113,7 @@ const PREMBADATA = () => {
 
             <YoutubeEmbed embedId='QZvdzbmmWpg' autoplay={1}/>
             <Heading>The GGI Campus Fellowship Journey</Heading>
+            <br/><br/>
             <Steps data={stages} />
             <Button page="mba" url="https://forms.gle/fND8ymKfdNmz4Ewz7"> APPLY NOW</Button>
 

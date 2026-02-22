@@ -133,7 +133,9 @@ const Fellowship = () => {
 
             <Container>
                 <p>Today&apos;s global leaders must be able to successfully navigate different cultures, economies, and industries. To help impact fellows during executive education develop these crucial capabilities, GGI has carefully designed a portfolio of immersive, experiential courses that span various sectors and industries. This is achieved in three stages: &nbsp;</p>
+
             </Container>
+            <br/><br/>
             <Steps data={stages} />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> APPLY NOW</Button>
 
