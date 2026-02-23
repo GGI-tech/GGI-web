@@ -90,7 +90,7 @@ export const stages = [
     },
     {
         "id": 1,
-        "img": "/s1-fellow.jpg",
+        "img": "/s1-policy.jpg",
         "ques": "Stage 2 - Access to Employment Partnerships<br/> &<br/> Skin in the Game ",
         "ans": ["<p className='mb-3'>To truly understand the world, you must have skin in the game. The realms of Consulting and International Development are unpredictable and adventurous. Impact Fellows are placed in challenging situations where they refine their skills by publishing consulting-style research papers under the Council on Sustainable Development.", "  </p><br><p className='mb-3'>The combination of theoretical learning with practical experiences makes the Impact Fellowship unique. Passionate Fellows and their mentors delve into the core questions of international business and public policy at this stage. </p><br> <p className='mb-3'>Thanks to the experiential learning component, Impact Fellows can successfully outshine others in their consulting interviews.  </p>"]
     },
