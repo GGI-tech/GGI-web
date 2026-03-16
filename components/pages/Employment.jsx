@@ -32,14 +32,21 @@ const data1 = [
         "img": "/karan.jpg",
         "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br><br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br><br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br><br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
     },
-    
+    {
+        "id": 399,
+        "title": `Palak Raheja`,
+        "url": "https://www.linkedin.com/in/palakraheja/",
+        "org": "Harvard MBA, Bain & Company, GGI Fellow 2021",
+        "img": "/palakr.png",
+        "text": " I joined GGI after gaining about 1.5 years of experience and close to when I was transitioning between jobs. Today, I have upwards of 4 years of work experience. I have ventured in the fields of management consulting and start-up ecosystems. &nbsp;</p><p><br>Here you get to learn a lot of things that you may not be learning at your job or during your academic journey. For example, during our operations masterclass, we used a simulation exercise-specific tool kit to learn efficiencies, which was very new to me. </p><p><br>For someone who had not done an MBA, it was a great, stimulating learning experience. "
+    },
     {
         "id": 3,
         "title": `Averi Chakraborty`,
         "url": "https://www.linkedin.com/in/averi-chakraborty/",
         "org": "Enagement Manager, Boston Consulting Group",
         "img": "/averi.jpg",
-        "text": " Hi, Naman and Shatakshi hope you both are doing fine :)&nbsp;</p><p><br>Have really been enjoying your posts on LinkedIn and Instagram, a big shoutout for that.</p><p><br>Also, wanted to inform you that I would be joining BCG the coming month and this probably would not have been possible without GGI by my side. Thanks for building this community :) "
+        "text": " Hi Shatakshi, hope you are doing fine :)&nbsp;</p><p><br>Have really been enjoying your posts on LinkedIn and Instagram, a big shoutout for that.</p><p><br>Also, wanted to inform you that I would be joining BCG the coming month and this probably would not have been possible without GGI by my side. Thanks for building this community :) "
     },
     {
         "id": 2,
@@ -118,6 +125,15 @@ const data1 = [
         "text": "Shortly after GGI, I joined Council on Energy, Environment, and Water (CEEW). During my interview, my research as a GGI fellow on water woes in Uttar Pradesh and Punjab came in handy for engaging discussions. GGI fellowship started during my college at SRCC. At GGI, I had a lot of opportunities coming in because I got exposed to a lot of sectors. Topics at GGI such as policy and of course consulting were extremely valuable. <br><br>I knew about CEEW because of my interest in climate change and energy security. In fact, I was also excited since the net zero target of India for 2017 was a calculation of CEEW. From what I know, CEEW mostly doesnt hire undergrads , and that is where the employment collaboration of CEEW with GGI as part of GGI's definitely helped me get noticed.<br><br> I am really happy about my work at CEEW because I am getting to work where my interest lies. I’m really thankful to GGI for getting me this opportunity and creating this opportunity for me. Question- One word that would describe my GGI experience?<br><br>I think my one word would be enlightening!<br><br>  Starting with the masterclass and then the fellowship, I had a very different experience than a lot of other people. I really learned how to think analytically and apply tools from the masterclasses."
 
     },
+
+    {
+        "id": 791,
+        "title": "Bharati Agarwal",
+        "url": "https://www.youtube.com/watch/gDpy99R6kKE",
+        "org": "KPMG, GGI Fellow 2025",
+        "img": "/bharati.jpg",
+        "text": "Shortly after GGI, I pivoted from Policy think tank to Consulting. <br><br> I worked in ministries and think tanks - environments where the primary language, priorities, and even the way problems are framed are completely different from the corporate world. As I stood at the crossroads of public and private sector opportunities, I realized I needed to understand how the private sector thinks. <br><br> That is when I discovered GGI. <br><br> What stood out in the GGI Impact Fellowship was the clarity. How do top firms like KPMG evaluate candidates? How does the private sector define value? What does it mean to communicate effectively in a corporate setting? GGI answered all of that - and more. <br><br> Looking back, GGI helped me reframe everything I knew. It taught me that purpose and profit aren’t mutually exclusive - they just speak different languages."
+    },
         {
         "id": 7,
         "title": "Jayesh Jawandhia",
@@ -129,10 +145,18 @@ const data1 = [
     {
         "id": 899,
         "title": "Aryaka Shandilya",
-        "url": "https://www.linkedin.com/in/ansh-aggarwal-15448a1a9/",
+        "url": "",
         "org": "Kraft Heinz | ISB & Oxford MBA Admits",
         "img": "/aryaka3.jpg",
         "text": "Hi, My name is Aryaka. I graduated in 2021 from the National Institute of Technology Raipur, with a degree in Electrical Engineering. After graduation, I joined RPG–CEAT Tyres<br/><br/>GGI really helped me to practice communication, not just go via videos or lessons, lectures. Even the smallest and slightest of thing, be it writing email to texting on WhatsApp, to speaking in the masterclasses. It helped me practice over time so much that I became fluent and confident to put my views on the table.<br/><br/>Number two, it helped me with how to structure things. Not only when you are solving a case study, business, but how you can apply it to your general life. It's a mind skill which you develop as and when you are practicing it.<br/><br/>The third and foremost is network. There are a few GGI friends whom I connect with right now. There is one called Victor Musila, whom I'm still connected with. He helped me throughout my now MBA journey.<br/><br/>The outcome of all of this was that I got selected after GGI. I made a pivot to Kraft Heinz as a product analyst with a 140% hike as well.<br/><br/>Today, I'm standing at the junction where I have cracked GMAT and I'm looking forward for joining Oxford or Indian School of Business.<br/><br/>Thank you so much for the community and especially to Shatakshi Sharma Akshi for helping me in multiple ways whenever I have needed. She has been there. Thank you so much.</p>"
+    },
+    {
+        "id": 888,
+        "title": "Bhumika Nebhnani",
+        "url": "https://www.linkedin.com/in/bhumika-nebhnani-161419178/",
+        "org": "AI Governance (CSET & MDI), Georgetown MPP (AI Policy), GGI Fellow ",
+        "img": "/bhumika.jpg",
+        "text": "I found out about GGI after my undergraduate studies, when I was trying to find more ways to apply my political science knowledge to something more emerging and more relevant in the world, instead of just going into academia.<br><br> My experience with GGI was great in the sense that it exposed me to the different kinds of opportunities that exist. One thing that was very memorable for me was the white paper I worked on. The topic that my teammates decided to choose was: AI and the accountability conundrum. <br><br> There are 2 key takeaways. First, on the procedural or work side: you really have to give your inputs and strategically try to see how they align with the career path you choose. Second, on the behavioral side: do not hesitate to ask questions."
     },
     {
         "id": 8,
