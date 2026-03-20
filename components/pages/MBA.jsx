@@ -50,7 +50,7 @@ const MBA = () => {
 
             <Heading>You Learn along with Diverse Community who Adds to your Perspective</Heading>
             <Slider slides={testimonialMBA} />
-            <YoutubeEmbed embedId='w-VJdR9wENw' autoplay={1}/>
+            <YoutubeEmbed embedId='XF0haCFPdxs' autoplay={1}/>
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO GGI MANAGEMENT PGP</Button>
 
 
