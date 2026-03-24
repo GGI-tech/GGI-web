@@ -12,7 +12,7 @@ const data1 = [
         "id": 345,
         "title": "Darshita Devnani",
         "url": "https://www.linkedin.com/in/darshitadevnani/",
-        org : '<span class="text-red-700"><i>From </i><br><u>Delhi University, GGI Fellowship 2021</u> <br><i>To</i> <br><b>Asian Development Bank (ADB), INSEAD MBA</b>',
+        org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship 2021, Delhi University</u> <br><i>To</i> <br><b>Asian Development Bank (ADB), INSEAD MBA</b>',
         "img": "/darshita2.jpg",
         "text": "After GGI, I got an opportunity to work with Asian Development Bank (ADB) , focusing on economic research and development impact. <br/><br/>Hi, I am Darshita, a GGI Fellow from the 2021 cohort. <br/><br/>GGI came into my life when I was working with EY but realized that audit was not my forte or long-term career. <br/><br/>This became my biggest motivation to join the GGI Impact Fellowship. There, my journey started. I was able to learn so much about #impactconsulting and management consulting, and I met so many people who helped me build my career in this space.<br/><br/>I truly learned the art of networking and connected with individuals who had been there and done that. I attended all the masterclasses diligently, interacted with speakers, and engaged with those who taught live cases. It&apos;s been almost four years since I&apos;ve been associated with GGI, and the experience has been transformative."
     },
@@ -20,7 +20,7 @@ const data1 = [
         "id": 100,
         "title": "Tushar Gopalka",
         "url": "https://www.linkedin.com/in/tushar-gopalka-06591757/",
-        org: '<span class="text-red-700"><i>From </i><br><u>UCLA PhD., GGI Fellow 2024</u> <br><i>To</i> <br><b>Boston Consulting Group (BCG)</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow 2024, UCLA PhD.</u> <br><i>To</i> <br><b>Boston Consulting Group (BCG)</b>',
         "img": "/tushar_gopal.jpg",
         "text": "Shortly after GGI, I got an offer from Boston Consulting Group (BCG) <br/><br/> Hi, I am Tushar Gopalka, a GGI Fellow from the 2024 cohort. <br/> <br/>GGI came into my life when I was looking to refine my #problemsolving skills and prepare for high-stakes interviews. <br/> <br/>Honestly, joining GGI was a pivotal decision for me. It offered access to an incredible network of peers and mentors who pushed me to be my best. <br/><br/>One memorable moment was an office hour with Shatakshi just 12 hours before my BCG first-round interview. Her honest and constructive feedback helped me completely restructure my fit interview, and it made all the difference I got selected! <br/><br/>Beyond the network, the programs like Startup Weekend were transformative. They gave me the confidence to consider launching my own venture, something I never imagined I could do a year ago. <br/><br/> GGI also taught me the importance of structured communication and preparation. For instance, practicing on tools like Schrodinger well in advance gave me a clear edge during BCG’s first-round case board interview."
     },
@@ -28,7 +28,7 @@ const data1 = [
         "id": 1,
         "title": "Karan David",
         "url": "https://www.linkedin.com/in/karandavid/",
-        org: '<span class="text-red-700"><i>From </i><br><u>St. Stephen&#39;s College Delhi University, GGI Scholar 2019</u><br><i>To</i> <br><b>Bain & Company, Yale University</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar 2019, St. Stephen&#39;s College Delhi University</u><br><i>To</i> <br><b>Bain & Company, Yale University</b>',
         "img": "/karan.jpg",
         "text": "Shortly after GGI, I joined as an Associate Consultant at Bain & Company.<br><br>This was post my graduation in Economics from St. Stephen's College, Delhi where I also led the Planning Forum as the President.<br><br>My role at Bain involved working on portfolio operations and private equity across varied sectors. It was due to the GGI prestigious masterclass, I could think through the lens of policy and core consulting, and eventually excelled in policy case competitions as well.<br><br>The mentors, Naman Shrivastava and Shatakshi Sharma, were extremely helpful throughout."
     },
@@ -44,7 +44,7 @@ const data1 = [
         "id": 3,
         "title": `Averi Chakraborty`,
         "url": "https://www.linkedin.com/in/averi-chakraborty/",
-        org: '<span class="text-red-700"><i>From </i><br><u>NMIMS, GGI Fellow</u><br><i>To</i> <br><b>Enagement Manager, Boston Consulting Group</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow, NMIMS</u><br><i>To</i> <br><b>Enagement Manager, Boston Consulting Group</b>',
         "img": "/averi.jpg",
         "text": " Hi Shatakshi, hope you are doing fine :)&nbsp;</p><p><br>Have really been enjoying your posts on LinkedIn and Instagram, a big shoutout for that.</p><p><br>Also, wanted to inform you that I would be joining BCG the coming month and this probably would not have been possible without GGI by my side. Thanks for building this community :) "
     },
@@ -52,7 +52,7 @@ const data1 = [
         "id": 2,
         "title": "Saiyam Hota",
         "url": "https://www.linkedin.com/in/saiyam-hota-5a5a9680/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Shaheed Bhagat Singh College, GGI Scholar 2021</u><br><i>To</i> <br><b>Bain & Company</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar 2021, Shaheed Bhagat Singh College</u><br><i>To</i> <br><b>Bain & Company</b>',
         "img": "/sayam.jpg",
         "text": "After GGI, I will join Bain & Company. I found out about the GGI and as someone who was interested in the consulting space I thought it would be a great opportunity to get knowledge about not just consulting but all the fields and also to network with people from diverse backgrounds.<br><br> Mainly, I think GGI is the strongest community one can get to be a part of. What I like the most is the diversity, and when all of us come together to solve problems you get a plethora of perspectives you could never imagine. Just interacting and solving problems with such people you gain lots of learnings from their perspective."
     },
@@ -61,7 +61,7 @@ const data1 = [
         "id": 35,
         "title": "Kalash Verma",
         "url": "https://in.linkedin.com/in/kalash-verma-6b8b79179",
-        org: '<span class="text-red-700"><i>From </i><br><u>IIT Madras, GGI Scholar</u><br><i>To</i> <br><b>McKinsey & Company</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, IIT Madras</u><br><i>To</i> <br><b>McKinsey & Company</b>',
         "img": "/kalash.jpeg",
         "text": `Shortly after GGI, I will be joining McKinsey & Company.<br><br>&ldquo;Hi, I am a final-year student at Indian Institute of Technology, Madras. <br><br>
 
@@ -85,7 +85,7 @@ const data1 = [
         "id": 4,
         "title": "Anamitra Munsi",
         "url": "https://www.linkedin.com/in/anamitra-munsi/",
-        org: '<span class="text-red-700"><i>From </i><br><u>UPSC Aspirant, GGI Scholar 2021</u> <br><i>To</i> <br><b>Boston Consulting Group (BCG), ISB Hyderabad</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar 2021, UPSC Aspirant</u> <br><i>To</i> <br><b>Boston Consulting Group (BCG), ISB Hyderabad</b>',
         "img": "/anamitra.jpg",
         "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
     },
@@ -94,7 +94,7 @@ const data1 = [
         "id": 5,
         "title": `Simar Sethi `,
         "url": "https://www.linkedin.com/pulse/shortly-after-ggi-i-joined-kearney-management-/?trackingId=WkuKCMjCgdk4iHYe5TlBFA%3D%3D",
-        org: '<span class="text-red-700"><i>From </i><br><u>IIT Delhi, GGI Scholar</u><br><i>To</i> <br><b>Kearney Consulting</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, IIT Delhi</u><br><i>To</i> <br><b>Kearney Consulting</b>',
         "img": "/simar.jpg",
         "text": "Shortly after GGI, I joined Kearney. <br><br>&ldquo; Hi, I am a final- year student at Indian Institute of Technology, Delhi.My major is mechanical engineering and my minor is business management.<br><br>A few years ago, I figured out I wanted to go into consulting. This field was of interest to me because I love learning about different things and meeting people from diverse backgrounds.<br><br>I was initially part of the GGI Management PGP Scholar program where I attended five valuable masterclasses and learned extremely new and practical concepts in each of them. Later on, I signed up for GGI fellowship also.<br><br> GGI masterclasses not only prepared me for #consulting but also built my interest towards it. They also taught me skills that could be used in all professions, not just consulting, which was unique as well.<br><br> For me, GGI was a complete package. <br><br> Looking back, I have extracted too many valuable insights from GGI :)&rdquo;"
     },
@@ -102,7 +102,7 @@ const data1 = [
         "id": 6,
         "title": "Shreya Sapru",
         "url": "https://www.linkedin.com/in/shraya-sapru/",
-        org: '<span class="text-red-700"><i>From </i><br><u>NIT Raipur, GGI Scholar</u><br><i>To</i> <br><b>Venture Capitalist, Samagra</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, NIT Raipur</u><br><i>To</i> <br><b>Venture Capitalist, Samagra</b>',
         "img": "/shreyas.jpg",
         "text": `I would definitely like to say that in my entire process of going through interview rounds and even otherwise, I had structured my answers and GGI definitely has had a big role to play.<br><br>During my written round interview with OSD to Jayant Sinha also, I was asked an assignment, one of which had to do with mitigation of climate change- a topic my team and I had worked on this particular topic on a&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggiprojects&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#GGIprojects</a>- so that really helped me because I already had a perspective on what the issue was and I could structure my answer- given the limited time frame I had.<br><br>Shatakshi was also kind enough to respond to my emails throughout my rounds and guided me factors that would majorly play a role. <br><br>Question- One word that would describe my GGI experience?<br><br>Fascinating.<br><br>Yeah, I think it would be fascinating because of the Masterclasses. All the topics that we were going through were quite fascinating, be it&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=policy&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#Policy</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=impactinvesting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ImpactInvesting</a> or&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=managementconsulting&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6944128850427621376" rel="noreferrer noopener" target="_blank">#ManagementConsulting</a>, but at the same time I was fascinated by the kind of community that was being built of care and of kindness and that&apos;s very rare.<br><br>I think that&apos;s something that&apos;s really a big differentiator.<br><br>My advice while welcoming new the class of 2022 at GGI would be to go ahead with a very open mind and to learn. It&apos;s okay to make mistakes during your class or even during the zoom or breakout rooms. Learn from your peers and yes, make friends, make a lot of them.<br><br>Develop your networks through GGI because a lot of opportunities come your way also.`
     },
@@ -112,7 +112,7 @@ const data1 = [
         "id": 6,
         "title": `Aditya Bansal`,
         "url": "https://www.linkedin.com/in/aditya510/",
-        org: '<span class="text-red-700"><i>From </i><br><u>IIT Delhi, GGI Scholar</u><br><i>To</i> <br><b>Bain & Company</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, IIT Delhi</u><br><i>To</i> <br><b>Bain & Company</b>',
         "img": "/aditya.jpg",
         "text": "Hi Shatakshi, I got into&nbsp;Bain!&nbsp;I had it my top preference within consulting, Also got an offer to work as a trader in Amsterdam.&nbsp;</p><p><br></p><p>Thank you for guidance and support"
     },
@@ -120,7 +120,7 @@ const data1 = [
         "id": 29,
         "title": "Muskaan Malhotra",
         "url": "https://www.linkedin.com/in/muskaan-malhotra-6ba254170/",
-        org: '<span class="text-red-700"><i>From </i><br><u>SRCC Delhi University, GGI Scholar</u><br><i>To</i> <br><b>HARVARD KENNEDY SCHOOL, CEEW</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, SRCC Delhi University</u><br><i>To</i> <br><b>HARVARD KENNEDY SCHOOL, CEEW</b>',
         "img": "/Muskaant.jpg",
         "text": "Shortly after GGI, I joined Council on Energy, Environment, and Water (CEEW). During my interview, my research as a GGI fellow on water woes in Uttar Pradesh and Punjab came in handy for engaging discussions. GGI fellowship started during my college at SRCC. At GGI, I had a lot of opportunities coming in because I got exposed to a lot of sectors. Topics at GGI such as policy and of course consulting were extremely valuable. <br><br>I knew about CEEW because of my interest in climate change and energy security. In fact, I was also excited since the net zero target of India for 2017 was a calculation of CEEW. From what I know, CEEW mostly doesnt hire undergrads , and that is where the employment collaboration of CEEW with GGI as part of GGI's definitely helped me get noticed.<br><br> I am really happy about my work at CEEW because I am getting to work where my interest lies. I’m really thankful to GGI for getting me this opportunity and creating this opportunity for me. Question- One word that would describe my GGI experience?<br><br>I think my one word would be enlightening!<br><br>  Starting with the masterclass and then the fellowship, I had a very different experience than a lot of other people. I really learned how to think analytically and apply tools from the masterclasses."
 
@@ -130,7 +130,7 @@ const data1 = [
         "id": 791,
         "title": "Bharati Agarwal",
         "url": "https://www.youtube.com/watch/gDpy99R6kKE",
-        org: '<span class="text-red-700"><i>From </i><br><u>University of Warwick, GGI Fellow 2025</u><br><i>To</i> <br><b>KPMG</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow 2025, University of Warwick</u><br><i>To</i> <br><b>KPMG</b>',
         "img": "/bharati.jpg",
         "text": "Shortly after GGI, I pivoted from Policy think tank to Consulting. <br><br> I worked in ministries and think tanks - environments where the primary language, priorities, and even the way problems are framed are completely different from the corporate world. As I stood at the crossroads of public and private sector opportunities, I realized I needed to understand how the private sector thinks. <br><br> That is when I discovered GGI. <br><br> What stood out in the GGI Impact Fellowship was the clarity. How do top firms like KPMG evaluate candidates? How does the private sector define value? What does it mean to communicate effectively in a corporate setting? GGI answered all of that - and more. <br><br> Looking back, GGI helped me reframe everything I knew. It taught me that purpose and profit aren’t mutually exclusive - they just speak different languages."
     },
@@ -138,7 +138,7 @@ const data1 = [
         "id": 7,
         "title": "Jayesh Jawandhia",
         "url": "https://www.linkedin.com/in/jayesh-jawandhia/",
-        org: '<span class="text-red-700"><i>From </i><br><u>IIT Delhi, GGI Fellow</u><br><i>To</i> <br><b>Boston Consulting Group</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow, IIT Delhi</u><br><i>To</i> <br><b>Boston Consulting Group</b>',
         "img": "/Jayesh.jpg",
         "text": "Hey Shatakshi, I'll be joining BCG next month. <br><br> Thank you so much for all the help, couldn't have been possible without you and GGI. It was a great learning experience"
     },
@@ -146,7 +146,7 @@ const data1 = [
         "id": 899,
         "title": "Aryaka Shandilya",
         "url": "",
-        org: '<span class="text-red-700"><i>From </i><br><u>NIT Raiur, GGI Fellow</u><br><i>To</i> <br><b>Kraft Heinz, ISB & Oxford MBA Admits</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow, NIT Raiur</u><br><i>To</i> <br><b>Kraft Heinz, ISB & Oxford MBA Admits</b>',
         "org": "Kraft Heinz | ISB & Oxford MBA Admits",
         "img": "/aryaka3.jpg",
         "text": "Hi, My name is Aryaka. I graduated in 2021 from the National Institute of Technology Raipur, with a degree in Electrical Engineering. After graduation, I joined RPG–CEAT Tyres<br/><br/>GGI really helped me to practice communication, not just go via videos or lessons, lectures. Even the smallest and slightest of thing, be it writing email to texting on WhatsApp, to speaking in the masterclasses. It helped me practice over time so much that I became fluent and confident to put my views on the table.<br/><br/>Number two, it helped me with how to structure things. Not only when you are solving a case study, business, but how you can apply it to your general life. It's a mind skill which you develop as and when you are practicing it.<br/><br/>The third and foremost is network. There are a few GGI friends whom I connect with right now. There is one called Victor Musila, whom I'm still connected with. He helped me throughout my now MBA journey.<br/><br/>The outcome of all of this was that I got selected after GGI. I made a pivot to Kraft Heinz as a product analyst with a 140% hike as well.<br/><br/>Today, I'm standing at the junction where I have cracked GMAT and I'm looking forward for joining Oxford or Indian School of Business.<br/><br/>Thank you so much for the community and especially to Shatakshi Sharma Akshi for helping me in multiple ways whenever I have needed. She has been there. Thank you so much.</p>"
@@ -155,7 +155,7 @@ const data1 = [
         "id": 888,
         "title": "Bhumika Nebhnani",
         "url": "https://www.linkedin.com/in/bhumika-nebhnani-161419178/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Delhi University, GGI Fellow</u><br><i>To</i> <br><b>AI Governance (CSET & MDI), Georgetown MPP (AI Policy)</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow, Delhi University</u><br><i>To</i> <br><b>AI Governance (CSET & MDI), Georgetown MPP (AI Policy)</b>',
         "img": "/bhumika.jpg",
         "text": "I found out about GGI after my undergraduate studies, when I was trying to find more ways to apply my political science knowledge to something more emerging and more relevant in the world, instead of just going into academia.<br><br> My experience with GGI was great in the sense that it exposed me to the different kinds of opportunities that exist. One thing that was very memorable for me was the white paper I worked on. The topic that my teammates decided to choose was: AI and the accountability conundrum. <br><br> There are 2 key takeaways. First, on the procedural or work side: you really have to give your inputs and strategically try to see how they align with the career path you choose. Second, on the behavioral side: do not hesitate to ask questions."
     },
@@ -163,7 +163,7 @@ const data1 = [
         "id": 8,
         "title": "Ansh Aggarwal",
         "url": "https://www.linkedin.com/in/ansh-aggarwal-15448a1a9/",
-        org: '<span class="text-red-700"><i>From </i><br><u>SRCC Delhi University, GGI Scholar 2019</u><br><i>To</i> <br><b>McKinsey & Company, EY</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar 2019, SRCC Delhi University</u><br><i>To</i> <br><b>McKinsey & Company, EY</b>',
         "img": "/ansh.jpg",
         "text": "Shortly after GGI, I got placed in&nbsp;McKinsey &amp; Company. In fact, I will be moving to Mumbai to work as a Business Analyst. Also after the masterclass, having won the EY Scholarship for entrepreneurship, I completed an internship at EY Global as well. [...] GGI&apos;s prestigious Policy Consulting Masterclass definitely helped me navigate through the recruitment process.</p>"
     },
@@ -171,7 +171,7 @@ const data1 = [
         "id": 9,
         "title": "Rajeshwari Kannan",
         "url": "https://in.linkedin.com/in/rajeshwari-kannan-73235710a?trk=public_post-text",
-        org: '<span class="text-red-700"><i>From </i><br><u>Vellore Institute of Technology, GGI Scholar</u><br><i>To</i> <br><b>Boston Consulting Group</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, Vellore Institute of Technology</u><br><i>To</i> <br><b>Boston Consulting Group</b>',
         "img": "/Rajeshwari.jpg",
         "text": "Hi, I am Rajeshwari. I recently joined Boston Consulting Group (BCG) as a senior Associate.<br/><br/>I joined GGI as a part of my (PRE MBA) journey. I come from a Software background which is a world apart from Management consulting and Business.<br/><br/>GGI was the first time I was able to understand what businesses do and what the Industry overall looks like.<br/><br/> That was the first time I heard the word #StrategyConsulting and now it’s a full circle where I am a Management Consultant :)<br/><br/> I would have to credit #GGI for introducing me end to end to this world of Management Consulting”. <br/><br/> “For me GGI in one word would be ‘NETWORKING’.<br/><br/>I know it’s a very thrown-around word especially at B-schools and beyond but in a sense that a lot of people I met at GGI, or happened to add on Linkedin , are now working in the kind of organizations and sectors that I aim to work at or collaborate with. <br/><br/>So, For me who was interested in the social impact space, it was an exciting thing because, in an Engineering College, you don’t find a lot of people who are interested in such things." 
     },
@@ -179,7 +179,7 @@ const data1 = [
         "id": 10,
         "title": "Mehak Jain",
         "url": "https://in.linkedin.com/in/mehak-jain-?trk=public_post_comment-text",
-        org: '<span class="text-red-700"><i>From </i><br><u>LSR Delhi University, GGI Impact Fellow</u><br><i>To</i> <br><b>BCG</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, LSR Delhi University</u><br><i>To</i> <br><b>BCG</b>',
         "img": "/Mehak.jpg",
         "text": "Hi, I am Mehak Jain. I am from Delhi and I completed my undergraduation from Lady Shri Ram College for Women, University of Delhi.<br/><br/>My interest in policy and economics space led me to GGI. I joined GGI after 6 months in my journey with ZS Associates.<br/><br/>I realized GGI could help me make the transition between Consulting and Policy space, and help me decide where I want to go. <br/>I was confused between MBA and MPP. <br/><br/>Eventually, I leveraged GGI as a pre MBA ecosystem and interned at BCG.”  <br/>I found my support network at GGI!“<br/><br/>Q- So, how has GGI helped you in your journey?<br/><br/>“I attended the GGI Policy Masterclass in 2020.<br/><br/>In those 2 days, I was introduced to multiple things-<br/><br/>Starting from structured thinking, and first principles, to various terminologies.<br/><br/>This helped me throughout my role in ZS. Later I joined GGI's prestigious Inner Circle Fellow community.<br/><br/>Secondly, I really cherish the GGI Networking Nights.<br/><br/>Thirdly, GGI has a great support network. You do not have to think twice before reaching out. I also try to give back to the network whenever possible."
     },
@@ -187,7 +187,7 @@ const data1 = [
         "id": 11,
         "title": "Rankarajan Balasubramanian",
         "url": "https://in.linkedin.com/in/rankarajan-balasubramanian-57a825153?trk=public_post-text",
-        org: '<span class="text-red-700"><i>From </i><br><u>Engineering Graduate, GGI Impact Fellow</u><br><i>To</i> <br><b>Investment Associate, Spark Asia</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Engineering Graduate</u><br><i>To</i> <br><b>Investment Associate, Spark Asia</b>',
         "img": "/Rankarajan.jpg",
         "text": "Hi, I am Rankarajan.<br/><br/>I did my undergraduate education in civil engineering and postgraduation in structural engineering from BITS Pilani.<br/><br/>I wanted to pivot my career as my interest did not lie in civil engineering. <br/>GGI for me was all about- 9 different Experiences in the form of 9 different Masterclasses.“ <br/><br/>Q- So, One word that would describe your GGI experience?<br/><br/>“#Unconventional.<br/><br/>The kind of cases we discussed, I had never even thought of such situations.<br/> The cases were extremely unconventional from what we have read or studied.“ <br/><br/>My advice to cohort of 2023 will be that there is no fixed formula.<br/><br/>My advice to cohort of 2023 will be that there is no fixed formula.<br/><br/>You could input today and receive the outputs years later.<br/><br/>It's the #Inaction that is the biggest disadvantage.<br/><br/>If you are taking any action, whatever it may be, just go with it. If it doesn’t work out, you can come back and try something else."
     },
@@ -195,7 +195,7 @@ const data1 = [
         "id": 12,
         "title": "Tushar Bagrodia",
         "url": "https://www.linkedin.com/in/tusharbagrodia/",
-        org: '<span class="text-red-700"><i>From </i><br><u>SRCC Delhi University, GGI Scholar</u><br><i>To</i> <br><b>Kearney Consulting</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, SRCC Delhi University</u><br><i>To</i> <br><b>Kearney Consulting</b>',
         "img": "/Tushar.jpg",
         "text": "Shortly after GGI, I was offered a role by&nbsp;Kearney India. The GGI Masterclass enabled me to develop a more holistic view of the manner in which public sector works in our country and the challenges that arise while working to create an impact with them.</p><p>&nbsp;</p><p>The first time I was introduced to case interviews was also during the GGI Masterclass on my campus. I was able to understand the problems better and develop structured solutions which made me stand out."
     },
@@ -203,7 +203,7 @@ const data1 = [
         "id": 30,
         "title": `Aayushman Singh`,
         "url": "https://in.linkedin.com/in/aayushmansingh",
-        org: '<span class="text-red-700"><i>From </i><br><u>University of Hong Kong, GGI Impact Fellow</u><br><i>To</i> <br><b>INSEAD MBA</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, University of Hong Kong</u><br><i>To</i> <br><b>INSEAD MBA</b>',
         "img": "/ayushsingh.PNG",
         "text": `Hi, I am Aayushman from Delhi.<br><br>
 
@@ -239,7 +239,7 @@ const data1 = [
         "id": 13,
         "title": "Maanya Charu Kalra",
         "url": "https://www.linkedin.com/in/maanyacharukalra/",
-        org: '<span class="text-red-700"><i>From </i><br><u>COLUMBIA SIPA, GGI Impact Fellow</u><br><i>To</i> <br><b>World Bank Group</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, COLUMBIA SIPA</u><br><i>To</i> <br><b>World Bank Group</b>',
         "org": " World Bank Group",
         "img": "/maanya.jpg",
         "text": "I think ever since I first stumbled upon GGI, my perspective towards my career has changed immensely. My GGI Fellowship lasted 2 months from Oct to Dec'20, and it simply curated itself into a glass half full situation wherein I could scrape off the shadows of the pandemic tainted hiring freezes and just breathe and plan for the future.<br><br> GGI Masterclasses, founder office hours, peer sessions, and of course the research paper, all in unison collected my professional ambitions and shaped them in a way that I could somehow manage to achieve them. My weeks are covered with working on my bit towards social behavioral change by running my content portal @hasrat.work and working full time at IFC."
@@ -249,7 +249,7 @@ const data1 = [
         "id": 14,
         "title": "Palak Arora",
         "url": "https://www.linkedin.com/in/palak-arora-77423b166/",
-        org: '<span class="text-red-700"><i>From </i><br><u>St. Stephen&#39;s College Delhi University, GGI Scholar 2020</u><br><i>To</i> <br><b>Deloitte, Albright Stonebridge Group</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar 2020, St. Stephen&#39;s College Delhi University</u><br><i>To</i> <br><b>Deloitte, Albright Stonebridge Group</b>',
         "img": "/palak.jpg",
         "text": "Soon after GGI, I actively pursued a career in Public Policy by associating with the&nbsp;Albright Stonebridge Group.&nbsp;Thereafter I began to work with&nbsp;Deloitte as an Analyst in their Government advisory division.<br><br>GGI has been tremendously helpful in providing the right direction to my career. The art of structuring one&apos;s thoughts and the sheer will to learn has enriched my experience of growth. My favorite aspect of GGI&apos;s program is Wiggly and Networking. It&apos;s amazing to see how a collaborative community like GGI&apos;s can foster growth amongst the members.<br><br>No matter what one&apos;s career goals are, being part of the GGI community is certainly an extremely valuable experience. Naman and Shatakshi are great mentors and have innumerable learnings to offer"
     },
@@ -257,7 +257,7 @@ const data1 = [
         "id": 15,
         "title": "Yashasvi Ghadale",
         "url": "https://in.linkedin.com/in/yashasvighadale/",
-        org: '<span class="text-red-700"><i>From </i><br><u>IIT Delhi, GGI Impact Fellow</u><br><i>To</i> <br><b>Boston Consulting Group</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, IIT Delhi</u><br><i>To</i> <br><b>Boston Consulting Group</b>',
         "org": "Boston Consulting Group",
         "img": "/yashasvi.PNG",
         "text": `Hi, I am Yashasvi, and I will soon be joining Boston Consulting Group (BCG) full-time.<br><br>I came to know about GGI many years ago through Shatakshi Sharma's (cofounder) LinkedIn posts and wished to join the cohort ever since.<br><br>I joined right after my graduation because I wanted to learn about policy.<br><br>While I already had some exposure in management consulting, I also wanted to learn more about #Policy Consulting, Impact #Investment, and #Sustainable Finance.<br><br>I have found the masterclasses incredibly valuable so far in terms of the knowledge that is presented and the way it is presented.<br><br>Additionally, I really enjoyed the masterclasses that are uploaded on Trinity as that exponentially increases the value of the entire course. Being able to hear directly from Rajat Gupta and other industry leaders was really unexpected !`
@@ -266,7 +266,7 @@ const data1 = [
         "id": 16,
         "title": "Mahek Jain",
         "url": "https://www.linkedin.com/in/mahek-jain/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Delhi Technological University, GGI Impact Fellow</u><br><i>To</i> <br><b>Bain &amp; Company</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Delhi Technological University</u><br><i>To</i> <br><b>Bain &amp; Company</b>',
         "org": "Bain &amp; Company",
         "img": "/mahek.jpg",
         "text": `Shortly after GGI, I bagged a Management Consultant offer at&nbsp;<a href="https://www.linkedin.com/company/bain-and-company/" rel="noreferrer noopener" target="_blank">Bain &amp; Company</a>, and Product Management offer at&nbsp;<a href="https://www.linkedin.com/company/zomato/" rel="noreferrer noopener" target="_blank">Zomato</a>.&nbsp;<br><br>I am a final year Mechanical Engineering student at&nbsp;<a href="https://www.linkedin.com/company/delhi-technological-university-formerly-dce/" rel="noreferrer noopener" target="_blank">Delhi Technological University (Formerly DCE)</a>. I have always been interested in Management Consulting and Product Management. Interestingly, I was also an employee at Global Governance Initiative (GGI), which was a fantastic experience as I got to learn a lot during my 7-month stint at GGI.&nbsp;<br><br>I recently received a Management Consulting offer from Bain &amp; Company, and also a Product Management Internship offer from Zomato.&nbsp;`
@@ -275,7 +275,7 @@ const data1 = [
         "id": 17,
         "title": "Nishtha Gupta",
         "url": "https://www.linkedin.com/in/nishthagupta001/",
-        org: '<span class="text-red-700"><i>From </i><br><u>IIT Delhi, GGI Scholar 2019</u><br><i>To</i> <br><b>Boston Consulting Group (BCG)</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar 2019, IIT Delhi</u><br><i>To</i> <br><b>Boston Consulting Group (BCG)</b>',
         "img": "/Schermata.jpg",
         "text": "Shortly after the GGI Policy Consulting Masterclass, I bagged an offer to join BCG. It was only during the Policy Consulting masterclass that I was introduced to solving cases and the world of consulting.<br><br> I can never forget that moment when it all seemed worth it, the effort that went in while preparing. "
     },
@@ -283,7 +283,7 @@ const data1 = [
         "id": 18,
         "title": "Chris Ashley Pinto",
         "url": "https://www.linkedin.com/in/chrisashleypinto/",
-        org: '<span class="text-red-700"><i>From </i><br><u>NMIMS, GGI Impact Fellow</u><br><i>To</i> <br><b>Menterra Ventures</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, NMIMS</u><br><i>To</i> <br><b>Menterra Ventures</b>',
         "img": "/chris.jpg",
         "text": `Shortly after GGI, I got Impact Investment offer from&nbsp;<a href="https://www.linkedin.com/company/menterra-venture-advisors/" rel="noreferrer noopener" target="_blank">Menterra Ventures</a><br><br>I actually used what I learned at GGI,within GGI, to get a job by GGI.<br><br>During my interview round, I was asked about a strategy case- the case became pretty easy because I had already completed my GGI fellowship. Having worked with Shreya (GGI mentor) on a Consulting Style white Paper allowed me to put the whole framework into practice.<br><br>GGI Fellowship helped fill my skills gaps as my expertise lay on the quantitative side earlier since I had gotten qualifications such as CFA, FRM, and others, but I was missing qualitative nuance in my analysis. And I had actually joined GGI to fill that gap.<br><br>I&apos;m also glad that my fellowship helped me a great deal to grab this opportunity.`
     },
@@ -291,7 +291,7 @@ const data1 = [
         "id": 31,
         "title": "Suvidha Jani",
         "url": "https://www.linkedin.com/in/suvidha-jani/",
-        org: '<span class="text-red-700"><i>From </i><br><u>LSR Delhi University, GGI Impact Scholar</u><br><i>To</i> <br><b>Michael & Susan Dell Foundation</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Scholar, LSR Delhi University</u><br><i>To</i> <br><b>Michael & Susan Dell Foundation</b>',
         "org": "Michael & Susan Dell Foundation",
         "img": "/suvidha.jpeg",
         "text": `At GGI, I joined Michael & Susan Dell Foundation.<br><br>
@@ -324,7 +324,7 @@ const data1 = [
         "id": 19,
         "title": `Rahul Prasad`,
         "url": "https://www.linkedin.com/in/rahul-prasad-289422178/",
-        org: '<span class="text-red-700"><i>From </i><br><u>SRCC Delhi University, GGI Impact Scholar</u><br><i>To</i> <br><b>Kearney India</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Scholar, SRCC Delhi University</u><br><i>To</i> <br><b>Kearney India</b>',
         "img": "/rahul.jpg",
         "text": "Shortly after GGI, I got placed at&nbsp;Kearney India. This was possible due to GGI&rsquo;s prestigious Masterclass. It was a stepping stone for me, where I was exposed to the consulting world, and learned the tips and tricks that I could apply in the consulting world. Shatakshi&rsquo;s mock interviews were also very helpful during my placement season.</p><p>&nbsp;</p><p>I was taught to approach problems in real life scenarios from the best leaders in the game. I was among one of the 5 people from my college to be shortlisted for the coveted EY Global Scholarship Internship Opportunity, and I was able to apply the knowledge that I gained from the Masterclass there as well."
     },
@@ -332,7 +332,7 @@ const data1 = [
         "id": 20,
         "title": "Laboni Singh",
         "url": "https://www.linkedin.com/in/laboni-singh-664689124/",
-        org: '<span class="text-red-700"><i>From </i><br><u>St. Stephen&#39;s College Delhi University, GGI Scholar 2020</u><br><i>To</i> <br><b>Bridgespan</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar 2020, St. Stephen&#39;s College Delhi University</u><br><i>To</i> <br><b>Bridgespan</b>',
         "img": "/laboni.jpg",
         "text": "Shortly after GGI, I was offered a role by Bridgespan. I will soon be joining the nonprofit consulting organization this year. I attended three masterclasses over a span of 4-5 months. First on Policy Consulting, second on Impact Startup and the third on Management Communications.<br><br> I had been wanting to explore the policy and development space for a while and I think the masterclasses helped me find the entry points. I have been in touch with GGI through the Inner circle and follow the good work happening regularly. It's relevant and important."
     },
@@ -340,7 +340,7 @@ const data1 = [
         "id": 21,
         "title": "Niharika Srivastava",
         "url": "https://www.linkedin.com/in/niharikasrivt/",
-        org: '<span class="text-red-700"><i>From </i><br><u>SRCC Delhi University, GGI Impact Fellow</u><br><i>To</i> <br><b>Ipe Global Limited</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, SRCC Delhi University</u><br><i>To</i> <br><b>Ipe Global Limited</b>',
         "img": "/niharika.jpg",
         "text": `GGI has contributed greatly towards reshaping my perspective about my career ingraining an attitude of perpetual learning. I remember always looking forward to the masterclass weekends because they would simply be power-packed, learning-filled days.&nbsp;<br><br>With the wonderful community that Shatakshi and Naman have created, GGI gave me a safe space to make mistakes; accept my vulnerabilities, make me self-aware, and give me the confidence to challenge my self-limiting beliefs. Not to mention that the community&rsquo;s diversity has helped me to broaden my horizon and given me the confidence to experiment with various things.&nbsp;`
     },
@@ -348,7 +348,7 @@ const data1 = [
         "id": 22,
         "title": `Swati Sureka `,
         "url": "https://www.linkedin.com/in/sureka-swati/",
-        org: '<span class="text-red-700"><i>From </i><br><u>SRCC Delhi University, GGI Scholar</u><br><i>To</i> <br><b>Auctus Advisors</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, SRCC Delhi University</u><br><i>To</i> <br><b>Auctus Advisors</b>',
         "img": "/swati.jpg",
         "text": "I don&apos;t think getting an offer from Bain could have been possible without the community and at the end of my journey, I had offers from 3 Management Consulting firms.</p><p>&nbsp;</p><p>Today, I am a Management Consultant at Auctus Advisors and have been working there for 7 months now before that I was an account strategist at InMobi which was something I joined right after under graduation in Commerce from SRCC. I was a part of the first batch of PGP Scholars, and it was the right thing for me that came at a right time. I attended all the five master classes, and all of those were amazing, management consulting masterclass was one I really liked and I felt it was something I really wanted to work upon.<br><br>GGI has been the most wonderful experience of my life. I was confused during my bachelor&rsquo;s to immediately go for CAT and do my MBA or to switch to management consulting. I remember it was my first conversation with Shatakshi where she shared her personal experience where she mentioned how she had changed her job and you should definitely do so if you have a good reason to. I remember Shatakshi telling me how to apply and approach the interviews and the lovely support of people in the GGI community. I had superstars helping me with CV review and case preparation.<br><br>I had two key values I derived from the community.<br><br>Firstly, a learning mindset, learning from scratch about an industry, and different functions and then communicating it to multiple CXOs with confidence felt normal.<br><br>Secondly, helping each other, I couldn&rsquo;t have imagined being part of such a lovely community. I have reached out to people from the community and they have always answered positively. So yes, it has been the best experience of my life so far."
     },
@@ -356,7 +356,7 @@ const data1 = [
         "id": 23,
         "title": `Manvi Sherawat`,
         "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
-        org: '<span class="text-red-700"><i>From </i><br><u>Delhi University, GGI Scholar</u><br><i>To</i> <br><b>Chase India</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, Delhi University</u><br><i>To</i> <br><b>Chase India</b>',
         "img": "/manvi.jpg",
         "text": `Shortly after GGI, I’d be joining Chase India in policy strategy role.<br><br>&ldquo;Hi, I am Manvi.<br><br>
 
@@ -387,7 +387,7 @@ const data1 = [
         "id": 24,
         "title": "Rishabh Jain",
         "url": "https://www.linkedin.com/in/rishabhjain0410/",
-        org: '<span class="text-red-700"><i>From </i><br><u>St. Stephen&#39;s College Delhi University, GGI Scholar</u><br><i>To</i> <br><b>AT Kearney Consulting, InMobi</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, St. Stephen&#39;s College Delhi University</u><br><i>To</i> <br><b>AT Kearney Consulting, InMobi</b>',
         "img": "/rishabh.jpg",
         "text": `Shortly after GGI, I bagged an offer from InMobi for the profile of a Business Analyst in their Bangalore office. Two weeks into the GGI Fellowship, and I bagged this offer.<br><br>Being mentored by leaders like Shatakshi Sharma and Naman Shrivastava at such a young age is no less than a blessing. GGI helped me discover my true self and transform into a mature individual from a college-going &lsquo;kid&rsquo;.`
     },
@@ -395,7 +395,7 @@ const data1 = [
         "id": 25,
         "title": "Anusheela Ghosh",
         "url": "https://www.linkedin.com/in/anusheela-ghosh/",
-        org: '<span class="text-red-700"><i>From </i><br><u>LSR Delhi University, GGI Fellow</u><br><i>To</i> <br><b>BCG, Samagra</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow, LSR Delhi University</u><br><i>To</i> <br><b>BCG, Samagra</b>',
         "img": "/anusheeela.jpg",
         "text": "Shortly after GGI, I bagged an offer Samagra | Transforming Governance. I have recently started my journey at Samagra and am super excited to grow! Upon joining GGI, I took a deep dive into the consulting space. This involved case prep, networking, brushing up on interview skills and so on.<br /><br />All this eventually culminated into bagging offers from DCPCR, GDI and Samagra. The GGI masterclass was the turning point for me where I took the decision to pivot from UPSC to governance consulting. I&#39;m so glad I took the plunge!"
     },
@@ -403,7 +403,7 @@ const data1 = [
         "id": 27,
         "title": "PARAM VEER SINGH",
         "url": "https://www.linkedin.com/in/param-veer-singh-774b15118/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Engineering Graduate, GGI Impact Fellow</u><br><i>To</i> <br><b>Capacity Building Commission of India</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Engineering Graduate</u><br><i>To</i> <br><b>Capacity Building Commission of India</b>',
         "img": "/paramveer.jpg",
         "text": `I used to work as a business transformation consultant at EY in their change management department which comes under a larger business consulting umbrella.<br><br>Within a month&apos;s time, I would be joining the Capacity Building Commission which is a flagship body for implementing the Mission Karmayogi, an initiative launched by the Prime Minister&apos;s Office. It will be the first comprehensive and streamlined attempt to prepare a report on the civil services capacity building in India. I find myself fortunate to be a part of the GGI community because this is the first time I really felt being able to engage myself cognitively with my peers, the content, and the ecosystem. I continue to imbibe the learnings and apply them because GGI ensures that you apply them&rdquo;.`
     },
@@ -411,7 +411,7 @@ const data1 = [
         "id": 28,
         "title": "Akshat Bang ",
         "url": "https://www.linkedin.com/in/akshat-bang-9b232b90/",
-        org: '<span class="text-red-700"><i>From </i><br><u>IMT Ghaziabad, GGI Impact Fellow</u><br><i>To</i> <br><b>Tech Mahindra Management Consulting</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, IMT Ghaziabad</u><br><i>To</i> <br><b>Tech Mahindra Management Consulting</b>',
         "img": "/akshat.jpg",
         "text": `Shortly after GGI, I joined <a href="https://www.linkedin.com/company/tech-mahindra/" target="_blank" rel="noreferrer noopener">Tech Mahindra</a>&nbsp;Management Consulting Team.<br /><br />Before joining GGI, I was on an exchange program at Toulouse Business School in France pursuing strategy and marketing courses. When the pandemic hit, I came back to my homeland. At this point, I was doing my&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=mba&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6949196350186041344" target="_blank" rel="noreferrer noopener">#MBA</a>&nbsp;from home and I was disappointed that my Master&rsquo;s experience was going down the drain. That is when I thought of taking up a GGI to enhance my skills, as my learning was getting stagnated in my online MBA formal degree and I was not feeling that I was learning practical skills.&nbsp;<br /><br />Soon after, I joined&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=ggi&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6949196350186041344" target="_blank" rel="noreferrer noopener">#GGI</a>&nbsp;and attended my first and one of the most interesting Masterclass was- Management Communications. The kind of people I got to know in the first class itself made me believe that I am at the right place, and I thoroughly enjoyed the class.<br /><br />I also remember attending a guest speaker session on structured thinking which helped me immensely. I started my GGI journey with the mindset that I want to learn, and enhance my communication and articulation skills.<br /><br />I carefully listened to every input, made well-structured notes, and revised everything I noted down. During one masterclass Shatakshi talked about the issue tree approach. I had previously learnt about the entire concept but the way it was discussed and structured in the GGI coursework was really helpful, and it helped me use the framework for solving real-world problems.<br /><br />That&#39;s precisely what was missing in my traditional MBA coursework.`
     },
@@ -419,7 +419,7 @@ const data1 = [
         "id": 29,
         "title": "Vidyadhari M",
         "url": "https://www.linkedin.com/in/vidyadhari-m/",
-        org: '<span class="text-red-700"><i>From </i><br><u>NALSAR Hyderabad, GGI Impact Scholar</u><br><i>To</i> <br><b>Tech Mahindra Management Consulting</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Scholar, NALSAR Hyderabad</u><br><i>To</i> <br><b>Tech Mahindra Management Consulting</b>',
         "img": "/VidyahariM.jpg",
         "text": "Shortly after GGI, I joined Tech Mahindra Management Consulting Team.<br><br>I joined GGI at the age of 30, which is technically a little late as I was on the other end of the bell curve.<br><br>I was considering a formal MBA before joining GGI’s PGP Scholar program. Through Global Governance Initiative, I wanted to test the waters on how I would fit into the MBA ecosystem, and get a head start on gaining the necessary skills. In these aspects, GGI worked out really well for me.<br><br>  It got me up to speed with for example Economics, something I had stopped studying 15 years ago. Earlier I had understood management consulting on a very superficial level only. <br><br>After GGI, I got invaluable insights into the deeper working of this industry like- what work they do as we did multiple cases ourselves during Masterclasses with speakers and outside and what kind of problems they solve."
     },
@@ -427,7 +427,7 @@ const data1 = [
         "id": 30,
         "title": "Disha Marjara",
         "url": "https://www.linkedin.com/in/disha-marjara-bb59921b/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Delhi University, GGI Impact Fellow</u><br><i>To</i> <br><b>Antara Foundation</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Delhi University</u><br><i>To</i> <br><b>Antara Foundation</b>',
         "img": "/disha.jpg",
         "text": `Shortly after GGI, I got an offer to join&nbsp;<a href="https://www.linkedin.com/company/antara-foundation/" rel="noreferrer noopener" target="_blank">The Antara Foundation</a>.<br><br>Before joining GGI, I constantly felt that I have not done enough in life. I had been planning to do my MBA for the last 4 years but was not able to get through the GMAT. I felt I was lagging behind in my career, and I was not getting good opportunities.<br><br>At this stage, I came across GGI and I could relate to the founder&apos;s journey because I was going through the exact same journey. That was my tipping point which led me to apply for GGI Fellowship.&nbsp;<br><br>After my GGI Fellowship interview, I was happily surprised to find that I had cleared the interview and got a shortlist!&nbsp;<br><br>My journey with GGI has been commendable so far. One thing I realised after joining GGI is that Naman and Shatakshi (founders) reinforce that every individual is special, and you can do anything if you put your mind and energy to it. You just need to trust your own self, and keep working on your abilities to become the best version of yourself. That&apos;s exactly what I did.&nbsp;`
     },
@@ -435,7 +435,7 @@ const data1 = [
         "id": 31,
         "title": "Vidhi Singh",
         "url": "https://www.linkedin.com/in/vidhi-singh-she-her-997973157/",
-        org: '<span class="text-red-700"><i>From </i><br><u>LSR Delhi University, GGI Impact Fellow</u><br><i>To</i> <br><b>Azim Premji Foundation</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, LSR Delhi University</u><br><i>To</i> <br><b>Azim Premji Foundation</b>',
         "img": "/vidhi.jpg",
         "text": "Shortly after GGI, I secured an offer from Azim Premji Foundation.<br><br> I started my fellowship at GGI alongside my MA Development program at Azim Premji University, Bangalore. Having been a part of Policy Consulting and Management Communication masterclasses I was exposed to frameworks that helped me understand and tackle issues at the policy level.<br><br>  Better articulation and how to tell your story is something that aided me in putting my volunteering experiences in education well and leading me to secure an offer from Azim Premji Foundation as Field Associate. <br><br> I would like to express my gratitude to the diverse GGI network and supportive mentors like Naman Shrivastava and Shatakshi Sharma for guiding me throughout."
     },
@@ -443,7 +443,7 @@ const data1 = [
         "id": 32,
         "title": "Ritikaa Khanna",
         "url": "https://www.linkedin.com/in/ritikaakhanna/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Christ University, GGI Impact Fellow</u><br><i>To</i> <br><b>Council on Energy, Environment and Water(CEEW)</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Christ University</u><br><i>To</i> <br><b>Council on Energy, Environment and Water(CEEW)</b>',
         "img": "/Ritikaa.jpg",
         "text": "Shortly after GGI, I joined Council on Energy, Environment and Water(CEEW). <br><br> I got introduced to GGI through a competition that was being held by GGI.It was a national - level policy consulting challenge, and a couple of my friends and I participated together.It went really well for me, and I also got introduced to GGI Masterclasses through that competition.<br><br> My first GGI masterclass was Management Consulting and Sustainability, and that was the first time I got introduced to the world of Management Consulting.I was in my final year of Economics and I didn't have much exposure to Management Consulting or the Corporate world for that matter. <br><br>  The entire 10 hours were so informative and by the end, I realized that was the most productive Sunday I have ever had in my life! Soon after, I applied for the fellowship, and I was fortunate enough to get selected.The following months of the GGI fellowship were such an enriching experience for me."
     },
@@ -451,7 +451,7 @@ const data1 = [
         "id": 33,
         "title": "Ayush Agarwal",
         "url": "https://www.linkedin.com/in/ayush-agarwal-96a276190/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Ashoka University, GGI Impact Fellow</u><br><i>To</i> <br><b>eGovernments Foundation</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Ashoka University</u><br><i>To</i> <br><b>eGovernments Foundation</b>',
         "img": "/ayush.jpg",
         "text": `Shortly after GGI, I got selected as a summer intern under the policy initiatives team at eGovernments Foundation. I will be joining the non-profit organisation in May this year.<br><br>  The first masterclass I attended on Product Management and Tech Ethics helped me gain a wider perspective of the complementarity of soft and hard skills. My key learning from the masterclass was that sustainability needs to be at the forefront of product innovation.&nbsp;The policy consulting masterclass helped me direct my efforts towards this field.<br><br> I have been in touch with the GGI community with the help of regular inner circle meetings and networking events which helped me finally land an internship in my area of interest. The co-founders place great importance on mental well-being which has enabled me to be more confident, accepting and strong.`
     },
@@ -460,7 +460,7 @@ const data1 = [
         "id": 34,
         "title": "Ishita Jain",
         "url": "https://www.linkedin.com/in/ishita-jain-26b5021a4/",
-        org: '<span class="text-red-700"><i>From </i><br><u>Delhi University, GGI Impact Fellow</u><br><i>To</i> <br><b>TresVista</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Delhi University</u><br><i>To</i> <br><b>TresVista</b>',
         "org": "TresVista",
         "img": "/ishita.jpg",
         "text": "Shortly after GGI, I was offered a role by TresVista.<br><br> My first interaction with GGI was back in January 2020 through the Policy Consulting masterclass, then the Management Consulting masterclass. Now it&#39;s more than a year and I continue to be a part of this immensely talented family. The masterclasses boosted my confidence and made me realise my interest for problem solving and creating impact. This eventually led me to work with Teach For India as a campaign leader, intern with Ernst and Young and get placed in TresVista."
@@ -469,7 +469,7 @@ const data1 = [
         "id": 35,
         "title": "Sourav Panda",
         "url": "https://www.linkedin.com/in/souravpanda/",
-        org: '<span class="text-red-700"><i>From </i><br><u>The Fletcher School, GGI Scholar</u><br><i>To</i> <br><b>World Bank</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, The Fletcher School</u><br><i>To</i> <br><b>World Bank</b>',
         "img": "/sourav.jpg",
         "text": "I took the bold move of coupling my business education (MBA) from CEIBS with one of the best international affairs courses in the world at The Fletcher School. <br><br> The GGI scholars’ community  helped me be prepared for what’s coming, especially discussions with Naman and Shatakshi, and Dean Bhaskar’s session for the scholars, but truly, you can never be ready for the abundance here at Fletcher!"
     },
@@ -477,7 +477,7 @@ const data1 = [
         "id": 36,
         "title": "Varshini Murali",
         "url": "https://www.linkedin.com/feed/update/urn:li:activity:7046113624540528640",
-        org: '<span class="text-red-700"><i>From </i><br><u>University of Warwick, GGI Scholar</u><br><i>To</i> <br><b>Sattva Consulting</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, University of Warwick</u><br><i>To</i> <br><b>Sattva Consulting</b>',
         "img": "/varshini.jpg",
         "text": "Shortly after GGI, I joined Sattva Consulting<br><br>&apos;Hi, I graduated with a master&apos;s in education policy from the University of Warwick.<br><br>   Post pandemic I decided to come back to India and started working in the education sector in designing curriculum for primary education.From there, I moved to the role of a program manager, where I facilitated the education of twenty first century skills in government high schools.<br><br> Thats when I believed consulting would be the best choice for me as it would hone my skills and give me exposure. I also understood the role will give me more client facing exposure, allowing for betterment of my skills. <br><br>  Eventually, I interviewed for MBB, which did not go well. I lacked the guidance to crack a case interview.<br>  That is when I stumbled upon GGI. I connected with one of my school seniors who had been a fellow at GGI who had great things to say about them.<br><br>  At GGI, I believe that you have to proactively ensure that you are making the best out of any opportunity that you take. <br>And I do believe I have made the best out of the opportunities I had at GGI!"
     },
@@ -485,7 +485,7 @@ const data1 = [
         "id": 37,
         "title": "Abdul Ahad Rana",
         "url": "https://www.linkedin.com/feed/update/urn:li:activity:7025808428975497216",
-        org: '<span class="text-red-700"><i>From </i><br><u>B.S Geology, GGI Scholar</u><br><i>To</i> <br><b>Tech Mahindra</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, B.S Geology</u><br><i>To</i> <br><b>Tech Mahindra</b>',
         "img": "/abdul.jpg",
         "text": "Shortly after GGI MBA, I joined Tech Mahindra in a Management Consulting role.<br><br>&apos;I have done my graduation and post-graduation in petroleum technology and I was working as an Analyst in Global Data when I joined GGI.<br>That&apos;s when I wanted to step up my professional career and join management consulting.<br><br> And I thought of applying for B Schools abroad but dedicating 2 years of my life and spending a huge amount of money wasn&apos;t feasible for me.<br><br>   Thats when I was looking for alternatives when I discovered GGI.   GGI&apos;s PGP program perfectly fit eventually all my requirements-  not leaving his job and being able to smoothly pivot into consulting.”<br><br> Q- One word that would describe your GGI experience?<br> &apos;Change Maker.<br><br>  After a few years of my work experience, there came a time when I wanted to change my path, but couldn&apos;t afford to quit my job or take a hectic and expensive MBA program.<br><br> GGI provided me a one-stop change-maker platform for all these problems."
     },
@@ -493,7 +493,7 @@ const data1 = [
         "id": 38,
         "title": "Krithikaa Kumaresan",
         "url": "https://www.linkedin.com/feed/update/urn:li:activity:7030846249255723008",
-        org: '<span class="text-red-700"><i>From </i><br><u>Delhi University, GGI Impact Fellow</u><br><i>To</i> <br><b>Queen Mary Institute of London</b>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Impact Fellow, Delhi University</u><br><i>To</i> <br><b>Queen Mary Institute of London</b>',
         "img": "/krithikaa.jpg",
         "text": "Shortly after GGI, I got a management consulting offer.<br><br>&apos;Hi, I graduated with a Master&apos;s from the Queen Mary Institute of London.<br><br> After my graduation, I wanted to experience a corporate environment and eventually start up after returning from London also. I was extremely skeptical about my choice of moving back to India, but GGI gave me hope. GGI Masterclasses were very interactive and people didn&apos;t judge me. My mentor especially was very supportive.<br><br>  Eventually, I was able to take help from the cohort to crack my consulting case interview too.&apos; <br><br>  Q- One word that would describe your GGI experience?<br><br>  &apos;#Unlearn. <br><br> While I was already aware of some concepts taught in the masterclasses, GGI&apos;s methodology and case-based format learning were transformative. <br><br>  I was able to practically apply all the concepts from economics to marketing in my actual interviews.<br><br> I was part of a diverse cohort who helped me express my opinions in a safe ecosystem.”"
     }

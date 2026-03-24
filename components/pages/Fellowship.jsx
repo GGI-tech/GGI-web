@@ -145,7 +145,7 @@ const Fellowship = () => {
             <YoutubeEmbed embedId='Pt8cnPkD4k0' autoplay={1}/>
 
             <Heading>Program Fees </Heading>
-            <Container> <p><span className='font-bold'>Top competitors charge ₹3–7 Lakhs.
+            <Container> <p><span className='font-bold'>
                 GGI is 80% more affordable - delivering a real consulting experience for under ₹1 Lakh.
                 Full refund within 6 days of payment if you change your mind.
                 Apply only if you’re ready to perform and commit- selection rate of less than 10%.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel='noreferrer'>here</a></u></p>
