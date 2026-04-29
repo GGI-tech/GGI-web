@@ -22,7 +22,7 @@ import img29 from '../../public/29.jpg';
 const defaultData = [
   { img: img13, caption: "Ex Asia Chairman, Blackrock" },
   { img: img12, caption: "Ex-Global CEO, Mckinsey & Co" },
-  { img: img14, caption: "Ex-BCG India Chairman & Member, Planning Commission India" },
+  { img: img14, caption: "Ex-BCG India Chairman & Member, Planning Commission" },
   { img: img15, caption: "Current BCG India Chairman" },
   { img: img16, caption: "Managing Partner, Promethos Capital" },
   { img: img17, caption: "Global Chairman, BCG Henderson Institute" },

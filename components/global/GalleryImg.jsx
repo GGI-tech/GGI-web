@@ -18,7 +18,7 @@ const GalleryImg = ({ socialImg, caption }) => {
         </p>
       </div>
       {/* <figcaption  className='p-4 bg-black/20'>{caption}</figcaption> */}
-      <p className='h-20 p-1 md:p-4 text-sm'>{caption}</p>
+      <p className='h-20 p-1 md:p-4 text-md font-bold'>{caption}</p>
     </div>
   );
 };
