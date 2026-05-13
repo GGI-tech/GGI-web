@@ -789,17 +789,14 @@ const Employment = () => {
                 }
             </div>
             <div className='flex flex-wrap justify-center md:mx-12'>
-                <img src={'/newss1.png'} width='50%' alt=''/>
-                <img src={'/newss2.png'} width='50%' alt=''/>
-                <img src={'/newss3.png'} width='50%' alt=''/>
-                <img src={'/newss4.png'} width='50%' alt=''/>
-                <img src={'/newss5.png'} width='50%' alt=''/>
-                <img src={'/newss6.png'} width='50%' alt=''/>
-                <img src={'/newss7.png'} width='50%' alt=''/>
-                <img src={'/newss8.png'} width='50%' alt=''/>
-                <img src={'/newss9.png'} width='50%' alt=''/>
-                <img src={'/newss10.png'} width='50%' alt=''/>
-                <img src={'/newss11.png'} width='50%' alt=''/>
+                <img src={'/newss-1.png'} width='50%' alt=''/>
+                <img src={'/newss-2.png'} width='50%' alt=''/>
+                <img src={'/newss-3.png'} width='40%' alt=''/>
+                <img src={'/newss-5.png'} width='60%' alt=''/>
+                <img src={'/newss-6-upscaled.jpg'} width='60%' alt=''/>
+                <img src={'/newss-7-upscaled.jpg'} width='40%' alt=''/>
+                <img src={'/newss-8-upscaled.jpg'} width='65%' alt=''/>
+                {/* <img src={'/newss-9.png'} width='45%' alt=''/> */}
                 <img src={'/ssss1.png'} width='50%' alt=''/>
                 <img src={'/ssss2.png'} width='50%' alt=''/>
                 <img src={'/ssss3.png'} width='50%' alt=''/>
