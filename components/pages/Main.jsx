@@ -77,7 +77,7 @@ const Main = () => {
     <div className="lg:col-span-2 flex flex-col min-h-[27rem]">
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-xl md:text-2xl my-8 primary">
-          GGI Management PGP Scholar in Business, Strategy & Leadership
+          GGI Management PGP Scholar in Business, Strategy & AI
         </h2>
 
         <p className="my-5 text-lg font-semibold">Who is this program for?</p>
@@ -88,7 +88,7 @@ const Main = () => {
         </p>
 
         <p className="my-7">
-          2. They’re <span className="primary font-semibold">Business, Strategy & Leadership aspirants</span> designing strategies before interviews, engineers pivoting to strategy and founders learning the language of <span className="primary font-semibold">global consulting</span>.
+          2. They’re <span className="primary font-semibold">Business, Strategy & AI aspirants</span> designing strategies before interviews, engineers pivoting to strategy and founders learning the language of <span className="primary font-semibold">global consulting</span>.
         </p>
 
         <p className="my-7">
@@ -119,7 +119,7 @@ const Main = () => {
     <div className="lg:col-span-2 flex flex-col min-h-[27rem]">
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-xl md:text-2xl my-8 primary">
-          GGI Policy PGP Scholar in Public Policy, Governance & Impact
+          GGI Policy PGP Scholar in Public Policy, Governance & AI
         </h2>
 
         <p className="my-7 text-lg font-semibold">Who is this program for?</p>

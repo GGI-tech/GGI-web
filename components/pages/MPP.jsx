@@ -51,7 +51,7 @@ const MPP = () => {
             <YoutubeEmbed embedId='7IFecGF-JzA' autoplay={1} />
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">APPLY NOW TO GGI POLICY PGP</Button>
 
-            <Heading>Post Graduate Programme (PGP) in Public Policy, Governance & Impact </Heading>
+            <Heading>Post Graduate Programme (PGP) in Public Policy, Governance & AI </Heading>
             <Curriculum6 data={curriculum} />
             <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
             <Button page="mpp" url="https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform">START YOUR POLICY JOURNEY WITH GGI - APPLY NOW</Button>
@@ -94,7 +94,7 @@ const MPP = () => {
             <Button page="mpp" url='https://docs.google.com/forms/d/e/1FAIpQLSfSbH0zlqXa2pDi3-4ZqcbetXDN6UYCFe5-zXXcMjquvLzUaw/viewform'>APPLY NOW TO GGI POLICY PGP</Button>
 
             <Heading>High-Quality Policy Education - at 80% Less Cost </Heading>
-            <Container> <p> Traditional PGPs in Public Policy, Governance & Impact cost ₹3–7 lakhs or more. GGI’s PGP in Public Policy, Governance & Impact delivers Ivy League outcomes at a fraction of that because access should never be a privilege.
+            <Container> <p> Traditional PGPs in Public Policy, Governance & AI cost ₹3–7 lakhs or more. GGI’s PGP in Public Policy, Governance & AI delivers Ivy League outcomes at a fraction of that because access should never be a privilege.
             We also offer a <span className='font-bold'>6-day full refund policy</span> post-enrollment. Either way, you win. Because the future won’t be built by politicians - it’ll be built by problem solvers.
                 <br/><br/></p>
             </Container>

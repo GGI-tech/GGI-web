@@ -39,7 +39,7 @@ const MBA = () => {
             <Heading margin={60}>Why GGI Management PGP Scholars <em>Actually</em> Works ? </Heading>
             <FourColumnLayout data={fourcolumndata} />
 
-            <p className='px-8 my-8 text-center font-medium'>The traditional PGP in Business, Strategy & Leadership is a $200,000 bet on your future </p>
+            <p className='px-8 my-8 text-center font-medium'>The traditional PGP in Business, Strategy & AI is a $200,000 bet on your future </p>
             <Container ><span className='primary font-medium'> At GGI, we make that same outcome accessible - at less than 1/1000th of the cost.</span> Because we believe access to world-class business education shouldn’t depend on your bank balance - only on your ambition. </Container>
             <div className='my-8'></div>
             <YoutubeEmbed embedId='e7Y6CSzrcgs' autoplay={1}/>
@@ -61,7 +61,7 @@ const MBA = () => {
 
             <Heading>Who is this Program for?</Heading>
             <Container>
-                <p> 1. You want to pivot into consulting, strategy, or product roles - <span className='primary font-bold'>  without spending $200,000 on a foreign PGP in Business, Strategy & Leadership.
+                <p> 1. You want to pivot into consulting, strategy, or product roles - <span className='primary font-bold'>  without spending $200,000 on a foreign PGP in Business, Strategy & AI.
                 </span> </p><br />
                 <p>2. If you are a CA or IIT engineer looking to pivot into Management Consulting roles at firms like <span className='primary font-bold'>McKinsey & BCG, or into Product Management roles </span>at companies like Uber, Amazon, Microsoft, and leading tech startups, this is for you.</p><br/>
                 <p>3. <span className='primary font-bold'>Future MBAs/Pre MBA </span>applicants- GGI PGP will strengthen your MBA applications, fellowships, and senior-level CVs, proving you’ve invested in understanding business, not just growth.</p><br/>
@@ -73,7 +73,7 @@ const MBA = () => {
             <YoutubeEmbed embedId='hnoA7rzFbHw' autoplay={1}/>
             <Button page="mba" url="https://docs.google.com/forms/d/e/1FAIpQLSfWPZ5mDyvjjXCBVJJ8Lhtmk3QQIVg-jmrpe6SrNa2gfMgmpg/viewform"> APPLY NOW TO GGI MANAGEMENT PGP</Button>
 
-            <Heading>Post Graduate Program in Management, Strategy & Leadership</Heading>
+            <Heading>Post Graduate Program in Management, Strategy & AI</Heading>
             <Curriculum data={curriculum}/>
             <YoutubeEmbed embedId='zJzwHEBd7Zc' autoplay={1}/>
 
