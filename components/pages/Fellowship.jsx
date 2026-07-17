@@ -27,7 +27,10 @@ const Fellowship = () => {
     return (
         <>
             <div className='mt-10'></div>
-            <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants <class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span> To Become a Young Leader`]} />
+            <SlidingHero image={'./impactfellowship.jpg'} title={[`Get into Management & Development Consulting, Mentorship by BCG, Mckinsey Consultants <class='hidden lg:block'/>& Join Global Network at<span class='text-yellow-300'> GGI Impact Fellowship</span> To Become a Young Leader`,
+            ]}
+            subtitle={"India's leading Impact Fellowship for UPSC aspirants building a meaningful Plan B in consulting, policy, and global development."}
+             />
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> ADVANCE YOUR CAREER NOW</Button>
 
             <Heading margin={60}>Why GGI Impact Fellowship <em>Actually</em> Works ?</Heading>
@@ -65,6 +68,8 @@ const Fellowship = () => {
                 </ul>
                 <br/><br/>
                 <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>GGI Fellows don’t just change jobs - they change trajectories.</span></p>
+                <p className='mb-5 text-center'><span className='font-bold primary text-xl'>Trusted by 1000s of UPSC aspirants, GGI has become India&apos;s leading Impact Fellowship for those seeking a purposeful Plan B beyond the examination.</span></p>
+                
             </Container>
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> STOP READING. START ACTING</Button>
 
@@ -146,7 +151,7 @@ const Fellowship = () => {
 
             <Heading>Program Fees </Heading>
             <Container> <p><span className='font-bold'>
-                GGI is 80% more affordable - delivering a real consulting experience for under ₹1 Lakh.
+                Join India&apos;s leading Impact Fellowship for UPSC Plan B and Consulting aspirants- designed for those who want consulting experience, not just another certification.
                 Full refund within 6 days of payment if you change your mind.
                 Apply only if you’re ready to perform and commit- selection rate of less than 10%.</span> To get detailed pricing and information, it is accessible on our application page <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel='noreferrer'>here</a></u></p>
             </Container>

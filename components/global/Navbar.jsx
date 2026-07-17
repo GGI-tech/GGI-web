@@ -124,7 +124,7 @@ const Navbar = ({applicationbanner}) => {
                         Feynman AI Fellowship
                       </a> */}
                       <a href='https://www.theswadesproject.org/' target="_blank" rel="noreferrer" className="whitespace-no-wrap block bg-gray-100 py-2 px-6 hover:bg-gray-400 font-bold text-sm lg:text-[15px]">
-                        The Swades Project: To Become Solopreneur
+                        The Swades Project: To Become Entrepreneur
                       </a>
                    
               </ul>
@@ -253,7 +253,7 @@ const Navbar = ({applicationbanner}) => {
                     FEYNMAN AI FELLOWSHIP
                   </a> */}
                   <a href='https://www.theswadesproject.org/' target="_blank" rel="noreferrer" className="block bg-gray-700 py-1 px-4 hover:bg-gray-800" onClick={handleNav}>
-                    THE SWADES PROJECT: TO BECOME SOLOPRENEUR
+                    THE SWADES PROJECT: TO BECOME ENTREPRENEUR
                   </a>
                   
                 </ul>
