@@ -68,7 +68,7 @@ const Fellowship = () => {
                 </ul>
                 <br/><br/>
                 <p className='mb-5 text-center'><span className='font-semibold primary text-lg'>GGI Fellows don’t just change jobs - they change trajectories.</span></p>
-                <p className='mb-5 text-center'><span className='font-bold primary text-xl'>Trusted by 1000s of UPSC aspirants, GGI has become India&apos;s leading Impact Fellowship for those seeking a purposeful Plan B beyond the examination.</span></p>
+                <p className='mb-5 mt-12 text-center font-bold text-xl'>Trusted by 1000s of UPSC aspirants, GGI has become India&apos;s leading Impact Fellowship for those seeking a purposeful Plan B beyond the examination.</p>
                 
             </Container>
             <Button page="fellowship" url="https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform"> STOP READING. START ACTING</Button>
