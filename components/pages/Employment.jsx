@@ -41,6 +41,15 @@ const data1 = [
         "text": " I joined GGI after gaining about 1.5 years of experience and close to when I was transitioning between jobs. Today, I have upwards of 4 years of work experience. I have ventured in the fields of management consulting and start-up ecosystems. &nbsp;</p><p><br>Here you get to learn a lot of things that you may not be learning at your job or during your academic journey. For example, during our operations masterclass, we used a simulation exercise-specific tool kit to learn efficiencies, which was very new to me. </p><p><br>For someone who had not done an MBA, it was a great, stimulating learning experience. "
     },
     {
+        "id": 3450,
+        "title": "Manasi Gupta",
+        "url": "https://www.linkedin.com/in/manasichangemaker/",
+        org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship 2022, VIT Vellore</u> <br><i>To</i> <br><span class="font-bold">Oxford MBA, Shell, Founder- Huesofthemind Foundation</span>',
+        "img": "/manasi.jpg",
+        "text": "Hi, I'm Manasi Gupta. I grew up in northern India and completed my Bachelor's in Electronics Engineering from VIT Vellore <br/><br/>I discovered GGI because I wanted to better understand the intersection of technology, policy, finance, and impact. GGI stood out because it brought together professionals from diverse backgrounds while exposing fellows to fields like public policy, technology for impact, and impact investing. <br/><br/> The biggest impact was the way it changed how I think and communicate. One of the first lessons that stayed with me was learning to answer in three clear points.That simple framework improved my communication significantly because when you're working with leaders, brevity and clarity matter. <br/><br/> The second was developing the habit of staying curious. GGI encouraged me to keep exploring opportunities, continuously learn, and also unlearn assumptions. That mindset has stayed with me well beyond the fellowship. <br/><br/>One of the strongest aspects of GGI is its community. Even years later, it's still active, and people continue helping each other in both small and meaningful ways. "
+    },
+    
+    {
         "id": 3,
         "title": `Averi Chakraborty`,
         "url": "https://www.linkedin.com/in/averi-chakraborty/",
@@ -89,6 +98,16 @@ const data1 = [
         "img": "/anamitra.jpg",
         "text": "GGI gave me the impetus to move ahead with my MBA at ISB, the contacts and relations I made at GGI helped me keep up the hustle and eventually I got an offer from Boston Consulting Group (BCG).<br><br>I was preparing for UPSC for almost 3 years and was unsuccessful in rounds beyond the prelims. I then applied to GGI and interacted with Naman, and understood how with every target there is a certain deadline and as time passes you need to move on. GGI was the perfect platform to do that."
     },
+
+    {
+        "id": 3451,
+        "title": "Amarpreet Kaur Chawla",
+        "url": "https://www.linkedin.com/in/amapreetkaur/",
+        org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship 2026</u> <br><i>To</i> <br><span class="font-bold">Policy Manager, PwC</span>',
+        "img": "/amarpreet.png",
+        "text": "After years of working on policy monitoring, implementation, and advocacy, I realized I wanted to move beyond influencing policies after they were made. I wanted to be part of solving the problems that shape policymaking itself. <br/><br/>I had known about GGI since 2020 and had been following its masterclasses. About seven to eight months ago, I decided it was the right time to upskill and transition from advocacy into consulting or another strategic role where I could contribute to policymaking at the stage where solutions are designed. <br/><br/>One of Shatakshi Sharma's masterclasses introduced this idea. Whenever you walk into a boardroom, interview, or decision-making space, believe that you belong there. The moment you do, you stop trying to fit in and start contributing with confidence. <br/><br/> GGI taught me that consulting is less about finding the right answer and more about developing the right approach. Once your thinking is structured, the solution follows. I apply this every day in my work. <br/><br/>Today, I'm working as a Manager in the Policy and Brand team at PwC India. This role aligns with the transition I always wanted- from advocacy to strategic policymaking. "
+    },
+    
 
     {
         "id": 5,
@@ -351,30 +370,18 @@ const data1 = [
         "id": 23,
         "title": `Manvi Sherawat`,
         "url": "https://in.linkedin.com/in/manvi-sherawat-983856247",
-        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, Delhi University, UPSC Aspirant</u><br><i>To</i> <br><span class="font-bold">Chase India</span>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Scholar, Delhi University, UPSC Aspirant</u><br><i>To</i> <br><span class="font-bold">Chase India, IE Business School</span>',
         "img": "/manvi.jpg",
-        "text": `Shortly after GGI, I’d be joining Chase India in policy strategy role.<br><br>&ldquo;Hi, I am Manvi.<br><br>
+        "text": `Hi, I’m Manvi Sharawat, an incoming MBA student at IE University. I’m currently working at Chase Advisors and am also an Impact Fellow at Global Governance Initiative.<br><br>
 
-        I have a diverse background, wherein I started with Humanities and am now pivoting towards commerce. <br><br>
+        When I came across GGI, I was going through a major transition phase in life - moving from my UPSC journey into the corporate world. At that point, I was looking for direction, exposure, and a community that truly understood ambition and growth. <br><br>
         
-        I came across GGI when I was looking into MBA programs. I started going through the ‘MBA in 10 Minutes’ series which I found extremely interesting.&ldquo;<br> 
+        If I had to talk about the most valuable part of the experience, it would definitely be the people. GGI gives you access to incredibly driven and supportive peers. My advice to future fellows would be - don’t hesitate to send that one “Hi.” Ask someone for coffee. Start conversations. Reach out to people.<br> 
         <br>
         
-        Q- What are the 3 things you learned at GGI?
+        Many people start strong in the first few weeks and slowly lose consistency later. Don’t make that mistake. The learning experience at GGI is intense, fast-paced, and deeply rewarding if you stay diligent throughout. Be proactive with assignments, participate actively, and stay intellectually curious.
         <br><br>
-        &ldquo;What stood out the most for me is the quality of the cohort.<br><br>
-        GGIans have been so nice and helpful to me. In fact, they helped me get into my recent job as well. <br><br>
-
-    2nd, the way the classes have been structured, including the pre-reads and the post-reads has helped me significantly. <br><br>
-
-    Lastly, I have to give credit to Schrodinger, the AI case interview preparation tool. I was completely new to the concept of case-ing. This helped me understand what a consultant actually does.<br><br>I was good at some and really stuck out in the rest. In the end, my learning curve has been very steep.<br><br>
-    Q- So, what is your advice for the cohort of 2024?
-
-        <br><br>
-        &ldquo;I’d say, just trust the process.<br><br>The learning curve will be steep. Sometimes you may get overwhelmed by it or feel that nothing is making sense.
-        <br><br>It will all eventually start coming together. Be diligent in classes and do all your asynchronous work as well.
-         <br><br>Sit tight for 6 months, the team and the cohort are there to help you.
-         <br><br>6 months later, your learnings are going to grow by 100%.
+        Most importantly, always keep your long-term vision in mind. Whether you already have a clear goal or are still figuring things out, GGI gives you the environment to grow into the person you want to become.<br><br>
         
     `},
 

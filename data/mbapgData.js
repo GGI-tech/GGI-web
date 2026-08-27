@@ -78,7 +78,19 @@ export const stages = [
 ]
 export const testimonialMBA = [
     {
-    name: 'GANGADHAR REDDY',
+    name: 'Anchalanshri Dixit',
+    org: 'GGI Management PGP Scholar, 2026<br>TechnoServe',
+    image: '/anchalanshri2.png',
+    review: "Anchalanshri’s journey is one of quiet determination and meaningful ambition. Growing up in a middle-class family in a small town in Rajasthan, she became the first female engineer in her family and a gold medalist, turning a shared dream into reality.<br/><br/>She found her calling in the development sector, where over the past four years at <span class='font-bold'>TechnoServe India, she has worked closely with rural communities across four states.</span> Through data-driven approaches and systems thinking, she has contributed to improving livelihoods for over 30,000 farming families.<br/><br/>With a strong foundation in impact-driven work, Anchalanshri is now exploring how to bridge the worlds of business and social change, building solutions that are not only scalable and sustainable, but deeply transformative."
+  },
+    {
+    name: 'Mridul Gupta',
+    org: 'GGI Management PGP Scholar, 2026<br>Product and Customer Experience, Handpickd',
+    image: '/mridul_gupta.jpg',
+    review: "Mridul brings nearly a decade of experience across risk, and compliance, along with global exposure from spending over 4 years abroad. Her journey reflects a growing inclination toward working closer to real impact- being in environments where decisions are shaped and meaningful change takes place. <br/><br/>With a strong foundation in structured problem-solving and systems thinking, Mridul is now exploring how businesses are built from the inside. <br/><br/>Through GGI journey, she aims to transition into roles where she can work closely with founders, contributing across strategy, execution, and decision-making as part of a Founder’s Office. GGI serves as a platform for him to build this shift with the right structure, exposure, and depth. <span class='font-bold'></span>"
+  },
+    {
+    name: 'Gangadhar Reddy',
     org: 'GGI Management PGP Scholar, 2025<br>Sarpanch',
     image: '/gangadhar.png',
     review: "Gangadhar Reddy is the <span class='font-bold'>Sarpanch of his village</span>, where he has spearheaded community development initiatives, improved infrastructure, and championed the empowerment of marginalized groups through government programs. <br><br> Gangadhar hails from Bodduvanipalle village in Orvakal Mandal, Kurnool district, Andhra Pradesh and holds a Bachelor's degree in Business Administration from Bangalore University. His dedication to Good Governance earned his village the second prize for best governance in Orvakal Mandal.  <br><br> Passionate about creating meaningful social change, Gangadhar envisions a future where large-scale rural development projects and policy-driven solutions transform communities. <br><br> He is committed to building strong, sustainable systems that empower people and leave a lasting impact in the public sector."

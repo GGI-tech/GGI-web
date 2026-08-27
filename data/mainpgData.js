@@ -88,6 +88,20 @@ export const testimonialMainFellows = [
     image: '/tushar.png',
     review: "<span class='font-bold'>Shortly after GGI, I got an offer from Boston Consulting Group (BCG) </span><br/> <br/>Honestly, joining GGI was a pivotal decision for me. It offered access to an incredible network of peers and mentors who pushed me to be my best. <br/><br/>One memorable moment was an office hour with Shatakshi just 12 hours before my BCG first-round interview. Her honest and constructive feedback helped me completely restructure my fit interview, and it made all the difference I got selected! <br/><br/>They gave me the confidence to consider launching my own venture, something I never imagined I could do a year ago."
   },
+  {
+        name: "Manasi Gupta",
+        org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship 2022, VIT Vellore</u> <br><i>To</i> <br><span class="font-bold">Oxford MBA, Shell, Founder- Huesofthemind Foundation</span>',
+        image: "/manasi.jpg",
+        review: "I discovered GGI because I wanted to better understand the intersection of technology, policy, finance, and impact. GGI stood out because it brought together professionals from diverse backgrounds while exposing fellows to fields like public policy, technology for impact, and impact investing. <br/><br/> One of the first lessons that stayed with me was learning to answer in three clear points. That simple framework improved my communication significantly because when you're working with leaders, brevity and clarity matter. <br/><br/> The second was developing the habit of staying curious. GGI encouraged me to keep exploring opportunities, continuously learn, and also unlearn assumptions.<br/><br/>One of the strongest aspects of GGI is its community. Even years later, it's still active, and people continue helping each other in both small and meaningful ways. "
+    },
+    {
+        name: "Amarpreet Kaur Chawla",
+        org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship 2026</u> <br><i>To</i> <br><span class="font-bold">Policy Manager, PwC</span>',
+        image: "/amarpreet.png",
+        review: "<br/><br/>I had known about GGI since 2020 and had been following its masterclasses. I decided it was the right time to upskill and transition from advocacy into consulting or another strategic role where I could contribute to policymaking at the stage where solutions are designed. <br/><br/>One of Shatakshi Sharma's masterclasses introduced this idea. Whenever you walk into a boardroom, interview, or decision-making space, believe that you belong there. The moment you do, you stop trying to fit in and start contributing with confidence. <br/><br/> GGI taught me that consulting is less about finding the right answer and more about developing the right approach. Once your thinking is structured, the solution follows. I apply this every day in my work."
+    },
+    
+    
   
   {
     name: 'Hattie Minglin Ren',

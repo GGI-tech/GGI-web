@@ -105,6 +105,18 @@ export const stages = [
 ]
 
 export const testimonialMBA = [
+    {
+    name: 'Hardik Das',
+    org: '<b>GGI Campus Fellowship 2026 <br/>PayPal</b>',
+    image: '/hardikdas.jpg',
+    review: "A graduate from IIIT Naya Raipur, Hardik is a <span class='font-bold'>Machine Learning Engineer at PayPal in Bengaluru</span>, where he builds machine learning products focused on enterprise fraud and anomaly detection<br/><br/>Beyond his professional role, Hardik advises three family-run businesses across real estate, dairy, and apparel retail, bringing his technology and analytical expertise to help them navigate growth and operational challenges.<br/><br/>As a Campus Fellow at GGI, Hardik hopes to further develop this perspective and eventually help other founders translate technology and structured thinking into practical, sustainable growth."
+  },
+   {
+    name: 'Kritika Bhola',
+    org: '<b>GGI Campus Fellowship 2026 <br/>Christ University, Bangalore</b>',
+    image: '/kritikabhola.png',
+    review: "Kritika Bhola is a third-year student pursuing <span class='font-bold'>Finance and International Business at Christ University, Bangalore</span>. As a university-level student council member, she actively contributes to student leadership, campus engagement, and event management initiatives. Over the years, she has represented her institution in various competitions, led and supported academic and extracurricular events, and worked closely with diverse student communities.<br/><br/>Through the GGI Campus Fellowship, Kritika aims to further develop her leadership capabilities, expand her perspective on impact-driven problem-solving, and collaborate with changemakers from across disciplines. Her long-term vision is to leverage business and innovation to create opportunities that empower young people, bridge gaps in education and mentorship, and build sustainable solutions that generate lasting social impact."
+  },
       {
     name: 'Aditya Bansal',
     org: '<b>Bain &amp; Company</b>',

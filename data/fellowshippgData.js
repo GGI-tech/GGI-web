@@ -110,6 +110,54 @@ export const stages = [
 
 export const testimonialFellow = [
     {
+    name: 'Siffat Singh',
+    org: 'GGI Fellow, 2026<br> Deloitte USI',
+    image: '/siffat.jpg',
+    review: "Siffat entered the corporate ecosystem early, interning during her undergraduate years at Delhi University before transitioning into a full-time role. <br/><br/>She now brings over two years of experience at Deloitte USI, where she has worked across global audit engagements, developing the ability to ask precise questions, identify risks, and bring clarity to complex systems operating under pressure.<br/><br/>She now brings over two years of experience at <span class='font-bold'>Deloitte USI</span>, where she has worked across global audit engagements, developing the ability to ask precise questions, identify risks, and bring clarity to complex systems operating under pressure.<br/><br/>Through the GGI Impact Fellowship 2026, Siffat aims to deepen her structured problem-solving skills and pivot into management consulting, contributing to systems that work better for the people within them. "
+  },
+  {
+    name: 'Archana Walia',
+    org: 'GGI Fellow 2026<br> Hansraj College, Delhi University<br> Bharti Airtel Limited',
+    image: '/archanawalia.jpg',
+    review: "Shaped by stories, first in literature, at <span class='font-bold'>Hansraj College, then through lived experiences, and eventually at Bharti Airtel Limited</span>, Archana Walia has always been deeply curious about people and the systems they navigate. Drawn to patterns, and the narratives that quietly shape organizations, she brings a reflective and systems-oriented lens to professional spaces. <br/><br/>Outside of work, regular workout routines help her stay focused, disciplined, and grounded.<br/><br/>With a long-term vision of advancing social mobility at scale, Archana aspires to work on issues that reduce structural barriers limiting access to education and opportunity. Policy consulting stands out as the ideal pathway where rigorous thinking, institutional insight, and strong execution can translate intent into meaningful, lasting change."
+  },
+  {
+    name: 'Urja Joshi',
+    org: 'GGI Fellow 2026<br> Corporate Lawyer, M&A, PE/VC',
+    image: '/urjajoshi.jpg',
+    review: "Urja Joshi is a corporate lawyer based in Mumbai, advising on <span class='font-bold'>Private Equity, Venture Capital, and M&A transactions</span>. Her work sits at the intersection of law and business, where she enjoys navigating complex commercial challenges and making legal concepts more accessible through her writing. Guided by curiosity, intellectual rigor, and a strong bias for action, Urja is driven by the belief that law is not merely about managing risk but about enabling meaningful growth and innovation.<br/><br/>Beyond her professional work, Urja enjoys long-distance running and trekking, pursuits that reflect her willingness to embrace challenges and continuously push beyond her comfort zone.<br/><br/>Looking ahead, she aspires to work at the intersection of law, business, and public policy, contributing to institutions that are resilient, purpose-driven, and built to create lasting impact."
+  },
+  {
+    name: 'Amarpreet Kaur Chawla',
+    org: 'GGI Fellow 2026<br> Policy Manager, PwC',
+    image: '/amarpreet.png',
+    review: "Amarpreet works at the intersection of public policy, and institutional reform, bringing over a decade of experience across policy advocacy, brand building, and strategic communications. She has led policy engagement with key central ministries and regulators, including the Ministry Of Consumer Affairs, Food And Public Distribution Affairs, Ministry of Health, Ministry of Food Processing Industries, and FSSAI, along with multiple state departments. Earlier, she also contributed to stakeholder engagement efforts around <span class='font-bold'>India’s B20 Summit while working with the Confederation of Indian Industry (CII).</span><br/><br/>Through the GGI Impact Fellowship, she aspires to strengthen institutional and policy ecosystems, contributing to the design of more inclusive, resilient, and responsive systems that translate policy intent into tangible, on-ground impact."
+  },
+  {
+    name: 'Vidushi Singh',
+    org: 'GGI Fellowship 2026<br> Deloitte USI, Carelon Global Solutions',
+    image: '/vidushisingh.jpg',
+    review: "Vidushi is a <span class='font-bold'>Reporting Analyst at Deloitte USI</span>, where she works on building analytics-driven solutions that enable stronger workforce decision-making. She graduated in Electrical Engineering from Punjab Engineering College and has been actively involved in leadership, cultural activities, and sports—reflecting a well-rounded and driven personality beyond academics. <br/><br/>Through the GGI Impact Fellowship, she looks forward to sharpening her problem-solving toolkit while engaging with a global community of individuals working across diverse, high-impact domains. In the long term, she aspires to build solutions that improve access, efficiency, and decision-making in systems that impact people at scale—creating meaningful and lasting change. "
+  },
+  {
+    name: 'Arushi Singh',
+    org: 'GGI Fellowship 2026<br> INSEAD MIM',
+    image: '/arushisingh.jpg',
+    review: "With a background in marketing, her work lies across organizations such as<span class='font-bold'> Tata Robbins Fraser and KP Associates</span>. Her experience spans procurement, marketing, and brand strategy, giving her a cross-functional understanding of how businesses operate across diverse sectors. <br/><br/>Beyond her professional work, Arushi engages actively in creative and community-driven pursuits. As a dancer, designer, and volunteer, she brings a multidimensional perspective to problem-solving and believes in applying her skills toward creating meaningful, real-world impact. <br/><br/>Ahead, Arushi aims to build a career at the intersection of strategy and impact. In the near term, she is focused on developing strong consulting capabilities and securing a role at a leading firm, with an interest in working across industries and geographies, particularly in the UAE."
+  },
+  {
+    name: 'Nikita Tank',
+    org: 'GGI Fellowship 2026<br>IIM Ahmedabad, CEEW',
+    image: '/nikita_tank.jpg',
+    review: "Originally from Gujarat, Nikita is currently serving as a <span class='font-bold'>Chief Minister’s Fellow with the Government of Gujarat</span>, supporting the Gujarat Administrative Reforms Commission in advancing administrative and governance reforms in the state. <br/><br/> With nearly a decade of experience in public policy research, programme management, and academia, Nikita’s work spans agri-food systems, climate resilience, and gender-responsive policy design. She has worked with institutions such as the Council on Energy, Environment and Water (CEEW) and Water and the Indian Institute of Management Ahmedabad, leading multi-state research initiatives, managing large datasets, engaging donor agencies, and presenting evidence at national and international platforms. <br/><br/>Through the GGI Impact Fellowship, she aims to deepen her strategic leadership capabilities, engage with a global community of reform-oriented practitioners, and sharpen her ability to drive high-impact governance transformations at scale."
+  },
+  {
+    name: 'Sumith Gorityala',
+    org: 'GGI Fellowship 2026<br>Cleveland State University',
+    image: '/sumith.png',
+    review: "As a product manager building at the intersection of AI, trade policy, and sustainability, Sumith is currently developing <span class='font-bold'>CBAMbridge, an agentic AI platform</span> focused on automating EU carbon border compliance and simplifying emissions reporting workflows for global exporters. <br/><br/>. Beyond his professional work, Sumith is deeply interested in the role of AI in solving large-scale regulatory and sustainability challenges. His work is driven by the belief that technology can make complex global systems more accessible and efficient, particularly for smaller exporters adapting to evolving carbon accountability frameworks. <br/><br/>Through GGI, Sumith seeks to deepen his understanding of policy and strategy while collaborating with peers committed to building scalable solutions for global impact."
+  },
+    {
     name: 'Gaurav Sachdeva',
     org: 'GGI Fellow, 2025<br> MBA & Public Policy at IIM Udaipur',
     image: '/gaurav_sachdeva.png',
