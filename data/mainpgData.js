@@ -71,6 +71,12 @@ export const stages = [
 
 export const testimonialMainFellows = [
   {
+    name: 'Carolina Rota',
+    org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship</u> <br><i>To</i> <br><span class="font-bold">Oxford DPhil</span>',
+    image: '/carolina.jpg',
+    review: "Carolina is a postgraduate student at the <span class='font-bold'>University of Oxford specializing in Development Studies</span>. After her experiences as a <span class='font-bold'>Research Assistant at Sciences Po (Paris), Visiting Researcher at FAO (UN, Mexico) and Data Analyst at Pratham Education Foundation</span>, she has now developed an interest in policy consulting. <br/><br/>Her experience as a GGI Fellow has represented an invaluable opportunity to explore a new field while being continously inspired by fellows, invited speakers and GGI founders to thrive for change.  <br/><br/>In the next six months, Carolina wishes to consolidate her skills in problem-solving, participate in new initiatives and gather relevant experience for future job positions. As a firm believer in empathy in all spheres of life, small manifestations of humanity make her smile. <br/><br/> In her free time, Carolina enjoys exploring alternative ways of learning: she speaks five languages, loves to go for long walks and would never stop conversing with others."
+  },
+  {
     name: 'Darshita Devnani',
     org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship 2021, Delhi University</u> <br><i>To</i> <br><b>Asian Development Bank (ADB), INSEAD MBA</b>',
     image: '/darshita2.jpg',
@@ -238,6 +244,12 @@ export const testimonialMainFellows = [
 ];
 
 export const testimonialMain = [
+  {
+    name: 'Carolina Rota',
+    org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship</u> <br><i>To</i> <br><span class="font-bold">Oxford DPhil</span>',
+    image: '/carolina.jpg',
+    review: "Carolina is a postgraduate student at the <span class='font-bold'>University of Oxford specializing in Development Studies</span>. After her experiences as a <span class='font-bold'>Research Assistant at Sciences Po (Paris), Visiting Researcher at FAO (UN, Mexico) and Data Analyst at Pratham Education Foundation</span>, she has now developed an interest in policy consulting. <br/><br/>Her experience as a GGI Fellow has represented an invaluable opportunity to explore a new field while being continously inspired by fellows, invited speakers and GGI founders to thrive for change.  <br/><br/>In the next six months, Carolina wishes to consolidate her skills in problem-solving, participate in new initiatives and gather relevant experience for future job positions. As a firm believer in empathy in all spheres of life, small manifestations of humanity make her smile. <br/><br/> In her free time, Carolina enjoys exploring alternative ways of learning: she speaks five languages, loves to go for long walks and would never stop conversing with others."
+  },
   {
     name: 'Darshita Devnani',
     org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship 2021, Delhi University</u> <br><i>To</i> <br><b>Asian Development Bank (ADB), INSEAD MBA</b>',

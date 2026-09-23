@@ -8,6 +8,7 @@ import SlidingHero from '../global/SlidingHero'
 // import { FaLinkedin } from 'react-icons/fa'
 // import Container from '../global/Container'
 const data1 = [
+    
     {
         "id": 345,
         "title": "Darshita Devnani",
@@ -89,6 +90,14 @@ const data1 = [
     The instructors will share a lot of lessons. <br>
 
     Because the program has been built with a lot of trust, rigor and processes by the founders and mentors.`
+    },
+    {
+        "id": 345000,
+        "title": "Carolina Rota",
+        "url": "hhttps://www.linkedin.com/in/carolina-rota-363156161/",
+        org : '<span class="text-red-700"><i>From </i><br><u>GGI Fellowship</u> <br><i>To</i> <br><span class="font-bold">Oxford DPhil</span>',
+        "img": "/carolina.jpg",
+        "text": "Carolina is a postgraduate student at the University of Oxford specializing in Development Studies. After her experiences as a Research Assistant at Sciences Po (Paris), Visiting Researcher at FAO (UN, Mexico) and Data Analyst at Pratham Education Foundation, she has now developed an interest in policy consulting. <br/><br/>Her experience as a GGI Fellow has represented an invaluable opportunity to explore a new field while being continously inspired by fellows, invited speakers and GGI founders to thrive for change.  <br/><br/>In the next six months, Carolina wishes to consolidate her skills in problem-solving, participate in new initiatives and gather relevant experience for future job positions. As a firm believer in empathy in all spheres of life, small manifestations of humanity make her smile. <br/><br/> In her free time, Carolina enjoys exploring alternative ways of learning: she speaks five languages, loves to go for long walks and would never stop conversing with others."
     },
     {
         "id": 4,
