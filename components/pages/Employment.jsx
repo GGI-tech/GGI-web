@@ -182,7 +182,7 @@ const data1 = [
         "id": 888,
         "title": "Bhumika Nebhnani",
         "url": "https://www.linkedin.com/in/bhumika-nebhnani-161419178/",
-        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow, Delhi University, UPSC Aspirant</u><br><i>To</i> <br><span class="font-bold">AI Governance (CSET & MDI), Georgetown MPP (AI Policy)</span>',
+        org: '<span class="text-red-700"><i>From </i><br><u>GGI Fellow, Delhi University</u><br><i>To</i> <br><span class="font-bold">AI Governance (CSET & MDI), Georgetown MPP (AI Policy)</span>',
         "img": "/bhumika.jpg",
         "text": "I found out about GGI after my undergraduate studies, when I was trying to find more ways to apply my political science knowledge to something more emerging and more relevant in the world, instead of just going into academia.<br><br> My experience with GGI was great in the sense that it exposed me to the different kinds of opportunities that exist. One thing that was very memorable for me was the white paper I worked on. The topic that my teammates decided to choose was: AI and the accountability conundrum. <br><br> There are 2 key takeaways. First, on the procedural or work side: you really have to give your inputs and strategically try to see how they align with the career path you choose. Second, on the behavioral side: do not hesitate to ask questions."
     },
