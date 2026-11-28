@@ -48,12 +48,12 @@ const Navbar = ({applicationbanner}) => {
       className='border-gray-200 shadow-black/5 shadow-lg fixed left-0 top-0 w-full z-10'
     >
       {/* top banner */}
-      {/* {applicationbanner && secondarynavbar && <div className='w-100 hero'>
+      {applicationbanner && secondarynavbar && <div className='w-100 hero'>
         <p className='flex flex-wrap justify-center p-1 font-black text-lg lg:text-2xl text-white '>APPLICATION FOR NEXT COHORT NOW OPEN &nbsp;
           <a href='https://docs.google.com/forms/d/e/1FAIpQLSc0EdeZhxI2OeI5mh8HSUl4ScxHJ56XmvW48bcVzEA2MzZwTw/viewform' target="_blank" rel="noopener noreferrer" className='text-center mt-1 sm:text-base lg:text-2xl px-5 bg-white text-black hover:text-white hover:bg-black font-bold '>APPLY NOW</a></p>
-      </div>} */}
+      </div>}
 {/* top banner: Winter Cohort */}
-{applicationbanner && secondarynavbar && (
+{/* {applicationbanner && secondarynavbar && (
   <div className='w-full' style={{ backgroundColor: '#C1110D' }}>
     <div className='flex flex-wrap items-center justify-center gap-x-3 lg:gap-x-5 gap-y-1 px-3 py-1.5 text-center text-white'>
       <p className='font-bold text-sm lg:text-xl tracking-wide'>
@@ -76,7 +76,7 @@ const Navbar = ({applicationbanner}) => {
       </a>
     </div>
   </div>
-)}
+)} */}
 
       <div className='sm:mx-12 m-auto flex justify-between gap-2 items-center text-white pr-5 lg:pr-10 py-2'>
         <div className='mx-auto sm:ml-12 pt-2'>
